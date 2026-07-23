@@ -38,6 +38,11 @@ BQ_TABLES = {
     "dim_regions": {},
     "dim_domaines": {},
     "dim_sources": {},
+    "previsions": {
+        "partition_field": "date",
+        "partition_type": "DATE",
+        "cluster_fields": ["code_indicateur"],
+    },
 }
 
 
