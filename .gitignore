@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data (raw files are tracked, large files excluded)
+data/raw/**/*.xlsx
+data/raw/**/*.xls
+data/raw/**/*.csv
+data/raw/**/*.pdf
+data/raw/**/*.xml
+data/curated/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Prophet / STAN
+*.csv.stan
+*.csv.metadata
+
+# Environment
+.env
+*.env
