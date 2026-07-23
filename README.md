@@ -286,6 +286,6 @@ Code : MIT
 
 ## Auteurs
 
-**Youssef Amarzou** — [LinkedIn](https://linkedin.com/in/youssef-amarzou) | [GitLab](https://gitlab.com/Youssef-AMARZOU)
+**Youssef Amarzou** — [LinkedIn](https://www.linkedin.com/in/youssef-amarzou-8b18413a7/) | [GitLab](https://gitlab.com/Youssef-AMARZOU)
 
 Projet de recherche : Observatoire Prdictif Multi-Domaines du Maroc
