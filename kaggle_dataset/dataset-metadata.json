@@ -1,9 +1,56 @@
 {
   "title": "Donnees Economiques Maroc - RASD-Maroc",
   "id": "amarzouyoussef/economie-maroc-rasd",
+  "subtitle": "243K observations economiques du Maroc 2000-2025 (PIB, IPC, Emploi)",
+  "description": "Dataset collecte automatiquement depuis 5 sources officielles marocaines: HCP (Haut-Commissariat au Plan), BKAM (Bank Al-Maghrib), Finances Publiques, Datagov.ma, Office des Changes.\n\nContient 243,535 observations de 11 indicateurs economiques sur la periode 2000-2025:\n- PIB trimestriel (volume rectifie)\n- IPC (Indice des Prix a la Consommation)\n- Taux d'emploi\n- Dette publique\n- Investissement public\n- Deficit budgetaire\n- OPCVM (marche financier)\n- Taux de change USD/MAD\n- Exportations\n- Indicateur HCP generique\n- PIB annuel\n\nChaque observation inclut: date, valeur, unite, source, fiabilite, version de serie.\nPrevisions naive-tendance 12 mois integrees dans le notebook d'analyse.",
   "licenses": [
     {
       "name": "CC-BY-4.0"
     }
-  ]
+  ],
+  "tags": [
+    "economics",
+    "morocco",
+    "macroeconomics",
+    "time-series",
+    "forecasting",
+    "gdp",
+    "inflation",
+    "employment",
+    "public-debt",
+    "hcp",
+    "bank-al-maghrib",
+    "open-data"
+  ],
+  "resources": [
+    {
+      "path": "economie_maroc.parquet",
+      "description": "Dataset complet en Parquet (803 KB) - 243,535 lignes, 13 colonnes"
+    },
+    {
+      "path": "by_source/hcp.csv",
+      "description": "Donnees HCP (Haut-Commissariat au Plan) - 28,254 observations"
+    },
+    {
+      "path": "by_source/bam.csv",
+      "description": "Donnees BKAM (Bank Al-Maghrib) - 13,500 observations"
+    },
+    {
+      "path": "by_source/fin.csv",
+      "description": "Donnees Finances Publiques - 20,998 observations"
+    },
+    {
+      "path": "by_source/datagov.csv",
+      "description": "Donnees Datagov.ma (open data) - 179,477 observations"
+    },
+    {
+      "path": "by_source/oc.csv",
+      "description": "Donnees Office des Changes - 1,306 observations"
+    }
+  ],
+  "temporal_coverage": {
+    "start": "2000-01-01",
+    "end": "2025-01-01"
+  },
+  "geospatial_coverage": "Maroc (national)"
 }
