@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "periode": "2025–2026",
+    "date_generation": "2026-07-23",
+    "source": "Module ECONOMIE RASD-Maroc (donnees simulees calibrees sur HCP/BAM)",
+    "nb_indicateurs": 8,
+    "version_pipeline": "1.0"
+  },
+  "indicateurs": [
+    {
+      "code": "pib",
+      "label": "Croissance du PIB (T/T-4)",
+      "value": 2.34,
+      "unit": "%",
+      "delta": -0.90,
+      "delta_unit": "pt",
+      "quality": "standard",
+      "interpretation": "Ralentissement par rapport a 2025 mais croissance toujours positive."
+    },
+    {
+      "code": "inflation",
+      "label": "Inflation IPC (glissement annuel)",
+      "value": 0.90,
+      "unit": "%",
+      "delta": -0.93,
+      "delta_unit": "pt",
+      "quality": "standard",
+      "interpretation": "Retour sous la moyenne historique apres la hausse des annees precedentes."
+    },
+    {
+      "code": "chomage",
+      "label": "Taux de chomage",
+      "value": 7.96,
+      "unit": "%",
+      "delta": 0.01,
+      "delta_unit": "pt",
+      "quality": "standard",
+      "interpretation": "Stabilite, sans amelioration notable du marche du travail."
+    },
+    {
+      "code": "taux_directeur",
+      "label": "Taux directeur BAM",
+      "value": 2.88,
+      "unit": "%",
+      "delta": -0.38,
+      "delta_unit": "pt",
+      "quality": "standard",
+      "interpretation": "Poursuite du cycle d'assouplissement monetaire amorce lors du trimestre precedent."
+    },
+    {
+      "code": "dette_pib",
+      "label": "Dette publique / PIB",
+      "value": 78.61,
+      "unit": "%PIB",
+      "delta": 2.79,
+      "delta_unit": "pt",
+      "quality": "standard",
+      "interpretation": "Hausse continue ; le deficit primaire et l'ecart taux/croissance restent les facteurs mecaniques sous-jacents."
+    },
+    {
+      "code": "reserves_change",
+      "label": "Reserves de change (mois d'importation)",
+      "value": 2.46,
+      "unit": "mois",
+      "delta": -0.07,
+      "delta_unit": "mois",
+      "quality": "standard",
+      "interpretation": "Niveau quasi stable en variation annualisee."
+    },
+    {
+      "code": "ide",
+      "label": "Flux d'IDE",
+      "value": 32.42,
+      "unit": "MM MAD",
+      "delta": -4.99,
+      "delta_unit": "MM MAD",
+      "quality": "standard",
+      "interpretation": "Recul de 13,3 % sur un an."
+    },
+    {
+      "code": "deficit",
+      "label": "Deficit budgetaire",
+      "value": -2.85,
+      "unit": "%PIB",
+      "delta": 0.60,
+      "delta_unit": "pt",
+      "quality": "standard",
+      "interpretation": "Reduction du deficit de 0,60 point par rapport a 2025."
+    }
+  ]
+}

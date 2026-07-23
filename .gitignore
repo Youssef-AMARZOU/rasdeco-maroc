@@ -45,3 +45,8 @@ Thumbs.db
 # Environment
 .env
 *.env
+
+# Generated reports
+synthese.md
+rapport.md
+report_*.md
