@@ -204,6 +204,8 @@ class SourceParser(ABC):
     def source_code(self) -> str:
         """Code court identifiant la source (HCP, BAM, FIN...)."""
 
+    _SKIP_NAMES = frozenset({"meta.json", "collect.log", "pipeline_report.json"})
+
     def list_files(self) -> list[Path]:
         """Liste les fichiers dans data/raw/economie/<source>/, recursivement."""
         if not self.source_dir.exists():
@@ -211,7 +213,9 @@ class SourceParser(ABC):
             return []
         files = []
         for ext in ("*.xlsx", "*.xls", "*.csv", "*.json", "*.xml"):
-            files.extend(self.source_dir.rglob(ext))
+            for f in self.source_dir.rglob(ext):
+                if f.name.lower() not in self._SKIP_NAMES:
+                    files.append(f)
         return sorted(files)
 
     def parse_all(self) -> pl.DataFrame:

@@ -56,20 +56,20 @@ class HCParser(SourceParser):
     # XLSX (format principal des donnees HCP)
     # ------------------------------------------------------------------
     def _parse_xlsx(self, fpath: Path, rel: str) -> ParsedFile:
+        version = detect_version_serie(str(fpath))
+
         # Essai 1 : format cross-table HCP (tableau croise avec dates en colonnes)
         try:
             tidy = parse_cross_table_xlsx(fpath)
-            if tidy is not None:
-                code = detect_code_indicateur(str(fpath)) or "PIB.TRIM.VOL"
-                version = detect_version_serie(str(fpath))
-                meta = INDICATOR_CODES.get(code, {})
+            if tidy is not None and len(tidy) > 0:
+                # Le cross-table parser fournit deja code_indicateur et unite
                 rows = []
                 for row in tidy.iter_rows(named=True):
                     rows.append(self._make_row(
                         date_label=str(row["date"]),
                         valeur=row["valeur"],
-                        code_indicateur=code,
-                        unite=meta.get("unite", "?"),
+                        code_indicateur=row.get("code_indicateur", "INDICATEUR.HCP.GENERIQUE"),
+                        unite=row.get("unite", "%"),
                         region_code="MA00",
                         fichier=rel,
                         version_serie=version,
@@ -81,11 +81,20 @@ class HCParser(SourceParser):
 
         # Essai 2 : lecture brute Polars (format standard tidy)
         try:
-            sheets = {}
-            for sheet_name in self._get_sheet_names(fpath):
-                sheets[sheet_name] = pl.read_excel(fpath, sheet_name=sheet_name)
+            import logging as _log
+            _polars_logger = _log.getLogger("polars")
+            _old_level = _polars_logger.level
+            _polars_logger.setLevel(_log.WARNING)
+            try:
+                sheets = {}
+                for sheet_name in self._get_sheet_names(fpath):
+                    sheets[sheet_name] = pl.read_excel(fpath, sheet_name=sheet_name)
+            except Exception:
+                sheets = {"Sheet1": pl.read_excel(fpath)}
+            finally:
+                _polars_logger.setLevel(_old_level)
         except Exception:
-            sheets = {"Sheet1": pl.read_excel(fpath)}
+            sheets = {}
 
         code_candidate = detect_code_indicateur(str(fpath))
         version = detect_version_serie(str(fpath))

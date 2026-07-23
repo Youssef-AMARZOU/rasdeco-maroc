@@ -21,6 +21,7 @@ from .base import (
     detect_code_indicateur,
     detect_version_serie,
 )
+from .smart_xls import detect_format as _smart_detect
 
 
 class DatagovParser(SourceParser):
@@ -60,12 +61,55 @@ class DatagovParser(SourceParser):
         code = detect_code_indicateur(rel)
         version = detect_version_serie(rel)
 
+        # For .xls files, use smart_xls to avoid dtype warnings
+        ext = fpath.suffix.lower()
+        if ext == ".xls":
+            try:
+                from .smart_xls import read_all_sheets
+                sheets = read_all_sheets(fpath)
+                for sheet_name, df_pd, meta in sheets:
+                    if df_pd.empty:
+                        continue
+                    df = pl.from_pandas(df_pd)
+                    rows.extend(self._extract_generic(df, rel, code, version))
+                    if rows:
+                        break
+                if rows:
+                    return ParsedFile(rel, lignes=pl.DataFrame(rows))
+            except Exception:
+                pass
+
+        # For .xlsx files, try cross-table first, then standard
+        from .utils_xls import parse_cross_table_xlsx
+        try:
+            tidy = parse_cross_table_xlsx(fpath)
+            if tidy is not None and len(tidy) > 0:
+                ind_code = code or detect_code_indicateur(rel) or "PIB.TRIM.VOL"
+                for row in tidy.iter_rows(named=True):
+                    rows.append(self._make_row(
+                        date_label=str(row["date"]),
+                        valeur=row["valeur"],
+                        code_indicateur=ind_code,
+                        fichier=rel,
+                        version_serie=version,
+                    ))
+                if rows:
+                    return ParsedFile(rel, lignes=pl.DataFrame(rows))
+        except Exception:
+            pass
+
+        # Standard Polars read
         try:
             import openpyxl
             wb = openpyxl.load_workbook(fpath, read_only=True, data_only=True)
             sheet_names = wb.sheetnames
         except Exception:
             sheet_names = ["Sheet1"]
+
+        import logging as _log
+        _polars_logger = _log.getLogger("polars")
+        _old_level = _polars_logger.level
+        _polars_logger.setLevel(_log.WARNING)
 
         for sheet in sheet_names:
             try:
@@ -77,6 +121,8 @@ class DatagovParser(SourceParser):
             rows.extend(self._extract_generic(df, rel, code, version))
             if rows:
                 break
+
+        _polars_logger.setLevel(_old_level)
 
         if not rows:
             return ParsedFile(rel, erreur="Aucune serie extraite")
