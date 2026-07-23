@@ -11,6 +11,7 @@ Fournit :
 import json
 import logging
 import os
+import socket
 import sys
 import time
 from datetime import datetime, timezone
@@ -21,6 +22,9 @@ from urllib.parse import unquote, urlparse
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+# Hotes a ignorer (ne resolvent pas le DNS)
+HOSTS_IGNORES = frozenset({"datagovma.webhi.net"})
 
 # ---------------------------------------------------------------------------
 # Racine du projet (un niveau au-dessus de economie/)
@@ -78,8 +82,14 @@ def download_file(
     Gère les fichiers existants (skip si déjà présent).
     """
     if dest_path.exists() and dest_path.stat().st_size > 0:
-        logger.info("SKIP (déjà présent) : %s", dest_path.name)
+        logger.info("SKIP (deja present) : %s", dest_path.name)
         return True
+
+    # Verification rapide DNS pour les hotes connus comme morts
+    host = urlparse(url).hostname
+    if host in HOSTS_IGNORES:
+        logger.warning("HOTE ignore (ne repond pas) : %s", host)
+        return False
 
     try:
         dest_path.parent.mkdir(parents=True, exist_ok=True)
@@ -92,7 +102,7 @@ def download_file(
         logger.info("OK (%.1f KB) : %s", size_kb, dest_path.name)
         return True
     except requests.RequestException as exc:
-        logger.error("ÉCHEC téléchargement %s → %s", url, exc)
+        logger.error("ECHEC telechargement %s -> %s", url, exc)
         if dest_path.exists():
             dest_path.unlink()
         return False

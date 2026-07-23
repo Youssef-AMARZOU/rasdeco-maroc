@@ -1,0 +1,41 @@
+{
+  "date_run": "2026-07-23T19:13:27.526107+00:00",
+  "force": false,
+  "sources": {
+    "hcp": {
+      "success": true,
+      "skipped": false,
+      "count": 40,
+      "duration_s": 1.0
+    },
+    "bkam": {
+      "success": true,
+      "skipped": false,
+      "count": 2,
+      "duration_s": 1.0
+    },
+    "finances": {
+      "success": true,
+      "skipped": false,
+      "count": 25,
+      "duration_s": 2.8
+    },
+    "office_des_changes": {
+      "success": true,
+      "skipped": false,
+      "count": 5,
+      "duration_s": 23.1
+    },
+    "datagov": {
+      "success": true,
+      "skipped": false,
+      "count": 389,
+      "duration_s": 30.8
+    }
+  },
+  "totals": {
+    "files": 461,
+    "errors": 0,
+    "skipped": 0
+  }
+}

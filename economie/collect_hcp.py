@@ -3,9 +3,9 @@ collect_hcp.py — Collecte des données du Haut-Commissariat au Plan (HCP)
 
 Sources :
   1. API CKAN data.gov.ma (organisme "haut-commissariat-au-plan")
-     → PIB, IPC, chômage, comptes nationaux
+     -> PIB, IPC, chômage, comptes nationaux
   2. BDS hcp.ma (Base de Données Statistiques)
-     → scraping HTML (sélecteurs CSS, fragile)
+     -> scraping HTML (sélecteurs CSS, fragile)
 
 Usage :
     python collect_hcp.py
@@ -84,7 +84,7 @@ def collect_ckan() -> list[dict]:
             continue
 
         results = data.get("result", {}).get("results", [])
-        logger.info("  → %d jeux trouvés pour '%s'", len(results), q)
+        logger.info("  -> %d jeux trouvés pour '%s'", len(results), q)
 
         for pkg in results:
             pkg_name = pkg.get("name", "unknown")
@@ -136,7 +136,7 @@ def collect_ckan() -> list[dict]:
 
 BDS_BASE = "https://bds.hcp.ma"
 
-# Pages ciblées du BDS (mots-clés → URLs relatives)
+# Pages ciblées du BDS (mots-clés -> URLs relatives)
 BDS_PAGES = {
     "pib": "/bds/Theme/Tableau.aspx?theme=614",
     "ipc": "/bds/Theme/Tableau.aspx?theme=212",
@@ -201,7 +201,7 @@ def scraping_bds_fragile() -> list[dict]:
         for tag in soup.find_all(attrs={"data-href": True}):
             download_links.add(tag["data-href"])
 
-        logger.info("  → %d liens de téléchargement trouvés pour '%s'", len(download_links), key)
+        logger.info("  -> %d liens de téléchargement trouvés pour '%s'", len(download_links), key)
 
         for url in download_links:
             fname = filename_from_url(url)
@@ -253,7 +253,7 @@ def main():
             "portail_ckan": "https://www.data.gov.ma/data/fr/organization/haut-commissariat-au-plan",
         },
     )
-    logger.info("meta.json écrit → %s", meta_path)
+    logger.info("meta.json écrit -> %s", meta_path)
     logger.info("FIN COLLECTE HCP — %d fichiers téléchargés", len(all_downloads))
 
     return all_downloads

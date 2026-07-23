@@ -1,0 +1,187 @@
+{
+  "source": "Ministère de l'Économie et des Finances",
+  "date_recuperation": "2026-07-23T19:12:33.618373+00:00",
+  "organisme": "Ministère de l'Économie et des Finances",
+  "periodicite": "Annuelle",
+  "granularite_geographique": "Nationale",
+  "date_debut_reelle_donnees": "2000",
+  "jeux_telecharges": [
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/93725819-3662-4543-b1c6-13fcdb6b903c/resource/23b367a0-4dd6-4844-b69e-4c197ceb781a/download/repartition-des-depenses-du-budget-general-par-administration-2010-mef.xls",
+      "format": "XLS",
+      "description": "Budget de l'État — Répartition des dépenses du budget général de l'Etat par administration et par type de dépense 2010",
+      "ckan_package": "repartition-des-depenses-du-budget-general-par-administration-2010",
+      "fichier": "finances\\2010\\repartition-des-depenses-du-budget-general-par-administration-2010-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/b60e53f7-9e8d-4b08-b33d-d0efd03c72d0/resource/e51dba97-0f53-4329-9e96-1abc85fac879/download/repartition-des-depenses-du-budget-general-par-region-2010-mef.xls",
+      "format": "XLS",
+      "description": "Budget de l'État — Répartition des dépenses du budget général de l'Etat par région et par type de dépense Ministère de l'Economie et des Finances 2010",
+      "ckan_package": "repartition-des-depenses-du-budget-general-de-l-etat-par-region-2010",
+      "fichier": "finances\\2010\\repartition-des-depenses-du-budget-general-par-region-2010-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/f7e948c3-18e6-4d55-922a-14e7e2e1a381/resource/ed13ac4a-4e81-4ee8-b951-395fc0b3dad2/download/repartition-des-depenses-du-budget-general-par-code-fonctionnel-2011-mef.xls",
+      "format": "XLS",
+      "description": "Budget de l'État — Répartition des dépenses du budget général de l'Etat par code fonctionnel  2011",
+      "ckan_package": "repartition-des-depenses-du-budget-general-de-l-etat-par-code-fonctionnel-2011",
+      "fichier": "finances\\2011\\repartition-des-depenses-du-budget-general-par-code-fonctionnel-2011-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/66de4461-447c-4d18-8fd3-9496d3823412/resource/4ab5a108-1b01-4cd3-b02c-652deeb6eb41/download/repartition-des-depenses-du-budget-general-par-code-economique-2011-mef.xls",
+      "format": "XLS",
+      "description": "Budget de l'État — Répartition des dépenses du budget général de l'Etat par code économique 2011",
+      "ckan_package": "repartition-des-depenses-du-budget-general-de-l-etat-par-code-economique-2011",
+      "fichier": "finances\\2011\\repartition-des-depenses-du-budget-general-par-code-economique-2011-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/ff096c92-232f-416d-93fe-d28c0f6d768c/resource/d72061a1-cee5-4b7b-9a17-fd056e57b935/download/budget-d-etat-mef-2012-2013.xls",
+      "format": "XLS",
+      "description": "Budget de l'État — Budget de l'Etat 2012, 2013",
+      "ckan_package": "budget-de-l-etat-des-annees-2012-et-2013",
+      "fichier": "finances\\2012\\budget-d-etat-mef-2012-2013.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/8f894be4-51a2-4b2f-9df6-e5d2eb4a01ea/resource/193ed636-c196-4fc8-8fff-20a019d7847b/download/repartition-des-depenses-du-budget-general-par-region-2011-mef.xls",
+      "format": "XLS",
+      "description": "Budget de l'État — Répartition des dépenses du budget général de l'Etat par région et par et par type de dépenses 2011",
+      "ckan_package": "la-repartition-des-depenses-du-budget-general-par-region-2011",
+      "fichier": "finances\\2011\\repartition-des-depenses-du-budget-general-par-region-2011-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/f5db8cf8-f71b-41ef-bf72-098f626d66ec/resource/686b807d-9252-4153-8dc2-7ad5e3d4d793/download/repartition-des-depenses-du-budget-general-par-code-fonctionnel-2010-mef.xls",
+      "format": "XLS",
+      "description": "Budget de l'État — Répartition des dépenses du budget général de l'Etat par Code Fonctionnel et par type de dépense 2010",
+      "ckan_package": "repartition-des-depenses-du-budget-general-de-l-etat-par-code-fonctionnel-2010",
+      "fichier": "finances\\2010\\repartition-des-depenses-du-budget-general-par-code-fonctionnel-2010-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/570a827b-e456-40b5-bff9-ea4297fbb075/resource/03d8e497-e794-4957-9567-8999034e3e05/download/repartition-des-depenses-du-budget-general-par-administration-2011-mef.xls",
+      "format": "XLS",
+      "description": "Budget de l'État — Répartition des dépenses du Budget Général de l'Etat par Administration et par type de dépense 2011",
+      "ckan_package": "repartition-des-depenses-du-budget-general-de-l-etat-par-administration-2011",
+      "fichier": "finances\\2011\\repartition-des-depenses-du-budget-general-par-administration-2011-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/b3d727f7-586a-453a-8e71-e6200aa666fd/resource/d3168f76-27a4-4600-9d2f-a0c5a62a380b/download/repartition-des-depenses-du-budget-general-par-code-economique-2010-mef.xls",
+      "format": "XLS",
+      "description": "Budget de l'État — Répartition des dépenses du budget général de l'Etat par code économique 2010",
+      "ckan_package": "repartition-des-depenses-du-budget-general-de-l-etat-par-code-economique-2010",
+      "fichier": "finances\\2010\\repartition-des-depenses-du-budget-general-par-code-economique-2010-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/486be84e-0b0a-46da-bba7-518485311dba/resource/fff44444-b531-491a-9ca7-d4b1e1648c31/download/dette-tresor-mef-2014.xls",
+      "format": "XLS",
+      "description": "Dette publique — série trimestrielle de la dette du trésor 2013",
+      "ckan_package": "dette",
+      "fichier": "finances\\2014\\dette-tresor-mef-2014.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/486be84e-0b0a-46da-bba7-518485311dba/resource/57e2d576-b3de-4df6-aae6-9ddc00eae14c/download/dette-publique-mef-2014.xls",
+      "format": "XLS",
+      "description": "Dette publique — Série annuelle de la dette Publique 2013",
+      "ckan_package": "dette",
+      "fichier": "finances\\2014\\dette-publique-mef-2014.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/486be84e-0b0a-46da-bba7-518485311dba/resource/6ba3f21c-26cc-48b4-854d-395b7c1e1577/download/dette-du-tresor-mef-2012.xls",
+      "format": "XLS",
+      "description": "Dette publique — Dette du trésor 2012",
+      "ckan_package": "dette",
+      "fichier": "finances\\2012\\dette-du-tresor-mef-2012.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/486be84e-0b0a-46da-bba7-518485311dba/resource/573e33b7-dcd6-462e-90d5-97c570b15823/download/dette-publique-2012-mef.xls",
+      "format": "XLS",
+      "description": "Dette publique — Dette publique 2012",
+      "ckan_package": "dette",
+      "fichier": "finances\\2012\\dette-publique-2012-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/486be84e-0b0a-46da-bba7-518485311dba/resource/c56bfeec-62e2-4fc8-acbe-ccf5a7efd621/download/dette-du-tresor-2011-mef.xls",
+      "format": "XLS",
+      "description": "Dette publique — Dette du tresor 2011",
+      "ckan_package": "dette",
+      "fichier": "finances\\2011\\dette-du-tresor-2011-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/486be84e-0b0a-46da-bba7-518485311dba/resource/7ba8aff8-a02e-425c-8bf5-dc2942f63628/download/dette-exterieur-brute-2011-mef.xls",
+      "format": "XLS",
+      "description": "Dette publique — Dette extérieure brute 2011",
+      "ckan_package": "dette",
+      "fichier": "finances\\2011\\dette-exterieur-brute-2011-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/486be84e-0b0a-46da-bba7-518485311dba/resource/a5b5264e-51b5-4ee4-b8d6-66dc35f34ac5/download/dette-exterieure-brute-2006-2012-2012-mef.xls",
+      "format": "XLS",
+      "description": "Dette publique — Dette extérieure brute 2006 - 2012",
+      "ckan_package": "dette",
+      "fichier": "finances\\2006\\dette-exterieure-brute-2006-2012-2012-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/e0e62e95-7095-4cbb-9a8a-928e379f3f1a/resource/4c999a49-667a-4ce7-acab-828a670ba154/download/dette-publique-mef-2011.xls",
+      "format": "XLS",
+      "description": "Dette publique — Dette publique 2011",
+      "ckan_package": "dette-publique-2011",
+      "fichier": "finances\\2011\\dette-publique-mef-2011.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/ar/dataset/5b89f76d-3a85-4f71-b92c-ab4958ec3e6d/resource/96b3423f-9f0e-4279-9947-7d49e45e5455/download/publicdebtannualseries-2013q4-portail.xls",
+      "format": "XLS",
+      "description": "Dette publique — Dette du trésor",
+      "ckan_package": "series-annuelles-et-trimestrielles-dette-exterieur-publique-dette-exterieure-brute",
+      "fichier": "finances\\2013\\publicdebtannualseries-2013q4-portail.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/ar/dataset/5b89f76d-3a85-4f71-b92c-ab4958ec3e6d/resource/995bcff9-8d19-4319-bd29-d1b610dba085/download/grossexternaldebtquarterlyseries-q4-2013-portail.xls",
+      "format": "XLS",
+      "description": "Dette publique — Dette extérieure brute 2006-2013",
+      "ckan_package": "series-annuelles-et-trimestrielles-dette-exterieur-publique-dette-exterieure-brute",
+      "fichier": "finances\\2013\\grossexternaldebtquarterlyseries-q4-2013-portail.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/ar/dataset/5b89f76d-3a85-4f71-b92c-ab4958ec3e6d/resource/0f000be8-5238-49c5-92bc-9cd88ed705df/download/grossexternaldebtquarterlyseries-q4-2013-portail.xls",
+      "format": "XLS",
+      "description": "Dette publique — Series annuelles de dette publique",
+      "ckan_package": "series-annuelles-et-trimestrielles-dette-exterieur-publique-dette-exterieure-brute",
+      "fichier": "finances\\2013\\grossexternaldebtquarterlyseries-q4-2013-portail.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/177047af-c098-495f-9af2-c440f65ebe6b/resource/843ceea4-3ae4-465c-a9f2-9e1ec16d46d0/download/stats-economiques-financieresjuullet-mef-2013.xls",
+      "format": "XLS",
+      "description": "Dette publique — Statistiques économiques et financières 2005-2012",
+      "ckan_package": "statistiques-economiques-et-financieres",
+      "fichier": "finances\\2013\\stats-economiques-financieresjuullet-mef-2013.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/177047af-c098-495f-9af2-c440f65ebe6b/resource/16748f0a-bc96-4cfe-a59a-989b6e9c5b1e/download/stats-economiques-financieresjuillet2013-anglais.xls",
+      "format": "XLS",
+      "description": "Dette publique — Statistiques économiques et financières 2005-2012",
+      "ckan_package": "statistiques-economiques-et-financieres",
+      "fichier": "finances\\2013\\stats-economiques-financieresjuillet2013-anglais.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/177047af-c098-495f-9af2-c440f65ebe6b/resource/83834ccc-a497-4325-ae8f-5aeb8caa00cc/download/statistiques-economiques-et-financieres-mef-2014.xls",
+      "format": "XLS",
+      "description": "Dette publique — Statistiques économiques et financières 2005-2013",
+      "ckan_package": "statistiques-economiques-et-financieres",
+      "fichier": "finances\\2014\\statistiques-economiques-et-financieres-mef-2014.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/0ab5b96c-6835-4b72-9bea-2e01acc58483/resource/f8dbf80e-872d-489f-9a4a-6d073e1c90fc/download/finances-publiques-2012-mef.xls",
+      "format": "XLS",
+      "description": "Finances publiques — Finances publiques 2011",
+      "ckan_package": "finances-publiques",
+      "fichier": "finances\\2012\\finances-publiques-2012-mef.xls"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/0ab5b96c-6835-4b72-9bea-2e01acc58483/resource/bd7ee6ca-a1de-47f6-8d86-8f7723c585d3/download/finances-publiques-mef-2014.xls",
+      "format": "XLS",
+      "description": "Finances publiques — Finances publiques 2013",
+      "ckan_package": "finances-publiques",
+      "fichier": "finances\\2014\\finances-publiques-mef-2014.xls"
+    }
+  ],
+  "source_primaire": "https://www.finances.gov.ma",
+  "portail_ckan": "https://www.data.gov.ma/data/fr/organization/ministere-de-l-economie-et-des-finances"
+}

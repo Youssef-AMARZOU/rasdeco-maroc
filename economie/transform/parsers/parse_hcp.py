@@ -25,6 +25,7 @@ from .base import (
     detect_code_indicateur,
     detect_version_serie,
 )
+from .utils_xls import parse_cross_table_xlsx
 
 
 class HCParser(SourceParser):
@@ -36,6 +37,7 @@ class HCParser(SourceParser):
         return "HCP"
 
     def parse_file(self, fpath: Path) -> ParsedFile:
+        fpath = fpath.resolve()
         rel = str(fpath.relative_to(Path(__file__).resolve().parents[3] / "data" / "raw" / "economie"))
         ext = fpath.suffix.lower()
         try:
@@ -54,7 +56,30 @@ class HCParser(SourceParser):
     # XLSX (format principal des donnees HCP)
     # ------------------------------------------------------------------
     def _parse_xlsx(self, fpath: Path, rel: str) -> ParsedFile:
-        # Lecture brute de toutes les feuilles
+        # Essai 1 : format cross-table HCP (tableau croise avec dates en colonnes)
+        try:
+            tidy = parse_cross_table_xlsx(fpath)
+            if tidy is not None:
+                code = detect_code_indicateur(str(fpath)) or "PIB.TRIM.VOL"
+                version = detect_version_serie(str(fpath))
+                meta = INDICATOR_CODES.get(code, {})
+                rows = []
+                for row in tidy.iter_rows(named=True):
+                    rows.append(self._make_row(
+                        date_label=str(row["date"]),
+                        valeur=row["valeur"],
+                        code_indicateur=code,
+                        unite=meta.get("unite", "?"),
+                        region_code="MA00",
+                        fichier=rel,
+                        version_serie=version,
+                    ))
+                if rows:
+                    return ParsedFile(rel, lignes=pl.DataFrame(rows))
+        except Exception:
+            pass
+
+        # Essai 2 : lecture brute Polars (format standard tidy)
         try:
             sheets = {}
             for sheet_name in self._get_sheet_names(fpath):
@@ -73,21 +98,17 @@ class HCParser(SourceParser):
 
             cols = df.columns
 
-            # Detection du type de serie par heuristique
             series_type = self._detect_series_type(df, cols, str(fpath), sheet_name)
             indicator_code = series_type.get("code") or code_candidate
 
             if indicator_code is None:
-                # Fallback : essayer chaque colonne comme une serie temporelle
                 rows.extend(self._fallback_extract(df, rel, version))
                 continue
 
-            # Colonne date (annee, trimestre ou mois)
             date_col = self._find_date_column(df, cols)
             if date_col is None:
                 continue
 
-            # Colonnes valeurs (tout sauf la date)
             value_cols = [c for c in cols if c != date_col and df[c].dtype in (pl.Float64, pl.Int64, pl.Float32)]
 
             for vcol in value_cols:

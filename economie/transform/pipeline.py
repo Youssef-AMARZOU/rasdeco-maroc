@@ -161,7 +161,7 @@ def run_pipeline(
         pl.col("source_code").fill_null("?"),
         pl.col("region_code").fill_null("MA00"),
     )
-    print("  ✓ Types normalises")
+    print("  OK Types normalises")
 
     # -- Phase 4 : Imputation conditionnelle
     print("\n-- Phase 4 : Imputation conditionnelle --")

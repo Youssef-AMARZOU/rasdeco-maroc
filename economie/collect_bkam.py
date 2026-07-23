@@ -3,12 +3,12 @@ collect_bkam.py — Collecte des données de Bank Al-Maghrib (BAM)
 
 Sources :
   1. API CKAN data.gov.ma (organisme "bank-al-maghrib")
-     → statistiques monétaires, balance des paiements, change
+     -> statistiques monétaires, balance des paiements, change
   2. API REST officielle BAM (apihelpdesk.centralbankofmorocco.ma)
-     → Taux directeur, cours de change, adjudications
-     → Nécessite une clé API gratuite (à configurer si disponible)
+     -> Taux directeur, cours de change, adjudications
+     -> Nécessite une clé API gratuite (à configurer si disponible)
   3. Scraping HTML bkam.ma (FRAGILE)
-     → pages de statistiques monétaires si l'API n'est pas dispo
+     -> pages de statistiques monétaires si l'API n'est pas dispo
 
 Usage :
     python collect_bkam.py
@@ -80,7 +80,7 @@ def collect_ckan() -> list[dict]:
             continue
 
         results = data.get("result", {}).get("results", [])
-        logger.info("  → %d jeux trouvés", len(results))
+        logger.info("  -> %d jeux trouvés", len(results))
 
         for pkg in results:
             pkg_name = pkg.get("name", "unknown")
@@ -116,10 +116,10 @@ def collect_ckan() -> list[dict]:
 # 2. API REST officielle BAM (propre, nécessite clé API)
 # ---------------------------------------------------------------------------
 # Endpoints documentés de l'API BAM :
-#   - /api/v1/taux-directeurs    → taux directeur
-#   - /api/v1/cours-change       → cours de change
-#   - /api/v1/adjudications      → adjudications du Trésor
-#   - /api/v1/statistiques-monetaires → agrégats monétaires
+#   - /api/v1/taux-directeurs    -> taux directeur
+#   - /api/v1/cours-change       -> cours de change
+#   - /api/v1/adjudications      -> adjudications du Trésor
+#   - /api/v1/statistiques-monetaires -> agrégats monétaires
 #
 # La clé API se obtient gratuitement sur :
 #   https://apihelpdesk.centralbankofmorocco.ma/
@@ -277,7 +277,7 @@ def scraping_bkam_fragile() -> list[dict]:
             elif href.startswith("/"):
                 download_links.add(f"https://www.bkam.ma{href}")
 
-    logger.info("  → %d liens de téléchargement trouvés", len(download_links))
+    logger.info("  -> %d liens de téléchargement trouvés", len(download_links))
 
     for url in download_links:
         fname = filename_from_url(url)
@@ -333,7 +333,7 @@ def main():
             "note_api": "Clé API requise (BAM_API_KEY). Inscription gratuite sur apihelpdesk.centralbankofmorocco.ma",
         },
     )
-    logger.info("meta.json écrit → %s", meta_path)
+    logger.info("meta.json écrit -> %s", meta_path)
     logger.info("FIN COLLECTE BKAM — %d fichiers téléchargés", len(all_downloads))
 
     return all_downloads

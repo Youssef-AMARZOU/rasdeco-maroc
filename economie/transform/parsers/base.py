@@ -221,10 +221,10 @@ class SourceParser(ABC):
         for fpath in self.list_files():
             result = self.parse_file(fpath)
             if result:
-                _log(self.source_name, f"✓ {result.fichier_relatif} -> {len(result.lignes)} lignes")
+                _log(self.source_name, f"OK {result.fichier_relatif} -> {len(result.lignes)} lignes")
                 chunks.append(result.lignes)
             else:
-                _log(self.source_name, f"✗ {fpath.relative_to(RAW_ROOT)} -> {result.erreur}", "WARN")
+                _log(self.source_name, f"X {fpath.relative_to(RAW_ROOT)} -> {result.erreur}", "WARN")
 
         if not chunks:
             _log(self.source_name, "Aucune donnee parsee", "WARN")

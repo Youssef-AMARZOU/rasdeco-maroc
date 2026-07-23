@@ -1,0 +1,28 @@
+{
+  "source": "Bank Al-Maghrib (BAM)",
+  "date_recuperation": "2026-07-23T19:12:30.784343+00:00",
+  "organisme": "Bank Al-Maghrib (BAM)",
+  "periodicite": "Mensuelle / Hebdomadaire",
+  "granularite_geographique": "Nationale",
+  "date_debut_reelle_donnees": "1959",
+  "jeux_telecharges": [
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/7d8a38c1-2292-48ba-a8ae-21bdfc37bcee/resource/18a2f393-541d-4b99-8198-745852fe7202/download/25-compte-de-patrimoine-des-opcvm-autres-que-monetaires-janv-2005-sept-2023.xlsx",
+      "format": "XLSX",
+      "description": "Statistiques monétaires — 25-Compte de patrimoine des OPCVM autres que monétaires  janv 2005 - sept 2023.xlsx",
+      "ckan_package": "compte-de-patrimoine-des-opcvm-autres-que-monetaires-jan-2005-a-sept-2023",
+      "fichier": "bkam\\2005\\25-compte-de-patrimoine-des-opcvm-autres-que-monetaires-janv-2005-sept-2023.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/fr/dataset/88464a06-b38e-4504-870c-854022740add/resource/238994c0-d6c4-495b-ad13-420313926171/download/5-compte-de-patrimoine-des-opcvm-monetaires-janv-2005-sept-2023.xlsx",
+      "format": "XLSX",
+      "description": "Statistiques monétaires — 5-Compte De Patrimoine Des OPCVM monétaires janv 2005 - sept 2023.xlsx",
+      "ckan_package": "compte-de-patrimoine-des-opcvm-monetaires-jan-2005-a-sept-2023",
+      "fichier": "bkam\\2005\\5-compte-de-patrimoine-des-opcvm-monetaires-janv-2005-sept-2023.xlsx"
+    }
+  ],
+  "source_primaire": "https://www.bkam.ma",
+  "api_officielle": "https://apihelpdesk.centralbankofmorocco.ma",
+  "portail_ckan": "https://www.data.gov.ma/data/fr/organization/bank-al-maghrib",
+  "note_api": "Clé API requise (BAM_API_KEY). Inscription gratuite sur apihelpdesk.centralbankofmorocco.ma"
+}

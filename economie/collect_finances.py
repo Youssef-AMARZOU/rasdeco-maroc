@@ -3,11 +3,11 @@ collect_finances.py — Collecte des données du Ministère des Finances
 
 Sources :
   1. API CKAN data.gov.ma (organisme "ministere-de-l-economie-et-des-finances")
-     → dette publique, budget, exécution budgétaire
+     -> dette publique, budget, exécution budgétaire
   2. Téléchargements directs finances.gov.ma
-     → rapports budgétaires annuels (PDF)
+     -> rapports budgétaires annuels (PDF)
   3. Scraping HTML finances.gov.ma (FRAGILE)
-     → pages de publications / documents
+     -> pages de publications / documents
 
 Usage :
     python collect_finances.py
@@ -91,7 +91,7 @@ def collect_ckan() -> list[dict]:
             continue
 
         results = data.get("result", {}).get("results", [])
-        logger.info("  → %d jeux trouvés", len(results))
+        logger.info("  -> %d jeux trouvés", len(results))
 
         for pkg in results:
             pkg_name = pkg.get("name", "unknown")
@@ -227,7 +227,7 @@ def scraping_finances_fragile() -> list[dict]:
         for tag in soup.find_all(attrs={"data-url": True}):
             download_links.add(tag["data-url"])
 
-        logger.info("  → %d liens trouvés", len(download_links))
+        logger.info("  -> %d liens trouvés", len(download_links))
 
         for url in download_links:
             fname = filename_from_url(url)
@@ -282,7 +282,7 @@ def main():
             "portail_ckan": "https://www.data.gov.ma/data/fr/organization/ministere-de-l-economie-et-des-finances",
         },
     )
-    logger.info("meta.json écrit → %s", meta_path)
+    logger.info("meta.json écrit -> %s", meta_path)
     logger.info("FIN COLLECTE FINANCES — %d fichiers téléchargés", len(all_downloads))
 
     return all_downloads

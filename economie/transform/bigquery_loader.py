@@ -183,7 +183,7 @@ def load_table(
     )
     job.result()
 
-    print(f"[BQ] ✓ {job.output_rows} lignes chargees dans {table_id}")
+    print(f"[BQ] OK {job.output_rows} lignes chargees dans {table_id}")
     return job.output_rows
 
 

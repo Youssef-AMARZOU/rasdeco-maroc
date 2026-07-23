@@ -1,0 +1,293 @@
+{
+  "source": "Haut-Commissariat au Plan (HCP)",
+  "date_recuperation": "2026-07-23T19:12:29.749006+00:00",
+  "organisme": "Haut-Commissariat au Plan (HCP)",
+  "periodicite": "Trimestrielle / Annuelle",
+  "granularite_geographique": "Nationale, régionale",
+  "date_debut_reelle_donnees": "1955",
+  "jeux_telecharges": [
+    {
+      "url": "https://data.gov.ma/data/dataset/2a6e83d1-6572-4330-936d-9f66ab12844f/resource/887a3dd1-d5c0-4d7a-9777-4c22dc7cdb66/download/i_12.44.xlsx",
+      "format": "XLSX",
+      "description": "PIB et comptes nationaux — I_12.44.xlsx",
+      "ckan_package": "data_12_44",
+      "fichier": "hcp\\undated\\i_12.44.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/4a383742-3132-4d91-9c92-5f61a159bdbe/resource/6be7e54c-ec32-449a-973f-52d734ab9742/download/i_12.43.xlsx",
+      "format": "XLSX",
+      "description": "PIB et comptes nationaux — I_12.43.xlsx",
+      "ckan_package": "data_12_43",
+      "fichier": "hcp\\undated\\i_12.43.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/158a568e-e226-47b9-8753-04eb20836e2e/resource/ebe8ebf5-fb20-42c4-9987-4bd8dae7bbe2/download/i_12.4.xlsx",
+      "format": "XLSX",
+      "description": "Valeurs ajoutées sectorielles — I_12.4.xlsx",
+      "ckan_package": "data_12_4",
+      "fichier": "hcp\\undated\\i_12.4.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/6c618ca4-ccae-45e9-a9e8-0a3e1c1196b5/resource/7f15386e-2e10-4038-a31c-8a86e007a6d8/download/i_12.3.xlsx",
+      "format": "XLSX",
+      "description": "Valeurs ajoutées sectorielles — I_12.3.xlsx",
+      "ckan_package": "data_12_3",
+      "fichier": "hcp\\undated\\i_12.3.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/4af76931-f55c-43c9-9b29-2fd38fb21b55/resource/5a5ef4df-9074-4bab-8c0c-48c37c6e3631/download/i_12.29.xlsx",
+      "format": "XLSX",
+      "description": "Valeurs ajoutées sectorielles — I_12.29.xlsx",
+      "ckan_package": "data_12_29",
+      "fichier": "hcp\\undated\\i_12.29.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/2e01f2d6-46d5-4268-92d8-4662543848f9/resource/ebc742f0-80d2-485a-be1f-aa7a6142223b/download/i_12.41.xlsx",
+      "format": "XLSX",
+      "description": "Valeurs ajoutées sectorielles — I_12.41.xlsx",
+      "ckan_package": "data_12_41",
+      "fichier": "hcp\\undated\\i_12.41.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/b7258fe0-1908-4e0c-b2fd-cb6e997fe892/resource/210e7e77-a5e6-4831-ba92-4532a7f96709/download/i_12.28.xlsx",
+      "format": "XLSX",
+      "description": "Valeurs ajoutées sectorielles — I_12.28.xlsx",
+      "ckan_package": "data_12_28",
+      "fichier": "hcp\\undated\\i_12.28.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/b589e739-2fe6-4ec6-a904-06b3aec2fd64/resource/eac54f13-b577-4b40-9755-9cb360be02ee/download/i_12.23.xlsx",
+      "format": "XLSX",
+      "description": "Valeurs ajoutées sectorielles — I_12.23.xlsx",
+      "ckan_package": "data_12_23",
+      "fichier": "hcp\\undated\\i_12.23.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/bef98e5e-7f30-4090-9776-9b98e6d05ab1/resource/873d89a4-49e8-4214-94dc-eee27c0bf64b/download/i_12.40.xlsx",
+      "format": "XLSX",
+      "description": "Valeurs ajoutées sectorielles — I_12.40.xlsx",
+      "ckan_package": "data_12_40",
+      "fichier": "hcp\\undated\\i_12.40.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/4a35907d-62f2-406a-a5d1-9a5fb0d8996c/resource/430551b5-e1bc-4715-ad02-08b452cccee9/download/i_12.24.xlsx",
+      "format": "XLSX",
+      "description": "Valeurs ajoutées sectorielles — I_12.24.xlsx",
+      "ckan_package": "data_12_24",
+      "fichier": "hcp\\undated\\i_12.24.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/42376bb7-ca7d-4924-92ec-7bd39babec00/resource/17d9eed6-e3eb-4d40-b784-b96e1acb0388/download/i_7.1.xlsx",
+      "format": "XLSX",
+      "description": "Indice des Prix à la Consommation — I_7.1.xlsx",
+      "ckan_package": "data_7_1",
+      "fichier": "hcp\\undated\\i_7.1.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/c05fce4b-5e74-45a1-90b2-ba9a135ac0e2/resource/57852c38-3702-4bf4-8615-f2900af23e5b/download/i_1.23.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.23.xlsx",
+      "ckan_package": "data_1_23",
+      "fichier": "hcp\\undated\\i_1.23.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/8debd3f8-54fb-487f-809e-fe68407bb197/resource/4097fc72-09ff-499f-8f30-e159b50b7d01/download/i_1.6.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.6.xlsx",
+      "ckan_package": "data_1_6",
+      "fichier": "hcp\\undated\\i_1.6.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/f1611906-64ae-4d8c-8ff7-3fa83cab8e92/resource/8a81782d-4e4f-472e-91dd-88707b216aa4/download/i_1.20.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.20.xlsx",
+      "ckan_package": "data_1_20",
+      "fichier": "hcp\\undated\\i_1.20.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/1d9ccb59-5aa6-40ba-8357-21e9c2125632/resource/f4ca77fb-6fbb-4de8-8e27-237fe2f9f772/download/i_1.18.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.18.xlsx",
+      "ckan_package": "data_1_18",
+      "fichier": "hcp\\undated\\i_1.18.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/0902a2ff-9276-4660-a458-4671349ddc80/resource/91739171-422b-476d-bae0-be5499f79364/download/i_1.25.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.25.xlsx",
+      "ckan_package": "data_1_25",
+      "fichier": "hcp\\undated\\i_1.25.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/4f5ffeed-9385-4b59-be72-a5baf3e351ba/resource/a5cd6741-261a-4f4b-8772-ffde722bd7ee/download/i_1.24.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.24.xlsx",
+      "ckan_package": "data_1_24",
+      "fichier": "hcp\\undated\\i_1.24.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/70eaa730-274d-4511-a7e6-5440c069076e/resource/7b4c9594-4aad-40ef-abf3-cddde1753b25/download/i_1.1.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.1.xlsx",
+      "ckan_package": "data_1_1",
+      "fichier": "hcp\\undated\\i_1.1.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/d5756052-c73c-45b3-a091-aa809ea6be66/resource/48519d57-7865-46b2-b8f6-aeb761d3b68f/download/i_1.3.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.3.xlsx",
+      "ckan_package": "data_1_3",
+      "fichier": "hcp\\undated\\i_1.3.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/f8ca1c56-9f67-4014-b914-ba01834eb81e/resource/d2be44b4-7a22-4140-8860-c89ab505a0e7/download/i_1.29.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.29.xlsx",
+      "ckan_package": "data_1_29",
+      "fichier": "hcp\\undated\\i_1.29.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/37cbed07-7fdd-4fca-8321-65f71b4c6f90/resource/fb4c6263-50b1-4fd3-86b2-2a0fdd4556c3/download/i_1.26.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.26.xlsx",
+      "ckan_package": "data_1_26",
+      "fichier": "hcp\\undated\\i_1.26.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/16ee67b5-dbaa-41c5-b9fa-103832ed7ba9/resource/78cc5cb9-e0bd-4f54-93a7-7118ccbf1c8c/download/i_1.2.xlsx",
+      "format": "XLSX",
+      "description": "Taux de chômage — I_1.2.xlsx",
+      "ckan_package": "data_1_2",
+      "fichier": "hcp\\undated\\i_1.2.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/d52c9791-058d-422e-bafa-d56f4d590f78/resource/c959bca8-f8b1-4786-a812-c2efed2a7205/download/i_1.22.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.22.xlsx",
+      "ckan_package": "data_1_22",
+      "fichier": "hcp\\undated\\i_1.22.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/346f5d50-4307-4450-b912-624790212be0/resource/39aa0756-7c0e-45a2-aeed-1b4357eb09e4/download/i_1.9.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.9.xlsx",
+      "ckan_package": "data_1_9",
+      "fichier": "hcp\\undated\\i_1.9.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/6e1e7138-1aee-4981-978e-176e896d7748/resource/06a301f6-5b5a-4f99-aae5-4467ae61aa91/download/i_1.7.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.7.xlsx",
+      "ckan_package": "data_1_7",
+      "fichier": "hcp\\undated\\i_1.7.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/76033744-ca69-4d7b-ae95-7c98c36c36eb/resource/25c0a15b-82f6-4578-8348-d86cba2521df/download/i_1.14.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.14.xlsx",
+      "ckan_package": "data_1_14",
+      "fichier": "hcp\\undated\\i_1.14.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/c4393706-41a9-41ae-8e5f-55aece6ca496/resource/7cfe4953-6197-4338-b10c-e71903ac2884/download/i_1.21.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.21.xlsx",
+      "ckan_package": "data_1_21",
+      "fichier": "hcp\\undated\\i_1.21.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/faa27b0c-e196-4e55-b09c-1207c24c4ceb/resource/9f54f380-64d4-4c76-9889-268b799f1373/download/i_1.13.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.13.xlsx",
+      "ckan_package": "data_1_13",
+      "fichier": "hcp\\undated\\i_1.13.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/082a73e0-1ba1-433f-ab7c-f70645e86ab8/resource/81bab313-c00e-43ad-b101-15c6733b1b51/download/i_1.12.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.12.xlsx",
+      "ckan_package": "data_1_12",
+      "fichier": "hcp\\undated\\i_1.12.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/748ecd24-7352-4a44-8531-fff4afd9944a/resource/f7962c08-d3cc-4348-8fd2-27a59bc64156/download/i_1.5.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.5.xlsx",
+      "ckan_package": "data_1_5",
+      "fichier": "hcp\\undated\\i_1.5.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/7887fc55-4865-4f82-a974-9705d6b78fa0/resource/e556530d-c84a-4136-b5c2-f2d922fc7190/download/i_1.4.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.4.xlsx",
+      "ckan_package": "data_1_4",
+      "fichier": "hcp\\undated\\i_1.4.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/ddb5b767-bf8a-4152-a578-90adb5b3df3c/resource/0ed8374a-d0c7-435d-8ed7-2513b0616a81/download/i_1.15.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.15.xlsx",
+      "ckan_package": "data_1_15",
+      "fichier": "hcp\\undated\\i_1.15.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/716cfede-4997-4e8e-974f-c071f1224cd4/resource/cf7656dc-74e6-4cc1-a43b-647822a06dc2/download/i_1.8.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.8.xlsx",
+      "ckan_package": "data_1_8",
+      "fichier": "hcp\\undated\\i_1.8.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/33e2add3-f569-4871-b711-bd4a4bd7b836/resource/943536ff-b99b-46de-b434-a64e2d73feea/download/i_1.28.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.28.xlsx",
+      "ckan_package": "data_1_28",
+      "fichier": "hcp\\undated\\i_1.28.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/64bc9eac-6b5d-499b-81cc-82db05b26e91/resource/58e95c54-fb6c-4192-b439-f1810f1a8e15/download/i_1.19.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.19.xlsx",
+      "ckan_package": "data_1_19",
+      "fichier": "hcp\\undated\\i_1.19.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/38b1943d-0d0f-4d0f-b758-97e658c58519/resource/e7437fcf-ab53-4e61-8e13-88f64b244c66/download/i_1.17.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.17.xlsx",
+      "ckan_package": "data_1_17",
+      "fichier": "hcp\\undated\\i_1.17.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/89fb2c31-8b4b-4d5a-bace-03f11559483b/resource/3086e693-4f90-463c-bd3c-ea07443b9036/download/i_1.16.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.16.xlsx",
+      "ckan_package": "data_1_16",
+      "fichier": "hcp\\undated\\i_1.16.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/9ce17806-752b-4d60-8442-a42e638c31be/resource/26487701-457e-4144-b2bc-693d59aadf9d/download/i_1.11.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.11.xlsx",
+      "ckan_package": "data_1_11",
+      "fichier": "hcp\\undated\\i_1.11.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/2e2fbea2-49ce-431e-9442-6bd9df24dac9/resource/71e94f1c-e479-4d1e-b32a-25b67c7ab21b/download/i_1.10.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.10.xlsx",
+      "ckan_package": "data_1_10",
+      "fichier": "hcp\\undated\\i_1.10.xlsx"
+    },
+    {
+      "url": "https://data.gov.ma/data/dataset/bd8a1ac7-a4ff-4ec8-be2d-d83741158d9f/resource/824f09d1-98e7-4d40-b429-60740e125411/download/i_1.27.xlsx",
+      "format": "XLSX",
+      "description": "Enquête emploi — I_1.27.xlsx",
+      "ckan_package": "data_1_27",
+      "fichier": "hcp\\undated\\i_1.27.xlsx"
+    }
+  ],
+  "source_primaire": "https://www.hcp.ma",
+  "portail_bds": "https://bds.hcp.ma",
+  "portail_ckan": "https://www.data.gov.ma/data/fr/organization/haut-commissariat-au-plan"
+}

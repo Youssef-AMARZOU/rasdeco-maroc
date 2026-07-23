@@ -1,0 +1,47 @@
+{
+  "source": "Office des Changes (OC)",
+  "date_recuperation": "2026-07-23T19:12:56.695582+00:00",
+  "organisme": "Office des Changes (OC)",
+  "periodicite": "Mensuelle / Annuelle",
+  "granularite_geographique": "Nationale",
+  "date_debut_reelle_donnees": "1970",
+  "jeux_telecharges": [
+    {
+      "url": "https://www.oc.gov.ma/sites/default/files/Produits%20remarquables%20site%201_15.xlsx",
+      "format": "XLSX",
+      "description": "Publication OC — Produits remarquables site 1_15.xlsx",
+      "fichier": "office_des_changes\\undated\\Produits remarquables site 1_15.xlsx",
+      "fragile": true
+    },
+    {
+      "url": "https://www.oc.gov.ma/sites/default/files/2026-06/IEE_Avr_2026.pdf",
+      "format": "PDF",
+      "description": "Publication OC — IEE_Avr_2026.pdf",
+      "fichier": "office_des_changes\\2026\\IEE_Avr_2026.pdf",
+      "fragile": true
+    },
+    {
+      "url": "https://www.oc.gov.ma/sites/default/files/2026-07/IMEE%20MAI%202026.pdf",
+      "format": "PDF",
+      "description": "Publication OC — IMEE MAI 2026.pdf",
+      "fichier": "office_des_changes\\2026\\IMEE MAI 2026.pdf",
+      "fragile": true
+    },
+    {
+      "url": "https://www.oc.gov.ma/sites/default/files/2026-07/Communiqu%C3%A9%20FR%20R%C3%A9sultats%20%C3%A0%20fin%20Mars%202026.pdf",
+      "format": "PDF",
+      "description": "Publication OC — Communiqué FR Résultats à fin Mars 2026.pdf",
+      "fichier": "office_des_changes\\2026\\Communiqué FR Résultats à fin Mars 2026.pdf",
+      "fragile": true
+    },
+    {
+      "url": "https://www.oc.gov.ma/sites/default/files/Produits%20remarquables%20site%201_14.xlsx",
+      "format": "XLSX",
+      "description": "Publication OC — Produits remarquables site 1_14.xlsx",
+      "fichier": "office_des_changes\\undated\\Produits remarquables site 1_14.xlsx",
+      "fragile": true
+    }
+  ],
+  "source_primaire": "https://www.oc.gov.ma",
+  "portail_ckan": "https://www.data.gov.ma/data/fr/organization/office-des-changes"
+}

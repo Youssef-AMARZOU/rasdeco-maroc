@@ -276,7 +276,7 @@ def main():
             "nb_keywords_searched": len(KEYWORD_QUERIES),
         },
     )
-    logger.info("meta.json écrit → %s", meta_path)
+    logger.info("meta.json écrit -> %s", meta_path)
     logger.info(
         "FIN COLLECTE data.gov.ma — %d fichiers uniques téléchargés",
         len(unique_downloads),

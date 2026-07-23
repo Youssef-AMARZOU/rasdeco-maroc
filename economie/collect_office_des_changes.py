@@ -3,9 +3,9 @@ collect_office_des_changes.py — Collecte de l'Office des Changes (OC)
 
 Sources :
   1. Publications officielles oc.gov.ma
-     → rapports annuels, bulletins mensuels (PDF/XLSX)
+     -> rapports annuels, bulletins mensuels (PDF/XLSX)
   2. Scraper la page des séries statistiques
-     → réserves de change, IDE, balance commerciale
+     -> réserves de change, IDE, balance commerciale
   3. API CKAN data.gov.ma (recherche "office changes" / "changes")
 
 Usage :
@@ -85,7 +85,7 @@ def collect_ckan() -> list[dict]:
             continue
 
         results = data.get("result", {}).get("results", [])
-        logger.info("  → %d jeux trouvés", len(results))
+        logger.info("  -> %d jeux trouvés", len(results))
 
         for pkg in results:
             pkg_name = pkg.get("name", "unknown")
@@ -219,7 +219,7 @@ def scraping_oc_fragile() -> list[dict]:
         for tag in soup.find_all(attrs={"data-url": True}):
             download_links.add(tag["data-url"])
 
-        logger.info("  → %d liens trouvés", len(download_links))
+        logger.info("  -> %d liens trouvés", len(download_links))
 
         for url in download_links:
             fname = filename_from_url(url)
@@ -274,7 +274,7 @@ def main():
             "portail_ckan": "https://www.data.gov.ma/data/fr/organization/office-des-changes",
         },
     )
-    logger.info("meta.json écrit → %s", meta_path)
+    logger.info("meta.json écrit -> %s", meta_path)
     logger.info("FIN COLLECTE OC — %d fichiers téléchargés", len(all_downloads))
 
     return all_downloads

@@ -108,7 +108,7 @@ def run_source(source_cfg: dict, force: bool = False) -> dict:
         )
         return {"success": True, "skipped": True, "count": count}
 
-    logger.info("▶ Lancement : %s", source_cfg["label"])
+    logger.info("> Lancement : %s", source_cfg["label"])
     start_time = time.time()
 
     try:
@@ -117,7 +117,7 @@ def run_source(source_cfg: dict, force: bool = False) -> dict:
         duration = time.time() - start_time
         count = len(results) if results else 0
         logger.info(
-            "✓ Terminé : %s — %d fichiers (%.1fs)",
+            "OK Termine : %s - %d fichiers (%.1fs)",
             source_cfg["label"],
             count,
             duration,
@@ -131,7 +131,7 @@ def run_source(source_cfg: dict, force: bool = False) -> dict:
     except Exception as exc:
         duration = time.time() - start_time
         logger.error(
-            "✗ ERREUR : %s — %s (%.1fs)",
+            "ERREUR : %s - %s (%.1fs)",
             source_cfg["label"],
             exc,
             duration,
@@ -223,9 +223,9 @@ def main():
         if name not in results:
             continue
         r = results[name]
-        status = "✓" if r["success"] else "✗"
+        status = "OK" if r["success"] else "ERR"
         if r.get("skipped"):
-            status = "⏭"
+            status = "SKP"
             total_skipped += 1
         elif not r["success"]:
             total_errors += 1
@@ -233,7 +233,7 @@ def main():
 
         duration_str = f" ({r['duration_s']}s)" if "duration_s" in r else ""
         count_str = f"{r['count']} fichiers" if not r.get("skipped") else "déjà collecté"
-        error_str = f" — ERREUR: {r['error']}" if r.get("error") else ""
+        error_str = f" - ERREUR: {r['error']}" if r.get("error") else ""
 
         logger.info(
             "  %s %-30s %s%s%s",
@@ -264,7 +264,7 @@ def main():
     }
     with open(report_path, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
-    logger.info("Rapport écrit → %s", report_path)
+    logger.info("Rapport écrit -> %s", report_path)
 
     sys.exit(0 if total_errors == 0 else 1)
 
