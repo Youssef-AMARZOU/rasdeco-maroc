@@ -3,13 +3,11 @@ title: Economie Maroc - RASD
 emoji: "\U0001F4CA"
 colorFrom: blue
 colorTo: green
-sdk: gradio
-sdk_version: 4.44.1
-app_file: app.py
+sdk: static
 pinned: false
 license: mit
 datasets:
-  - amarzouyoussef/economie-maroc-rasd
+  - YsfMO98/economie-maroc-rasd
 ---
 
 # Dashboard Economie Maroc - RASD
@@ -18,12 +16,14 @@ Tableau de bord interactif pour l'exploration des donnees economiques du Maroc.
 
 ## Sources
 
+- **FMI**: World Economic Outlook (WEO) — Avril 2026
 - **HCP**: Comptes nationaux, Prix, Emploi
 - **BKAM**: Taux de change, Taux directeurs
 - **Finances**: Budget de l'Etat, Dette publique
 - **Datagov.ma**: 389 jeux de donnees open data
 - **OC**: Taux de change officiels
 
-## Indicateurs
+## Pages
 
-PIB, IPC, Taux de Chomage, Balance Commerciale, Taux de Change, Credit Bancaire, et 13 autres.
+- `/` — Accueil avec KPIs macroeconomiques et carte interactive
+- `/kpi` — Liste detaillee de tous les indicateurs

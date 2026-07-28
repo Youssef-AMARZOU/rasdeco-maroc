@@ -1,0 +1,811 @@
+code,indicator,unit,year,value
+BCA,Current account balance,U.S. dollars,1980,-1.625
+BCA,Current account balance,U.S. dollars,1981,-1.975
+BCA,Current account balance,U.S. dollars,1982,-2.125
+BCA,Current account balance,U.S. dollars,1983,-1.175
+BCA,Current account balance,U.S. dollars,1984,-1.454
+BCA,Current account balance,U.S. dollars,1985,-1.47
+BCA,Current account balance,U.S. dollars,1986,-1.068
+BCA,Current account balance,U.S. dollars,1987,-0.482
+BCA,Current account balance,U.S. dollars,1988,0.624
+BCA,Current account balance,U.S. dollars,1989,-0.92
+BCA,Current account balance,U.S. dollars,1990,-0.357
+BCA,Current account balance,U.S. dollars,1991,-0.157
+BCA,Current account balance,U.S. dollars,1992,0.126
+BCA,Current account balance,U.S. dollars,1993,0.253
+BCA,Current account balance,U.S. dollars,1994,-0.35
+BCA,Current account balance,U.S. dollars,1995,-1.147
+BCA,Current account balance,U.S. dollars,1996,0.574
+BCA,Current account balance,U.S. dollars,1997,-0.298
+BCA,Current account balance,U.S. dollars,1998,-0.248
+BCA,Current account balance,U.S. dollars,1999,-0.967
+BCA,Current account balance,U.S. dollars,2000,-1.16
+BCA,Current account balance,U.S. dollars,2001,0.543
+BCA,Current account balance,U.S. dollars,2002,1.473
+BCA,Current account balance,U.S. dollars,2003,0.44
+BCA,Current account balance,U.S. dollars,2004,0.617
+BCA,Current account balance,U.S. dollars,2005,0.733
+BCA,Current account balance,U.S. dollars,2006,1.78
+BCA,Current account balance,U.S. dollars,2007,0.131
+BCA,Current account balance,U.S. dollars,2008,-4.329
+BCA,Current account balance,U.S. dollars,2009,-4.49
+BCA,Current account balance,U.S. dollars,2010,-3.782
+BCA,Current account balance,U.S. dollars,2011,-7.598
+BCA,Current account balance,U.S. dollars,2012,-7.255
+BCA,Current account balance,U.S. dollars,2013,-6.669
+BCA,Current account balance,U.S. dollars,2014,-5.462
+BCA,Current account balance,U.S. dollars,2015,-1.238
+BCA,Current account balance,U.S. dollars,2016,-3.118
+BCA,Current account balance,U.S. dollars,2017,-3.115
+BCA,Current account balance,U.S. dollars,2018,-3.183
+BCA,Current account balance,U.S. dollars,2019,-3.767
+BCA,Current account balance,U.S. dollars,2020,-0.679
+BCA,Current account balance,U.S. dollars,2021,-2.275
+BCA,Current account balance,U.S. dollars,2022,-4.016
+BCA,Current account balance,U.S. dollars,2023,-3.047
+BCA,Current account balance,U.S. dollars,2024,-4.149
+BCA,Current account balance,U.S. dollars,2025,-5.025
+BCA,Current account balance,U.S. dollars,2026,-5.944
+BCA,Current account balance,U.S. dollars,2027,-6.829
+BCA,Current account balance,U.S. dollars,2028,-7.679
+BCA,Current account balance,U.S. dollars,2029,-11.084
+BCA_NGDPD,Current account balance,Percent of GDP,1980,-7.633
+BCA_NGDPD,Current account balance,Percent of GDP,1981,-11.485
+BCA_NGDPD,Current account balance,Percent of GDP,1982,-12.227
+BCA_NGDPD,Current account balance,Percent of GDP,1983,-6.977
+BCA_NGDPD,Current account balance,Percent of GDP,1984,-8.684
+BCA_NGDPD,Current account balance,Percent of GDP,1985,-8.307
+BCA_NGDPD,Current account balance,Percent of GDP,1986,-5.062
+BCA_NGDPD,Current account balance,Percent of GDP,1987,-2.107
+BCA_NGDPD,Current account balance,Percent of GDP,1988,2.468
+BCA_NGDPD,Current account balance,Percent of GDP,1989,-3.52
+BCA_NGDPD,Current account balance,Percent of GDP,1990,-1.249
+BCA_NGDPD,Current account balance,Percent of GDP,1991,-0.504
+BCA_NGDPD,Current account balance,Percent of GDP,1992,0.391
+BCA_NGDPD,Current account balance,Percent of GDP,1993,0.793
+BCA_NGDPD,Current account balance,Percent of GDP,1994,-1.0
+BCA_NGDPD,Current account balance,Percent of GDP,1995,-3.114
+BCA_NGDPD,Current account balance,Percent of GDP,1996,1.441
+BCA_NGDPD,Current account balance,Percent of GDP,1997,-0.77
+BCA_NGDPD,Current account balance,Percent of GDP,1998,-0.583
+BCA_NGDPD,Current account balance,Percent of GDP,1999,-2.243
+BCA_NGDPD,Current account balance,Percent of GDP,2000,-2.726
+BCA_NGDPD,Current account balance,Percent of GDP,2001,1.236
+BCA_NGDPD,Current account balance,Percent of GDP,2002,3.092
+BCA_NGDPD,Current account balance,Percent of GDP,2003,0.787
+BCA_NGDPD,Current account balance,Percent of GDP,2004,0.964
+BCA_NGDPD,Current account balance,Percent of GDP,2005,1.077
+BCA_NGDPD,Current account balance,Percent of GDP,2006,2.404
+BCA_NGDPD,Current account balance,Percent of GDP,2007,0.161
+BCA_NGDPD,Current account balance,Percent of GDP,2008,-4.657
+BCA_NGDPD,Current account balance,Percent of GDP,2009,-4.834
+BCA_NGDPD,Current account balance,Percent of GDP,2010,-4.057
+BCA_NGDPD,Current account balance,Percent of GDP,2011,-7.494
+BCA_NGDPD,Current account balance,Percent of GDP,2012,-7.345
+BCA_NGDPD,Current account balance,Percent of GDP,2013,-6.219
+BCA_NGDPD,Current account balance,Percent of GDP,2014,-4.965
+BCA_NGDPD,Current account balance,Percent of GDP,2015,-1.124
+BCA_NGDPD,Current account balance,Percent of GDP,2016,-2.803
+BCA_NGDPD,Current account balance,Percent of GDP,2017,-2.7
+BCA_NGDPD,Current account balance,Percent of GDP,2018,-2.58
+BCA_NGDPD,Current account balance,Percent of GDP,2019,-3.007
+BCA_NGDPD,Current account balance,Percent of GDP,2020,-0.592
+BCA_NGDPD,Current account balance,Percent of GDP,2021,-1.606
+BCA_NGDPD,Current account balance,Percent of GDP,2022,-2.991
+BCA_NGDPD,Current account balance,Percent of GDP,2023,-2.116
+BCA_NGDPD,Current account balance,Percent of GDP,2024,-2.723
+BCA_NGDPD,Current account balance,Percent of GDP,2025,-3.005
+BCA_NGDPD,Current account balance,Percent of GDP,2026,-3.239
+BCA_NGDPD,Current account balance,Percent of GDP,2027,-3.413
+BCA_NGDPD,Current account balance,Percent of GDP,2028,-3.517
+BCA_NGDPD,Current account balance,Percent of GDP,2029,-4.29
+GGR,General government revenue,Percent of GDP,1990,28.141
+GGR,General government revenue,Percent of GDP,1991,28.598
+GGR,General government revenue,Percent of GDP,1992,28.088
+GGR,General government revenue,Percent of GDP,1993,27.776
+GGR,General government revenue,Percent of GDP,1994,27.025
+GGR,General government revenue,Percent of GDP,1995,27.103
+GGR,General government revenue,Percent of GDP,1996,27.947
+GGR,General government revenue,Percent of GDP,1997,27.722
+GGR,General government revenue,Percent of GDP,1998,28.082
+GGR,General government revenue,Percent of GDP,1999,27.943
+GGR,General government revenue,Percent of GDP,2000,28.458
+GGR,General government revenue,Percent of GDP,2001,28.538
+GGR,General government revenue,Percent of GDP,2002,28.149
+GGR,General government revenue,Percent of GDP,2003,27.772
+GGR,General government revenue,Percent of GDP,2004,27.952
+GGR,General government revenue,Percent of GDP,2005,29.145
+GGR,General government revenue,Percent of GDP,2006,29.329
+GGR,General government revenue,Percent of GDP,2007,30.677
+GGR,General government revenue,Percent of GDP,2008,31.592
+GGR,General government revenue,Percent of GDP,2009,30.249
+GGR,General government revenue,Percent of GDP,2010,30.084
+GGR,General government revenue,Percent of GDP,2011,31.049
+GGR,General government revenue,Percent of GDP,2012,30.758
+GGR,General government revenue,Percent of GDP,2013,30.504
+GGR,General government revenue,Percent of GDP,2014,30.112
+GGR,General government revenue,Percent of GDP,2015,29.805
+GGR,General government revenue,Percent of GDP,2016,29.181
+GGR,General government revenue,Percent of GDP,2017,29.237
+GGR,General government revenue,Percent of GDP,2018,29.272
+GGR,General government revenue,Percent of GDP,2019,27.957
+GGR,General government revenue,Percent of GDP,2020,28.106
+GGR,General government revenue,Percent of GDP,2021,27.894
+GGR,General government revenue,Percent of GDP,2022,28.328
+GGR,General government revenue,Percent of GDP,2023,27.678
+GGR,General government revenue,Percent of GDP,2024,28.334
+GGR,General government revenue,Percent of GDP,2025,27.878
+GGR,General government revenue,Percent of GDP,2026,27.726
+GGR,General government revenue,Percent of GDP,2027,27.765
+GGR,General government revenue,Percent of GDP,2028,27.817
+GGR,General government revenue,Percent of GDP,2029,27.7
+GGX,General government total expenditure,Percent of GDP,1990,30.177
+GGX,General government total expenditure,Percent of GDP,1991,31.37
+GGX,General government total expenditure,Percent of GDP,1992,30.872
+GGX,General government total expenditure,Percent of GDP,1993,30.415
+GGX,General government total expenditure,Percent of GDP,1994,30.973
+GGX,General government total expenditure,Percent of GDP,1995,31.186
+GGX,General government total expenditure,Percent of GDP,1996,30.421
+GGX,General government total expenditure,Percent of GDP,1997,29.905
+GGX,General government total expenditure,Percent of GDP,1998,30.252
+GGX,General government total expenditure,Percent of GDP,1999,29.256
+GGX,General government total expenditure,Percent of GDP,2000,30.475
+GGX,General government total expenditure,Percent of GDP,2001,31.614
+GGX,General government total expenditure,Percent of GDP,2002,31.628
+GGX,General government total expenditure,Percent of GDP,2003,31.156
+GGX,General government total expenditure,Percent of GDP,2004,30.546
+GGX,General government total expenditure,Percent of GDP,2005,31.34
+GGX,General government total expenditure,Percent of GDP,2006,31.504
+GGX,General government total expenditure,Percent of GDP,2007,32.016
+GGX,General government total expenditure,Percent of GDP,2008,32.629
+GGX,General government total expenditure,Percent of GDP,2009,33.027
+GGX,General government total expenditure,Percent of GDP,2010,33.149
+GGX,General government total expenditure,Percent of GDP,2011,34.018
+GGX,General government total expenditure,Percent of GDP,2012,34.742
+GGX,General government total expenditure,Percent of GDP,2013,34.148
+GGX,General government total expenditure,Percent of GDP,2014,33.457
+GGX,General government total expenditure,Percent of GDP,2015,33.018
+GGX,General government total expenditure,Percent of GDP,2016,32.528
+GGX,General government total expenditure,Percent of GDP,2017,32.227
+GGX,General government total expenditure,Percent of GDP,2018,31.902
+GGX,General government total expenditure,Percent of GDP,2019,31.96
+GGX,General government total expenditure,Percent of GDP,2020,34.914
+GGX,General government total expenditure,Percent of GDP,2021,33.55
+GGX,General government total expenditure,Percent of GDP,2022,32.103
+GGX,General government total expenditure,Percent of GDP,2023,31.127
+GGX,General government total expenditure,Percent of GDP,2024,31.637
+GGX,General government total expenditure,Percent of GDP,2025,31.358
+GGX,General government total expenditure,Percent of GDP,2026,31.194
+GGX,General government total expenditure,Percent of GDP,2027,31.18
+GGX,General government total expenditure,Percent of GDP,2028,31.167
+GGX,General government total expenditure,Percent of GDP,2029,31.0
+GGXCNL,General government net lending/borrowing,Percent of GDP,1990,-2.036
+GGXCNL,General government net lending/borrowing,Percent of GDP,1991,-2.771
+GGXCNL,General government net lending/borrowing,Percent of GDP,1992,-2.784
+GGXCNL,General government net lending/borrowing,Percent of GDP,1993,-2.639
+GGXCNL,General government net lending/borrowing,Percent of GDP,1994,-3.948
+GGXCNL,General government net lending/borrowing,Percent of GDP,1995,-4.084
+GGXCNL,General government net lending/borrowing,Percent of GDP,1996,-2.473
+GGXCNL,General government net lending/borrowing,Percent of GDP,1997,-2.183
+GGXCNL,General government net lending/borrowing,Percent of GDP,1998,-2.171
+GGXCNL,General government net lending/borrowing,Percent of GDP,1999,-1.313
+GGXCNL,General government net lending/borrowing,Percent of GDP,2000,-2.017
+GGXCNL,General government net lending/borrowing,Percent of GDP,2001,-3.076
+GGXCNL,General government net lending/borrowing,Percent of GDP,2002,-3.479
+GGXCNL,General government net lending/borrowing,Percent of GDP,2003,-3.384
+GGXCNL,General government net lending/borrowing,Percent of GDP,2004,-2.594
+GGXCNL,General government net lending/borrowing,Percent of GDP,2005,-2.195
+GGXCNL,General government net lending/borrowing,Percent of GDP,2006,-2.175
+GGXCNL,General government net lending/borrowing,Percent of GDP,2007,-1.339
+GGXCNL,General government net lending/borrowing,Percent of GDP,2008,-1.037
+GGXCNL,General government net lending/borrowing,Percent of GDP,2009,-2.779
+GGXCNL,General government net lending/borrowing,Percent of GDP,2010,-3.064
+GGXCNL,General government net lending/borrowing,Percent of GDP,2011,-2.969
+GGXCNL,General government net lending/borrowing,Percent of GDP,2012,-3.984
+GGXCNL,General government net lending/borrowing,Percent of GDP,2013,-3.644
+GGXCNL,General government net lending/borrowing,Percent of GDP,2014,-3.345
+GGXCNL,General government net lending/borrowing,Percent of GDP,2015,-3.213
+GGXCNL,General government net lending/borrowing,Percent of GDP,2016,-3.347
+GGXCNL,General government net lending/borrowing,Percent of GDP,2017,-2.99
+GGXCNL,General government net lending/borrowing,Percent of GDP,2018,-2.63
+GGXCNL,General government net lending/borrowing,Percent of GDP,2019,-4.003
+GGXCNL,General government net lending/borrowing,Percent of GDP,2020,-6.808
+GGXCNL,General government net lending/borrowing,Percent of GDP,2021,-5.656
+GGXCNL,General government net lending/borrowing,Percent of GDP,2022,-3.775
+GGXCNL,General government net lending/borrowing,Percent of GDP,2023,-3.449
+GGXCNL,General government net lending/borrowing,Percent of GDP,2024,-3.303
+GGXCNL,General government net lending/borrowing,Percent of GDP,2025,-3.48
+GGXCNL,General government net lending/borrowing,Percent of GDP,2026,-3.468
+GGXCNL,General government net lending/borrowing,Percent of GDP,2027,-3.415
+GGXCNL,General government net lending/borrowing,Percent of GDP,2028,-3.35
+GGXCNL,General government net lending/borrowing,Percent of GDP,2029,-3.3
+GGXWDG,General government gross debt,Percent of GDP,1990,76.663
+GGXWDG,General government gross debt,Percent of GDP,1991,72.65
+GGXWDG,General government gross debt,Percent of GDP,1992,75.117
+GGXWDG,General government gross debt,Percent of GDP,1993,77.478
+GGXWDG,General government gross debt,Percent of GDP,1994,80.59
+GGXWDG,General government gross debt,Percent of GDP,1995,82.619
+GGXWDG,General government gross debt,Percent of GDP,1996,79.877
+GGXWDG,General government gross debt,Percent of GDP,1997,78.622
+GGXWDG,General government gross debt,Percent of GDP,1998,77.975
+GGXWDG,General government gross debt,Percent of GDP,1999,76.403
+GGXWDG,General government gross debt,Percent of GDP,2000,72.47
+GGXWDG,General government gross debt,Percent of GDP,2001,69.395
+GGXWDG,General government gross debt,Percent of GDP,2002,66.773
+GGXWDG,General government gross debt,Percent of GDP,2003,62.933
+GGXWDG,General government gross debt,Percent of GDP,2004,60.631
+GGXWDG,General government gross debt,Percent of GDP,2005,58.66
+GGXWDG,General government gross debt,Percent of GDP,2006,55.731
+GGXWDG,General government gross debt,Percent of GDP,2007,52.533
+GGXWDG,General government gross debt,Percent of GDP,2008,49.94
+GGXWDG,General government gross debt,Percent of GDP,2009,48.367
+GGXWDG,General government gross debt,Percent of GDP,2010,48.197
+GGXWDG,General government gross debt,Percent of GDP,2011,47.869
+GGXWDG,General government gross debt,Percent of GDP,2012,49.808
+GGXWDG,General government gross debt,Percent of GDP,2013,50.538
+GGXWDG,General government gross debt,Percent of GDP,2014,52.415
+GGXWDG,General government gross debt,Percent of GDP,2015,54.654
+GGXWDG,General government gross debt,Percent of GDP,2016,57.03
+GGXWDG,General government gross debt,Percent of GDP,2017,58.94
+GGXWDG,General government gross debt,Percent of GDP,2018,59.07
+GGXWDG,General government gross debt,Percent of GDP,2019,60.655
+GGXWDG,General government gross debt,Percent of GDP,2020,71.906
+GGXWDG,General government gross debt,Percent of GDP,2021,70.465
+GGXWDG,General government gross debt,Percent of GDP,2022,70.076
+GGXWDG,General government gross debt,Percent of GDP,2023,69.573
+GGXWDG,General government gross debt,Percent of GDP,2024,68.221
+GGXWDG,General government gross debt,Percent of GDP,2025,67.14
+GGXWDG,General government gross debt,Percent of GDP,2026,65.836
+GGXWDG,General government gross debt,Percent of GDP,2027,64.59
+GGXWDG,General government gross debt,Percent of GDP,2028,63.396
+GGXWDG,General government gross debt,Percent of GDP,2029,62.3
+LP,Population,Persons (millions),1980,19.737
+LP,Population,Persons (millions),1981,20.051
+LP,Population,Persons (millions),1982,20.368
+LP,Population,Persons (millions),1983,20.682
+LP,Population,Persons (millions),1984,20.993
+LP,Population,Persons (millions),1985,21.302
+LP,Population,Persons (millions),1986,21.62
+LP,Population,Persons (millions),1987,21.939
+LP,Population,Persons (millions),1988,22.263
+LP,Population,Persons (millions),1989,22.589
+LP,Population,Persons (millions),1990,22.921
+LP,Population,Persons (millions),1991,23.254
+LP,Population,Persons (millions),1992,23.589
+LP,Population,Persons (millions),1993,23.921
+LP,Population,Persons (millions),1994,24.25
+LP,Population,Persons (millions),1995,24.574
+LP,Population,Persons (millions),1996,24.914
+LP,Population,Persons (millions),1997,25.237
+LP,Population,Persons (millions),1998,25.553
+LP,Population,Persons (millions),1999,25.864
+LP,Population,Persons (millions),2000,26.17
+LP,Population,Persons (millions),2001,26.472
+LP,Population,Persons (millions),2002,26.781
+LP,Population,Persons (millions),2003,27.082
+LP,Population,Persons (millions),2004,27.377
+LP,Population,Persons (millions),2005,27.642
+LP,Population,Persons (millions),2006,27.905
+LP,Population,Persons (millions),2007,28.17
+LP,Population,Persons (millions),2008,28.435
+LP,Population,Persons (millions),2009,28.699
+LP,Population,Persons (millions),2010,28.96
+LP,Population,Persons (millions),2011,29.22
+LP,Population,Persons (millions),2012,29.479
+LP,Population,Persons (millions),2013,29.737
+LP,Population,Persons (millions),2014,29.996
+LP,Population,Persons (millions),2015,30.235
+LP,Population,Persons (millions),2016,30.455
+LP,Population,Persons (millions),2017,30.673
+LP,Population,Persons (millions),2018,30.885
+LP,Population,Persons (millions),2019,31.08
+LP,Population,Persons (millions),2020,31.269
+LP,Population,Persons (millions),2021,31.456
+LP,Population,Persons (millions),2022,31.64
+LP,Population,Persons (millions),2023,31.825
+LP,Population,Persons (millions),2024,31.997
+LP,Population,Persons (millions),2025,32.165
+LP,Population,Persons (millions),2026,32.332
+LP,Population,Persons (millions),2027,32.499
+LP,Population,Persons (millions),2028,32.667
+LP,Population,Persons (millions),2029,32.835
+LUR,Unemployment rate,Percent of total labor force,1980,13.1
+LUR,Unemployment rate,Percent of total labor force,1981,13.275
+LUR,Unemployment rate,Percent of total labor force,1982,13.45
+LUR,Unemployment rate,Percent of total labor force,1983,13.625
+LUR,Unemployment rate,Percent of total labor force,1984,13.8
+LUR,Unemployment rate,Percent of total labor force,1985,13.975
+LUR,Unemployment rate,Percent of total labor force,1986,14.15
+LUR,Unemployment rate,Percent of total labor force,1987,14.325
+LUR,Unemployment rate,Percent of total labor force,1988,14.5
+LUR,Unemployment rate,Percent of total labor force,1989,14.675
+LUR,Unemployment rate,Percent of total labor force,1990,14.85
+LUR,Unemployment rate,Percent of total labor force,1991,15.025
+LUR,Unemployment rate,Percent of total labor force,1992,15.2
+LUR,Unemployment rate,Percent of total labor force,1993,15.375
+LUR,Unemployment rate,Percent of total labor force,1994,15.55
+LUR,Unemployment rate,Percent of total labor force,1995,15.725
+LUR,Unemployment rate,Percent of total labor force,1996,15.9
+LUR,Unemployment rate,Percent of total labor force,1997,14.975
+LUR,Unemployment rate,Percent of total labor force,1998,14.05
+LUR,Unemployment rate,Percent of total labor force,1999,13.45
+LUR,Unemployment rate,Percent of total labor force,2000,13.4
+LUR,Unemployment rate,Percent of total labor force,2001,12.3
+LUR,Unemployment rate,Percent of total labor force,2002,11.6
+LUR,Unemployment rate,Percent of total labor force,2003,11.9
+LUR,Unemployment rate,Percent of total labor force,2004,10.8
+LUR,Unemployment rate,Percent of total labor force,2005,11.1
+LUR,Unemployment rate,Percent of total labor force,2006,9.7
+LUR,Unemployment rate,Percent of total labor force,2007,9.6
+LUR,Unemployment rate,Percent of total labor force,2008,9.6
+LUR,Unemployment rate,Percent of total labor force,2009,9.1
+LUR,Unemployment rate,Percent of total labor force,2010,9.1
+LUR,Unemployment rate,Percent of total labor force,2011,8.9
+LUR,Unemployment rate,Percent of total labor force,2012,9.0
+LUR,Unemployment rate,Percent of total labor force,2013,9.2
+LUR,Unemployment rate,Percent of total labor force,2014,9.7
+LUR,Unemployment rate,Percent of total labor force,2015,9.7
+LUR,Unemployment rate,Percent of total labor force,2016,9.9
+LUR,Unemployment rate,Percent of total labor force,2017,10.2
+LUR,Unemployment rate,Percent of total labor force,2018,10.0
+LUR,Unemployment rate,Percent of total labor force,2019,9.2
+LUR,Unemployment rate,Percent of total labor force,2020,11.9
+LUR,Unemployment rate,Percent of total labor force,2021,12.3
+LUR,Unemployment rate,Percent of total labor force,2022,11.8
+LUR,Unemployment rate,Percent of total labor force,2023,12.4
+LUR,Unemployment rate,Percent of total labor force,2024,12.2
+LUR,Unemployment rate,Percent of total labor force,2025,12.0
+LUR,Unemployment rate,Percent of total labor force,2026,12.2
+LUR,Unemployment rate,Percent of total labor force,2027,12.2
+LUR,Unemployment rate,Percent of total labor force,2028,12.2
+LUR,Unemployment rate,Percent of total labor force,2029,12.2
+NGDP,"Gross domestic product, constant prices",National currency,1980,215.11
+NGDP,"Gross domestic product, constant prices",National currency,1981,209.16
+NGDP,"Gross domestic product, constant prices",National currency,1982,223.5
+NGDP,"Gross domestic product, constant prices",National currency,1983,226.15
+NGDP,"Gross domestic product, constant prices",National currency,1984,236.21
+NGDP,"Gross domestic product, constant prices",National currency,1985,251.16
+NGDP,"Gross domestic product, constant prices",National currency,1986,272.58
+NGDP,"Gross domestic product, constant prices",National currency,1987,265.78
+NGDP,"Gross domestic product, constant prices",National currency,1988,293.32
+NGDP,"Gross domestic product, constant prices",National currency,1989,298.48
+NGDP,"Gross domestic product, constant prices",National currency,1990,310.3
+NGDP,"Gross domestic product, constant prices",National currency,1991,331.84
+NGDP,"Gross domestic product, constant prices",National currency,1992,318.6
+NGDP,"Gross domestic product, constant prices",National currency,1993,315.45
+NGDP,"Gross domestic product, constant prices",National currency,1994,349.1
+NGDP,"Gross domestic product, constant prices",National currency,1995,326.17
+NGDP,"Gross domestic product, constant prices",National currency,1996,365.19
+NGDP,"Gross domestic product, constant prices",National currency,1997,392.75
+NGDP,"Gross domestic product, constant prices",National currency,1998,423.03
+NGDP,"Gross domestic product, constant prices",National currency,1999,424.85
+NGDP,"Gross domestic product, constant prices",National currency,2000,431.59
+NGDP,"Gross domestic product, constant prices",National currency,2001,458.58
+NGDP,"Gross domestic product, constant prices",National currency,2002,472.6
+NGDP,"Gross domestic product, constant prices",National currency,2003,498.36
+NGDP,"Gross domestic product, constant prices",National currency,2004,519.08
+NGDP,"Gross domestic product, constant prices",National currency,2005,533.82
+NGDP,"Gross domestic product, constant prices",National currency,2006,562.55
+NGDP,"Gross domestic product, constant prices",National currency,2007,581.17
+NGDP,"Gross domestic product, constant prices",National currency,2008,614.0
+NGDP,"Gross domestic product, constant prices",National currency,2009,640.0
+NGDP,"Gross domestic product, constant prices",National currency,2010,662.89
+NGDP,"Gross domestic product, constant prices",National currency,2011,697.38
+NGDP,"Gross domestic product, constant prices",National currency,2012,718.35
+NGDP,"Gross domestic product, constant prices",National currency,2013,751.22
+NGDP,"Gross domestic product, constant prices",National currency,2014,771.17
+NGDP,"Gross domestic product, constant prices",National currency,2015,806.85
+NGDP,"Gross domestic product, constant prices",National currency,2016,809.71
+NGDP,"Gross domestic product, constant prices",National currency,2017,848.98
+NGDP,"Gross domestic product, constant prices",National currency,2018,875.11
+NGDP,"Gross domestic product, constant prices",National currency,2019,900.25
+NGDP,"Gross domestic product, constant prices",National currency,2020,835.59
+NGDP,"Gross domestic product, constant prices",National currency,2021,902.97
+NGDP,"Gross domestic product, constant prices",National currency,2022,916.14
+NGDP,"Gross domestic product, constant prices",National currency,2023,946.97
+NGDP,"Gross domestic product, constant prices",National currency,2024,978.23
+NGDP,"Gross domestic product, constant prices",National currency,2025,1016.35
+NGDP,"Gross domestic product, constant prices",National currency,2026,1056.93
+NGDP,"Gross domestic product, constant prices",National currency,2027,1099.13
+NGDP,"Gross domestic product, constant prices",National currency,2028,1143.02
+NGDP,"Gross domestic product, constant prices",National currency,2029,1187.61
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1980,21288.95
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1981,17192.947
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1982,17379.101
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1983,16837.217
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1984,16745.854
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1985,17697.676
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1986,21095.533
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1987,22874.97
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1988,25280.759
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1989,26130.879
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1990,28590.88
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1991,31084.027
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1992,32158.048
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1993,31853.601
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1994,35022.693
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1995,36838.756
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1996,39841.9
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1997,38713.442
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1998,42592.697
+NGDPD,"Gross domestic product, current prices",U.S. dollars,1999,43107.035
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2000,42562.726
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2001,43955.025
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2002,47636.952
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2003,55849.658
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2004,63968.609
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2005,68055.16
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2006,74053.146
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2007,81584.047
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2008,92952.276
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2009,92866.847
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2010,93217.095
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2011,101378.508
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2012,98778.357
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2013,107242.543
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2014,110017.774
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2015,110195.88
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2016,111257.939
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2017,115369.714
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2018,123352.575
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2019,125280.152
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2020,114670.981
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2021,141689.577
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2022,134260.128
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2023,143982.905
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2024,152374.295
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2025,167210.199
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2026,183522.45
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2027,200098.419
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2028,218371.142
+NGDPD,"Gross domestic product, current prices",U.S. dollars,2029,258368.0
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1980,1078.636
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1981,857.448
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1982,853.269
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1983,814.216
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1984,797.784
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1985,830.755
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1986,975.738
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1987,1042.648
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1988,1135.531
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1989,1156.836
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1990,1247.476
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1991,1336.733
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1992,1363.282
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1993,1331.462
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1994,1443.925
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1995,1498.244
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1996,1599.021
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1997,1534.131
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1998,1666.865
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,1999,1666.468
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2000,1626.399
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2001,1660.245
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2002,1778.67
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2003,2062.344
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2004,2337.084
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2005,2462.107
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2006,2653.131
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2007,2895.595
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2008,3268.641
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2009,3235.209
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2010,3218.195
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2011,3469.099
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2012,3350.102
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2013,3605.837
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2014,3667.807
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2015,3644.078
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2016,3652.201
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2017,3760.573
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2018,3994.159
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2019,4030.837
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2020,3666.991
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2021,4504.091
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2022,4243.395
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2023,4525.009
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2024,4763.179
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2025,5198.424
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2026,5107.464
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2027,5539.52
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2028,5789.135
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,2029,6493.088
+NGDP_D,"Gross domestic product, deflator",Index,1980,0.122
+NGDP_D,"Gross domestic product, deflator",Index,1981,0.122
+NGDP_D,"Gross domestic product, deflator",Index,1982,0.127
+NGDP_D,"Gross domestic product, deflator",Index,1983,0.131
+NGDP_D,"Gross domestic product, deflator",Index,1984,0.14
+NGDP_D,"Gross domestic product, deflator",Index,1985,0.146
+NGDP_D,"Gross domestic product, deflator",Index,1986,0.153
+NGDP_D,"Gross domestic product, deflator",Index,1987,0.161
+NGDP_D,"Gross domestic product, deflator",Index,1988,0.169
+NGDP_D,"Gross domestic product, deflator",Index,1989,0.178
+NGDP_D,"Gross domestic product, deflator",Index,1990,0.19
+NGDP_D,"Gross domestic product, deflator",Index,1991,0.2
+NGDP_D,"Gross domestic product, deflator",Index,1992,0.209
+NGDP_D,"Gross domestic product, deflator",Index,1993,0.218
+NGDP_D,"Gross domestic product, deflator",Index,1994,0.227
+NGDP_D,"Gross domestic product, deflator",Index,1995,0.237
+NGDP_D,"Gross domestic product, deflator",Index,1996,0.24
+NGDP_D,"Gross domestic product, deflator",Index,1997,0.237
+NGDP_D,"Gross domestic product, deflator",Index,1998,0.236
+NGDP_D,"Gross domestic product, deflator",Index,1999,0.237
+NGDP_D,"Gross domestic product, deflator",Index,2000,0.245
+NGDP_D,"Gross domestic product, deflator",Index,2001,0.249
+NGDP_D,"Gross domestic product, deflator",Index,2002,0.254
+NGDP_D,"Gross domestic product, deflator",Index,2003,0.255
+NGDP_D,"Gross domestic product, deflator",Index,2004,0.262
+NGDP_D,"Gross domestic product, deflator",Index,2005,0.267
+NGDP_D,"Gross domestic product, deflator",Index,2006,0.27
+NGDP_D,"Gross domestic product, deflator",Index,2007,0.281
+NGDP_D,"Gross domestic product, deflator",Index,2008,0.296
+NGDP_D,"Gross domestic product, deflator",Index,2009,0.299
+NGDP_D,"Gross domestic product, deflator",Index,2010,0.303
+NGDP_D,"Gross domestic product, deflator",Index,2011,0.312
+NGDP_D,"Gross domestic product, deflator",Index,2012,0.316
+NGDP_D,"Gross domestic product, deflator",Index,2013,0.322
+NGDP_D,"Gross domestic product, deflator",Index,2014,0.326
+NGDP_D,"Gross domestic product, deflator",Index,2015,0.326
+NGDP_D,"Gross domestic product, deflator",Index,2016,0.33
+NGDP_D,"Gross domestic product, deflator",Index,2017,0.339
+NGDP_D,"Gross domestic product, deflator",Index,2018,0.349
+NGDP_D,"Gross domestic product, deflator",Index,2019,0.356
+NGDP_D,"Gross domestic product, deflator",Index,2020,0.349
+NGDP_D,"Gross domestic product, deflator",Index,2021,0.348
+NGDP_D,"Gross domestic product, deflator",Index,2022,0.37
+NGDP_D,"Gross domestic product, deflator",Index,2023,0.377
+NGDP_D,"Gross domestic product, deflator",Index,2024,0.392
+NGDP_D,"Gross domestic product, deflator",Index,2025,0.41
+NGDP_D,"Gross domestic product, deflator",Index,2026,0.431
+NGDP_D,"Gross domestic product, deflator",Index,2027,0.451
+NGDP_D,"Gross domestic product, deflator",Index,2028,0.472
+NGDP_D,"Gross domestic product, deflator",Index,2029,0.494
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1980,3.815
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1981,-2.767
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1982,6.855
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1983,1.184
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1984,4.449
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1985,6.331
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1986,8.525
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1987,-2.493
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1988,10.359
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1989,1.757
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1990,3.959
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1991,6.943
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1992,-3.988
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1993,-0.989
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1994,10.665
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1995,-6.57
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1996,11.966
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1997,7.547
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1998,7.71
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,1999,0.431
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2000,1.586
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2001,6.256
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2002,3.059
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2003,5.452
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2004,4.158
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2005,2.838
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2006,5.382
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2007,3.506
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2008,5.647
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2009,4.234
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2010,3.579
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2011,5.198
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2012,3.003
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2013,4.577
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2014,2.658
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2015,4.627
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2016,0.354
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2017,4.843
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2018,3.078
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2019,2.872
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2020,-7.177
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2021,8.065
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2022,1.458
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2023,3.359
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2024,3.298
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2025,3.899
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2026,4.0
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2027,4.0
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2028,4.0
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,2029,3.9
+NID_NGDP,Total investment,Percent of GDP,1980,25.453
+NID_NGDP,Total investment,Percent of GDP,1981,28.206
+NID_NGDP,Total investment,Percent of GDP,1982,27.14
+NID_NGDP,Total investment,Percent of GDP,1983,24.776
+NID_NGDP,Total investment,Percent of GDP,1984,23.573
+NID_NGDP,Total investment,Percent of GDP,1985,23.281
+NID_NGDP,Total investment,Percent of GDP,1986,23.078
+NID_NGDP,Total investment,Percent of GDP,1987,24.182
+NID_NGDP,Total investment,Percent of GDP,1988,25.09
+NID_NGDP,Total investment,Percent of GDP,1989,25.662
+NID_NGDP,Total investment,Percent of GDP,1990,25.462
+NID_NGDP,Total investment,Percent of GDP,1991,23.462
+NID_NGDP,Total investment,Percent of GDP,1992,23.443
+NID_NGDP,Total investment,Percent of GDP,1993,23.215
+NID_NGDP,Total investment,Percent of GDP,1994,22.72
+NID_NGDP,Total investment,Percent of GDP,1995,23.806
+NID_NGDP,Total investment,Percent of GDP,1996,22.763
+NID_NGDP,Total investment,Percent of GDP,1997,22.084
+NID_NGDP,Total investment,Percent of GDP,1998,23.245
+NID_NGDP,Total investment,Percent of GDP,1999,24.02
+NID_NGDP,Total investment,Percent of GDP,2000,25.189
+NID_NGDP,Total investment,Percent of GDP,2001,24.907
+NID_NGDP,Total investment,Percent of GDP,2002,24.332
+NID_NGDP,Total investment,Percent of GDP,2003,25.558
+NID_NGDP,Total investment,Percent of GDP,2004,25.755
+NID_NGDP,Total investment,Percent of GDP,2005,26.855
+NID_NGDP,Total investment,Percent of GDP,2006,28.164
+NID_NGDP,Total investment,Percent of GDP,2007,29.769
+NID_NGDP,Total investment,Percent of GDP,2008,30.477
+NID_NGDP,Total investment,Percent of GDP,2009,30.153
+NID_NGDP,Total investment,Percent of GDP,2010,29.859
+NID_NGDP,Total investment,Percent of GDP,2011,30.324
+NID_NGDP,Total investment,Percent of GDP,2012,30.535
+NID_NGDP,Total investment,Percent of GDP,2013,31.175
+NID_NGDP,Total investment,Percent of GDP,2014,31.081
+NID_NGDP,Total investment,Percent of GDP,2015,30.78
+NID_NGDP,Total investment,Percent of GDP,2016,30.399
+NID_NGDP,Total investment,Percent of GDP,2017,30.866
+NID_NGDP,Total investment,Percent of GDP,2018,31.352
+NID_NGDP,Total investment,Percent of GDP,2019,30.115
+NID_NGDP,Total investment,Percent of GDP,2020,28.615
+NID_NGDP,Total investment,Percent of GDP,2021,29.375
+NID_NGDP,Total investment,Percent of GDP,2022,29.724
+NID_NGDP,Total investment,Percent of GDP,2023,28.723
+NID_NGDP,Total investment,Percent of GDP,2024,29.053
+NID_NGDP,Total investment,Percent of GDP,2025,29.392
+NID_NGDP,Total investment,Percent of GDP,2026,29.792
+NID_NGDP,Total investment,Percent of GDP,2027,30.184
+NID_NGDP,Total investment,Percent of GDP,2028,30.567
+NID_NGDP,Total investment,Percent of GDP,2029,30.0
+PCPIEPCH,"Consumer price index, period average",Percent change,1980,9.361
+PCPIEPCH,"Consumer price index, period average",Percent change,1981,12.029
+PCPIEPCH,"Consumer price index, period average",Percent change,1982,10.514
+PCPIEPCH,"Consumer price index, period average",Percent change,1983,6.271
+PCPIEPCH,"Consumer price index, period average",Percent change,1984,9.977
+PCPIEPCH,"Consumer price index, period average",Percent change,1985,7.321
+PCPIEPCH,"Consumer price index, period average",Percent change,1986,8.789
+PCPIEPCH,"Consumer price index, period average",Percent change,1987,2.673
+PCPIEPCH,"Consumer price index, period average",Percent change,1988,2.375
+PCPIEPCH,"Consumer price index, period average",Percent change,1989,4.304
+PCPIEPCH,"Consumer price index, period average",Percent change,1990,6.166
+PCPIEPCH,"Consumer price index, period average",Percent change,1991,7.822
+PCPIEPCH,"Consumer price index, period average",Percent change,1992,5.583
+PCPIEPCH,"Consumer price index, period average",Percent change,1993,5.127
+PCPIEPCH,"Consumer price index, period average",Percent change,1994,5.133
+PCPIEPCH,"Consumer price index, period average",Percent change,1995,6.089
+PCPIEPCH,"Consumer price index, period average",Percent change,1996,3.015
+PCPIEPCH,"Consumer price index, period average",Percent change,1997,0.987
+PCPIEPCH,"Consumer price index, period average",Percent change,1998,2.735
+PCPIEPCH,"Consumer price index, period average",Percent change,1999,0.694
+PCPIEPCH,"Consumer price index, period average",Percent change,2000,1.905
+PCPIEPCH,"Consumer price index, period average",Percent change,2001,0.549
+PCPIEPCH,"Consumer price index, period average",Percent change,2002,2.824
+PCPIEPCH,"Consumer price index, period average",Percent change,2003,1.193
+PCPIEPCH,"Consumer price index, period average",Percent change,2004,1.491
+PCPIEPCH,"Consumer price index, period average",Percent change,2005,0.992
+PCPIEPCH,"Consumer price index, period average",Percent change,2006,3.285
+PCPIEPCH,"Consumer price index, period average",Percent change,2007,2.062
+PCPIEPCH,"Consumer price index, period average",Percent change,2008,3.723
+PCPIEPCH,"Consumer price index, period average",Percent change,2009,0.979
+PCPIEPCH,"Consumer price index, period average",Percent change,2010,1.043
+PCPIEPCH,"Consumer price index, period average",Percent change,2011,0.909
+PCPIEPCH,"Consumer price index, period average",Percent change,2012,1.285
+PCPIEPCH,"Consumer price index, period average",Percent change,2013,1.883
+PCPIEPCH,"Consumer price index, period average",Percent change,2014,0.433
+PCPIEPCH,"Consumer price index, period average",Percent change,2015,1.557
+PCPIEPCH,"Consumer price index, period average",Percent change,2016,1.636
+PCPIEPCH,"Consumer price index, period average",Percent change,2017,0.778
+PCPIEPCH,"Consumer price index, period average",Percent change,2018,1.832
+PCPIEPCH,"Consumer price index, period average",Percent change,2019,0.28
+PCPIEPCH,"Consumer price index, period average",Percent change,2020,0.724
+PCPIEPCH,"Consumer price index, period average",Percent change,2021,1.387
+PCPIEPCH,"Consumer price index, period average",Percent change,2022,6.644
+PCPIEPCH,"Consumer price index, period average",Percent change,2023,6.088
+PCPIEPCH,"Consumer price index, period average",Percent change,2024,1.161
+PCPIEPCH,"Consumer price index, period average",Percent change,2025,2.089
+PCPIEPCH,"Consumer price index, period average",Percent change,2026,2.0
+PCPIEPCH,"Consumer price index, period average",Percent change,2027,2.0
+PCPIEPCH,"Consumer price index, period average",Percent change,2028,2.0
+PCPIEPCH,"Consumer price index, period average",Percent change,2029,2.0
+TM_RPCH,Volume of imports of goods and services,Percent change,1980,1.474
+TM_RPCH,Volume of imports of goods and services,Percent change,1981,1.035
+TM_RPCH,Volume of imports of goods and services,Percent change,1982,1.447
+TM_RPCH,Volume of imports of goods and services,Percent change,1983,-1.178
+TM_RPCH,Volume of imports of goods and services,Percent change,1984,6.299
+TM_RPCH,Volume of imports of goods and services,Percent change,1985,6.588
+TM_RPCH,Volume of imports of goods and services,Percent change,1986,0.989
+TM_RPCH,Volume of imports of goods and services,Percent change,1987,11.031
+TM_RPCH,Volume of imports of goods and services,Percent change,1988,14.98
+TM_RPCH,Volume of imports of goods and services,Percent change,1989,8.152
+TM_RPCH,Volume of imports of goods and services,Percent change,1990,6.704
+TM_RPCH,Volume of imports of goods and services,Percent change,1991,4.249
+TM_RPCH,Volume of imports of goods and services,Percent change,1992,-1.778
+TM_RPCH,Volume of imports of goods and services,Percent change,1993,-5.776
+TM_RPCH,Volume of imports of goods and services,Percent change,1994,14.472
+TM_RPCH,Volume of imports of goods and services,Percent change,1995,3.927
+TM_RPCH,Volume of imports of goods and services,Percent change,1996,2.177
+TM_RPCH,Volume of imports of goods and services,Percent change,1997,3.736
+TM_RPCH,Volume of imports of goods and services,Percent change,1998,9.367
+TM_RPCH,Volume of imports of goods and services,Percent change,1999,0.592
+TM_RPCH,Volume of imports of goods and services,Percent change,2000,0.046
+TM_RPCH,Volume of imports of goods and services,Percent change,2001,7.089
+TM_RPCH,Volume of imports of goods and services,Percent change,2002,4.964
+TM_RPCH,Volume of imports of goods and services,Percent change,2003,5.761
+TM_RPCH,Volume of imports of goods and services,Percent change,2004,8.633
+TM_RPCH,Volume of imports of goods and services,Percent change,2005,5.947
+TM_RPCH,Volume of imports of goods and services,Percent change,2006,7.914
+TM_RPCH,Volume of imports of goods and services,Percent change,2007,10.701
+TM_RPCH,Volume of imports of goods and services,Percent change,2008,10.851
+TM_RPCH,Volume of imports of goods and services,Percent change,2009,-4.501
+TM_RPCH,Volume of imports of goods and services,Percent change,2010,1.377
+TM_RPCH,Volume of imports of goods and services,Percent change,2011,9.261
+TM_RPCH,Volume of imports of goods and services,Percent change,2012,-0.63
+TM_RPCH,Volume of imports of goods and services,Percent change,2013,5.236
+TM_RPCH,Volume of imports of goods and services,Percent change,2014,3.328
+TM_RPCH,Volume of imports of goods and services,Percent change,2015,3.993
+TM_RPCH,Volume of imports of goods and services,Percent change,2016,6.52
+TM_RPCH,Volume of imports of goods and services,Percent change,2017,7.689
+TM_RPCH,Volume of imports of goods and services,Percent change,2018,5.756
+TM_RPCH,Volume of imports of goods and services,Percent change,2019,2.679
+TM_RPCH,Volume of imports of goods and services,Percent change,2020,-14.488
+TM_RPCH,Volume of imports of goods and services,Percent change,2021,19.516
+TM_RPCH,Volume of imports of goods and services,Percent change,2022,10.439
+TM_RPCH,Volume of imports of goods and services,Percent change,2023,1.921
+TM_RPCH,Volume of imports of goods and services,Percent change,2024,4.607
+TM_RPCH,Volume of imports of goods and services,Percent change,2025,3.523
+TM_RPCH,Volume of imports of goods and services,Percent change,2026,3.5
+TM_RPCH,Volume of imports of goods and services,Percent change,2027,3.5
+TM_RPCH,Volume of imports of goods and services,Percent change,2028,3.5
+TM_RPCH,Volume of imports of goods and services,Percent change,2029,3.5
+TX_RPCH,Volume of exports of goods and services,Percent change,1980,-1.819
+TX_RPCH,Volume of exports of goods and services,Percent change,1981,-8.441
+TX_RPCH,Volume of exports of goods and services,Percent change,1982,3.155
+TX_RPCH,Volume of exports of goods and services,Percent change,1983,5.64
+TX_RPCH,Volume of exports of goods and services,Percent change,1984,10.393
+TX_RPCH,Volume of exports of goods and services,Percent change,1985,7.435
+TX_RPCH,Volume of exports of goods and services,Percent change,1986,6.163
+TX_RPCH,Volume of exports of goods and services,Percent change,1987,10.642
+TX_RPCH,Volume of exports of goods and services,Percent change,1988,13.395
+TX_RPCH,Volume of exports of goods and services,Percent change,1989,14.587
+TX_RPCH,Volume of exports of goods and services,Percent change,1990,9.898
+TX_RPCH,Volume of exports of goods and services,Percent change,1991,5.544
+TX_RPCH,Volume of exports of goods and services,Percent change,1992,0.829
+TX_RPCH,Volume of exports of goods and services,Percent change,1993,0.877
+TX_RPCH,Volume of exports of goods and services,Percent change,1994,14.959
+TX_RPCH,Volume of exports of goods and services,Percent change,1995,4.299
+TX_RPCH,Volume of exports of goods and services,Percent change,1996,7.45
+TX_RPCH,Volume of exports of goods and services,Percent change,1997,9.741
+TX_RPCH,Volume of exports of goods and services,Percent change,1998,7.013
+TX_RPCH,Volume of exports of goods and services,Percent change,1999,2.387
+TX_RPCH,Volume of exports of goods and services,Percent change,2000,6.72
+TX_RPCH,Volume of exports of goods and services,Percent change,2001,3.757
+TX_RPCH,Volume of exports of goods and services,Percent change,2002,9.077
+TX_RPCH,Volume of exports of goods and services,Percent change,2003,4.926
+TX_RPCH,Volume of exports of goods and services,Percent change,2004,5.262
+TX_RPCH,Volume of exports of goods and services,Percent change,2005,3.84
+TX_RPCH,Volume of exports of goods and services,Percent change,2006,3.712
+TX_RPCH,Volume of exports of goods and services,Percent change,2007,3.004
+TX_RPCH,Volume of exports of goods and services,Percent change,2008,-1.954
+TX_RPCH,Volume of exports of goods and services,Percent change,2009,-11.956
+TX_RPCH,Volume of exports of goods and services,Percent change,2010,10.987
+TX_RPCH,Volume of exports of goods and services,Percent change,2011,11.126
+TX_RPCH,Volume of exports of goods and services,Percent change,2012,3.61
+TX_RPCH,Volume of exports of goods and services,Percent change,2013,4.994
+TX_RPCH,Volume of exports of goods and services,Percent change,2014,4.772
+TX_RPCH,Volume of exports of goods and services,Percent change,2015,4.128
+TX_RPCH,Volume of exports of goods and services,Percent change,2016,1.176
+TX_RPCH,Volume of exports of goods and services,Percent change,2017,8.249
+TX_RPCH,Volume of exports of goods and services,Percent change,2018,6.623
+TX_RPCH,Volume of exports of goods and services,Percent change,2019,5.07
+TX_RPCH,Volume of exports of goods and services,Percent change,2020,-20.114
+TX_RPCH,Volume of exports of goods and services,Percent change,2021,25.282
+TX_RPCH,Volume of exports of goods and services,Percent change,2022,19.458
+TX_RPCH,Volume of exports of goods and services,Percent change,2023,5.517
+TX_RPCH,Volume of exports of goods and services,Percent change,2024,7.356
+TX_RPCH,Volume of exports of goods and services,Percent change,2025,4.707
+TX_RPCH,Volume of exports of goods and services,Percent change,2026,3.9
+TX_RPCH,Volume of exports of goods and services,Percent change,2027,3.9
+TX_RPCH,Volume of exports of goods and services,Percent change,2028,3.9
+TX_RPCH,Volume of exports of goods and services,Percent change,2029,3.9

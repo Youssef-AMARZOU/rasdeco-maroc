@@ -1,8 +1,8 @@
 {
   "title": "Donnees Economiques Maroc - RASD-Maroc",
   "id": "amarzouyoussef/economie-maroc-rasd",
-  "subtitle": "243K observations economiques du Maroc 2000-2025 (PIB, IPC, Emploi)",
-  "description": "Dataset collecte automatiquement depuis 5 sources officielles marocaines: HCP (Haut-Commissariat au Plan), BKAM (Bank Al-Maghrib), Finances Publiques, Datagov.ma, Office des Changes.\n\nContient 243,535 observations de 11 indicateurs economiques sur la periode 2000-2025:\n- PIB trimestriel (volume rectifie)\n- IPC (Indice des Prix a la Consommation)\n- Taux d'emploi\n- Dette publique\n- Investissement public\n- Deficit budgetaire\n- OPCVM (marche financier)\n- Taux de change USD/MAD\n- Exportations\n- Indicateur HCP generique\n- PIB annuel\n\nChaque observation inclut: date, valeur, unite, source, fiabilite, version de serie.\nPrevisions naive-tendance 12 mois integrees dans le notebook d'analyse.",
+  "subtitle": "243K observations economiques du Maroc 2000-2025 + FMI WEO 1980-2029",
+  "description": "Dataset collecte automatiquement depuis 5 sources officielles marocaines + FMI WEO.\n\nSources officielles: HCP, BKAM, Finances Publiques, Datagov.ma, Office des Changes.\n\nContient 243,535 observations de 11 indicateurs economiques sur la periode 2000-2025.\n\nFMI WEO: 17 indicateurs macroeconomiques du Maroc sur 50 ans (1980-2029):\n- Croissance PIB, PIB nominal, PIB/habitant\n- Inflation IPC, Deflateur PIB\n- Taux de chomage\n- Finances publiques (recettes, depenses, deficit, dette)\n- Balance courante (M USD, % PIB)\n- Commerce exterieur (exports, imports)\n- Investissement total (% PIB)\n- Population\n\nChaque observation inclut: date, valeur, unite, source, fiabilite.",
   "licenses": [
     {
       "name": "CC-BY-4.0"
@@ -18,6 +18,9 @@
     "inflation",
     "employment",
     "public-debt",
+    "imf",
+    "weo",
+    "world-economic-outlook",
     "hcp",
     "bank-al-maghrib",
     "open-data"
@@ -26,6 +29,14 @@
     {
       "path": "economie_maroc.parquet",
       "description": "Dataset complet en Parquet (803 KB) - 243,535 lignes, 13 colonnes"
+    },
+    {
+      "path": "morocco_imf.parquet",
+      "description": "FMI WEO Maroc 1980-2029 (810 lignes) - 17 indicateurs macro"
+    },
+    {
+      "path": "morocco_imf_wide.parquet",
+      "description": "FMI WEO format wide - 17 indicateurs x 50 annees"
     },
     {
       "path": "by_source/hcp.csv",
@@ -46,11 +57,15 @@
     {
       "path": "by_source/oc.csv",
       "description": "Donnees Office des Changes - 1,306 observations"
+    },
+    {
+      "path": "by_source/imf_weo.csv",
+      "description": "FMI WEO Maroc 1980-2029 (810 lignes) - format long"
     }
   ],
   "temporal_coverage": {
     "start": "2000-01-01",
-    "end": "2025-01-01"
+    "end": "2029-01-01"
   },
   "geospatial_coverage": "Maroc (national)"
 }
