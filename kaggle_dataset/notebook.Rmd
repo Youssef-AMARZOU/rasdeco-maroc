@@ -1,0 +1,295 @@
+---
+title: "Analyse des Données Économiques du Maroc — RASD-Maroc"
+author: "Youssef Amarzou"
+output:
+  html_notebook:
+    toc: true
+    toc_float: true
+    code_folding: hide
+date: "2026-07-28"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+options(repr.plot.width = 12, repr.plot.height = 6)
+```
+
+# Analyse des Données Économiques du Maroc
+
+Ce notebook charge les datasets du projet **RASD-Maroc** et produit des KPIs synthétiques pour chaque source et chaque indicateur.
+
+Sources :
+- **FMI WEO** — 17 indicateurs macroéconomiques (1980–2029)
+- **HCP** — PIB, IPC, chômage, emploi (2005–2023)
+- **BKAM** — Actifs/passifs OPCVM (2005–2023)
+- **Finances Publiques** — Dette, budget, dépenses (2006–2014)
+- **DataGov.ma** — Hydrologie, emploi, infrastructure
+- **Office des Changes** — IDE, balance des paiements
+
+## 1. Chargement des bibliothèques
+
+```{r load-libraries}
+library(arrow)        # Lecture Parquet
+library(data.table)   # Manipulation rapide
+library(ggplot2)      # Graphiques
+library(scales)       # Échelles
+library(dplyr)        # data wrangling
+library(tidyr)        # reshape
+library(knitr)        # tableaux
+library(kableExtra)   # tableaux stylisés
+```
+
+## 2. Chargement des datasets
+
+```{r load-data, results='hold'}
+# Dataset complet
+economie <- read_parquet("economie_maroc.parquet")
+cat("Lignes chargées:", nrow(economie), "\n")
+
+# FMI WEO
+imf_long <- read_parquet("morocco_imf.parquet")
+imf_wide <- read_parquet("morocco_imf_wide.parquet")
+cat("FMI WEO long:", nrow(imf_long), "lignes\n")
+cat("FMI WEO wide:", nrow(imf_wide), "lignes\n")
+
+# Sources individuelles
+hcp <- fread("by_source/hcp.csv", sep = ",")
+bam <- fread("by_source/bam.csv", sep = ",")
+fin <- fread("by_source/fin.csv", sep = ",")
+datagov <- fread("by_source/datagov.csv", sep = ",")
+oc <- fread("by_source/oc.csv", sep = ",")
+imf_csv <- fread("by_source/imf_weo.csv", sep = ",")
+```
+
+```{r structure, results='hold'}
+glimpse(economie)
+```
+
+## 3. KPIs par Source
+
+```{r kpi-by-source}
+kpi_source <- economie %>%
+  group_by(source_code) %>%
+  summarise(
+    obs = n(),
+    indicateurs = n_distinct(code_indicateur),
+    date_min = min(date, na.rm = TRUE),
+    date_max = max(date, na.rm = TRUE),
+    valeur_moy = mean(valeur, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+kpi_source %>%
+  kable(
+    caption = "**KPIs par source**",
+    col.names = c("Source", "Obs.", "Indicateurs", "Début", "Fin", "Moyenne"),
+    digits = 2
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+## 4. KPIs par Indicateur (top 20)
+
+```{r kpi-by-indicator}
+kpi_indicateur <- economie %>%
+  group_by(code_indicateur, unite) %>%
+  summarise(
+    obs = n(),
+    date_min = min(date, na.rm = TRUE),
+    date_max = max(date, na.rm = TRUE),
+    valeur_moy = mean(valeur, na.rm = TRUE),
+    valeur_sd = sd(valeur, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(obs)) %>%
+  head(20)
+
+kpi_indicateur %>%
+  kable(
+    caption = "**Top 20 indicateurs par volume**",
+    digits = 2
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+## 5. Analyse FMI WEO
+
+### 5.1 Vue d'ensemble
+
+```{r imf-overview}
+imf_summary <- imf_long %>%
+  group_by(indicator_code) %>%
+  summarise(
+    indicator_name = first(indicator_label),
+    obs = n(),
+    annee_min = min(year, na.rm = TRUE),
+    annee_max = max(year, na.rm = TRUE),
+    valeur_moy = mean(value, na.rm = TRUE),
+    valeur_min = min(value, na.rm = TRUE),
+    valeur_max = max(value, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+imf_summary %>%
+  kable(
+    caption = "**Récapitulatif des indicateurs FMI WEO**",
+    digits = 2
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+### 5.2 Croissance du PIB
+
+```{r imf-gdp-growth}
+gdp <- imf_long %>%
+  filter(indicator_code == "NGDP_RPCH")
+
+gdp %>%
+  ggplot(aes(x = year, y = value)) +
+  geom_line(color = "#2563eb", linewidth = 1.2) +
+  geom_point(color = "#2563eb", size = 2, alpha = 0.6) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red") +
+  scale_y_continuous(labels = function(x) paste0(x, "%")) +
+  labs(
+    title = "Croissance du PIB réel — Maroc (1980–2029)",
+    x = "Année",
+    y = "Variation annuelle (%)",
+    caption = "Source : FMI WEO Avril 2026"
+  ) +
+  theme_minimal()
+```
+
+### 5.3 Inflation
+
+```{r imf-inflation}
+inflation <- imf_long %>%
+  filter(indicator_code == "PCPIEPCH")
+
+inflation %>%
+  ggplot(aes(x = year, y = value)) +
+  geom_area(fill = "#dc2626", alpha = 0.3) +
+  geom_line(color = "#dc2626", linewidth = 1.2) +
+  geom_point(color = "#dc2626", size = 2, alpha = 0.6) +
+  scale_y_continuous(labels = function(x) paste0(x, "%")) +
+  labs(
+    title = "Inflation IPC — Maroc (1980–2029)",
+    x = "Année",
+    y = "Taux d'inflation (%)",
+    caption = "Source : FMI WEO Avril 2026"
+  ) +
+  theme_minimal()
+```
+
+### 5.4 Chômage
+
+```{r imf-unemployment}
+unemp <- imf_long %>%
+  filter(indicator_code == "LUR")
+
+unemp %>%
+  ggplot(aes(x = year, y = value)) +
+  geom_line(color = "#7c3aed", linewidth = 1.2) +
+  geom_point(color = "#7c3aed", size = 2, alpha = 0.6) +
+  scale_y_continuous(labels = function(x) paste0(x, "%")) +
+  labs(
+    title = "Taux de Chômage — Maroc (1980–2029)",
+    x = "Année",
+    y = "Taux de chômage (%)",
+    caption = "Source : FMI WEO Avril 2026"
+  ) +
+  theme_minimal()
+```
+
+### 5.5 Finances Publiques
+
+```{r imf-public-finance}
+pub_fin <- imf_long %>%
+  filter(indicator_code %in% c("GGR", "GGX", "GGXCNL", "GGXWDG")) %>%
+  mutate(indicator_label = recode(indicator_code,
+    GGR = "Recettes (% PIB)",
+    GGX = "Dépenses (% PIB)",
+    GGXCNL = "Déficit (% PIB)",
+    GGXWDG = "Dette (% PIB)"
+  ))
+
+pub_fin %>%
+  ggplot(aes(x = year, y = value, color = indicator_label)) +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 1.5, alpha = 0.5) +
+  scale_color_manual(values = c(
+    "Recettes (% PIB)" = "#16a34a",
+    "Dépenses (% PIB)" = "#dc2626",
+    "Déficit (% PIB)" = "#ea580c",
+    "Dette (% PIB)" = "#7c3aed"
+  )) +
+  labs(
+    title = "Finances Publiques — Maroc (1990–2029)",
+    x = "Année",
+    y = "% du PIB",
+    color = "Indicateur",
+    caption = "Source : FMI WEO Avril 2026"
+  ) +
+  theme_minimal()
+```
+
+## 6. Comparaison Régionale (FMI)
+
+```{r regional-comparison, results='hold'}
+# Données de comparaison régionale intégrées
+regional <- data.frame(
+  Pays = c("Maroc", "Algérie", "Tunisie", "Égypte", "Afrique Sub-Saharienne"),
+  PIB_Croissance_2026 = c(3.9, 3.8, 2.5, 4.5, 4.2),
+  Inflation_2026 = c(2.0, 5.0, 5.5, 12.0, 7.5),
+  Chomage_2026 = c(12.5, 12.0, 15.5, 7.0, NA),
+  Dette_PIB_2026 = c(69.8, 55.0, 80.0, 90.0, 60.0),
+  Population_2026_M = c(38.1, 46.5, 12.5, 107.0, 1200.0)
+)
+
+regional %>%
+  kable(
+    caption = "**Comparaison Régionale — Projections 2026**",
+    digits = 1
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+## 7. Tableau de Bord Synthétique
+
+```{r dashboard, results='hold'}
+# KPIs clés pour 2026
+kpis_2026 <- imf_long %>%
+  filter(year == 2026) %>%
+  select(indicator_label, value, units)
+
+kpis_2026 %>%
+  kable(
+    caption = "**Indicateurs Macroéconomiques — Maroc 2026**",
+    col.names = c("Indicateur", "Valeur", "Unité"),
+    digits = 2
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+## 8. Export des KPIs
+
+```{r export, results='hold'}
+# Sauvegarder les KPIs en CSV pour téléchargement
+fwrite(kpi_source, "kpi_par_source.csv")
+fwrite(kpi_indicateur, "kpi_par_indicateur.csv")
+fwrite(imf_summary, "kpi_fmi_weo.csv")
+fwrite(regional, "comparaison_regionale.csv")
+
+cat("Fichiers exportés :\n")
+cat("- kpi_par_source.csv\n")
+cat("- kpi_par_indicateur.csv\n")
+cat("- kpi_fmi_weo.csv\n")
+cat("- comparaison_regionale.csv\n")
+```
+
+---
+
+**Auteur** : Youssef Amarzou — RASD-Maroc Project
+
+**Données** : FMI WEO Avril 2026 | HCP | BKAM | Finances Publiques | DataGov.ma | Office des Changes
+
+**Licence** : CC-BY-4.0

@@ -61,6 +61,10 @@
     {
       "path": "by_source/imf_weo.csv",
       "description": "FMI WEO Maroc 1980-2029 (810 lignes) - format long"
+    },
+    {
+      "path": "notebook.Rmd",
+      "description": "Notebook R pour analyse et KPIs - charge tous les datasets et produit des visualisations"
     }
   ],
   "temporal_coverage": {
