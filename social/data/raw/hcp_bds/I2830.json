@@ -1,0 +1,214 @@
+{
+  "iid": 509,
+  "code": "I2830",
+  "label": "Quotient de mortalité infantile",
+  "metaData": {
+    "unit": "‰",
+    "frequency": "IR",
+    "source": "ENDPR 86-88, PANEL 1995, ENSME 1997, EPSF 2011, RGPH, ENPSF 2018",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2018",
+    "2011",
+    "2010",
+    "2004",
+    "1992",
+    "1988"
+  ],
+  "dimensions": [
+    {
+      "id": 382,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 5595,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 5596,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 5597,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 383,
+      "rank": 2,
+      "label": "Sexe",
+      "modalites": [
+        {
+          "id": 5598,
+          "rank": 1,
+          "label": "Masculin",
+          "total": false
+        },
+        {
+          "id": 5599,
+          "rank": 2,
+          "label": "Féminin",
+          "total": false
+        },
+        {
+          "id": 5600,
+          "rank": 3,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1576395000000,
+  "data": {
+    "5596.5598_1988": {
+      "value": "93.7",
+      "footNote": null
+    },
+    "5596.5599_1988": {
+      "value": "85.6",
+      "footNote": null
+    },
+    "5596.5600_1988": {
+      "value": "89.7",
+      "footNote": null
+    },
+    "5596.5600_1992": {
+      "value": "69.3",
+      "footNote": null
+    },
+    "5596.5600_2004": {
+      "value": "55",
+      "footNote": null
+    },
+    "5596.5600_2010": {
+      "value": "35.3",
+      "footNote": null
+    },
+    "5596.5600_2011": {
+      "value": "33.5",
+      "footNote": null
+    },
+    "5596.5600_2018": {
+      "value": "21.6",
+      "footNote": null
+    },
+    "5597.5600_1988": {
+      "value": "75.7",
+      "footNote": null
+    },
+    "5597.5600_1992": {
+      "value": "63.1",
+      "footNote": null
+    },
+    "5597.5600_2004": {
+      "value": "40",
+      "footNote": null
+    },
+    "5597.5600_2010": {
+      "value": "30.2",
+      "footNote": null
+    },
+    "5597.5600_2011": {
+      "value": "28.8",
+      "footNote": null
+    },
+    "5597.5600_2018": {
+      "value": "18",
+      "footNote": null
+    },
+    "5597.5599_1988": {
+      "value": "69.8",
+      "footNote": null
+    },
+    "5597.5599_1992": {
+      "value": "57.4",
+      "footNote": null
+    },
+    "5597.5599_2004": {
+      "value": "37",
+      "footNote": null
+    },
+    "5597.5599_2010": {
+      "value": "27.4",
+      "footNote": null
+    },
+    "5597.5599_2011": {
+      "value": "23.5",
+      "footNote": null
+    },
+    "5597.5599_2018": {
+      "value": "17.7",
+      "footNote": null
+    },
+    "5595.5600_1988": {
+      "value": "45.52",
+      "footNote": null
+    },
+    "5595.5600_1992": {
+      "value": "51.9",
+      "footNote": null
+    },
+    "5595.5600_2004": {
+      "value": "33",
+      "footNote": null
+    },
+    "5595.5600_2010": {
+      "value": "25.3",
+      "footNote": null
+    },
+    "5595.5600_2011": {
+      "value": "23.6",
+      "footNote": null
+    },
+    "5595.5600_2018": {
+      "value": "14.9",
+      "footNote": null
+    },
+    "5595.5599_1988": {
+      "value": "35.9",
+      "footNote": null
+    },
+    "5597.5598_1988": {
+      "value": "81.4",
+      "footNote": null
+    },
+    "5597.5598_1992": {
+      "value": "68.6",
+      "footNote": null
+    },
+    "5597.5598_2004": {
+      "value": "51",
+      "footNote": null
+    },
+    "5597.5598_2010": {
+      "value": "32.7",
+      "footNote": null
+    },
+    "5597.5598_2011": {
+      "value": "33.8",
+      "footNote": null
+    },
+    "5597.5598_2018": {
+      "value": "18.3",
+      "footNote": null
+    },
+    "5595.5598_1988": {
+      "value": "54.7",
+      "footNote": null
+    }
+  }
+}

@@ -1,0 +1,894 @@
+{
+  "iid": 451,
+  "code": "I4348",
+  "label": "Production  forestière",
+  "metaData": {
+    "unit": "1000 m3/1000 stères/Tonne",
+    "frequency": "AS",
+    "source": "Ministère de l'Agriculture, de la Pêche Maritime, du Développent Rural et des Eaux et Forêts",
+    "definitionFr": " Les forêts sont des terres occupant une superficie de plus de 0,5 hectare (5 000m2) avec des arbres atteignant une hauteur supérieure à 5 mètres et un couvert forestier de plus de 10%, ou avec des arbres capables de remplir ces critères.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012"
+  ],
+  "dimensions": [
+    {
+      "id": 302,
+      "rank": 1,
+      "label": "Type de bois",
+      "modalites": [
+        {
+          "id": 4691,
+          "rank": 1,
+          "label": "Bois d'oeuvre (1000 m3)",
+          "total": false
+        },
+        {
+          "id": 4692,
+          "rank": 2,
+          "label": "Bois d'industrie (1000 m3)",
+          "total": false
+        },
+        {
+          "id": 4693,
+          "rank": 3,
+          "label": "Bois de feu (1000 stères)",
+          "total": false
+        },
+        {
+          "id": 4694,
+          "rank": 4,
+          "label": "Liège de reproduction (1000 stères)",
+          "total": false
+        },
+        {
+          "id": 4695,
+          "rank": 5,
+          "label": "Liège mâle (1000 stères)",
+          "total": false
+        },
+        {
+          "id": 4696,
+          "rank": 6,
+          "label": "Liège de coupe (1000 stères)",
+          "total": false
+        },
+        {
+          "id": 4697,
+          "rank": 7,
+          "label": "Ecorce à tanin (Tonne)",
+          "total": false
+        },
+        {
+          "id": 4698,
+          "rank": 8,
+          "label": "Caroube (Tonne)",
+          "total": false
+        },
+        {
+          "id": 4699,
+          "rank": 9,
+          "label": "Lichen (Tonne)",
+          "total": false
+        },
+        {
+          "id": 4700,
+          "rank": 10,
+          "label": "Myrte (Tonne)",
+          "total": false
+        },
+        {
+          "id": 4701,
+          "rank": 11,
+          "label": "Romarin (Tonne)",
+          "total": false
+        },
+        {
+          "id": 4702,
+          "rank": 12,
+          "label": "Thym (Tonne)",
+          "total": false
+        },
+        {
+          "id": 4703,
+          "rank": 13,
+          "label": "Souche de bruyère (Tonne)",
+          "total": false
+        },
+        {
+          "id": 4704,
+          "rank": 14,
+          "label": "Alfa (Tonne)",
+          "total": false
+        },
+        {
+          "id": 4705,
+          "rank": 15,
+          "label": "Doum (Tonne)",
+          "total": false
+        },
+        {
+          "id": 4706,
+          "rank": 16,
+          "label": "Cistes (Tonne)",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1772630999773,
+  "data": {
+    "4704_2012": {
+      "value": "0",
+      "footNote": null
+    },
+    "4704_2013": {
+      "value": "0",
+      "footNote": null
+    },
+    "4704_2014": {
+      "value": "0",
+      "footNote": null
+    },
+    "4704_2016": {
+      "value": "0",
+      "footNote": null
+    },
+    "4704_2017": {
+      "value": "0",
+      "footNote": null
+    },
+    "4704_2018": {
+      "value": "0",
+      "footNote": null
+    },
+    "4704_2019": {
+      "value": "0",
+      "footNote": null
+    },
+    "4704_2020": {
+      "value": "0",
+      "footNote": null
+    },
+    "4704_2021": {
+      "value": "0",
+      "footNote": null
+    },
+    "4703_2012": {
+      "value": "124",
+      "footNote": null
+    },
+    "4703_2013": {
+      "value": "514",
+      "footNote": null
+    },
+    "4703_2014": {
+      "value": "0",
+      "footNote": null
+    },
+    "4703_2016": {
+      "value": "100",
+      "footNote": null
+    },
+    "4703_2017": {
+      "value": "25",
+      "footNote": null
+    },
+    "4703_2018": {
+      "value": "65",
+      "footNote": null
+    },
+    "4703_2019": {
+      "value": "57",
+      "footNote": null
+    },
+    "4703_2020": {
+      "value": "0",
+      "footNote": null
+    },
+    "4703_2021": {
+      "value": "42",
+      "footNote": null
+    },
+    "4703_2022": {
+      "value": "31",
+      "footNote": null
+    },
+    "4703_2023": {
+      "value": "19",
+      "footNote": null
+    },
+    "4703_2024": {
+      "value": "0",
+      "footNote": null
+    },
+    "4706_2012": {
+      "value": "0",
+      "footNote": null
+    },
+    "4706_2013": {
+      "value": "0",
+      "footNote": null
+    },
+    "4706_2014": {
+      "value": "0",
+      "footNote": null
+    },
+    "4706_2016": {
+      "value": "0",
+      "footNote": null
+    },
+    "4706_2017": {
+      "value": "0",
+      "footNote": null
+    },
+    "4706_2018": {
+      "value": "0",
+      "footNote": null
+    },
+    "4706_2019": {
+      "value": "0",
+      "footNote": null
+    },
+    "4706_2020": {
+      "value": "439",
+      "footNote": null
+    },
+    "4706_2021": {
+      "value": "0",
+      "footNote": null
+    },
+    "4705_2012": {
+      "value": "0",
+      "footNote": null
+    },
+    "4705_2013": {
+      "value": "0",
+      "footNote": null
+    },
+    "4705_2014": {
+      "value": "0",
+      "footNote": null
+    },
+    "4705_2016": {
+      "value": "0",
+      "footNote": null
+    },
+    "4705_2017": {
+      "value": "7",
+      "footNote": null
+    },
+    "4705_2018": {
+      "value": "0",
+      "footNote": null
+    },
+    "4705_2019": {
+      "value": "0",
+      "footNote": null
+    },
+    "4705_2020": {
+      "value": "0",
+      "footNote": null
+    },
+    "4705_2021": {
+      "value": "0",
+      "footNote": null
+    },
+    "4700_2012": {
+      "value": "0",
+      "footNote": null
+    },
+    "4700_2013": {
+      "value": "0",
+      "footNote": null
+    },
+    "4700_2014": {
+      "value": "157",
+      "footNote": null
+    },
+    "4700_2015": {
+      "value": "80",
+      "footNote": null
+    },
+    "4700_2016": {
+      "value": "0",
+      "footNote": null
+    },
+    "4700_2017": {
+      "value": "0",
+      "footNote": null
+    },
+    "4700_2018": {
+      "value": "23",
+      "footNote": null
+    },
+    "4700_2019": {
+      "value": "0",
+      "footNote": null
+    },
+    "4700_2020": {
+      "value": "673",
+      "footNote": null
+    },
+    "4700_2021": {
+      "value": "0",
+      "footNote": null
+    },
+    "4699_2012": {
+      "value": "0",
+      "footNote": null
+    },
+    "4699_2013": {
+      "value": "30",
+      "footNote": null
+    },
+    "4699_2014": {
+      "value": "0",
+      "footNote": null
+    },
+    "4699_2015": {
+      "value": "2",
+      "footNote": null
+    },
+    "4699_2016": {
+      "value": "2",
+      "footNote": null
+    },
+    "4699_2017": {
+      "value": "0",
+      "footNote": null
+    },
+    "4699_2018": {
+      "value": "6",
+      "footNote": null
+    },
+    "4699_2019": {
+      "value": "6",
+      "footNote": null
+    },
+    "4699_2020": {
+      "value": "60",
+      "footNote": null
+    },
+    "4699_2021": {
+      "value": "3",
+      "footNote": null
+    },
+    "4699_2022": {
+      "value": "195",
+      "footNote": null
+    },
+    "4699_2023": {
+      "value": "204",
+      "footNote": null
+    },
+    "4699_2024": {
+      "value": "654",
+      "footNote": null
+    },
+    "4702_2012": {
+      "value": "420",
+      "footNote": null
+    },
+    "4702_2013": {
+      "value": "700",
+      "footNote": null
+    },
+    "4702_2014": {
+      "value": "0",
+      "footNote": null
+    },
+    "4702_2015": {
+      "value": "10",
+      "footNote": null
+    },
+    "4702_2016": {
+      "value": "200",
+      "footNote": null
+    },
+    "4702_2017": {
+      "value": "0",
+      "footNote": null
+    },
+    "4702_2018": {
+      "value": "8",
+      "footNote": null
+    },
+    "4702_2019": {
+      "value": "0",
+      "footNote": null
+    },
+    "4702_2020": {
+      "value": "6",
+      "footNote": null
+    },
+    "4702_2021": {
+      "value": "0",
+      "footNote": null
+    },
+    "4702_2024": {
+      "value": "0",
+      "footNote": null
+    },
+    "4701_2012": {
+      "value": "18918",
+      "footNote": null
+    },
+    "4701_2013": {
+      "value": "39380",
+      "footNote": null
+    },
+    "4701_2014": {
+      "value": "1150",
+      "footNote": null
+    },
+    "4701_2015": {
+      "value": "2163",
+      "footNote": null
+    },
+    "4701_2016": {
+      "value": "5042",
+      "footNote": null
+    },
+    "4701_2017": {
+      "value": "53502",
+      "footNote": null
+    },
+    "4701_2018": {
+      "value": "31444",
+      "footNote": null
+    },
+    "4701_2019": {
+      "value": "14720",
+      "footNote": null
+    },
+    "4701_2020": {
+      "value": "43966",
+      "footNote": null
+    },
+    "4701_2021": {
+      "value": "9734",
+      "footNote": null
+    },
+    "4701_2022": {
+      "value": "2250",
+      "footNote": null
+    },
+    "4701_2023": {
+      "value": "752",
+      "footNote": null
+    },
+    "4701_2024": {
+      "value": "6571",
+      "footNote": null
+    },
+    "4696_2012": {
+      "value": "1",
+      "footNote": null
+    },
+    "4696_2013": {
+      "value": "5",
+      "footNote": null
+    },
+    "4696_2014": {
+      "value": "2",
+      "footNote": null
+    },
+    "4696_2015": {
+      "value": "1",
+      "footNote": null
+    },
+    "4696_2016": {
+      "value": "2",
+      "footNote": null
+    },
+    "4696_2017": {
+      "value": "4",
+      "footNote": null
+    },
+    "4696_2018": {
+      "value": "1",
+      "footNote": null
+    },
+    "4696_2019": {
+      "value": "2",
+      "footNote": null
+    },
+    "4696_2020": {
+      "value": "0",
+      "footNote": null
+    },
+    "4696_2021": {
+      "value": "3",
+      "footNote": null
+    },
+    "4696_2022": {
+      "value": "0",
+      "footNote": null
+    },
+    "4696_2023": {
+      "value": "1",
+      "footNote": null
+    },
+    "4696_2024": {
+      "value": "2",
+      "footNote": null
+    },
+    "4695_2012": {
+      "value": "10",
+      "footNote": null
+    },
+    "4695_2013": {
+      "value": "15",
+      "footNote": null
+    },
+    "4695_2014": {
+      "value": "0",
+      "footNote": null
+    },
+    "4695_2015": {
+      "value": "15",
+      "footNote": null
+    },
+    "4695_2016": {
+      "value": "15",
+      "footNote": null
+    },
+    "4695_2017": {
+      "value": "8",
+      "footNote": null
+    },
+    "4695_2018": {
+      "value": "16",
+      "footNote": null
+    },
+    "4695_2019": {
+      "value": "14",
+      "footNote": null
+    },
+    "4695_2020": {
+      "value": "0",
+      "footNote": null
+    },
+    "4695_2021": {
+      "value": "15",
+      "footNote": null
+    },
+    "4695_2022": {
+      "value": "9",
+      "footNote": null
+    },
+    "4695_2023": {
+      "value": "3",
+      "footNote": null
+    },
+    "4695_2024": {
+      "value": "0",
+      "footNote": null
+    },
+    "4698_2012": {
+      "value": "490",
+      "footNote": null
+    },
+    "4698_2013": {
+      "value": "589",
+      "footNote": null
+    },
+    "4698_2014": {
+      "value": "537",
+      "footNote": null
+    },
+    "4698_2015": {
+      "value": "320",
+      "footNote": null
+    },
+    "4698_2016": {
+      "value": "322",
+      "footNote": null
+    },
+    "4698_2017": {
+      "value": "120",
+      "footNote": null
+    },
+    "4698_2018": {
+      "value": "224",
+      "footNote": null
+    },
+    "4698_2019": {
+      "value": "87",
+      "footNote": null
+    },
+    "4698_2020": {
+      "value": "620",
+      "footNote": null
+    },
+    "4698_2021": {
+      "value": "0",
+      "footNote": null
+    },
+    "4698_2022": {
+      "value": "387",
+      "footNote": null
+    },
+    "4698_2023": {
+      "value": "328",
+      "footNote": null
+    },
+    "4698_2024": {
+      "value": "135",
+      "footNote": null
+    },
+    "4697_2012": {
+      "value": "2751",
+      "footNote": null
+    },
+    "4697_2013": {
+      "value": "4502",
+      "footNote": null
+    },
+    "4697_2014": {
+      "value": "3424",
+      "footNote": null
+    },
+    "4697_2015": {
+      "value": "1650",
+      "footNote": null
+    },
+    "4697_2016": {
+      "value": "1938",
+      "footNote": null
+    },
+    "4697_2017": {
+      "value": "605",
+      "footNote": null
+    },
+    "4697_2018": {
+      "value": "948",
+      "footNote": null
+    },
+    "4697_2019": {
+      "value": "1036",
+      "footNote": null
+    },
+    "4697_2020": {
+      "value": "819",
+      "footNote": null
+    },
+    "4697_2021": {
+      "value": "107",
+      "footNote": null
+    },
+    "4697_2023": {
+      "value": "665",
+      "footNote": null
+    },
+    "4697_2024": {
+      "value": "548",
+      "footNote": null
+    },
+    "4692_2012": {
+      "value": "280",
+      "footNote": null
+    },
+    "4692_2013": {
+      "value": "342",
+      "footNote": null
+    },
+    "4692_2014": {
+      "value": "208",
+      "footNote": null
+    },
+    "4692_2015": {
+      "value": "346",
+      "footNote": null
+    },
+    "4692_2016": {
+      "value": "352",
+      "footNote": null
+    },
+    "4692_2017": {
+      "value": "281",
+      "footNote": null
+    },
+    "4692_2018": {
+      "value": "238",
+      "footNote": null
+    },
+    "4692_2019": {
+      "value": "212",
+      "footNote": null
+    },
+    "4692_2020": {
+      "value": "99",
+      "footNote": null
+    },
+    "4692_2021": {
+      "value": "198",
+      "footNote": null
+    },
+    "4692_2022": {
+      "value": "135",
+      "footNote": null
+    },
+    "4692_2023": {
+      "value": "363",
+      "footNote": null
+    },
+    "4692_2024": {
+      "value": "178",
+      "footNote": null
+    },
+    "4691_2012": {
+      "value": "122",
+      "footNote": null
+    },
+    "4691_2013": {
+      "value": "162",
+      "footNote": null
+    },
+    "4691_2014": {
+      "value": "38",
+      "footNote": null
+    },
+    "4691_2015": {
+      "value": "131",
+      "footNote": null
+    },
+    "4691_2016": {
+      "value": "94",
+      "footNote": null
+    },
+    "4691_2017": {
+      "value": "108",
+      "footNote": null
+    },
+    "4691_2018": {
+      "value": "65",
+      "footNote": null
+    },
+    "4691_2019": {
+      "value": "49",
+      "footNote": null
+    },
+    "4691_2020": {
+      "value": "11",
+      "footNote": null
+    },
+    "4691_2021": {
+      "value": "48",
+      "footNote": null
+    },
+    "4691_2022": {
+      "value": "35",
+      "footNote": null
+    },
+    "4691_2023": {
+      "value": "58",
+      "footNote": null
+    },
+    "4691_2024": {
+      "value": "28",
+      "footNote": null
+    },
+    "4694_2012": {
+      "value": "79",
+      "footNote": null
+    },
+    "4694_2013": {
+      "value": "113",
+      "footNote": null
+    },
+    "4694_2014": {
+      "value": "126",
+      "footNote": null
+    },
+    "4694_2015": {
+      "value": "91",
+      "footNote": null
+    },
+    "4694_2016": {
+      "value": "93",
+      "footNote": null
+    },
+    "4694_2017": {
+      "value": "49",
+      "footNote": null
+    },
+    "4694_2018": {
+      "value": "68",
+      "footNote": null
+    },
+    "4694_2019": {
+      "value": "103",
+      "footNote": null
+    },
+    "4694_2020": {
+      "value": "0",
+      "footNote": null
+    },
+    "4694_2021": {
+      "value": "158",
+      "footNote": null
+    },
+    "4694_2022": {
+      "value": "46",
+      "footNote": null
+    },
+    "4694_2023": {
+      "value": "16",
+      "footNote": null
+    },
+    "4694_2024": {
+      "value": "0",
+      "footNote": null
+    },
+    "4693_2012": {
+      "value": "348",
+      "footNote": null
+    },
+    "4693_2013": {
+      "value": "440",
+      "footNote": null
+    },
+    "4693_2014": {
+      "value": "217",
+      "footNote": null
+    },
+    "4693_2015": {
+      "value": "409",
+      "footNote": null
+    },
+    "4693_2016": {
+      "value": "425",
+      "footNote": null
+    },
+    "4693_2017": {
+      "value": "416",
+      "footNote": null
+    },
+    "4693_2018": {
+      "value": "305",
+      "footNote": null
+    },
+    "4693_2019": {
+      "value": "261",
+      "footNote": null
+    },
+    "4693_2020": {
+      "value": "163",
+      "footNote": null
+    },
+    "4693_2021": {
+      "value": "275",
+      "footNote": null
+    },
+    "4693_2022": {
+      "value": "233",
+      "footNote": null
+    },
+    "4693_2023": {
+      "value": "358",
+      "footNote": null
+    },
+    "4693_2024": {
+      "value": "228",
+      "footNote": null
+    }
+  }
+}

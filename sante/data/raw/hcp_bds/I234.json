@@ -1,0 +1,452 @@
+{
+  "iid": 223,
+  "code": "I234",
+  "label": "Nombre de dispensaires ruraux",
+  "metaData": {
+    "unit": "Nombre",
+    "frequency": "AS",
+    "source": "Ministère de la Santé et de la Protection sociale",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2015",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1998",
+    "1997",
+    "1996",
+    "1995",
+    "1994",
+    "1993",
+    "1992",
+    "1991",
+    "1990",
+    "1989",
+    "1988",
+    "1987",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982",
+    "1981",
+    "1980",
+    "1979",
+    "1978",
+    "1977",
+    "1976",
+    "1975"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "rank": 1,
+      "label": "Grands Secteurs",
+      "modalites": [
+        {
+          "id": 3344,
+          "rank": 1,
+          "label": "Public ",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1775558258238,
+  "data": {
+    "22.3344_1975": {
+      "value": "165",
+      "footNote": null
+    },
+    "22.3344_1976": {
+      "value": "222",
+      "footNote": null
+    },
+    "22.3344_1977": {
+      "value": "185",
+      "footNote": null
+    },
+    "22.3344_1978": {
+      "value": "200",
+      "footNote": null
+    },
+    "22.3344_1979": {
+      "value": "200",
+      "footNote": null
+    },
+    "22.3344_1980": {
+      "value": null,
+      "footNote": null
+    },
+    "22.3344_1981": {
+      "value": "230",
+      "footNote": null
+    },
+    "22.3344_1982": {
+      "value": "281",
+      "footNote": null
+    },
+    "22.3344_1983": {
+      "value": "278",
+      "footNote": null
+    },
+    "22.3344_1984": {
+      "value": "278",
+      "footNote": null
+    },
+    "22.3344_1985": {
+      "value": "278",
+      "footNote": null
+    },
+    "22.3344_1986": {
+      "value": "290",
+      "footNote": null
+    },
+    "22.3344_1987": {
+      "value": "290",
+      "footNote": null
+    },
+    "22.3344_1988": {
+      "value": "290",
+      "footNote": null
+    },
+    "22.3344_1989": {
+      "value": "250",
+      "footNote": null
+    },
+    "22.3344_1990": {
+      "value": "176",
+      "footNote": null
+    },
+    "22.3344_1991": {
+      "value": "166",
+      "footNote": null
+    },
+    "22.3344_1992": {
+      "value": "154",
+      "footNote": null
+    },
+    "22.3344_1993": {
+      "value": "153",
+      "footNote": null
+    },
+    "23.3344_1975": {
+      "value": "574",
+      "footNote": null
+    },
+    "23.3344_1976": {
+      "value": "501",
+      "footNote": null
+    },
+    "23.3344_1977": {
+      "value": "599",
+      "footNote": null
+    },
+    "23.3344_1978": {
+      "value": "609",
+      "footNote": null
+    },
+    "23.3344_1979": {
+      "value": "609",
+      "footNote": null
+    },
+    "23.3344_1980": {
+      "value": null,
+      "footNote": null
+    },
+    "23.3344_1981": {
+      "value": "741",
+      "footNote": null
+    },
+    "23.3344_1982": {
+      "value": "814",
+      "footNote": null
+    },
+    "23.3344_1983": {
+      "value": "858",
+      "footNote": null
+    },
+    "23.3344_1984": {
+      "value": "858",
+      "footNote": null
+    },
+    "23.3344_1985": {
+      "value": "742",
+      "footNote": null
+    },
+    "23.3344_1986": {
+      "value": "969",
+      "footNote": null
+    },
+    "23.3344_1987": {
+      "value": "969",
+      "footNote": null
+    },
+    "23.3344_1988": {
+      "value": "969",
+      "footNote": null
+    },
+    "23.3344_1989": {
+      "value": "993",
+      "footNote": null
+    },
+    "23.3344_1990": {
+      "value": "998",
+      "footNote": null
+    },
+    "23.3344_1991": {
+      "value": "1013",
+      "footNote": null
+    },
+    "23.3344_1992": {
+      "value": "1037",
+      "footNote": null
+    },
+    "23.3344_1993": {
+      "value": "1061",
+      "footNote": null
+    },
+    "23.3344_1994": {
+      "value": "1075",
+      "footNote": null
+    },
+    "23.3344_1995": {
+      "value": null,
+      "footNote": null
+    },
+    "23.3344_1996": {
+      "value": "615",
+      "footNote": null
+    },
+    "23.3344_1997": {
+      "value": "615",
+      "footNote": null
+    },
+    "23.3344_1998": {
+      "value": "614",
+      "footNote": null
+    },
+    "23.3344_1999": {
+      "value": "583",
+      "footNote": null
+    },
+    "23.3344_2000": {
+      "value": "621",
+      "footNote": null
+    },
+    "23.3344_2001": {
+      "value": "635",
+      "footNote": null
+    },
+    "23.3344_2002": {
+      "value": "637",
+      "footNote": null
+    },
+    "23.3344_2003": {
+      "value": "652",
+      "footNote": null
+    },
+    "23.3344_2004": {
+      "value": "652",
+      "footNote": null
+    },
+    "23.3344_2005": {
+      "value": "668",
+      "footNote": null
+    },
+    "23.3344_2006": {
+      "value": "682",
+      "footNote": null
+    },
+    "23.3344_2007": {
+      "value": "682",
+      "footNote": null
+    },
+    "23.3344_2008": {
+      "value": "684",
+      "footNote": null
+    },
+    "23.3344_2009": {
+      "value": "684",
+      "footNote": null
+    },
+    "23.3344_2010": {
+      "value": "695",
+      "footNote": null
+    },
+    "23.3344_2011": {
+      "value": "695",
+      "footNote": null
+    },
+    "23.3344_2012": {
+      "value": "738",
+      "footNote": null
+    },
+    "23.3344_2013": {
+      "value": "738",
+      "footNote": null
+    },
+    "23.3344_2015": {
+      "value": "760",
+      "footNote": null
+    },
+    "23.3344_2018": {
+      "value": "764",
+      "footNote": null
+    },
+    "23.3344_2019": {
+      "value": "776",
+      "footNote": null
+    },
+    "23.3344_2020": {
+      "value": "809",
+      "footNote": null
+    },
+    "23.3344_2021": {
+      "value": "828",
+      "footNote": null
+    },
+    "23.3344_2022": {
+      "value": "837",
+      "footNote": null
+    },
+    "23.3344_2023": {
+      "value": "854",
+      "footNote": null
+    },
+    "23.3344_2024": {
+      "value": "859",
+      "footNote": null
+    },
+    "23.3344_2025": {
+      "value": "869",
+      "footNote": null
+    },
+    "24.3344_1975": {
+      "value": "739",
+      "footNote": null
+    },
+    "24.3344_1976": {
+      "value": "723",
+      "footNote": null
+    },
+    "24.3344_1977": {
+      "value": "774",
+      "footNote": null
+    },
+    "24.3344_1978": {
+      "value": "809",
+      "footNote": null
+    },
+    "24.3344_1979": {
+      "value": "809",
+      "footNote": null
+    },
+    "24.3344_1980": {
+      "value": null,
+      "footNote": null
+    },
+    "24.3344_1981": {
+      "value": "971",
+      "footNote": null
+    },
+    "24.3344_1982": {
+      "value": "1095",
+      "footNote": null
+    },
+    "24.3344_1983": {
+      "value": "1136",
+      "footNote": null
+    },
+    "24.3344_1984": {
+      "value": "1136",
+      "footNote": null
+    },
+    "24.3344_1985": {
+      "value": "1020",
+      "footNote": null
+    },
+    "24.3344_1986": {
+      "value": "1259",
+      "footNote": null
+    },
+    "24.3344_1987": {
+      "value": "1259",
+      "footNote": null
+    },
+    "24.3344_1988": {
+      "value": "1259",
+      "footNote": null
+    },
+    "24.3344_1989": {
+      "value": "1243",
+      "footNote": null
+    },
+    "24.3344_1990": {
+      "value": "1174",
+      "footNote": null
+    },
+    "24.3344_1991": {
+      "value": "1179",
+      "footNote": null
+    },
+    "24.3344_1992": {
+      "value": "1191",
+      "footNote": null
+    },
+    "24.3344_1993": {
+      "value": "1214",
+      "footNote": null
+    }
+  }
+}

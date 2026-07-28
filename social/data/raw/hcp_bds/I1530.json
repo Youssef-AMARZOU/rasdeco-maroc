@@ -1,0 +1,253 @@
+{
+  "iid": 527,
+  "code": "I1530",
+  "label": "Dépense annuelle moyenne par personne",
+  "metaData": {
+    "unit": "DH courant",
+    "frequency": "IR",
+    "source": " HCP, Enquête Nationale sur la consommation et les dépenses des ménages 2013/2014 ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2014"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "rank": 1,
+      "label": "Classes de dépense",
+      "modalites": [
+        {
+          "id": 5693,
+          "rank": 1,
+          "label": "D1",
+          "total": false
+        },
+        {
+          "id": 5694,
+          "rank": 2,
+          "label": "D2",
+          "total": false
+        },
+        {
+          "id": 5695,
+          "rank": 3,
+          "label": "D3",
+          "total": false
+        },
+        {
+          "id": 5696,
+          "rank": 4,
+          "label": "D4",
+          "total": false
+        },
+        {
+          "id": 5697,
+          "rank": 5,
+          "label": "D5",
+          "total": false
+        },
+        {
+          "id": 5698,
+          "rank": 6,
+          "label": "D6",
+          "total": false
+        },
+        {
+          "id": 5699,
+          "rank": 7,
+          "label": "D7",
+          "total": false
+        },
+        {
+          "id": 5700,
+          "rank": 8,
+          "label": "D8",
+          "total": false
+        },
+        {
+          "id": 5701,
+          "rank": 9,
+          "label": "D9",
+          "total": false
+        },
+        {
+          "id": 5702,
+          "rank": 10,
+          "label": "D10",
+          "total": false
+        },
+        {
+          "id": 5703,
+          "rank": 11,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1450164600000,
+  "data": {
+    "23.5700_2014": {
+      "value": "12548",
+      "footNote": null
+    },
+    "23.5703_2014": {
+      "value": "10425",
+      "footNote": null
+    },
+    "23.5701_2014": {
+      "value": "15578",
+      "footNote": null
+    },
+    "23.5702_2014": {
+      "value": "26288",
+      "footNote": null
+    },
+    "24.5699_2014": {
+      "value": "14894",
+      "footNote": null
+    },
+    "24.5698_2014": {
+      "value": "12560",
+      "footNote": null
+    },
+    "24.5697_2014": {
+      "value": "10759",
+      "footNote": null
+    },
+    "22.5702_2014": {
+      "value": "61221",
+      "footNote": null
+    },
+    "24.5696_2014": {
+      "value": "9228",
+      "footNote": null
+    },
+    "22.5703_2014": {
+      "value": "19513",
+      "footNote": null
+    },
+    "24.5695_2014": {
+      "value": "7836",
+      "footNote": null
+    },
+    "22.5700_2014": {
+      "value": "22300",
+      "footNote": null
+    },
+    "24.5694_2014": {
+      "value": "6354",
+      "footNote": null
+    },
+    "22.5701_2014": {
+      "value": "29825",
+      "footNote": null
+    },
+    "24.5693_2014": {
+      "value": "4287",
+      "footNote": null
+    },
+    "23.5699_2014": {
+      "value": "10669",
+      "footNote": null
+    },
+    "23.5697_2014": {
+      "value": "8142",
+      "footNote": null
+    },
+    "23.5698_2014": {
+      "value": "9274",
+      "footNote": null
+    },
+    "23.5695_2014": {
+      "value": "6090",
+      "footNote": null
+    },
+    "23.5696_2014": {
+      "value": "7161",
+      "footNote": null
+    },
+    "23.5693_2014": {
+      "value": "3511",
+      "footNote": null
+    },
+    "23.5694_2014": {
+      "value": "5009",
+      "footNote": null
+    },
+    "22.5694_2014": {
+      "value": "8060",
+      "footNote": null
+    },
+    "22.5695_2014": {
+      "value": "9727",
+      "footNote": null
+    },
+    "24.5703_2014": {
+      "value": "15876",
+      "footNote": null
+    },
+    "24.5702_2014": {
+      "value": "50622",
+      "footNote": null
+    },
+    "22.5693_2014": {
+      "value": "5692",
+      "footNote": null
+    },
+    "24.5701_2014": {
+      "value": "23988",
+      "footNote": null
+    },
+    "24.5700_2014": {
+      "value": "18231",
+      "footNote": null
+    },
+    "22.5698_2014": {
+      "value": "15424",
+      "footNote": null
+    },
+    "22.5699_2014": {
+      "value": "18275",
+      "footNote": null
+    },
+    "22.5696_2014": {
+      "value": "11385",
+      "footNote": null
+    },
+    "22.5697_2014": {
+      "value": "13235",
+      "footNote": null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "year": 2022,
+  "domaine": "Éducation",
+  "kpis": [
+    {
+      "label": "Taux de scolarisation (6-11 ans)",
+      "value": 98.5,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de scolarisation (12-14 ans)",
+      "value": 82,
+      "unit": "%"
+    },
+    {
+      "label": "Nombre d'enseignants",
+      "value": 232,
+      "unit": "K"
+    },
+    {
+      "label": "Établissements scolaires",
+      "value": 15,
+      "unit": "K"
+    },
+    {
+      "label": "Taux d'abandon primaire",
+      "value": 4.5,
+      "unit": "%"
+    },
+    {
+      "label": "Étudiants inscrits (supérieur)",
+      "value": 1160,
+      "unit": "K"
+    }
+  ],
+  "indicators": {
+    "SCOLARISATION_PRIMAIRE": 98.5,
+    "SCOLARISATION_COLLEGE": 82,
+    "ENSEIGNANTS": 232,
+    "ETABLISSEMENTS": 15,
+    "ABANDON_PRIMAIRE": 4.5,
+    "ETUDIANTS_TOTAL": 1160
+  },
+  "source": "MESRS/HCP"
+}

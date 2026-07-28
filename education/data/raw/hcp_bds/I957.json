@@ -1,0 +1,320 @@
+{
+  "iid": 138,
+  "code": "I957",
+  "label": "Nombre d'établissements primaire",
+  "metaData": {
+    "unit": "NOMBRE",
+    "frequency": "AS",
+    "source": "Ministère de l'Education nationale, du Préscolaire et des Sports",
+    "definitionFr": "Un établissement de l'enseignement primaire public est une école gérée et financée par l'État . Elle dispense le cycle fondamental d'enseignement primaire aux enfants généralement âgés de 6 à 11ans.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1774873413149,
+  "data": {
+    "24_2005": {
+      "value": "6832",
+      "footNote": null
+    },
+    "24_2006": {
+      "value": "6906",
+      "footNote": null
+    },
+    "24_2007": {
+      "value": "6920",
+      "footNote": null
+    },
+    "24_2008": {
+      "value": "7003",
+      "footNote": null
+    },
+    "24_2009": {
+      "value": "7054",
+      "footNote": null
+    },
+    "24_2010": {
+      "value": "7124",
+      "footNote": null
+    },
+    "24_2011": {
+      "value": "7208",
+      "footNote": null
+    },
+    "24_2012": {
+      "value": "7369",
+      "footNote": null
+    },
+    "24_2013": {
+      "value": "7458",
+      "footNote": null
+    },
+    "24_2014": {
+      "value": "7541",
+      "footNote": null
+    },
+    "24_2015": {
+      "value": "7635",
+      "footNote": null
+    },
+    "24_2016": {
+      "value": "7667",
+      "footNote": null
+    },
+    "24_2017": {
+      "value": "7700",
+      "footNote": null
+    },
+    "24_2018": {
+      "value": "7721",
+      "footNote": null
+    },
+    "24_2019": {
+      "value": "7789",
+      "footNote": null
+    },
+    "24_2020": {
+      "value": "7890",
+      "footNote": null
+    },
+    "24_2021": {
+      "value": "8022",
+      "footNote": null
+    },
+    "24_2022": {
+      "value": "8131",
+      "footNote": null
+    },
+    "24_2023": {
+      "value": "8280",
+      "footNote": null
+    },
+    "24_2024": {
+      "value": "8362",
+      "footNote": null
+    },
+    "24_2025": {
+      "value": "8397",
+      "footNote": null
+    },
+    "22_2005": {
+      "value": "2643",
+      "footNote": null
+    },
+    "22_2006": {
+      "value": "2660",
+      "footNote": null
+    },
+    "22_2007": {
+      "value": "2646",
+      "footNote": null
+    },
+    "22_2008": {
+      "value": "2673",
+      "footNote": null
+    },
+    "22_2009": {
+      "value": "2671",
+      "footNote": null
+    },
+    "22_2010": {
+      "value": "2715",
+      "footNote": null
+    },
+    "22_2011": {
+      "value": "2798",
+      "footNote": null
+    },
+    "22_2012": {
+      "value": "2870",
+      "footNote": null
+    },
+    "22_2013": {
+      "value": "2893",
+      "footNote": null
+    },
+    "22_2014": {
+      "value": "2940",
+      "footNote": null
+    },
+    "22_2015": {
+      "value": "3069",
+      "footNote": null
+    },
+    "22_2016": {
+      "value": "2970",
+      "footNote": null
+    },
+    "22_2017": {
+      "value": "2974",
+      "footNote": null
+    },
+    "22_2018": {
+      "value": "2985",
+      "footNote": null
+    },
+    "22_2019": {
+      "value": "3063",
+      "footNote": null
+    },
+    "22_2020": {
+      "value": "3062",
+      "footNote": null
+    },
+    "22_2021": {
+      "value": "3086",
+      "footNote": null
+    },
+    "22_2022": {
+      "value": "3120",
+      "footNote": null
+    },
+    "22_2023": {
+      "value": "3156",
+      "footNote": null
+    },
+    "22_2024": {
+      "value": "3197",
+      "footNote": null
+    },
+    "22_2025": {
+      "value": "3226",
+      "footNote": null
+    },
+    "23_2005": {
+      "value": "4189",
+      "footNote": null
+    },
+    "23_2006": {
+      "value": "4246",
+      "footNote": null
+    },
+    "23_2007": {
+      "value": "4274",
+      "footNote": null
+    },
+    "23_2008": {
+      "value": "4330",
+      "footNote": null
+    },
+    "23_2009": {
+      "value": "4383",
+      "footNote": null
+    },
+    "23_2010": {
+      "value": "4409",
+      "footNote": null
+    },
+    "23_2011": {
+      "value": "4410",
+      "footNote": null
+    },
+    "23_2012": {
+      "value": "4499",
+      "footNote": null
+    },
+    "23_2013": {
+      "value": "4565",
+      "footNote": null
+    },
+    "23_2014": {
+      "value": "4601",
+      "footNote": null
+    },
+    "23_2015": {
+      "value": "4566",
+      "footNote": null
+    },
+    "23_2016": {
+      "value": "4697",
+      "footNote": null
+    },
+    "23_2017": {
+      "value": "4726",
+      "footNote": null
+    },
+    "23_2018": {
+      "value": "4736",
+      "footNote": null
+    },
+    "23_2019": {
+      "value": "4726",
+      "footNote": null
+    },
+    "23_2020": {
+      "value": "4828",
+      "footNote": null
+    },
+    "23_2021": {
+      "value": "4936",
+      "footNote": null
+    },
+    "23_2022": {
+      "value": "5011",
+      "footNote": null
+    },
+    "23_2023": {
+      "value": "5124",
+      "footNote": null
+    },
+    "23_2024": {
+      "value": "5165",
+      "footNote": null
+    },
+    "23_2025": {
+      "value": "5171",
+      "footNote": null
+    }
+  }
+}

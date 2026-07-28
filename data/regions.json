@@ -1,0 +1,34 @@
+{
+  "pre2015": [
+    "Chaouia-Ouardigha",
+    "Doukkala-Abda",
+    "Fès-Boulemane",
+    "Gharb-Chrarda-Beni Hssen",
+    "Grand Casablanca",
+    "Guelmim-Es Semara",
+    "Laâyoune-Boujdour-Sakia el Hamra",
+    "Marrakech-Tensift-Al Haouz",
+    "Meknès-Tafilalet",
+    "L'Oriental",
+    "Oued ed Dahab-Lagouira",
+    "Rabat-Salé-Zemmour-Zaër",
+    "Souss-Massa-Drâa",
+    "Tadla-Azilal",
+    "Tanger-Tétouan",
+    "Taza-Al Hoceïma-Taounate"
+  ],
+  "post2015": [
+    "Tanger-Tétouan-Al Hoceima",
+    "Oriental",
+    "Fès-Meknès",
+    "Rabat-Salé-Kénitra",
+    "Béni Mellal-Khénifra",
+    "Casablanca-Settat",
+    "Marrakech-Safi",
+    "Drâa-Tafilalet",
+    "Souss-Massa",
+    "Guelmim-Oued Noun",
+    "Laâyoune-Sakia El Hamra",
+    "Dakhla-Oued Ed-Dahab"
+  ]
+}

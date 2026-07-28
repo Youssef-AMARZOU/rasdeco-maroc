@@ -1,0 +1,57 @@
+{
+  "year": 2023,
+  "domaine": "Économie",
+  "kpis": [
+    {
+      "label": "Croissance du PIB",
+      "value": 3,
+      "unit": "%"
+    },
+    {
+      "label": "Inflation IPC",
+      "value": 6.1,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de chômage",
+      "value": 13,
+      "unit": "%"
+    },
+    {
+      "label": "Taux directeur BAM",
+      "value": 3,
+      "unit": "%"
+    },
+    {
+      "label": "Dette publique / PIB",
+      "value": 74.3,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Réserves de change",
+      "value": 5,
+      "unit": "mois"
+    },
+    {
+      "label": "Flux d'IDE",
+      "value": 25.5,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Déficit budgétaire",
+      "value": -4.7,
+      "unit": "% PIB"
+    }
+  ],
+  "indicators": {
+    "PIB_CROISSANCE": 3,
+    "IPC_GLISSEMENT": 6.1,
+    "CHOMAGE": 13,
+    "TAUX_DIRECTEUR": 3,
+    "DETTE_PUBLIQUE": 74.3,
+    "RESERVES_CHANGE": 5,
+    "IDE_FLUX": 25.5,
+    "DEFICIT_BUDGET": -4.7
+  },
+  "source": "HCP/BAM"
+}

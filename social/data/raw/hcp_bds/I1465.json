@@ -1,0 +1,229 @@
+{
+  "iid": 7,
+  "code": "I1465",
+  "label": "Taux d'emploi des 15 ans et plus",
+  "metaData": {
+    "unit": "POURCENTAGE",
+    "frequency": "AS",
+    "source": " MAR_HCP ENQUETE NATIONALE SUR L'EMPLOI ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1775733614148,
+  "data": {
+    "24_2012": {
+      "value": "43.4",
+      "footNote": null
+    },
+    "24_2013": {
+      "value": "43.2",
+      "footNote": null
+    },
+    "24_2014": {
+      "value": "42.9",
+      "footNote": null
+    },
+    "24_2015": {
+      "value": "42.3",
+      "footNote": null
+    },
+    "24_2016": {
+      "value": "42",
+      "footNote": null
+    },
+    "24_2017": {
+      "value": "41.9",
+      "footNote": null
+    },
+    "24_2018": {
+      "value": "41.7",
+      "footNote": null
+    },
+    "24_2019": {
+      "value": "41.6",
+      "footNote": null
+    },
+    "24_2020": {
+      "value": "39.4",
+      "footNote": null
+    },
+    "24_2021": {
+      "value": "39.7",
+      "footNote": null
+    },
+    "24_2022": {
+      "value": "39.1",
+      "footNote": null
+    },
+    "24_2023": {
+      "value": "38.0",
+      "footNote": null
+    },
+    "24_2024": {
+      "value": "37.7",
+      "footNote": null
+    },
+    "24_2025": {
+      "value": "37.8",
+      "footNote": null
+    },
+    "23_2012": {
+      "value": "53.9",
+      "footNote": null
+    },
+    "23_2013": {
+      "value": "53.5",
+      "footNote": null
+    },
+    "23_2014": {
+      "value": "53.5",
+      "footNote": null
+    },
+    "23_2015": {
+      "value": "52.9",
+      "footNote": null
+    },
+    "23_2016": {
+      "value": "53.4",
+      "footNote": null
+    },
+    "23_2017": {
+      "value": "52",
+      "footNote": null
+    },
+    "23_2018": {
+      "value": "51.3",
+      "footNote": null
+    },
+    "23_2019": {
+      "value": "50.3",
+      "footNote": null
+    },
+    "23_2020": {
+      "value": "47",
+      "footNote": null
+    },
+    "23_2021": {
+      "value": "48.4",
+      "footNote": null
+    },
+    "23_2022": {
+      "value": "46.5",
+      "footNote": null
+    },
+    "23_2023": {
+      "value": "44.3",
+      "footNote": null
+    },
+    "23_2024": {
+      "value": "43.3",
+      "footNote": null
+    },
+    "23_2025": {
+      "value": "43.0",
+      "footNote": null
+    },
+    "22_2012": {
+      "value": "36.5",
+      "footNote": null
+    },
+    "22_2013": {
+      "value": "36.4",
+      "footNote": null
+    },
+    "22_2014": {
+      "value": "36",
+      "footNote": null
+    },
+    "22_2015": {
+      "value": "35.6",
+      "footNote": null
+    },
+    "22_2016": {
+      "value": "34.9",
+      "footNote": null
+    },
+    "22_2017": {
+      "value": "36.1",
+      "footNote": null
+    },
+    "22_2018": {
+      "value": "36.2",
+      "footNote": null
+    },
+    "22_2019": {
+      "value": "36.9",
+      "footNote": null
+    },
+    "22_2020": {
+      "value": "35.3",
+      "footNote": null
+    },
+    "22_2021": {
+      "value": "35.1",
+      "footNote": null
+    },
+    "22_2022": {
+      "value": "35.3",
+      "footNote": null
+    },
+    "22_2023": {
+      "value": "34.8",
+      "footNote": null
+    },
+    "22_2024": {
+      "value": "34.9",
+      "footNote": null
+    },
+    "22_2025": {
+      "value": "35.3",
+      "footNote": null
+    }
+  }
+}

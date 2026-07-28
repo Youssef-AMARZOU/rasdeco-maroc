@@ -1,0 +1,234 @@
+{
+  "iid": 466,
+  "code": "I1486",
+  "label": "Taux de fécondité des femmes ",
+  "metaData": {
+    "unit": "POUR MILLE",
+    "frequency": "IR",
+    "source": " ENDPR 2009-2010 ",
+    "definitionFr": "Le taux de fécondité d'une population, souvent mesuré par le nombre de naissances par femme.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2018",
+    "2014",
+    "2013",
+    "2011"
+  ],
+  "dimensions": [
+    {
+      "id": 323,
+      "rank": 1,
+      "label": "Groupes d'âge (démographie)",
+      "modalites": [
+        {
+          "id": 5285,
+          "rank": 1,
+          "label": "15-19",
+          "total": false
+        },
+        {
+          "id": 5286,
+          "rank": 2,
+          "label": "20-24",
+          "total": false
+        },
+        {
+          "id": 5287,
+          "rank": 3,
+          "label": "25-29",
+          "total": false
+        },
+        {
+          "id": 5288,
+          "rank": 4,
+          "label": "30-34",
+          "total": false
+        },
+        {
+          "id": 5289,
+          "rank": 5,
+          "label": "35-39",
+          "total": false
+        },
+        {
+          "id": 5290,
+          "rank": 6,
+          "label": "40-44",
+          "total": false
+        },
+        {
+          "id": 5291,
+          "rank": 7,
+          "label": "45-49",
+          "total": false
+        },
+        {
+          "id": 5292,
+          "rank": 8,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1777363101934,
+  "data": {
+    "5285_2011": {
+      "value": "29",
+      "footNote": null
+    },
+    "5285_2013": {
+      "value": "22.5",
+      "footNote": null
+    },
+    "5285_2014": {
+      "value": "22.5",
+      "footNote": null
+    },
+    "5285_2018": {
+      "value": "19.4",
+      "footNote": null
+    },
+    "5285_2024": {
+      "value": "11.3",
+      "footNote": null
+    },
+    "5286_2011": {
+      "value": "92",
+      "footNote": null
+    },
+    "5286_2013": {
+      "value": "92.8",
+      "footNote": null
+    },
+    "5286_2014": {
+      "value": "92.8",
+      "footNote": null
+    },
+    "5286_2018": {
+      "value": "94.1",
+      "footNote": null
+    },
+    "5286_2024": {
+      "value": "73.1",
+      "footNote": null
+    },
+    "5287_2011": {
+      "value": "110",
+      "footNote": null
+    },
+    "5287_2013": {
+      "value": "112.3",
+      "footNote": null
+    },
+    "5287_2014": {
+      "value": "112.3",
+      "footNote": null
+    },
+    "5287_2018": {
+      "value": "119",
+      "footNote": null
+    },
+    "5287_2024": {
+      "value": "106.2",
+      "footNote": null
+    },
+    "5288_2011": {
+      "value": "99",
+      "footNote": null
+    },
+    "5288_2013": {
+      "value": "102.2",
+      "footNote": null
+    },
+    "5288_2014": {
+      "value": "102.2",
+      "footNote": null
+    },
+    "5288_2018": {
+      "value": "107.1",
+      "footNote": null
+    },
+    "5288_2024": {
+      "value": "100.5",
+      "footNote": null
+    },
+    "5292_2011": {
+      "value": "2",
+      "footNote": null
+    },
+    "5292_2013": {
+      "value": "2.2",
+      "footNote": null
+    },
+    "5292_2024": {
+      "value": "1.97",
+      "footNote": null
+    },
+    "5290_2011": {
+      "value": "30",
+      "footNote": null
+    },
+    "5290_2013": {
+      "value": "33",
+      "footNote": null
+    },
+    "5290_2014": {
+      "value": "33",
+      "footNote": null
+    },
+    "5290_2018": {
+      "value": "39.1",
+      "footNote": null
+    },
+    "5290_2024": {
+      "value": "28.9",
+      "footNote": null
+    },
+    "5291_2011": {
+      "value": "6",
+      "footNote": null
+    },
+    "5291_2013": {
+      "value": "9.8",
+      "footNote": null
+    },
+    "5291_2014": {
+      "value": "9.8",
+      "footNote": null
+    },
+    "5291_2018": {
+      "value": "6.8",
+      "footNote": null
+    },
+    "5291_2024": {
+      "value": "3.7",
+      "footNote": null
+    },
+    "5289_2011": {
+      "value": "70",
+      "footNote": null
+    },
+    "5289_2013": {
+      "value": "72.2",
+      "footNote": null
+    },
+    "5289_2014": {
+      "value": "72.2",
+      "footNote": null
+    },
+    "5289_2018": {
+      "value": "89.6",
+      "footNote": null
+    },
+    "5289_2024": {
+      "value": "71.1",
+      "footNote": null
+    }
+  }
+}

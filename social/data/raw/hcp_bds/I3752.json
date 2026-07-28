@@ -1,0 +1,760 @@
+{
+  "iid": 556,
+  "code": "I3752",
+  "label": "La part des ménages disposant de l'électricité par région et par milieu",
+  "metaData": {
+    "unit": "%",
+    "frequency": "AS",
+    "source": "Enquête Emploi (HCP)",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2021",
+    "2019",
+    "2018",
+    "2017"
+  ],
+  "dimensions": [
+    {
+      "id": 445,
+      "rank": 1,
+      "label": "Région",
+      "modalites": [
+        {
+          "id": 5877,
+          "rank": 1,
+          "label": "Tanger-Tétouan-Al Hoceïma",
+          "total": false
+        },
+        {
+          "id": 5878,
+          "rank": 2,
+          "label": "Oriental",
+          "total": false
+        },
+        {
+          "id": 5879,
+          "rank": 3,
+          "label": "Fès-Meknès",
+          "total": false
+        },
+        {
+          "id": 5880,
+          "rank": 4,
+          "label": "Rabat-Salé-Kénitra",
+          "total": false
+        },
+        {
+          "id": 5881,
+          "rank": 5,
+          "label": "Béni Mellal-Khénifra",
+          "total": false
+        },
+        {
+          "id": 5882,
+          "rank": 6,
+          "label": "Casablanca-Settat",
+          "total": false
+        },
+        {
+          "id": 5883,
+          "rank": 7,
+          "label": "Marrakech-Safi",
+          "total": false
+        },
+        {
+          "id": 5884,
+          "rank": 8,
+          "label": "Drâa-Tafilalet",
+          "total": false
+        },
+        {
+          "id": 5885,
+          "rank": 9,
+          "label": "Souss-Massa",
+          "total": false
+        },
+        {
+          "id": 5886,
+          "rank": 10,
+          "label": "Guelmim-Oued Noun",
+          "total": false
+        },
+        {
+          "id": 5887,
+          "rank": 11,
+          "label": "Laâyoune-Sakia El Hamra",
+          "total": false
+        },
+        {
+          "id": 5888,
+          "rank": 12,
+          "label": "Dakhla-Oued Ed Dahab",
+          "total": false
+        },
+        {
+          "id": 5889,
+          "rank": 13,
+          "label": "Ensemble",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "rank": 2,
+      "label": "Milieu",
+      "modalites": [
+        {
+          "id": 5890,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 5891,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 5892,
+          "rank": 3,
+          "label": "Ensemble",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1671089400000,
+  "data": {
+    "5882.5891_2017": {
+      "value": "94.9",
+      "footNote": null
+    },
+    "5882.5891_2018": {
+      "value": "95.8",
+      "footNote": null
+    },
+    "5882.5891_2019": {
+      "value": "97.3",
+      "footNote": null
+    },
+    "5882.5891_2021": {
+      "value": "98.5",
+      "footNote": null
+    },
+    "5885.5892_2017": {
+      "value": "98.4",
+      "footNote": null
+    },
+    "5885.5892_2018": {
+      "value": "98.6",
+      "footNote": null
+    },
+    "5885.5892_2019": {
+      "value": "98.8",
+      "footNote": null
+    },
+    "5885.5892_2021": {
+      "value": "99.4",
+      "footNote": null
+    },
+    "5882.5892_2017": {
+      "value": "98.6",
+      "footNote": null
+    },
+    "5882.5892_2018": {
+      "value": "98.9",
+      "footNote": null
+    },
+    "5882.5892_2019": {
+      "value": "99.1",
+      "footNote": null
+    },
+    "5882.5892_2021": {
+      "value": "99.5",
+      "footNote": null
+    },
+    "5885.5891_2017": {
+      "value": "97.3",
+      "footNote": null
+    },
+    "5885.5891_2018": {
+      "value": "97.6",
+      "footNote": null
+    },
+    "5885.5891_2019": {
+      "value": "97.4",
+      "footNote": null
+    },
+    "5885.5891_2021": {
+      "value": "98.7",
+      "footNote": null
+    },
+    "5885.5890_2017": {
+      "value": "99.1",
+      "footNote": null
+    },
+    "5885.5890_2018": {
+      "value": "99.3",
+      "footNote": null
+    },
+    "5885.5890_2019": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "5885.5890_2021": {
+      "value": "99.8",
+      "footNote": null
+    },
+    "5882.5890_2017": {
+      "value": "99.6",
+      "footNote": null
+    },
+    "5882.5890_2018": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "5882.5890_2019": {
+      "value": "99.5",
+      "footNote": null
+    },
+    "5882.5890_2021": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "5879.5890_2017": {
+      "value": "99.1",
+      "footNote": null
+    },
+    "5879.5890_2018": {
+      "value": "99.1",
+      "footNote": null
+    },
+    "5879.5890_2019": {
+      "value": "99.4",
+      "footNote": null
+    },
+    "5879.5890_2021": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "5879.5891_2017": {
+      "value": "97.1",
+      "footNote": null
+    },
+    "5879.5891_2018": {
+      "value": "97.2",
+      "footNote": null
+    },
+    "5879.5891_2019": {
+      "value": "97",
+      "footNote": null
+    },
+    "5879.5891_2021": {
+      "value": "97.4",
+      "footNote": null
+    },
+    "5879.5892_2017": {
+      "value": "98.4",
+      "footNote": null
+    },
+    "5879.5892_2018": {
+      "value": "98.5",
+      "footNote": null
+    },
+    "5879.5892_2019": {
+      "value": "98.6",
+      "footNote": null
+    },
+    "5879.5892_2021": {
+      "value": "99",
+      "footNote": null
+    },
+    "5881.5890_2017": {
+      "value": "98.3",
+      "footNote": null
+    },
+    "5881.5890_2018": {
+      "value": "98.3",
+      "footNote": null
+    },
+    "5881.5890_2019": {
+      "value": "98.7",
+      "footNote": null
+    },
+    "5881.5890_2021": {
+      "value": "99.3",
+      "footNote": null
+    },
+    "5881.5891_2017": {
+      "value": "89.2",
+      "footNote": null
+    },
+    "5881.5891_2018": {
+      "value": "89.4",
+      "footNote": null
+    },
+    "5881.5891_2019": {
+      "value": "91.7",
+      "footNote": null
+    },
+    "5881.5891_2021": {
+      "value": "94",
+      "footNote": null
+    },
+    "5881.5892_2017": {
+      "value": "94.4",
+      "footNote": null
+    },
+    "5881.5892_2018": {
+      "value": "94.5",
+      "footNote": null
+    },
+    "5881.5892_2019": {
+      "value": "95.8",
+      "footNote": null
+    },
+    "5881.5892_2021": {
+      "value": "97.2",
+      "footNote": null
+    },
+    "5877.5891_2017": {
+      "value": "96.4",
+      "footNote": null
+    },
+    "5877.5891_2018": {
+      "value": "97.6",
+      "footNote": null
+    },
+    "5877.5891_2019": {
+      "value": "98.4",
+      "footNote": null
+    },
+    "5877.5891_2021": {
+      "value": "98.6",
+      "footNote": null
+    },
+    "5877.5892_2017": {
+      "value": "98.6",
+      "footNote": null
+    },
+    "5877.5892_2018": {
+      "value": "99",
+      "footNote": null
+    },
+    "5877.5892_2019": {
+      "value": "99.4",
+      "footNote": null
+    },
+    "5877.5892_2021": {
+      "value": "99.4",
+      "footNote": null
+    },
+    "5877.5890_2017": {
+      "value": "99.6",
+      "footNote": null
+    },
+    "5877.5890_2018": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "5877.5890_2019": {
+      "value": "99.8",
+      "footNote": null
+    },
+    "5877.5890_2021": {
+      "value": "99.8",
+      "footNote": null
+    },
+    "5888.5890_2017": {
+      "value": "96.8",
+      "footNote": null
+    },
+    "5888.5890_2018": {
+      "value": "96.6",
+      "footNote": null
+    },
+    "5888.5890_2019": {
+      "value": "96.3",
+      "footNote": null
+    },
+    "5888.5890_2021": {
+      "value": "96.5",
+      "footNote": null
+    },
+    "5888.5892_2017": {
+      "value": "97.2",
+      "footNote": null
+    },
+    "5888.5892_2018": {
+      "value": "96.7",
+      "footNote": null
+    },
+    "5888.5892_2019": {
+      "value": "96.8",
+      "footNote": null
+    },
+    "5888.5892_2021": {
+      "value": "94.1",
+      "footNote": null
+    },
+    "5888.5891_2017": {
+      "value": "100",
+      "footNote": null
+    },
+    "5888.5891_2018": {
+      "value": "97.5",
+      "footNote": null
+    },
+    "5888.5891_2019": {
+      "value": "100",
+      "footNote": null
+    },
+    "5888.5891_2021": {
+      "value": "75.7",
+      "footNote": null
+    },
+    "5878.5892_2017": {
+      "value": "96.3",
+      "footNote": null
+    },
+    "5878.5892_2018": {
+      "value": "96.7",
+      "footNote": null
+    },
+    "5878.5892_2019": {
+      "value": "97.8",
+      "footNote": null
+    },
+    "5878.5892_2021": {
+      "value": "98.2",
+      "footNote": null
+    },
+    "5878.5891_2017": {
+      "value": "91.8",
+      "footNote": null
+    },
+    "5878.5891_2018": {
+      "value": "92.2",
+      "footNote": null
+    },
+    "5878.5891_2019": {
+      "value": "94.5",
+      "footNote": null
+    },
+    "5878.5891_2021": {
+      "value": "95.6",
+      "footNote": null
+    },
+    "5886.5890_2017": {
+      "value": "100",
+      "footNote": null
+    },
+    "5886.5890_2018": {
+      "value": "99.6",
+      "footNote": null
+    },
+    "5886.5890_2019": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "5886.5890_2021": {
+      "value": "98.9",
+      "footNote": null
+    },
+    "5878.5890_2017": {
+      "value": "98.3",
+      "footNote": null
+    },
+    "5878.5890_2018": {
+      "value": "98.5",
+      "footNote": null
+    },
+    "5878.5890_2019": {
+      "value": "99.1",
+      "footNote": null
+    },
+    "5878.5890_2021": {
+      "value": "99.2",
+      "footNote": null
+    },
+    "5889.5892_2017": {
+      "value": "97.8",
+      "footNote": null
+    },
+    "5889.5892_2018": {
+      "value": "98.1",
+      "footNote": null
+    },
+    "5889.5892_2019": {
+      "value": "98.6",
+      "footNote": null
+    },
+    "5889.5892_2021": {
+      "value": "99",
+      "footNote": null
+    },
+    "5889.5890_2017": {
+      "value": "99.1",
+      "footNote": null
+    },
+    "5889.5890_2018": {
+      "value": "99.3",
+      "footNote": null
+    },
+    "5889.5890_2019": {
+      "value": "99.5",
+      "footNote": null
+    },
+    "5889.5890_2021": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "5889.5891_2017": {
+      "value": "95.1",
+      "footNote": null
+    },
+    "5889.5891_2018": {
+      "value": "95.7",
+      "footNote": null
+    },
+    "5889.5891_2019": {
+      "value": "96.6",
+      "footNote": null
+    },
+    "5889.5891_2021": {
+      "value": "97.4",
+      "footNote": null
+    },
+    "5884.5891_2017": {
+      "value": "98.4",
+      "footNote": null
+    },
+    "5884.5891_2018": {
+      "value": "99.1",
+      "footNote": null
+    },
+    "5884.5891_2019": {
+      "value": "99.2",
+      "footNote": null
+    },
+    "5884.5891_2021": {
+      "value": "99",
+      "footNote": null
+    },
+    "5887.5892_2017": {
+      "value": "98.9",
+      "footNote": null
+    },
+    "5887.5892_2018": {
+      "value": "98.9",
+      "footNote": null
+    },
+    "5887.5892_2019": {
+      "value": "98.9",
+      "footNote": null
+    },
+    "5887.5892_2021": {
+      "value": "99",
+      "footNote": null
+    },
+    "5884.5892_2017": {
+      "value": "98.8",
+      "footNote": null
+    },
+    "5884.5892_2018": {
+      "value": "99.3",
+      "footNote": null
+    },
+    "5884.5892_2019": {
+      "value": "99.4",
+      "footNote": null
+    },
+    "5884.5892_2021": {
+      "value": "99.5",
+      "footNote": null
+    },
+    "5884.5890_2017": {
+      "value": "99.4",
+      "footNote": null
+    },
+    "5884.5890_2018": {
+      "value": "99.6",
+      "footNote": null
+    },
+    "5884.5890_2019": {
+      "value": "99.6",
+      "footNote": null
+    },
+    "5884.5890_2021": {
+      "value": "100",
+      "footNote": null
+    },
+    "5887.5891_2017": {
+      "value": "68.1",
+      "footNote": null
+    },
+    "5887.5891_2018": {
+      "value": "66.2",
+      "footNote": null
+    },
+    "5887.5891_2019": {
+      "value": "66.2",
+      "footNote": null
+    },
+    "5887.5891_2021": {
+      "value": "66.1",
+      "footNote": null
+    },
+    "5887.5890_2017": {
+      "value": "100",
+      "footNote": null
+    },
+    "5887.5890_2018": {
+      "value": "100",
+      "footNote": null
+    },
+    "5887.5890_2019": {
+      "value": "100",
+      "footNote": null
+    },
+    "5887.5890_2021": {
+      "value": "100",
+      "footNote": null
+    },
+    "5886.5891_2017": {
+      "value": "89.5",
+      "footNote": null
+    },
+    "5886.5891_2018": {
+      "value": "90",
+      "footNote": null
+    },
+    "5886.5891_2019": {
+      "value": "99.5",
+      "footNote": null
+    },
+    "5886.5891_2021": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "5886.5892_2017": {
+      "value": "96.8",
+      "footNote": null
+    },
+    "5886.5892_2018": {
+      "value": "96.7",
+      "footNote": null
+    },
+    "5886.5892_2019": {
+      "value": "99.6",
+      "footNote": null
+    },
+    "5886.5892_2021": {
+      "value": "99.2",
+      "footNote": null
+    },
+    "5883.5891_2017": {
+      "value": "95.5",
+      "footNote": null
+    },
+    "5883.5891_2018": {
+      "value": "96.1",
+      "footNote": null
+    },
+    "5883.5891_2019": {
+      "value": "96.7",
+      "footNote": null
+    },
+    "5883.5891_2021": {
+      "value": "97.8",
+      "footNote": null
+    },
+    "5883.5890_2017": {
+      "value": "98.6",
+      "footNote": null
+    },
+    "5883.5890_2018": {
+      "value": "99",
+      "footNote": null
+    },
+    "5883.5890_2019": {
+      "value": "99.4",
+      "footNote": null
+    },
+    "5883.5890_2021": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "5880.5892_2017": {
+      "value": "98",
+      "footNote": null
+    },
+    "5880.5892_2018": {
+      "value": "98.6",
+      "footNote": null
+    },
+    "5880.5892_2019": {
+      "value": "98.9",
+      "footNote": null
+    },
+    "5880.5892_2021": {
+      "value": "99.1",
+      "footNote": null
+    },
+    "5883.5892_2017": {
+      "value": "97.1",
+      "footNote": null
+    },
+    "5883.5892_2018": {
+      "value": "97.6",
+      "footNote": null
+    },
+    "5883.5892_2019": {
+      "value": "98.1",
+      "footNote": null
+    },
+    "5883.5892_2021": {
+      "value": "98.8",
+      "footNote": null
+    },
+    "5880.5891_2017": {
+      "value": "94.5",
+      "footNote": null
+    },
+    "5880.5891_2018": {
+      "value": "96.1",
+      "footNote": null
+    },
+    "5880.5891_2019": {
+      "value": "95.8",
+      "footNote": null
+    },
+    "5880.5891_2021": {
+      "value": "96.2",
+      "footNote": null
+    },
+    "5880.5890_2017": {
+      "value": "99.1",
+      "footNote": null
+    },
+    "5880.5890_2018": {
+      "value": "99.3",
+      "footNote": null
+    },
+    "5880.5890_2019": {
+      "value": "99.8",
+      "footNote": null
+    },
+    "5880.5890_2021": {
+      "value": "99.9",
+      "footNote": null
+    }
+  }
+}

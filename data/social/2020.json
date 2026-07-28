@@ -1,0 +1,39 @@
+{
+  "year": 2020,
+  "domaine": "Social",
+  "kpis": [
+    {
+      "label": "Taux de pauvreté",
+      "value": 5.5,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de couverture AMO",
+      "value": 30,
+      "unit": "%"
+    },
+    {
+      "label": "Indice de Gini",
+      "value": 0.4,
+      "unit": ""
+    },
+    {
+      "label": "Population active",
+      "value": 11.5,
+      "unit": "M"
+    },
+    {
+      "label": "Taux d'urbanisation",
+      "value": 61.5,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PAUVRETE": 5.5,
+    "COUVERTURE_AMO": 30,
+    "GINI": 0.4,
+    "POP_ACTIVE": 11.5,
+    "URBANISATION": 61.5
+  },
+  "source": "HCP/MDJS"
+}

@@ -1,0 +1,39 @@
+{
+  "year": 2024,
+  "domaine": "Social",
+  "kpis": [
+    {
+      "label": "Taux de pauvreté",
+      "value": 4.2,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de couverture AMO",
+      "value": 58.4,
+      "unit": "%"
+    },
+    {
+      "label": "Indice de Gini",
+      "value": 0.398,
+      "unit": ""
+    },
+    {
+      "label": "Population active",
+      "value": 12.1,
+      "unit": "M"
+    },
+    {
+      "label": "Taux d'urbanisation",
+      "value": 63.5,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PAUVRETE": 4.2,
+    "COUVERTURE_AMO": 58.4,
+    "GINI": 0.398,
+    "POP_ACTIVE": 12.1,
+    "URBANISATION": 63.5
+  },
+  "source": "HCP/MDJS"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "country": "France",
+    "visitors_2024": 4353000,
+    "share_pct": 25
+  },
+  {
+    "country": "Espagne",
+    "visitors_2024": 2612000,
+    "share_pct": 15
+  },
+  {
+    "country": "Royaume-Uni",
+    "visitors_2024": 1045000,
+    "share_pct": 6
+  },
+  {
+    "country": "Italie",
+    "visitors_2024": 871000,
+    "share_pct": 5
+  },
+  {
+    "country": "Allemagne",
+    "visitors_2024": 871000,
+    "share_pct": 5
+  },
+  {
+    "country": "États-Unis",
+    "visitors_2024": 696000,
+    "share_pct": 4
+  },
+  {
+    "country": "Belgique",
+    "visitors_2024": 522000,
+    "share_pct": 3
+  },
+  {
+    "country": "Pays-Bas",
+    "visitors_2024": 522000,
+    "share_pct": 3
+  },
+  {
+    "country": "Brésil",
+    "visitors_2024": 348000,
+    "share_pct": 2
+  },
+  {
+    "country": "Canada",
+    "visitors_2024": 348000,
+    "share_pct": 2
+  }
+]

@@ -1,0 +1,291 @@
+{
+  "iid": 445,
+  "code": "I1242",
+  "label": "Production de l'écorce à Tanin",
+  "metaData": {
+    "unit": "En tonnes",
+    "frequency": "AS",
+    "source": " MINISTERE DE L’AGRICULTURE ET DE LA PECHE MARITIME DU DEVELOPPEMENT RURALE ET DES EAUX ET FORETS ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2023",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1998",
+    "1997",
+    "1996",
+    "1995",
+    "1994",
+    "1993",
+    "1992",
+    "1991",
+    "1990",
+    "1989",
+    "1988",
+    "1987",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982",
+    "1981",
+    "1980",
+    "1979",
+    "1978",
+    "1977",
+    "1976",
+    "1975",
+    "1974",
+    "1973",
+    "1972",
+    "1971",
+    "1970"
+  ],
+  "dimensions": null,
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1772709705208,
+  "data": {
+    "1970": {
+      "value": "5000",
+      "footNote": null
+    },
+    "1971": {
+      "value": "15000",
+      "footNote": null
+    },
+    "1972": {
+      "value": "19470",
+      "footNote": null
+    },
+    "1973": {
+      "value": "8417",
+      "footNote": null
+    },
+    "1974": {
+      "value": "5000",
+      "footNote": null
+    },
+    "1975": {
+      "value": "354",
+      "footNote": null
+    },
+    "1976": {
+      "value": "2500",
+      "footNote": null
+    },
+    "1977": {
+      "value": null,
+      "footNote": null
+    },
+    "1978": {
+      "value": "2960",
+      "footNote": null
+    },
+    "1979": {
+      "value": "7374",
+      "footNote": null
+    },
+    "1980": {
+      "value": "4360",
+      "footNote": null
+    },
+    "1981": {
+      "value": "9800",
+      "footNote": null
+    },
+    "1982": {
+      "value": "5020",
+      "footNote": null
+    },
+    "1983": {
+      "value": "24000",
+      "footNote": null
+    },
+    "1984": {
+      "value": null,
+      "footNote": null
+    },
+    "1985": {
+      "value": null,
+      "footNote": null
+    },
+    "1986": {
+      "value": null,
+      "footNote": null
+    },
+    "1987": {
+      "value": null,
+      "footNote": null
+    },
+    "1988": {
+      "value": null,
+      "footNote": null
+    },
+    "1989": {
+      "value": null,
+      "footNote": null
+    },
+    "1990": {
+      "value": null,
+      "footNote": null
+    },
+    "1991": {
+      "value": null,
+      "footNote": null
+    },
+    "1992": {
+      "value": null,
+      "footNote": null
+    },
+    "1993": {
+      "value": null,
+      "footNote": null
+    },
+    "1994": {
+      "value": null,
+      "footNote": null
+    },
+    "1995": {
+      "value": null,
+      "footNote": null
+    },
+    "1996": {
+      "value": "3000",
+      "footNote": null
+    },
+    "1997": {
+      "value": "1",
+      "footNote": null
+    },
+    "1998": {
+      "value": "3547",
+      "footNote": null
+    },
+    "1999": {
+      "value": "2273",
+      "footNote": null
+    },
+    "2000": {
+      "value": "3459",
+      "footNote": null
+    },
+    "2001": {
+      "value": "6036",
+      "footNote": null
+    },
+    "2002": {
+      "value": "3671",
+      "footNote": null
+    },
+    "2003": {
+      "value": "4998",
+      "footNote": null
+    },
+    "2004": {
+      "value": "2113",
+      "footNote": null
+    },
+    "2005": {
+      "value": null,
+      "footNote": null
+    },
+    "2006": {
+      "value": "695",
+      "footNote": null
+    },
+    "2007": {
+      "value": "6574",
+      "footNote": null
+    },
+    "2008": {
+      "value": null,
+      "footNote": null
+    },
+    "2009": {
+      "value": null,
+      "footNote": null
+    },
+    "2010": {
+      "value": "427.0",
+      "footNote": null
+    },
+    "2011": {
+      "value": "499.0",
+      "footNote": null
+    },
+    "2012": {
+      "value": "2751.0",
+      "footNote": null
+    },
+    "2013": {
+      "value": "4502.0",
+      "footNote": null
+    },
+    "2014": {
+      "value": "3424.0",
+      "footNote": null
+    },
+    "2015": {
+      "value": "1650.0",
+      "footNote": null
+    },
+    "2016": {
+      "value": "1938.0",
+      "footNote": null
+    },
+    "2017": {
+      "value": "605.0",
+      "footNote": null
+    },
+    "2018": {
+      "value": "948.0",
+      "footNote": null
+    },
+    "2019": {
+      "value": "1036.0",
+      "footNote": null
+    },
+    "2020": {
+      "value": "819",
+      "footNote": null
+    },
+    "2021": {
+      "value": "107.0",
+      "footNote": null
+    },
+    "2023": {
+      "value": "665.0",
+      "footNote": null
+    },
+    "2024": {
+      "value": "548.0",
+      "footNote": null
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "year": 2026,
+  "domaine": "Économie",
+  "kpis": [
+    {
+      "label": "Croissance du PIB",
+      "value": 4.8,
+      "unit": "%"
+    },
+    {
+      "label": "Inflation IPC",
+      "value": 1.9,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de chômage",
+      "value": 10.8,
+      "unit": "%"
+    },
+    {
+      "label": "Taux directeur BAM",
+      "value": 2.25,
+      "unit": "%"
+    },
+    {
+      "label": "Dette publique / PIB",
+      "value": 79,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Réserves de change",
+      "value": 5.3,
+      "unit": "mois"
+    },
+    {
+      "label": "Flux d'IDE",
+      "value": 36.5,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Déficit budgétaire",
+      "value": -3.9,
+      "unit": "% PIB"
+    }
+  ],
+  "indicators": {
+    "PIB_CROISSANCE": 4.8,
+    "IPC_GLISSEMENT": 1.9,
+    "CHOMAGE": 10.8,
+    "TAUX_DIRECTEUR": 2.25,
+    "DETTE_PUBLIQUE": 79,
+    "RESERVES_CHANGE": 5.3,
+    "IDE_FLUX": 36.5,
+    "DEFICIT_BUDGET": -3.9
+  },
+  "source": "HCP/BAM"
+}

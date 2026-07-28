@@ -1,0 +1,54 @@
+{
+  "exports_by_sector_mdh_2024": {
+    "automobile": 157.6,
+    "phosphates_derivatives": 87.1,
+    "agriculture_agrofood": 85.8,
+    "textiles_leather": 45.9,
+    "aeronautics": 26.5,
+    "electronics_electricity": 18.3
+  },
+  "imports_by_category_mdh_2024": {
+    "equipment_goods": 180.2,
+    "consumer_goods": 177.5,
+    "semi_finished": 164.0,
+    "energy_products": 114.0,
+    "food_products": 91.6,
+    "raw_products": 33.3
+  },
+  "regional_trade_shares_2024": {
+    "europe": 62.0,
+    "asia": 20.1,
+    "americas": 12.0,
+    "africa": 5.3,
+    "oceania": 0.5
+  },
+  "fdi_by_sector_2024": {
+    "industry": 16.4,
+    "commerce": 7.0,
+    "real_estate": 12.5,
+    "other": 7.3
+  },
+  "ecommerce_platforms_2025": {
+    "jumia": 28,
+    "marjane": 18,
+    "glovo": 12,
+    "jaja": 8,
+    "carrefour": 6,
+    "other": 28
+  },
+  "regional_commerce_establishments": {
+    "Casablanca-Settat": 126430,
+    "Rabat-Salé-Kénitra": 76234,
+    "Marrakech-Safi": 74196,
+    "Fès-Meknès": 66987,
+    "Tanger-Tétouan-Al Hoceima": 63208,
+    "Souss-Massa": 55088,
+    "L'Oriental": 39929,
+    "Béni Mellal-Khénifra": 37203,
+    "Drâa-Tafilalet": 23867,
+    "Laâyoune-Sakia El Hamra": 10995,
+    "Guelmim-Oued Noun": 8498,
+    "Dakhla-Oued Ed-Dahab": 4542
+  },
+  "source": "Office des Changes 2024, HCP Cartographie 2023/2024, OMPIC 2024"
+}

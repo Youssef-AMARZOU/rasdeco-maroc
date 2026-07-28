@@ -1,0 +1,31 @@
+appId: ma.rasd.maroc
+productName: RASD-Maroc
+copyright: Copyright © 2026
+
+directories:
+  output: release
+  buildResources: electron
+
+files:
+  - electron/**/*
+  - out/**/*
+  - node_modules/electron/**/*
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: public/icon.png
+  artifactName: ${productName}-Setup-${version}.${ext}
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: RASD Maroc
+  uninstallDisplayName: RASD-Maroc
+  license: false
+
+extraMetadata:
+  main: electron/main.js

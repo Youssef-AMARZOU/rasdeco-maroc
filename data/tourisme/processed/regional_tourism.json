@@ -1,0 +1,68 @@
+[
+  {
+    "region": "Marrakech-Safi",
+    "share_pct": 28,
+    "hotels": 1120,
+    "rooms": 42000
+  },
+  {
+    "region": "Casablanca-Settat",
+    "share_pct": 18,
+    "hotels": 890,
+    "rooms": 28000
+  },
+  {
+    "region": "Tanger-Tétouan-Al Hoceima",
+    "share_pct": 14,
+    "hotels": 650,
+    "rooms": 19000
+  },
+  {
+    "region": "Souss-Massa",
+    "share_pct": 12,
+    "hotels": 480,
+    "rooms": 16000
+  },
+  {
+    "region": "Fès-Meknès",
+    "share_pct": 10,
+    "hotels": 520,
+    "rooms": 15000
+  },
+  {
+    "region": "Rabat-Salé-Kénitra",
+    "share_pct": 7,
+    "hotels": 340,
+    "rooms": 11000
+  },
+  {
+    "region": "Oriental",
+    "share_pct": 4,
+    "hotels": 180,
+    "rooms": 5500
+  },
+  {
+    "region": "Dakhla-Oued Ed-Dahab",
+    "share_pct": 3,
+    "hotels": 85,
+    "rooms": 2800
+  },
+  {
+    "region": "Drâa-Tafilalet",
+    "share_pct": 2,
+    "hotels": 120,
+    "rooms": 3200
+  },
+  {
+    "region": "Laâyoune-Sakia El Hamra",
+    "share_pct": 1,
+    "hotels": 45,
+    "rooms": 1200
+  },
+  {
+    "region": "Guelmim-Oued Noun",
+    "share_pct": 1,
+    "hotels": 35,
+    "rooms": 900
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "iid": 582,
+  "code": "I2804",
+  "label": "Personnes malades ou blessées ayant consulté un personnel médico-sanitaire ",
+  "metaData": {
+    "unit": "%",
+    "frequency": "IR",
+    "source": "Haut-Commissariat au Plan: ENNVM 1990/1991, 1998/1999 , 2006/2007 et ENCDM 2000/2001, 2013-2014",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2014",
+    "2007",
+    "2001",
+    "1998",
+    "1991"
+  ],
+  "dimensions": [
+    {
+      "id": 480,
+      "rank": 1,
+      "label": "Milieu",
+      "modalites": [
+        {
+          "id": 6079,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 6080,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 6081,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1450164600000,
+  "data": {
+    "6079_1991": {
+      "value": "62.5",
+      "footNote": null
+    },
+    "6079_1998": {
+      "value": "70.8",
+      "footNote": null
+    },
+    "6079_2001": {
+      "value": "85",
+      "footNote": null
+    },
+    "6079_2007": {
+      "value": "81.7",
+      "footNote": null
+    },
+    "6079_2014": {
+      "value": "88.1",
+      "footNote": null
+    },
+    "6081_1991": {
+      "value": "53.5",
+      "footNote": null
+    },
+    "6081_1998": {
+      "value": "65.5",
+      "footNote": null
+    },
+    "6081_2001": {
+      "value": "82.9",
+      "footNote": null
+    },
+    "6081_2007": {
+      "value": "76.9",
+      "footNote": null
+    },
+    "6081_2014": {
+      "value": "85",
+      "footNote": null
+    },
+    "6080_1991": {
+      "value": "41.3",
+      "footNote": null
+    },
+    "6080_1998": {
+      "value": "56.5",
+      "footNote": null
+    },
+    "6080_2001": {
+      "value": "78.2",
+      "footNote": null
+    },
+    "6080_2007": {
+      "value": "68.6",
+      "footNote": null
+    },
+    "6080_2014": {
+      "value": "78.9",
+      "footNote": null
+    }
+  }
+}

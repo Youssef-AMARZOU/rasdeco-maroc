@@ -1,0 +1,39 @@
+{
+  "year": 2015,
+  "domaine": "Social",
+  "kpis": [
+    {
+      "label": "Taux de pauvreté",
+      "value": 8,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de couverture AMO",
+      "value": 5,
+      "unit": "%"
+    },
+    {
+      "label": "Indice de Gini",
+      "value": 0.41,
+      "unit": ""
+    },
+    {
+      "label": "Population active",
+      "value": 10.5,
+      "unit": "M"
+    },
+    {
+      "label": "Taux d'urbanisation",
+      "value": 59,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PAUVRETE": 8,
+    "COUVERTURE_AMO": 5,
+    "GINI": 0.41,
+    "POP_ACTIVE": 10.5,
+    "URBANISATION": 59
+  },
+  "source": "HCP/MDJS"
+}

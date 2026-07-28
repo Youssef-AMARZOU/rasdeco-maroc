@@ -1,0 +1,45 @@
+{
+  "year": 2023,
+  "domaine": "Agriculture",
+  "kpis": [
+    {
+      "label": "Production céréalière",
+      "value": 32.8,
+      "unit": "M qx"
+    },
+    {
+      "label": "Valeur ajoutée agricole",
+      "value": 110,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Superficie cultivée",
+      "value": 9.8,
+      "unit": "M ha"
+    },
+    {
+      "label": "Exportations agricoles",
+      "value": 58,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Rendement céréalier moyen",
+      "value": 10.5,
+      "unit": "qx/ha"
+    },
+    {
+      "label": "Remplissage des barrages",
+      "value": 32,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PROD_CEREALIERE": 32.8,
+    "VA_AGRICOLE": 110,
+    "SUPERFICIE_CULTIVEE": 9.8,
+    "EXPORT_AGRICOLE": 58,
+    "RENDEMENT_CEREALIER": 10.5,
+    "REMPLISSAGE_BARRAGES": 32
+  },
+  "source": "HCP/MINA"
+}

@@ -1,0 +1,1926 @@
+{
+  "iid": 679,
+  "code": "I1363",
+  "label": "Activité de l'ONEP Ventes par région",
+  "metaData": {
+    "unit": "MILLIERS DE METRE CUBE",
+    "frequency": "AS",
+    "source": "OFFICE NATIONAL DE L’ELECTRICITE ET DE L’EAU POTABLE",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1995",
+    "1994",
+    "1993",
+    "1992",
+    "1991",
+    "1990",
+    "1989",
+    "1988",
+    "1987",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982"
+  ],
+  "dimensions": [
+    {
+      "id": 8,
+      "rank": 3,
+      "label": "Régions",
+      "modalites": [
+        {
+          "id": 28,
+          "rank": 1,
+          "label": " Oued Ed-Dahab-Lagouira ",
+          "total": false
+        },
+        {
+          "id": 29,
+          "rank": 2,
+          "label": "laâyoune-boujdour-sakia el hamra",
+          "total": false
+        },
+        {
+          "id": 30,
+          "rank": 3,
+          "label": "Guemim-es-semara",
+          "total": false
+        },
+        {
+          "id": 31,
+          "rank": 4,
+          "label": "Souss-Massa-Draâ",
+          "total": false
+        },
+        {
+          "id": 32,
+          "rank": 5,
+          "label": "Gharb-Chrarda-Beni Hssen",
+          "total": false
+        },
+        {
+          "id": 33,
+          "rank": 6,
+          "label": "Chaouia-Ourdigha",
+          "total": false
+        },
+        {
+          "id": 34,
+          "rank": 7,
+          "label": "Marrakech-Tensift- Al Haouz",
+          "total": false
+        },
+        {
+          "id": 35,
+          "rank": 8,
+          "label": "Oriental",
+          "total": false
+        },
+        {
+          "id": 36,
+          "rank": 9,
+          "label": "Grand Casablanca",
+          "total": false
+        },
+        {
+          "id": 37,
+          "rank": 10,
+          "label": "Rabat-Salé-Zemmour-Zaër",
+          "total": false
+        },
+        {
+          "id": 38,
+          "rank": 11,
+          "label": "Doukala-Abda",
+          "total": false
+        },
+        {
+          "id": 39,
+          "rank": 12,
+          "label": "Tadla-Azilal",
+          "total": false
+        },
+        {
+          "id": 40,
+          "rank": 13,
+          "label": "Meknès-Tafilalet",
+          "total": false
+        },
+        {
+          "id": 41,
+          "rank": 14,
+          "label": "Fès-Boulmane",
+          "total": false
+        },
+        {
+          "id": 42,
+          "rank": 15,
+          "label": "Taza-Al Hoceima- Taounate",
+          "total": false
+        },
+        {
+          "id": 43,
+          "rank": 16,
+          "label": "Tanger-Tetouan",
+          "total": false
+        },
+        {
+          "id": 44,
+          "rank": 17,
+          "label": "Ensemble",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 554,
+      "rank": 2,
+      "label": "Client de l'ONEP",
+      "modalites": [
+        {
+          "id": 6830,
+          "rank": 1,
+          "label": "Abonné consommateur",
+          "total": false
+        },
+        {
+          "id": 6831,
+          "rank": 2,
+          "label": "Régie",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1418628600000,
+  "data": {
+    "37.6830_1999": {
+      "value": "8215",
+      "footNote": null
+    },
+    "37.6830_2000": {
+      "value": "8740",
+      "footNote": null
+    },
+    "37.6830_2001": {
+      "value": "9213",
+      "footNote": null
+    },
+    "37.6830_2002": {
+      "value": "9363",
+      "footNote": null
+    },
+    "37.6830_2003": {
+      "value": "9505",
+      "footNote": null
+    },
+    "37.6830_2004": {
+      "value": "10847",
+      "footNote": null
+    },
+    "37.6830_2005": {
+      "value": "10743",
+      "footNote": null
+    },
+    "37.6830_2006": {
+      "value": "10642",
+      "footNote": null
+    },
+    "37.6830_2007": {
+      "value": "11603",
+      "footNote": null
+    },
+    "37.6830_2008": {
+      "value": "12005",
+      "footNote": null
+    },
+    "37.6830_2010": {
+      "value": "8930",
+      "footNote": null
+    },
+    "37.6830_2011": {
+      "value": "9980",
+      "footNote": null
+    },
+    "37.6830_2012": {
+      "value": "14390",
+      "footNote": null
+    },
+    "37.6830_2013": {
+      "value": "14734",
+      "footNote": null
+    },
+    "34.6831_1999": {
+      "value": "44827",
+      "footNote": null
+    },
+    "34.6831_2000": {
+      "value": "47221",
+      "footNote": null
+    },
+    "34.6831_2001": {
+      "value": "45941",
+      "footNote": null
+    },
+    "34.6831_2002": {
+      "value": "45130",
+      "footNote": null
+    },
+    "34.6831_2003": {
+      "value": "47487",
+      "footNote": null
+    },
+    "34.6831_2004": {
+      "value": "49925",
+      "footNote": null
+    },
+    "34.6831_2005": {
+      "value": "53879",
+      "footNote": null
+    },
+    "34.6831_2006": {
+      "value": "55144",
+      "footNote": null
+    },
+    "34.6831_2007": {
+      "value": "56147",
+      "footNote": null
+    },
+    "34.6831_2008": {
+      "value": "58429",
+      "footNote": null
+    },
+    "34.6831_2010": {
+      "value": "64333",
+      "footNote": null
+    },
+    "34.6831_2011": {
+      "value": "13569",
+      "footNote": null
+    },
+    "34.6831_2012": {
+      "value": "64814",
+      "footNote": null
+    },
+    "34.6831_2013": {
+      "value": "63362",
+      "footNote": null
+    },
+    "29.6831_2010": {
+      "value": null,
+      "footNote": null
+    },
+    "29.6831_2011": {
+      "value": "5304",
+      "footNote": null
+    },
+    "29.6831_2013": {
+      "value": null,
+      "footNote": null
+    },
+    "37.6831_1999": {
+      "value": "78912",
+      "footNote": null
+    },
+    "37.6831_2000": {
+      "value": "83021",
+      "footNote": null
+    },
+    "37.6831_2001": {
+      "value": "83758",
+      "footNote": null
+    },
+    "37.6831_2002": {
+      "value": "83072",
+      "footNote": null
+    },
+    "37.6831_2003": {
+      "value": "87679",
+      "footNote": null
+    },
+    "37.6831_2004": {
+      "value": "84124",
+      "footNote": null
+    },
+    "37.6831_2005": {
+      "value": "83997",
+      "footNote": null
+    },
+    "37.6831_2006": {
+      "value": "81256",
+      "footNote": null
+    },
+    "37.6831_2007": {
+      "value": "83585",
+      "footNote": null
+    },
+    "37.6831_2008": {
+      "value": "85124",
+      "footNote": null
+    },
+    "37.6831_2010": {
+      "value": "89717",
+      "footNote": null
+    },
+    "37.6831_2011": {
+      "value": "93707",
+      "footNote": null
+    },
+    "37.6831_2012": {
+      "value": "170096",
+      "footNote": null
+    },
+    "37.6831_2013": {
+      "value": "166840",
+      "footNote": null
+    },
+    "34.6830_1999": {
+      "value": "7905",
+      "footNote": null
+    },
+    "34.6830_2000": {
+      "value": "8560",
+      "footNote": null
+    },
+    "34.6830_2001": {
+      "value": "8997",
+      "footNote": null
+    },
+    "34.6830_2002": {
+      "value": "8953",
+      "footNote": null
+    },
+    "34.6830_2003": {
+      "value": "8730",
+      "footNote": null
+    },
+    "34.6830_2004": {
+      "value": "9316",
+      "footNote": null
+    },
+    "34.6830_2005": {
+      "value": "10127",
+      "footNote": null
+    },
+    "34.6830_2006": {
+      "value": "10216",
+      "footNote": null
+    },
+    "34.6830_2007": {
+      "value": "10946",
+      "footNote": null
+    },
+    "34.6830_2008": {
+      "value": "11252",
+      "footNote": null
+    },
+    "34.6830_2010": {
+      "value": "12579",
+      "footNote": null
+    },
+    "34.6830_2011": {
+      "value": "13569",
+      "footNote": null
+    },
+    "34.6830_2012": {
+      "value": "15942",
+      "footNote": null
+    },
+    "34.6830_2013": {
+      "value": "17005",
+      "footNote": null
+    },
+    "29.6830_1999": {
+      "value": "3494",
+      "footNote": null
+    },
+    "29.6830_2000": {
+      "value": "3784",
+      "footNote": null
+    },
+    "29.6830_2001": {
+      "value": "3989",
+      "footNote": null
+    },
+    "29.6830_2002": {
+      "value": "4209",
+      "footNote": null
+    },
+    "29.6830_2003": {
+      "value": "4300",
+      "footNote": null
+    },
+    "29.6830_2004": {
+      "value": "4243",
+      "footNote": null
+    },
+    "29.6830_2005": {
+      "value": "4567",
+      "footNote": null
+    },
+    "29.6830_2006": {
+      "value": "4909",
+      "footNote": null
+    },
+    "29.6830_2007": {
+      "value": "5175",
+      "footNote": null
+    },
+    "29.6830_2008": {
+      "value": "5335",
+      "footNote": null
+    },
+    "29.6830_2010": {
+      "value": "4263",
+      "footNote": null
+    },
+    "29.6830_2011": {
+      "value": "5304",
+      "footNote": null
+    },
+    "29.6830_2012": {
+      "value": "5846",
+      "footNote": null
+    },
+    "29.6830_2013": {
+      "value": "5992",
+      "footNote": null
+    },
+    "31.6830_1999": {
+      "value": "10656",
+      "footNote": null
+    },
+    "31.6830_2000": {
+      "value": "11187",
+      "footNote": null
+    },
+    "31.6830_2001": {
+      "value": "11825",
+      "footNote": null
+    },
+    "31.6830_2002": {
+      "value": "11945",
+      "footNote": null
+    },
+    "31.6830_2003": {
+      "value": "12725",
+      "footNote": null
+    },
+    "31.6830_2004": {
+      "value": "13330",
+      "footNote": null
+    },
+    "31.6830_2005": {
+      "value": "14823",
+      "footNote": null
+    },
+    "31.6830_2006": {
+      "value": "15120",
+      "footNote": null
+    },
+    "31.6830_2007": {
+      "value": "16086",
+      "footNote": null
+    },
+    "31.6830_2008": {
+      "value": "16440",
+      "footNote": null
+    },
+    "31.6830_2010": {
+      "value": "18841",
+      "footNote": null
+    },
+    "31.6830_2011": {
+      "value": "19241",
+      "footNote": null
+    },
+    "31.6830_2012": {
+      "value": "22232",
+      "footNote": null
+    },
+    "31.6830_2013": {
+      "value": "22436",
+      "footNote": null
+    },
+    "31.6831_1999": {
+      "value": "25274",
+      "footNote": null
+    },
+    "31.6831_2000": {
+      "value": "26729",
+      "footNote": null
+    },
+    "31.6831_2001": {
+      "value": "26451",
+      "footNote": null
+    },
+    "31.6831_2002": {
+      "value": "26973",
+      "footNote": null
+    },
+    "31.6831_2003": {
+      "value": "28851",
+      "footNote": null
+    },
+    "31.6831_2004": {
+      "value": "30330",
+      "footNote": null
+    },
+    "31.6831_2005": {
+      "value": "32432",
+      "footNote": null
+    },
+    "31.6831_2007": {
+      "value": "34563",
+      "footNote": null
+    },
+    "31.6831_2008": {
+      "value": "35757",
+      "footNote": null
+    },
+    "31.6831_2010": {
+      "value": "39090",
+      "footNote": null
+    },
+    "31.6831_2011": {
+      "value": "19241",
+      "footNote": null
+    },
+    "31.6831_2012": {
+      "value": "40022",
+      "footNote": null
+    },
+    "31.6831_2013": {
+      "value": "40992",
+      "footNote": null
+    },
+    "28.6830_1999": {
+      "value": "1231",
+      "footNote": null
+    },
+    "28.6830_2000": {
+      "value": "1249",
+      "footNote": null
+    },
+    "28.6830_2001": {
+      "value": "1401",
+      "footNote": null
+    },
+    "28.6830_2003": {
+      "value": "1646",
+      "footNote": null
+    },
+    "28.6830_2004": {
+      "value": "1632",
+      "footNote": null
+    },
+    "28.6830_2005": {
+      "value": "1845",
+      "footNote": null
+    },
+    "28.6830_2006": {
+      "value": "1893",
+      "footNote": null
+    },
+    "28.6830_2007": {
+      "value": "2100",
+      "footNote": null
+    },
+    "28.6830_2008": {
+      "value": "2177",
+      "footNote": null
+    },
+    "28.6830_2010": {
+      "value": "2210",
+      "footNote": null
+    },
+    "28.6830_2011": {
+      "value": "2278",
+      "footNote": null
+    },
+    "28.6830_2012": {
+      "value": "2480",
+      "footNote": null
+    },
+    "28.6830_2013": {
+      "value": "2425",
+      "footNote": null
+    },
+    "28.6831_2010": {
+      "value": null,
+      "footNote": null
+    },
+    "28.6831_2011": {
+      "value": "2278",
+      "footNote": null
+    },
+    "28.6831_2013": {
+      "value": null,
+      "footNote": null
+    },
+    "42.6831_2002": {
+      "value": "1534",
+      "footNote": null
+    },
+    "42.6831_2003": {
+      "value": "2616",
+      "footNote": null
+    },
+    "42.6831_2004": {
+      "value": "2173",
+      "footNote": null
+    },
+    "42.6831_2005": {
+      "value": "1890",
+      "footNote": null
+    },
+    "42.6831_2006": {
+      "value": "1828",
+      "footNote": null
+    },
+    "42.6831_2007": {
+      "value": "2608",
+      "footNote": null
+    },
+    "42.6831_2008": {
+      "value": "2252",
+      "footNote": null
+    },
+    "42.6831_2010": {
+      "value": "617",
+      "footNote": null
+    },
+    "42.6831_2011": {
+      "value": "652",
+      "footNote": null
+    },
+    "42.6831_2012": {
+      "value": "911",
+      "footNote": null
+    },
+    "42.6831_2013": {
+      "value": "978",
+      "footNote": null
+    },
+    "42.6830_1999": {
+      "value": "7465",
+      "footNote": null
+    },
+    "42.6830_2000": {
+      "value": "7677",
+      "footNote": null
+    },
+    "42.6830_2001": {
+      "value": "8297",
+      "footNote": null
+    },
+    "42.6830_2002": {
+      "value": "8811",
+      "footNote": null
+    },
+    "42.6830_2003": {
+      "value": "8026",
+      "footNote": null
+    },
+    "42.6830_2004": {
+      "value": "8519",
+      "footNote": null
+    },
+    "42.6830_2005": {
+      "value": "9494",
+      "footNote": null
+    },
+    "42.6830_2007": {
+      "value": "10264",
+      "footNote": null
+    },
+    "42.6830_2008": {
+      "value": "11004",
+      "footNote": null
+    },
+    "42.6830_2010": {
+      "value": "10817",
+      "footNote": null
+    },
+    "42.6830_2011": {
+      "value": "11617",
+      "footNote": null
+    },
+    "42.6830_2012": {
+      "value": "13272",
+      "footNote": null
+    },
+    "42.6830_2013": {
+      "value": "13759",
+      "footNote": null
+    },
+    "41.6830_1999": {
+      "value": "2315",
+      "footNote": null
+    },
+    "41.6830_2000": {
+      "value": "2512",
+      "footNote": null
+    },
+    "41.6830_2001": {
+      "value": "2808",
+      "footNote": null
+    },
+    "41.6830_2002": {
+      "value": "3049",
+      "footNote": null
+    },
+    "41.6830_2003": {
+      "value": "3095",
+      "footNote": null
+    },
+    "41.6830_2004": {
+      "value": "3375",
+      "footNote": null
+    },
+    "41.6830_2005": {
+      "value": "3816",
+      "footNote": null
+    },
+    "41.6830_2006": {
+      "value": "4223",
+      "footNote": null
+    },
+    "41.6830_2007": {
+      "value": "3954",
+      "footNote": null
+    },
+    "41.6830_2008": {
+      "value": "5104",
+      "footNote": null
+    },
+    "41.6830_2010": {
+      "value": "3883",
+      "footNote": null
+    },
+    "41.6830_2011": {
+      "value": "4179",
+      "footNote": null
+    },
+    "41.6830_2012": {
+      "value": "6170",
+      "footNote": null
+    },
+    "41.6830_2013": {
+      "value": "6391",
+      "footNote": null
+    },
+    "44.6831_1982": {
+      "value": "193182",
+      "footNote": null
+    },
+    "44.6831_1983": {
+      "value": "220251",
+      "footNote": null
+    },
+    "44.6831_1984": {
+      "value": "260339",
+      "footNote": null
+    },
+    "44.6831_1985": {
+      "value": "290868",
+      "footNote": null
+    },
+    "44.6831_1986": {
+      "value": "306415",
+      "footNote": null
+    },
+    "44.6831_1987": {
+      "value": "304888",
+      "footNote": null
+    },
+    "44.6831_1988": {
+      "value": "332754",
+      "footNote": null
+    },
+    "44.6831_1989": {
+      "value": "357403",
+      "footNote": null
+    },
+    "44.6831_1990": {
+      "value": "373524",
+      "footNote": null
+    },
+    "44.6831_1991": {
+      "value": "405608",
+      "footNote": null
+    },
+    "44.6831_1992": {
+      "value": "433624",
+      "footNote": null
+    },
+    "44.6831_1993": {
+      "value": "447925",
+      "footNote": null
+    },
+    "44.6831_1994": {
+      "value": "422751",
+      "footNote": null
+    },
+    "44.6831_1995": {
+      "value": "437731",
+      "footNote": null
+    },
+    "44.6831_1999": {
+      "value": "476400",
+      "footNote": null
+    },
+    "44.6831_2000": {
+      "value": "476913",
+      "footNote": null
+    },
+    "44.6831_2001": {
+      "value": "475700",
+      "footNote": null
+    },
+    "44.6831_2002": {
+      "value": "469881",
+      "footNote": null
+    },
+    "44.6831_2003": {
+      "value": "481221",
+      "footNote": null
+    },
+    "44.6831_2004": {
+      "value": "478774",
+      "footNote": null
+    },
+    "44.6831_2005": {
+      "value": "499565",
+      "footNote": null
+    },
+    "44.6831_2006": {
+      "value": "498626",
+      "footNote": null
+    },
+    "44.6831_2007": {
+      "value": "507642",
+      "footNote": null
+    },
+    "44.6831_2008": {
+      "value": "519897",
+      "footNote": null
+    },
+    "44.6831_2010": {
+      "value": "557701",
+      "footNote": null
+    },
+    "44.6831_2011": {
+      "value": "628918",
+      "footNote": null
+    },
+    "44.6831_2012": {
+      "value": "580103",
+      "footNote": null
+    },
+    "44.6831_2013": {
+      "value": "611804",
+      "footNote": null
+    },
+    "41.6831_1999": {
+      "value": "55013",
+      "footNote": null
+    },
+    "41.6831_2000": {
+      "value": "49965",
+      "footNote": null
+    },
+    "41.6831_2001": {
+      "value": "52750",
+      "footNote": null
+    },
+    "41.6831_2002": {
+      "value": "50568",
+      "footNote": null
+    },
+    "41.6831_2003": {
+      "value": "50880",
+      "footNote": null
+    },
+    "41.6831_2004": {
+      "value": "50433",
+      "footNote": null
+    },
+    "41.6831_2005": {
+      "value": "51082",
+      "footNote": null
+    },
+    "41.6831_2006": {
+      "value": "52878",
+      "footNote": null
+    },
+    "41.6831_2007": {
+      "value": "50347",
+      "footNote": null
+    },
+    "41.6831_2008": {
+      "value": "51066",
+      "footNote": null
+    },
+    "41.6831_2010": {
+      "value": "47107",
+      "footNote": null
+    },
+    "41.6831_2011": {
+      "value": "45657",
+      "footNote": null
+    },
+    "41.6831_2012": {
+      "value": "49510",
+      "footNote": null
+    },
+    "41.6831_2013": {
+      "value": "51092",
+      "footNote": null
+    },
+    "30.6831_2010": {
+      "value": null,
+      "footNote": null
+    },
+    "30.6831_2011": {
+      "value": "77732",
+      "footNote": null
+    },
+    "30.6831_2013": {
+      "value": null,
+      "footNote": null
+    },
+    "30.6830_1999": {
+      "value": "5154",
+      "footNote": null
+    },
+    "30.6830_2000": {
+      "value": "5618",
+      "footNote": null
+    },
+    "30.6830_2001": {
+      "value": "5655",
+      "footNote": null
+    },
+    "30.6830_2002": {
+      "value": "5898",
+      "footNote": null
+    },
+    "30.6830_2003": {
+      "value": "5523",
+      "footNote": null
+    },
+    "30.6830_2004": {
+      "value": "5941",
+      "footNote": null
+    },
+    "30.6830_2005": {
+      "value": "6279",
+      "footNote": null
+    },
+    "30.6830_2006": {
+      "value": "6410",
+      "footNote": null
+    },
+    "30.6830_2007": {
+      "value": "6756",
+      "footNote": null
+    },
+    "30.6830_2008": {
+      "value": "6893",
+      "footNote": null
+    },
+    "30.6830_2010": {
+      "value": "7344",
+      "footNote": null
+    },
+    "30.6830_2011": {
+      "value": "7736",
+      "footNote": null
+    },
+    "30.6830_2012": {
+      "value": "8219",
+      "footNote": null
+    },
+    "30.6830_2013": {
+      "value": "8185",
+      "footNote": null
+    },
+    "33.6831_1999": {
+      "value": "4940",
+      "footNote": null
+    },
+    "33.6831_2000": {
+      "value": "5778",
+      "footNote": null
+    },
+    "33.6831_2001": {
+      "value": "5460",
+      "footNote": null
+    },
+    "33.6831_2002": {
+      "value": "5218",
+      "footNote": null
+    },
+    "33.6831_2003": {
+      "value": "6001",
+      "footNote": null
+    },
+    "33.6831_2004": {
+      "value": "6035",
+      "footNote": null
+    },
+    "33.6831_2005": {
+      "value": "6559",
+      "footNote": null
+    },
+    "33.6831_2006": {
+      "value": "6643",
+      "footNote": null
+    },
+    "33.6831_2007": {
+      "value": "6959",
+      "footNote": null
+    },
+    "33.6831_2008": {
+      "value": "7074",
+      "footNote": null
+    },
+    "33.6831_2010": {
+      "value": "5667",
+      "footNote": null
+    },
+    "33.6831_2011": {
+      "value": "19189",
+      "footNote": null
+    },
+    "33.6831_2012": {
+      "value": "7034",
+      "footNote": null
+    },
+    "33.6831_2013": {
+      "value": "6876",
+      "footNote": null
+    },
+    "36.6830_2010": {
+      "value": "754",
+      "footNote": null
+    },
+    "36.6830_2011": {
+      "value": "920",
+      "footNote": null
+    },
+    "36.6830_2012": {
+      "value": "2987",
+      "footNote": null
+    },
+    "36.6830_2013": {
+      "value": "3195",
+      "footNote": null
+    },
+    "39.6831_1999": {
+      "value": "14789",
+      "footNote": null
+    },
+    "39.6831_2000": {
+      "value": "14103",
+      "footNote": null
+    },
+    "39.6831_2001": {
+      "value": "13771",
+      "footNote": null
+    },
+    "39.6831_2002": {
+      "value": "13887",
+      "footNote": null
+    },
+    "39.6831_2003": {
+      "value": "13681",
+      "footNote": null
+    },
+    "39.6831_2004": {
+      "value": "12997",
+      "footNote": null
+    },
+    "39.6831_2005": {
+      "value": "13315",
+      "footNote": null
+    },
+    "39.6831_2006": {
+      "value": "13878",
+      "footNote": null
+    },
+    "39.6831_2007": {
+      "value": "13283",
+      "footNote": null
+    },
+    "39.6831_2008": {
+      "value": "14324",
+      "footNote": null
+    },
+    "39.6831_2010": {
+      "value": "15340",
+      "footNote": null
+    },
+    "39.6831_2011": {
+      "value": null,
+      "footNote": null
+    },
+    "39.6831_2012": {
+      "value": "16255",
+      "footNote": null
+    },
+    "39.6831_2013": {
+      "value": "16803",
+      "footNote": null
+    },
+    "36.6831_1999": {
+      "value": "124245",
+      "footNote": null
+    },
+    "36.6831_2000": {
+      "value": "116451",
+      "footNote": null
+    },
+    "36.6831_2001": {
+      "value": "113087",
+      "footNote": null
+    },
+    "36.6831_2002": {
+      "value": "105074",
+      "footNote": null
+    },
+    "36.6831_2003": {
+      "value": "106487",
+      "footNote": null
+    },
+    "36.6831_2004": {
+      "value": "109625",
+      "footNote": null
+    },
+    "36.6831_2005": {
+      "value": "114632",
+      "footNote": null
+    },
+    "36.6831_2006": {
+      "value": "114701",
+      "footNote": null
+    },
+    "36.6831_2007": {
+      "value": "112120",
+      "footNote": null
+    },
+    "36.6831_2008": {
+      "value": "112121",
+      "footNote": null
+    },
+    "36.6831_2010": {
+      "value": "127675",
+      "footNote": null
+    },
+    "36.6831_2011": {
+      "value": "128980",
+      "footNote": null
+    },
+    "36.6831_2013": {
+      "value": null,
+      "footNote": null
+    },
+    "33.6830_1999": {
+      "value": "14326",
+      "footNote": null
+    },
+    "33.6830_2000": {
+      "value": "14799",
+      "footNote": null
+    },
+    "33.6830_2001": {
+      "value": "15133",
+      "footNote": null
+    },
+    "33.6830_2002": {
+      "value": "15509",
+      "footNote": null
+    },
+    "33.6830_2003": {
+      "value": "14857",
+      "footNote": null
+    },
+    "33.6830_2004": {
+      "value": "15195",
+      "footNote": null
+    },
+    "33.6830_2005": {
+      "value": "16939",
+      "footNote": null
+    },
+    "33.6830_2006": {
+      "value": "16968",
+      "footNote": null
+    },
+    "33.6830_2007": {
+      "value": "17737",
+      "footNote": null
+    },
+    "33.6830_2008": {
+      "value": "17138",
+      "footNote": null
+    },
+    "33.6830_2010": {
+      "value": "18396",
+      "footNote": null
+    },
+    "33.6830_2011": {
+      "value": "19189",
+      "footNote": null
+    },
+    "33.6830_2012": {
+      "value": "22093",
+      "footNote": null
+    },
+    "33.6830_2013": {
+      "value": "23318",
+      "footNote": null
+    },
+    "39.6830_1999": {
+      "value": "1855",
+      "footNote": null
+    },
+    "39.6830_2000": {
+      "value": "1721",
+      "footNote": null
+    },
+    "39.6830_2001": {
+      "value": "1837",
+      "footNote": null
+    },
+    "39.6830_2002": {
+      "value": "1858",
+      "footNote": null
+    },
+    "39.6830_2003": {
+      "value": "2010",
+      "footNote": null
+    },
+    "39.6830_2004": {
+      "value": "2563",
+      "footNote": null
+    },
+    "39.6830_2005": {
+      "value": "3726",
+      "footNote": null
+    },
+    "39.6830_2006": {
+      "value": "4005",
+      "footNote": null
+    },
+    "39.6830_2007": {
+      "value": "4418",
+      "footNote": null
+    },
+    "39.6830_2008": {
+      "value": "4690",
+      "footNote": null
+    },
+    "39.6830_2010": {
+      "value": "4375",
+      "footNote": null
+    },
+    "39.6830_2011": {
+      "value": "5422",
+      "footNote": null
+    },
+    "39.6830_2012": {
+      "value": "6989",
+      "footNote": null
+    },
+    "39.6830_2013": {
+      "value": "6728",
+      "footNote": null
+    },
+    "44.6830_1999": {
+      "value": "125175",
+      "footNote": null
+    },
+    "44.6830_2000": {
+      "value": "128225",
+      "footNote": null
+    },
+    "44.6830_2001": {
+      "value": "134320",
+      "footNote": null
+    },
+    "44.6830_2002": {
+      "value": "139117",
+      "footNote": null
+    },
+    "44.6830_2003": {
+      "value": "138051",
+      "footNote": null
+    },
+    "44.6830_2004": {
+      "value": "148509",
+      "footNote": null
+    },
+    "44.6830_2005": {
+      "value": "161084",
+      "footNote": null
+    },
+    "44.6830_2007": {
+      "value": "173136",
+      "footNote": null
+    },
+    "44.6830_2008": {
+      "value": "182324",
+      "footNote": null
+    },
+    "44.6830_2010": {
+      "value": "158279",
+      "footNote": null
+    },
+    "44.6830_2011": {
+      "value": "171761",
+      "footNote": null
+    },
+    "44.6830_2012": {
+      "value": "234508",
+      "footNote": null
+    },
+    "44.6830_2013": {
+      "value": "242567",
+      "footNote": null
+    },
+    "32.6831_1999": {
+      "value": "16360",
+      "footNote": null
+    },
+    "32.6831_2000": {
+      "value": "5889",
+      "footNote": null
+    },
+    "32.6831_2001": {
+      "value": "5773",
+      "footNote": null
+    },
+    "32.6831_2002": {
+      "value": "5018",
+      "footNote": null
+    },
+    "32.6831_2003": {
+      "value": "5612",
+      "footNote": null
+    },
+    "32.6831_2004": {
+      "value": "5001",
+      "footNote": null
+    },
+    "32.6831_2005": {
+      "value": "7067",
+      "footNote": null
+    },
+    "32.6831_2006": {
+      "value": "8348",
+      "footNote": null
+    },
+    "32.6831_2007": {
+      "value": "8739",
+      "footNote": null
+    },
+    "32.6831_2008": {
+      "value": "9745",
+      "footNote": null
+    },
+    "32.6831_2010": {
+      "value": "11471",
+      "footNote": null
+    },
+    "32.6831_2011": {
+      "value": "12349",
+      "footNote": null
+    },
+    "32.6831_2012": {
+      "value": "11482",
+      "footNote": null
+    },
+    "32.6831_2013": {
+      "value": "12743",
+      "footNote": null
+    },
+    "32.6830_1999": {
+      "value": "8318",
+      "footNote": null
+    },
+    "32.6830_2000": {
+      "value": "8703",
+      "footNote": null
+    },
+    "32.6830_2001": {
+      "value": "9303",
+      "footNote": null
+    },
+    "32.6830_2002": {
+      "value": "10041",
+      "footNote": null
+    },
+    "32.6830_2003": {
+      "value": "10411",
+      "footNote": null
+    },
+    "32.6830_2004": {
+      "value": "11508",
+      "footNote": null
+    },
+    "32.6830_2005": {
+      "value": "12616",
+      "footNote": null
+    },
+    "32.6830_2006": {
+      "value": "12772",
+      "footNote": null
+    },
+    "32.6830_2007": {
+      "value": "13577",
+      "footNote": null
+    },
+    "32.6830_2008": {
+      "value": "15086",
+      "footNote": null
+    },
+    "32.6830_2010": {
+      "value": "11629",
+      "footNote": null
+    },
+    "32.6830_2011": {
+      "value": "12349",
+      "footNote": null
+    },
+    "32.6830_2012": {
+      "value": "13797",
+      "footNote": null
+    },
+    "32.6830_2013": {
+      "value": "14316",
+      "footNote": null
+    },
+    "38.6830_1999": {
+      "value": "21446",
+      "footNote": null
+    },
+    "38.6830_2000": {
+      "value": "20679",
+      "footNote": null
+    },
+    "38.6830_2001": {
+      "value": "20858",
+      "footNote": null
+    },
+    "38.6830_2002": {
+      "value": "22532",
+      "footNote": null
+    },
+    "38.6830_2003": {
+      "value": "21837",
+      "footNote": null
+    },
+    "38.6830_2004": {
+      "value": "25017",
+      "footNote": null
+    },
+    "38.6830_2005": {
+      "value": "26874",
+      "footNote": null
+    },
+    "38.6830_2006": {
+      "value": "28211",
+      "footNote": null
+    },
+    "38.6830_2007": {
+      "value": "28988",
+      "footNote": null
+    },
+    "38.6830_2008": {
+      "value": "26201",
+      "footNote": null
+    },
+    "38.6830_2010": {
+      "value": "2101",
+      "footNote": null
+    },
+    "38.6830_2011": {
+      "value": "2301",
+      "footNote": null
+    },
+    "38.6830_2012": {
+      "value": "34467",
+      "footNote": null
+    },
+    "38.6830_2013": {
+      "value": "37442",
+      "footNote": null
+    },
+    "38.6831_1999": {
+      "value": "25179",
+      "footNote": null
+    },
+    "38.6831_2000": {
+      "value": "25496",
+      "footNote": null
+    },
+    "38.6831_2001": {
+      "value": "25933",
+      "footNote": null
+    },
+    "38.6831_2002": {
+      "value": "25512",
+      "footNote": null
+    },
+    "38.6831_2003": {
+      "value": "25225",
+      "footNote": null
+    },
+    "38.6831_2004": {
+      "value": "25308",
+      "footNote": null
+    },
+    "38.6831_2005": {
+      "value": "25398",
+      "footNote": null
+    },
+    "38.6831_2006": {
+      "value": "25988",
+      "footNote": null
+    },
+    "38.6831_2007": {
+      "value": "26013",
+      "footNote": null
+    },
+    "38.6831_2008": {
+      "value": "26396",
+      "footNote": null
+    },
+    "38.6831_2010": {
+      "value": "28869",
+      "footNote": null
+    },
+    "38.6831_2011": {
+      "value": "29658",
+      "footNote": null
+    },
+    "38.6831_2012": {
+      "value": "94173",
+      "footNote": null
+    },
+    "38.6831_2013": {
+      "value": "98066",
+      "footNote": null
+    },
+    "40.6831_1999": {
+      "value": "9857",
+      "footNote": null
+    },
+    "40.6831_2000": {
+      "value": "11752",
+      "footNote": null
+    },
+    "40.6831_2001": {
+      "value": "10918",
+      "footNote": null
+    },
+    "40.6831_2003": {
+      "value": "11419",
+      "footNote": null
+    },
+    "40.6831_2004": {
+      "value": "6405",
+      "footNote": null
+    },
+    "40.6831_2005": {
+      "value": "13661",
+      "footNote": null
+    },
+    "40.6831_2006": {
+      "value": "10678",
+      "footNote": null
+    },
+    "40.6831_2007": {
+      "value": "16335",
+      "footNote": null
+    },
+    "40.6831_2008": {
+      "value": "21757",
+      "footNote": null
+    },
+    "40.6831_2010": {
+      "value": "27321",
+      "footNote": null
+    },
+    "40.6831_2011": {
+      "value": "25183",
+      "footNote": null
+    },
+    "40.6831_2012": {
+      "value": "22187",
+      "footNote": null
+    },
+    "40.6831_2013": {
+      "value": "45451",
+      "footNote": null
+    },
+    "43.6830_1999": {
+      "value": "1574",
+      "footNote": null
+    },
+    "43.6830_2000": {
+      "value": "1619",
+      "footNote": null
+    },
+    "43.6830_2001": {
+      "value": "1917",
+      "footNote": null
+    },
+    "43.6830_2002": {
+      "value": "1937",
+      "footNote": null
+    },
+    "43.6830_2003": {
+      "value": "2201",
+      "footNote": null
+    },
+    "43.6830_2004": {
+      "value": "2143",
+      "footNote": null
+    },
+    "43.6830_2005": {
+      "value": "2272",
+      "footNote": null
+    },
+    "43.6830_2007": {
+      "value": "2532",
+      "footNote": null
+    },
+    "43.6830_2008": {
+      "value": "2722",
+      "footNote": null
+    },
+    "43.6830_2010": {
+      "value": "4768",
+      "footNote": null
+    },
+    "43.6830_2011": {
+      "value": "5614",
+      "footNote": null
+    },
+    "43.6830_2012": {
+      "value": "9670",
+      "footNote": null
+    },
+    "43.6830_2013": {
+      "value": "9361",
+      "footNote": null
+    },
+    "43.6831_1999": {
+      "value": "71937",
+      "footNote": null
+    },
+    "43.6831_2000": {
+      "value": "73405",
+      "footNote": null
+    },
+    "43.6831_2001": {
+      "value": "77755",
+      "footNote": null
+    },
+    "43.6831_2002": {
+      "value": "79571",
+      "footNote": null
+    },
+    "43.6831_2003": {
+      "value": "80593",
+      "footNote": null
+    },
+    "43.6831_2004": {
+      "value": "81075",
+      "footNote": null
+    },
+    "43.6831_2005": {
+      "value": "79452",
+      "footNote": null
+    },
+    "43.6831_2006": {
+      "value": "77324",
+      "footNote": null
+    },
+    "43.6831_2007": {
+      "value": "78425",
+      "footNote": null
+    },
+    "43.6831_2008": {
+      "value": "80511",
+      "footNote": null
+    },
+    "43.6831_2010": {
+      "value": "86351",
+      "footNote": null
+    },
+    "43.6831_2011": {
+      "value": "89747",
+      "footNote": null
+    },
+    "43.6831_2012": {
+      "value": "92047",
+      "footNote": null
+    },
+    "43.6831_2013": {
+      "value": "95398",
+      "footNote": null
+    },
+    "40.6830_1999": {
+      "value": "15295",
+      "footNote": null
+    },
+    "40.6830_2000": {
+      "value": "15301",
+      "footNote": null
+    },
+    "40.6830_2001": {
+      "value": "16234",
+      "footNote": null
+    },
+    "40.6830_2002": {
+      "value": "15851",
+      "footNote": null
+    },
+    "40.6830_2003": {
+      "value": "16670",
+      "footNote": null
+    },
+    "40.6830_2004": {
+      "value": "17283",
+      "footNote": null
+    },
+    "40.6830_2005": {
+      "value": "18246",
+      "footNote": null
+    },
+    "40.6830_2006": {
+      "value": "18758",
+      "footNote": null
+    },
+    "40.6830_2007": {
+      "value": "19098",
+      "footNote": null
+    },
+    "40.6830_2008": {
+      "value": "19423",
+      "footNote": null
+    },
+    "40.6830_2010": {
+      "value": "22396",
+      "footNote": null
+    },
+    "40.6830_2011": {
+      "value": "23165",
+      "footNote": null
+    },
+    "40.6830_2012": {
+      "value": "25348",
+      "footNote": null
+    },
+    "40.6830_2013": {
+      "value": "26212",
+      "footNote": null
+    },
+    "35.6830_1999": {
+      "value": "15926",
+      "footNote": null
+    },
+    "35.6830_2000": {
+      "value": "16076",
+      "footNote": null
+    },
+    "35.6830_2001": {
+      "value": "16853",
+      "footNote": null
+    },
+    "35.6830_2002": {
+      "value": "17626",
+      "footNote": null
+    },
+    "35.6830_2003": {
+      "value": "16515",
+      "footNote": null
+    },
+    "35.6830_2004": {
+      "value": "17597",
+      "footNote": null
+    },
+    "35.6830_2005": {
+      "value": "18719",
+      "footNote": null
+    },
+    "35.6830_2006": {
+      "value": "19749",
+      "footNote": null
+    },
+    "35.6830_2007": {
+      "value": "19902",
+      "footNote": null
+    },
+    "35.6830_2008": {
+      "value": "26854",
+      "footNote": null
+    },
+    "35.6830_2010": {
+      "value": "24993",
+      "footNote": null
+    },
+    "35.6830_2011": {
+      "value": "28897",
+      "footNote": null
+    },
+    "35.6830_2012": {
+      "value": "30606",
+      "footNote": null
+    },
+    "35.6830_2013": {
+      "value": "31068",
+      "footNote": null
+    },
+    "35.6831_1999": {
+      "value": "14947",
+      "footNote": null
+    },
+    "35.6831_2000": {
+      "value": "14037",
+      "footNote": null
+    },
+    "35.6831_2001": {
+      "value": "14103",
+      "footNote": null
+    },
+    "35.6831_2002": {
+      "value": "15061",
+      "footNote": null
+    },
+    "35.6831_2003": {
+      "value": "14690",
+      "footNote": null
+    },
+    "35.6831_2004": {
+      "value": "15343",
+      "footNote": null
+    },
+    "35.6831_2005": {
+      "value": "16201",
+      "footNote": null
+    },
+    "35.6831_2006": {
+      "value": "16041",
+      "footNote": null
+    },
+    "35.6831_2007": {
+      "value": "18519",
+      "footNote": null
+    },
+    "35.6831_2008": {
+      "value": "15341",
+      "footNote": null
+    },
+    "35.6831_2010": {
+      "value": "14143",
+      "footNote": null
+    },
+    "35.6831_2011": {
+      "value": "28897",
+      "footNote": null
+    },
+    "35.6831_2012": {
+      "value": "11573",
+      "footNote": null
+    },
+    "35.6831_2013": {
+      "value": "13203",
+      "footNote": null
+    }
+  }
+}

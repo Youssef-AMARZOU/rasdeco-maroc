@@ -1,0 +1,486 @@
+{
+  "iid": 463,
+  "code": "I4481",
+  "label": "Evolution de la superficie des agrumes",
+  "metaData": {
+    "unit": "En milliers d'hectares",
+    "frequency": "AI",
+    "source": "Ministère de l'Agriculture, de la Pêche Maritime, du Développent Rural et des Eaux et Forêts",
+    "definitionFr": "Les agrumes sont des fruits produits par des arbres. Ils se caractérisent par une écorce épaisse, une pulpe juteuse  et une saveur généralement acidulée. Les plus connus sont les oranges, citrons, mandarines et pamplemousses.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2023-2024",
+    "2022-2023",
+    "2021-2022",
+    "2020-2021",
+    "2019-2020",
+    "2018-2019",
+    "2017-2018",
+    "2016-2017",
+    "2015-2016",
+    "2014-2015",
+    "2013-2014"
+  ],
+  "dimensions": [
+    {
+      "id": 320,
+      "rank": 1,
+      "label": "Type d'agrumes ",
+      "modalites": [
+        {
+          "id": 5226,
+          "rank": 1,
+          "label": "Total",
+          "total": true
+        },
+        {
+          "id": 5227,
+          "rank": 2,
+          "label": "Clémentine",
+          "total": false
+        },
+        {
+          "id": 5228,
+          "rank": 3,
+          "label": "Nules",
+          "total": false
+        },
+        {
+          "id": 5229,
+          "rank": 4,
+          "label": "Nour",
+          "total": false
+        },
+        {
+          "id": 5230,
+          "rank": 5,
+          "label": "Nova",
+          "total": false
+        },
+        {
+          "id": 5231,
+          "rank": 6,
+          "label": "Ortanique",
+          "total": false
+        },
+        {
+          "id": 5232,
+          "rank": 7,
+          "label": "Navels",
+          "total": false
+        },
+        {
+          "id": 5233,
+          "rank": 8,
+          "label": "Salustiana",
+          "total": false
+        },
+        {
+          "id": 5234,
+          "rank": 9,
+          "label": "Sanguines",
+          "total": false
+        },
+        {
+          "id": 5235,
+          "rank": 10,
+          "label": "Maroc-late",
+          "total": false
+        },
+        {
+          "id": 5236,
+          "rank": 11,
+          "label": "Autres agrumes",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1774433465283,
+  "data": {
+    "5230_2020-2021": {
+      "value": "1.3",
+      "footNote": null
+    },
+    "5230_2021-2022": {
+      "value": "1.2",
+      "footNote": null
+    },
+    "5230_2022-2023": {
+      "value": "1.2",
+      "footNote": null
+    },
+    "5229_2014-2015": {
+      "value": "7.3",
+      "footNote": null
+    },
+    "5229_2015-2016": {
+      "value": "7.4",
+      "footNote": null
+    },
+    "5229_2016-2017": {
+      "value": "7.7",
+      "footNote": null
+    },
+    "5229_2017-2018": {
+      "value": "7.7",
+      "footNote": null
+    },
+    "5229_2018-2019": {
+      "value": "7.8",
+      "footNote": null
+    },
+    "5229_2019-2020": {
+      "value": "7.8",
+      "footNote": null
+    },
+    "5229_2020-2021": {
+      "value": "7.8",
+      "footNote": null
+    },
+    "5229_2021-2022": {
+      "value": "7.7",
+      "footNote": null
+    },
+    "5229_2022-2023": {
+      "value": "7.9",
+      "footNote": null
+    },
+    "5228_2014-2015": {
+      "value": "7.8",
+      "footNote": null
+    },
+    "5228_2015-2016": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "5228_2016-2017": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "5228_2017-2018": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "5228_2018-2019": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "5228_2019-2020": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "5228_2020-2021": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "5228_2021-2022": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "5228_2022-2023": {
+      "value": "7.8",
+      "footNote": null
+    },
+    "5236_2013-2014": {
+      "value": "387.5",
+      "footNote": null
+    },
+    "5236_2014-2015": {
+      "value": "24.6",
+      "footNote": null
+    },
+    "5236_2015-2016": {
+      "value": "27.8",
+      "footNote": null
+    },
+    "5236_2016-2017": {
+      "value": "29.3",
+      "footNote": null
+    },
+    "5236_2017-2018": {
+      "value": "30.0",
+      "footNote": null
+    },
+    "5236_2018-2019": {
+      "value": "29.9",
+      "footNote": null
+    },
+    "5236_2019-2020": {
+      "value": "31.0",
+      "footNote": null
+    },
+    "5236_2020-2021": {
+      "value": "29.6",
+      "footNote": null
+    },
+    "5236_2021-2022": {
+      "value": "30.1",
+      "footNote": null
+    },
+    "5236_2022-2023": {
+      "value": "30.5",
+      "footNote": null
+    },
+    "5235_2013-2014": {
+      "value": "23.5",
+      "footNote": null
+    },
+    "5235_2014-2015": {
+      "value": "23.9",
+      "footNote": null
+    },
+    "5235_2015-2016": {
+      "value": "25.0",
+      "footNote": null
+    },
+    "5235_2016-2017": {
+      "value": "25.2",
+      "footNote": null
+    },
+    "5235_2017-2018": {
+      "value": "25.7",
+      "footNote": null
+    },
+    "5235_2018-2019": {
+      "value": "25.9",
+      "footNote": null
+    },
+    "5235_2019-2020": {
+      "value": "26.2",
+      "footNote": null
+    },
+    "5235_2020-2021": {
+      "value": "26.8",
+      "footNote": null
+    },
+    "5235_2021-2022": {
+      "value": "27.0",
+      "footNote": null
+    },
+    "5235_2022-2023": {
+      "value": "28.2",
+      "footNote": null
+    },
+    "5227_2013-2014": {
+      "value": "30.5",
+      "footNote": null
+    },
+    "5227_2014-2015": {
+      "value": "30.0",
+      "footNote": null
+    },
+    "5227_2015-2016": {
+      "value": "30.0",
+      "footNote": null
+    },
+    "5227_2016-2017": {
+      "value": "30.1",
+      "footNote": null
+    },
+    "5227_2017-2018": {
+      "value": "30.2",
+      "footNote": null
+    },
+    "5227_2018-2019": {
+      "value": "31.2",
+      "footNote": null
+    },
+    "5227_2019-2020": {
+      "value": "30.6",
+      "footNote": null
+    },
+    "5227_2020-2021": {
+      "value": "29.4",
+      "footNote": null
+    },
+    "5227_2021-2022": {
+      "value": "28.1",
+      "footNote": null
+    },
+    "5227_2022-2023": {
+      "value": "26.3",
+      "footNote": null
+    },
+    "5226_2013-2014": {
+      "value": "464.3",
+      "footNote": null
+    },
+    "5226_2014-2015": {
+      "value": "117.1",
+      "footNote": null
+    },
+    "5226_2015-2016": {
+      "value": "122.5",
+      "footNote": null
+    },
+    "5226_2016-2017": {
+      "value": "125.0",
+      "footNote": null
+    },
+    "5226_2017-2018": {
+      "value": "30.2",
+      "footNote": null
+    },
+    "5226_2018-2019": {
+      "value": "128.0",
+      "footNote": null
+    },
+    "5226_2019-2020": {
+      "value": "129.3",
+      "footNote": null
+    },
+    "5226_2020-2021": {
+      "value": "129.8",
+      "footNote": null
+    },
+    "5226_2021-2022": {
+      "value": "128.9",
+      "footNote": null
+    },
+    "5226_2022-2023": {
+      "value": "128.6",
+      "footNote": null
+    },
+    "5226_2023-2024": {
+      "value": "1624.6",
+      "footNote": null
+    },
+    "5232_2013-2014": {
+      "value": "18.4",
+      "footNote": null
+    },
+    "5232_2014-2015": {
+      "value": "19.1",
+      "footNote": null
+    },
+    "5232_2015-2016": {
+      "value": "19.3",
+      "footNote": null
+    },
+    "5232_2016-2017": {
+      "value": "19.6",
+      "footNote": null
+    },
+    "5232_2017-2018": {
+      "value": "20.0",
+      "footNote": null
+    },
+    "5232_2018-2019": {
+      "value": "20.1",
+      "footNote": null
+    },
+    "5232_2019-2020": {
+      "value": "20.5",
+      "footNote": null
+    },
+    "5232_2020-2021": {
+      "value": "20.7",
+      "footNote": null
+    },
+    "5232_2021-2022": {
+      "value": "20.7",
+      "footNote": null
+    },
+    "5232_2022-2023": {
+      "value": "20.8",
+      "footNote": null
+    },
+    "5231_2020-2021": {
+      "value": "0.8",
+      "footNote": null
+    },
+    "5231_2021-2022": {
+      "value": "0.8",
+      "footNote": null
+    },
+    "5231_2022-2023": {
+      "value": "0.8",
+      "footNote": null
+    },
+    "5234_2013-2014": {
+      "value": "3.3",
+      "footNote": null
+    },
+    "5234_2014-2015": {
+      "value": "3.3",
+      "footNote": null
+    },
+    "5234_2015-2016": {
+      "value": "3.5",
+      "footNote": null
+    },
+    "5234_2016-2017": {
+      "value": "3.6",
+      "footNote": null
+    },
+    "5234_2017-2018": {
+      "value": "3.6",
+      "footNote": null
+    },
+    "5234_2018-2019": {
+      "value": "3.6",
+      "footNote": null
+    },
+    "5234_2019-2020": {
+      "value": "3.7",
+      "footNote": null
+    },
+    "5234_2020-2021": {
+      "value": "3.7",
+      "footNote": null
+    },
+    "5234_2021-2022": {
+      "value": "3.7",
+      "footNote": null
+    },
+    "5234_2022-2023": {
+      "value": "3.7",
+      "footNote": null
+    },
+    "5233_2013-2014": {
+      "value": "1.1",
+      "footNote": null
+    },
+    "5233_2014-2015": {
+      "value": "1.1",
+      "footNote": null
+    },
+    "5233_2015-2016": {
+      "value": "1.1",
+      "footNote": null
+    },
+    "5233_2016-2017": {
+      "value": "1.1",
+      "footNote": null
+    },
+    "5233_2017-2018": {
+      "value": "1.1",
+      "footNote": null
+    },
+    "5233_2018-2019": {
+      "value": "1.1",
+      "footNote": null
+    },
+    "5233_2019-2020": {
+      "value": "1.1",
+      "footNote": null
+    },
+    "5233_2020-2021": {
+      "value": "1.2",
+      "footNote": null
+    },
+    "5233_2021-2022": {
+      "value": "1.2",
+      "footNote": null
+    },
+    "5233_2022-2023": {
+      "value": "1.3",
+      "footNote": null
+    }
+  }
+}

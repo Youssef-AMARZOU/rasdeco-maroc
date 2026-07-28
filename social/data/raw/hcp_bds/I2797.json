@@ -1,0 +1,151 @@
+{
+  "iid": 573,
+  "code": "I2797",
+  "label": "Dépense annuelle moyenne par ménage ( DAMM)",
+  "metaData": {
+    "unit": "DH courant ",
+    "frequency": "IR",
+    "source": "Enquête Nationale sur la consommation et les dépenses des ménages et Enquête Nationale sur le Niveau de vie des Ménages ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2013-2014",
+    "2006-2007",
+    "2000-2001",
+    "1998-1999",
+    "1990-1991",
+    "1984-1985",
+    "1970-1971",
+    "1959-1960"
+  ],
+  "dimensions": [
+    {
+      "id": 461,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 5955,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 5956,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 5957,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1418628600000,
+  "data": {
+    "5955_1959-1960": {
+      "value": "3350",
+      "footNote": null
+    },
+    "5955_1970-1971": {
+      "value": "8057",
+      "footNote": null
+    },
+    "5955_1984-1985": {
+      "value": "26667",
+      "footNote": null
+    },
+    "5955_1990-1991": {
+      "value": "48192",
+      "footNote": null
+    },
+    "5955_1998-1999": {
+      "value": "56781",
+      "footNote": null
+    },
+    "5955_2000-2001": {
+      "value": "58900",
+      "footNote": null
+    },
+    "5955_2006-2007": {
+      "value": "66724",
+      "footNote": null
+    },
+    "5955_2013-2014": {
+      "value": "87277",
+      "footNote": null
+    },
+    "5957_1959-1960": {
+      "value": "2480",
+      "footNote": null
+    },
+    "5957_1970-1971": {
+      "value": "5380",
+      "footNote": null
+    },
+    "5957_1984-1985": {
+      "value": "21475",
+      "footNote": null
+    },
+    "5957_1990-1991": {
+      "value": "38600",
+      "footNote": null
+    },
+    "5957_1998-1999": {
+      "value": "46339",
+      "footNote": null
+    },
+    "5957_2000-2001": {
+      "value": "49333",
+      "footNote": null
+    },
+    "5957_2006-2007": {
+      "value": "57925",
+      "footNote": null
+    },
+    "5957_2013-2014": {
+      "value": "76317",
+      "footNote": null
+    },
+    "5956_1959-1960": {
+      "value": "2160",
+      "footNote": null
+    },
+    "5956_1970-1971": {
+      "value": "4003",
+      "footNote": null
+    },
+    "5956_1984-1985": {
+      "value": "16824",
+      "footNote": null
+    },
+    "5956_1990-1991": {
+      "value": "28584",
+      "footNote": null
+    },
+    "5956_1998-1999": {
+      "value": "32372",
+      "footNote": null
+    },
+    "5956_2000-2001": {
+      "value": "33994",
+      "footNote": null
+    },
+    "5956_2006-2007": {
+      "value": "43334",
+      "footNote": null
+    },
+    "5956_2013-2014": {
+      "value": "55554",
+      "footNote": null
+    }
+  }
+}

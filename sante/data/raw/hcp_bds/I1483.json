@@ -1,0 +1,73 @@
+{
+  "iid": 274,
+  "code": "I1483",
+  "label": "Quotient de mortalité infantile",
+  "metaData": {
+    "unit": "POUR MILLE",
+    "frequency": "IR",
+    "source": " MINISTERE DE LA SANTE ",
+    "definitionFr": "Le nombre de décès d'enfants de moins de cinq ans pour 1 000 naissances vivantes.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2018",
+    "2011"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1576395000000,
+  "data": {
+    "24_2011": {
+      "value": "28.8",
+      "footNote": null
+    },
+    "24_2018": {
+      "value": "18",
+      "footNote": null
+    },
+    "23_2011": {
+      "value": "33.5",
+      "footNote": null
+    },
+    "23_2018": {
+      "value": "21.6",
+      "footNote": null
+    },
+    "22_2011": {
+      "value": "23.6",
+      "footNote": null
+    },
+    "22_2018": {
+      "value": "14.9",
+      "footNote": null
+    }
+  }
+}

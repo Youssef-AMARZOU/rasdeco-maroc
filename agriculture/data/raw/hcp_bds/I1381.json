@@ -1,0 +1,121 @@
+{
+  "iid": 674,
+  "code": "I1381",
+  "label": "Ressources en eau-Évapotranspiration",
+  "metaData": {
+    "unit": "MILLIONS DE METRE CUBE",
+    "frequency": "AS",
+    "source": "MINISTERE DE L'ENERGIE DES MINES ET DU DEVELOPPEMENT DURABLE",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2009",
+    "2007",
+    "1998",
+    "1997",
+    "1996",
+    "1995"
+  ],
+  "dimensions": null,
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1776420922817,
+  "data": {
+    "1995": {
+      "value": "205370",
+      "footNote": null
+    },
+    "1996": {
+      "value": "85660",
+      "footNote": null
+    },
+    "1997": {
+      "value": "131175",
+      "footNote": null
+    },
+    "1998": {
+      "value": "74770",
+      "footNote": null
+    },
+    "2007": {
+      "value": "117000",
+      "footNote": null
+    },
+    "2009": {
+      "value": "122000",
+      "footNote": null
+    },
+    "2011": {
+      "value": "122000",
+      "footNote": null
+    },
+    "2012": {
+      "value": "119600",
+      "footNote": null
+    },
+    "2013": {
+      "value": "77700",
+      "footNote": null
+    },
+    "2014": {
+      "value": "122500",
+      "footNote": null
+    },
+    "2015": {
+      "value": "73100",
+      "footNote": null
+    },
+    "2016": {
+      "value": "90340",
+      "footNote": null
+    },
+    "2017": {
+      "value": "94293",
+      "footNote": null
+    },
+    "2018": {
+      "value": "68943",
+      "footNote": null
+    },
+    "2019": {
+      "value": "58967",
+      "footNote": null
+    },
+    "2020": {
+      "value": "75900",
+      "footNote": null
+    },
+    "2021": {
+      "value": "51372",
+      "footNote": null
+    },
+    "2022": {
+      "value": "72370",
+      "footNote": null
+    },
+    "2023": {
+      "value": "51372",
+      "footNote": null
+    },
+    "2024": {
+      "value": "83833",
+      "footNote": null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "year": 2022,
+  "domaine": "Sport",
+  "kpis": [
+    {
+      "label": "Licenciés sportifs",
+      "value": 2,
+      "unit": "M"
+    },
+    {
+      "label": "Installations sportives",
+      "value": 12,
+      "unit": "K"
+    },
+    {
+      "label": "Fédérations affiliées",
+      "value": 74,
+      "unit": ""
+    },
+    {
+      "label": "Budget sport / PIB",
+      "value": 0.32,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Classement mondial (foot)",
+      "value": 18,
+      "unit": "e place"
+    },
+    {
+      "label": "Médailles internationales",
+      "value": 80,
+      "unit": ""
+    }
+  ],
+  "indicators": {
+    "LICENCIES": 2,
+    "INSTALLATIONS": 12,
+    "FEDERATIONS": 74,
+    "BUDGET_SPORT": 0.32,
+    "CLASSEMENT_FIFA": 18,
+    "MEDAILLES": 80
+  },
+  "source": "HCP/AMSED"
+}

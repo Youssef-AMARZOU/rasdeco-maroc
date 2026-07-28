@@ -1,0 +1,73 @@
+{
+  "iid": 467,
+  "code": "I1488",
+  "label": "taux de fécondité des adolescentes (15-19 ans)",
+  "metaData": {
+    "unit": "POURCENTAGE",
+    "frequency": "IR",
+    "source": " MINISTERE DE LA SANTE ",
+    "definitionFr": "Le taux de fécondité des adolescentes (15-19 ans) est le nombre annuel de naissances vivantes pour 1 000 jeunes femmes de cette tranche d'âge",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2014"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1777286644242,
+  "data": {
+    "23_2014": {
+      "value": "29.6",
+      "footNote": null
+    },
+    "23_2024": {
+      "value": "16.8",
+      "footNote": null
+    },
+    "24_2014": {
+      "value": "22.5",
+      "footNote": null
+    },
+    "24_2024": {
+      "value": "11.3",
+      "footNote": null
+    },
+    "22_2014": {
+      "value": "17.3",
+      "footNote": null
+    },
+    "22_2024": {
+      "value": "7.7",
+      "footNote": null
+    }
+  }
+}

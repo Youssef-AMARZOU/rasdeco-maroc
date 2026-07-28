@@ -1,0 +1,627 @@
+{
+  "iid": 178,
+  "code": "I4193",
+  "label": "Taux d'achèvement avec redoublement par cycle",
+  "metaData": {
+    "unit": "%",
+    "frequency": "AI",
+    "source": "Ministère de l'Education nationale, du Préscolaire et des Sports",
+    "definitionFr": "Nombre total des nouveaux entrants à la première année du cycle lors d’une année scolaire donnée, quel que soit leur âge, qui termineraient avec succès la dernière année de l’enseignement dans ce cycle, peu importe le redoublement, exprimé\nen pourcentage de la population ayant l’âge officiel de compléter avec succès l’enseignement du cycle concerné, la même année.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024-2025",
+    "2023-2024",
+    "2022-2023",
+    "2021-2022",
+    "2020-2021",
+    "2019-2020",
+    "2018-2019",
+    "2017-2018",
+    "2016-2017",
+    "2015-2016",
+    "2014-2015",
+    "2013-2014",
+    "2012-2013",
+    "2011-2012",
+    "2010-2011"
+  ],
+  "dimensions": [
+    {
+      "id": 139,
+      "rank": 1,
+      "label": "Sexe",
+      "modalites": [
+        {
+          "id": 1698,
+          "rank": 1,
+          "label": "Garçons",
+          "total": false
+        },
+        {
+          "id": 1699,
+          "rank": 2,
+          "label": "Filles",
+          "total": false
+        },
+        {
+          "id": 1700,
+          "rank": 3,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "rank": 2,
+      "label": "Niveau Scolaire",
+      "modalites": [
+        {
+          "id": 1701,
+          "rank": 1,
+          "label": "Primaire",
+          "total": false
+        },
+        {
+          "id": 1702,
+          "rank": 2,
+          "label": "Primaire+Collegial",
+          "total": false
+        },
+        {
+          "id": 1703,
+          "rank": 3,
+          "label": "Primaire+Collegial+Qualifiant",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1776255940799,
+  "data": {
+    "1700.1703_2010-2011": {
+      "value": "33",
+      "footNote": null
+    },
+    "1700.1703_2011-2012": {
+      "value": "38",
+      "footNote": null
+    },
+    "1700.1703_2012-2013": {
+      "value": "42",
+      "footNote": null
+    },
+    "1700.1703_2013-2014": {
+      "value": "35",
+      "footNote": null
+    },
+    "1700.1703_2014-2015": {
+      "value": "30",
+      "footNote": null
+    },
+    "1700.1703_2015-2016": {
+      "value": "34",
+      "footNote": null
+    },
+    "1700.1703_2016-2017": {
+      "value": "35.2",
+      "footNote": null
+    },
+    "1700.1703_2017-2018": {
+      "value": "32.0",
+      "footNote": null
+    },
+    "1700.1703_2018-2019": {
+      "value": "31.3",
+      "footNote": null
+    },
+    "1700.1703_2019-2020": {
+      "value": "39.0",
+      "footNote": null
+    },
+    "1700.1703_2020-2021": {
+      "value": "47.8",
+      "footNote": null
+    },
+    "1700.1703_2021-2022": {
+      "value": "43.2",
+      "footNote": null
+    },
+    "1700.1703_2022-2023": {
+      "value": "38.5",
+      "footNote": null
+    },
+    "1700.1703_2023-2024": {
+      "value": "49.0",
+      "footNote": null
+    },
+    "1700.1703_2024-2025": {
+      "value": "56.3",
+      "footNote": null
+    },
+    "1700.1702_2010-2011": {
+      "value": "64",
+      "footNote": null
+    },
+    "1700.1702_2011-2012": {
+      "value": "65",
+      "footNote": null
+    },
+    "1700.1702_2012-2013": {
+      "value": "71",
+      "footNote": null
+    },
+    "1700.1702_2013-2014": {
+      "value": "66",
+      "footNote": null
+    },
+    "1700.1702_2014-2015": {
+      "value": "60.4",
+      "footNote": null
+    },
+    "1700.1702_2015-2016": {
+      "value": "65",
+      "footNote": null
+    },
+    "1700.1702_2016-2017": {
+      "value": "63.9",
+      "footNote": null
+    },
+    "1700.1702_2017-2018": {
+      "value": "60.0",
+      "footNote": null
+    },
+    "1700.1702_2018-2019": {
+      "value": "55.6",
+      "footNote": null
+    },
+    "1700.1702_2019-2020": {
+      "value": "61.4",
+      "footNote": null
+    },
+    "1700.1702_2020-2021": {
+      "value": "62.6",
+      "footNote": null
+    },
+    "1700.1702_2021-2022": {
+      "value": "66.5",
+      "footNote": null
+    },
+    "1700.1702_2022-2023": {
+      "value": "62.0",
+      "footNote": null
+    },
+    "1700.1702_2023-2024": {
+      "value": "69.9",
+      "footNote": null
+    },
+    "1700.1702_2024-2025": {
+      "value": "73.0",
+      "footNote": null
+    },
+    "1699.1703_2010-2011": {
+      "value": "39",
+      "footNote": null
+    },
+    "1699.1703_2011-2012": {
+      "value": "42",
+      "footNote": null
+    },
+    "1699.1703_2012-2013": {
+      "value": "50",
+      "footNote": null
+    },
+    "1699.1703_2013-2014": {
+      "value": "42",
+      "footNote": null
+    },
+    "1699.1703_2014-2015": {
+      "value": "37.2",
+      "footNote": null
+    },
+    "1699.1703_2015-2016": {
+      "value": "46",
+      "footNote": null
+    },
+    "1699.1703_2016-2017": {
+      "value": "48.8",
+      "footNote": null
+    },
+    "1699.1703_2017-2018": {
+      "value": "45.6",
+      "footNote": null
+    },
+    "1699.1703_2018-2019": {
+      "value": "43.4",
+      "footNote": null
+    },
+    "1699.1703_2019-2020": {
+      "value": "52.0",
+      "footNote": null
+    },
+    "1699.1703_2020-2021": {
+      "value": "56.3",
+      "footNote": null
+    },
+    "1699.1703_2021-2022": {
+      "value": "61.0",
+      "footNote": null
+    },
+    "1699.1703_2022-2023": {
+      "value": "53.1",
+      "footNote": null
+    },
+    "1699.1703_2023-2024": {
+      "value": "62.9",
+      "footNote": null
+    },
+    "1699.1703_2024-2025": {
+      "value": "66.5",
+      "footNote": null
+    },
+    "1699.1702_2010-2011": {
+      "value": "65",
+      "footNote": null
+    },
+    "1699.1702_2011-2012": {
+      "value": "65",
+      "footNote": null
+    },
+    "1699.1702_2012-2013": {
+      "value": "73",
+      "footNote": null
+    },
+    "1699.1702_2013-2014": {
+      "value": "67",
+      "footNote": null
+    },
+    "1699.1702_2014-2015": {
+      "value": "62.2",
+      "footNote": null
+    },
+    "1699.1702_2015-2016": {
+      "value": "71",
+      "footNote": null
+    },
+    "1699.1702_2016-2017": {
+      "value": "72.9",
+      "footNote": null
+    },
+    "1699.1702_2017-2018": {
+      "value": "70.5",
+      "footNote": null
+    },
+    "1699.1702_2018-2019": {
+      "value": "65.0",
+      "footNote": null
+    },
+    "1699.1702_2019-2020": {
+      "value": "70.9",
+      "footNote": null
+    },
+    "1699.1702_2020-2021": {
+      "value": "68.4",
+      "footNote": null
+    },
+    "1699.1702_2021-2022": {
+      "value": "78.4",
+      "footNote": null
+    },
+    "1699.1702_2022-2023": {
+      "value": "73.2",
+      "footNote": null
+    },
+    "1699.1702_2023-2024": {
+      "value": "78.9",
+      "footNote": null
+    },
+    "1699.1702_2024-2025": {
+      "value": "79.9",
+      "footNote": null
+    },
+    "1699.1701_2010-2011": {
+      "value": "86",
+      "footNote": null
+    },
+    "1699.1701_2011-2012": {
+      "value": "86",
+      "footNote": null
+    },
+    "1699.1701_2012-2013": {
+      "value": "91",
+      "footNote": null
+    },
+    "1699.1701_2013-2014": {
+      "value": "88",
+      "footNote": null
+    },
+    "1699.1701_2014-2015": {
+      "value": "86.1",
+      "footNote": null
+    },
+    "1699.1701_2015-2016": {
+      "value": "93",
+      "footNote": null
+    },
+    "1699.1701_2016-2017": {
+      "value": "95.0",
+      "footNote": null
+    },
+    "1699.1701_2017-2018": {
+      "value": "95.1",
+      "footNote": null
+    },
+    "1699.1701_2018-2019": {
+      "value": "91.5",
+      "footNote": null
+    },
+    "1699.1701_2019-2020": {
+      "value": "93.2",
+      "footNote": null
+    },
+    "1699.1701_2020-2021": {
+      "value": "91.4",
+      "footNote": null
+    },
+    "1699.1701_2021-2022": {
+      "value": "94.8",
+      "footNote": null
+    },
+    "1699.1701_2022-2023": {
+      "value": "93.1",
+      "footNote": null
+    },
+    "1699.1701_2023-2024": {
+      "value": "95.6",
+      "footNote": null
+    },
+    "1699.1701_2024-2025": {
+      "value": "94.2",
+      "footNote": null
+    },
+    "1698.1702_2010-2011": {
+      "value": "63",
+      "footNote": null
+    },
+    "1698.1702_2011-2012": {
+      "value": "65",
+      "footNote": null
+    },
+    "1698.1702_2012-2013": {
+      "value": "68",
+      "footNote": null
+    },
+    "1698.1702_2013-2014": {
+      "value": "63",
+      "footNote": null
+    },
+    "1698.1702_2014-2015": {
+      "value": "57.6",
+      "footNote": null
+    },
+    "1698.1702_2015-2016": {
+      "value": "58",
+      "footNote": null
+    },
+    "1698.1702_2016-2017": {
+      "value": "54.4",
+      "footNote": null
+    },
+    "1698.1702_2017-2018": {
+      "value": "49.8",
+      "footNote": null
+    },
+    "1698.1702_2018-2019": {
+      "value": "46.4",
+      "footNote": null
+    },
+    "1698.1702_2019-2020": {
+      "value": "52",
+      "footNote": null
+    },
+    "1698.1702_2020-2021": {
+      "value": "56.8",
+      "footNote": null
+    },
+    "1698.1702_2021-2022": {
+      "value": "54.0",
+      "footNote": null
+    },
+    "1698.1702_2022-2023": {
+      "value": "51.2",
+      "footNote": null
+    },
+    "1698.1702_2023-2024": {
+      "value": "60.9",
+      "footNote": null
+    },
+    "1698.1702_2024-2025": {
+      "value": "66.0",
+      "footNote": null
+    },
+    "1698.1703_2010-2011": {
+      "value": "28",
+      "footNote": null
+    },
+    "1698.1703_2011-2012": {
+      "value": "33",
+      "footNote": null
+    },
+    "1698.1703_2012-2013": {
+      "value": "34",
+      "footNote": null
+    },
+    "1698.1703_2013-2014": {
+      "value": "28",
+      "footNote": null
+    },
+    "1698.1703_2014-2015": {
+      "value": "23.7",
+      "footNote": null
+    },
+    "1698.1703_2015-2016": {
+      "value": "25",
+      "footNote": null
+    },
+    "1698.1703_2016-2017": {
+      "value": "24.3",
+      "footNote": null
+    },
+    "1698.1703_2017-2018": {
+      "value": "21.6",
+      "footNote": null
+    },
+    "1698.1703_2018-2019": {
+      "value": "21.6",
+      "footNote": null
+    },
+    "1698.1703_2019-2020": {
+      "value": "27.9",
+      "footNote": null
+    },
+    "1698.1703_2020-2021": {
+      "value": "39.6",
+      "footNote": null
+    },
+    "1698.1703_2021-2022": {
+      "value": "27.8",
+      "footNote": null
+    },
+    "1698.1703_2022-2023": {
+      "value": "26.4",
+      "footNote": null
+    },
+    "1698.1703_2023-2024": {
+      "value": "36.4",
+      "footNote": null
+    },
+    "1698.1703_2024-2025": {
+      "value": "46.3",
+      "footNote": null
+    },
+    "1700.1701_2010-2011": {
+      "value": "86",
+      "footNote": null
+    },
+    "1700.1701_2011-2012": {
+      "value": "86",
+      "footNote": null
+    },
+    "1700.1701_2012-2013": {
+      "value": "90",
+      "footNote": null
+    },
+    "1700.1701_2013-2014": {
+      "value": "88",
+      "footNote": null
+    },
+    "1700.1701_2014-2015": {
+      "value": "87.2",
+      "footNote": null
+    },
+    "1700.1701_2015-2016": {
+      "value": "91",
+      "footNote": null
+    },
+    "1700.1701_2016-2017": {
+      "value": "93.0",
+      "footNote": null
+    },
+    "1700.1701_2017-2018": {
+      "value": "92.8",
+      "footNote": null
+    },
+    "1700.1701_2018-2019": {
+      "value": "89.7",
+      "footNote": null
+    },
+    "1700.1701_2019-2020": {
+      "value": "91.4",
+      "footNote": null
+    },
+    "1700.1701_2020-2021": {
+      "value": "90.4",
+      "footNote": null
+    },
+    "1700.1701_2021-2022": {
+      "value": "92.7",
+      "footNote": null
+    },
+    "1700.1701_2022-2023": {
+      "value": "91.4",
+      "footNote": null
+    },
+    "1700.1701_2023-2024": {
+      "value": "94.2",
+      "footNote": null
+    },
+    "1700.1701_2024-2025": {
+      "value": "92.7",
+      "footNote": null
+    },
+    "1698.1701_2010-2011": {
+      "value": "85",
+      "footNote": null
+    },
+    "1698.1701_2011-2012": {
+      "value": "86",
+      "footNote": null
+    },
+    "1698.1701_2012-2013": {
+      "value": "89",
+      "footNote": null
+    },
+    "1698.1701_2013-2014": {
+      "value": "87",
+      "footNote": null
+    },
+    "1698.1701_2014-2015": {
+      "value": "87.8",
+      "footNote": null
+    },
+    "1698.1701_2015-2016": {
+      "value": "89",
+      "footNote": null
+    },
+    "1698.1701_2016-2017": {
+      "value": "90.2",
+      "footNote": null
+    },
+    "1698.1701_2017-2018": {
+      "value": "90.0",
+      "footNote": null
+    },
+    "1698.1701_2018-2019": {
+      "value": "87.5",
+      "footNote": null
+    },
+    "1698.1701_2019-2020": {
+      "value": "89",
+      "footNote": null
+    },
+    "1698.1701_2020-2021": {
+      "value": "89.3",
+      "footNote": null
+    },
+    "1698.1701_2021-2022": {
+      "value": "89.9",
+      "footNote": null
+    },
+    "1698.1701_2022-2023": {
+      "value": "89.4",
+      "footNote": null
+    },
+    "1698.1701_2023-2024": {
+      "value": "92.5",
+      "footNote": null
+    },
+    "1698.1701_2024-2025": {
+      "value": "91.1",
+      "footNote": null
+    }
+  }
+}

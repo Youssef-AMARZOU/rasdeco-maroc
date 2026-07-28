@@ -2,19 +2,27 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Dependance systeme pour numpy/pandas
+# Install system deps for google-cloud SDK
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    gcc libffi-dev && \
+    curl gnupg && \
+    echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" \
+    | tee /etc/apt/sources.list.d/google-cloud-sdk.list && \
+    curl https://packages.cloud.google.com/apt/doc/apt-key.gpg \
+    | gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg && \
+    apt-get update && apt-get install -y --no-install-recommends google-cloud-sdk && \
     rm -rf /var/lib/apt/lists/*
 
-COPY economie/dashboard/requirements.txt .
+COPY dashboard/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY economie/dashboard/ .
+COPY . .
 
-# Cloud Run injecte PORT ; 8080 par defaut
+# Expose le port Cloud Run
 ENV PORT=8080
-EXPOSE ${PORT}
+EXPOSE 8080
 
-# gunicorn avec 2 workers ; le cache TTL est par worker (x2 requetes BQ max)
-CMD exec gunicorn --bind 0.0.0.0:${PORT} --workers 2 --timeout 120 app:server
+CMD exec gunicorn dashboard.app:server \
+    --bind :$PORT \
+    --workers 2 \
+    --timeout 120 \
+    --access-logfile -

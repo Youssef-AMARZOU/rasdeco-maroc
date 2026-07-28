@@ -1,0 +1,217 @@
+{
+  "iid": 277,
+  "code": "I3212",
+  "label": "Taux de vaccination des enfants agés de 12-23 mois",
+  "metaData": {
+    "unit": "%",
+    "frequency": "AS",
+    "source": "Ministere de la santé",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2018"
+  ],
+  "dimensions": [
+    {
+      "id": 215,
+      "rank": 1,
+      "label": "Milieu",
+      "modalites": [
+        {
+          "id": 3440,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 3441,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 3442,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "rank": 2,
+      "label": "Type de vaccin",
+      "modalites": [
+        {
+          "id": 3443,
+          "rank": 1,
+          "label": "BCG",
+          "total": false
+        },
+        {
+          "id": 3444,
+          "rank": 2,
+          "label": "PENTA1",
+          "total": false
+        },
+        {
+          "id": 3445,
+          "rank": 3,
+          "label": "PENTA2",
+          "total": false
+        },
+        {
+          "id": 3446,
+          "rank": 4,
+          "label": "PENTA3",
+          "total": false
+        },
+        {
+          "id": 3447,
+          "rank": 5,
+          "label": "VPO1",
+          "total": false
+        },
+        {
+          "id": 3448,
+          "rank": 6,
+          "label": "VPO2",
+          "total": false
+        },
+        {
+          "id": 3449,
+          "rank": 7,
+          "label": "VPO3",
+          "total": false
+        },
+        {
+          "id": 3450,
+          "rank": 8,
+          "label": "Rougeole-Rubéole 1",
+          "total": false
+        },
+        {
+          "id": 3451,
+          "rank": 9,
+          "label": "Complétement vaccinés",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": true,
+  "shutOffComment": "-",
+  "updatingDate": 1576395000000,
+  "data": {
+    "3441.3451_2018": {
+      "value": "86.1",
+      "footNote": null
+    },
+    "3441.3450_2018": {
+      "value": "88.6",
+      "footNote": null
+    },
+    "3440.3451_2018": {
+      "value": "95.2",
+      "footNote": null
+    },
+    "3440.3450_2018": {
+      "value": "97.6",
+      "footNote": null
+    },
+    "3442.3448_2018": {
+      "value": "97",
+      "footNote": null
+    },
+    "3442.3449_2018": {
+      "value": "95.4",
+      "footNote": null
+    },
+    "3442.3444_2018": {
+      "value": "97.3",
+      "footNote": null
+    },
+    "3442.3445_2018": {
+      "value": "95.8",
+      "footNote": null
+    },
+    "3442.3446_2018": {
+      "value": "94.4",
+      "footNote": null
+    },
+    "3442.3447_2018": {
+      "value": "98.1",
+      "footNote": null
+    },
+    "3442.3443_2018": {
+      "value": "98.8",
+      "footNote": null
+    },
+    "3441.3446_2018": {
+      "value": "91.1",
+      "footNote": null
+    },
+    "3441.3445_2018": {
+      "value": "93.8",
+      "footNote": null
+    },
+    "3441.3444_2018": {
+      "value": "95.6",
+      "footNote": null
+    },
+    "3442.3450_2018": {
+      "value": "93.1",
+      "footNote": null
+    },
+    "3441.3443_2018": {
+      "value": "97.9",
+      "footNote": null
+    },
+    "3441.3449_2018": {
+      "value": "92.4",
+      "footNote": null
+    },
+    "3441.3448_2018": {
+      "value": "94.6",
+      "footNote": null
+    },
+    "3441.3447_2018": {
+      "value": "96.6",
+      "footNote": null
+    },
+    "3440.3444_2018": {
+      "value": "98.9",
+      "footNote": null
+    },
+    "3440.3445_2018": {
+      "value": "97.8",
+      "footNote": null
+    },
+    "3440.3443_2018": {
+      "value": "98.8",
+      "footNote": null
+    },
+    "3440.3448_2018": {
+      "value": "99.3",
+      "footNote": null
+    },
+    "3440.3449_2018": {
+      "value": "98.4",
+      "footNote": null
+    },
+    "3440.3446_2018": {
+      "value": "97.6",
+      "footNote": null
+    },
+    "3440.3447_2018": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "3442.3451_2018": {
+      "value": "90.6",
+      "footNote": null
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "year": 2020,
+  "domaine": "Économie",
+  "kpis": [
+    {
+      "label": "Croissance du PIB",
+      "value": -7.2,
+      "unit": "%"
+    },
+    {
+      "label": "Inflation IPC",
+      "value": 0.6,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de chômage",
+      "value": 11.9,
+      "unit": "%"
+    },
+    {
+      "label": "Taux directeur BAM",
+      "value": 2,
+      "unit": "%"
+    },
+    {
+      "label": "Dette publique / PIB",
+      "value": 77.6,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Réserves de change",
+      "value": 5.5,
+      "unit": "mois"
+    },
+    {
+      "label": "Flux d'IDE",
+      "value": 17.5,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Déficit budgétaire",
+      "value": -7.7,
+      "unit": "% PIB"
+    }
+  ],
+  "indicators": {
+    "PIB_CROISSANCE": -7.2,
+    "IPC_GLISSEMENT": 0.6,
+    "CHOMAGE": 11.9,
+    "TAUX_DIRECTEUR": 2,
+    "DETTE_PUBLIQUE": 77.6,
+    "RESERVES_CHANGE": 5.5,
+    "IDE_FLUX": 17.5,
+    "DEFICIT_BUDGET": -7.7
+  },
+  "source": "HCP/BAM"
+}

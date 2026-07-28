@@ -1,0 +1,122 @@
+{
+  "iid": 588,
+  "code": "I2807",
+  "label": "Effectif des UPI selon le secteur d'activité",
+  "metaData": {
+    "unit": "Effectif",
+    "frequency": "IR",
+    "source": "Enquête Nationale sur le secteur informel",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2014",
+    "2007",
+    "1999"
+  ],
+  "dimensions": [
+    {
+      "id": 489,
+      "rank": 1,
+      "label": "Secteur d'activité",
+      "modalites": [
+        {
+          "id": 6106,
+          "rank": 1,
+          "label": "BTP",
+          "total": false
+        },
+        {
+          "id": 6107,
+          "rank": 2,
+          "label": "Commerce",
+          "total": false
+        },
+        {
+          "id": 6108,
+          "rank": 3,
+          "label": "Industrie",
+          "total": false
+        },
+        {
+          "id": 6109,
+          "rank": 4,
+          "label": "Service",
+          "total": false
+        },
+        {
+          "id": 6110,
+          "rank": 5,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1450164600000,
+  "data": {
+    "6108_1999": {
+      "value": "257719",
+      "footNote": null
+    },
+    "6108_2007": {
+      "value": "267031",
+      "footNote": null
+    },
+    "6108_2014": {
+      "value": "271209",
+      "footNote": null
+    },
+    "6109_1999": {
+      "value": "247706",
+      "footNote": null
+    },
+    "6109_2007": {
+      "value": "309458",
+      "footNote": null
+    },
+    "6109_2014": {
+      "value": "409989",
+      "footNote": null
+    },
+    "6106_1999": {
+      "value": "76915",
+      "footNote": null
+    },
+    "6106_2007": {
+      "value": "84034",
+      "footNote": null
+    },
+    "6106_2014": {
+      "value": "146660",
+      "footNote": null
+    },
+    "6107_1999": {
+      "value": "650900",
+      "footNote": null
+    },
+    "6107_2007": {
+      "value": "889751",
+      "footNote": null
+    },
+    "6107_2014": {
+      "value": "848139",
+      "footNote": null
+    },
+    "6110_1999": {
+      "value": "1233240",
+      "footNote": null
+    },
+    "6110_2007": {
+      "value": "1550274",
+      "footNote": null
+    },
+    "6110_2014": {
+      "value": "1675997",
+      "footNote": null
+    }
+  }
+}

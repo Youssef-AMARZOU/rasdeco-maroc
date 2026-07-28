@@ -1,0 +1,271 @@
+{
+  "iid": 526,
+  "code": "I1493",
+  "label": "Taux de pauvreté",
+  "metaData": {
+    "unit": "POURCENTAGE",
+    "frequency": "IR",
+    "source": "Carte de pauvreté monétaire 2014\n",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2014"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "rank": 1,
+      "label": "Régions (12)",
+      "modalites": [
+        {
+          "id": 5680,
+          "rank": 1,
+          "label": "Tanger-tetouan-al hoceima",
+          "total": false
+        },
+        {
+          "id": 5681,
+          "rank": 2,
+          "label": "Oriental",
+          "total": false
+        },
+        {
+          "id": 5682,
+          "rank": 3,
+          "label": "Fès-Meknes",
+          "total": false
+        },
+        {
+          "id": 5683,
+          "rank": 4,
+          "label": "Rabat-salé-kenitra",
+          "total": false
+        },
+        {
+          "id": 5684,
+          "rank": 5,
+          "label": "Béni mellal- khenifra",
+          "total": false
+        },
+        {
+          "id": 5685,
+          "rank": 6,
+          "label": "Casablanca-settat",
+          "total": false
+        },
+        {
+          "id": 5686,
+          "rank": 7,
+          "label": "Marrakech-safi",
+          "total": false
+        },
+        {
+          "id": 5687,
+          "rank": 8,
+          "label": "Daraa-tafilalet",
+          "total": false
+        },
+        {
+          "id": 5688,
+          "rank": 9,
+          "label": "Sous-massa",
+          "total": false
+        },
+        {
+          "id": 5689,
+          "rank": 10,
+          "label": "Guelmim- ouad noun",
+          "total": false
+        },
+        {
+          "id": 5690,
+          "rank": 11,
+          "label": "Laayoun-sakia el hamra",
+          "total": false
+        },
+        {
+          "id": 5691,
+          "rank": 12,
+          "label": "Eddakhla- oued eddahab",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1450164600000,
+  "data": {
+    "23.5685_2014": {
+      "value": "5.1",
+      "footNote": null
+    },
+    "23.5686_2014": {
+      "value": "7.2",
+      "footNote": null
+    },
+    "23.5683_2014": {
+      "value": "9.4",
+      "footNote": null
+    },
+    "23.5684_2014": {
+      "value": "14.1",
+      "footNote": null
+    },
+    "24.5690_2014": {
+      "value": "1.7",
+      "footNote": null
+    },
+    "23.5681_2014": {
+      "value": "9.6",
+      "footNote": null
+    },
+    "23.5682_2014": {
+      "value": "10.2",
+      "footNote": null
+    },
+    "23.5680_2014": {
+      "value": "5",
+      "footNote": null
+    },
+    "23.5689_2014": {
+      "value": "6.9",
+      "footNote": null
+    },
+    "23.5687_2014": {
+      "value": "19.6",
+      "footNote": null
+    },
+    "23.5688_2014": {
+      "value": "9.8",
+      "footNote": null
+    },
+    "22.5681_2014": {
+      "value": "3",
+      "footNote": null
+    },
+    "22.5680_2014": {
+      "value": "1",
+      "footNote": null
+    },
+    "22.5683_2014": {
+      "value": "1.7",
+      "footNote": null
+    },
+    "22.5682_2014": {
+      "value": "1.9",
+      "footNote": null
+    },
+    "22.5685_2014": {
+      "value": "1.7",
+      "footNote": null
+    },
+    "22.5684_2014": {
+      "value": "3.9",
+      "footNote": null
+    },
+    "22.5687_2014": {
+      "value": "4.8",
+      "footNote": null
+    },
+    "22.5686_2014": {
+      "value": "1",
+      "footNote": null
+    },
+    "22.5689_2014": {
+      "value": "5.1",
+      "footNote": null
+    },
+    "24.5691_2014": {
+      "value": "0.4",
+      "footNote": null
+    },
+    "22.5688_2014": {
+      "value": "2.7",
+      "footNote": null
+    },
+    "23.5690_2014": {
+      "value": "2.9",
+      "footNote": null
+    },
+    "23.5691_2014": {
+      "value": "0.6",
+      "footNote": null
+    },
+    "22.5690_2014": {
+      "value": "1.6",
+      "footNote": null
+    },
+    "24.5689_2014": {
+      "value": "5.7",
+      "footNote": null
+    },
+    "24.5688_2014": {
+      "value": "5.8",
+      "footNote": null
+    },
+    "22.5691_2014": {
+      "value": "0.4",
+      "footNote": null
+    },
+    "24.5683_2014": {
+      "value": "4",
+      "footNote": null
+    },
+    "24.5682_2014": {
+      "value": "5.1",
+      "footNote": null
+    },
+    "24.5681_2014": {
+      "value": "5.2",
+      "footNote": null
+    },
+    "24.5680_2014": {
+      "value": "2.6",
+      "footNote": null
+    },
+    "24.5687_2014": {
+      "value": "14.6",
+      "footNote": null
+    },
+    "24.5686_2014": {
+      "value": "4.6",
+      "footNote": null
+    },
+    "24.5685_2014": {
+      "value": "2.6",
+      "footNote": null
+    },
+    "24.5684_2014": {
+      "value": "9.1",
+      "footNote": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "iid": 275,
+  "code": "I1482",
+  "label": "Taux de mortalité maternelle",
+  "metaData": {
+    "unit": "Pour 100,000 naissances vivantes\n",
+    "frequency": "IR",
+    "source": " ENDPR 2009-2010 ",
+    "definitionFr": "Le nombre de femmes décédées de causes liées à la grossesse pendant la grossesse, l'accouchement ou peu après, généralement calculé pour 100 000 naissances vivantes.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2015"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1481787000000,
+  "data": {
+    "24_2015": {
+      "value": "72.6",
+      "footNote": null
+    },
+    "22_2015": {
+      "value": "44.6",
+      "footNote": null
+    },
+    "23_2015": {
+      "value": "111.1",
+      "footNote": null
+    }
+  }
+}

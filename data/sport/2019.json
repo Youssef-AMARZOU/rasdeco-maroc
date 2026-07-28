@@ -1,0 +1,45 @@
+{
+  "year": 2019,
+  "domaine": "Sport",
+  "kpis": [
+    {
+      "label": "Licenciés sportifs",
+      "value": 1.4,
+      "unit": "M"
+    },
+    {
+      "label": "Installations sportives",
+      "value": 10,
+      "unit": "K"
+    },
+    {
+      "label": "Fédérations affiliées",
+      "value": 68,
+      "unit": ""
+    },
+    {
+      "label": "Budget sport / PIB",
+      "value": 0.26,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Classement mondial (foot)",
+      "value": 28,
+      "unit": "e place"
+    },
+    {
+      "label": "Médailles internationales",
+      "value": 55,
+      "unit": ""
+    }
+  ],
+  "indicators": {
+    "LICENCIES": 1.4,
+    "INSTALLATIONS": 10,
+    "FEDERATIONS": 68,
+    "BUDGET_SPORT": 0.26,
+    "CLASSEMENT_FIFA": 28,
+    "MEDAILLES": 55
+  },
+  "source": "HCP/AMSED"
+}

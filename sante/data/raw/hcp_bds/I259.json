@@ -1,0 +1,300 @@
+{
+  "iid": 214,
+  "code": "I259",
+  "label": "Capacité litière existante",
+  "metaData": {
+    "unit": "Nombre",
+    "frequency": "AS",
+    "source": "Ministère de la Santé et de la Protection sociale",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1998",
+    "1997",
+    "1996",
+    "1995",
+    "1994",
+    "1993",
+    "1992",
+    "1991",
+    "1990",
+    "1989",
+    "1988",
+    "1987",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982",
+    "1981",
+    "1980",
+    "1979",
+    "1978",
+    "1977",
+    "1976",
+    "1975",
+    "1974",
+    "1973",
+    "1972",
+    "1971",
+    "1970"
+  ],
+  "dimensions": [
+    {
+      "id": 201,
+      "rank": 1,
+      "label": "Grands Secteurs",
+      "modalites": [
+        {
+          "id": 3344,
+          "rank": 1,
+          "label": "Public ",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1775558484904,
+  "data": {
+    "3344_1970": {
+      "value": "22570",
+      "footNote": null
+    },
+    "3344_1971": {
+      "value": "22727",
+      "footNote": null
+    },
+    "3344_1972": {
+      "value": "22858",
+      "footNote": null
+    },
+    "3344_1973": {
+      "value": "22766",
+      "footNote": null
+    },
+    "3344_1974": {
+      "value": "23041",
+      "footNote": null
+    },
+    "3344_1975": {
+      "value": "23143",
+      "footNote": null
+    },
+    "3344_1976": {
+      "value": "23123",
+      "footNote": null
+    },
+    "3344_1977": {
+      "value": "23669",
+      "footNote": null
+    },
+    "3344_1978": {
+      "value": "23948",
+      "footNote": null
+    },
+    "3344_1979": {
+      "value": "24453",
+      "footNote": null
+    },
+    "3344_1980": {
+      "value": "25301",
+      "footNote": null
+    },
+    "3344_1981": {
+      "value": "24341",
+      "footNote": null
+    },
+    "3344_1982": {
+      "value": "24913",
+      "footNote": null
+    },
+    "3344_1983": {
+      "value": "25793",
+      "footNote": null
+    },
+    "3344_1984": {
+      "value": "26538",
+      "footNote": null
+    },
+    "3344_1985": {
+      "value": "26084",
+      "footNote": null
+    },
+    "3344_1986": {
+      "value": "25179",
+      "footNote": null
+    },
+    "3344_1987": {
+      "value": "25254",
+      "footNote": null
+    },
+    "3344_1988": {
+      "value": "26066",
+      "footNote": null
+    },
+    "3344_1989": {
+      "value": "26174",
+      "footNote": null
+    },
+    "3344_1990": {
+      "value": "26673",
+      "footNote": null
+    },
+    "3344_1991": {
+      "value": "26505",
+      "footNote": null
+    },
+    "3344_1992": {
+      "value": "26048",
+      "footNote": null
+    },
+    "3344_1993": {
+      "value": "26273",
+      "footNote": null
+    },
+    "3344_1994": {
+      "value": "26407",
+      "footNote": null
+    },
+    "3344_1995": {
+      "value": "26404",
+      "footNote": null
+    },
+    "3344_1996": {
+      "value": "26451",
+      "footNote": null
+    },
+    "3344_1997": {
+      "value": "25778",
+      "footNote": null
+    },
+    "3344_1998": {
+      "value": "25676",
+      "footNote": null
+    },
+    "3344_1999": {
+      "value": "26265",
+      "footNote": null
+    },
+    "3344_2000": {
+      "value": "25106",
+      "footNote": null
+    },
+    "3344_2001": {
+      "value": "25571",
+      "footNote": null
+    },
+    "3344_2002": {
+      "value": "25901",
+      "footNote": null
+    },
+    "3344_2003": {
+      "value": "26257",
+      "footNote": null
+    },
+    "3344_2004": {
+      "value": "26136",
+      "footNote": null
+    },
+    "3344_2005": {
+      "value": "26256",
+      "footNote": null
+    },
+    "3344_2006": {
+      "value": "26620",
+      "footNote": null
+    },
+    "3344_2007": {
+      "value": null,
+      "footNote": null
+    },
+    "3344_2008": {
+      "value": "27347",
+      "footNote": null
+    },
+    "3344_2009": {
+      "value": "27347",
+      "footNote": null
+    },
+    "3344_2010": {
+      "value": "27326",
+      "footNote": null
+    },
+    "3344_2011": {
+      "value": "27326",
+      "footNote": null
+    },
+    "3344_2012": {
+      "value": "27747",
+      "footNote": null
+    },
+    "3344_2013": {
+      "value": "27747",
+      "footNote": null
+    },
+    "3344_2017": {
+      "value": "25384",
+      "footNote": null
+    },
+    "3344_2018": {
+      "value": "25384",
+      "footNote": null
+    },
+    "3344_2019": {
+      "value": "25385",
+      "footNote": null
+    },
+    "3344_2020": {
+      "value": "26926",
+      "footNote": null
+    },
+    "3344_2021": {
+      "value": "26711",
+      "footNote": null
+    },
+    "3344_2022": {
+      "value": "27401",
+      "footNote": null
+    },
+    "3344_2023": {
+      "value": "27539",
+      "footNote": null
+    },
+    "3344_2024": {
+      "value": "28184",
+      "footNote": null
+    },
+    "3344_2025": {
+      "value": "28736",
+      "footNote": null
+    }
+  }
+}

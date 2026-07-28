@@ -1,0 +1,4681 @@
+year,month,airport_code,airport_name,passengers
+2001,1,RAK,Marrakech Menara,63625
+2001,2,RAK,Marrakech Menara,60613
+2001,3,RAK,Marrakech Menara,77299
+2001,4,RAK,Marrakech Menara,90468
+2001,5,RAK,Marrakech Menara,91290
+2001,6,RAK,Marrakech Menara,73798
+2001,7,RAK,Marrakech Menara,122107
+2001,8,RAK,Marrakech Menara,172615
+2001,9,RAK,Marrakech Menara,112474
+2001,10,RAK,Marrakech Menara,99820
+2001,11,RAK,Marrakech Menara,82029
+2001,12,RAK,Marrakech Menara,79441
+2001,1,CMN,Casablanca Mohammed V,84397
+2001,2,CMN,Casablanca Mohammed V,70422
+2001,3,CMN,Casablanca Mohammed V,112156
+2001,4,CMN,Casablanca Mohammed V,130425
+2001,5,CMN,Casablanca Mohammed V,124813
+2001,6,CMN,Casablanca Mohammed V,108554
+2001,7,CMN,Casablanca Mohammed V,202748
+2001,8,CMN,Casablanca Mohammed V,201198
+2001,9,CMN,Casablanca Mohammed V,156926
+2001,10,CMN,Casablanca Mohammed V,146256
+2001,11,CMN,Casablanca Mohammed V,113288
+2001,12,CMN,Casablanca Mohammed V,113941
+2001,1,TNG,Tanger Ibn Battouta,40521
+2001,2,TNG,Tanger Ibn Battouta,34300
+2001,3,TNG,Tanger Ibn Battouta,50290
+2001,4,TNG,Tanger Ibn Battouta,50042
+2001,5,TNG,Tanger Ibn Battouta,52558
+2001,6,TNG,Tanger Ibn Battouta,44765
+2001,7,TNG,Tanger Ibn Battouta,73548
+2001,8,TNG,Tanger Ibn Battouta,87697
+2001,9,TNG,Tanger Ibn Battouta,68938
+2001,10,TNG,Tanger Ibn Battouta,56554
+2001,11,TNG,Tanger Ibn Battouta,50313
+2001,12,TNG,Tanger Ibn Battouta,44733
+2001,1,AGA,Agadir Al Massira,25940
+2001,2,AGA,Agadir Al Massira,21255
+2001,3,AGA,Agadir Al Massira,33576
+2001,4,AGA,Agadir Al Massira,39634
+2001,5,AGA,Agadir Al Massira,36682
+2001,6,AGA,Agadir Al Massira,30325
+2001,7,AGA,Agadir Al Massira,54297
+2001,8,AGA,Agadir Al Massira,65376
+2001,9,AGA,Agadir Al Massira,48751
+2001,10,AGA,Agadir Al Massira,44651
+2001,11,AGA,Agadir Al Massira,30616
+2001,12,AGA,Agadir Al Massira,30676
+2001,1,FEZ,Fès Saïss,17114
+2001,2,FEZ,Fès Saïss,12832
+2001,3,FEZ,Fès Saïss,19427
+2001,4,FEZ,Fès Saïss,21880
+2001,5,FEZ,Fès Saïss,21763
+2001,6,FEZ,Fès Saïss,18832
+2001,7,FEZ,Fès Saïss,31265
+2001,8,FEZ,Fès Saïss,39453
+2001,9,FEZ,Fès Saïss,28377
+2001,10,FEZ,Fès Saïss,25971
+2001,11,FEZ,Fès Saïss,19108
+2001,12,FEZ,Fès Saïss,19764
+2001,1,RBA,Rabat-Salé,10955
+2001,2,RBA,Rabat-Salé,8161
+2001,3,RBA,Rabat-Salé,10968
+2001,4,RBA,Rabat-Salé,12679
+2001,5,RBA,Rabat-Salé,12264
+2001,6,RBA,Rabat-Salé,11082
+2001,7,RBA,Rabat-Salé,20411
+2001,8,RBA,Rabat-Salé,25133
+2001,9,RBA,Rabat-Salé,17829
+2001,10,RBA,Rabat-Salé,14227
+2001,11,RBA,Rabat-Salé,11879
+2001,12,RBA,Rabat-Salé,10742
+2001,1,OUD,Oujda Angads,6374
+2001,2,OUD,Oujda Angads,5335
+2001,3,OUD,Oujda Angads,7851
+2001,4,OUD,Oujda Angads,8871
+2001,5,OUD,Oujda Angads,9258
+2001,6,OUD,Oujda Angads,8209
+2001,7,OUD,Oujda Angads,13440
+2001,8,OUD,Oujda Angads,16498
+2001,9,OUD,Oujda Angads,11210
+2001,10,OUD,Oujda Angads,9997
+2001,11,OUD,Oujda Angads,8123
+2001,12,OUD,Oujda Angads,7726
+2001,1,NDR,Nador Ibn Batouta,5925
+2001,2,NDR,Nador Ibn Batouta,4888
+2001,3,NDR,Nador Ibn Batouta,6565
+2001,4,NDR,Nador Ibn Batouta,7374
+2001,5,NDR,Nador Ibn Batouta,7151
+2001,6,NDR,Nador Ibn Batouta,6881
+2001,7,NDR,Nador Ibn Batouta,12075
+2001,8,NDR,Nador Ibn Batouta,12180
+2001,9,NDR,Nador Ibn Batouta,9638
+2001,10,NDR,Nador Ibn Batouta,8798
+2001,11,NDR,Nador Ibn Batouta,6385
+2001,12,NDR,Nador Ibn Batouta,6526
+2001,1,ERH,Errachidia Moulay Ali Cherif,3215
+2001,2,ERH,Errachidia Moulay Ali Cherif,2387
+2001,3,ERH,Errachidia Moulay Ali Cherif,3202
+2001,4,ERH,Errachidia Moulay Ali Cherif,3832
+2001,5,ERH,Errachidia Moulay Ali Cherif,3598
+2001,6,ERH,Errachidia Moulay Ali Cherif,3563
+2001,7,ERH,Errachidia Moulay Ali Cherif,5588
+2001,8,ERH,Errachidia Moulay Ali Cherif,6610
+2001,9,ERH,Errachidia Moulay Ali Cherif,4865
+2001,10,ERH,Errachidia Moulay Ali Cherif,4718
+2001,11,ERH,Errachidia Moulay Ali Cherif,3396
+2001,12,ERH,Errachidia Moulay Ali Cherif,3263
+2001,1,VIL,Dakhla,2289
+2001,2,VIL,Dakhla,1999
+2001,3,VIL,Dakhla,2678
+2001,4,VIL,Dakhla,3106
+2001,5,VIL,Dakhla,3129
+2001,6,VIL,Dakhla,2897
+2001,7,VIL,Dakhla,4915
+2001,8,VIL,Dakhla,5327
+2001,9,VIL,Dakhla,3635
+2001,10,VIL,Dakhla,3833
+2001,11,VIL,Dakhla,2595
+2001,12,VIL,Dakhla,2813
+2001,1,EUN,Laayoune Hassan I,2145
+2001,2,EUN,Laayoune Hassan I,1810
+2001,3,EUN,Laayoune Hassan I,2340
+2001,4,EUN,Laayoune Hassan I,2688
+2001,5,EUN,Laayoune Hassan I,2932
+2001,6,EUN,Laayoune Hassan I,2408
+2001,7,EUN,Laayoune Hassan I,3929
+2001,8,EUN,Laayoune Hassan I,4655
+2001,9,EUN,Laayoune Hassan I,3577
+2001,10,EUN,Laayoune Hassan I,3119
+2001,11,EUN,Laayoune Hassan I,2437
+2001,12,EUN,Laayoune Hassan I,2585
+2001,1,TTU,Tetouan Sania Ramel,1640
+2001,2,TTU,Tetouan Sania Ramel,1262
+2001,3,TTU,Tetouan Sania Ramel,1949
+2001,4,TTU,Tetouan Sania Ramel,2261
+2001,5,TTU,Tetouan Sania Ramel,1992
+2001,6,TTU,Tetouan Sania Ramel,1780
+2001,7,TTU,Tetouan Sania Ramel,3443
+2001,8,TTU,Tetouan Sania Ramel,3341
+2001,9,TTU,Tetouan Sania Ramel,2514
+2001,10,TTU,Tetouan Sania Ramel,2268
+2001,11,TTU,Tetouan Sania Ramel,1794
+2001,12,TTU,Tetouan Sania Ramel,1756
+2001,1,ESU,Essaouira Mogador,1412
+2001,2,ESU,Essaouira Mogador,1144
+2001,3,ESU,Essaouira Mogador,1685
+2001,4,ESU,Essaouira Mogador,1754
+2001,5,ESU,Essaouira Mogador,1866
+2001,6,ESU,Essaouira Mogador,1641
+2001,7,ESU,Essaouira Mogador,2859
+2001,8,ESU,Essaouira Mogador,3407
+2001,9,ESU,Essaouira Mogador,2214
+2001,10,ESU,Essaouira Mogador,2078
+2001,11,ESU,Essaouira Mogador,1641
+2001,12,ESU,Essaouira Mogador,1682
+2001,1,OZZ,Ouarzazate,1067
+2001,2,OZZ,Ouarzazate,997
+2001,3,OZZ,Ouarzazate,1388
+2001,4,OZZ,Ouarzazate,1369
+2001,5,OZZ,Ouarzazate,1396
+2001,6,OZZ,Ouarzazate,1314
+2001,7,OZZ,Ouarzazate,2278
+2001,8,OZZ,Ouarzazate,2708
+2001,9,OZZ,Ouarzazate,2011
+2001,10,OZZ,Ouarzazate,1790
+2001,11,OZZ,Ouarzazate,1354
+2001,12,OZZ,Ouarzazate,1381
+2001,1,MEK,Meknes,769
+2001,2,MEK,Meknes,570
+2001,3,MEK,Meknes,786
+2001,4,MEK,Meknes,888
+2001,5,MEK,Meknes,1004
+2001,6,MEK,Meknes,842
+2001,7,MEK,Meknes,1370
+2001,8,MEK,Meknes,1874
+2001,9,MEK,Meknes,1339
+2001,10,MEK,Meknes,1120
+2001,11,MEK,Meknes,903
+2001,12,MEK,Meknes,848
+2002,1,RAK,Marrakech Menara,77774
+2002,2,RAK,Marrakech Menara,58662
+2002,3,RAK,Marrakech Menara,77929
+2002,4,RAK,Marrakech Menara,90428
+2002,5,RAK,Marrakech Menara,103608
+2002,6,RAK,Marrakech Menara,86840
+2002,7,RAK,Marrakech Menara,132063
+2002,8,RAK,Marrakech Menara,174400
+2002,9,RAK,Marrakech Menara,113356
+2002,10,RAK,Marrakech Menara,100400
+2002,11,RAK,Marrakech Menara,86171
+2002,12,RAK,Marrakech Menara,76453
+2002,1,CMN,Casablanca Mohammed V,95427
+2002,2,CMN,Casablanca Mohammed V,80008
+2002,3,CMN,Casablanca Mohammed V,105593
+2002,4,CMN,Casablanca Mohammed V,135447
+2002,5,CMN,Casablanca Mohammed V,133103
+2002,6,CMN,Casablanca Mohammed V,117038
+2002,7,CMN,Casablanca Mohammed V,204122
+2002,8,CMN,Casablanca Mohammed V,209748
+2002,9,CMN,Casablanca Mohammed V,173978
+2002,10,CMN,Casablanca Mohammed V,157463
+2002,11,CMN,Casablanca Mohammed V,107391
+2002,12,CMN,Casablanca Mohammed V,109206
+2002,1,TNG,Tanger Ibn Battouta,45668
+2002,2,TNG,Tanger Ibn Battouta,35117
+2002,3,TNG,Tanger Ibn Battouta,50961
+2002,4,TNG,Tanger Ibn Battouta,63007
+2002,5,TNG,Tanger Ibn Battouta,61932
+2002,6,TNG,Tanger Ibn Battouta,50765
+2002,7,TNG,Tanger Ibn Battouta,88078
+2002,8,TNG,Tanger Ibn Battouta,110723
+2002,9,TNG,Tanger Ibn Battouta,66905
+2002,10,TNG,Tanger Ibn Battouta,64457
+2002,11,TNG,Tanger Ibn Battouta,48212
+2002,12,TNG,Tanger Ibn Battouta,48656
+2002,1,AGA,Agadir Al Massira,31207
+2002,2,AGA,Agadir Al Massira,26353
+2002,3,AGA,Agadir Al Massira,33592
+2002,4,AGA,Agadir Al Massira,43172
+2002,5,AGA,Agadir Al Massira,38911
+2002,6,AGA,Agadir Al Massira,31138
+2002,7,AGA,Agadir Al Massira,56009
+2002,8,AGA,Agadir Al Massira,63358
+2002,9,AGA,Agadir Al Massira,52730
+2002,10,AGA,Agadir Al Massira,45156
+2002,11,AGA,Agadir Al Massira,31336
+2002,12,AGA,Agadir Al Massira,34952
+2002,1,FEZ,Fès Saïss,17312
+2002,2,FEZ,Fès Saïss,14304
+2002,3,FEZ,Fès Saïss,18487
+2002,4,FEZ,Fès Saïss,20585
+2002,5,FEZ,Fès Saïss,23877
+2002,6,FEZ,Fès Saïss,21117
+2002,7,FEZ,Fès Saïss,30958
+2002,8,FEZ,Fès Saïss,42708
+2002,9,FEZ,Fès Saïss,28450
+2002,10,FEZ,Fès Saïss,27051
+2002,11,FEZ,Fès Saïss,18651
+2002,12,FEZ,Fès Saïss,21136
+2002,1,RBA,Rabat-Salé,11085
+2002,2,RBA,Rabat-Salé,9737
+2002,3,RBA,Rabat-Salé,11374
+2002,4,RBA,Rabat-Salé,14299
+2002,5,RBA,Rabat-Salé,13399
+2002,6,RBA,Rabat-Salé,12888
+2002,7,RBA,Rabat-Salé,22098
+2002,8,RBA,Rabat-Salé,25935
+2002,9,RBA,Rabat-Salé,17344
+2002,10,RBA,Rabat-Salé,14969
+2002,11,RBA,Rabat-Salé,12215
+2002,12,RBA,Rabat-Salé,13028
+2002,1,OUD,Oujda Angads,6808
+2002,2,OUD,Oujda Angads,5178
+2002,3,OUD,Oujda Angads,7865
+2002,4,OUD,Oujda Angads,9664
+2002,5,OUD,Oujda Angads,8503
+2002,6,OUD,Oujda Angads,7476
+2002,7,OUD,Oujda Angads,14077
+2002,8,OUD,Oujda Angads,16701
+2002,9,OUD,Oujda Angads,10622
+2002,10,OUD,Oujda Angads,10481
+2002,11,OUD,Oujda Angads,8067
+2002,12,OUD,Oujda Angads,7736
+2002,1,NDR,Nador Ibn Batouta,6325
+2002,2,NDR,Nador Ibn Batouta,5962
+2002,3,NDR,Nador Ibn Batouta,8033
+2002,4,NDR,Nador Ibn Batouta,8297
+2002,5,NDR,Nador Ibn Batouta,8832
+2002,6,NDR,Nador Ibn Batouta,8349
+2002,7,NDR,Nador Ibn Batouta,12783
+2002,8,NDR,Nador Ibn Batouta,17140
+2002,9,NDR,Nador Ibn Batouta,11307
+2002,10,NDR,Nador Ibn Batouta,10694
+2002,11,NDR,Nador Ibn Batouta,8040
+2002,12,NDR,Nador Ibn Batouta,7172
+2002,1,ERH,Errachidia Moulay Ali Cherif,2844
+2002,2,ERH,Errachidia Moulay Ali Cherif,2375
+2002,3,ERH,Errachidia Moulay Ali Cherif,3125
+2002,4,ERH,Errachidia Moulay Ali Cherif,3592
+2002,5,ERH,Errachidia Moulay Ali Cherif,4012
+2002,6,ERH,Errachidia Moulay Ali Cherif,2976
+2002,7,ERH,Errachidia Moulay Ali Cherif,5756
+2002,8,ERH,Errachidia Moulay Ali Cherif,6643
+2002,9,ERH,Errachidia Moulay Ali Cherif,4671
+2002,10,ERH,Errachidia Moulay Ali Cherif,3987
+2002,11,ERH,Errachidia Moulay Ali Cherif,3386
+2002,12,ERH,Errachidia Moulay Ali Cherif,2959
+2002,1,VIL,Dakhla,2972
+2002,2,VIL,Dakhla,2457
+2002,3,VIL,Dakhla,3168
+2002,4,VIL,Dakhla,4059
+2002,5,VIL,Dakhla,3377
+2002,6,VIL,Dakhla,3193
+2002,7,VIL,Dakhla,5490
+2002,8,VIL,Dakhla,7005
+2002,9,VIL,Dakhla,4614
+2002,10,VIL,Dakhla,4437
+2002,11,VIL,Dakhla,3513
+2002,12,VIL,Dakhla,3452
+2002,1,EUN,Laayoune Hassan I,2469
+2002,2,EUN,Laayoune Hassan I,1815
+2002,3,EUN,Laayoune Hassan I,2712
+2002,4,EUN,Laayoune Hassan I,3023
+2002,5,EUN,Laayoune Hassan I,2779
+2002,6,EUN,Laayoune Hassan I,2795
+2002,7,EUN,Laayoune Hassan I,4827
+2002,8,EUN,Laayoune Hassan I,5464
+2002,9,EUN,Laayoune Hassan I,3655
+2002,10,EUN,Laayoune Hassan I,3429
+2002,11,EUN,Laayoune Hassan I,2865
+2002,12,EUN,Laayoune Hassan I,2896
+2002,1,TTU,Tetouan Sania Ramel,1662
+2002,2,TTU,Tetouan Sania Ramel,1260
+2002,3,TTU,Tetouan Sania Ramel,1923
+2002,4,TTU,Tetouan Sania Ramel,2142
+2002,5,TTU,Tetouan Sania Ramel,2059
+2002,6,TTU,Tetouan Sania Ramel,1988
+2002,7,TTU,Tetouan Sania Ramel,3272
+2002,8,TTU,Tetouan Sania Ramel,3554
+2002,9,TTU,Tetouan Sania Ramel,2589
+2002,10,TTU,Tetouan Sania Ramel,2606
+2002,11,TTU,Tetouan Sania Ramel,1672
+2002,12,TTU,Tetouan Sania Ramel,1989
+2002,1,ESU,Essaouira Mogador,1375
+2002,2,ESU,Essaouira Mogador,1259
+2002,3,ESU,Essaouira Mogador,1671
+2002,4,ESU,Essaouira Mogador,1742
+2002,5,ESU,Essaouira Mogador,1892
+2002,6,ESU,Essaouira Mogador,1485
+2002,7,ESU,Essaouira Mogador,2941
+2002,8,ESU,Essaouira Mogador,3252
+2002,9,ESU,Essaouira Mogador,2219
+2002,10,ESU,Essaouira Mogador,2032
+2002,11,ESU,Essaouira Mogador,1570
+2002,12,ESU,Essaouira Mogador,1696
+2002,1,OZZ,Ouarzazate,1058
+2002,2,OZZ,Ouarzazate,979
+2002,3,OZZ,Ouarzazate,1285
+2002,4,OZZ,Ouarzazate,1382
+2002,5,OZZ,Ouarzazate,1559
+2002,6,OZZ,Ouarzazate,1359
+2002,7,OZZ,Ouarzazate,2142
+2002,8,OZZ,Ouarzazate,2396
+2002,9,OZZ,Ouarzazate,2008
+2002,10,OZZ,Ouarzazate,1518
+2002,11,OZZ,Ouarzazate,1376
+2002,12,OZZ,Ouarzazate,1292
+2002,1,MEK,Meknes,850
+2002,2,MEK,Meknes,621
+2002,3,MEK,Meknes,869
+2002,4,MEK,Meknes,1081
+2002,5,MEK,Meknes,1085
+2002,6,MEK,Meknes,936
+2002,7,MEK,Meknes,1592
+2002,8,MEK,Meknes,1962
+2002,9,MEK,Meknes,1294
+2002,10,MEK,Meknes,1073
+2002,11,MEK,Meknes,825
+2002,12,MEK,Meknes,829
+2003,1,RAK,Marrakech Menara,75774
+2003,2,RAK,Marrakech Menara,63266
+2003,3,RAK,Marrakech Menara,84583
+2003,4,RAK,Marrakech Menara,111444
+2003,5,RAK,Marrakech Menara,106974
+2003,6,RAK,Marrakech Menara,89991
+2003,7,RAK,Marrakech Menara,148517
+2003,8,RAK,Marrakech Menara,187879
+2003,9,RAK,Marrakech Menara,134127
+2003,10,RAK,Marrakech Menara,125048
+2003,11,RAK,Marrakech Menara,86136
+2003,12,RAK,Marrakech Menara,85274
+2003,1,CMN,Casablanca Mohammed V,104583
+2003,2,CMN,Casablanca Mohammed V,78927
+2003,3,CMN,Casablanca Mohammed V,127800
+2003,4,CMN,Casablanca Mohammed V,137210
+2003,5,CMN,Casablanca Mohammed V,146266
+2003,6,CMN,Casablanca Mohammed V,110805
+2003,7,CMN,Casablanca Mohammed V,194548
+2003,8,CMN,Casablanca Mohammed V,218114
+2003,9,CMN,Casablanca Mohammed V,178382
+2003,10,CMN,Casablanca Mohammed V,149688
+2003,11,CMN,Casablanca Mohammed V,113789
+2003,12,CMN,Casablanca Mohammed V,117737
+2003,1,TNG,Tanger Ibn Battouta,46721
+2003,2,TNG,Tanger Ibn Battouta,39744
+2003,3,TNG,Tanger Ibn Battouta,50098
+2003,4,TNG,Tanger Ibn Battouta,64799
+2003,5,TNG,Tanger Ibn Battouta,60076
+2003,6,TNG,Tanger Ibn Battouta,53509
+2003,7,TNG,Tanger Ibn Battouta,90019
+2003,8,TNG,Tanger Ibn Battouta,100290
+2003,9,TNG,Tanger Ibn Battouta,71369
+2003,10,TNG,Tanger Ibn Battouta,65090
+2003,11,TNG,Tanger Ibn Battouta,58627
+2003,12,TNG,Tanger Ibn Battouta,49863
+2003,1,AGA,Agadir Al Massira,35491
+2003,2,AGA,Agadir Al Massira,25659
+2003,3,AGA,Agadir Al Massira,39036
+2003,4,AGA,Agadir Al Massira,42024
+2003,5,AGA,Agadir Al Massira,43501
+2003,6,AGA,Agadir Al Massira,38384
+2003,7,AGA,Agadir Al Massira,62221
+2003,8,AGA,Agadir Al Massira,75492
+2003,9,AGA,Agadir Al Massira,57733
+2003,10,AGA,Agadir Al Massira,47227
+2003,11,AGA,Agadir Al Massira,37610
+2003,12,AGA,Agadir Al Massira,35448
+2003,1,FEZ,Fès Saïss,19706
+2003,2,FEZ,Fès Saïss,15358
+2003,3,FEZ,Fès Saïss,22831
+2003,4,FEZ,Fès Saïss,26865
+2003,5,FEZ,Fès Saïss,26037
+2003,6,FEZ,Fès Saïss,21422
+2003,7,FEZ,Fès Saïss,38073
+2003,8,FEZ,Fès Saïss,49872
+2003,9,FEZ,Fès Saïss,36169
+2003,10,FEZ,Fès Saïss,31167
+2003,11,FEZ,Fès Saïss,21066
+2003,12,FEZ,Fès Saïss,20937
+2003,1,RBA,Rabat-Salé,12441
+2003,2,RBA,Rabat-Salé,9899
+2003,3,RBA,Rabat-Salé,12973
+2003,4,RBA,Rabat-Salé,16819
+2003,5,RBA,Rabat-Salé,15784
+2003,6,RBA,Rabat-Salé,15119
+2003,7,RBA,Rabat-Salé,23578
+2003,8,RBA,Rabat-Salé,30088
+2003,9,RBA,Rabat-Salé,19095
+2003,10,RBA,Rabat-Salé,19552
+2003,11,RBA,Rabat-Salé,15084
+2003,12,RBA,Rabat-Salé,14096
+2003,1,OUD,Oujda Angads,8423
+2003,2,OUD,Oujda Angads,6180
+2003,3,OUD,Oujda Angads,8866
+2003,4,OUD,Oujda Angads,10595
+2003,5,OUD,Oujda Angads,11904
+2003,6,OUD,Oujda Angads,9387
+2003,7,OUD,Oujda Angads,15506
+2003,8,OUD,Oujda Angads,19542
+2003,9,OUD,Oujda Angads,13641
+2003,10,OUD,Oujda Angads,12575
+2003,11,OUD,Oujda Angads,9070
+2003,12,OUD,Oujda Angads,9324
+2003,1,NDR,Nador Ibn Batouta,6918
+2003,2,NDR,Nador Ibn Batouta,5644
+2003,3,NDR,Nador Ibn Batouta,8727
+2003,4,NDR,Nador Ibn Batouta,10044
+2003,5,NDR,Nador Ibn Batouta,9059
+2003,6,NDR,Nador Ibn Batouta,9209
+2003,7,NDR,Nador Ibn Batouta,15405
+2003,8,NDR,Nador Ibn Batouta,16795
+2003,9,NDR,Nador Ibn Batouta,12037
+2003,10,NDR,Nador Ibn Batouta,9800
+2003,11,NDR,Nador Ibn Batouta,7964
+2003,12,NDR,Nador Ibn Batouta,7937
+2003,1,ERH,Errachidia Moulay Ali Cherif,2971
+2003,2,ERH,Errachidia Moulay Ali Cherif,2403
+2003,3,ERH,Errachidia Moulay Ali Cherif,3944
+2003,4,ERH,Errachidia Moulay Ali Cherif,4198
+2003,5,ERH,Errachidia Moulay Ali Cherif,4363
+2003,6,ERH,Errachidia Moulay Ali Cherif,3464
+2003,7,ERH,Errachidia Moulay Ali Cherif,6075
+2003,8,ERH,Errachidia Moulay Ali Cherif,6944
+2003,9,ERH,Errachidia Moulay Ali Cherif,5165
+2003,10,ERH,Errachidia Moulay Ali Cherif,4587
+2003,11,ERH,Errachidia Moulay Ali Cherif,3335
+2003,12,ERH,Errachidia Moulay Ali Cherif,3472
+2003,1,VIL,Dakhla,2763
+2003,2,VIL,Dakhla,2102
+2003,3,VIL,Dakhla,3315
+2003,4,VIL,Dakhla,3672
+2003,5,VIL,Dakhla,3892
+2003,6,VIL,Dakhla,3477
+2003,7,VIL,Dakhla,5283
+2003,8,VIL,Dakhla,6161
+2003,9,VIL,Dakhla,4433
+2003,10,VIL,Dakhla,4331
+2003,11,VIL,Dakhla,3517
+2003,12,VIL,Dakhla,3113
+2003,1,EUN,Laayoune Hassan I,2639
+2003,2,EUN,Laayoune Hassan I,2150
+2003,3,EUN,Laayoune Hassan I,2879
+2003,4,EUN,Laayoune Hassan I,3052
+2003,5,EUN,Laayoune Hassan I,3357
+2003,6,EUN,Laayoune Hassan I,3064
+2003,7,EUN,Laayoune Hassan I,5117
+2003,8,EUN,Laayoune Hassan I,5614
+2003,9,EUN,Laayoune Hassan I,4176
+2003,10,EUN,Laayoune Hassan I,3694
+2003,11,EUN,Laayoune Hassan I,2690
+2003,12,EUN,Laayoune Hassan I,2599
+2003,1,TTU,Tetouan Sania Ramel,1800
+2003,2,TTU,Tetouan Sania Ramel,1648
+2003,3,TTU,Tetouan Sania Ramel,2439
+2003,4,TTU,Tetouan Sania Ramel,2497
+2003,5,TTU,Tetouan Sania Ramel,2458
+2003,6,TTU,Tetouan Sania Ramel,2056
+2003,7,TTU,Tetouan Sania Ramel,3829
+2003,8,TTU,Tetouan Sania Ramel,4540
+2003,9,TTU,Tetouan Sania Ramel,3430
+2003,10,TTU,Tetouan Sania Ramel,2670
+2003,11,TTU,Tetouan Sania Ramel,2046
+2003,12,TTU,Tetouan Sania Ramel,2085
+2003,1,ESU,Essaouira Mogador,1475
+2003,2,ESU,Essaouira Mogador,1344
+2003,3,ESU,Essaouira Mogador,1911
+2003,4,ESU,Essaouira Mogador,2002
+2003,5,ESU,Essaouira Mogador,2184
+2003,6,ESU,Essaouira Mogador,1901
+2003,7,ESU,Essaouira Mogador,3225
+2003,8,ESU,Essaouira Mogador,3630
+2003,9,ESU,Essaouira Mogador,2678
+2003,10,ESU,Essaouira Mogador,2257
+2003,11,ESU,Essaouira Mogador,1681
+2003,12,ESU,Essaouira Mogador,1849
+2003,1,OZZ,Ouarzazate,1265
+2003,2,OZZ,Ouarzazate,1157
+2003,3,OZZ,Ouarzazate,1533
+2003,4,OZZ,Ouarzazate,1822
+2003,5,OZZ,Ouarzazate,1648
+2003,6,OZZ,Ouarzazate,1596
+2003,7,OZZ,Ouarzazate,2326
+2003,8,OZZ,Ouarzazate,3002
+2003,9,OZZ,Ouarzazate,2156
+2003,10,OZZ,Ouarzazate,1911
+2003,11,OZZ,Ouarzazate,1530
+2003,12,OZZ,Ouarzazate,1601
+2003,1,MEK,Meknes,804
+2003,2,MEK,Meknes,690
+2003,3,MEK,Meknes,857
+2003,4,MEK,Meknes,958
+2003,5,MEK,Meknes,1013
+2003,6,MEK,Meknes,964
+2003,7,MEK,Meknes,1558
+2003,8,MEK,Meknes,1654
+2003,9,MEK,Meknes,1229
+2003,10,MEK,Meknes,1242
+2003,11,MEK,Meknes,856
+2003,12,MEK,Meknes,948
+2004,1,RAK,Marrakech Menara,92529
+2004,2,RAK,Marrakech Menara,74088
+2004,3,RAK,Marrakech Menara,105475
+2004,4,RAK,Marrakech Menara,124402
+2004,5,RAK,Marrakech Menara,131730
+2004,6,RAK,Marrakech Menara,100684
+2004,7,RAK,Marrakech Menara,183987
+2004,8,RAK,Marrakech Menara,199819
+2004,9,RAK,Marrakech Menara,146638
+2004,10,RAK,Marrakech Menara,132956
+2004,11,RAK,Marrakech Menara,99045
+2004,12,RAK,Marrakech Menara,100099
+2004,1,CMN,Casablanca Mohammed V,107301
+2004,2,CMN,Casablanca Mohammed V,98282
+2004,3,CMN,Casablanca Mohammed V,138106
+2004,4,CMN,Casablanca Mohammed V,145168
+2004,5,CMN,Casablanca Mohammed V,158621
+2004,6,CMN,Casablanca Mohammed V,131921
+2004,7,CMN,Casablanca Mohammed V,238037
+2004,8,CMN,Casablanca Mohammed V,279050
+2004,9,CMN,Casablanca Mohammed V,207871
+2004,10,CMN,Casablanca Mohammed V,180179
+2004,11,CMN,Casablanca Mohammed V,127910
+2004,12,CMN,Casablanca Mohammed V,145764
+2004,1,TNG,Tanger Ibn Battouta,53921
+2004,2,TNG,Tanger Ibn Battouta,49271
+2004,3,TNG,Tanger Ibn Battouta,69180
+2004,4,TNG,Tanger Ibn Battouta,68640
+2004,5,TNG,Tanger Ibn Battouta,78449
+2004,6,TNG,Tanger Ibn Battouta,71944
+2004,7,TNG,Tanger Ibn Battouta,104225
+2004,8,TNG,Tanger Ibn Battouta,120551
+2004,9,TNG,Tanger Ibn Battouta,99390
+2004,10,TNG,Tanger Ibn Battouta,81118
+2004,11,TNG,Tanger Ibn Battouta,61720
+2004,12,TNG,Tanger Ibn Battouta,60954
+2004,1,AGA,Agadir Al Massira,38206
+2004,2,AGA,Agadir Al Massira,29810
+2004,3,AGA,Agadir Al Massira,39456
+2004,4,AGA,Agadir Al Massira,49826
+2004,5,AGA,Agadir Al Massira,49581
+2004,6,AGA,Agadir Al Massira,42391
+2004,7,AGA,Agadir Al Massira,76135
+2004,8,AGA,Agadir Al Massira,86132
+2004,9,AGA,Agadir Al Massira,52965
+2004,10,AGA,Agadir Al Massira,50446
+2004,11,AGA,Agadir Al Massira,43423
+2004,12,AGA,Agadir Al Massira,40829
+2004,1,FEZ,Fès Saïss,20872
+2004,2,FEZ,Fès Saïss,17423
+2004,3,FEZ,Fès Saïss,23370
+2004,4,FEZ,Fès Saïss,26806
+2004,5,FEZ,Fès Saïss,25641
+2004,6,FEZ,Fès Saïss,21772
+2004,7,FEZ,Fès Saïss,37671
+2004,8,FEZ,Fès Saïss,44469
+2004,9,FEZ,Fès Saïss,31350
+2004,10,FEZ,Fès Saïss,32169
+2004,11,FEZ,Fès Saïss,22921
+2004,12,FEZ,Fès Saïss,21959
+2004,1,RBA,Rabat-Salé,11953
+2004,2,RBA,Rabat-Salé,10686
+2004,3,RBA,Rabat-Salé,13190
+2004,4,RBA,Rabat-Salé,16591
+2004,5,RBA,Rabat-Salé,15034
+2004,6,RBA,Rabat-Salé,14867
+2004,7,RBA,Rabat-Salé,24355
+2004,8,RBA,Rabat-Salé,26480
+2004,9,RBA,Rabat-Salé,19159
+2004,10,RBA,Rabat-Salé,17002
+2004,11,RBA,Rabat-Salé,13558
+2004,12,RBA,Rabat-Salé,13665
+2004,1,OUD,Oujda Angads,8316
+2004,2,OUD,Oujda Angads,7104
+2004,3,OUD,Oujda Angads,10064
+2004,4,OUD,Oujda Angads,10767
+2004,5,OUD,Oujda Angads,10592
+2004,6,OUD,Oujda Angads,10184
+2004,7,OUD,Oujda Angads,17662
+2004,8,OUD,Oujda Angads,18215
+2004,9,OUD,Oujda Angads,15485
+2004,10,OUD,Oujda Angads,12566
+2004,11,OUD,Oujda Angads,10854
+2004,12,OUD,Oujda Angads,9300
+2004,1,NDR,Nador Ibn Batouta,8598
+2004,2,NDR,Nador Ibn Batouta,6435
+2004,3,NDR,Nador Ibn Batouta,10016
+2004,4,NDR,Nador Ibn Batouta,9672
+2004,5,NDR,Nador Ibn Batouta,11082
+2004,6,NDR,Nador Ibn Batouta,8730
+2004,7,NDR,Nador Ibn Batouta,15953
+2004,8,NDR,Nador Ibn Batouta,16909
+2004,9,NDR,Nador Ibn Batouta,13407
+2004,10,NDR,Nador Ibn Batouta,12904
+2004,11,NDR,Nador Ibn Batouta,9618
+2004,12,NDR,Nador Ibn Batouta,10069
+2004,1,ERH,Errachidia Moulay Ali Cherif,3191
+2004,2,ERH,Errachidia Moulay Ali Cherif,2779
+2004,3,ERH,Errachidia Moulay Ali Cherif,3927
+2004,4,ERH,Errachidia Moulay Ali Cherif,4489
+2004,5,ERH,Errachidia Moulay Ali Cherif,4783
+2004,6,ERH,Errachidia Moulay Ali Cherif,3934
+2004,7,ERH,Errachidia Moulay Ali Cherif,6832
+2004,8,ERH,Errachidia Moulay Ali Cherif,7808
+2004,9,ERH,Errachidia Moulay Ali Cherif,5426
+2004,10,ERH,Errachidia Moulay Ali Cherif,4707
+2004,11,ERH,Errachidia Moulay Ali Cherif,3824
+2004,12,ERH,Errachidia Moulay Ali Cherif,3683
+2004,1,VIL,Dakhla,2994
+2004,2,VIL,Dakhla,2478
+2004,3,VIL,Dakhla,3469
+2004,4,VIL,Dakhla,3767
+2004,5,VIL,Dakhla,4212
+2004,6,VIL,Dakhla,3612
+2004,7,VIL,Dakhla,6441
+2004,8,VIL,Dakhla,7709
+2004,9,VIL,Dakhla,5098
+2004,10,VIL,Dakhla,4804
+2004,11,VIL,Dakhla,3431
+2004,12,VIL,Dakhla,3613
+2004,1,EUN,Laayoune Hassan I,2748
+2004,2,EUN,Laayoune Hassan I,2314
+2004,3,EUN,Laayoune Hassan I,3207
+2004,4,EUN,Laayoune Hassan I,3771
+2004,5,EUN,Laayoune Hassan I,3910
+2004,6,EUN,Laayoune Hassan I,3108
+2004,7,EUN,Laayoune Hassan I,5807
+2004,8,EUN,Laayoune Hassan I,6851
+2004,9,EUN,Laayoune Hassan I,4689
+2004,10,EUN,Laayoune Hassan I,4002
+2004,11,EUN,Laayoune Hassan I,2828
+2004,12,EUN,Laayoune Hassan I,2842
+2004,1,TTU,Tetouan Sania Ramel,2128
+2004,2,TTU,Tetouan Sania Ramel,1809
+2004,3,TTU,Tetouan Sania Ramel,2301
+2004,4,TTU,Tetouan Sania Ramel,2820
+2004,5,TTU,Tetouan Sania Ramel,2696
+2004,6,TTU,Tetouan Sania Ramel,2466
+2004,7,TTU,Tetouan Sania Ramel,4218
+2004,8,TTU,Tetouan Sania Ramel,4439
+2004,9,TTU,Tetouan Sania Ramel,3812
+2004,10,TTU,Tetouan Sania Ramel,3361
+2004,11,TTU,Tetouan Sania Ramel,2433
+2004,12,TTU,Tetouan Sania Ramel,2291
+2004,1,ESU,Essaouira Mogador,1884
+2004,2,ESU,Essaouira Mogador,1462
+2004,3,ESU,Essaouira Mogador,1937
+2004,4,ESU,Essaouira Mogador,2202
+2004,5,ESU,Essaouira Mogador,2477
+2004,6,ESU,Essaouira Mogador,1978
+2004,7,ESU,Essaouira Mogador,3668
+2004,8,ESU,Essaouira Mogador,3694
+2004,9,ESU,Essaouira Mogador,3140
+2004,10,ESU,Essaouira Mogador,2704
+2004,11,ESU,Essaouira Mogador,1949
+2004,12,ESU,Essaouira Mogador,2169
+2004,1,OZZ,Ouarzazate,1180
+2004,2,OZZ,Ouarzazate,1165
+2004,3,OZZ,Ouarzazate,1434
+2004,4,OZZ,Ouarzazate,1584
+2004,5,OZZ,Ouarzazate,1774
+2004,6,OZZ,Ouarzazate,1518
+2004,7,OZZ,Ouarzazate,2373
+2004,8,OZZ,Ouarzazate,3118
+2004,9,OZZ,Ouarzazate,2265
+2004,10,OZZ,Ouarzazate,1953
+2004,11,OZZ,Ouarzazate,1415
+2004,12,OZZ,Ouarzazate,1617
+2004,1,MEK,Meknes,861
+2004,2,MEK,Meknes,783
+2004,3,MEK,Meknes,1024
+2004,4,MEK,Meknes,1208
+2004,5,MEK,Meknes,1155
+2004,6,MEK,Meknes,971
+2004,7,MEK,Meknes,1826
+2004,8,MEK,Meknes,1875
+2004,9,MEK,Meknes,1540
+2004,10,MEK,Meknes,1406
+2004,11,MEK,Meknes,940
+2004,12,MEK,Meknes,1088
+2005,1,RAK,Marrakech Menara,104365
+2005,2,RAK,Marrakech Menara,93795
+2005,3,RAK,Marrakech Menara,118249
+2005,4,RAK,Marrakech Menara,146251
+2005,5,RAK,Marrakech Menara,130153
+2005,6,RAK,Marrakech Menara,115996
+2005,7,RAK,Marrakech Menara,200894
+2005,8,RAK,Marrakech Menara,269153
+2005,9,RAK,Marrakech Menara,188096
+2005,10,RAK,Marrakech Menara,176907
+2005,11,RAK,Marrakech Menara,133991
+2005,12,RAK,Marrakech Menara,123264
+2005,1,CMN,Casablanca Mohammed V,155395
+2005,2,CMN,Casablanca Mohammed V,118912
+2005,3,CMN,Casablanca Mohammed V,161916
+2005,4,CMN,Casablanca Mohammed V,173158
+2005,5,CMN,Casablanca Mohammed V,199512
+2005,6,CMN,Casablanca Mohammed V,172385
+2005,7,CMN,Casablanca Mohammed V,294435
+2005,8,CMN,Casablanca Mohammed V,349467
+2005,9,CMN,Casablanca Mohammed V,231760
+2005,10,CMN,Casablanca Mohammed V,229068
+2005,11,CMN,Casablanca Mohammed V,176809
+2005,12,CMN,Casablanca Mohammed V,154484
+2005,1,TNG,Tanger Ibn Battouta,58366
+2005,2,TNG,Tanger Ibn Battouta,50448
+2005,3,TNG,Tanger Ibn Battouta,65266
+2005,4,TNG,Tanger Ibn Battouta,73589
+2005,5,TNG,Tanger Ibn Battouta,78753
+2005,6,TNG,Tanger Ibn Battouta,72600
+2005,7,TNG,Tanger Ibn Battouta,107225
+2005,8,TNG,Tanger Ibn Battouta,131780
+2005,9,TNG,Tanger Ibn Battouta,91767
+2005,10,TNG,Tanger Ibn Battouta,86697
+2005,11,TNG,Tanger Ibn Battouta,65928
+2005,12,TNG,Tanger Ibn Battouta,67316
+2005,1,AGA,Agadir Al Massira,44823
+2005,2,AGA,Agadir Al Massira,36585
+2005,3,AGA,Agadir Al Massira,44323
+2005,4,AGA,Agadir Al Massira,56027
+2005,5,AGA,Agadir Al Massira,51445
+2005,6,AGA,Agadir Al Massira,50968
+2005,7,AGA,Agadir Al Massira,86010
+2005,8,AGA,Agadir Al Massira,93992
+2005,9,AGA,Agadir Al Massira,72806
+2005,10,AGA,Agadir Al Massira,56214
+2005,11,AGA,Agadir Al Massira,50338
+2005,12,AGA,Agadir Al Massira,49280
+2005,1,FEZ,Fès Saïss,25057
+2005,2,FEZ,Fès Saïss,19146
+2005,3,FEZ,Fès Saïss,25202
+2005,4,FEZ,Fès Saïss,31557
+2005,5,FEZ,Fès Saïss,32855
+2005,6,FEZ,Fès Saïss,24097
+2005,7,FEZ,Fès Saïss,47141
+2005,8,FEZ,Fès Saïss,49001
+2005,9,FEZ,Fès Saïss,40733
+2005,10,FEZ,Fès Saïss,34379
+2005,11,FEZ,Fès Saïss,25242
+2005,12,FEZ,Fès Saïss,27159
+2005,1,RBA,Rabat-Salé,16730
+2005,2,RBA,Rabat-Salé,13349
+2005,3,RBA,Rabat-Salé,18966
+2005,4,RBA,Rabat-Salé,20804
+2005,5,RBA,Rabat-Salé,23611
+2005,6,RBA,Rabat-Salé,18116
+2005,7,RBA,Rabat-Salé,30651
+2005,8,RBA,Rabat-Salé,37584
+2005,9,RBA,Rabat-Salé,25714
+2005,10,RBA,Rabat-Salé,22133
+2005,11,RBA,Rabat-Salé,20788
+2005,12,RBA,Rabat-Salé,19521
+2005,1,OUD,Oujda Angads,10056
+2005,2,OUD,Oujda Angads,8457
+2005,3,OUD,Oujda Angads,10140
+2005,4,OUD,Oujda Angads,12084
+2005,5,OUD,Oujda Angads,12929
+2005,6,OUD,Oujda Angads,11526
+2005,7,OUD,Oujda Angads,19380
+2005,8,OUD,Oujda Angads,21034
+2005,9,OUD,Oujda Angads,16962
+2005,10,OUD,Oujda Angads,14561
+2005,11,OUD,Oujda Angads,12049
+2005,12,OUD,Oujda Angads,10585
+2005,1,NDR,Nador Ibn Batouta,9448
+2005,2,NDR,Nador Ibn Batouta,7343
+2005,3,NDR,Nador Ibn Batouta,10470
+2005,4,NDR,Nador Ibn Batouta,13255
+2005,5,NDR,Nador Ibn Batouta,11424
+2005,6,NDR,Nador Ibn Batouta,10617
+2005,7,NDR,Nador Ibn Batouta,19511
+2005,8,NDR,Nador Ibn Batouta,21403
+2005,9,NDR,Nador Ibn Batouta,15610
+2005,10,NDR,Nador Ibn Batouta,13267
+2005,11,NDR,Nador Ibn Batouta,10433
+2005,12,NDR,Nador Ibn Batouta,11984
+2005,1,ERH,Errachidia Moulay Ali Cherif,4318
+2005,2,ERH,Errachidia Moulay Ali Cherif,3482
+2005,3,ERH,Errachidia Moulay Ali Cherif,4328
+2005,4,ERH,Errachidia Moulay Ali Cherif,5047
+2005,5,ERH,Errachidia Moulay Ali Cherif,4817
+2005,6,ERH,Errachidia Moulay Ali Cherif,4886
+2005,7,ERH,Errachidia Moulay Ali Cherif,7907
+2005,8,ERH,Errachidia Moulay Ali Cherif,10135
+2005,9,ERH,Errachidia Moulay Ali Cherif,7056
+2005,10,ERH,Errachidia Moulay Ali Cherif,5617
+2005,11,ERH,Errachidia Moulay Ali Cherif,4785
+2005,12,ERH,Errachidia Moulay Ali Cherif,4798
+2005,1,VIL,Dakhla,3730
+2005,2,VIL,Dakhla,2606
+2005,3,VIL,Dakhla,4195
+2005,4,VIL,Dakhla,4610
+2005,5,VIL,Dakhla,4387
+2005,6,VIL,Dakhla,4326
+2005,7,VIL,Dakhla,7457
+2005,8,VIL,Dakhla,8278
+2005,9,VIL,Dakhla,5511
+2005,10,VIL,Dakhla,5188
+2005,11,VIL,Dakhla,4005
+2005,12,VIL,Dakhla,4331
+2005,1,EUN,Laayoune Hassan I,2996
+2005,2,EUN,Laayoune Hassan I,2447
+2005,3,EUN,Laayoune Hassan I,3705
+2005,4,EUN,Laayoune Hassan I,4331
+2005,5,EUN,Laayoune Hassan I,4576
+2005,6,EUN,Laayoune Hassan I,3976
+2005,7,EUN,Laayoune Hassan I,5955
+2005,8,EUN,Laayoune Hassan I,6920
+2005,9,EUN,Laayoune Hassan I,5374
+2005,10,EUN,Laayoune Hassan I,4752
+2005,11,EUN,Laayoune Hassan I,3738
+2005,12,EUN,Laayoune Hassan I,3460
+2005,1,TTU,Tetouan Sania Ramel,2215
+2005,2,TTU,Tetouan Sania Ramel,1710
+2005,3,TTU,Tetouan Sania Ramel,2865
+2005,4,TTU,Tetouan Sania Ramel,3330
+2005,5,TTU,Tetouan Sania Ramel,3297
+2005,6,TTU,Tetouan Sania Ramel,2570
+2005,7,TTU,Tetouan Sania Ramel,4435
+2005,8,TTU,Tetouan Sania Ramel,5522
+2005,9,TTU,Tetouan Sania Ramel,3938
+2005,10,TTU,Tetouan Sania Ramel,3711
+2005,11,TTU,Tetouan Sania Ramel,2551
+2005,12,TTU,Tetouan Sania Ramel,2827
+2005,1,ESU,Essaouira Mogador,2232
+2005,2,ESU,Essaouira Mogador,1678
+2005,3,ESU,Essaouira Mogador,2366
+2005,4,ESU,Essaouira Mogador,2610
+2005,5,ESU,Essaouira Mogador,2642
+2005,6,ESU,Essaouira Mogador,2687
+2005,7,ESU,Essaouira Mogador,4139
+2005,8,ESU,Essaouira Mogador,4825
+2005,9,ESU,Essaouira Mogador,3439
+2005,10,ESU,Essaouira Mogador,2860
+2005,11,ESU,Essaouira Mogador,2551
+2005,12,ESU,Essaouira Mogador,2269
+2005,1,OZZ,Ouarzazate,1663
+2005,2,OZZ,Ouarzazate,1377
+2005,3,OZZ,Ouarzazate,1823
+2005,4,OZZ,Ouarzazate,2091
+2005,5,OZZ,Ouarzazate,1963
+2005,6,OZZ,Ouarzazate,1764
+2005,7,OZZ,Ouarzazate,3223
+2005,8,OZZ,Ouarzazate,3737
+2005,9,OZZ,Ouarzazate,2854
+2005,10,OZZ,Ouarzazate,2203
+2005,11,OZZ,Ouarzazate,1965
+2005,12,OZZ,Ouarzazate,1970
+2005,1,MEK,Meknes,1186
+2005,2,MEK,Meknes,927
+2005,3,MEK,Meknes,1195
+2005,4,MEK,Meknes,1554
+2005,5,MEK,Meknes,1591
+2005,6,MEK,Meknes,1344
+2005,7,MEK,Meknes,2128
+2005,8,MEK,Meknes,2437
+2005,9,MEK,Meknes,1870
+2005,10,MEK,Meknes,1813
+2005,11,MEK,Meknes,1220
+2005,12,MEK,Meknes,1239
+2006,1,RAK,Marrakech Menara,107078
+2006,2,RAK,Marrakech Menara,91760
+2006,3,RAK,Marrakech Menara,132728
+2006,4,RAK,Marrakech Menara,142935
+2006,5,RAK,Marrakech Menara,140678
+2006,6,RAK,Marrakech Menara,126936
+2006,7,RAK,Marrakech Menara,251786
+2006,8,RAK,Marrakech Menara,267866
+2006,9,RAK,Marrakech Menara,207441
+2006,10,RAK,Marrakech Menara,184871
+2006,11,RAK,Marrakech Menara,131025
+2006,12,RAK,Marrakech Menara,138607
+2006,1,CMN,Casablanca Mohammed V,135737
+2006,2,CMN,Casablanca Mohammed V,125217
+2006,3,CMN,Casablanca Mohammed V,174611
+2006,4,CMN,Casablanca Mohammed V,184107
+2006,5,CMN,Casablanca Mohammed V,179621
+2006,6,CMN,Casablanca Mohammed V,155680
+2006,7,CMN,Casablanca Mohammed V,279849
+2006,8,CMN,Casablanca Mohammed V,320067
+2006,9,CMN,Casablanca Mohammed V,222802
+2006,10,CMN,Casablanca Mohammed V,231987
+2006,11,CMN,Casablanca Mohammed V,153341
+2006,12,CMN,Casablanca Mohammed V,173321
+2006,1,TNG,Tanger Ibn Battouta,69116
+2006,2,TNG,Tanger Ibn Battouta,59726
+2006,3,TNG,Tanger Ibn Battouta,76637
+2006,4,TNG,Tanger Ibn Battouta,95868
+2006,5,TNG,Tanger Ibn Battouta,84247
+2006,6,TNG,Tanger Ibn Battouta,71172
+2006,7,TNG,Tanger Ibn Battouta,125171
+2006,8,TNG,Tanger Ibn Battouta,163576
+2006,9,TNG,Tanger Ibn Battouta,113121
+2006,10,TNG,Tanger Ibn Battouta,92345
+2006,11,TNG,Tanger Ibn Battouta,84594
+2006,12,TNG,Tanger Ibn Battouta,75271
+2006,1,AGA,Agadir Al Massira,39838
+2006,2,AGA,Agadir Al Massira,33211
+2006,3,AGA,Agadir Al Massira,55732
+2006,4,AGA,Agadir Al Massira,54244
+2006,5,AGA,Agadir Al Massira,63192
+2006,6,AGA,Agadir Al Massira,46646
+2006,7,AGA,Agadir Al Massira,94297
+2006,8,AGA,Agadir Al Massira,93813
+2006,9,AGA,Agadir Al Massira,75834
+2006,10,AGA,Agadir Al Massira,70764
+2006,11,AGA,Agadir Al Massira,53531
+2006,12,AGA,Agadir Al Massira,56249
+2006,1,FEZ,Fès Saïss,29193
+2006,2,FEZ,Fès Saïss,21177
+2006,3,FEZ,Fès Saïss,29618
+2006,4,FEZ,Fès Saïss,34778
+2006,5,FEZ,Fès Saïss,34635
+2006,6,FEZ,Fès Saïss,34020
+2006,7,FEZ,Fès Saïss,50847
+2006,8,FEZ,Fès Saïss,66088
+2006,9,FEZ,Fès Saïss,42685
+2006,10,FEZ,Fès Saïss,37374
+2006,11,FEZ,Fès Saïss,30858
+2006,12,FEZ,Fès Saïss,28213
+2006,1,RBA,Rabat-Salé,14852
+2006,2,RBA,Rabat-Salé,13375
+2006,3,RBA,Rabat-Salé,18274
+2006,4,RBA,Rabat-Salé,23950
+2006,5,RBA,Rabat-Salé,21919
+2006,6,RBA,Rabat-Salé,20171
+2006,7,RBA,Rabat-Salé,33892
+2006,8,RBA,Rabat-Salé,36015
+2006,9,RBA,Rabat-Salé,30115
+2006,10,RBA,Rabat-Salé,24866
+2006,11,RBA,Rabat-Salé,19034
+2006,12,RBA,Rabat-Salé,20712
+2006,1,OUD,Oujda Angads,12137
+2006,2,OUD,Oujda Angads,9548
+2006,3,OUD,Oujda Angads,14399
+2006,4,OUD,Oujda Angads,15292
+2006,5,OUD,Oujda Angads,15493
+2006,6,OUD,Oujda Angads,12699
+2006,7,OUD,Oujda Angads,23886
+2006,8,OUD,Oujda Angads,24174
+2006,9,OUD,Oujda Angads,19770
+2006,10,OUD,Oujda Angads,16996
+2006,11,OUD,Oujda Angads,12329
+2006,12,OUD,Oujda Angads,13925
+2006,1,NDR,Nador Ibn Batouta,10078
+2006,2,NDR,Nador Ibn Batouta,8562
+2006,3,NDR,Nador Ibn Batouta,13331
+2006,4,NDR,Nador Ibn Batouta,14336
+2006,5,NDR,Nador Ibn Batouta,15216
+2006,6,NDR,Nador Ibn Batouta,12920
+2006,7,NDR,Nador Ibn Batouta,22652
+2006,8,NDR,Nador Ibn Batouta,24478
+2006,9,NDR,Nador Ibn Batouta,17266
+2006,10,NDR,Nador Ibn Batouta,15207
+2006,11,NDR,Nador Ibn Batouta,11510
+2006,12,NDR,Nador Ibn Batouta,11209
+2006,1,ERH,Errachidia Moulay Ali Cherif,5314
+2006,2,ERH,Errachidia Moulay Ali Cherif,4158
+2006,3,ERH,Errachidia Moulay Ali Cherif,6397
+2006,4,ERH,Errachidia Moulay Ali Cherif,6409
+2006,5,ERH,Errachidia Moulay Ali Cherif,6042
+2006,6,ERH,Errachidia Moulay Ali Cherif,5760
+2006,7,ERH,Errachidia Moulay Ali Cherif,9403
+2006,8,ERH,Errachidia Moulay Ali Cherif,11405
+2006,9,ERH,Errachidia Moulay Ali Cherif,8831
+2006,10,ERH,Errachidia Moulay Ali Cherif,7702
+2006,11,ERH,Errachidia Moulay Ali Cherif,6079
+2006,12,ERH,Errachidia Moulay Ali Cherif,6174
+2006,1,VIL,Dakhla,4663
+2006,2,VIL,Dakhla,3649
+2006,3,VIL,Dakhla,5548
+2006,4,VIL,Dakhla,6333
+2006,5,VIL,Dakhla,6154
+2006,6,VIL,Dakhla,4769
+2006,7,VIL,Dakhla,8750
+2006,8,VIL,Dakhla,9529
+2006,9,VIL,Dakhla,6829
+2006,10,VIL,Dakhla,6964
+2006,11,VIL,Dakhla,4766
+2006,12,VIL,Dakhla,5561
+2006,1,EUN,Laayoune Hassan I,3920
+2006,2,EUN,Laayoune Hassan I,3440
+2006,3,EUN,Laayoune Hassan I,4150
+2006,4,EUN,Laayoune Hassan I,5127
+2006,5,EUN,Laayoune Hassan I,5111
+2006,6,EUN,Laayoune Hassan I,4129
+2006,7,EUN,Laayoune Hassan I,7575
+2006,8,EUN,Laayoune Hassan I,9511
+2006,9,EUN,Laayoune Hassan I,5922
+2006,10,EUN,Laayoune Hassan I,5712
+2006,11,EUN,Laayoune Hassan I,4539
+2006,12,EUN,Laayoune Hassan I,4285
+2006,1,TTU,Tetouan Sania Ramel,2530
+2006,2,TTU,Tetouan Sania Ramel,1934
+2006,3,TTU,Tetouan Sania Ramel,3144
+2006,4,TTU,Tetouan Sania Ramel,3083
+2006,5,TTU,Tetouan Sania Ramel,2992
+2006,6,TTU,Tetouan Sania Ramel,2748
+2006,7,TTU,Tetouan Sania Ramel,4780
+2006,8,TTU,Tetouan Sania Ramel,6206
+2006,9,TTU,Tetouan Sania Ramel,4306
+2006,10,TTU,Tetouan Sania Ramel,3741
+2006,11,TTU,Tetouan Sania Ramel,2852
+2006,12,TTU,Tetouan Sania Ramel,3006
+2006,1,ESU,Essaouira Mogador,1924
+2006,2,ESU,Essaouira Mogador,1568
+2006,3,ESU,Essaouira Mogador,2383
+2006,4,ESU,Essaouira Mogador,2924
+2006,5,ESU,Essaouira Mogador,2815
+2006,6,ESU,Essaouira Mogador,2476
+2006,7,ESU,Essaouira Mogador,3734
+2006,8,ESU,Essaouira Mogador,4491
+2006,9,ESU,Essaouira Mogador,3216
+2006,10,ESU,Essaouira Mogador,3082
+2006,11,ESU,Essaouira Mogador,2224
+2006,12,ESU,Essaouira Mogador,2385
+2006,1,OZZ,Ouarzazate,1800
+2006,2,OZZ,Ouarzazate,1505
+2006,3,OZZ,Ouarzazate,1898
+2006,4,OZZ,Ouarzazate,2244
+2006,5,OZZ,Ouarzazate,2084
+2006,6,OZZ,Ouarzazate,2181
+2006,7,OZZ,Ouarzazate,3529
+2006,8,OZZ,Ouarzazate,4159
+2006,9,OZZ,Ouarzazate,2571
+2006,10,OZZ,Ouarzazate,2516
+2006,11,OZZ,Ouarzazate,2126
+2006,12,OZZ,Ouarzazate,1896
+2006,1,MEK,Meknes,1173
+2006,2,MEK,Meknes,981
+2006,3,MEK,Meknes,1319
+2006,4,MEK,Meknes,1614
+2006,5,MEK,Meknes,1350
+2006,6,MEK,Meknes,1265
+2006,7,MEK,Meknes,2414
+2006,8,MEK,Meknes,2420
+2006,9,MEK,Meknes,1902
+2006,10,MEK,Meknes,1629
+2006,11,MEK,Meknes,1296
+2006,12,MEK,Meknes,1411
+2007,1,RAK,Marrakech Menara,131491
+2007,2,RAK,Marrakech Menara,109645
+2007,3,RAK,Marrakech Menara,145166
+2007,4,RAK,Marrakech Menara,180899
+2007,5,RAK,Marrakech Menara,186818
+2007,6,RAK,Marrakech Menara,136569
+2007,7,RAK,Marrakech Menara,276610
+2007,8,RAK,Marrakech Menara,320710
+2007,9,RAK,Marrakech Menara,219148
+2007,10,RAK,Marrakech Menara,200449
+2007,11,RAK,Marrakech Menara,144437
+2007,12,RAK,Marrakech Menara,159577
+2007,1,CMN,Casablanca Mohammed V,170202
+2007,2,CMN,Casablanca Mohammed V,138806
+2007,3,CMN,Casablanca Mohammed V,177535
+2007,4,CMN,Casablanca Mohammed V,210625
+2007,5,CMN,Casablanca Mohammed V,208389
+2007,6,CMN,Casablanca Mohammed V,205632
+2007,7,CMN,Casablanca Mohammed V,347238
+2007,8,CMN,Casablanca Mohammed V,359045
+2007,9,CMN,Casablanca Mohammed V,285506
+2007,10,CMN,Casablanca Mohammed V,240033
+2007,11,CMN,Casablanca Mohammed V,192222
+2007,12,CMN,Casablanca Mohammed V,189665
+2007,1,TNG,Tanger Ibn Battouta,86655
+2007,2,TNG,Tanger Ibn Battouta,74214
+2007,3,TNG,Tanger Ibn Battouta,90799
+2007,4,TNG,Tanger Ibn Battouta,119395
+2007,5,TNG,Tanger Ibn Battouta,104886
+2007,6,TNG,Tanger Ibn Battouta,86635
+2007,7,TNG,Tanger Ibn Battouta,176455
+2007,8,TNG,Tanger Ibn Battouta,190373
+2007,9,TNG,Tanger Ibn Battouta,148074
+2007,10,TNG,Tanger Ibn Battouta,117663
+2007,11,TNG,Tanger Ibn Battouta,89465
+2007,12,TNG,Tanger Ibn Battouta,104209
+2007,1,AGA,Agadir Al Massira,50089
+2007,2,AGA,Agadir Al Massira,47321
+2007,3,AGA,Agadir Al Massira,61496
+2007,4,AGA,Agadir Al Massira,78061
+2007,5,AGA,Agadir Al Massira,74935
+2007,6,AGA,Agadir Al Massira,69041
+2007,7,AGA,Agadir Al Massira,102282
+2007,8,AGA,Agadir Al Massira,141452
+2007,9,AGA,Agadir Al Massira,85697
+2007,10,AGA,Agadir Al Massira,76242
+2007,11,AGA,Agadir Al Massira,67303
+2007,12,AGA,Agadir Al Massira,66010
+2007,1,FEZ,Fès Saïss,25585
+2007,2,FEZ,Fès Saïss,21562
+2007,3,FEZ,Fès Saïss,30790
+2007,4,FEZ,Fès Saïss,38063
+2007,5,FEZ,Fès Saïss,33468
+2007,6,FEZ,Fès Saïss,28916
+2007,7,FEZ,Fès Saïss,58038
+2007,8,FEZ,Fès Saïss,59495
+2007,9,FEZ,Fès Saïss,49208
+2007,10,FEZ,Fès Saïss,37919
+2007,11,FEZ,Fès Saïss,30699
+2007,12,FEZ,Fès Saïss,31519
+2007,1,RBA,Rabat-Salé,18688
+2007,2,RBA,Rabat-Salé,16559
+2007,3,RBA,Rabat-Salé,22115
+2007,4,RBA,Rabat-Salé,23386
+2007,5,RBA,Rabat-Salé,26606
+2007,6,RBA,Rabat-Salé,22585
+2007,7,RBA,Rabat-Salé,39983
+2007,8,RBA,Rabat-Salé,40021
+2007,9,RBA,Rabat-Salé,34027
+2007,10,RBA,Rabat-Salé,27532
+2007,11,RBA,Rabat-Salé,22839
+2007,12,RBA,Rabat-Salé,23441
+2007,1,OUD,Oujda Angads,12291
+2007,2,OUD,Oujda Angads,8797
+2007,3,OUD,Oujda Angads,12861
+2007,4,OUD,Oujda Angads,17030
+2007,5,OUD,Oujda Angads,14495
+2007,6,OUD,Oujda Angads,12869
+2007,7,OUD,Oujda Angads,22829
+2007,8,OUD,Oujda Angads,27365
+2007,9,OUD,Oujda Angads,17645
+2007,10,OUD,Oujda Angads,19013
+2007,11,OUD,Oujda Angads,13799
+2007,12,OUD,Oujda Angads,13845
+2007,1,NDR,Nador Ibn Batouta,10751
+2007,2,NDR,Nador Ibn Batouta,9311
+2007,3,NDR,Nador Ibn Batouta,11643
+2007,4,NDR,Nador Ibn Batouta,14833
+2007,5,NDR,Nador Ibn Batouta,12577
+2007,6,NDR,Nador Ibn Batouta,11073
+2007,7,NDR,Nador Ibn Batouta,20445
+2007,8,NDR,Nador Ibn Batouta,25807
+2007,9,NDR,Nador Ibn Batouta,15630
+2007,10,NDR,Nador Ibn Batouta,15223
+2007,11,NDR,Nador Ibn Batouta,11242
+2007,12,NDR,Nador Ibn Batouta,11405
+2007,1,ERH,Errachidia Moulay Ali Cherif,5009
+2007,2,ERH,Errachidia Moulay Ali Cherif,3754
+2007,3,ERH,Errachidia Moulay Ali Cherif,6008
+2007,4,ERH,Errachidia Moulay Ali Cherif,5924
+2007,5,ERH,Errachidia Moulay Ali Cherif,5949
+2007,6,ERH,Errachidia Moulay Ali Cherif,5348
+2007,7,ERH,Errachidia Moulay Ali Cherif,9144
+2007,8,ERH,Errachidia Moulay Ali Cherif,12046
+2007,9,ERH,Errachidia Moulay Ali Cherif,8028
+2007,10,ERH,Errachidia Moulay Ali Cherif,6879
+2007,11,ERH,Errachidia Moulay Ali Cherif,5771
+2007,12,ERH,Errachidia Moulay Ali Cherif,5903
+2007,1,VIL,Dakhla,4572
+2007,2,VIL,Dakhla,3357
+2007,3,VIL,Dakhla,5013
+2007,4,VIL,Dakhla,5777
+2007,5,VIL,Dakhla,5330
+2007,6,VIL,Dakhla,4671
+2007,7,VIL,Dakhla,8983
+2007,8,VIL,Dakhla,10133
+2007,9,VIL,Dakhla,6384
+2007,10,VIL,Dakhla,6587
+2007,11,VIL,Dakhla,4726
+2007,12,VIL,Dakhla,5199
+2007,1,EUN,Laayoune Hassan I,4263
+2007,2,EUN,Laayoune Hassan I,3189
+2007,3,EUN,Laayoune Hassan I,5248
+2007,4,EUN,Laayoune Hassan I,5606
+2007,5,EUN,Laayoune Hassan I,6011
+2007,6,EUN,Laayoune Hassan I,4679
+2007,7,EUN,Laayoune Hassan I,8927
+2007,8,EUN,Laayoune Hassan I,8784
+2007,9,EUN,Laayoune Hassan I,6538
+2007,10,EUN,Laayoune Hassan I,6522
+2007,11,EUN,Laayoune Hassan I,4879
+2007,12,EUN,Laayoune Hassan I,4645
+2007,1,TTU,Tetouan Sania Ramel,3146
+2007,2,TTU,Tetouan Sania Ramel,2584
+2007,3,TTU,Tetouan Sania Ramel,3052
+2007,4,TTU,Tetouan Sania Ramel,4162
+2007,5,TTU,Tetouan Sania Ramel,3774
+2007,6,TTU,Tetouan Sania Ramel,3671
+2007,7,TTU,Tetouan Sania Ramel,5375
+2007,8,TTU,Tetouan Sania Ramel,6733
+2007,9,TTU,Tetouan Sania Ramel,4439
+2007,10,TTU,Tetouan Sania Ramel,4209
+2007,11,TTU,Tetouan Sania Ramel,3601
+2007,12,TTU,Tetouan Sania Ramel,3134
+2007,1,ESU,Essaouira Mogador,2503
+2007,2,ESU,Essaouira Mogador,2081
+2007,3,ESU,Essaouira Mogador,2479
+2007,4,ESU,Essaouira Mogador,2980
+2007,5,ESU,Essaouira Mogador,2850
+2007,6,ESU,Essaouira Mogador,2655
+2007,7,ESU,Essaouira Mogador,4162
+2007,8,ESU,Essaouira Mogador,4964
+2007,9,ESU,Essaouira Mogador,3700
+2007,10,ESU,Essaouira Mogador,3405
+2007,11,ESU,Essaouira Mogador,2631
+2007,12,ESU,Essaouira Mogador,2681
+2007,1,OZZ,Ouarzazate,1696
+2007,2,OZZ,Ouarzazate,1449
+2007,3,OZZ,Ouarzazate,1995
+2007,4,OZZ,Ouarzazate,2360
+2007,5,OZZ,Ouarzazate,2231
+2007,6,OZZ,Ouarzazate,2351
+2007,7,OZZ,Ouarzazate,3410
+2007,8,OZZ,Ouarzazate,4521
+2007,9,OZZ,Ouarzazate,3068
+2007,10,OZZ,Ouarzazate,2598
+2007,11,OZZ,Ouarzazate,2211
+2007,12,OZZ,Ouarzazate,2288
+2007,1,MEK,Meknes,1332
+2007,2,MEK,Meknes,1153
+2007,3,MEK,Meknes,1406
+2007,4,MEK,Meknes,1671
+2007,5,MEK,Meknes,1636
+2007,6,MEK,Meknes,1619
+2007,7,MEK,Meknes,2559
+2007,8,MEK,Meknes,3189
+2007,9,MEK,Meknes,2166
+2007,10,MEK,Meknes,1977
+2007,11,MEK,Meknes,1468
+2007,12,MEK,Meknes,1405
+2008,1,RAK,Marrakech Menara,144201
+2008,2,RAK,Marrakech Menara,129523
+2008,3,RAK,Marrakech Menara,164655
+2008,4,RAK,Marrakech Menara,176620
+2008,5,RAK,Marrakech Menara,171122
+2008,6,RAK,Marrakech Menara,155349
+2008,7,RAK,Marrakech Menara,304199
+2008,8,RAK,Marrakech Menara,348231
+2008,9,RAK,Marrakech Menara,250940
+2008,10,RAK,Marrakech Menara,224538
+2008,11,RAK,Marrakech Menara,151932
+2008,12,RAK,Marrakech Menara,160298
+2008,1,CMN,Casablanca Mohammed V,173960
+2008,2,CMN,Casablanca Mohammed V,145993
+2008,3,CMN,Casablanca Mohammed V,210299
+2008,4,CMN,Casablanca Mohammed V,256184
+2008,5,CMN,Casablanca Mohammed V,255903
+2008,6,CMN,Casablanca Mohammed V,220964
+2008,7,CMN,Casablanca Mohammed V,376059
+2008,8,CMN,Casablanca Mohammed V,401775
+2008,9,CMN,Casablanca Mohammed V,285767
+2008,10,CMN,Casablanca Mohammed V,270718
+2008,11,CMN,Casablanca Mohammed V,212387
+2008,12,CMN,Casablanca Mohammed V,211112
+2008,1,TNG,Tanger Ibn Battouta,87527
+2008,2,TNG,Tanger Ibn Battouta,70630
+2008,3,TNG,Tanger Ibn Battouta,99762
+2008,4,TNG,Tanger Ibn Battouta,116416
+2008,5,TNG,Tanger Ibn Battouta,120110
+2008,6,TNG,Tanger Ibn Battouta,111398
+2008,7,TNG,Tanger Ibn Battouta,168515
+2008,8,TNG,Tanger Ibn Battouta,224720
+2008,9,TNG,Tanger Ibn Battouta,142461
+2008,10,TNG,Tanger Ibn Battouta,135170
+2008,11,TNG,Tanger Ibn Battouta,94655
+2008,12,TNG,Tanger Ibn Battouta,110633
+2008,1,AGA,Agadir Al Massira,57441
+2008,2,AGA,Agadir Al Massira,48861
+2008,3,AGA,Agadir Al Massira,73022
+2008,4,AGA,Agadir Al Massira,86204
+2008,5,AGA,Agadir Al Massira,77109
+2008,6,AGA,Agadir Al Massira,69781
+2008,7,AGA,Agadir Al Massira,127849
+2008,8,AGA,Agadir Al Massira,140587
+2008,9,AGA,Agadir Al Massira,93614
+2008,10,AGA,Agadir Al Massira,88597
+2008,11,AGA,Agadir Al Massira,67372
+2008,12,AGA,Agadir Al Massira,68085
+2008,1,FEZ,Fès Saïss,33974
+2008,2,FEZ,Fès Saïss,26615
+2008,3,FEZ,Fès Saïss,37254
+2008,4,FEZ,Fès Saïss,42201
+2008,5,FEZ,Fès Saïss,41057
+2008,6,FEZ,Fès Saïss,33304
+2008,7,FEZ,Fès Saïss,64880
+2008,8,FEZ,Fès Saïss,68649
+2008,9,FEZ,Fès Saïss,52080
+2008,10,FEZ,Fès Saïss,43669
+2008,11,FEZ,Fès Saïss,33890
+2008,12,FEZ,Fès Saïss,33396
+2008,1,RBA,Rabat-Salé,20578
+2008,2,RBA,Rabat-Salé,15968
+2008,3,RBA,Rabat-Salé,24149
+2008,4,RBA,Rabat-Salé,27020
+2008,5,RBA,Rabat-Salé,28580
+2008,6,RBA,Rabat-Salé,24793
+2008,7,RBA,Rabat-Salé,42172
+2008,8,RBA,Rabat-Salé,46025
+2008,9,RBA,Rabat-Salé,33190
+2008,10,RBA,Rabat-Salé,30494
+2008,11,RBA,Rabat-Salé,22495
+2008,12,RBA,Rabat-Salé,25777
+2008,1,OUD,Oujda Angads,14336
+2008,2,OUD,Oujda Angads,12354
+2008,3,OUD,Oujda Angads,16284
+2008,4,OUD,Oujda Angads,18272
+2008,5,OUD,Oujda Angads,17443
+2008,6,OUD,Oujda Angads,15210
+2008,7,OUD,Oujda Angads,25694
+2008,8,OUD,Oujda Angads,29282
+2008,9,OUD,Oujda Angads,21826
+2008,10,OUD,Oujda Angads,19383
+2008,11,OUD,Oujda Angads,17296
+2008,12,OUD,Oujda Angads,14717
+2008,1,NDR,Nador Ibn Batouta,13404
+2008,2,NDR,Nador Ibn Batouta,10864
+2008,3,NDR,Nador Ibn Batouta,15255
+2008,4,NDR,Nador Ibn Batouta,17018
+2008,5,NDR,Nador Ibn Batouta,18439
+2008,6,NDR,Nador Ibn Batouta,14656
+2008,7,NDR,Nador Ibn Batouta,25079
+2008,8,NDR,Nador Ibn Batouta,32483
+2008,9,NDR,Nador Ibn Batouta,22947
+2008,10,NDR,Nador Ibn Batouta,19047
+2008,11,NDR,Nador Ibn Batouta,14566
+2008,12,NDR,Nador Ibn Batouta,13897
+2008,1,ERH,Errachidia Moulay Ali Cherif,5689
+2008,2,ERH,Errachidia Moulay Ali Cherif,4054
+2008,3,ERH,Errachidia Moulay Ali Cherif,6624
+2008,4,ERH,Errachidia Moulay Ali Cherif,7761
+2008,5,ERH,Errachidia Moulay Ali Cherif,7723
+2008,6,ERH,Errachidia Moulay Ali Cherif,5683
+2008,7,ERH,Errachidia Moulay Ali Cherif,10725
+2008,8,ERH,Errachidia Moulay Ali Cherif,11814
+2008,9,ERH,Errachidia Moulay Ali Cherif,9423
+2008,10,ERH,Errachidia Moulay Ali Cherif,8286
+2008,11,ERH,Errachidia Moulay Ali Cherif,6586
+2008,12,ERH,Errachidia Moulay Ali Cherif,5902
+2008,1,VIL,Dakhla,5019
+2008,2,VIL,Dakhla,3629
+2008,3,VIL,Dakhla,5960
+2008,4,VIL,Dakhla,6789
+2008,5,VIL,Dakhla,6024
+2008,6,VIL,Dakhla,5238
+2008,7,VIL,Dakhla,8987
+2008,8,VIL,Dakhla,10262
+2008,9,VIL,Dakhla,7967
+2008,10,VIL,Dakhla,7564
+2008,11,VIL,Dakhla,5051
+2008,12,VIL,Dakhla,5037
+2008,1,EUN,Laayoune Hassan I,4517
+2008,2,EUN,Laayoune Hassan I,3686
+2008,3,EUN,Laayoune Hassan I,5014
+2008,4,EUN,Laayoune Hassan I,5844
+2008,5,EUN,Laayoune Hassan I,6057
+2008,6,EUN,Laayoune Hassan I,4915
+2008,7,EUN,Laayoune Hassan I,9177
+2008,8,EUN,Laayoune Hassan I,10313
+2008,9,EUN,Laayoune Hassan I,8271
+2008,10,EUN,Laayoune Hassan I,7066
+2008,11,EUN,Laayoune Hassan I,5640
+2008,12,EUN,Laayoune Hassan I,5202
+2008,1,TTU,Tetouan Sania Ramel,3449
+2008,2,TTU,Tetouan Sania Ramel,2439
+2008,3,TTU,Tetouan Sania Ramel,4005
+2008,4,TTU,Tetouan Sania Ramel,4474
+2008,5,TTU,Tetouan Sania Ramel,4213
+2008,6,TTU,Tetouan Sania Ramel,3623
+2008,7,TTU,Tetouan Sania Ramel,6463
+2008,8,TTU,Tetouan Sania Ramel,7462
+2008,9,TTU,Tetouan Sania Ramel,4965
+2008,10,TTU,Tetouan Sania Ramel,4864
+2008,11,TTU,Tetouan Sania Ramel,3452
+2008,12,TTU,Tetouan Sania Ramel,3723
+2008,1,ESU,Essaouira Mogador,2906
+2008,2,ESU,Essaouira Mogador,2360
+2008,3,ESU,Essaouira Mogador,3016
+2008,4,ESU,Essaouira Mogador,3361
+2008,5,ESU,Essaouira Mogador,3438
+2008,6,ESU,Essaouira Mogador,3404
+2008,7,ESU,Essaouira Mogador,5864
+2008,8,ESU,Essaouira Mogador,6126
+2008,9,ESU,Essaouira Mogador,4274
+2008,10,ESU,Essaouira Mogador,3707
+2008,11,ESU,Essaouira Mogador,2880
+2008,12,ESU,Essaouira Mogador,3009
+2008,1,OZZ,Ouarzazate,2346
+2008,2,OZZ,Ouarzazate,1976
+2008,3,OZZ,Ouarzazate,2824
+2008,4,OZZ,Ouarzazate,3026
+2008,5,OZZ,Ouarzazate,3084
+2008,6,OZZ,Ouarzazate,2557
+2008,7,OZZ,Ouarzazate,4031
+2008,8,OZZ,Ouarzazate,5329
+2008,9,OZZ,Ouarzazate,3549
+2008,10,OZZ,Ouarzazate,3149
+2008,11,OZZ,Ouarzazate,2535
+2008,12,OZZ,Ouarzazate,2443
+2008,1,MEK,Meknes,1226
+2008,2,MEK,Meknes,1113
+2008,3,MEK,Meknes,1608
+2008,4,MEK,Meknes,1794
+2008,5,MEK,Meknes,1677
+2008,6,MEK,Meknes,1459
+2008,7,MEK,Meknes,2599
+2008,8,MEK,Meknes,3091
+2008,9,MEK,Meknes,2282
+2008,10,MEK,Meknes,2089
+2008,11,MEK,Meknes,1654
+2008,12,MEK,Meknes,1587
+2009,1,RAK,Marrakech Menara,134630
+2009,2,RAK,Marrakech Menara,109984
+2009,3,RAK,Marrakech Menara,166361
+2009,4,RAK,Marrakech Menara,213070
+2009,5,RAK,Marrakech Menara,209957
+2009,6,RAK,Marrakech Menara,176279
+2009,7,RAK,Marrakech Menara,310962
+2009,8,RAK,Marrakech Menara,341703
+2009,9,RAK,Marrakech Menara,243569
+2009,10,RAK,Marrakech Menara,203664
+2009,11,RAK,Marrakech Menara,175636
+2009,12,RAK,Marrakech Menara,182731
+2009,1,CMN,Casablanca Mohammed V,155273
+2009,2,CMN,Casablanca Mohammed V,128906
+2009,3,CMN,Casablanca Mohammed V,202968
+2009,4,CMN,Casablanca Mohammed V,225428
+2009,5,CMN,Casablanca Mohammed V,234313
+2009,6,CMN,Casablanca Mohammed V,191477
+2009,7,CMN,Casablanca Mohammed V,319171
+2009,8,CMN,Casablanca Mohammed V,425532
+2009,9,CMN,Casablanca Mohammed V,290897
+2009,10,CMN,Casablanca Mohammed V,242556
+2009,11,CMN,Casablanca Mohammed V,200945
+2009,12,CMN,Casablanca Mohammed V,180558
+2009,1,TNG,Tanger Ibn Battouta,93059
+2009,2,TNG,Tanger Ibn Battouta,69929
+2009,3,TNG,Tanger Ibn Battouta,100083
+2009,4,TNG,Tanger Ibn Battouta,124242
+2009,5,TNG,Tanger Ibn Battouta,113798
+2009,6,TNG,Tanger Ibn Battouta,106114
+2009,7,TNG,Tanger Ibn Battouta,164703
+2009,8,TNG,Tanger Ibn Battouta,191507
+2009,9,TNG,Tanger Ibn Battouta,154833
+2009,10,TNG,Tanger Ibn Battouta,126274
+2009,11,TNG,Tanger Ibn Battouta,102985
+2009,12,TNG,Tanger Ibn Battouta,102067
+2009,1,AGA,Agadir Al Massira,54345
+2009,2,AGA,Agadir Al Massira,39242
+2009,3,AGA,Agadir Al Massira,62813
+2009,4,AGA,Agadir Al Massira,72805
+2009,5,AGA,Agadir Al Massira,69067
+2009,6,AGA,Agadir Al Massira,58428
+2009,7,AGA,Agadir Al Massira,93656
+2009,8,AGA,Agadir Al Massira,129048
+2009,9,AGA,Agadir Al Massira,84215
+2009,10,AGA,Agadir Al Massira,76547
+2009,11,AGA,Agadir Al Massira,57159
+2009,12,AGA,Agadir Al Massira,59381
+2009,1,FEZ,Fès Saïss,28889
+2009,2,FEZ,Fès Saïss,23640
+2009,3,FEZ,Fès Saïss,37565
+2009,4,FEZ,Fès Saïss,37807
+2009,5,FEZ,Fès Saïss,38460
+2009,6,FEZ,Fès Saïss,34968
+2009,7,FEZ,Fès Saïss,66638
+2009,8,FEZ,Fès Saïss,65123
+2009,9,FEZ,Fès Saïss,55428
+2009,10,FEZ,Fès Saïss,46174
+2009,11,FEZ,Fès Saïss,36132
+2009,12,FEZ,Fès Saïss,38894
+2009,1,RBA,Rabat-Salé,19866
+2009,2,RBA,Rabat-Salé,17800
+2009,3,RBA,Rabat-Salé,22830
+2009,4,RBA,Rabat-Salé,27807
+2009,5,RBA,Rabat-Salé,26930
+2009,6,RBA,Rabat-Salé,24923
+2009,7,RBA,Rabat-Salé,37926
+2009,8,RBA,Rabat-Salé,46032
+2009,9,RBA,Rabat-Salé,31946
+2009,10,RBA,Rabat-Salé,34499
+2009,11,RBA,Rabat-Salé,23750
+2009,12,RBA,Rabat-Salé,26144
+2009,1,OUD,Oujda Angads,12771
+2009,2,OUD,Oujda Angads,9811
+2009,3,OUD,Oujda Angads,12478
+2009,4,OUD,Oujda Angads,17274
+2009,5,OUD,Oujda Angads,16536
+2009,6,OUD,Oujda Angads,13230
+2009,7,OUD,Oujda Angads,22768
+2009,8,OUD,Oujda Angads,29112
+2009,9,OUD,Oujda Angads,19663
+2009,10,OUD,Oujda Angads,17947
+2009,11,OUD,Oujda Angads,15171
+2009,12,OUD,Oujda Angads,13418
+2009,1,NDR,Nador Ibn Batouta,12980
+2009,2,NDR,Nador Ibn Batouta,10443
+2009,3,NDR,Nador Ibn Batouta,14065
+2009,4,NDR,Nador Ibn Batouta,17769
+2009,5,NDR,Nador Ibn Batouta,18205
+2009,6,NDR,Nador Ibn Batouta,14410
+2009,7,NDR,Nador Ibn Batouta,26010
+2009,8,NDR,Nador Ibn Batouta,26422
+2009,9,NDR,Nador Ibn Batouta,19441
+2009,10,NDR,Nador Ibn Batouta,17653
+2009,11,NDR,Nador Ibn Batouta,14638
+2009,12,NDR,Nador Ibn Batouta,14423
+2009,1,ERH,Errachidia Moulay Ali Cherif,5015
+2009,2,ERH,Errachidia Moulay Ali Cherif,4458
+2009,3,ERH,Errachidia Moulay Ali Cherif,6211
+2009,4,ERH,Errachidia Moulay Ali Cherif,6750
+2009,5,ERH,Errachidia Moulay Ali Cherif,6714
+2009,6,ERH,Errachidia Moulay Ali Cherif,6601
+2009,7,ERH,Errachidia Moulay Ali Cherif,10250
+2009,8,ERH,Errachidia Moulay Ali Cherif,12217
+2009,9,ERH,Errachidia Moulay Ali Cherif,8379
+2009,10,ERH,Errachidia Moulay Ali Cherif,7818
+2009,11,ERH,Errachidia Moulay Ali Cherif,6107
+2009,12,ERH,Errachidia Moulay Ali Cherif,6302
+2009,1,VIL,Dakhla,5076
+2009,2,VIL,Dakhla,3918
+2009,3,VIL,Dakhla,5957
+2009,4,VIL,Dakhla,5646
+2009,5,VIL,Dakhla,5630
+2009,6,VIL,Dakhla,5310
+2009,7,VIL,Dakhla,10049
+2009,8,VIL,Dakhla,11514
+2009,9,VIL,Dakhla,8112
+2009,10,VIL,Dakhla,6643
+2009,11,VIL,Dakhla,5157
+2009,12,VIL,Dakhla,5417
+2009,1,EUN,Laayoune Hassan I,3866
+2009,2,EUN,Laayoune Hassan I,3535
+2009,3,EUN,Laayoune Hassan I,4381
+2009,4,EUN,Laayoune Hassan I,5847
+2009,5,EUN,Laayoune Hassan I,4888
+2009,6,EUN,Laayoune Hassan I,4561
+2009,7,EUN,Laayoune Hassan I,7943
+2009,8,EUN,Laayoune Hassan I,9434
+2009,9,EUN,Laayoune Hassan I,6238
+2009,10,EUN,Laayoune Hassan I,6454
+2009,11,EUN,Laayoune Hassan I,4444
+2009,12,EUN,Laayoune Hassan I,4721
+2009,1,TTU,Tetouan Sania Ramel,2956
+2009,2,TTU,Tetouan Sania Ramel,2469
+2009,3,TTU,Tetouan Sania Ramel,3366
+2009,4,TTU,Tetouan Sania Ramel,4157
+2009,5,TTU,Tetouan Sania Ramel,4061
+2009,6,TTU,Tetouan Sania Ramel,3597
+2009,7,TTU,Tetouan Sania Ramel,5704
+2009,8,TTU,Tetouan Sania Ramel,7317
+2009,9,TTU,Tetouan Sania Ramel,4816
+2009,10,TTU,Tetouan Sania Ramel,5005
+2009,11,TTU,Tetouan Sania Ramel,3821
+2009,12,TTU,Tetouan Sania Ramel,3702
+2009,1,ESU,Essaouira Mogador,2313
+2009,2,ESU,Essaouira Mogador,1785
+2009,3,ESU,Essaouira Mogador,2898
+2009,4,ESU,Essaouira Mogador,3235
+2009,5,ESU,Essaouira Mogador,3297
+2009,6,ESU,Essaouira Mogador,3019
+2009,7,ESU,Essaouira Mogador,4614
+2009,8,ESU,Essaouira Mogador,5555
+2009,9,ESU,Essaouira Mogador,4147
+2009,10,ESU,Essaouira Mogador,3539
+2009,11,ESU,Essaouira Mogador,2510
+2009,12,ESU,Essaouira Mogador,2594
+2009,1,OZZ,Ouarzazate,2132
+2009,2,OZZ,Ouarzazate,1813
+2009,3,OZZ,Ouarzazate,2211
+2009,4,OZZ,Ouarzazate,2760
+2009,5,OZZ,Ouarzazate,2768
+2009,6,OZZ,Ouarzazate,2289
+2009,7,OZZ,Ouarzazate,4116
+2009,8,OZZ,Ouarzazate,4379
+2009,9,OZZ,Ouarzazate,3417
+2009,10,OZZ,Ouarzazate,3252
+2009,11,OZZ,Ouarzazate,2480
+2009,12,OZZ,Ouarzazate,2122
+2009,1,MEK,Meknes,1405
+2009,2,MEK,Meknes,1217
+2009,3,MEK,Meknes,1433
+2009,4,MEK,Meknes,1828
+2009,5,MEK,Meknes,1732
+2009,6,MEK,Meknes,1474
+2009,7,MEK,Meknes,2941
+2009,8,MEK,Meknes,3328
+2009,9,MEK,Meknes,2072
+2009,10,MEK,Meknes,1881
+2009,11,MEK,Meknes,1555
+2009,12,MEK,Meknes,1486
+2010,1,RAK,Marrakech Menara,141755
+2010,2,RAK,Marrakech Menara,124508
+2010,3,RAK,Marrakech Menara,162238
+2010,4,RAK,Marrakech Menara,199824
+2010,5,RAK,Marrakech Menara,221597
+2010,6,RAK,Marrakech Menara,175316
+2010,7,RAK,Marrakech Menara,324764
+2010,8,RAK,Marrakech Menara,339085
+2010,9,RAK,Marrakech Menara,268353
+2010,10,RAK,Marrakech Menara,208088
+2010,11,RAK,Marrakech Menara,179345
+2010,12,RAK,Marrakech Menara,172967
+2010,1,CMN,Casablanca Mohammed V,198868
+2010,2,CMN,Casablanca Mohammed V,158384
+2010,3,CMN,Casablanca Mohammed V,208595
+2010,4,CMN,Casablanca Mohammed V,277354
+2010,5,CMN,Casablanca Mohammed V,228393
+2010,6,CMN,Casablanca Mohammed V,208053
+2010,7,CMN,Casablanca Mohammed V,343582
+2010,8,CMN,Casablanca Mohammed V,414463
+2010,9,CMN,Casablanca Mohammed V,326665
+2010,10,CMN,Casablanca Mohammed V,309050
+2010,11,CMN,Casablanca Mohammed V,211468
+2010,12,CMN,Casablanca Mohammed V,234847
+2010,1,TNG,Tanger Ibn Battouta,81332
+2010,2,TNG,Tanger Ibn Battouta,67743
+2010,3,TNG,Tanger Ibn Battouta,96187
+2010,4,TNG,Tanger Ibn Battouta,115873
+2010,5,TNG,Tanger Ibn Battouta,131554
+2010,6,TNG,Tanger Ibn Battouta,100560
+2010,7,TNG,Tanger Ibn Battouta,170413
+2010,8,TNG,Tanger Ibn Battouta,217472
+2010,9,TNG,Tanger Ibn Battouta,154160
+2010,10,TNG,Tanger Ibn Battouta,129052
+2010,11,TNG,Tanger Ibn Battouta,102906
+2010,12,TNG,Tanger Ibn Battouta,109427
+2010,1,AGA,Agadir Al Massira,66126
+2010,2,AGA,Agadir Al Massira,50382
+2010,3,AGA,Agadir Al Massira,81758
+2010,4,AGA,Agadir Al Massira,87615
+2010,5,AGA,Agadir Al Massira,79417
+2010,6,AGA,Agadir Al Massira,68713
+2010,7,AGA,Agadir Al Massira,119479
+2010,8,AGA,Agadir Al Massira,156574
+2010,9,AGA,Agadir Al Massira,104936
+2010,10,AGA,Agadir Al Massira,88380
+2010,11,AGA,Agadir Al Massira,82761
+2010,12,AGA,Agadir Al Massira,82008
+2010,1,FEZ,Fès Saïss,38863
+2010,2,FEZ,Fès Saïss,29644
+2010,3,FEZ,Fès Saïss,47099
+2010,4,FEZ,Fès Saïss,49025
+2010,5,FEZ,Fès Saïss,49846
+2010,6,FEZ,Fès Saïss,40452
+2010,7,FEZ,Fès Saïss,71348
+2010,8,FEZ,Fès Saïss,89992
+2010,9,FEZ,Fès Saïss,62446
+2010,10,FEZ,Fès Saïss,61769
+2010,11,FEZ,Fès Saïss,47819
+2010,12,FEZ,Fès Saïss,46423
+2010,1,RBA,Rabat-Salé,21788
+2010,2,RBA,Rabat-Salé,19651
+2010,3,RBA,Rabat-Salé,25617
+2010,4,RBA,Rabat-Salé,29085
+2010,5,RBA,Rabat-Salé,27713
+2010,6,RBA,Rabat-Salé,27993
+2010,7,RBA,Rabat-Salé,42455
+2010,8,RBA,Rabat-Salé,48898
+2010,9,RBA,Rabat-Salé,39188
+2010,10,RBA,Rabat-Salé,34572
+2010,11,RBA,Rabat-Salé,26942
+2010,12,RBA,Rabat-Salé,25945
+2010,1,OUD,Oujda Angads,14359
+2010,2,OUD,Oujda Angads,12396
+2010,3,OUD,Oujda Angads,14672
+2010,4,OUD,Oujda Angads,19269
+2010,5,OUD,Oujda Angads,20374
+2010,6,OUD,Oujda Angads,16153
+2010,7,OUD,Oujda Angads,30158
+2010,8,OUD,Oujda Angads,31933
+2010,9,OUD,Oujda Angads,22206
+2010,10,OUD,Oujda Angads,19656
+2010,11,OUD,Oujda Angads,17143
+2010,12,OUD,Oujda Angads,15129
+2010,1,NDR,Nador Ibn Batouta,15312
+2010,2,NDR,Nador Ibn Batouta,10932
+2010,3,NDR,Nador Ibn Batouta,17215
+2010,4,NDR,Nador Ibn Batouta,19234
+2010,5,NDR,Nador Ibn Batouta,18416
+2010,6,NDR,Nador Ibn Batouta,17725
+2010,7,NDR,Nador Ibn Batouta,28382
+2010,8,NDR,Nador Ibn Batouta,30440
+2010,9,NDR,Nador Ibn Batouta,22816
+2010,10,NDR,Nador Ibn Batouta,21800
+2010,11,NDR,Nador Ibn Batouta,15491
+2010,12,NDR,Nador Ibn Batouta,17171
+2010,1,ERH,Errachidia Moulay Ali Cherif,6850
+2010,2,ERH,Errachidia Moulay Ali Cherif,4720
+2010,3,ERH,Errachidia Moulay Ali Cherif,7202
+2010,4,ERH,Errachidia Moulay Ali Cherif,7791
+2010,5,ERH,Errachidia Moulay Ali Cherif,8843
+2010,6,ERH,Errachidia Moulay Ali Cherif,6762
+2010,7,ERH,Errachidia Moulay Ali Cherif,12178
+2010,8,ERH,Errachidia Moulay Ali Cherif,13293
+2010,9,ERH,Errachidia Moulay Ali Cherif,10172
+2010,10,ERH,Errachidia Moulay Ali Cherif,8725
+2010,11,ERH,Errachidia Moulay Ali Cherif,7215
+2010,12,ERH,Errachidia Moulay Ali Cherif,7049
+2010,1,VIL,Dakhla,6272
+2010,2,VIL,Dakhla,4579
+2010,3,VIL,Dakhla,6202
+2010,4,VIL,Dakhla,7673
+2010,5,VIL,Dakhla,8098
+2010,6,VIL,Dakhla,7131
+2010,7,VIL,Dakhla,11658
+2010,8,VIL,Dakhla,12653
+2010,9,VIL,Dakhla,9258
+2010,10,VIL,Dakhla,8597
+2010,11,VIL,Dakhla,7299
+2010,12,VIL,Dakhla,6109
+2010,1,EUN,Laayoune Hassan I,5171
+2010,2,EUN,Laayoune Hassan I,3977
+2010,3,EUN,Laayoune Hassan I,6096
+2010,4,EUN,Laayoune Hassan I,5906
+2010,5,EUN,Laayoune Hassan I,5884
+2010,6,EUN,Laayoune Hassan I,5598
+2010,7,EUN,Laayoune Hassan I,9759
+2010,8,EUN,Laayoune Hassan I,10792
+2010,9,EUN,Laayoune Hassan I,7611
+2010,10,EUN,Laayoune Hassan I,7873
+2010,11,EUN,Laayoune Hassan I,6173
+2010,12,EUN,Laayoune Hassan I,5841
+2010,1,TTU,Tetouan Sania Ramel,3219
+2010,2,TTU,Tetouan Sania Ramel,2816
+2010,3,TTU,Tetouan Sania Ramel,4114
+2010,4,TTU,Tetouan Sania Ramel,4348
+2010,5,TTU,Tetouan Sania Ramel,4616
+2010,6,TTU,Tetouan Sania Ramel,4034
+2010,7,TTU,Tetouan Sania Ramel,7257
+2010,8,TTU,Tetouan Sania Ramel,7455
+2010,9,TTU,Tetouan Sania Ramel,5280
+2010,10,TTU,Tetouan Sania Ramel,5256
+2010,11,TTU,Tetouan Sania Ramel,4085
+2010,12,TTU,Tetouan Sania Ramel,3529
+2010,1,ESU,Essaouira Mogador,2878
+2010,2,ESU,Essaouira Mogador,2380
+2010,3,ESU,Essaouira Mogador,3151
+2010,4,ESU,Essaouira Mogador,3668
+2010,5,ESU,Essaouira Mogador,3938
+2010,6,ESU,Essaouira Mogador,3142
+2010,7,ESU,Essaouira Mogador,5447
+2010,8,ESU,Essaouira Mogador,5953
+2010,9,ESU,Essaouira Mogador,4654
+2010,10,ESU,Essaouira Mogador,4246
+2010,11,ESU,Essaouira Mogador,2937
+2010,12,ESU,Essaouira Mogador,2872
+2010,1,OZZ,Ouarzazate,2241
+2010,2,OZZ,Ouarzazate,1812
+2010,3,OZZ,Ouarzazate,2750
+2010,4,OZZ,Ouarzazate,3124
+2010,5,OZZ,Ouarzazate,3026
+2010,6,OZZ,Ouarzazate,2686
+2010,7,OZZ,Ouarzazate,4171
+2010,8,OZZ,Ouarzazate,5329
+2010,9,OZZ,Ouarzazate,3374
+2010,10,OZZ,Ouarzazate,3065
+2010,11,OZZ,Ouarzazate,2722
+2010,12,OZZ,Ouarzazate,2509
+2010,1,MEK,Meknes,1444
+2010,2,MEK,Meknes,1376
+2010,3,MEK,Meknes,1843
+2010,4,MEK,Meknes,1944
+2010,5,MEK,Meknes,1872
+2010,6,MEK,Meknes,1664
+2010,7,MEK,Meknes,3218
+2010,8,MEK,Meknes,3956
+2010,9,MEK,Meknes,2421
+2010,10,MEK,Meknes,2203
+2010,11,MEK,Meknes,1759
+2010,12,MEK,Meknes,1767
+2011,1,RAK,Marrakech Menara,166561
+2011,2,RAK,Marrakech Menara,143928
+2011,3,RAK,Marrakech Menara,201351
+2011,4,RAK,Marrakech Menara,199901
+2011,5,RAK,Marrakech Menara,216010
+2011,6,RAK,Marrakech Menara,185146
+2011,7,RAK,Marrakech Menara,317887
+2011,8,RAK,Marrakech Menara,346114
+2011,9,RAK,Marrakech Menara,277742
+2011,10,RAK,Marrakech Menara,224228
+2011,11,RAK,Marrakech Menara,174540
+2011,12,RAK,Marrakech Menara,193115
+2011,1,CMN,Casablanca Mohammed V,214985
+2011,2,CMN,Casablanca Mohammed V,153624
+2011,3,CMN,Casablanca Mohammed V,242607
+2011,4,CMN,Casablanca Mohammed V,293605
+2011,5,CMN,Casablanca Mohammed V,259049
+2011,6,CMN,Casablanca Mohammed V,228659
+2011,7,CMN,Casablanca Mohammed V,403705
+2011,8,CMN,Casablanca Mohammed V,434261
+2011,9,CMN,Casablanca Mohammed V,327613
+2011,10,CMN,Casablanca Mohammed V,327065
+2011,11,CMN,Casablanca Mohammed V,239588
+2011,12,CMN,Casablanca Mohammed V,252495
+2011,1,TNG,Tanger Ibn Battouta,104548
+2011,2,TNG,Tanger Ibn Battouta,80808
+2011,3,TNG,Tanger Ibn Battouta,131374
+2011,4,TNG,Tanger Ibn Battouta,149255
+2011,5,TNG,Tanger Ibn Battouta,127947
+2011,6,TNG,Tanger Ibn Battouta,125900
+2011,7,TNG,Tanger Ibn Battouta,220383
+2011,8,TNG,Tanger Ibn Battouta,221388
+2011,9,TNG,Tanger Ibn Battouta,188711
+2011,10,TNG,Tanger Ibn Battouta,161727
+2011,11,TNG,Tanger Ibn Battouta,118996
+2011,12,TNG,Tanger Ibn Battouta,114061
+2011,1,AGA,Agadir Al Massira,67092
+2011,2,AGA,Agadir Al Massira,53976
+2011,3,AGA,Agadir Al Massira,66950
+2011,4,AGA,Agadir Al Massira,85717
+2011,5,AGA,Agadir Al Massira,83276
+2011,6,AGA,Agadir Al Massira,67066
+2011,7,AGA,Agadir Al Massira,127655
+2011,8,AGA,Agadir Al Massira,152879
+2011,9,AGA,Agadir Al Massira,106568
+2011,10,AGA,Agadir Al Massira,94205
+2011,11,AGA,Agadir Al Massira,66164
+2011,12,AGA,Agadir Al Massira,70610
+2011,1,FEZ,Fès Saïss,40686
+2011,2,FEZ,Fès Saïss,32043
+2011,3,FEZ,Fès Saïss,40867
+2011,4,FEZ,Fès Saïss,45897
+2011,5,FEZ,Fès Saïss,54495
+2011,6,FEZ,Fès Saïss,48435
+2011,7,FEZ,Fès Saïss,79015
+2011,8,FEZ,Fès Saïss,97689
+2011,9,FEZ,Fès Saïss,60081
+2011,10,FEZ,Fès Saïss,57542
+2011,11,FEZ,Fès Saïss,41664
+2011,12,FEZ,Fès Saïss,48831
+2011,1,RBA,Rabat-Salé,22392
+2011,2,RBA,Rabat-Salé,18721
+2011,3,RBA,Rabat-Salé,29004
+2011,4,RBA,Rabat-Salé,33189
+2011,5,RBA,Rabat-Salé,28918
+2011,6,RBA,Rabat-Salé,25341
+2011,7,RBA,Rabat-Salé,47949
+2011,8,RBA,Rabat-Salé,49512
+2011,9,RBA,Rabat-Salé,36150
+2011,10,RBA,Rabat-Salé,35500
+2011,11,RBA,Rabat-Salé,27032
+2011,12,RBA,Rabat-Salé,27743
+2011,1,OUD,Oujda Angads,16512
+2011,2,OUD,Oujda Angads,12680
+2011,3,OUD,Oujda Angads,19006
+2011,4,OUD,Oujda Angads,22295
+2011,5,OUD,Oujda Angads,20699
+2011,6,OUD,Oujda Angads,19531
+2011,7,OUD,Oujda Angads,33676
+2011,8,OUD,Oujda Angads,35787
+2011,9,OUD,Oujda Angads,28064
+2011,10,OUD,Oujda Angads,23152
+2011,11,OUD,Oujda Angads,17409
+2011,12,OUD,Oujda Angads,19105
+2011,1,NDR,Nador Ibn Batouta,13064
+2011,2,NDR,Nador Ibn Batouta,12292
+2011,3,NDR,Nador Ibn Batouta,17077
+2011,4,NDR,Nador Ibn Batouta,17532
+2011,5,NDR,Nador Ibn Batouta,19581
+2011,6,NDR,Nador Ibn Batouta,15216
+2011,7,NDR,Nador Ibn Batouta,25322
+2011,8,NDR,Nador Ibn Batouta,31721
+2011,9,NDR,Nador Ibn Batouta,23140
+2011,10,NDR,Nador Ibn Batouta,18533
+2011,11,NDR,Nador Ibn Batouta,15399
+2011,12,NDR,Nador Ibn Batouta,14911
+2011,1,ERH,Errachidia Moulay Ali Cherif,6225
+2011,2,ERH,Errachidia Moulay Ali Cherif,5514
+2011,3,ERH,Errachidia Moulay Ali Cherif,7068
+2011,4,ERH,Errachidia Moulay Ali Cherif,8674
+2011,5,ERH,Errachidia Moulay Ali Cherif,7978
+2011,6,ERH,Errachidia Moulay Ali Cherif,7317
+2011,7,ERH,Errachidia Moulay Ali Cherif,12433
+2011,8,ERH,Errachidia Moulay Ali Cherif,16122
+2011,9,ERH,Errachidia Moulay Ali Cherif,10731
+2011,10,ERH,Errachidia Moulay Ali Cherif,10083
+2011,11,ERH,Errachidia Moulay Ali Cherif,6848
+2011,12,ERH,Errachidia Moulay Ali Cherif,7261
+2011,1,VIL,Dakhla,5951
+2011,2,VIL,Dakhla,5359
+2011,3,VIL,Dakhla,7159
+2011,4,VIL,Dakhla,7698
+2011,5,VIL,Dakhla,7135
+2011,6,VIL,Dakhla,6379
+2011,7,VIL,Dakhla,11013
+2011,8,VIL,Dakhla,12827
+2011,9,VIL,Dakhla,10054
+2011,10,VIL,Dakhla,8117
+2011,11,VIL,Dakhla,6948
+2011,12,VIL,Dakhla,6420
+2011,1,EUN,Laayoune Hassan I,5514
+2011,2,EUN,Laayoune Hassan I,4210
+2011,3,EUN,Laayoune Hassan I,5871
+2011,4,EUN,Laayoune Hassan I,6675
+2011,5,EUN,Laayoune Hassan I,7039
+2011,6,EUN,Laayoune Hassan I,5717
+2011,7,EUN,Laayoune Hassan I,9801
+2011,8,EUN,Laayoune Hassan I,11791
+2011,9,EUN,Laayoune Hassan I,8503
+2011,10,EUN,Laayoune Hassan I,7242
+2011,11,EUN,Laayoune Hassan I,5538
+2011,12,EUN,Laayoune Hassan I,6240
+2011,1,TTU,Tetouan Sania Ramel,3578
+2011,2,TTU,Tetouan Sania Ramel,3309
+2011,3,TTU,Tetouan Sania Ramel,4710
+2011,4,TTU,Tetouan Sania Ramel,4901
+2011,5,TTU,Tetouan Sania Ramel,5367
+2011,6,TTU,Tetouan Sania Ramel,4695
+2011,7,TTU,Tetouan Sania Ramel,8219
+2011,8,TTU,Tetouan Sania Ramel,8653
+2011,9,TTU,Tetouan Sania Ramel,7005
+2011,10,TTU,Tetouan Sania Ramel,5496
+2011,11,TTU,Tetouan Sania Ramel,4871
+2011,12,TTU,Tetouan Sania Ramel,4392
+2011,1,ESU,Essaouira Mogador,2793
+2011,2,ESU,Essaouira Mogador,2360
+2011,3,ESU,Essaouira Mogador,3532
+2011,4,ESU,Essaouira Mogador,3990
+2011,5,ESU,Essaouira Mogador,3701
+2011,6,ESU,Essaouira Mogador,3264
+2011,7,ESU,Essaouira Mogador,5792
+2011,8,ESU,Essaouira Mogador,7461
+2011,9,ESU,Essaouira Mogador,4815
+2011,10,ESU,Essaouira Mogador,4332
+2011,11,ESU,Essaouira Mogador,3395
+2011,12,ESU,Essaouira Mogador,3625
+2011,1,OZZ,Ouarzazate,2642
+2011,2,OZZ,Ouarzazate,2139
+2011,3,OZZ,Ouarzazate,3052
+2011,4,OZZ,Ouarzazate,3019
+2011,5,OZZ,Ouarzazate,3201
+2011,6,OZZ,Ouarzazate,2982
+2011,7,OZZ,Ouarzazate,5343
+2011,8,OZZ,Ouarzazate,6187
+2011,9,OZZ,Ouarzazate,3782
+2011,10,OZZ,Ouarzazate,3693
+2011,11,OZZ,Ouarzazate,2681
+2011,12,OZZ,Ouarzazate,3124
+2011,1,MEK,Meknes,1468
+2011,2,MEK,Meknes,1294
+2011,3,MEK,Meknes,1816
+2011,4,MEK,Meknes,2038
+2011,5,MEK,Meknes,1925
+2011,6,MEK,Meknes,1919
+2011,7,MEK,Meknes,3224
+2011,8,MEK,Meknes,3677
+2011,9,MEK,Meknes,2567
+2011,10,MEK,Meknes,2208
+2011,11,MEK,Meknes,1953
+2011,12,MEK,Meknes,1765
+2012,1,RAK,Marrakech Menara,178968
+2012,2,RAK,Marrakech Menara,148118
+2012,3,RAK,Marrakech Menara,240549
+2012,4,RAK,Marrakech Menara,274492
+2012,5,RAK,Marrakech Menara,240686
+2012,6,RAK,Marrakech Menara,230340
+2012,7,RAK,Marrakech Menara,424600
+2012,8,RAK,Marrakech Menara,476141
+2012,9,RAK,Marrakech Menara,296709
+2012,10,RAK,Marrakech Menara,272683
+2012,11,RAK,Marrakech Menara,218397
+2012,12,RAK,Marrakech Menara,208426
+2012,1,CMN,Casablanca Mohammed V,237490
+2012,2,CMN,Casablanca Mohammed V,204547
+2012,3,CMN,Casablanca Mohammed V,303717
+2012,4,CMN,Casablanca Mohammed V,321502
+2012,5,CMN,Casablanca Mohammed V,307634
+2012,6,CMN,Casablanca Mohammed V,255759
+2012,7,CMN,Casablanca Mohammed V,437647
+2012,8,CMN,Casablanca Mohammed V,554400
+2012,9,CMN,Casablanca Mohammed V,385544
+2012,10,CMN,Casablanca Mohammed V,367322
+2012,11,CMN,Casablanca Mohammed V,260399
+2012,12,CMN,Casablanca Mohammed V,260008
+2012,1,TNG,Tanger Ibn Battouta,105663
+2012,2,TNG,Tanger Ibn Battouta,86620
+2012,3,TNG,Tanger Ibn Battouta,107668
+2012,4,TNG,Tanger Ibn Battouta,130854
+2012,5,TNG,Tanger Ibn Battouta,128105
+2012,6,TNG,Tanger Ibn Battouta,112122
+2012,7,TNG,Tanger Ibn Battouta,194102
+2012,8,TNG,Tanger Ibn Battouta,212476
+2012,9,TNG,Tanger Ibn Battouta,175790
+2012,10,TNG,Tanger Ibn Battouta,135679
+2012,11,TNG,Tanger Ibn Battouta,105562
+2012,12,TNG,Tanger Ibn Battouta,111472
+2012,1,AGA,Agadir Al Massira,79615
+2012,2,AGA,Agadir Al Massira,63767
+2012,3,AGA,Agadir Al Massira,87304
+2012,4,AGA,Agadir Al Massira,100116
+2012,5,AGA,Agadir Al Massira,89722
+2012,6,AGA,Agadir Al Massira,80531
+2012,7,AGA,Agadir Al Massira,154245
+2012,8,AGA,Agadir Al Massira,174230
+2012,9,AGA,Agadir Al Massira,126687
+2012,10,AGA,Agadir Al Massira,112555
+2012,11,AGA,Agadir Al Massira,95119
+2012,12,AGA,Agadir Al Massira,80735
+2012,1,FEZ,Fès Saïss,38018
+2012,2,FEZ,Fès Saïss,33117
+2012,3,FEZ,Fès Saïss,40880
+2012,4,FEZ,Fès Saïss,47617
+2012,5,FEZ,Fès Saïss,46435
+2012,6,FEZ,Fès Saïss,43832
+2012,7,FEZ,Fès Saïss,72439
+2012,8,FEZ,Fès Saïss,90797
+2012,9,FEZ,Fès Saïss,69877
+2012,10,FEZ,Fès Saïss,57463
+2012,11,FEZ,Fès Saïss,42406
+2012,12,FEZ,Fès Saïss,48259
+2012,1,RBA,Rabat-Salé,23793
+2012,2,RBA,Rabat-Salé,20433
+2012,3,RBA,Rabat-Salé,26248
+2012,4,RBA,Rabat-Salé,29527
+2012,5,RBA,Rabat-Salé,33690
+2012,6,RBA,Rabat-Salé,30403
+2012,7,RBA,Rabat-Salé,45983
+2012,8,RBA,Rabat-Salé,56954
+2012,9,RBA,Rabat-Salé,38881
+2012,10,RBA,Rabat-Salé,38946
+2012,11,RBA,Rabat-Salé,29067
+2012,12,RBA,Rabat-Salé,30315
+2012,1,OUD,Oujda Angads,15497
+2012,2,OUD,Oujda Angads,13895
+2012,3,OUD,Oujda Angads,17961
+2012,4,OUD,Oujda Angads,22381
+2012,5,OUD,Oujda Angads,21818
+2012,6,OUD,Oujda Angads,16734
+2012,7,OUD,Oujda Angads,31436
+2012,8,OUD,Oujda Angads,39577
+2012,9,OUD,Oujda Angads,25267
+2012,10,OUD,Oujda Angads,23398
+2012,11,OUD,Oujda Angads,16772
+2012,12,OUD,Oujda Angads,18217
+2012,1,NDR,Nador Ibn Batouta,14783
+2012,2,NDR,Nador Ibn Batouta,13400
+2012,3,NDR,Nador Ibn Batouta,19855
+2012,4,NDR,Nador Ibn Batouta,20297
+2012,5,NDR,Nador Ibn Batouta,22243
+2012,6,NDR,Nador Ibn Batouta,19508
+2012,7,NDR,Nador Ibn Batouta,30933
+2012,8,NDR,Nador Ibn Batouta,34758
+2012,9,NDR,Nador Ibn Batouta,26344
+2012,10,NDR,Nador Ibn Batouta,24471
+2012,11,NDR,Nador Ibn Batouta,16982
+2012,12,NDR,Nador Ibn Batouta,17034
+2012,1,ERH,Errachidia Moulay Ali Cherif,7039
+2012,2,ERH,Errachidia Moulay Ali Cherif,6070
+2012,3,ERH,Errachidia Moulay Ali Cherif,7926
+2012,4,ERH,Errachidia Moulay Ali Cherif,9199
+2012,5,ERH,Errachidia Moulay Ali Cherif,10484
+2012,6,ERH,Errachidia Moulay Ali Cherif,9000
+2012,7,ERH,Errachidia Moulay Ali Cherif,16127
+2012,8,ERH,Errachidia Moulay Ali Cherif,17865
+2012,9,ERH,Errachidia Moulay Ali Cherif,11372
+2012,10,ERH,Errachidia Moulay Ali Cherif,12020
+2012,11,ERH,Errachidia Moulay Ali Cherif,7964
+2012,12,ERH,Errachidia Moulay Ali Cherif,9337
+2012,1,VIL,Dakhla,6285
+2012,2,VIL,Dakhla,5652
+2012,3,VIL,Dakhla,7465
+2012,4,VIL,Dakhla,9136
+2012,5,VIL,Dakhla,8320
+2012,6,VIL,Dakhla,8066
+2012,7,VIL,Dakhla,12318
+2012,8,VIL,Dakhla,15457
+2012,9,VIL,Dakhla,10372
+2012,10,VIL,Dakhla,8660
+2012,11,VIL,Dakhla,6930
+2012,12,VIL,Dakhla,7092
+2012,1,EUN,Laayoune Hassan I,5229
+2012,2,EUN,Laayoune Hassan I,4258
+2012,3,EUN,Laayoune Hassan I,5807
+2012,4,EUN,Laayoune Hassan I,7407
+2012,5,EUN,Laayoune Hassan I,7711
+2012,6,EUN,Laayoune Hassan I,6391
+2012,7,EUN,Laayoune Hassan I,9869
+2012,8,EUN,Laayoune Hassan I,12933
+2012,9,EUN,Laayoune Hassan I,8120
+2012,10,EUN,Laayoune Hassan I,7939
+2012,11,EUN,Laayoune Hassan I,6185
+2012,12,EUN,Laayoune Hassan I,6254
+2012,1,TTU,Tetouan Sania Ramel,3682
+2012,2,TTU,Tetouan Sania Ramel,3082
+2012,3,TTU,Tetouan Sania Ramel,4507
+2012,4,TTU,Tetouan Sania Ramel,4930
+2012,5,TTU,Tetouan Sania Ramel,5383
+2012,6,TTU,Tetouan Sania Ramel,4531
+2012,7,TTU,Tetouan Sania Ramel,7165
+2012,8,TTU,Tetouan Sania Ramel,9548
+2012,9,TTU,Tetouan Sania Ramel,5873
+2012,10,TTU,Tetouan Sania Ramel,5993
+2012,11,TTU,Tetouan Sania Ramel,4156
+2012,12,TTU,Tetouan Sania Ramel,4861
+2012,1,ESU,Essaouira Mogador,3093
+2012,2,ESU,Essaouira Mogador,2753
+2012,3,ESU,Essaouira Mogador,3562
+2012,4,ESU,Essaouira Mogador,4217
+2012,5,ESU,Essaouira Mogador,4357
+2012,6,ESU,Essaouira Mogador,3866
+2012,7,ESU,Essaouira Mogador,6257
+2012,8,ESU,Essaouira Mogador,6861
+2012,9,ESU,Essaouira Mogador,5045
+2012,10,ESU,Essaouira Mogador,4838
+2012,11,ESU,Essaouira Mogador,3878
+2012,12,ESU,Essaouira Mogador,3933
+2012,1,OZZ,Ouarzazate,2886
+2012,2,OZZ,Ouarzazate,2269
+2012,3,OZZ,Ouarzazate,3146
+2012,4,OZZ,Ouarzazate,3746
+2012,5,OZZ,Ouarzazate,3638
+2012,6,OZZ,Ouarzazate,3099
+2012,7,OZZ,Ouarzazate,5425
+2012,8,OZZ,Ouarzazate,6123
+2012,9,OZZ,Ouarzazate,4677
+2012,10,OZZ,Ouarzazate,4154
+2012,11,OZZ,Ouarzazate,3440
+2012,12,OZZ,Ouarzazate,3049
+2012,1,MEK,Meknes,1776
+2012,2,MEK,Meknes,1387
+2012,3,MEK,Meknes,2145
+2012,4,MEK,Meknes,2036
+2012,5,MEK,Meknes,2429
+2012,6,MEK,Meknes,2033
+2012,7,MEK,Meknes,3149
+2012,8,MEK,Meknes,4171
+2012,9,MEK,Meknes,3062
+2012,10,MEK,Meknes,2326
+2012,11,MEK,Meknes,1975
+2012,12,MEK,Meknes,1813
+2013,1,RAK,Marrakech Menara,189283
+2013,2,RAK,Marrakech Menara,150567
+2013,3,RAK,Marrakech Menara,228455
+2013,4,RAK,Marrakech Menara,238555
+2013,5,RAK,Marrakech Menara,249478
+2013,6,RAK,Marrakech Menara,210967
+2013,7,RAK,Marrakech Menara,393563
+2013,8,RAK,Marrakech Menara,466674
+2013,9,RAK,Marrakech Menara,343753
+2013,10,RAK,Marrakech Menara,296587
+2013,11,RAK,Marrakech Menara,246942
+2013,12,RAK,Marrakech Menara,226853
+2013,1,CMN,Casablanca Mohammed V,259184
+2013,2,CMN,Casablanca Mohammed V,203848
+2013,3,CMN,Casablanca Mohammed V,310193
+2013,4,CMN,Casablanca Mohammed V,326687
+2013,5,CMN,Casablanca Mohammed V,310381
+2013,6,CMN,Casablanca Mohammed V,303835
+2013,7,CMN,Casablanca Mohammed V,467827
+2013,8,CMN,Casablanca Mohammed V,655932
+2013,9,CMN,Casablanca Mohammed V,446047
+2013,10,CMN,Casablanca Mohammed V,380584
+2013,11,CMN,Casablanca Mohammed V,313013
+2013,12,CMN,Casablanca Mohammed V,309405
+2013,1,TNG,Tanger Ibn Battouta,124558
+2013,2,TNG,Tanger Ibn Battouta,87806
+2013,3,TNG,Tanger Ibn Battouta,138612
+2013,4,TNG,Tanger Ibn Battouta,157724
+2013,5,TNG,Tanger Ibn Battouta,157335
+2013,6,TNG,Tanger Ibn Battouta,142808
+2013,7,TNG,Tanger Ibn Battouta,236794
+2013,8,TNG,Tanger Ibn Battouta,243346
+2013,9,TNG,Tanger Ibn Battouta,203991
+2013,10,TNG,Tanger Ibn Battouta,169980
+2013,11,TNG,Tanger Ibn Battouta,139719
+2013,12,TNG,Tanger Ibn Battouta,125421
+2013,1,AGA,Agadir Al Massira,72945
+2013,2,AGA,Agadir Al Massira,60171
+2013,3,AGA,Agadir Al Massira,93457
+2013,4,AGA,Agadir Al Massira,106160
+2013,5,AGA,Agadir Al Massira,100931
+2013,6,AGA,Agadir Al Massira,88873
+2013,7,AGA,Agadir Al Massira,143805
+2013,8,AGA,Agadir Al Massira,192334
+2013,9,AGA,Agadir Al Massira,138979
+2013,10,AGA,Agadir Al Massira,108327
+2013,11,AGA,Agadir Al Massira,96664
+2013,12,AGA,Agadir Al Massira,84429
+2013,1,FEZ,Fès Saïss,38956
+2013,2,FEZ,Fès Saïss,36879
+2013,3,FEZ,Fès Saïss,52814
+2013,4,FEZ,Fès Saïss,58013
+2013,5,FEZ,Fès Saïss,60338
+2013,6,FEZ,Fès Saïss,44437
+2013,7,FEZ,Fès Saïss,84022
+2013,8,FEZ,Fès Saïss,102287
+2013,9,FEZ,Fès Saïss,63234
+2013,10,FEZ,Fès Saïss,65622
+2013,11,FEZ,Fès Saïss,46022
+2013,12,FEZ,Fès Saïss,52083
+2013,1,RBA,Rabat-Salé,28182
+2013,2,RBA,Rabat-Salé,21740
+2013,3,RBA,Rabat-Salé,34186
+2013,4,RBA,Rabat-Salé,38519
+2013,5,RBA,Rabat-Salé,33401
+2013,6,RBA,Rabat-Salé,31514
+2013,7,RBA,Rabat-Salé,58571
+2013,8,RBA,Rabat-Salé,59303
+2013,9,RBA,Rabat-Salé,49525
+2013,10,RBA,Rabat-Salé,39627
+2013,11,RBA,Rabat-Salé,29784
+2013,12,RBA,Rabat-Salé,30123
+2013,1,OUD,Oujda Angads,18830
+2013,2,OUD,Oujda Angads,13074
+2013,3,OUD,Oujda Angads,20261
+2013,4,OUD,Oujda Angads,25005
+2013,5,OUD,Oujda Angads,22183
+2013,6,OUD,Oujda Angads,21705
+2013,7,OUD,Oujda Angads,36476
+2013,8,OUD,Oujda Angads,42826
+2013,9,OUD,Oujda Angads,25824
+2013,10,OUD,Oujda Angads,25427
+2013,11,OUD,Oujda Angads,20990
+2013,12,OUD,Oujda Angads,19949
+2013,1,NDR,Nador Ibn Batouta,16224
+2013,2,NDR,Nador Ibn Batouta,12745
+2013,3,NDR,Nador Ibn Batouta,18478
+2013,4,NDR,Nador Ibn Batouta,20946
+2013,5,NDR,Nador Ibn Batouta,19798
+2013,6,NDR,Nador Ibn Batouta,19146
+2013,7,NDR,Nador Ibn Batouta,31189
+2013,8,NDR,Nador Ibn Batouta,37769
+2013,9,NDR,Nador Ibn Batouta,25270
+2013,10,NDR,Nador Ibn Batouta,22351
+2013,11,NDR,Nador Ibn Batouta,19651
+2013,12,NDR,Nador Ibn Batouta,19886
+2013,1,ERH,Errachidia Moulay Ali Cherif,6924
+2013,2,ERH,Errachidia Moulay Ali Cherif,6155
+2013,3,ERH,Errachidia Moulay Ali Cherif,8537
+2013,4,ERH,Errachidia Moulay Ali Cherif,8837
+2013,5,ERH,Errachidia Moulay Ali Cherif,8942
+2013,6,ERH,Errachidia Moulay Ali Cherif,8558
+2013,7,ERH,Errachidia Moulay Ali Cherif,14228
+2013,8,ERH,Errachidia Moulay Ali Cherif,15567
+2013,9,ERH,Errachidia Moulay Ali Cherif,12177
+2013,10,ERH,Errachidia Moulay Ali Cherif,11195
+2013,11,ERH,Errachidia Moulay Ali Cherif,8540
+2013,12,ERH,Errachidia Moulay Ali Cherif,8643
+2013,1,VIL,Dakhla,7232
+2013,2,VIL,Dakhla,5293
+2013,3,VIL,Dakhla,8068
+2013,4,VIL,Dakhla,10170
+2013,5,VIL,Dakhla,9956
+2013,6,VIL,Dakhla,8956
+2013,7,VIL,Dakhla,13963
+2013,8,VIL,Dakhla,15695
+2013,9,VIL,Dakhla,12631
+2013,10,VIL,Dakhla,9724
+2013,11,VIL,Dakhla,8790
+2013,12,VIL,Dakhla,8310
+2013,1,EUN,Laayoune Hassan I,6236
+2013,2,EUN,Laayoune Hassan I,4616
+2013,3,EUN,Laayoune Hassan I,6527
+2013,4,EUN,Laayoune Hassan I,7470
+2013,5,EUN,Laayoune Hassan I,7557
+2013,6,EUN,Laayoune Hassan I,6480
+2013,7,EUN,Laayoune Hassan I,12486
+2013,8,EUN,Laayoune Hassan I,15036
+2013,9,EUN,Laayoune Hassan I,10399
+2013,10,EUN,Laayoune Hassan I,9022
+2013,11,EUN,Laayoune Hassan I,7604
+2013,12,EUN,Laayoune Hassan I,7398
+2013,1,TTU,Tetouan Sania Ramel,4222
+2013,2,TTU,Tetouan Sania Ramel,3246
+2013,3,TTU,Tetouan Sania Ramel,5053
+2013,4,TTU,Tetouan Sania Ramel,5847
+2013,5,TTU,Tetouan Sania Ramel,5655
+2013,6,TTU,Tetouan Sania Ramel,4688
+2013,7,TTU,Tetouan Sania Ramel,8700
+2013,8,TTU,Tetouan Sania Ramel,9097
+2013,9,TTU,Tetouan Sania Ramel,6851
+2013,10,TTU,Tetouan Sania Ramel,6263
+2013,11,TTU,Tetouan Sania Ramel,5026
+2013,12,TTU,Tetouan Sania Ramel,4599
+2013,1,ESU,Essaouira Mogador,3094
+2013,2,ESU,Essaouira Mogador,2948
+2013,3,ESU,Essaouira Mogador,3972
+2013,4,ESU,Essaouira Mogador,4344
+2013,5,ESU,Essaouira Mogador,4205
+2013,6,ESU,Essaouira Mogador,4120
+2013,7,ESU,Essaouira Mogador,7064
+2013,8,ESU,Essaouira Mogador,7387
+2013,9,ESU,Essaouira Mogador,5761
+2013,10,ESU,Essaouira Mogador,4667
+2013,11,ESU,Essaouira Mogador,3871
+2013,12,ESU,Essaouira Mogador,4282
+2013,1,OZZ,Ouarzazate,3053
+2013,2,OZZ,Ouarzazate,2729
+2013,3,OZZ,Ouarzazate,3678
+2013,4,OZZ,Ouarzazate,3737
+2013,5,OZZ,Ouarzazate,3987
+2013,6,OZZ,Ouarzazate,3348
+2013,7,OZZ,Ouarzazate,5664
+2013,8,OZZ,Ouarzazate,7373
+2013,9,OZZ,Ouarzazate,5237
+2013,10,OZZ,Ouarzazate,4836
+2013,11,OZZ,Ouarzazate,3251
+2013,12,OZZ,Ouarzazate,3255
+2013,1,MEK,Meknes,1681
+2013,2,MEK,Meknes,1530
+2013,3,MEK,Meknes,2216
+2013,4,MEK,Meknes,2515
+2013,5,MEK,Meknes,2431
+2013,6,MEK,Meknes,2291
+2013,7,MEK,Meknes,3938
+2013,8,MEK,Meknes,3917
+2013,9,MEK,Meknes,2764
+2013,10,MEK,Meknes,2717
+2013,11,MEK,Meknes,2082
+2013,12,MEK,Meknes,2083
+2014,1,RAK,Marrakech Menara,194309
+2014,2,RAK,Marrakech Menara,190228
+2014,3,RAK,Marrakech Menara,256599
+2014,4,RAK,Marrakech Menara,257443
+2014,5,RAK,Marrakech Menara,290600
+2014,6,RAK,Marrakech Menara,219368
+2014,7,RAK,Marrakech Menara,416146
+2014,8,RAK,Marrakech Menara,445188
+2014,9,RAK,Marrakech Menara,356899
+2014,10,RAK,Marrakech Menara,328637
+2014,11,RAK,Marrakech Menara,253577
+2014,12,RAK,Marrakech Menara,237976
+2014,1,CMN,Casablanca Mohammed V,253468
+2014,2,CMN,Casablanca Mohammed V,194182
+2014,3,CMN,Casablanca Mohammed V,281220
+2014,4,CMN,Casablanca Mohammed V,355764
+2014,5,CMN,Casablanca Mohammed V,362504
+2014,6,CMN,Casablanca Mohammed V,306563
+2014,7,CMN,Casablanca Mohammed V,533812
+2014,8,CMN,Casablanca Mohammed V,537621
+2014,9,CMN,Casablanca Mohammed V,460171
+2014,10,CMN,Casablanca Mohammed V,392192
+2014,11,CMN,Casablanca Mohammed V,294706
+2014,12,CMN,Casablanca Mohammed V,306221
+2014,1,TNG,Tanger Ibn Battouta,113432
+2014,2,TNG,Tanger Ibn Battouta,90049
+2014,3,TNG,Tanger Ibn Battouta,130841
+2014,4,TNG,Tanger Ibn Battouta,159534
+2014,5,TNG,Tanger Ibn Battouta,145721
+2014,6,TNG,Tanger Ibn Battouta,133376
+2014,7,TNG,Tanger Ibn Battouta,229530
+2014,8,TNG,Tanger Ibn Battouta,251596
+2014,9,TNG,Tanger Ibn Battouta,218546
+2014,10,TNG,Tanger Ibn Battouta,166416
+2014,11,TNG,Tanger Ibn Battouta,142805
+2014,12,TNG,Tanger Ibn Battouta,130047
+2014,1,AGA,Agadir Al Massira,73802
+2014,2,AGA,Agadir Al Massira,67381
+2014,3,AGA,Agadir Al Massira,93425
+2014,4,AGA,Agadir Al Massira,108412
+2014,5,AGA,Agadir Al Massira,98490
+2014,6,AGA,Agadir Al Massira,84713
+2014,7,AGA,Agadir Al Massira,176455
+2014,8,AGA,Agadir Al Massira,196863
+2014,9,AGA,Agadir Al Massira,137384
+2014,10,AGA,Agadir Al Massira,113546
+2014,11,AGA,Agadir Al Massira,100627
+2014,12,AGA,Agadir Al Massira,86523
+2014,1,FEZ,Fès Saïss,47797
+2014,2,FEZ,Fès Saïss,36577
+2014,3,FEZ,Fès Saïss,51369
+2014,4,FEZ,Fès Saïss,59434
+2014,5,FEZ,Fès Saïss,59665
+2014,6,FEZ,Fès Saïss,50010
+2014,7,FEZ,Fès Saïss,96004
+2014,8,FEZ,Fès Saïss,99937
+2014,9,FEZ,Fès Saïss,71270
+2014,10,FEZ,Fès Saïss,61823
+2014,11,FEZ,Fès Saïss,47372
+2014,12,FEZ,Fès Saïss,47324
+2014,1,RBA,Rabat-Salé,31557
+2014,2,RBA,Rabat-Salé,22486
+2014,3,RBA,Rabat-Salé,33036
+2014,4,RBA,Rabat-Salé,42016
+2014,5,RBA,Rabat-Salé,40129
+2014,6,RBA,Rabat-Salé,35030
+2014,7,RBA,Rabat-Salé,63297
+2014,8,RBA,Rabat-Salé,68663
+2014,9,RBA,Rabat-Salé,49413
+2014,10,RBA,Rabat-Salé,48135
+2014,11,RBA,Rabat-Salé,37627
+2014,12,RBA,Rabat-Salé,30996
+2014,1,OUD,Oujda Angads,17872
+2014,2,OUD,Oujda Angads,15788
+2014,3,OUD,Oujda Angads,20111
+2014,4,OUD,Oujda Angads,23414
+2014,5,OUD,Oujda Angads,22501
+2014,6,OUD,Oujda Angads,20760
+2014,7,OUD,Oujda Angads,32092
+2014,8,OUD,Oujda Angads,41800
+2014,9,OUD,Oujda Angads,26973
+2014,10,OUD,Oujda Angads,24762
+2014,11,OUD,Oujda Angads,20305
+2014,12,OUD,Oujda Angads,20504
+2014,1,NDR,Nador Ibn Batouta,16213
+2014,2,NDR,Nador Ibn Batouta,12866
+2014,3,NDR,Nador Ibn Batouta,17212
+2014,4,NDR,Nador Ibn Batouta,21740
+2014,5,NDR,Nador Ibn Batouta,20903
+2014,6,NDR,Nador Ibn Batouta,18853
+2014,7,NDR,Nador Ibn Batouta,32347
+2014,8,NDR,Nador Ibn Batouta,36726
+2014,9,NDR,Nador Ibn Batouta,26426
+2014,10,NDR,Nador Ibn Batouta,22750
+2014,11,NDR,Nador Ibn Batouta,20089
+2014,12,NDR,Nador Ibn Batouta,17758
+2014,1,ERH,Errachidia Moulay Ali Cherif,6629
+2014,2,ERH,Errachidia Moulay Ali Cherif,5656
+2014,3,ERH,Errachidia Moulay Ali Cherif,8842
+2014,4,ERH,Errachidia Moulay Ali Cherif,10574
+2014,5,ERH,Errachidia Moulay Ali Cherif,10414
+2014,6,ERH,Errachidia Moulay Ali Cherif,8172
+2014,7,ERH,Errachidia Moulay Ali Cherif,14482
+2014,8,ERH,Errachidia Moulay Ali Cherif,17698
+2014,9,ERH,Errachidia Moulay Ali Cherif,12280
+2014,10,ERH,Errachidia Moulay Ali Cherif,10481
+2014,11,ERH,Errachidia Moulay Ali Cherif,8562
+2014,12,ERH,Errachidia Moulay Ali Cherif,8668
+2014,1,VIL,Dakhla,6847
+2014,2,VIL,Dakhla,6119
+2014,3,VIL,Dakhla,7954
+2014,4,VIL,Dakhla,9983
+2014,5,VIL,Dakhla,9620
+2014,6,VIL,Dakhla,8605
+2014,7,VIL,Dakhla,14320
+2014,8,VIL,Dakhla,17974
+2014,9,VIL,Dakhla,11730
+2014,10,VIL,Dakhla,10334
+2014,11,VIL,Dakhla,7882
+2014,12,VIL,Dakhla,8077
+2014,1,EUN,Laayoune Hassan I,5990
+2014,2,EUN,Laayoune Hassan I,4912
+2014,3,EUN,Laayoune Hassan I,7351
+2014,4,EUN,Laayoune Hassan I,8539
+2014,5,EUN,Laayoune Hassan I,7945
+2014,6,EUN,Laayoune Hassan I,7051
+2014,7,EUN,Laayoune Hassan I,13221
+2014,8,EUN,Laayoune Hassan I,14190
+2014,9,EUN,Laayoune Hassan I,9479
+2014,10,EUN,Laayoune Hassan I,8573
+2014,11,EUN,Laayoune Hassan I,6991
+2014,12,EUN,Laayoune Hassan I,7764
+2014,1,TTU,Tetouan Sania Ramel,3790
+2014,2,TTU,Tetouan Sania Ramel,3326
+2014,3,TTU,Tetouan Sania Ramel,4453
+2014,4,TTU,Tetouan Sania Ramel,6075
+2014,5,TTU,Tetouan Sania Ramel,5029
+2014,6,TTU,Tetouan Sania Ramel,5221
+2014,7,TTU,Tetouan Sania Ramel,8756
+2014,8,TTU,Tetouan Sania Ramel,9287
+2014,9,TTU,Tetouan Sania Ramel,6288
+2014,10,TTU,Tetouan Sania Ramel,6626
+2014,11,TTU,Tetouan Sania Ramel,4743
+2014,12,TTU,Tetouan Sania Ramel,4644
+2014,1,ESU,Essaouira Mogador,3726
+2014,2,ESU,Essaouira Mogador,3056
+2014,3,ESU,Essaouira Mogador,3919
+2014,4,ESU,Essaouira Mogador,4931
+2014,5,ESU,Essaouira Mogador,4639
+2014,6,ESU,Essaouira Mogador,3966
+2014,7,ESU,Essaouira Mogador,6504
+2014,8,ESU,Essaouira Mogador,8551
+2014,9,ESU,Essaouira Mogador,5710
+2014,10,ESU,Essaouira Mogador,5645
+2014,11,ESU,Essaouira Mogador,3782
+2014,12,ESU,Essaouira Mogador,4095
+2014,1,OZZ,Ouarzazate,2665
+2014,2,OZZ,Ouarzazate,2313
+2014,3,OZZ,Ouarzazate,3410
+2014,4,OZZ,Ouarzazate,3413
+2014,5,OZZ,Ouarzazate,3408
+2014,6,OZZ,Ouarzazate,3101
+2014,7,OZZ,Ouarzazate,6166
+2014,8,OZZ,Ouarzazate,6716
+2014,9,OZZ,Ouarzazate,4937
+2014,10,OZZ,Ouarzazate,4621
+2014,11,OZZ,Ouarzazate,3279
+2014,12,OZZ,Ouarzazate,3068
+2014,1,MEK,Meknes,2102
+2014,2,MEK,Meknes,1441
+2014,3,MEK,Meknes,2135
+2014,4,MEK,Meknes,2534
+2014,5,MEK,Meknes,2347
+2014,6,MEK,Meknes,2148
+2014,7,MEK,Meknes,3449
+2014,8,MEK,Meknes,4395
+2014,9,MEK,Meknes,2902
+2014,10,MEK,Meknes,2886
+2014,11,MEK,Meknes,2431
+2014,12,MEK,Meknes,2030
+2015,1,RAK,Marrakech Menara,226929
+2015,2,RAK,Marrakech Menara,173589
+2015,3,RAK,Marrakech Menara,269112
+2015,4,RAK,Marrakech Menara,299060
+2015,5,RAK,Marrakech Menara,297520
+2015,6,RAK,Marrakech Menara,280837
+2015,7,RAK,Marrakech Menara,405139
+2015,8,RAK,Marrakech Menara,494047
+2015,9,RAK,Marrakech Menara,373885
+2015,10,RAK,Marrakech Menara,335506
+2015,11,RAK,Marrakech Menara,256695
+2015,12,RAK,Marrakech Menara,279556
+2015,1,CMN,Casablanca Mohammed V,257843
+2015,2,CMN,Casablanca Mohammed V,215374
+2015,3,CMN,Casablanca Mohammed V,284353
+2015,4,CMN,Casablanca Mohammed V,342629
+2015,5,CMN,Casablanca Mohammed V,338019
+2015,6,CMN,Casablanca Mohammed V,323109
+2015,7,CMN,Casablanca Mohammed V,576836
+2015,8,CMN,Casablanca Mohammed V,563357
+2015,9,CMN,Casablanca Mohammed V,474648
+2015,10,CMN,Casablanca Mohammed V,359234
+2015,11,CMN,Casablanca Mohammed V,327295
+2015,12,CMN,Casablanca Mohammed V,336555
+2015,1,TNG,Tanger Ibn Battouta,120673
+2015,2,TNG,Tanger Ibn Battouta,110198
+2015,3,TNG,Tanger Ibn Battouta,146828
+2015,4,TNG,Tanger Ibn Battouta,165270
+2015,5,TNG,Tanger Ibn Battouta,162071
+2015,6,TNG,Tanger Ibn Battouta,165356
+2015,7,TNG,Tanger Ibn Battouta,268003
+2015,8,TNG,Tanger Ibn Battouta,312904
+2015,9,TNG,Tanger Ibn Battouta,230711
+2015,10,TNG,Tanger Ibn Battouta,189930
+2015,11,TNG,Tanger Ibn Battouta,163240
+2015,12,TNG,Tanger Ibn Battouta,143755
+2015,1,AGA,Agadir Al Massira,95261
+2015,2,AGA,Agadir Al Massira,70017
+2015,3,AGA,Agadir Al Massira,102392
+2015,4,AGA,Agadir Al Massira,123047
+2015,5,AGA,Agadir Al Massira,116188
+2015,6,AGA,Agadir Al Massira,106633
+2015,7,AGA,Agadir Al Massira,164822
+2015,8,AGA,Agadir Al Massira,201365
+2015,9,AGA,Agadir Al Massira,153800
+2015,10,AGA,Agadir Al Massira,126181
+2015,11,AGA,Agadir Al Massira,110631
+2015,12,AGA,Agadir Al Massira,99716
+2015,1,FEZ,Fès Saïss,50171
+2015,2,FEZ,Fès Saïss,37214
+2015,3,FEZ,Fès Saïss,58721
+2015,4,FEZ,Fès Saïss,63207
+2015,5,FEZ,Fès Saïss,66082
+2015,6,FEZ,Fès Saïss,51235
+2015,7,FEZ,Fès Saïss,94115
+2015,8,FEZ,Fès Saïss,115622
+2015,9,FEZ,Fès Saïss,76524
+2015,10,FEZ,Fès Saïss,73853
+2015,11,FEZ,Fès Saïss,51242
+2015,12,FEZ,Fès Saïss,58166
+2015,1,RBA,Rabat-Salé,36850
+2015,2,RBA,Rabat-Salé,30512
+2015,3,RBA,Rabat-Salé,37810
+2015,4,RBA,Rabat-Salé,41949
+2015,5,RBA,Rabat-Salé,47181
+2015,6,RBA,Rabat-Salé,40699
+2015,7,RBA,Rabat-Salé,62380
+2015,8,RBA,Rabat-Salé,81705
+2015,9,RBA,Rabat-Salé,56310
+2015,10,RBA,Rabat-Salé,54990
+2015,11,RBA,Rabat-Salé,43576
+2015,12,RBA,Rabat-Salé,43169
+2015,1,OUD,Oujda Angads,19473
+2015,2,OUD,Oujda Angads,15736
+2015,3,OUD,Oujda Angads,22365
+2015,4,OUD,Oujda Angads,25202
+2015,5,OUD,Oujda Angads,28343
+2015,6,OUD,Oujda Angads,23268
+2015,7,OUD,Oujda Angads,35738
+2015,8,OUD,Oujda Angads,44387
+2015,9,OUD,Oujda Angads,31040
+2015,10,OUD,Oujda Angads,27347
+2015,11,OUD,Oujda Angads,20513
+2015,12,OUD,Oujda Angads,21635
+2015,1,NDR,Nador Ibn Batouta,18426
+2015,2,NDR,Nador Ibn Batouta,13550
+2015,3,NDR,Nador Ibn Batouta,20226
+2015,4,NDR,Nador Ibn Batouta,24718
+2015,5,NDR,Nador Ibn Batouta,23514
+2015,6,NDR,Nador Ibn Batouta,20113
+2015,7,NDR,Nador Ibn Batouta,37645
+2015,8,NDR,Nador Ibn Batouta,42785
+2015,9,NDR,Nador Ibn Batouta,29236
+2015,10,NDR,Nador Ibn Batouta,27928
+2015,11,NDR,Nador Ibn Batouta,20211
+2015,12,NDR,Nador Ibn Batouta,21450
+2015,1,ERH,Errachidia Moulay Ali Cherif,9390
+2015,2,ERH,Errachidia Moulay Ali Cherif,6620
+2015,3,ERH,Errachidia Moulay Ali Cherif,10780
+2015,4,ERH,Errachidia Moulay Ali Cherif,11395
+2015,5,ERH,Errachidia Moulay Ali Cherif,12670
+2015,6,ERH,Errachidia Moulay Ali Cherif,9581
+2015,7,ERH,Errachidia Moulay Ali Cherif,18325
+2015,8,ERH,Errachidia Moulay Ali Cherif,21885
+2015,9,ERH,Errachidia Moulay Ali Cherif,15834
+2015,10,ERH,Errachidia Moulay Ali Cherif,13901
+2015,11,ERH,Errachidia Moulay Ali Cherif,10879
+2015,12,ERH,Errachidia Moulay Ali Cherif,10172
+2015,1,VIL,Dakhla,6667
+2015,2,VIL,Dakhla,6180
+2015,3,VIL,Dakhla,8633
+2015,4,VIL,Dakhla,10701
+2015,5,VIL,Dakhla,10435
+2015,6,VIL,Dakhla,8079
+2015,7,VIL,Dakhla,13840
+2015,8,VIL,Dakhla,17684
+2015,9,VIL,Dakhla,13212
+2015,10,VIL,Dakhla,11428
+2015,11,VIL,Dakhla,8376
+2015,12,VIL,Dakhla,8357
+2015,1,EUN,Laayoune Hassan I,7569
+2015,2,EUN,Laayoune Hassan I,6398
+2015,3,EUN,Laayoune Hassan I,7789
+2015,4,EUN,Laayoune Hassan I,9505
+2015,5,EUN,Laayoune Hassan I,10334
+2015,6,EUN,Laayoune Hassan I,9163
+2015,7,EUN,Laayoune Hassan I,13348
+2015,8,EUN,Laayoune Hassan I,17084
+2015,9,EUN,Laayoune Hassan I,12720
+2015,10,EUN,Laayoune Hassan I,11678
+2015,11,EUN,Laayoune Hassan I,8362
+2015,12,EUN,Laayoune Hassan I,8687
+2015,1,TTU,Tetouan Sania Ramel,4784
+2015,2,TTU,Tetouan Sania Ramel,3740
+2015,3,TTU,Tetouan Sania Ramel,5067
+2015,4,TTU,Tetouan Sania Ramel,6248
+2015,5,TTU,Tetouan Sania Ramel,6163
+2015,6,TTU,Tetouan Sania Ramel,5422
+2015,7,TTU,Tetouan Sania Ramel,8830
+2015,8,TTU,Tetouan Sania Ramel,10681
+2015,9,TTU,Tetouan Sania Ramel,7035
+2015,10,TTU,Tetouan Sania Ramel,7261
+2015,11,TTU,Tetouan Sania Ramel,4967
+2015,12,TTU,Tetouan Sania Ramel,5484
+2015,1,ESU,Essaouira Mogador,4135
+2015,2,ESU,Essaouira Mogador,3538
+2015,3,ESU,Essaouira Mogador,4963
+2015,4,ESU,Essaouira Mogador,5961
+2015,5,ESU,Essaouira Mogador,5637
+2015,6,ESU,Essaouira Mogador,5361
+2015,7,ESU,Essaouira Mogador,9420
+2015,8,ESU,Essaouira Mogador,10328
+2015,9,ESU,Essaouira Mogador,7054
+2015,10,ESU,Essaouira Mogador,6235
+2015,11,ESU,Essaouira Mogador,4617
+2015,12,ESU,Essaouira Mogador,5001
+2015,1,OZZ,Ouarzazate,3487
+2015,2,OZZ,Ouarzazate,2724
+2015,3,OZZ,Ouarzazate,3668
+2015,4,OZZ,Ouarzazate,3859
+2015,5,OZZ,Ouarzazate,4117
+2015,6,OZZ,Ouarzazate,4010
+2015,7,OZZ,Ouarzazate,6920
+2015,8,OZZ,Ouarzazate,8053
+2015,9,OZZ,Ouarzazate,5432
+2015,10,OZZ,Ouarzazate,4907
+2015,11,OZZ,Ouarzazate,3444
+2015,12,OZZ,Ouarzazate,3641
+2015,1,MEK,Meknes,2066
+2015,2,MEK,Meknes,1704
+2015,3,MEK,Meknes,2336
+2015,4,MEK,Meknes,2865
+2015,5,MEK,Meknes,2710
+2015,6,MEK,Meknes,2222
+2015,7,MEK,Meknes,4112
+2015,8,MEK,Meknes,4691
+2015,9,MEK,Meknes,3768
+2015,10,MEK,Meknes,2865
+2015,11,MEK,Meknes,2475
+2015,12,MEK,Meknes,2343
+2016,1,RAK,Marrakech Menara,253568
+2016,2,RAK,Marrakech Menara,211968
+2016,3,RAK,Marrakech Menara,279053
+2016,4,RAK,Marrakech Menara,313822
+2016,5,RAK,Marrakech Menara,304656
+2016,6,RAK,Marrakech Menara,275302
+2016,7,RAK,Marrakech Menara,447965
+2016,8,RAK,Marrakech Menara,508846
+2016,9,RAK,Marrakech Menara,399474
+2016,10,RAK,Marrakech Menara,393684
+2016,11,RAK,Marrakech Menara,298544
+2016,12,RAK,Marrakech Menara,272913
+2016,1,CMN,Casablanca Mohammed V,293571
+2016,2,CMN,Casablanca Mohammed V,227070
+2016,3,CMN,Casablanca Mohammed V,305190
+2016,4,CMN,Casablanca Mohammed V,351009
+2016,5,CMN,Casablanca Mohammed V,352017
+2016,6,CMN,Casablanca Mohammed V,331616
+2016,7,CMN,Casablanca Mohammed V,574624
+2016,8,CMN,Casablanca Mohammed V,659079
+2016,9,CMN,Casablanca Mohammed V,456225
+2016,10,CMN,Casablanca Mohammed V,422783
+2016,11,CMN,Casablanca Mohammed V,353416
+2016,12,CMN,Casablanca Mohammed V,300885
+2016,1,TNG,Tanger Ibn Battouta,137910
+2016,2,TNG,Tanger Ibn Battouta,129521
+2016,3,TNG,Tanger Ibn Battouta,153356
+2016,4,TNG,Tanger Ibn Battouta,191136
+2016,5,TNG,Tanger Ibn Battouta,196680
+2016,6,TNG,Tanger Ibn Battouta,181081
+2016,7,TNG,Tanger Ibn Battouta,312774
+2016,8,TNG,Tanger Ibn Battouta,310682
+2016,9,TNG,Tanger Ibn Battouta,252436
+2016,10,TNG,Tanger Ibn Battouta,228681
+2016,11,TNG,Tanger Ibn Battouta,152142
+2016,12,TNG,Tanger Ibn Battouta,174382
+2016,1,AGA,Agadir Al Massira,90646
+2016,2,AGA,Agadir Al Massira,72769
+2016,3,AGA,Agadir Al Massira,103269
+2016,4,AGA,Agadir Al Massira,115281
+2016,5,AGA,Agadir Al Massira,104228
+2016,6,AGA,Agadir Al Massira,95169
+2016,7,AGA,Agadir Al Massira,159714
+2016,8,AGA,Agadir Al Massira,206035
+2016,9,AGA,Agadir Al Massira,131491
+2016,10,AGA,Agadir Al Massira,141025
+2016,11,AGA,Agadir Al Massira,97571
+2016,12,AGA,Agadir Al Massira,108311
+2016,1,FEZ,Fès Saïss,49988
+2016,2,FEZ,Fès Saïss,41934
+2016,3,FEZ,Fès Saïss,51916
+2016,4,FEZ,Fès Saïss,59201
+2016,5,FEZ,Fès Saïss,61257
+2016,6,FEZ,Fès Saïss,51791
+2016,7,FEZ,Fès Saïss,87200
+2016,8,FEZ,Fès Saïss,109080
+2016,9,FEZ,Fès Saïss,77047
+2016,10,FEZ,Fès Saïss,70400
+2016,11,FEZ,Fès Saïss,50173
+2016,12,FEZ,Fès Saïss,52604
+2016,1,RBA,Rabat-Salé,32363
+2016,2,RBA,Rabat-Salé,25938
+2016,3,RBA,Rabat-Salé,35620
+2016,4,RBA,Rabat-Salé,39750
+2016,5,RBA,Rabat-Salé,42249
+2016,6,RBA,Rabat-Salé,36952
+2016,7,RBA,Rabat-Salé,62141
+2016,8,RBA,Rabat-Salé,76314
+2016,9,RBA,Rabat-Salé,56309
+2016,10,RBA,Rabat-Salé,42301
+2016,11,RBA,Rabat-Salé,34082
+2016,12,RBA,Rabat-Salé,32738
+2016,1,OUD,Oujda Angads,18829
+2016,2,OUD,Oujda Angads,14995
+2016,3,OUD,Oujda Angads,24452
+2016,4,OUD,Oujda Angads,23947
+2016,5,OUD,Oujda Angads,26723
+2016,6,OUD,Oujda Angads,22710
+2016,7,OUD,Oujda Angads,40024
+2016,8,OUD,Oujda Angads,46235
+2016,9,OUD,Oujda Angads,30528
+2016,10,OUD,Oujda Angads,30948
+2016,11,OUD,Oujda Angads,22270
+2016,12,OUD,Oujda Angads,23396
+2016,1,NDR,Nador Ibn Batouta,17551
+2016,2,NDR,Nador Ibn Batouta,15240
+2016,3,NDR,Nador Ibn Batouta,20163
+2016,4,NDR,Nador Ibn Batouta,25319
+2016,5,NDR,Nador Ibn Batouta,22916
+2016,6,NDR,Nador Ibn Batouta,24391
+2016,7,NDR,Nador Ibn Batouta,39262
+2016,8,NDR,Nador Ibn Batouta,41056
+2016,9,NDR,Nador Ibn Batouta,32759
+2016,10,NDR,Nador Ibn Batouta,27366
+2016,11,NDR,Nador Ibn Batouta,22900
+2016,12,NDR,Nador Ibn Batouta,23450
+2016,1,ERH,Errachidia Moulay Ali Cherif,9918
+2016,2,ERH,Errachidia Moulay Ali Cherif,8514
+2016,3,ERH,Errachidia Moulay Ali Cherif,11873
+2016,4,ERH,Errachidia Moulay Ali Cherif,12487
+2016,5,ERH,Errachidia Moulay Ali Cherif,11364
+2016,6,ERH,Errachidia Moulay Ali Cherif,10579
+2016,7,ERH,Errachidia Moulay Ali Cherif,18126
+2016,8,ERH,Errachidia Moulay Ali Cherif,23017
+2016,9,ERH,Errachidia Moulay Ali Cherif,16916
+2016,10,ERH,Errachidia Moulay Ali Cherif,14122
+2016,11,ERH,Errachidia Moulay Ali Cherif,11012
+2016,12,ERH,Errachidia Moulay Ali Cherif,11886
+2016,1,VIL,Dakhla,8386
+2016,2,VIL,Dakhla,6185
+2016,3,VIL,Dakhla,9595
+2016,4,VIL,Dakhla,9659
+2016,5,VIL,Dakhla,10006
+2016,6,VIL,Dakhla,8456
+2016,7,VIL,Dakhla,16166
+2016,8,VIL,Dakhla,18803
+2016,9,VIL,Dakhla,11721
+2016,10,VIL,Dakhla,11073
+2016,11,VIL,Dakhla,8214
+2016,12,VIL,Dakhla,9025
+2016,1,EUN,Laayoune Hassan I,7151
+2016,2,EUN,Laayoune Hassan I,6194
+2016,3,EUN,Laayoune Hassan I,8294
+2016,4,EUN,Laayoune Hassan I,9868
+2016,5,EUN,Laayoune Hassan I,9597
+2016,6,EUN,Laayoune Hassan I,7919
+2016,7,EUN,Laayoune Hassan I,13456
+2016,8,EUN,Laayoune Hassan I,16360
+2016,9,EUN,Laayoune Hassan I,10439
+2016,10,EUN,Laayoune Hassan I,9669
+2016,11,EUN,Laayoune Hassan I,8280
+2016,12,EUN,Laayoune Hassan I,8246
+2016,1,TTU,Tetouan Sania Ramel,4961
+2016,2,TTU,Tetouan Sania Ramel,4291
+2016,3,TTU,Tetouan Sania Ramel,6194
+2016,4,TTU,Tetouan Sania Ramel,7150
+2016,5,TTU,Tetouan Sania Ramel,7113
+2016,6,TTU,Tetouan Sania Ramel,5638
+2016,7,TTU,Tetouan Sania Ramel,10286
+2016,8,TTU,Tetouan Sania Ramel,13238
+2016,9,TTU,Tetouan Sania Ramel,7839
+2016,10,TTU,Tetouan Sania Ramel,8277
+2016,11,TTU,Tetouan Sania Ramel,5652
+2016,12,TTU,Tetouan Sania Ramel,6644
+2016,1,ESU,Essaouira Mogador,4425
+2016,2,ESU,Essaouira Mogador,3339
+2016,3,ESU,Essaouira Mogador,4332
+2016,4,ESU,Essaouira Mogador,5499
+2016,5,ESU,Essaouira Mogador,5971
+2016,6,ESU,Essaouira Mogador,4514
+2016,7,ESU,Essaouira Mogador,8441
+2016,8,ESU,Essaouira Mogador,8652
+2016,9,ESU,Essaouira Mogador,6934
+2016,10,ESU,Essaouira Mogador,5999
+2016,11,ESU,Essaouira Mogador,4656
+2016,12,ESU,Essaouira Mogador,4802
+2016,1,OZZ,Ouarzazate,3012
+2016,2,OZZ,Ouarzazate,2667
+2016,3,OZZ,Ouarzazate,3587
+2016,4,OZZ,Ouarzazate,3996
+2016,5,OZZ,Ouarzazate,4504
+2016,6,OZZ,Ouarzazate,3463
+2016,7,OZZ,Ouarzazate,6365
+2016,8,OZZ,Ouarzazate,6776
+2016,9,OZZ,Ouarzazate,5554
+2016,10,OZZ,Ouarzazate,5230
+2016,11,OZZ,Ouarzazate,3615
+2016,12,OZZ,Ouarzazate,3716
+2016,1,MEK,Meknes,2413
+2016,2,MEK,Meknes,2089
+2016,3,MEK,Meknes,2463
+2016,4,MEK,Meknes,2869
+2016,5,MEK,Meknes,2814
+2016,6,MEK,Meknes,2423
+2016,7,MEK,Meknes,4785
+2016,8,MEK,Meknes,5117
+2016,9,MEK,Meknes,4032
+2016,10,MEK,Meknes,3511
+2016,11,MEK,Meknes,2781
+2016,12,MEK,Meknes,2646
+2017,1,RAK,Marrakech Menara,252320
+2017,2,RAK,Marrakech Menara,208186
+2017,3,RAK,Marrakech Menara,297324
+2017,4,RAK,Marrakech Menara,320499
+2017,5,RAK,Marrakech Menara,349793
+2017,6,RAK,Marrakech Menara,273598
+2017,7,RAK,Marrakech Menara,463855
+2017,8,RAK,Marrakech Menara,546126
+2017,9,RAK,Marrakech Menara,411001
+2017,10,RAK,Marrakech Menara,349160
+2017,11,RAK,Marrakech Menara,310197
+2017,12,RAK,Marrakech Menara,271357
+2017,1,CMN,Casablanca Mohammed V,349264
+2017,2,CMN,Casablanca Mohammed V,247190
+2017,3,CMN,Casablanca Mohammed V,378472
+2017,4,CMN,Casablanca Mohammed V,419877
+2017,5,CMN,Casablanca Mohammed V,466391
+2017,6,CMN,Casablanca Mohammed V,391472
+2017,7,CMN,Casablanca Mohammed V,600434
+2017,8,CMN,Casablanca Mohammed V,708165
+2017,9,CMN,Casablanca Mohammed V,534746
+2017,10,CMN,Casablanca Mohammed V,481627
+2017,11,CMN,Casablanca Mohammed V,410185
+2017,12,CMN,Casablanca Mohammed V,399144
+2017,1,TNG,Tanger Ibn Battouta,141091
+2017,2,TNG,Tanger Ibn Battouta,120425
+2017,3,TNG,Tanger Ibn Battouta,167696
+2017,4,TNG,Tanger Ibn Battouta,181321
+2017,5,TNG,Tanger Ibn Battouta,179088
+2017,6,TNG,Tanger Ibn Battouta,153656
+2017,7,TNG,Tanger Ibn Battouta,301089
+2017,8,TNG,Tanger Ibn Battouta,335461
+2017,9,TNG,Tanger Ibn Battouta,236801
+2017,10,TNG,Tanger Ibn Battouta,196427
+2017,11,TNG,Tanger Ibn Battouta,151514
+2017,12,TNG,Tanger Ibn Battouta,175393
+2017,1,AGA,Agadir Al Massira,86574
+2017,2,AGA,Agadir Al Massira,72668
+2017,3,AGA,Agadir Al Massira,108355
+2017,4,AGA,Agadir Al Massira,126749
+2017,5,AGA,Agadir Al Massira,116113
+2017,6,AGA,Agadir Al Massira,105996
+2017,7,AGA,Agadir Al Massira,176692
+2017,8,AGA,Agadir Al Massira,230148
+2017,9,AGA,Agadir Al Massira,159517
+2017,10,AGA,Agadir Al Massira,141244
+2017,11,AGA,Agadir Al Massira,106465
+2017,12,AGA,Agadir Al Massira,107954
+2017,1,FEZ,Fès Saïss,56556
+2017,2,FEZ,Fès Saïss,44658
+2017,3,FEZ,Fès Saïss,64909
+2017,4,FEZ,Fès Saïss,68271
+2017,5,FEZ,Fès Saïss,63357
+2017,6,FEZ,Fès Saïss,63608
+2017,7,FEZ,Fès Saïss,104934
+2017,8,FEZ,Fès Saïss,114222
+2017,9,FEZ,Fès Saïss,81352
+2017,10,FEZ,Fès Saïss,84413
+2017,11,FEZ,Fès Saïss,65306
+2017,12,FEZ,Fès Saïss,65513
+2017,1,RBA,Rabat-Salé,37348
+2017,2,RBA,Rabat-Salé,29825
+2017,3,RBA,Rabat-Salé,43448
+2017,4,RBA,Rabat-Salé,46357
+2017,5,RBA,Rabat-Salé,45292
+2017,6,RBA,Rabat-Salé,43595
+2017,7,RBA,Rabat-Salé,66330
+2017,8,RBA,Rabat-Salé,79997
+2017,9,RBA,Rabat-Salé,61682
+2017,10,RBA,Rabat-Salé,56917
+2017,11,RBA,Rabat-Salé,46863
+2017,12,RBA,Rabat-Salé,42267
+2017,1,OUD,Oujda Angads,22463
+2017,2,OUD,Oujda Angads,17939
+2017,3,OUD,Oujda Angads,26742
+2017,4,OUD,Oujda Angads,32939
+2017,5,OUD,Oujda Angads,30621
+2017,6,OUD,Oujda Angads,26522
+2017,7,OUD,Oujda Angads,46052
+2017,8,OUD,Oujda Angads,54194
+2017,9,OUD,Oujda Angads,38094
+2017,10,OUD,Oujda Angads,37935
+2017,11,OUD,Oujda Angads,26767
+2017,12,OUD,Oujda Angads,29080
+2017,1,NDR,Nador Ibn Batouta,19773
+2017,2,NDR,Nador Ibn Batouta,16095
+2017,3,NDR,Nador Ibn Batouta,25608
+2017,4,NDR,Nador Ibn Batouta,29870
+2017,5,NDR,Nador Ibn Batouta,29694
+2017,6,NDR,Nador Ibn Batouta,25160
+2017,7,NDR,Nador Ibn Batouta,43365
+2017,8,NDR,Nador Ibn Batouta,52973
+2017,9,NDR,Nador Ibn Batouta,33131
+2017,10,NDR,Nador Ibn Batouta,32231
+2017,11,NDR,Nador Ibn Batouta,23221
+2017,12,NDR,Nador Ibn Batouta,22931
+2017,1,ERH,Errachidia Moulay Ali Cherif,9628
+2017,2,ERH,Errachidia Moulay Ali Cherif,7460
+2017,3,ERH,Errachidia Moulay Ali Cherif,9969
+2017,4,ERH,Errachidia Moulay Ali Cherif,13442
+2017,5,ERH,Errachidia Moulay Ali Cherif,13133
+2017,6,ERH,Errachidia Moulay Ali Cherif,10137
+2017,7,ERH,Errachidia Moulay Ali Cherif,18310
+2017,8,ERH,Errachidia Moulay Ali Cherif,21778
+2017,9,ERH,Errachidia Moulay Ali Cherif,14659
+2017,10,ERH,Errachidia Moulay Ali Cherif,14980
+2017,11,ERH,Errachidia Moulay Ali Cherif,9953
+2017,12,ERH,Errachidia Moulay Ali Cherif,9817
+2017,1,VIL,Dakhla,8870
+2017,2,VIL,Dakhla,7652
+2017,3,VIL,Dakhla,9015
+2017,4,VIL,Dakhla,11524
+2017,5,VIL,Dakhla,10924
+2017,6,VIL,Dakhla,10518
+2017,7,VIL,Dakhla,15209
+2017,8,VIL,Dakhla,21505
+2017,9,VIL,Dakhla,15355
+2017,10,VIL,Dakhla,13681
+2017,11,VIL,Dakhla,9259
+2017,12,VIL,Dakhla,9768
+2017,1,EUN,Laayoune Hassan I,8558
+2017,2,EUN,Laayoune Hassan I,6503
+2017,3,EUN,Laayoune Hassan I,8413
+2017,4,EUN,Laayoune Hassan I,11113
+2017,5,EUN,Laayoune Hassan I,11349
+2017,6,EUN,Laayoune Hassan I,8530
+2017,7,EUN,Laayoune Hassan I,14097
+2017,8,EUN,Laayoune Hassan I,17581
+2017,9,EUN,Laayoune Hassan I,12168
+2017,10,EUN,Laayoune Hassan I,11860
+2017,11,EUN,Laayoune Hassan I,8276
+2017,12,EUN,Laayoune Hassan I,9825
+2017,1,TTU,Tetouan Sania Ramel,4867
+2017,2,TTU,Tetouan Sania Ramel,4410
+2017,3,TTU,Tetouan Sania Ramel,6305
+2017,4,TTU,Tetouan Sania Ramel,7541
+2017,5,TTU,Tetouan Sania Ramel,7468
+2017,6,TTU,Tetouan Sania Ramel,5879
+2017,7,TTU,Tetouan Sania Ramel,10701
+2017,8,TTU,Tetouan Sania Ramel,12546
+2017,9,TTU,Tetouan Sania Ramel,9711
+2017,10,TTU,Tetouan Sania Ramel,7953
+2017,11,TTU,Tetouan Sania Ramel,6135
+2017,12,TTU,Tetouan Sania Ramel,6318
+2017,1,ESU,Essaouira Mogador,4237
+2017,2,ESU,Essaouira Mogador,3744
+2017,3,ESU,Essaouira Mogador,5512
+2017,4,ESU,Essaouira Mogador,5726
+2017,5,ESU,Essaouira Mogador,5970
+2017,6,ESU,Essaouira Mogador,4546
+2017,7,ESU,Essaouira Mogador,8558
+2017,8,ESU,Essaouira Mogador,10170
+2017,9,ESU,Essaouira Mogador,7202
+2017,10,ESU,Essaouira Mogador,6526
+2017,11,ESU,Essaouira Mogador,5164
+2017,12,ESU,Essaouira Mogador,4699
+2017,1,OZZ,Ouarzazate,3199
+2017,2,OZZ,Ouarzazate,2901
+2017,3,OZZ,Ouarzazate,3858
+2017,4,OZZ,Ouarzazate,4821
+2017,5,OZZ,Ouarzazate,5088
+2017,6,OZZ,Ouarzazate,4138
+2017,7,OZZ,Ouarzazate,6513
+2017,8,OZZ,Ouarzazate,8158
+2017,9,OZZ,Ouarzazate,5628
+2017,10,OZZ,Ouarzazate,5806
+2017,11,OZZ,Ouarzazate,4388
+2017,12,OZZ,Ouarzazate,3986
+2017,1,MEK,Meknes,2326
+2017,2,MEK,Meknes,2052
+2017,3,MEK,Meknes,2408
+2017,4,MEK,Meknes,2875
+2017,5,MEK,Meknes,2871
+2017,6,MEK,Meknes,2533
+2017,7,MEK,Meknes,4435
+2017,8,MEK,Meknes,5206
+2017,9,MEK,Meknes,3404
+2017,10,MEK,Meknes,3355
+2017,11,MEK,Meknes,2815
+2017,12,MEK,Meknes,2592
+2018,1,RAK,Marrakech Menara,272521
+2018,2,RAK,Marrakech Menara,232280
+2018,3,RAK,Marrakech Menara,282783
+2018,4,RAK,Marrakech Menara,355068
+2018,5,RAK,Marrakech Menara,380149
+2018,6,RAK,Marrakech Menara,319606
+2018,7,RAK,Marrakech Menara,565613
+2018,8,RAK,Marrakech Menara,661107
+2018,9,RAK,Marrakech Menara,419087
+2018,10,RAK,Marrakech Menara,385481
+2018,11,RAK,Marrakech Menara,309758
+2018,12,RAK,Marrakech Menara,302105
+2018,1,CMN,Casablanca Mohammed V,323683
+2018,2,CMN,Casablanca Mohammed V,237653
+2018,3,CMN,Casablanca Mohammed V,360764
+2018,4,CMN,Casablanca Mohammed V,379462
+2018,5,CMN,Casablanca Mohammed V,374136
+2018,6,CMN,Casablanca Mohammed V,360230
+2018,7,CMN,Casablanca Mohammed V,659095
+2018,8,CMN,Casablanca Mohammed V,683891
+2018,9,CMN,Casablanca Mohammed V,548762
+2018,10,CMN,Casablanca Mohammed V,490654
+2018,11,CMN,Casablanca Mohammed V,365832
+2018,12,CMN,Casablanca Mohammed V,348483
+2018,1,TNG,Tanger Ibn Battouta,144198
+2018,2,TNG,Tanger Ibn Battouta,122805
+2018,3,TNG,Tanger Ibn Battouta,155228
+2018,4,TNG,Tanger Ibn Battouta,183035
+2018,5,TNG,Tanger Ibn Battouta,193808
+2018,6,TNG,Tanger Ibn Battouta,147556
+2018,7,TNG,Tanger Ibn Battouta,269002
+2018,8,TNG,Tanger Ibn Battouta,301764
+2018,9,TNG,Tanger Ibn Battouta,245728
+2018,10,TNG,Tanger Ibn Battouta,189349
+2018,11,TNG,Tanger Ibn Battouta,168845
+2018,12,TNG,Tanger Ibn Battouta,159608
+2018,1,AGA,Agadir Al Massira,84004
+2018,2,AGA,Agadir Al Massira,74256
+2018,3,AGA,Agadir Al Massira,102683
+2018,4,AGA,Agadir Al Massira,115806
+2018,5,AGA,Agadir Al Massira,122551
+2018,6,AGA,Agadir Al Massira,95532
+2018,7,AGA,Agadir Al Massira,180767
+2018,8,AGA,Agadir Al Massira,197100
+2018,9,AGA,Agadir Al Massira,140994
+2018,10,AGA,Agadir Al Massira,132942
+2018,11,AGA,Agadir Al Massira,100507
+2018,12,AGA,Agadir Al Massira,97308
+2018,1,FEZ,Fès Saïss,48247
+2018,2,FEZ,Fès Saïss,42363
+2018,3,FEZ,Fès Saïss,57513
+2018,4,FEZ,Fès Saïss,65752
+2018,5,FEZ,Fès Saïss,77983
+2018,6,FEZ,Fès Saïss,68356
+2018,7,FEZ,Fès Saïss,97352
+2018,8,FEZ,Fès Saïss,112666
+2018,9,FEZ,Fès Saïss,93127
+2018,10,FEZ,Fès Saïss,85977
+2018,11,FEZ,Fès Saïss,58512
+2018,12,FEZ,Fès Saïss,61253
+2018,1,RBA,Rabat-Salé,39498
+2018,2,RBA,Rabat-Salé,31875
+2018,3,RBA,Rabat-Salé,46697
+2018,4,RBA,Rabat-Salé,49103
+2018,5,RBA,Rabat-Salé,51508
+2018,6,RBA,Rabat-Salé,44081
+2018,7,RBA,Rabat-Salé,84449
+2018,8,RBA,Rabat-Salé,97663
+2018,9,RBA,Rabat-Salé,68982
+2018,10,RBA,Rabat-Salé,58998
+2018,11,RBA,Rabat-Salé,47141
+2018,12,RBA,Rabat-Salé,46007
+2018,1,OUD,Oujda Angads,23853
+2018,2,OUD,Oujda Angads,18430
+2018,3,OUD,Oujda Angads,24619
+2018,4,OUD,Oujda Angads,27751
+2018,5,OUD,Oujda Angads,29583
+2018,6,OUD,Oujda Angads,28175
+2018,7,OUD,Oujda Angads,45538
+2018,8,OUD,Oujda Angads,54751
+2018,9,OUD,Oujda Angads,40211
+2018,10,OUD,Oujda Angads,35532
+2018,11,OUD,Oujda Angads,28109
+2018,12,OUD,Oujda Angads,24420
+2018,1,NDR,Nador Ibn Batouta,22788
+2018,2,NDR,Nador Ibn Batouta,16720
+2018,3,NDR,Nador Ibn Batouta,23657
+2018,4,NDR,Nador Ibn Batouta,30397
+2018,5,NDR,Nador Ibn Batouta,29850
+2018,6,NDR,Nador Ibn Batouta,22846
+2018,7,NDR,Nador Ibn Batouta,39644
+2018,8,NDR,Nador Ibn Batouta,45960
+2018,9,NDR,Nador Ibn Batouta,35374
+2018,10,NDR,Nador Ibn Batouta,31046
+2018,11,NDR,Nador Ibn Batouta,23056
+2018,12,NDR,Nador Ibn Batouta,23597
+2018,1,ERH,Errachidia Moulay Ali Cherif,9526
+2018,2,ERH,Errachidia Moulay Ali Cherif,7675
+2018,3,ERH,Errachidia Moulay Ali Cherif,10962
+2018,4,ERH,Errachidia Moulay Ali Cherif,11156
+2018,5,ERH,Errachidia Moulay Ali Cherif,12713
+2018,6,ERH,Errachidia Moulay Ali Cherif,10564
+2018,7,ERH,Errachidia Moulay Ali Cherif,16705
+2018,8,ERH,Errachidia Moulay Ali Cherif,22914
+2018,9,ERH,Errachidia Moulay Ali Cherif,15003
+2018,10,ERH,Errachidia Moulay Ali Cherif,13017
+2018,11,ERH,Errachidia Moulay Ali Cherif,10412
+2018,12,ERH,Errachidia Moulay Ali Cherif,10101
+2018,1,VIL,Dakhla,8806
+2018,2,VIL,Dakhla,6768
+2018,3,VIL,Dakhla,9509
+2018,4,VIL,Dakhla,10815
+2018,5,VIL,Dakhla,11359
+2018,6,VIL,Dakhla,8920
+2018,7,VIL,Dakhla,17892
+2018,8,VIL,Dakhla,18596
+2018,9,VIL,Dakhla,14094
+2018,10,VIL,Dakhla,12715
+2018,11,VIL,Dakhla,9476
+2018,12,VIL,Dakhla,10838
+2018,1,EUN,Laayoune Hassan I,7925
+2018,2,EUN,Laayoune Hassan I,6795
+2018,3,EUN,Laayoune Hassan I,8362
+2018,4,EUN,Laayoune Hassan I,10170
+2018,5,EUN,Laayoune Hassan I,10398
+2018,6,EUN,Laayoune Hassan I,9262
+2018,7,EUN,Laayoune Hassan I,16691
+2018,8,EUN,Laayoune Hassan I,17248
+2018,9,EUN,Laayoune Hassan I,12839
+2018,10,EUN,Laayoune Hassan I,10844
+2018,11,EUN,Laayoune Hassan I,8619
+2018,12,EUN,Laayoune Hassan I,8765
+2018,1,TTU,Tetouan Sania Ramel,4819
+2018,2,TTU,Tetouan Sania Ramel,4021
+2018,3,TTU,Tetouan Sania Ramel,5637
+2018,4,TTU,Tetouan Sania Ramel,6623
+2018,5,TTU,Tetouan Sania Ramel,6163
+2018,6,TTU,Tetouan Sania Ramel,6018
+2018,7,TTU,Tetouan Sania Ramel,10348
+2018,8,TTU,Tetouan Sania Ramel,11312
+2018,9,TTU,Tetouan Sania Ramel,8719
+2018,10,TTU,Tetouan Sania Ramel,7921
+2018,11,TTU,Tetouan Sania Ramel,5841
+2018,12,TTU,Tetouan Sania Ramel,5859
+2018,1,ESU,Essaouira Mogador,4305
+2018,2,ESU,Essaouira Mogador,3919
+2018,3,ESU,Essaouira Mogador,5541
+2018,4,ESU,Essaouira Mogador,5491
+2018,5,ESU,Essaouira Mogador,5418
+2018,6,ESU,Essaouira Mogador,5222
+2018,7,ESU,Essaouira Mogador,8335
+2018,8,ESU,Essaouira Mogador,9220
+2018,9,ESU,Essaouira Mogador,7290
+2018,10,ESU,Essaouira Mogador,6574
+2018,11,ESU,Essaouira Mogador,5231
+2018,12,ESU,Essaouira Mogador,5369
+2018,1,OZZ,Ouarzazate,3531
+2018,2,OZZ,Ouarzazate,2842
+2018,3,OZZ,Ouarzazate,4167
+2018,4,OZZ,Ouarzazate,5182
+2018,5,OZZ,Ouarzazate,4958
+2018,6,OZZ,Ouarzazate,4553
+2018,7,OZZ,Ouarzazate,8058
+2018,8,OZZ,Ouarzazate,9581
+2018,9,OZZ,Ouarzazate,6148
+2018,10,OZZ,Ouarzazate,5558
+2018,11,OZZ,Ouarzazate,4050
+2018,12,OZZ,Ouarzazate,4621
+2018,1,MEK,Meknes,2588
+2018,2,MEK,Meknes,2122
+2018,3,MEK,Meknes,2809
+2018,4,MEK,Meknes,3220
+2018,5,MEK,Meknes,3031
+2018,6,MEK,Meknes,2762
+2018,7,MEK,Meknes,5229
+2018,8,MEK,Meknes,5452
+2018,9,MEK,Meknes,3610
+2018,10,MEK,Meknes,3705
+2018,11,MEK,Meknes,2907
+2018,12,MEK,Meknes,2873
+2019,1,RAK,Marrakech Menara,256071
+2019,2,RAK,Marrakech Menara,218938
+2019,3,RAK,Marrakech Menara,316782
+2019,4,RAK,Marrakech Menara,343247
+2019,5,RAK,Marrakech Menara,386137
+2019,6,RAK,Marrakech Menara,321949
+2019,7,RAK,Marrakech Menara,550315
+2019,8,RAK,Marrakech Menara,637226
+2019,9,RAK,Marrakech Menara,421534
+2019,10,RAK,Marrakech Menara,422298
+2019,11,RAK,Marrakech Menara,322438
+2019,12,RAK,Marrakech Menara,321259
+2019,1,CMN,Casablanca Mohammed V,415911
+2019,2,CMN,Casablanca Mohammed V,346005
+2019,3,CMN,Casablanca Mohammed V,450392
+2019,4,CMN,Casablanca Mohammed V,555972
+2019,5,CMN,Casablanca Mohammed V,508983
+2019,6,CMN,Casablanca Mohammed V,453083
+2019,7,CMN,Casablanca Mohammed V,844965
+2019,8,CMN,Casablanca Mohammed V,978695
+2019,9,CMN,Casablanca Mohammed V,616781
+2019,10,CMN,Casablanca Mohammed V,563004
+2019,11,CMN,Casablanca Mohammed V,491224
+2019,12,CMN,Casablanca Mohammed V,460320
+2019,1,TNG,Tanger Ibn Battouta,161726
+2019,2,TNG,Tanger Ibn Battouta,147443
+2019,3,TNG,Tanger Ibn Battouta,188657
+2019,4,TNG,Tanger Ibn Battouta,243346
+2019,5,TNG,Tanger Ibn Battouta,218595
+2019,6,TNG,Tanger Ibn Battouta,194611
+2019,7,TNG,Tanger Ibn Battouta,362399
+2019,8,TNG,Tanger Ibn Battouta,398276
+2019,9,TNG,Tanger Ibn Battouta,296997
+2019,10,TNG,Tanger Ibn Battouta,273464
+2019,11,TNG,Tanger Ibn Battouta,204171
+2019,12,TNG,Tanger Ibn Battouta,190913
+2019,1,AGA,Agadir Al Massira,105733
+2019,2,AGA,Agadir Al Massira,88897
+2019,3,AGA,Agadir Al Massira,144350
+2019,4,AGA,Agadir Al Massira,155819
+2019,5,AGA,Agadir Al Massira,152539
+2019,6,AGA,Agadir Al Massira,131380
+2019,7,AGA,Agadir Al Massira,230439
+2019,8,AGA,Agadir Al Massira,279348
+2019,9,AGA,Agadir Al Massira,186959
+2019,10,AGA,Agadir Al Massira,179793
+2019,11,AGA,Agadir Al Massira,122157
+2019,12,AGA,Agadir Al Massira,137609
+2019,1,FEZ,Fès Saïss,56346
+2019,2,FEZ,Fès Saïss,45922
+2019,3,FEZ,Fès Saïss,68112
+2019,4,FEZ,Fès Saïss,85875
+2019,5,FEZ,Fès Saïss,82050
+2019,6,FEZ,Fès Saïss,74300
+2019,7,FEZ,Fès Saïss,118685
+2019,8,FEZ,Fès Saïss,129990
+2019,9,FEZ,Fès Saïss,92898
+2019,10,FEZ,Fès Saïss,81772
+2019,11,FEZ,Fès Saïss,72717
+2019,12,FEZ,Fès Saïss,66734
+2019,1,RBA,Rabat-Salé,39786
+2019,2,RBA,Rabat-Salé,34278
+2019,3,RBA,Rabat-Salé,48423
+2019,4,RBA,Rabat-Salé,55653
+2019,5,RBA,Rabat-Salé,50190
+2019,6,RBA,Rabat-Salé,45818
+2019,7,RBA,Rabat-Salé,75170
+2019,8,RBA,Rabat-Salé,89497
+2019,9,RBA,Rabat-Salé,61560
+2019,10,RBA,Rabat-Salé,59525
+2019,11,RBA,Rabat-Salé,45671
+2019,12,RBA,Rabat-Salé,48641
+2019,1,OUD,Oujda Angads,28573
+2019,2,OUD,Oujda Angads,21863
+2019,3,OUD,Oujda Angads,30268
+2019,4,OUD,Oujda Angads,35137
+2019,5,OUD,Oujda Angads,34006
+2019,6,OUD,Oujda Angads,32146
+2019,7,OUD,Oujda Angads,53973
+2019,8,OUD,Oujda Angads,58474
+2019,9,OUD,Oujda Angads,44490
+2019,10,OUD,Oujda Angads,40864
+2019,11,OUD,Oujda Angads,34566
+2019,12,OUD,Oujda Angads,32339
+2019,1,NDR,Nador Ibn Batouta,22945
+2019,2,NDR,Nador Ibn Batouta,20676
+2019,3,NDR,Nador Ibn Batouta,29955
+2019,4,NDR,Nador Ibn Batouta,33382
+2019,5,NDR,Nador Ibn Batouta,29321
+2019,6,NDR,Nador Ibn Batouta,27509
+2019,7,NDR,Nador Ibn Batouta,45744
+2019,8,NDR,Nador Ibn Batouta,57651
+2019,9,NDR,Nador Ibn Batouta,36421
+2019,10,NDR,Nador Ibn Batouta,37051
+2019,11,NDR,Nador Ibn Batouta,29044
+2019,12,NDR,Nador Ibn Batouta,27970
+2019,1,ERH,Errachidia Moulay Ali Cherif,10398
+2019,2,ERH,Errachidia Moulay Ali Cherif,9885
+2019,3,ERH,Errachidia Moulay Ali Cherif,12645
+2019,4,ERH,Errachidia Moulay Ali Cherif,14989
+2019,5,ERH,Errachidia Moulay Ali Cherif,14196
+2019,6,ERH,Errachidia Moulay Ali Cherif,13318
+2019,7,ERH,Errachidia Moulay Ali Cherif,23036
+2019,8,ERH,Errachidia Moulay Ali Cherif,24604
+2019,9,ERH,Errachidia Moulay Ali Cherif,17806
+2019,10,ERH,Errachidia Moulay Ali Cherif,17410
+2019,11,ERH,Errachidia Moulay Ali Cherif,12184
+2019,12,ERH,Errachidia Moulay Ali Cherif,11683
+2019,1,VIL,Dakhla,10911
+2019,2,VIL,Dakhla,7626
+2019,3,VIL,Dakhla,12529
+2019,4,VIL,Dakhla,14529
+2019,5,VIL,Dakhla,14258
+2019,6,VIL,Dakhla,12796
+2019,7,VIL,Dakhla,22213
+2019,8,VIL,Dakhla,22941
+2019,9,VIL,Dakhla,16499
+2019,10,VIL,Dakhla,15689
+2019,11,VIL,Dakhla,12740
+2019,12,VIL,Dakhla,11477
+2019,1,EUN,Laayoune Hassan I,8384
+2019,2,EUN,Laayoune Hassan I,7502
+2019,3,EUN,Laayoune Hassan I,10111
+2019,4,EUN,Laayoune Hassan I,12800
+2019,5,EUN,Laayoune Hassan I,12432
+2019,6,EUN,Laayoune Hassan I,10256
+2019,7,EUN,Laayoune Hassan I,18252
+2019,8,EUN,Laayoune Hassan I,21835
+2019,9,EUN,Laayoune Hassan I,14910
+2019,10,EUN,Laayoune Hassan I,12389
+2019,11,EUN,Laayoune Hassan I,11342
+2019,12,EUN,Laayoune Hassan I,10070
+2019,1,TTU,Tetouan Sania Ramel,6181
+2019,2,TTU,Tetouan Sania Ramel,5200
+2019,3,TTU,Tetouan Sania Ramel,7023
+2019,4,TTU,Tetouan Sania Ramel,8574
+2019,5,TTU,Tetouan Sania Ramel,8165
+2019,6,TTU,Tetouan Sania Ramel,6524
+2019,7,TTU,Tetouan Sania Ramel,11008
+2019,8,TTU,Tetouan Sania Ramel,14684
+2019,9,TTU,Tetouan Sania Ramel,9537
+2019,10,TTU,Tetouan Sania Ramel,8911
+2019,11,TTU,Tetouan Sania Ramel,6825
+2019,12,TTU,Tetouan Sania Ramel,7333
+2019,1,ESU,Essaouira Mogador,5212
+2019,2,ESU,Essaouira Mogador,4334
+2019,3,ESU,Essaouira Mogador,6166
+2019,4,ESU,Essaouira Mogador,6003
+2019,5,ESU,Essaouira Mogador,7040
+2019,6,ESU,Essaouira Mogador,6061
+2019,7,ESU,Essaouira Mogador,9127
+2019,8,ESU,Essaouira Mogador,11196
+2019,9,ESU,Essaouira Mogador,7712
+2019,10,ESU,Essaouira Mogador,6946
+2019,11,ESU,Essaouira Mogador,6117
+2019,12,ESU,Essaouira Mogador,5562
+2019,1,OZZ,Ouarzazate,4202
+2019,2,OZZ,Ouarzazate,3131
+2019,3,OZZ,Ouarzazate,4442
+2019,4,OZZ,Ouarzazate,5499
+2019,5,OZZ,Ouarzazate,5537
+2019,6,OZZ,Ouarzazate,4900
+2019,7,OZZ,Ouarzazate,7699
+2019,8,OZZ,Ouarzazate,9160
+2019,9,OZZ,Ouarzazate,6940
+2019,10,OZZ,Ouarzazate,5605
+2019,11,OZZ,Ouarzazate,4476
+2019,12,OZZ,Ouarzazate,4688
+2019,1,MEK,Meknes,2739
+2019,2,MEK,Meknes,2335
+2019,3,MEK,Meknes,3688
+2019,4,MEK,Meknes,4250
+2019,5,MEK,Meknes,3691
+2019,6,MEK,Meknes,3591
+2019,7,MEK,Meknes,5763
+2019,8,MEK,Meknes,6623
+2019,9,MEK,Meknes,4949
+2019,10,MEK,Meknes,3989
+2019,11,MEK,Meknes,3501
+2019,12,MEK,Meknes,3757
+2020,1,RAK,Marrakech Menara,57692
+2020,2,RAK,Marrakech Menara,46649
+2020,3,RAK,Marrakech Menara,64490
+2020,4,RAK,Marrakech Menara,77628
+2020,5,RAK,Marrakech Menara,80944
+2020,6,RAK,Marrakech Menara,74380
+2020,7,RAK,Marrakech Menara,111094
+2020,8,RAK,Marrakech Menara,149568
+2020,9,RAK,Marrakech Menara,100402
+2020,10,RAK,Marrakech Menara,90579
+2020,11,RAK,Marrakech Menara,69024
+2020,12,RAK,Marrakech Menara,75105
+2020,1,CMN,Casablanca Mohammed V,81980
+2020,2,CMN,Casablanca Mohammed V,69965
+2020,3,CMN,Casablanca Mohammed V,94357
+2020,4,CMN,Casablanca Mohammed V,104471
+2020,5,CMN,Casablanca Mohammed V,111407
+2020,6,CMN,Casablanca Mohammed V,92853
+2020,7,CMN,Casablanca Mohammed V,167157
+2020,8,CMN,Casablanca Mohammed V,166865
+2020,9,CMN,Casablanca Mohammed V,116216
+2020,10,CMN,Casablanca Mohammed V,119516
+2020,11,CMN,Casablanca Mohammed V,82658
+2020,12,CMN,Casablanca Mohammed V,98064
+2020,1,TNG,Tanger Ibn Battouta,36843
+2020,2,TNG,Tanger Ibn Battouta,30540
+2020,3,TNG,Tanger Ibn Battouta,45086
+2020,4,TNG,Tanger Ibn Battouta,50747
+2020,5,TNG,Tanger Ibn Battouta,46713
+2020,6,TNG,Tanger Ibn Battouta,44840
+2020,7,TNG,Tanger Ibn Battouta,69672
+2020,8,TNG,Tanger Ibn Battouta,88025
+2020,9,TNG,Tanger Ibn Battouta,63418
+2020,10,TNG,Tanger Ibn Battouta,50141
+2020,11,TNG,Tanger Ibn Battouta,40617
+2020,12,TNG,Tanger Ibn Battouta,38845
+2020,1,AGA,Agadir Al Massira,26694
+2020,2,AGA,Agadir Al Massira,18823
+2020,3,AGA,Agadir Al Massira,26590
+2020,4,AGA,Agadir Al Massira,36256
+2020,5,AGA,Agadir Al Massira,33083
+2020,6,AGA,Agadir Al Massira,27659
+2020,7,AGA,Agadir Al Massira,50844
+2020,8,AGA,Agadir Al Massira,58331
+2020,9,AGA,Agadir Al Massira,43999
+2020,10,AGA,Agadir Al Massira,34089
+2020,11,AGA,Agadir Al Massira,27834
+2020,12,AGA,Agadir Al Massira,30953
+2020,1,FEZ,Fès Saïss,12522
+2020,2,FEZ,Fès Saïss,11098
+2020,3,FEZ,Fès Saïss,17128
+2020,4,FEZ,Fès Saïss,17650
+2020,5,FEZ,Fès Saïss,16676
+2020,6,FEZ,Fès Saïss,15137
+2020,7,FEZ,Fès Saïss,27814
+2020,8,FEZ,Fès Saïss,28694
+2020,9,FEZ,Fès Saïss,23593
+2020,10,FEZ,Fès Saïss,21195
+2020,11,FEZ,Fès Saïss,17014
+2020,12,FEZ,Fès Saïss,16142
+2020,1,RBA,Rabat-Salé,8122
+2020,2,RBA,Rabat-Salé,7897
+2020,3,RBA,Rabat-Salé,11421
+2020,4,RBA,Rabat-Salé,12750
+2020,5,RBA,Rabat-Salé,12978
+2020,6,RBA,Rabat-Salé,9729
+2020,7,RBA,Rabat-Salé,17031
+2020,8,RBA,Rabat-Salé,23083
+2020,9,RBA,Rabat-Salé,14643
+2020,10,RBA,Rabat-Salé,12762
+2020,11,RBA,Rabat-Salé,10007
+2020,12,RBA,Rabat-Salé,11192
+2020,1,OUD,Oujda Angads,5736
+2020,2,OUD,Oujda Angads,4449
+2020,3,OUD,Oujda Angads,6074
+2020,4,OUD,Oujda Angads,7531
+2020,5,OUD,Oujda Angads,7104
+2020,6,OUD,Oujda Angads,6018
+2020,7,OUD,Oujda Angads,11183
+2020,8,OUD,Oujda Angads,11656
+2020,9,OUD,Oujda Angads,8639
+2020,10,OUD,Oujda Angads,8170
+2020,11,OUD,Oujda Angads,6085
+2020,12,OUD,Oujda Angads,6956
+2020,1,NDR,Nador Ibn Batouta,4749
+2020,2,NDR,Nador Ibn Batouta,3809
+2020,3,NDR,Nador Ibn Batouta,5316
+2020,4,NDR,Nador Ibn Batouta,6191
+2020,5,NDR,Nador Ibn Batouta,6737
+2020,6,NDR,Nador Ibn Batouta,5592
+2020,7,NDR,Nador Ibn Batouta,9673
+2020,8,NDR,Nador Ibn Batouta,11269
+2020,9,NDR,Nador Ibn Batouta,7710
+2020,10,NDR,Nador Ibn Batouta,6549
+2020,11,NDR,Nador Ibn Batouta,5797
+2020,12,NDR,Nador Ibn Batouta,5306
+2020,1,ERH,Errachidia Moulay Ali Cherif,2077
+2020,2,ERH,Errachidia Moulay Ali Cherif,1747
+2020,3,ERH,Errachidia Moulay Ali Cherif,2408
+2020,4,ERH,Errachidia Moulay Ali Cherif,2955
+2020,5,ERH,Errachidia Moulay Ali Cherif,2946
+2020,6,ERH,Errachidia Moulay Ali Cherif,2447
+2020,7,ERH,Errachidia Moulay Ali Cherif,4366
+2020,8,ERH,Errachidia Moulay Ali Cherif,5035
+2020,9,ERH,Errachidia Moulay Ali Cherif,3782
+2020,10,ERH,Errachidia Moulay Ali Cherif,3508
+2020,11,ERH,Errachidia Moulay Ali Cherif,2789
+2020,12,ERH,Errachidia Moulay Ali Cherif,2859
+2020,1,VIL,Dakhla,2383
+2020,2,VIL,Dakhla,1675
+2020,3,VIL,Dakhla,2349
+2020,4,VIL,Dakhla,2634
+2020,5,VIL,Dakhla,2729
+2020,6,VIL,Dakhla,2404
+2020,7,VIL,Dakhla,4537
+2020,8,VIL,Dakhla,5463
+2020,9,VIL,Dakhla,3323
+2020,10,VIL,Dakhla,3207
+2020,11,VIL,Dakhla,2354
+2020,12,VIL,Dakhla,2405
+2020,1,EUN,Laayoune Hassan I,1778
+2020,2,EUN,Laayoune Hassan I,1417
+2020,3,EUN,Laayoune Hassan I,2134
+2020,4,EUN,Laayoune Hassan I,2116
+2020,5,EUN,Laayoune Hassan I,2131
+2020,6,EUN,Laayoune Hassan I,2050
+2020,7,EUN,Laayoune Hassan I,3410
+2020,8,EUN,Laayoune Hassan I,4349
+2020,9,EUN,Laayoune Hassan I,2962
+2020,10,EUN,Laayoune Hassan I,2610
+2020,11,EUN,Laayoune Hassan I,1841
+2020,12,EUN,Laayoune Hassan I,1973
+2020,1,TTU,Tetouan Sania Ramel,1430
+2020,2,TTU,Tetouan Sania Ramel,1107
+2020,3,TTU,Tetouan Sania Ramel,1430
+2020,4,TTU,Tetouan Sania Ramel,1782
+2020,5,TTU,Tetouan Sania Ramel,1708
+2020,6,TTU,Tetouan Sania Ramel,1549
+2020,7,TTU,Tetouan Sania Ramel,2386
+2020,8,TTU,Tetouan Sania Ramel,2816
+2020,9,TTU,Tetouan Sania Ramel,2190
+2020,10,TTU,Tetouan Sania Ramel,2010
+2020,11,TTU,Tetouan Sania Ramel,1567
+2020,12,TTU,Tetouan Sania Ramel,1407
+2020,1,ESU,Essaouira Mogador,1157
+2020,2,ESU,Essaouira Mogador,908
+2020,3,ESU,Essaouira Mogador,1417
+2020,4,ESU,Essaouira Mogador,1467
+2020,5,ESU,Essaouira Mogador,1708
+2020,6,ESU,Essaouira Mogador,1482
+2020,7,ESU,Essaouira Mogador,2269
+2020,8,ESU,Essaouira Mogador,2863
+2020,9,ESU,Essaouira Mogador,1966
+2020,10,ESU,Essaouira Mogador,1787
+2020,11,ESU,Essaouira Mogador,1439
+2020,12,ESU,Essaouira Mogador,1408
+2020,1,OZZ,Ouarzazate,832
+2020,2,OZZ,Ouarzazate,688
+2020,3,OZZ,Ouarzazate,997
+2020,4,OZZ,Ouarzazate,1051
+2020,5,OZZ,Ouarzazate,1077
+2020,6,OZZ,Ouarzazate,1073
+2020,7,OZZ,Ouarzazate,1630
+2020,8,OZZ,Ouarzazate,1923
+2020,9,OZZ,Ouarzazate,1410
+2020,10,OZZ,Ouarzazate,1293
+2020,11,OZZ,Ouarzazate,999
+2020,12,OZZ,Ouarzazate,1018
+2020,1,MEK,Meknes,491
+2020,2,MEK,Meknes,458
+2020,3,MEK,Meknes,657
+2020,4,MEK,Meknes,788
+2020,5,MEK,Meknes,765
+2020,6,MEK,Meknes,582
+2020,7,MEK,Meknes,1013
+2020,8,MEK,Meknes,1190
+2020,9,MEK,Meknes,952
+2020,10,MEK,Meknes,891
+2020,11,MEK,Meknes,666
+2020,12,MEK,Meknes,586
+2021,1,RAK,Marrakech Menara,94349
+2021,2,RAK,Marrakech Menara,88984
+2021,3,RAK,Marrakech Menara,121667
+2021,4,RAK,Marrakech Menara,126009
+2021,5,RAK,Marrakech Menara,137003
+2021,6,RAK,Marrakech Menara,103663
+2021,7,RAK,Marrakech Menara,184821
+2021,8,RAK,Marrakech Menara,235864
+2021,9,RAK,Marrakech Menara,151059
+2021,10,RAK,Marrakech Menara,142041
+2021,11,RAK,Marrakech Menara,110321
+2021,12,RAK,Marrakech Menara,122773
+2021,1,CMN,Casablanca Mohammed V,133865
+2021,2,CMN,Casablanca Mohammed V,106462
+2021,3,CMN,Casablanca Mohammed V,153618
+2021,4,CMN,Casablanca Mohammed V,152845
+2021,5,CMN,Casablanca Mohammed V,171572
+2021,6,CMN,Casablanca Mohammed V,135826
+2021,7,CMN,Casablanca Mohammed V,258334
+2021,8,CMN,Casablanca Mohammed V,303747
+2021,9,CMN,Casablanca Mohammed V,194442
+2021,10,CMN,Casablanca Mohammed V,198071
+2021,11,CMN,Casablanca Mohammed V,151682
+2021,12,CMN,Casablanca Mohammed V,133477
+2021,1,TNG,Tanger Ibn Battouta,56595
+2021,2,TNG,Tanger Ibn Battouta,50498
+2021,3,TNG,Tanger Ibn Battouta,73007
+2021,4,TNG,Tanger Ibn Battouta,82717
+2021,5,TNG,Tanger Ibn Battouta,75523
+2021,6,TNG,Tanger Ibn Battouta,61954
+2021,7,TNG,Tanger Ibn Battouta,116475
+2021,8,TNG,Tanger Ibn Battouta,126252
+2021,9,TNG,Tanger Ibn Battouta,93916
+2021,10,TNG,Tanger Ibn Battouta,82144
+2021,11,TNG,Tanger Ibn Battouta,68228
+2021,12,TNG,Tanger Ibn Battouta,64974
+2021,1,AGA,Agadir Al Massira,35442
+2021,2,AGA,Agadir Al Massira,27959
+2021,3,AGA,Agadir Al Massira,42057
+2021,4,AGA,Agadir Al Massira,44928
+2021,5,AGA,Agadir Al Massira,43832
+2021,6,AGA,Agadir Al Massira,39099
+2021,7,AGA,Agadir Al Massira,63599
+2021,8,AGA,Agadir Al Massira,82965
+2021,9,AGA,Agadir Al Massira,54821
+2021,10,AGA,Agadir Al Massira,56404
+2021,11,AGA,Agadir Al Massira,42570
+2021,12,AGA,Agadir Al Massira,44482
+2021,1,FEZ,Fès Saïss,20455
+2021,2,FEZ,Fès Saïss,17363
+2021,3,FEZ,Fès Saïss,21101
+2021,4,FEZ,Fès Saïss,24405
+2021,5,FEZ,Fès Saïss,26879
+2021,6,FEZ,Fès Saïss,21219
+2021,7,FEZ,Fès Saïss,34453
+2021,8,FEZ,Fès Saïss,45836
+2021,9,FEZ,Fès Saïss,33466
+2021,10,FEZ,Fès Saïss,26940
+2021,11,FEZ,Fès Saïss,21156
+2021,12,FEZ,Fès Saïss,21843
+2021,1,RBA,Rabat-Salé,12629
+2021,2,RBA,Rabat-Salé,9796
+2021,3,RBA,Rabat-Salé,15916
+2021,4,RBA,Rabat-Salé,15601
+2021,5,RBA,Rabat-Salé,16180
+2021,6,RBA,Rabat-Salé,15409
+2021,7,RBA,Rabat-Salé,28121
+2021,8,RBA,Rabat-Salé,31122
+2021,9,RBA,Rabat-Salé,19485
+2021,10,RBA,Rabat-Salé,19329
+2021,11,RBA,Rabat-Salé,15609
+2021,12,RBA,Rabat-Salé,14921
+2021,1,OUD,Oujda Angads,8897
+2021,2,OUD,Oujda Angads,7312
+2021,3,OUD,Oujda Angads,8775
+2021,4,OUD,Oujda Angads,10505
+2021,5,OUD,Oujda Angads,11046
+2021,6,OUD,Oujda Angads,9194
+2021,7,OUD,Oujda Angads,16445
+2021,8,OUD,Oujda Angads,20676
+2021,9,OUD,Oujda Angads,14353
+2021,10,OUD,Oujda Angads,12611
+2021,11,OUD,Oujda Angads,9486
+2021,12,OUD,Oujda Angads,10386
+2021,1,NDR,Nador Ibn Batouta,7889
+2021,2,NDR,Nador Ibn Batouta,6033
+2021,3,NDR,Nador Ibn Batouta,9376
+2021,4,NDR,Nador Ibn Batouta,11390
+2021,5,NDR,Nador Ibn Batouta,10047
+2021,6,NDR,Nador Ibn Batouta,8940
+2021,7,NDR,Nador Ibn Batouta,17204
+2021,8,NDR,Nador Ibn Batouta,18437
+2021,9,NDR,Nador Ibn Batouta,13024
+2021,10,NDR,Nador Ibn Batouta,12475
+2021,11,NDR,Nador Ibn Batouta,10036
+2021,12,NDR,Nador Ibn Batouta,9819
+2021,1,ERH,Errachidia Moulay Ali Cherif,3534
+2021,2,ERH,Errachidia Moulay Ali Cherif,3242
+2021,3,ERH,Errachidia Moulay Ali Cherif,4292
+2021,4,ERH,Errachidia Moulay Ali Cherif,5417
+2021,5,ERH,Errachidia Moulay Ali Cherif,5340
+2021,6,ERH,Errachidia Moulay Ali Cherif,4395
+2021,7,ERH,Errachidia Moulay Ali Cherif,7695
+2021,8,ERH,Errachidia Moulay Ali Cherif,9441
+2021,9,ERH,Errachidia Moulay Ali Cherif,6735
+2021,10,ERH,Errachidia Moulay Ali Cherif,5459
+2021,11,ERH,Errachidia Moulay Ali Cherif,4281
+2021,12,ERH,Errachidia Moulay Ali Cherif,4294
+2021,1,VIL,Dakhla,2849
+2021,2,VIL,Dakhla,2423
+2021,3,VIL,Dakhla,3450
+2021,4,VIL,Dakhla,4326
+2021,5,VIL,Dakhla,3969
+2021,6,VIL,Dakhla,3327
+2021,7,VIL,Dakhla,5387
+2021,8,VIL,Dakhla,6377
+2021,9,VIL,Dakhla,5154
+2021,10,VIL,Dakhla,4324
+2021,11,VIL,Dakhla,3489
+2021,12,VIL,Dakhla,3803
+2021,1,EUN,Laayoune Hassan I,2689
+2021,2,EUN,Laayoune Hassan I,1974
+2021,3,EUN,Laayoune Hassan I,3136
+2021,4,EUN,Laayoune Hassan I,3699
+2021,5,EUN,Laayoune Hassan I,3642
+2021,6,EUN,Laayoune Hassan I,3196
+2021,7,EUN,Laayoune Hassan I,5537
+2021,8,EUN,Laayoune Hassan I,5854
+2021,9,EUN,Laayoune Hassan I,4035
+2021,10,EUN,Laayoune Hassan I,3858
+2021,11,EUN,Laayoune Hassan I,2811
+2021,12,EUN,Laayoune Hassan I,2965
+2021,1,TTU,Tetouan Sania Ramel,1971
+2021,2,TTU,Tetouan Sania Ramel,1833
+2021,3,TTU,Tetouan Sania Ramel,2563
+2021,4,TTU,Tetouan Sania Ramel,2877
+2021,5,TTU,Tetouan Sania Ramel,2536
+2021,6,TTU,Tetouan Sania Ramel,2570
+2021,7,TTU,Tetouan Sania Ramel,4039
+2021,8,TTU,Tetouan Sania Ramel,4865
+2021,9,TTU,Tetouan Sania Ramel,3059
+2021,10,TTU,Tetouan Sania Ramel,3111
+2021,11,TTU,Tetouan Sania Ramel,2201
+2021,12,TTU,Tetouan Sania Ramel,2520
+2021,1,ESU,Essaouira Mogador,1776
+2021,2,ESU,Essaouira Mogador,1533
+2021,3,ESU,Essaouira Mogador,2085
+2021,4,ESU,Essaouira Mogador,2339
+2021,5,ESU,Essaouira Mogador,2110
+2021,6,ESU,Essaouira Mogador,2035
+2021,7,ESU,Essaouira Mogador,3312
+2021,8,ESU,Essaouira Mogador,3913
+2021,9,ESU,Essaouira Mogador,2903
+2021,10,ESU,Essaouira Mogador,2638
+2021,11,ESU,Essaouira Mogador,1904
+2021,12,ESU,Essaouira Mogador,2037
+2021,1,OZZ,Ouarzazate,1424
+2021,2,OZZ,Ouarzazate,1144
+2021,3,OZZ,Ouarzazate,1404
+2021,4,OZZ,Ouarzazate,1778
+2021,5,OZZ,Ouarzazate,1822
+2021,6,OZZ,Ouarzazate,1386
+2021,7,OZZ,Ouarzazate,2687
+2021,8,OZZ,Ouarzazate,2791
+2021,9,OZZ,Ouarzazate,2162
+2021,10,OZZ,Ouarzazate,1969
+2021,11,OZZ,Ouarzazate,1414
+2021,12,OZZ,Ouarzazate,1677
+2021,1,MEK,Meknes,997
+2021,2,MEK,Meknes,731
+2021,3,MEK,Meknes,1134
+2021,4,MEK,Meknes,1143
+2021,5,MEK,Meknes,1368
+2021,6,MEK,Meknes,1158
+2021,7,MEK,Meknes,1978
+2021,8,MEK,Meknes,2094
+2021,9,MEK,Meknes,1678
+2021,10,MEK,Meknes,1552
+2021,11,MEK,Meknes,1052
+2021,12,MEK,Meknes,1162
+2022,1,RAK,Marrakech Menara,243205
+2022,2,RAK,Marrakech Menara,183555
+2022,3,RAK,Marrakech Menara,309229
+2022,4,RAK,Marrakech Menara,304908
+2022,5,RAK,Marrakech Menara,319138
+2022,6,RAK,Marrakech Menara,256407
+2022,7,RAK,Marrakech Menara,481368
+2022,8,RAK,Marrakech Menara,572083
+2022,9,RAK,Marrakech Menara,423412
+2022,10,RAK,Marrakech Menara,337564
+2022,11,RAK,Marrakech Menara,271737
+2022,12,RAK,Marrakech Menara,303295
+2022,1,CMN,Casablanca Mohammed V,335546
+2022,2,CMN,Casablanca Mohammed V,269275
+2022,3,CMN,Casablanca Mohammed V,327835
+2022,4,CMN,Casablanca Mohammed V,371074
+2022,5,CMN,Casablanca Mohammed V,412330
+2022,6,CMN,Casablanca Mohammed V,345499
+2022,7,CMN,Casablanca Mohammed V,581952
+2022,8,CMN,Casablanca Mohammed V,778442
+2022,9,CMN,Casablanca Mohammed V,459083
+2022,10,CMN,Casablanca Mohammed V,444002
+2022,11,CMN,Casablanca Mohammed V,365973
+2022,12,CMN,Casablanca Mohammed V,373440
+2022,1,TNG,Tanger Ibn Battouta,154301
+2022,2,TNG,Tanger Ibn Battouta,113196
+2022,3,TNG,Tanger Ibn Battouta,155018
+2022,4,TNG,Tanger Ibn Battouta,193065
+2022,5,TNG,Tanger Ibn Battouta,191644
+2022,6,TNG,Tanger Ibn Battouta,157991
+2022,7,TNG,Tanger Ibn Battouta,283878
+2022,8,TNG,Tanger Ibn Battouta,328733
+2022,9,TNG,Tanger Ibn Battouta,223133
+2022,10,TNG,Tanger Ibn Battouta,224886
+2022,11,TNG,Tanger Ibn Battouta,151396
+2022,12,TNG,Tanger Ibn Battouta,169478
+2022,1,AGA,Agadir Al Massira,97890
+2022,2,AGA,Agadir Al Massira,85578
+2022,3,AGA,Agadir Al Massira,108154
+2022,4,AGA,Agadir Al Massira,124405
+2022,5,AGA,Agadir Al Massira,134028
+2022,6,AGA,Agadir Al Massira,107999
+2022,7,AGA,Agadir Al Massira,197124
+2022,8,AGA,Agadir Al Massira,241809
+2022,9,AGA,Agadir Al Massira,144727
+2022,10,AGA,Agadir Al Massira,151160
+2022,11,AGA,Agadir Al Massira,113943
+2022,12,AGA,Agadir Al Massira,117143
+2022,1,FEZ,Fès Saïss,52173
+2022,2,FEZ,Fès Saïss,43662
+2022,3,FEZ,Fès Saïss,61972
+2022,4,FEZ,Fès Saïss,65025
+2022,5,FEZ,Fès Saïss,73126
+2022,6,FEZ,Fès Saïss,60371
+2022,7,FEZ,Fès Saïss,92579
+2022,8,FEZ,Fès Saïss,126590
+2022,9,FEZ,Fès Saïss,90106
+2022,10,FEZ,Fès Saïss,76848
+2022,11,FEZ,Fès Saïss,63927
+2022,12,FEZ,Fès Saïss,56066
+2022,1,RBA,Rabat-Salé,33137
+2022,2,RBA,Rabat-Salé,26609
+2022,3,RBA,Rabat-Salé,40749
+2022,4,RBA,Rabat-Salé,46867
+2022,5,RBA,Rabat-Salé,43856
+2022,6,RBA,Rabat-Salé,40621
+2022,7,RBA,Rabat-Salé,62130
+2022,8,RBA,Rabat-Salé,80511
+2022,9,RBA,Rabat-Salé,59698
+2022,10,RBA,Rabat-Salé,47902
+2022,11,RBA,Rabat-Salé,41959
+2022,12,RBA,Rabat-Salé,36625
+2022,1,OUD,Oujda Angads,20127
+2022,2,OUD,Oujda Angads,18120
+2022,3,OUD,Oujda Angads,22898
+2022,4,OUD,Oujda Angads,30770
+2022,5,OUD,Oujda Angads,28605
+2022,6,OUD,Oujda Angads,26361
+2022,7,OUD,Oujda Angads,44170
+2022,8,OUD,Oujda Angads,53838
+2022,9,OUD,Oujda Angads,35067
+2022,10,OUD,Oujda Angads,30628
+2022,11,OUD,Oujda Angads,25036
+2022,12,OUD,Oujda Angads,22936
+2022,1,NDR,Nador Ibn Batouta,21930
+2022,2,NDR,Nador Ibn Batouta,17894
+2022,3,NDR,Nador Ibn Batouta,23723
+2022,4,NDR,Nador Ibn Batouta,25047
+2022,5,NDR,Nador Ibn Batouta,27597
+2022,6,NDR,Nador Ibn Batouta,21565
+2022,7,NDR,Nador Ibn Batouta,43498
+2022,8,NDR,Nador Ibn Batouta,47890
+2022,9,NDR,Nador Ibn Batouta,33401
+2022,10,NDR,Nador Ibn Batouta,30918
+2022,11,NDR,Nador Ibn Batouta,21919
+2022,12,NDR,Nador Ibn Batouta,24640
+2022,1,ERH,Errachidia Moulay Ali Cherif,8878
+2022,2,ERH,Errachidia Moulay Ali Cherif,7888
+2022,3,ERH,Errachidia Moulay Ali Cherif,11680
+2022,4,ERH,Errachidia Moulay Ali Cherif,13739
+2022,5,ERH,Errachidia Moulay Ali Cherif,13822
+2022,6,ERH,Errachidia Moulay Ali Cherif,10345
+2022,7,ERH,Errachidia Moulay Ali Cherif,20364
+2022,8,ERH,Errachidia Moulay Ali Cherif,20335
+2022,9,ERH,Errachidia Moulay Ali Cherif,15246
+2022,10,ERH,Errachidia Moulay Ali Cherif,15271
+2022,11,ERH,Errachidia Moulay Ali Cherif,11102
+2022,12,ERH,Errachidia Moulay Ali Cherif,10090
+2022,1,VIL,Dakhla,7367
+2022,2,VIL,Dakhla,6527
+2022,3,VIL,Dakhla,10018
+2022,4,VIL,Dakhla,10780
+2022,5,VIL,Dakhla,11402
+2022,6,VIL,Dakhla,9683
+2022,7,VIL,Dakhla,17313
+2022,8,VIL,Dakhla,20339
+2022,9,VIL,Dakhla,14256
+2022,10,VIL,Dakhla,10943
+2022,11,VIL,Dakhla,10190
+2022,12,VIL,Dakhla,9014
+2022,1,EUN,Laayoune Hassan I,6563
+2022,2,EUN,Laayoune Hassan I,6358
+2022,3,EUN,Laayoune Hassan I,7762
+2022,4,EUN,Laayoune Hassan I,8397
+2022,5,EUN,Laayoune Hassan I,9876
+2022,6,EUN,Laayoune Hassan I,8220
+2022,7,EUN,Laayoune Hassan I,13342
+2022,8,EUN,Laayoune Hassan I,17893
+2022,9,EUN,Laayoune Hassan I,12093
+2022,10,EUN,Laayoune Hassan I,9468
+2022,11,EUN,Laayoune Hassan I,8587
+2022,12,EUN,Laayoune Hassan I,8176
+2022,1,TTU,Tetouan Sania Ramel,5186
+2022,2,TTU,Tetouan Sania Ramel,4099
+2022,3,TTU,Tetouan Sania Ramel,6272
+2022,4,TTU,Tetouan Sania Ramel,7074
+2022,5,TTU,Tetouan Sania Ramel,6891
+2022,6,TTU,Tetouan Sania Ramel,5278
+2022,7,TTU,Tetouan Sania Ramel,10137
+2022,8,TTU,Tetouan Sania Ramel,11017
+2022,9,TTU,Tetouan Sania Ramel,8508
+2022,10,TTU,Tetouan Sania Ramel,7507
+2022,11,TTU,Tetouan Sania Ramel,5873
+2022,12,TTU,Tetouan Sania Ramel,5991
+2022,1,ESU,Essaouira Mogador,4389
+2022,2,ESU,Essaouira Mogador,3740
+2022,3,ESU,Essaouira Mogador,5075
+2022,4,ESU,Essaouira Mogador,6062
+2022,5,ESU,Essaouira Mogador,5515
+2022,6,ESU,Essaouira Mogador,4557
+2022,7,ESU,Essaouira Mogador,8561
+2022,8,ESU,Essaouira Mogador,9295
+2022,9,ESU,Essaouira Mogador,6409
+2022,10,ESU,Essaouira Mogador,5728
+2022,11,ESU,Essaouira Mogador,5159
+2022,12,ESU,Essaouira Mogador,4795
+2022,1,OZZ,Ouarzazate,3438
+2022,2,OZZ,Ouarzazate,3221
+2022,3,OZZ,Ouarzazate,4193
+2022,4,OZZ,Ouarzazate,4845
+2022,5,OZZ,Ouarzazate,4800
+2022,6,OZZ,Ouarzazate,4267
+2022,7,OZZ,Ouarzazate,7734
+2022,8,OZZ,Ouarzazate,8899
+2022,9,OZZ,Ouarzazate,5680
+2022,10,OZZ,Ouarzazate,5788
+2022,11,OZZ,Ouarzazate,4552
+2022,12,OZZ,Ouarzazate,4598
+2022,1,MEK,Meknes,2310
+2022,2,MEK,Meknes,1785
+2022,3,MEK,Meknes,2958
+2022,4,MEK,Meknes,2877
+2022,5,MEK,Meknes,3410
+2022,6,MEK,Meknes,2720
+2022,7,MEK,Meknes,4819
+2022,8,MEK,Meknes,5410
+2022,9,MEK,Meknes,3977
+2022,10,MEK,Meknes,3198
+2022,11,MEK,Meknes,2769
+2022,12,MEK,Meknes,2754
+2023,1,RAK,Marrakech Menara,366420
+2023,2,RAK,Marrakech Menara,268517
+2023,3,RAK,Marrakech Menara,406949
+2023,4,RAK,Marrakech Menara,441932
+2023,5,RAK,Marrakech Menara,443478
+2023,6,RAK,Marrakech Menara,415631
+2023,7,RAK,Marrakech Menara,716118
+2023,8,RAK,Marrakech Menara,778931
+2023,9,RAK,Marrakech Menara,606645
+2023,10,RAK,Marrakech Menara,476799
+2023,11,RAK,Marrakech Menara,422323
+2023,12,RAK,Marrakech Menara,429762
+2023,1,CMN,Casablanca Mohammed V,343253
+2023,2,CMN,Casablanca Mohammed V,289301
+2023,3,CMN,Casablanca Mohammed V,451396
+2023,4,CMN,Casablanca Mohammed V,493396
+2023,5,CMN,Casablanca Mohammed V,507754
+2023,6,CMN,Casablanca Mohammed V,417490
+2023,7,CMN,Casablanca Mohammed V,688456
+2023,8,CMN,Casablanca Mohammed V,952069
+2023,9,CMN,Casablanca Mohammed V,569069
+2023,10,CMN,Casablanca Mohammed V,514899
+2023,11,CMN,Casablanca Mohammed V,469350
+2023,12,CMN,Casablanca Mohammed V,447058
+2023,1,TNG,Tanger Ibn Battouta,207912
+2023,2,TNG,Tanger Ibn Battouta,152717
+2023,3,TNG,Tanger Ibn Battouta,217211
+2023,4,TNG,Tanger Ibn Battouta,265719
+2023,5,TNG,Tanger Ibn Battouta,289217
+2023,6,TNG,Tanger Ibn Battouta,216796
+2023,7,TNG,Tanger Ibn Battouta,422613
+2023,8,TNG,Tanger Ibn Battouta,432774
+2023,9,TNG,Tanger Ibn Battouta,344151
+2023,10,TNG,Tanger Ibn Battouta,322925
+2023,11,TNG,Tanger Ibn Battouta,212518
+2023,12,TNG,Tanger Ibn Battouta,223635
+2023,1,AGA,Agadir Al Massira,128035
+2023,2,AGA,Agadir Al Massira,88992
+2023,3,AGA,Agadir Al Massira,127092
+2023,4,AGA,Agadir Al Massira,141087
+2023,5,AGA,Agadir Al Massira,150584
+2023,6,AGA,Agadir Al Massira,150635
+2023,7,AGA,Agadir Al Massira,231695
+2023,8,AGA,Agadir Al Massira,255582
+2023,9,AGA,Agadir Al Massira,197386
+2023,10,AGA,Agadir Al Massira,166810
+2023,11,AGA,Agadir Al Massira,135932
+2023,12,AGA,Agadir Al Massira,125216
+2023,1,FEZ,Fès Saïss,66078
+2023,2,FEZ,Fès Saïss,55847
+2023,3,FEZ,Fès Saïss,80659
+2023,4,FEZ,Fès Saïss,84139
+2023,5,FEZ,Fès Saïss,85667
+2023,6,FEZ,Fès Saïss,75013
+2023,7,FEZ,Fès Saïss,123437
+2023,8,FEZ,Fès Saïss,142532
+2023,9,FEZ,Fès Saïss,118344
+2023,10,FEZ,Fès Saïss,102007
+2023,11,FEZ,Fès Saïss,86520
+2023,12,FEZ,Fès Saïss,79719
+2023,1,RBA,Rabat-Salé,43715
+2023,2,RBA,Rabat-Salé,38980
+2023,3,RBA,Rabat-Salé,50514
+2023,4,RBA,Rabat-Salé,59264
+2023,5,RBA,Rabat-Salé,59404
+2023,6,RBA,Rabat-Salé,55394
+2023,7,RBA,Rabat-Salé,91673
+2023,8,RBA,Rabat-Salé,114236
+2023,9,RBA,Rabat-Salé,69866
+2023,10,RBA,Rabat-Salé,71890
+2023,11,RBA,Rabat-Salé,53236
+2023,12,RBA,Rabat-Salé,47923
+2023,1,OUD,Oujda Angads,29822
+2023,2,OUD,Oujda Angads,24169
+2023,3,OUD,Oujda Angads,36490
+2023,4,OUD,Oujda Angads,37178
+2023,5,OUD,Oujda Angads,39116
+2023,6,OUD,Oujda Angads,33171
+2023,7,OUD,Oujda Angads,60319
+2023,8,OUD,Oujda Angads,67340
+2023,9,OUD,Oujda Angads,49841
+2023,10,OUD,Oujda Angads,46664
+2023,11,OUD,Oujda Angads,36071
+2023,12,OUD,Oujda Angads,32868
+2023,1,NDR,Nador Ibn Batouta,24341
+2023,2,NDR,Nador Ibn Batouta,20436
+2023,3,NDR,Nador Ibn Batouta,28842
+2023,4,NDR,Nador Ibn Batouta,33442
+2023,5,NDR,Nador Ibn Batouta,33630
+2023,6,NDR,Nador Ibn Batouta,30768
+2023,7,NDR,Nador Ibn Batouta,46139
+2023,8,NDR,Nador Ibn Batouta,58884
+2023,9,NDR,Nador Ibn Batouta,45124
+2023,10,NDR,Nador Ibn Batouta,34333
+2023,11,NDR,Nador Ibn Batouta,30899
+2023,12,NDR,Nador Ibn Batouta,27972
+2023,1,ERH,Errachidia Moulay Ali Cherif,10375
+2023,2,ERH,Errachidia Moulay Ali Cherif,8651
+2023,3,ERH,Errachidia Moulay Ali Cherif,13258
+2023,4,ERH,Errachidia Moulay Ali Cherif,15827
+2023,5,ERH,Errachidia Moulay Ali Cherif,16804
+2023,6,ERH,Errachidia Moulay Ali Cherif,14710
+2023,7,ERH,Errachidia Moulay Ali Cherif,22043
+2023,8,ERH,Errachidia Moulay Ali Cherif,24901
+2023,9,ERH,Errachidia Moulay Ali Cherif,19610
+2023,10,ERH,Errachidia Moulay Ali Cherif,16069
+2023,11,ERH,Errachidia Moulay Ali Cherif,14017
+2023,12,ERH,Errachidia Moulay Ali Cherif,12859
+2023,1,VIL,Dakhla,11355
+2023,2,VIL,Dakhla,10294
+2023,3,VIL,Dakhla,13966
+2023,4,VIL,Dakhla,16837
+2023,5,VIL,Dakhla,14724
+2023,6,VIL,Dakhla,12407
+2023,7,VIL,Dakhla,25355
+2023,8,VIL,Dakhla,26016
+2023,9,VIL,Dakhla,21217
+2023,10,VIL,Dakhla,16525
+2023,11,VIL,Dakhla,12329
+2023,12,VIL,Dakhla,14794
+2023,1,EUN,Laayoune Hassan I,9780
+2023,2,EUN,Laayoune Hassan I,7485
+2023,3,EUN,Laayoune Hassan I,12178
+2023,4,EUN,Laayoune Hassan I,11724
+2023,5,EUN,Laayoune Hassan I,12132
+2023,6,EUN,Laayoune Hassan I,11526
+2023,7,EUN,Laayoune Hassan I,17486
+2023,8,EUN,Laayoune Hassan I,20332
+2023,9,EUN,Laayoune Hassan I,15248
+2023,10,EUN,Laayoune Hassan I,15568
+2023,11,EUN,Laayoune Hassan I,11707
+2023,12,EUN,Laayoune Hassan I,11592
+2023,1,TTU,Tetouan Sania Ramel,7114
+2023,2,TTU,Tetouan Sania Ramel,5877
+2023,3,TTU,Tetouan Sania Ramel,7930
+2023,4,TTU,Tetouan Sania Ramel,9163
+2023,5,TTU,Tetouan Sania Ramel,8389
+2023,6,TTU,Tetouan Sania Ramel,8254
+2023,7,TTU,Tetouan Sania Ramel,13206
+2023,8,TTU,Tetouan Sania Ramel,16173
+2023,9,TTU,Tetouan Sania Ramel,10636
+2023,10,TTU,Tetouan Sania Ramel,9645
+2023,11,TTU,Tetouan Sania Ramel,7964
+2023,12,TTU,Tetouan Sania Ramel,6921
+2023,1,ESU,Essaouira Mogador,5594
+2023,2,ESU,Essaouira Mogador,5182
+2023,3,ESU,Essaouira Mogador,6984
+2023,4,ESU,Essaouira Mogador,7069
+2023,5,ESU,Essaouira Mogador,8087
+2023,6,ESU,Essaouira Mogador,7278
+2023,7,ESU,Essaouira Mogador,12599
+2023,8,ESU,Essaouira Mogador,14499
+2023,9,ESU,Essaouira Mogador,9340
+2023,10,ESU,Essaouira Mogador,8083
+2023,11,ESU,Essaouira Mogador,6924
+2023,12,ESU,Essaouira Mogador,7365
+2023,1,OZZ,Ouarzazate,4677
+2023,2,OZZ,Ouarzazate,3714
+2023,3,OZZ,Ouarzazate,5102
+2023,4,OZZ,Ouarzazate,5402
+2023,5,OZZ,Ouarzazate,5600
+2023,6,OZZ,Ouarzazate,5473
+2023,7,OZZ,Ouarzazate,8560
+2023,8,OZZ,Ouarzazate,10356
+2023,9,OZZ,Ouarzazate,7725
+2023,10,OZZ,Ouarzazate,6785
+2023,11,OZZ,Ouarzazate,5395
+2023,12,OZZ,Ouarzazate,4790
+2023,1,MEK,Meknes,3528
+2023,2,MEK,Meknes,2456
+2023,3,MEK,Meknes,3769
+2023,4,MEK,Meknes,4219
+2023,5,MEK,Meknes,4646
+2023,6,MEK,Meknes,3616
+2023,7,MEK,Meknes,6251
+2023,8,MEK,Meknes,7136
+2023,9,MEK,Meknes,5081
+2023,10,MEK,Meknes,5058
+2023,11,MEK,Meknes,3911
+2023,12,MEK,Meknes,3790
+2024,1,RAK,Marrakech Menara,330022
+2024,2,RAK,Marrakech Menara,283683
+2024,3,RAK,Marrakech Menara,417856
+2024,4,RAK,Marrakech Menara,451605
+2024,5,RAK,Marrakech Menara,510700
+2024,6,RAK,Marrakech Menara,404519
+2024,7,RAK,Marrakech Menara,768690
+2024,8,RAK,Marrakech Menara,763202
+2024,9,RAK,Marrakech Menara,636837
+2024,10,RAK,Marrakech Menara,569140
+2024,11,RAK,Marrakech Menara,418447
+2024,12,RAK,Marrakech Menara,399055
+2024,1,CMN,Casablanca Mohammed V,455116
+2024,2,CMN,Casablanca Mohammed V,446195
+2024,3,CMN,Casablanca Mohammed V,625519
+2024,4,CMN,Casablanca Mohammed V,708996
+2024,5,CMN,Casablanca Mohammed V,662975
+2024,6,CMN,Casablanca Mohammed V,593034
+2024,7,CMN,Casablanca Mohammed V,1075034
+2024,8,CMN,Casablanca Mohammed V,1216145
+2024,9,CMN,Casablanca Mohammed V,851815
+2024,10,CMN,Casablanca Mohammed V,668937
+2024,11,CMN,Casablanca Mohammed V,606783
+2024,12,CMN,Casablanca Mohammed V,535374
+2024,1,TNG,Tanger Ibn Battouta,236244
+2024,2,TNG,Tanger Ibn Battouta,168739
+2024,3,TNG,Tanger Ibn Battouta,245788
+2024,4,TNG,Tanger Ibn Battouta,294504
+2024,5,TNG,Tanger Ibn Battouta,299768
+2024,6,TNG,Tanger Ibn Battouta,233593
+2024,7,TNG,Tanger Ibn Battouta,446545
+2024,8,TNG,Tanger Ibn Battouta,513989
+2024,9,TNG,Tanger Ibn Battouta,374093
+2024,10,TNG,Tanger Ibn Battouta,308335
+2024,11,TNG,Tanger Ibn Battouta,258817
+2024,12,TNG,Tanger Ibn Battouta,274660
+2024,1,AGA,Agadir Al Massira,137794
+2024,2,AGA,Agadir Al Massira,118438
+2024,3,AGA,Agadir Al Massira,161906
+2024,4,AGA,Agadir Al Massira,183398
+2024,5,AGA,Agadir Al Massira,202359
+2024,6,AGA,Agadir Al Massira,173552
+2024,7,AGA,Agadir Al Massira,270915
+2024,8,AGA,Agadir Al Massira,294797
+2024,9,AGA,Agadir Al Massira,212161
+2024,10,AGA,Agadir Al Massira,228133
+2024,11,AGA,Agadir Al Massira,162335
+2024,12,AGA,Agadir Al Massira,158046
+2024,1,FEZ,Fès Saïss,71182
+2024,2,FEZ,Fès Saïss,66601
+2024,3,FEZ,Fès Saïss,91992
+2024,4,FEZ,Fès Saïss,112363
+2024,5,FEZ,Fès Saïss,111496
+2024,6,FEZ,Fès Saïss,90086
+2024,7,FEZ,Fès Saïss,170155
+2024,8,FEZ,Fès Saïss,179914
+2024,9,FEZ,Fès Saïss,117676
+2024,10,FEZ,Fès Saïss,112600
+2024,11,FEZ,Fès Saïss,87633
+2024,12,FEZ,Fès Saïss,100062
+2024,1,RBA,Rabat-Salé,57215
+2024,2,RBA,Rabat-Salé,47366
+2024,3,RBA,Rabat-Salé,67539
+2024,4,RBA,Rabat-Salé,68751
+2024,5,RBA,Rabat-Salé,67932
+2024,6,RBA,Rabat-Salé,59611
+2024,7,RBA,Rabat-Salé,107092
+2024,8,RBA,Rabat-Salé,120720
+2024,9,RBA,Rabat-Salé,94965
+2024,10,RBA,Rabat-Salé,85483
+2024,11,RBA,Rabat-Salé,67774
+2024,12,RBA,Rabat-Salé,58060
+2024,1,OUD,Oujda Angads,34730
+2024,2,OUD,Oujda Angads,27804
+2024,3,OUD,Oujda Angads,38392
+2024,4,OUD,Oujda Angads,50070
+2024,5,OUD,Oujda Angads,50559
+2024,6,OUD,Oujda Angads,41507
+2024,7,OUD,Oujda Angads,68067
+2024,8,OUD,Oujda Angads,85174
+2024,9,OUD,Oujda Angads,62983
+2024,10,OUD,Oujda Angads,54506
+2024,11,OUD,Oujda Angads,43493
+2024,12,OUD,Oujda Angads,39440
+2024,1,NDR,Nador Ibn Batouta,30895
+2024,2,NDR,Nador Ibn Batouta,27643
+2024,3,NDR,Nador Ibn Batouta,37507
+2024,4,NDR,Nador Ibn Batouta,48491
+2024,5,NDR,Nador Ibn Batouta,45433
+2024,6,NDR,Nador Ibn Batouta,38094
+2024,7,NDR,Nador Ibn Batouta,70460
+2024,8,NDR,Nador Ibn Batouta,83401
+2024,9,NDR,Nador Ibn Batouta,60673
+2024,10,NDR,Nador Ibn Batouta,51207
+2024,11,NDR,Nador Ibn Batouta,41214
+2024,12,NDR,Nador Ibn Batouta,41292
+2024,1,ERH,Errachidia Moulay Ali Cherif,14715
+2024,2,ERH,Errachidia Moulay Ali Cherif,11619
+2024,3,ERH,Errachidia Moulay Ali Cherif,16977
+2024,4,ERH,Errachidia Moulay Ali Cherif,18828
+2024,5,ERH,Errachidia Moulay Ali Cherif,20235
+2024,6,ERH,Errachidia Moulay Ali Cherif,16550
+2024,7,ERH,Errachidia Moulay Ali Cherif,27133
+2024,8,ERH,Errachidia Moulay Ali Cherif,34371
+2024,9,ERH,Errachidia Moulay Ali Cherif,23100
+2024,10,ERH,Errachidia Moulay Ali Cherif,22197
+2024,11,ERH,Errachidia Moulay Ali Cherif,15534
+2024,12,ERH,Errachidia Moulay Ali Cherif,17862
+2024,1,VIL,Dakhla,13033
+2024,2,VIL,Dakhla,10813
+2024,3,VIL,Dakhla,14971
+2024,4,VIL,Dakhla,17638
+2024,5,VIL,Dakhla,17242
+2024,6,VIL,Dakhla,15077
+2024,7,VIL,Dakhla,25548
+2024,8,VIL,Dakhla,34257
+2024,9,VIL,Dakhla,21638
+2024,10,VIL,Dakhla,19164
+2024,11,VIL,Dakhla,16101
+2024,12,VIL,Dakhla,15436
+2024,1,EUN,Laayoune Hassan I,13201
+2024,2,EUN,Laayoune Hassan I,10305
+2024,3,EUN,Laayoune Hassan I,15241
+2024,4,EUN,Laayoune Hassan I,16687
+2024,5,EUN,Laayoune Hassan I,15924
+2024,6,EUN,Laayoune Hassan I,14828
+2024,7,EUN,Laayoune Hassan I,24671
+2024,8,EUN,Laayoune Hassan I,27956
+2024,9,EUN,Laayoune Hassan I,18173
+2024,10,EUN,Laayoune Hassan I,16279
+2024,11,EUN,Laayoune Hassan I,14466
+2024,12,EUN,Laayoune Hassan I,12649
+2024,1,TTU,Tetouan Sania Ramel,9044
+2024,2,TTU,Tetouan Sania Ramel,7218
+2024,3,TTU,Tetouan Sania Ramel,9262
+2024,4,TTU,Tetouan Sania Ramel,10694
+2024,5,TTU,Tetouan Sania Ramel,11087
+2024,6,TTU,Tetouan Sania Ramel,11018
+2024,7,TTU,Tetouan Sania Ramel,18079
+2024,8,TTU,Tetouan Sania Ramel,19542
+2024,9,TTU,Tetouan Sania Ramel,13498
+2024,10,TTU,Tetouan Sania Ramel,12978
+2024,11,TTU,Tetouan Sania Ramel,9782
+2024,12,TTU,Tetouan Sania Ramel,10103
+2024,1,ESU,Essaouira Mogador,7703
+2024,2,ESU,Essaouira Mogador,5540
+2024,3,ESU,Essaouira Mogador,8163
+2024,4,ESU,Essaouira Mogador,9508
+2024,5,ESU,Essaouira Mogador,8928
+2024,6,ESU,Essaouira Mogador,8020
+2024,7,ESU,Essaouira Mogador,14738
+2024,8,ESU,Essaouira Mogador,16117
+2024,9,ESU,Essaouira Mogador,12452
+2024,10,ESU,Essaouira Mogador,10358
+2024,11,ESU,Essaouira Mogador,8155
+2024,12,ESU,Essaouira Mogador,8681
+2024,1,OZZ,Ouarzazate,5578
+2024,2,OZZ,Ouarzazate,4389
+2024,3,OZZ,Ouarzazate,7106
+2024,4,OZZ,Ouarzazate,7463
+2024,5,OZZ,Ouarzazate,8294
+2024,6,OZZ,Ouarzazate,6567
+2024,7,OZZ,Ouarzazate,12388
+2024,8,OZZ,Ouarzazate,13094
+2024,9,OZZ,Ouarzazate,10230
+2024,10,OZZ,Ouarzazate,9286
+2024,11,OZZ,Ouarzazate,6985
+2024,12,OZZ,Ouarzazate,6256
+2024,1,MEK,Meknes,3856
+2024,2,MEK,Meknes,3356
+2024,3,MEK,Meknes,4371
+2024,4,MEK,Meknes,5392
+2024,5,MEK,Meknes,5572
+2024,6,MEK,Meknes,4094
+2024,7,MEK,Meknes,6959
+2024,8,MEK,Meknes,8871
+2024,9,MEK,Meknes,6309
+2024,10,MEK,Meknes,6066
+2024,11,MEK,Meknes,4554
+2024,12,MEK,Meknes,4706
+2025,1,RAK,Marrakech Menara,432512
+2025,2,RAK,Marrakech Menara,365270
+2025,3,RAK,Marrakech Menara,537668
+2025,4,RAK,Marrakech Menara,560415
+2025,5,RAK,Marrakech Menara,612393
+2025,6,RAK,Marrakech Menara,467745
+2025,7,RAK,Marrakech Menara,872917
+2025,8,RAK,Marrakech Menara,1076358
+2025,9,RAK,Marrakech Menara,765334
+2025,10,RAK,Marrakech Menara,711511
+2025,11,RAK,Marrakech Menara,535380
+2025,12,RAK,Marrakech Menara,511228
+2025,1,CMN,Casablanca Mohammed V,607941
+2025,2,CMN,Casablanca Mohammed V,445642
+2025,3,CMN,Casablanca Mohammed V,731350
+2025,4,CMN,Casablanca Mohammed V,853505
+2025,5,CMN,Casablanca Mohammed V,757825
+2025,6,CMN,Casablanca Mohammed V,677354
+2025,7,CMN,Casablanca Mohammed V,1117429
+2025,8,CMN,Casablanca Mohammed V,1464909
+2025,9,CMN,Casablanca Mohammed V,964188
+2025,10,CMN,Casablanca Mohammed V,945729
+2025,11,CMN,Casablanca Mohammed V,656351
+2025,12,CMN,Casablanca Mohammed V,625308
+2025,1,TNG,Tanger Ibn Battouta,246662
+2025,2,TNG,Tanger Ibn Battouta,203729
+2025,3,TNG,Tanger Ibn Battouta,259556
+2025,4,TNG,Tanger Ibn Battouta,313523
+2025,5,TNG,Tanger Ibn Battouta,289519
+2025,6,TNG,Tanger Ibn Battouta,281898
+2025,7,TNG,Tanger Ibn Battouta,490841
+2025,8,TNG,Tanger Ibn Battouta,541724
+2025,9,TNG,Tanger Ibn Battouta,383887
+2025,10,TNG,Tanger Ibn Battouta,380888
+2025,11,TNG,Tanger Ibn Battouta,281715
+2025,12,TNG,Tanger Ibn Battouta,271515
+2025,1,AGA,Agadir Al Massira,191535
+2025,2,AGA,Agadir Al Massira,138595
+2025,3,AGA,Agadir Al Massira,194283
+2025,4,AGA,Agadir Al Massira,259309
+2025,5,AGA,Agadir Al Massira,229617
+2025,6,AGA,Agadir Al Massira,200946
+2025,7,AGA,Agadir Al Massira,385252
+2025,8,AGA,Agadir Al Massira,445826
+2025,9,AGA,Agadir Al Massira,309595
+2025,10,AGA,Agadir Al Massira,262498
+2025,11,AGA,Agadir Al Massira,190783
+2025,12,AGA,Agadir Al Massira,209922
+2025,1,FEZ,Fès Saïss,91943
+2025,2,FEZ,Fès Saïss,89846
+2025,3,FEZ,Fès Saïss,107486
+2025,4,FEZ,Fès Saïss,136851
+2025,5,FEZ,Fès Saïss,124431
+2025,6,FEZ,Fès Saïss,128863
+2025,7,FEZ,Fès Saïss,216797
+2025,8,FEZ,Fès Saïss,232666
+2025,9,FEZ,Fès Saïss,158360
+2025,10,FEZ,Fès Saïss,144627
+2025,11,FEZ,Fès Saïss,127046
+2025,12,FEZ,Fès Saïss,120598
+2025,1,RBA,Rabat-Salé,59384
+2025,2,RBA,Rabat-Salé,47800
+2025,3,RBA,Rabat-Salé,69143
+2025,4,RBA,Rabat-Salé,71341
+2025,5,RBA,Rabat-Salé,71039
+2025,6,RBA,Rabat-Salé,73764
+2025,7,RBA,Rabat-Salé,123575
+2025,8,RBA,Rabat-Salé,127849
+2025,9,RBA,Rabat-Salé,95338
+2025,10,RBA,Rabat-Salé,87991
+2025,11,RBA,Rabat-Salé,64973
+2025,12,RBA,Rabat-Salé,68079
+2025,1,OUD,Oujda Angads,39416
+2025,2,OUD,Oujda Angads,27934
+2025,3,OUD,Oujda Angads,45649
+2025,4,OUD,Oujda Angads,50704
+2025,5,OUD,Oujda Angads,47373
+2025,6,OUD,Oujda Angads,40870
+2025,7,OUD,Oujda Angads,68930
+2025,8,OUD,Oujda Angads,81430
+2025,9,OUD,Oujda Angads,62949
+2025,10,OUD,Oujda Angads,57824
+2025,11,OUD,Oujda Angads,43301
+2025,12,OUD,Oujda Angads,40266
+2025,1,NDR,Nador Ibn Batouta,31620
+2025,2,NDR,Nador Ibn Batouta,30013
+2025,3,NDR,Nador Ibn Batouta,36017
+2025,4,NDR,Nador Ibn Batouta,49823
+2025,5,NDR,Nador Ibn Batouta,46980
+2025,6,NDR,Nador Ibn Batouta,42838
+2025,7,NDR,Nador Ibn Batouta,70989
+2025,8,NDR,Nador Ibn Batouta,79961
+2025,9,NDR,Nador Ibn Batouta,59685
+2025,10,NDR,Nador Ibn Batouta,49123
+2025,11,NDR,Nador Ibn Batouta,36241
+2025,12,NDR,Nador Ibn Batouta,39718
+2025,1,ERH,Errachidia Moulay Ali Cherif,16385
+2025,2,ERH,Errachidia Moulay Ali Cherif,12470
+2025,3,ERH,Errachidia Moulay Ali Cherif,19993
+2025,4,ERH,Errachidia Moulay Ali Cherif,22689
+2025,5,ERH,Errachidia Moulay Ali Cherif,22699
+2025,6,ERH,Errachidia Moulay Ali Cherif,19335
+2025,7,ERH,Errachidia Moulay Ali Cherif,32412
+2025,8,ERH,Errachidia Moulay Ali Cherif,39228
+2025,9,ERH,Errachidia Moulay Ali Cherif,27211
+2025,10,ERH,Errachidia Moulay Ali Cherif,22746
+2025,11,ERH,Errachidia Moulay Ali Cherif,16816
+2025,12,ERH,Errachidia Moulay Ali Cherif,18518
+2025,1,VIL,Dakhla,14528
+2025,2,VIL,Dakhla,12862
+2025,3,VIL,Dakhla,17940
+2025,4,VIL,Dakhla,17228
+2025,5,VIL,Dakhla,18558
+2025,6,VIL,Dakhla,16101
+2025,7,VIL,Dakhla,29454
+2025,8,VIL,Dakhla,34744
+2025,9,VIL,Dakhla,21931
+2025,10,VIL,Dakhla,23072
+2025,11,VIL,Dakhla,17473
+2025,12,VIL,Dakhla,17400
+2025,1,EUN,Laayoune Hassan I,13890
+2025,2,EUN,Laayoune Hassan I,10214
+2025,3,EUN,Laayoune Hassan I,13961
+2025,4,EUN,Laayoune Hassan I,17540
+2025,5,EUN,Laayoune Hassan I,17943
+2025,6,EUN,Laayoune Hassan I,15546
+2025,7,EUN,Laayoune Hassan I,25041
+2025,8,EUN,Laayoune Hassan I,32173
+2025,9,EUN,Laayoune Hassan I,20979
+2025,10,EUN,Laayoune Hassan I,19476
+2025,11,EUN,Laayoune Hassan I,14665
+2025,12,EUN,Laayoune Hassan I,13872
+2025,1,TTU,Tetouan Sania Ramel,10621
+2025,2,TTU,Tetouan Sania Ramel,7483
+2025,3,TTU,Tetouan Sania Ramel,11127
+2025,4,TTU,Tetouan Sania Ramel,13175
+2025,5,TTU,Tetouan Sania Ramel,13523
+2025,6,TTU,Tetouan Sania Ramel,11026
+2025,7,TTU,Tetouan Sania Ramel,21650
+2025,8,TTU,Tetouan Sania Ramel,21071
+2025,9,TTU,Tetouan Sania Ramel,15070
+2025,10,TTU,Tetouan Sania Ramel,16248
+2025,11,TTU,Tetouan Sania Ramel,11978
+2025,12,TTU,Tetouan Sania Ramel,11498
+2025,1,ESU,Essaouira Mogador,7952
+2025,2,ESU,Essaouira Mogador,6400
+2025,3,ESU,Essaouira Mogador,9590
+2025,4,ESU,Essaouira Mogador,10703
+2025,5,ESU,Essaouira Mogador,10185
+2025,6,ESU,Essaouira Mogador,9828
+2025,7,ESU,Essaouira Mogador,17124
+2025,8,ESU,Essaouira Mogador,18891
+2025,9,ESU,Essaouira Mogador,14283
+2025,10,ESU,Essaouira Mogador,10930
+2025,11,ESU,Essaouira Mogador,9164
+2025,12,ESU,Essaouira Mogador,9223
+2025,1,OZZ,Ouarzazate,5644
+2025,2,OZZ,Ouarzazate,4788
+2025,3,OZZ,Ouarzazate,7751
+2025,4,OZZ,Ouarzazate,8528
+2025,5,OZZ,Ouarzazate,7532
+2025,6,OZZ,Ouarzazate,7750
+2025,7,OZZ,Ouarzazate,11471
+2025,8,OZZ,Ouarzazate,15274
+2025,9,OZZ,Ouarzazate,10123
+2025,10,OZZ,Ouarzazate,8505
+2025,11,OZZ,Ouarzazate,7598
+2025,12,OZZ,Ouarzazate,7303
+2025,1,MEK,Meknes,3755
+2025,2,MEK,Meknes,3311
+2025,3,MEK,Meknes,5151
+2025,4,MEK,Meknes,5222
+2025,5,MEK,Meknes,5838
+2025,6,MEK,Meknes,4601
+2025,7,MEK,Meknes,8171
+2025,8,MEK,Meknes,8776
+2025,9,MEK,Meknes,6470
+2025,10,MEK,Meknes,5723
+2025,11,MEK,Meknes,4709
+2025,12,MEK,Meknes,4536
+2026,1,RAK,Marrakech Menara,486424
+2026,2,RAK,Marrakech Menara,412685
+2026,3,RAK,Marrakech Menara,533682
+2026,4,RAK,Marrakech Menara,631144
+2026,5,RAK,Marrakech Menara,689705
+2026,6,RAK,Marrakech Menara,525775
+2026,7,RAK,Marrakech Menara,984323
+2026,8,RAK,Marrakech Menara,1068457
+2026,9,RAK,Marrakech Menara,855728
+2026,10,RAK,Marrakech Menara,724678
+2026,11,RAK,Marrakech Menara,600174
+2026,12,RAK,Marrakech Menara,520844
+2026,1,CMN,Casablanca Mohammed V,676823
+2026,2,CMN,Casablanca Mohammed V,540209
+2026,3,CMN,Casablanca Mohammed V,799050
+2026,4,CMN,Casablanca Mohammed V,895645
+2026,5,CMN,Casablanca Mohammed V,903048
+2026,6,CMN,Casablanca Mohammed V,768703
+2026,7,CMN,Casablanca Mohammed V,1322178
+2026,8,CMN,Casablanca Mohammed V,1619229
+2026,9,CMN,Casablanca Mohammed V,1062655
+2026,10,CMN,Casablanca Mohammed V,916004
+2026,11,CMN,Casablanca Mohammed V,818251
+2026,12,CMN,Casablanca Mohammed V,717977
+2026,1,TNG,Tanger Ibn Battouta,243882
+2026,2,TNG,Tanger Ibn Battouta,208948
+2026,3,TNG,Tanger Ibn Battouta,342372
+2026,4,TNG,Tanger Ibn Battouta,342416
+2026,5,TNG,Tanger Ibn Battouta,356682
+2026,6,TNG,Tanger Ibn Battouta,285143
+2026,7,TNG,Tanger Ibn Battouta,496760
+2026,8,TNG,Tanger Ibn Battouta,664548
+2026,9,TNG,Tanger Ibn Battouta,487014
+2026,10,TNG,Tanger Ibn Battouta,385097
+2026,11,TNG,Tanger Ibn Battouta,287604
+2026,12,TNG,Tanger Ibn Battouta,307032
+2026,1,AGA,Agadir Al Massira,197028
+2026,2,AGA,Agadir Al Massira,166600
+2026,3,AGA,Agadir Al Massira,222972
+2026,4,AGA,Agadir Al Massira,256066
+2026,5,AGA,Agadir Al Massira,290822
+2026,6,AGA,Agadir Al Massira,255871
+2026,7,AGA,Agadir Al Massira,394845
+2026,8,AGA,Agadir Al Massira,447580
+2026,9,AGA,Agadir Al Massira,348736
+2026,10,AGA,Agadir Al Massira,330715
+2026,11,AGA,Agadir Al Massira,216295
+2026,12,AGA,Agadir Al Massira,218406
+2026,1,FEZ,Fès Saïss,99390
+2026,2,FEZ,Fès Saïss,82692
+2026,3,FEZ,Fès Saïss,134372
+2026,4,FEZ,Fès Saïss,157874
+2026,5,FEZ,Fès Saïss,145174
+2026,6,FEZ,Fès Saïss,136261
+2026,7,FEZ,Fès Saïss,200112
+2026,8,FEZ,Fès Saïss,241824
+2026,9,FEZ,Fès Saïss,182936
+2026,10,FEZ,Fès Saïss,165544
+2026,11,FEZ,Fès Saïss,119602
+2026,12,FEZ,Fès Saïss,113220
+2026,1,RBA,Rabat-Salé,74396
+2026,2,RBA,Rabat-Salé,65078
+2026,3,RBA,Rabat-Salé,88092
+2026,4,RBA,Rabat-Salé,104059
+2026,5,RBA,Rabat-Salé,102534
+2026,6,RBA,Rabat-Salé,87118
+2026,7,RBA,Rabat-Salé,134338
+2026,8,RBA,Rabat-Salé,168029
+2026,9,RBA,Rabat-Salé,128304
+2026,10,RBA,Rabat-Salé,105734
+2026,11,RBA,Rabat-Salé,95455
+2026,12,RBA,Rabat-Salé,84563
+2026,1,OUD,Oujda Angads,45347
+2026,2,OUD,Oujda Angads,37901
+2026,3,OUD,Oujda Angads,57765
+2026,4,OUD,Oujda Angads,60795
+2026,5,OUD,Oujda Angads,62190
+2026,6,OUD,Oujda Angads,54944
+2026,7,OUD,Oujda Angads,94796
+2026,8,OUD,Oujda Angads,119837
+2026,9,OUD,Oujda Angads,76423
+2026,10,OUD,Oujda Angads,66635
+2026,11,OUD,Oujda Angads,53359
+2026,12,OUD,Oujda Angads,57795
+2026,1,NDR,Nador Ibn Batouta,39891
+2026,2,NDR,Nador Ibn Batouta,30197
+2026,3,NDR,Nador Ibn Batouta,49067
+2026,4,NDR,Nador Ibn Batouta,55298
+2026,5,NDR,Nador Ibn Batouta,52490
+2026,6,NDR,Nador Ibn Batouta,45304
+2026,7,NDR,Nador Ibn Batouta,77435
+2026,8,NDR,Nador Ibn Batouta,89514
+2026,9,NDR,Nador Ibn Batouta,59111
+2026,10,NDR,Nador Ibn Batouta,60831
+2026,11,NDR,Nador Ibn Batouta,48816
+2026,12,NDR,Nador Ibn Batouta,49017
+2026,1,ERH,Errachidia Moulay Ali Cherif,20305
+2026,2,ERH,Errachidia Moulay Ali Cherif,17767
+2026,3,ERH,Errachidia Moulay Ali Cherif,21517
+2026,4,ERH,Errachidia Moulay Ali Cherif,28548
+2026,5,ERH,Errachidia Moulay Ali Cherif,26302
+2026,6,ERH,Errachidia Moulay Ali Cherif,21712
+2026,7,ERH,Errachidia Moulay Ali Cherif,38178
+2026,8,ERH,Errachidia Moulay Ali Cherif,48682
+2026,9,ERH,Errachidia Moulay Ali Cherif,35923
+2026,10,ERH,Errachidia Moulay Ali Cherif,31166
+2026,11,ERH,Errachidia Moulay Ali Cherif,25052
+2026,12,ERH,Errachidia Moulay Ali Cherif,24767
+2026,1,VIL,Dakhla,18848
+2026,2,VIL,Dakhla,15619
+2026,3,VIL,Dakhla,18482
+2026,4,VIL,Dakhla,22667
+2026,5,VIL,Dakhla,25054
+2026,6,VIL,Dakhla,19529
+2026,7,VIL,Dakhla,35027
+2026,8,VIL,Dakhla,44741
+2026,9,VIL,Dakhla,29326
+2026,10,VIL,Dakhla,24708
+2026,11,VIL,Dakhla,22306
+2026,12,VIL,Dakhla,18981
+2026,1,EUN,Laayoune Hassan I,14496
+2026,2,EUN,Laayoune Hassan I,12928
+2026,3,EUN,Laayoune Hassan I,15999
+2026,4,EUN,Laayoune Hassan I,18072
+2026,5,EUN,Laayoune Hassan I,21408
+2026,6,EUN,Laayoune Hassan I,17321
+2026,7,EUN,Laayoune Hassan I,30303
+2026,8,EUN,Laayoune Hassan I,34098
+2026,9,EUN,Laayoune Hassan I,26748
+2026,10,EUN,Laayoune Hassan I,23578
+2026,11,EUN,Laayoune Hassan I,16424
+2026,12,EUN,Laayoune Hassan I,17458
+2026,1,TTU,Tetouan Sania Ramel,9845
+2026,2,TTU,Tetouan Sania Ramel,9600
+2026,3,TTU,Tetouan Sania Ramel,13643
+2026,4,TTU,Tetouan Sania Ramel,13861
+2026,5,TTU,Tetouan Sania Ramel,13664
+2026,6,TTU,Tetouan Sania Ramel,13030
+2026,7,TTU,Tetouan Sania Ramel,20106
+2026,8,TTU,Tetouan Sania Ramel,24835
+2026,9,TTU,Tetouan Sania Ramel,16525
+2026,10,TTU,Tetouan Sania Ramel,17499
+2026,11,TTU,Tetouan Sania Ramel,12035
+2026,12,TTU,Tetouan Sania Ramel,12652
+2026,1,ESU,Essaouira Mogador,9637
+2026,2,ESU,Essaouira Mogador,8348
+2026,3,ESU,Essaouira Mogador,11137
+2026,4,ESU,Essaouira Mogador,12816
+2026,5,ESU,Essaouira Mogador,12929
+2026,6,ESU,Essaouira Mogador,10364
+2026,7,ESU,Essaouira Mogador,16796
+2026,8,ESU,Essaouira Mogador,22922
+2026,9,ESU,Essaouira Mogador,13936
+2026,10,ESU,Essaouira Mogador,14544
+2026,11,ESU,Essaouira Mogador,10455
+2026,12,ESU,Essaouira Mogador,9715
+2026,1,OZZ,Ouarzazate,7166
+2026,2,OZZ,Ouarzazate,6299
+2026,3,OZZ,Ouarzazate,9309
+2026,4,OZZ,Ouarzazate,9891
+2026,5,OZZ,Ouarzazate,9488
+2026,6,OZZ,Ouarzazate,8599
+2026,7,OZZ,Ouarzazate,16733
+2026,8,OZZ,Ouarzazate,17218
+2026,9,OZZ,Ouarzazate,12940
+2026,10,OZZ,Ouarzazate,10360
+2026,11,OZZ,Ouarzazate,9186
+2026,12,OZZ,Ouarzazate,9167
+2026,1,MEK,Meknes,5357
+2026,2,MEK,Meknes,4493
+2026,3,MEK,Meknes,6526
+2026,4,MEK,Meknes,6993
+2026,5,MEK,Meknes,6430
+2026,6,MEK,Meknes,6634
+2026,7,MEK,Meknes,10300
+2026,8,MEK,Meknes,12432
+2026,9,MEK,Meknes,8196
+2026,10,MEK,Meknes,7568
+2026,11,MEK,Meknes,5652
+2026,12,MEK,Meknes,5866

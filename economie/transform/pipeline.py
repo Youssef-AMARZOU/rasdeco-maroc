@@ -139,6 +139,11 @@ def run_pipeline(
         print("\n!  Aucune donnee parsee. Executez d'abord les scripts de collecte.")
         return {"status": "no_data", "n_rows": 0}
 
+    # Ensure all chunks have date as String before concat
+    for i, chunk in enumerate(chunks):
+        if "date" in chunk.columns and chunk["date"].dtype in (pl.Date, pl.Datetime):
+            chunks[i] = chunk.with_columns(pl.col("date").cast(pl.Utf8))
+
     fact = pl.concat(chunks, how="vertical")
     print(f"\n  Total brut consolide : {len(fact)} lignes")
 
@@ -153,15 +158,48 @@ def run_pipeline(
     print(f"  Doublons supprimes : {dup_removed}")
     print(f"  Lignes apres dedoublonnage : {len(fact)}")
 
-    # -- Phase 3 : Correction des types
+    # -- Phase 3 : Correction des types + normalisation masterdata
     print("\n-- Phase 3 : Typage et normalisation --")
     fact = fact.with_columns(
-        pl.col("date").str.to_date().alias("date"),
+        pl.col("date").str.to_date(strict=False).alias("date"),
         pl.col("code_indicateur").fill_null("?"),
         pl.col("source_code").fill_null("?"),
         pl.col("region_code").fill_null("MA00"),
     )
-    print("  OK Types normalises")
+    before_filter = len(fact)
+    fact = fact.filter(pl.col("date").is_not_null())
+    dropped = before_filter - len(fact)
+    if dropped:
+        print(f"  Lignes avec dates invalides supprimees : {dropped}")
+    before_yr = len(fact)
+    fact = fact.filter(pl.col("date").dt.year() >= 1900)
+    yr_dropped = before_yr - len(fact)
+    if yr_dropped:
+        print(f"  Lignes avec annee < 1900 supprimees : {yr_dropped}")
+
+    # Normalisation masterdata : traduction arabe, unites, domaines, catch-all
+    from .masterdata import apply_masterdata_normalization
+    before_norm = len(fact)
+    fact = apply_masterdata_normalization(fact)
+    norm_dropped = before_norm - len(fact)
+    if norm_dropped:
+        print(f"  Lignes non-economiques supprimees : {norm_dropped}")
+
+    # Standardiser unites restantes et domaines restants via INDICATOR_CODES
+    from .parsers.base import INDICATOR_CODES
+    for code, meta in INDICATOR_CODES.items():
+        mask = pl.col("code_indicateur").eq(code)
+        fact = fact.with_columns(
+            pl.when(mask & pl.col("unite").eq("?"))
+            .then(pl.lit(meta.get("unite", "?")))
+            .otherwise(pl.col("unite"))
+            .alias("unite"),
+            pl.when(mask & pl.col("domaine_code").eq("?"))
+            .then(pl.lit(meta.get("domaine", "?")))
+            .otherwise(pl.col("domaine_code"))
+            .alias("domaine_code"),
+        )
+    print("  OK Types normalises + masterdata unifie")
 
     # -- Phase 4 : Imputation conditionnelle
     print("\n-- Phase 4 : Imputation conditionnelle --")

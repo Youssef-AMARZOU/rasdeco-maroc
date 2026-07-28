@@ -1,0 +1,45 @@
+{
+  "year": 2024,
+  "domaine": "Agriculture",
+  "kpis": [
+    {
+      "label": "Production céréalière",
+      "value": 44,
+      "unit": "M qx"
+    },
+    {
+      "label": "Valeur ajoutée agricole",
+      "value": 118,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Superficie cultivée",
+      "value": 10,
+      "unit": "M ha"
+    },
+    {
+      "label": "Exportations agricoles",
+      "value": 65,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Rendement céréalier moyen",
+      "value": 14,
+      "unit": "qx/ha"
+    },
+    {
+      "label": "Remplissage des barrages",
+      "value": 55,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PROD_CEREALIERE": 44,
+    "VA_AGRICOLE": 118,
+    "SUPERFICIE_CULTIVEE": 10,
+    "EXPORT_AGRICOLE": 65,
+    "RENDEMENT_CEREALIER": 14,
+    "REMPLISSAGE_BARRAGES": 55
+  },
+  "source": "HCP/MINA"
+}

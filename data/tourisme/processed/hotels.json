@@ -1,0 +1,177 @@
+[
+  {
+    "name": "La Mamounia",
+    "city": "Marrakech",
+    "stars": 5,
+    "rooms": 209,
+    "revenue_mad_millions": 320
+  },
+  {
+    "name": "Royal Mansour",
+    "city": "Marrakech",
+    "stars": 5,
+    "rooms": 53,
+    "revenue_mad_millions": 450
+  },
+  {
+    "name": "Four Seasons Resort",
+    "city": "Marrakech",
+    "stars": 5,
+    "rooms": 139,
+    "revenue_mad_millions": 280
+  },
+  {
+    "name": "Amanjena",
+    "city": "Marrakech",
+    "stars": 5,
+    "rooms": 32,
+    "revenue_mad_millions": 380
+  },
+  {
+    "name": "Sofitel Marrakech",
+    "city": "Marrakech",
+    "stars": 5,
+    "rooms": 303,
+    "revenue_mad_millions": 210
+  },
+  {
+    "name": "Riad Yasmine",
+    "city": "Marrakech",
+    "stars": 4,
+    "rooms": 7,
+    "revenue_mad_millions": 85
+  },
+  {
+    "name": "Kenzi Tower Hotel",
+    "city": "Casablanca",
+    "stars": 5,
+    "rooms": 240,
+    "revenue_mad_millions": 190
+  },
+  {
+    "name": "Four Seasons Casablanca",
+    "city": "Casablanca",
+    "stars": 5,
+    "rooms": 186,
+    "revenue_mad_millions": 260
+  },
+  {
+    "name": "Hyatt Regency",
+    "city": "Casablanca",
+    "stars": 5,
+    "rooms": 252,
+    "revenue_mad_millions": 175
+  },
+  {
+    "name": "Sofitel Casablanca",
+    "city": "Casablanca",
+    "stars": 5,
+    "rooms": 141,
+    "revenue_mad_millions": 145
+  },
+  {
+    "name": "Hilton Tanger City Center",
+    "city": "Tanger",
+    "stars": 5,
+    "rooms": 200,
+    "revenue_mad_millions": 155
+  },
+  {
+    "name": "Sofitel Tanger Bay",
+    "city": "Tanger",
+    "stars": 5,
+    "rooms": 103,
+    "revenue_mad_millions": 130
+  },
+  {
+    "name": "Hotel & Spa La Folie",
+    "city": "Tanger",
+    "stars": 4,
+    "rooms": 44,
+    "revenue_mad_millions": 95
+  },
+  {
+    "name": "Riad Laaroussa",
+    "city": "Fès",
+    "stars": 5,
+    "rooms": 28,
+    "revenue_mad_millions": 170
+  },
+  {
+    "name": "Palais Amani",
+    "city": "Fès",
+    "stars": 5,
+    "rooms": 21,
+    "revenue_mad_millions": 195
+  },
+  {
+    "name": "Sofitel Palais Jamai",
+    "city": "Fès",
+    "stars": 5,
+    "rooms": 136,
+    "revenue_mad_millions": 120
+  },
+  {
+    "name": "Riad Fès",
+    "city": "Fès",
+    "stars": 5,
+    "rooms": 32,
+    "revenue_mad_millions": 140
+  },
+  {
+    "name": "Sofitel Agadir Royal Bay",
+    "city": "Agadir",
+    "stars": 5,
+    "rooms": 174,
+    "revenue_mad_millions": 115
+  },
+  {
+    "name": "Riu Palace Tikida",
+    "city": "Agadir",
+    "stars": 5,
+    "rooms": 524,
+    "revenue_mad_millions": 90
+  },
+  {
+    "name": "Iberostar Founty",
+    "city": "Agadir",
+    "stars": 5,
+    "rooms": 380,
+    "revenue_mad_millions": 75
+  },
+  {
+    "name": "Kasbah Tamadot",
+    "city": "Asni",
+    "stars": 5,
+    "rooms": 28,
+    "revenue_mad_millions": 420
+  },
+  {
+    "name": "Scarabeo Camp",
+    "city": "Agafay",
+    "stars": 4,
+    "rooms": 14,
+    "revenue_mad_millions": 350
+  },
+  {
+    "name": "Kam Kam Dunes",
+    "city": "Merzouga",
+    "stars": 3,
+    "rooms": 20,
+    "revenue_mad_millions": 180
+  },
+  {
+    "name": "Riad Kniza",
+    "city": "Marrakech",
+    "stars": 5,
+    "rooms": 11,
+    "revenue_mad_millions": 390
+  },
+  {
+    "name": "Dar Ahlam",
+    "city": "Skoura",
+    "stars": 5,
+    "rooms": 14,
+    "revenue_mad_millions": 480
+  }
+]

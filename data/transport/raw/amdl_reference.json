@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "country": "Morocco",
+    "domain": "transport_and_logistics",
+    "modes": ["rail", "air", "maritime_port", "road"],
+    "period": { "start_year": 1999, "end_year": 2026 },
+    "official_sources": [
+      "Ministère de l'Équipement et du Transport / Transport et Logistique",
+      "AMDL (Agence Marocaine de Développement de la Logistique)",
+      "HCP (Haut-Commissariat au Plan)",
+      "Bank Al-Maghrib",
+      "Banque mondiale",
+      "Bulletin Officiel du Royaume du Maroc",
+      "Parlement (Chambre des représentants / Conseillers)"
+    ]
+  },
+  "amdl_key_figures_2019": {
+    "value_added_total_billion_mad": 56,
+    "value_added_share_gdp_percent": 5.48,
+    "direct_contribution_billion_mad": 28.7,
+    "direct_contribution_share_gdp_percent": 2.8,
+    "employment_total": 472000,
+    "employment_share_active_population_percent": 4.3,
+    "employment_growth_rate_percent": 2.6,
+    "investment_billion_mad": 31,
+    "investment_share_fbcf_percent": 9.8,
+    "source_url": "https://www.amdl.gov.ma/amdl/chiffres-cles/"
+  },
+  "world_bank_lpi": {
+    "indicator_code": "LP.LPI.INFR.XQ",
+    "description": "Logistics performance index: quality of trade and transport-related infrastructure",
+    "url": "https://data.worldbank.org/indicator/LP.LPI.INFR.XQ?locations=MA"
+  },
+  "rail_2019": {
+    "network_km": 2110,
+    "electrified_km": 640,
+    "freight_tonnes": 22000000,
+    "main_operator": "ONCF"
+  },
+  "road_2019": {
+    "roads_km_total": 57000,
+    "highways_km": 1800
+  },
+  "air_2024": {
+    "passengers_million": 24.5,
+    "freight_tonnes": 95000
+  },
+  "maritime_2024": {
+    "tanger_med_freight_tonnes": 107000000,
+    "casablanca_freight_tonnes": 34000000,
+    "tanger_med_containers_teu_million": 9
+  }
+}

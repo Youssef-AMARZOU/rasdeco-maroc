@@ -1,0 +1,257 @@
+{
+  "iid": 176,
+  "code": "I1821",
+  "label": "Budget de l'éducation nationale (en millions de dh)",
+  "metaData": {
+    "unit": " Millions de dh",
+    "frequency": "AS",
+    "source": "Ministère de l'Enseignement supérieur, de la Recherche scientifique et de l'Innovation.",
+    "definitionFr": "Le budget de l'Éducation nationale  est l'allocation financière fixée par la Loi de finances pour le fonctionnement et le développement du système éducatif.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012"
+  ],
+  "dimensions": [
+    {
+      "id": 136,
+      "rank": 1,
+      "label": "Type dépense",
+      "modalites": [
+        {
+          "id": 1681,
+          "rank": 1,
+          "label": "Personnel",
+          "total": false
+        },
+        {
+          "id": 1682,
+          "rank": 2,
+          "label": "Matériels et Dépenses divers",
+          "total": false
+        },
+        {
+          "id": 1683,
+          "rank": 3,
+          "label": "Investissement",
+          "total": false
+        },
+        {
+          "id": 1684,
+          "rank": 4,
+          "label": "Total budget",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1734247800000,
+  "data": {
+    "1682_2012": {
+      "value": "4437",
+      "footNote": null
+    },
+    "1682_2013": {
+      "value": "3829",
+      "footNote": null
+    },
+    "1682_2014": {
+      "value": "3810",
+      "footNote": null
+    },
+    "1682_2015": {
+      "value": "3864",
+      "footNote": null
+    },
+    "1682_2016": {
+      "value": "4644",
+      "footNote": null
+    },
+    "1682_2017": {
+      "value": "3931",
+      "footNote": null
+    },
+    "1682_2018": {
+      "value": "7681",
+      "footNote": null
+    },
+    "1682_2019": {
+      "value": "10050",
+      "footNote": null
+    },
+    "1682_2020": {
+      "value": "10915",
+      "footNote": null
+    },
+    "1682_2021": {
+      "value": "13881",
+      "footNote": null
+    },
+    "1682_2022": {
+      "value": "17031",
+      "footNote": null
+    },
+    "1682_2023": {
+      "value": "21092",
+      "footNote": null
+    },
+    "1681_2012": {
+      "value": "34795",
+      "footNote": null
+    },
+    "1681_2013": {
+      "value": "35780",
+      "footNote": null
+    },
+    "1681_2014": {
+      "value": "39600",
+      "footNote": null
+    },
+    "1681_2015": {
+      "value": "39736",
+      "footNote": null
+    },
+    "1681_2016": {
+      "value": "38868",
+      "footNote": null
+    },
+    "1681_2017": {
+      "value": "37955",
+      "footNote": null
+    },
+    "1681_2018": {
+      "value": "35977",
+      "footNote": null
+    },
+    "1681_2019": {
+      "value": "34980",
+      "footNote": null
+    },
+    "1681_2020": {
+      "value": "40038",
+      "footNote": null
+    },
+    "1681_2021": {
+      "value": "40064",
+      "footNote": null
+    },
+    "1681_2022": {
+      "value": "38892",
+      "footNote": null
+    },
+    "1681_2023": {
+      "value": "40703",
+      "footNote": null
+    },
+    "1684_2012": {
+      "value": "48232",
+      "footNote": null
+    },
+    "1684_2013": {
+      "value": "44920",
+      "footNote": null
+    },
+    "1684_2014": {
+      "value": "48397",
+      "footNote": null
+    },
+    "1684_2015": {
+      "value": "46771",
+      "footNote": null
+    },
+    "1684_2016": {
+      "value": "47141",
+      "footNote": null
+    },
+    "1684_2017": {
+      "value": "45711",
+      "footNote": null
+    },
+    "1684_2018": {
+      "value": "48158",
+      "footNote": null
+    },
+    "1684_2019": {
+      "value": "50321",
+      "footNote": null
+    },
+    "1684_2020": {
+      "value": "55639",
+      "footNote": null
+    },
+    "1684_2021": {
+      "value": "58862",
+      "footNote": null
+    },
+    "1684_2022": {
+      "value": "62452",
+      "footNote": null
+    },
+    "1684_2023": {
+      "value": "68976",
+      "footNote": null
+    },
+    "1683_2012": {
+      "value": "9000",
+      "footNote": null
+    },
+    "1683_2013": {
+      "value": "5311",
+      "footNote": null
+    },
+    "1683_2014": {
+      "value": "4987",
+      "footNote": null
+    },
+    "1683_2015": {
+      "value": "3171",
+      "footNote": null
+    },
+    "1683_2016": {
+      "value": "3630",
+      "footNote": null
+    },
+    "1683_2017": {
+      "value": "3826",
+      "footNote": null
+    },
+    "1683_2018": {
+      "value": "4500",
+      "footNote": null
+    },
+    "1683_2019": {
+      "value": "5291",
+      "footNote": null
+    },
+    "1683_2020": {
+      "value": "4685",
+      "footNote": null
+    },
+    "1683_2021": {
+      "value": "4917",
+      "footNote": null
+    },
+    "1683_2022": {
+      "value": "6529",
+      "footNote": null
+    },
+    "1683_2023": {
+      "value": "7181",
+      "footNote": null
+    }
+  }
+}

@@ -178,6 +178,8 @@ def aggregate_ancien_region(
             mappings.append({"ancien": code_16, "nouveau": n_code, "regle": regle, "note": note})
 
     map_df = pl.DataFrame(mappings)
+    if map_df.is_empty():
+        return df
 
     result = df.join(map_df, left_on=region_col, right_on="ancien", how="inner").with_columns(
         pl.when(pl.col("regle") == "PARTIEL")

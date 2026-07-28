@@ -1,0 +1,292 @@
+{
+  "iid": 230,
+  "code": "I257",
+  "label": "Nombre d'hôpitaux",
+  "metaData": {
+    "unit": "NOMBRE",
+    "frequency": "AS",
+    "source": " MINISTERE DE LA SANTE ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2015",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000"
+  ],
+  "dimensions": [
+    {
+      "id": 201,
+      "rank": 1,
+      "label": "Grands Secteurs",
+      "modalites": [
+        {
+          "id": 3344,
+          "rank": 1,
+          "label": "Public ",
+          "total": false
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "rank": 1,
+      "label": "Domaine (santé)",
+      "modalites": [
+        {
+          "id": 3347,
+          "rank": 1,
+          "label": "Généralistes ",
+          "total": false
+        },
+        {
+          "id": 3348,
+          "rank": 2,
+          "label": "Spécialistes ",
+          "total": false
+        },
+        {
+          "id": 3349,
+          "rank": 3,
+          "label": "Total ",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1775558414530,
+  "data": {
+    "3344.3349_2000": {
+      "value": "112",
+      "footNote": null
+    },
+    "3344.3349_2001": {
+      "value": "120",
+      "footNote": null
+    },
+    "3344.3349_2002": {
+      "value": "122",
+      "footNote": null
+    },
+    "3344.3349_2003": {
+      "value": "127",
+      "footNote": null
+    },
+    "3344.3349_2004": {
+      "value": "125",
+      "footNote": null
+    },
+    "3344.3349_2005": {
+      "value": "128",
+      "footNote": null
+    },
+    "3344.3349_2006": {
+      "value": "133",
+      "footNote": null
+    },
+    "3344.3349_2007": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3349_2008": {
+      "value": "137",
+      "footNote": null
+    },
+    "3344.3349_2009": {
+      "value": "137",
+      "footNote": null
+    },
+    "3344.3349_2010": {
+      "value": "141",
+      "footNote": null
+    },
+    "3344.3349_2011": {
+      "value": "141",
+      "footNote": null
+    },
+    "3344.3349_2012": {
+      "value": "143",
+      "footNote": null
+    },
+    "3344.3349_2013": {
+      "value": "143",
+      "footNote": null
+    },
+    "3344.3349_2015": {
+      "value": "155",
+      "footNote": null
+    },
+    "3344.3349_2017": {
+      "value": "158",
+      "footNote": null
+    },
+    "3344.3349_2018": {
+      "value": "158",
+      "footNote": null
+    },
+    "3344.3349_2019": {
+      "value": "159",
+      "footNote": null
+    },
+    "3344.3349_2020": {
+      "value": "162",
+      "footNote": null
+    },
+    "3344.3349_2021": {
+      "value": "165",
+      "footNote": null
+    },
+    "3344.3349_2022": {
+      "value": "170",
+      "footNote": null
+    },
+    "3344.3349_2023": {
+      "value": "170",
+      "footNote": null
+    },
+    "3344.3349_2024": {
+      "value": "177",
+      "footNote": null
+    },
+    "3344.3349_2025": {
+      "value": "184",
+      "footNote": null
+    },
+    "3344.3348_2000": {
+      "value": "32",
+      "footNote": null
+    },
+    "3344.3348_2001": {
+      "value": "33",
+      "footNote": null
+    },
+    "3344.3348_2002": {
+      "value": "34",
+      "footNote": null
+    },
+    "3344.3348_2003": {
+      "value": "35",
+      "footNote": null
+    },
+    "3344.3348_2004": {
+      "value": "34",
+      "footNote": null
+    },
+    "3344.3348_2005": {
+      "value": "35",
+      "footNote": null
+    },
+    "3344.3348_2006": {
+      "value": "34",
+      "footNote": null
+    },
+    "3344.3348_2007": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3348_2008": {
+      "value": "35",
+      "footNote": null
+    },
+    "3344.3348_2009": {
+      "value": "35",
+      "footNote": null
+    },
+    "3344.3348_2010": {
+      "value": "37",
+      "footNote": null
+    },
+    "3344.3348_2011": {
+      "value": "37",
+      "footNote": null
+    },
+    "3344.3348_2012": {
+      "value": "38",
+      "footNote": null
+    },
+    "3344.3348_2013": {
+      "value": "38",
+      "footNote": null
+    },
+    "3344.3347_2000": {
+      "value": "80",
+      "footNote": null
+    },
+    "3344.3347_2001": {
+      "value": "87",
+      "footNote": null
+    },
+    "3344.3347_2002": {
+      "value": "88",
+      "footNote": null
+    },
+    "3344.3347_2003": {
+      "value": "92",
+      "footNote": null
+    },
+    "3344.3347_2004": {
+      "value": "91",
+      "footNote": null
+    },
+    "3344.3347_2005": {
+      "value": "93",
+      "footNote": null
+    },
+    "3344.3347_2006": {
+      "value": "99",
+      "footNote": null
+    },
+    "3344.3347_2007": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3347_2008": {
+      "value": "102",
+      "footNote": null
+    },
+    "3344.3347_2009": {
+      "value": "102",
+      "footNote": null
+    },
+    "3344.3347_2010": {
+      "value": "104",
+      "footNote": null
+    },
+    "3344.3347_2011": {
+      "value": "104",
+      "footNote": null
+    },
+    "3344.3347_2012": {
+      "value": "105",
+      "footNote": null
+    },
+    "3344.3347_2013": {
+      "value": "105",
+      "footNote": null
+    }
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "iid": 491,
+  "code": "I2789",
+  "label": "Age moyen au premier mariage ",
+  "metaData": {
+    "unit": "Nombre moyen",
+    "frequency": "AS",
+    "source": "Haut commissariat au plan",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2014",
+    "2010",
+    "2004",
+    "1994",
+    "1982",
+    "1971",
+    "1960"
+  ],
+  "dimensions": [
+    {
+      "id": 358,
+      "rank": 1,
+      "label": "Milieu",
+      "modalites": [
+        {
+          "id": 5515,
+          "rank": 1,
+          "label": "National",
+          "total": true
+        },
+        {
+          "id": 5516,
+          "rank": 2,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 5517,
+          "rank": 3,
+          "label": "Rural",
+          "total": false
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "rank": 2,
+      "label": "Sexe",
+      "modalites": [
+        {
+          "id": 5518,
+          "rank": 1,
+          "label": "Hommes",
+          "total": false
+        },
+        {
+          "id": 5519,
+          "rank": 2,
+          "label": "Femmes",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": true,
+  "shutOffComment": "La mise à jour de l’indicateur a été réalisée",
+  "updatingDate": 1777294250011,
+  "data": {
+    "5515.5519_1960": {
+      "value": "17.5",
+      "footNote": null
+    },
+    "5515.5519_1971": {
+      "value": "19.6",
+      "footNote": null
+    },
+    "5515.5519_1982": {
+      "value": "22.2",
+      "footNote": null
+    },
+    "5515.5519_1994": {
+      "value": "25.8",
+      "footNote": null
+    },
+    "5515.5519_2004": {
+      "value": "26.3",
+      "footNote": null
+    },
+    "5515.5519_2010": {
+      "value": "26.6",
+      "footNote": null
+    },
+    "5515.5519_2014": {
+      "value": "25.7",
+      "footNote": null
+    },
+    "5515.5519_2024": {
+      "value": "24.60",
+      "footNote": null
+    },
+    "5517.5518_1960": {
+      "value": "23.8",
+      "footNote": null
+    },
+    "5517.5518_1971": {
+      "value": "24.8",
+      "footNote": null
+    },
+    "5517.5518_1982": {
+      "value": "24.8",
+      "footNote": null
+    },
+    "5517.5518_1994": {
+      "value": "28.3",
+      "footNote": null
+    },
+    "5517.5518_2004": {
+      "value": "29.5",
+      "footNote": null
+    },
+    "5517.5518_2010": {
+      "value": "30",
+      "footNote": null
+    },
+    "5517.5518_2014": {
+      "value": "30.1",
+      "footNote": null
+    },
+    "5517.5518_2024": {
+      "value": "31.80",
+      "footNote": null
+    },
+    "5517.5519_1960": {
+      "value": "17.2",
+      "footNote": null
+    },
+    "5517.5519_1971": {
+      "value": "18.74",
+      "footNote": null
+    },
+    "5517.5519_1982": {
+      "value": "20.8",
+      "footNote": null
+    },
+    "5517.5519_1994": {
+      "value": "24.2",
+      "footNote": null
+    },
+    "5517.5519_2004": {
+      "value": "25.5",
+      "footNote": null
+    },
+    "5517.5519_2010": {
+      "value": "25.6",
+      "footNote": null
+    },
+    "5517.5519_2014": {
+      "value": "24.8",
+      "footNote": null
+    },
+    "5517.5519_2024": {
+      "value": "23.00",
+      "footNote": null
+    },
+    "5516.5519_1960": {
+      "value": "17.5",
+      "footNote": null
+    },
+    "5516.5519_1971": {
+      "value": "20.85",
+      "footNote": null
+    },
+    "5516.5519_1982": {
+      "value": "23.78",
+      "footNote": null
+    },
+    "5516.5519_1994": {
+      "value": "26.9",
+      "footNote": null
+    },
+    "5516.5519_2004": {
+      "value": "27.1",
+      "footNote": null
+    },
+    "5516.5519_2010": {
+      "value": "27.4",
+      "footNote": null
+    },
+    "5516.5519_2014": {
+      "value": "26.4",
+      "footNote": null
+    },
+    "5516.5519_2024": {
+      "value": "25.40",
+      "footNote": null
+    },
+    "5516.5518_1960": {
+      "value": "24.4",
+      "footNote": null
+    },
+    "5516.5518_1971": {
+      "value": "26.5",
+      "footNote": null
+    },
+    "5516.5518_1982": {
+      "value": "28.5",
+      "footNote": null
+    },
+    "5516.5518_1994": {
+      "value": "31.2",
+      "footNote": null
+    },
+    "5516.5518_2004": {
+      "value": "32.2",
+      "footNote": null
+    },
+    "5516.5518_2010": {
+      "value": "32.5",
+      "footNote": null
+    },
+    "5516.5518_2014": {
+      "value": "32.1",
+      "footNote": null
+    },
+    "5516.5518_2024": {
+      "value": "32.80",
+      "footNote": null
+    },
+    "5515.5518_1960": {
+      "value": "24",
+      "footNote": null
+    },
+    "5515.5518_1971": {
+      "value": "25.5",
+      "footNote": null
+    },
+    "5515.5518_1982": {
+      "value": "27.1",
+      "footNote": null
+    },
+    "5515.5518_1994": {
+      "value": "30",
+      "footNote": null
+    },
+    "5515.5518_2004": {
+      "value": "31.2",
+      "footNote": null
+    },
+    "5515.5518_2010": {
+      "value": "31.4",
+      "footNote": null
+    },
+    "5515.5518_2014": {
+      "value": "31.3",
+      "footNote": null
+    },
+    "5515.5518_2024": {
+      "value": "32.40",
+      "footNote": null
+    }
+  }
+}

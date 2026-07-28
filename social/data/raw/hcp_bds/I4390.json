@@ -1,0 +1,272 @@
+{
+  "iid": 558,
+  "code": "I4390",
+  "label": "Taux de la pauvreté au seuil  national par région",
+  "metaData": {
+    "unit": "%",
+    "frequency": "AS",
+    "source": "HCP",
+    "definitionFr": "C’est la proportion des personnes pauvres dans la population, voire le pourcentage des individus membres d’un ménage dont la dépense par tête est inférieure au seuil de pauvreté relative.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2022",
+    "2021",
+    "2014",
+    "2007",
+    "2001"
+  ],
+  "dimensions": [
+    {
+      "id": 448,
+      "rank": 1,
+      "label": "Régions",
+      "modalites": [
+        {
+          "id": 5896,
+          "rank": 1,
+          "label": "Total",
+          "total": true
+        },
+        {
+          "id": 5897,
+          "rank": 2,
+          "label": "Drâa-Tafilalet",
+          "total": false
+        },
+        {
+          "id": 5898,
+          "rank": 3,
+          "label": "Marrakech-Safi",
+          "total": false
+        },
+        {
+          "id": 5899,
+          "rank": 4,
+          "label": "Béni Mellal-Khénifra",
+          "total": false
+        },
+        {
+          "id": 5900,
+          "rank": 5,
+          "label": "Fès-Meknès",
+          "total": false
+        },
+        {
+          "id": 5901,
+          "rank": 6,
+          "label": "Oriental",
+          "total": false
+        },
+        {
+          "id": 5902,
+          "rank": 7,
+          "label": "Tanger-Tetouan-Al Hoceima",
+          "total": false
+        },
+        {
+          "id": 5903,
+          "rank": 8,
+          "label": "Souss-Massa",
+          "total": false
+        },
+        {
+          "id": 5904,
+          "rank": 9,
+          "label": "Rabat-Salé-Kénitra",
+          "total": false
+        },
+        {
+          "id": 5905,
+          "rank": 10,
+          "label": "Grand Casablanca-Settat",
+          "total": false
+        },
+        {
+          "id": 5906,
+          "rank": 11,
+          "label": "Régions du sud",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1702625400000,
+  "data": {
+    "5899_2001": {
+      "value": "14.4",
+      "footNote": null
+    },
+    "5899_2014": {
+      "value": "9.3",
+      "footNote": null
+    },
+    "5899_2021": {
+      "value": "4.7",
+      "footNote": null
+    },
+    "5899_2022": {
+      "value": "6.6",
+      "footNote": null
+    },
+    "5898_2001": {
+      "value": "20.2",
+      "footNote": null
+    },
+    "5898_2014": {
+      "value": "5.4",
+      "footNote": null
+    },
+    "5898_2021": {
+      "value": "4.7",
+      "footNote": null
+    },
+    "5898_2022": {
+      "value": "3.2",
+      "footNote": null
+    },
+    "5901_2001": {
+      "value": "18.2",
+      "footNote": null
+    },
+    "5901_2014": {
+      "value": "5.3",
+      "footNote": null
+    },
+    "5901_2021": {
+      "value": "0.9",
+      "footNote": null
+    },
+    "5901_2022": {
+      "value": "4.2",
+      "footNote": null
+    },
+    "5900_2001": {
+      "value": "16.6",
+      "footNote": null
+    },
+    "5900_2014": {
+      "value": "5.2",
+      "footNote": null
+    },
+    "5900_2021": {
+      "value": "1.5",
+      "footNote": null
+    },
+    "5900_2022": {
+      "value": "9",
+      "footNote": null
+    },
+    "5903_2001": {
+      "value": "16.7",
+      "footNote": null
+    },
+    "5903_2014": {
+      "value": "5.1",
+      "footNote": null
+    },
+    "5903_2021": {
+      "value": "6.5",
+      "footNote": null
+    },
+    "5903_2022": {
+      "value": "3.6",
+      "footNote": null
+    },
+    "5902_2001": {
+      "value": "11.5",
+      "footNote": null
+    },
+    "5902_2014": {
+      "value": "2.2",
+      "footNote": null
+    },
+    "5902_2021": {
+      "value": "2.8",
+      "footNote": null
+    },
+    "5902_2022": {
+      "value": "2.9",
+      "footNote": null
+    },
+    "5905_2001": {
+      "value": "6.9",
+      "footNote": null
+    },
+    "5905_2014": {
+      "value": "2",
+      "footNote": null
+    },
+    "5905_2021": {
+      "value": "1",
+      "footNote": null
+    },
+    "5905_2022": {
+      "value": "1.6",
+      "footNote": null
+    },
+    "5904_2001": {
+      "value": "15.5",
+      "footNote": null
+    },
+    "5904_2014": {
+      "value": "3.8",
+      "footNote": null
+    },
+    "5904_2021": {
+      "value": "1.8",
+      "footNote": null
+    },
+    "5904_2022": {
+      "value": "2.4",
+      "footNote": null
+    },
+    "5906_2001": {
+      "value": "6",
+      "footNote": null
+    },
+    "5906_2014": {
+      "value": "3.3",
+      "footNote": null
+    },
+    "5897_2001": {
+      "value": "40.3",
+      "footNote": null
+    },
+    "5897_2014": {
+      "value": "14.6",
+      "footNote": null
+    },
+    "5897_2021": {
+      "value": "11.1",
+      "footNote": null
+    },
+    "5897_2022": {
+      "value": "4.9",
+      "footNote": null
+    },
+    "5896_2001": {
+      "value": "15.3",
+      "footNote": null
+    },
+    "5896_2007": {
+      "value": "8.9",
+      "footNote": null
+    },
+    "5896_2014": {
+      "value": "4.8",
+      "footNote": null
+    },
+    "5896_2021": {
+      "value": "3",
+      "footNote": null
+    },
+    "5896_2022": {
+      "value": "3.9",
+      "footNote": null
+    }
+  }
+}

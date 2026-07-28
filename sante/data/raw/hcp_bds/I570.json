@@ -1,0 +1,429 @@
+{
+  "iid": 241,
+  "code": "I570",
+  "label": "Nombre de consultations curatives dispensées dans les formations sanitaires",
+  "metaData": {
+    "unit": "MILLIERS",
+    "frequency": "AS",
+    "source": " MINISTERE DE LA SANTE ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000"
+  ],
+  "dimensions": [
+    {
+      "id": 201,
+      "rank": 1,
+      "label": "Grands Secteurs",
+      "modalites": [
+        {
+          "id": 3344,
+          "rank": 1,
+          "label": "Public ",
+          "total": false
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "rank": 1,
+      "label": "Groupes d'âges",
+      "modalites": [
+        {
+          "id": 3366,
+          "rank": 13,
+          "label": "Total ",
+          "total": true
+        },
+        {
+          "id": 3367,
+          "rank": 14,
+          "label": "Moins de 5 ans",
+          "total": false
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "rank": 3,
+      "label": "Type de consultation",
+      "modalites": [
+        {
+          "id": 3368,
+          "rank": 1,
+          "label": "Médicales",
+          "total": false
+        },
+        {
+          "id": 3369,
+          "rank": 2,
+          "label": "Paramédicales",
+          "total": false
+        },
+        {
+          "id": 3370,
+          "rank": 3,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1418628600000,
+  "data": {
+    "3344.3366.3368_2000": {
+      "value": "11901",
+      "footNote": null
+    },
+    "3344.3366.3368_2001": {
+      "value": "13647",
+      "footNote": null
+    },
+    "3344.3366.3368_2002": {
+      "value": "14000",
+      "footNote": null
+    },
+    "3344.3366.3368_2003": {
+      "value": "11348",
+      "footNote": null
+    },
+    "3344.3366.3368_2004": {
+      "value": "15904",
+      "footNote": null
+    },
+    "3344.3366.3368_2005": {
+      "value": "14100",
+      "footNote": null
+    },
+    "3344.3366.3368_2006": {
+      "value": "15528",
+      "footNote": null
+    },
+    "3344.3366.3368_2007": {
+      "value": "17023",
+      "footNote": null
+    },
+    "3344.3366.3368_2008": {
+      "value": "17449",
+      "footNote": null
+    },
+    "3344.3366.3368_2009": {
+      "value": "17703",
+      "footNote": null
+    },
+    "3344.3366.3368_2010": {
+      "value": "18107",
+      "footNote": null
+    },
+    "3344.3366.3368_2011": {
+      "value": "18509",
+      "footNote": null
+    },
+    "3344.3366.3368_2012": {
+      "value": "19828",
+      "footNote": null
+    },
+    "3344.3366.3368_2013": {
+      "value": "20699",
+      "footNote": null
+    },
+    "3344.3367.3370_2000": {
+      "value": "6688",
+      "footNote": null
+    },
+    "3344.3367.3370_2001": {
+      "value": "7242",
+      "footNote": null
+    },
+    "3344.3367.3370_2002": {
+      "value": "7589",
+      "footNote": null
+    },
+    "3344.3367.3370_2003": {
+      "value": "4989",
+      "footNote": null
+    },
+    "3344.3367.3370_2004": {
+      "value": "7908",
+      "footNote": null
+    },
+    "3344.3367.3370_2005": {
+      "value": "7423",
+      "footNote": null
+    },
+    "3344.3367.3370_2006": {
+      "value": "8021",
+      "footNote": null
+    },
+    "3344.3367.3370_2007": {
+      "value": "8711",
+      "footNote": null
+    },
+    "3344.3367.3370_2008": {
+      "value": "9085",
+      "footNote": null
+    },
+    "3344.3367.3370_2009": {
+      "value": "8957",
+      "footNote": null
+    },
+    "3344.3367.3370_2010": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3370_2011": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3370_2012": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3370_2013": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3366.3369_2000": {
+      "value": "23691",
+      "footNote": null
+    },
+    "3344.3366.3369_2001": {
+      "value": "25122",
+      "footNote": null
+    },
+    "3344.3366.3369_2002": {
+      "value": "25475",
+      "footNote": null
+    },
+    "3344.3366.3369_2003": {
+      "value": "20150",
+      "footNote": null
+    },
+    "3344.3366.3369_2004": {
+      "value": "26812",
+      "footNote": null
+    },
+    "3344.3366.3369_2005": {
+      "value": "24953",
+      "footNote": null
+    },
+    "3344.3366.3369_2006": {
+      "value": "25260",
+      "footNote": null
+    },
+    "3344.3366.3369_2007": {
+      "value": "26940",
+      "footNote": null
+    },
+    "3344.3366.3369_2008": {
+      "value": "26414",
+      "footNote": null
+    },
+    "3344.3366.3369_2009": {
+      "value": "25984",
+      "footNote": null
+    },
+    "3344.3366.3369_2010": {
+      "value": "26504",
+      "footNote": null
+    },
+    "3344.3366.3369_2011": {
+      "value": "27358",
+      "footNote": null
+    },
+    "3344.3366.3369_2012": {
+      "value": "28605",
+      "footNote": null
+    },
+    "3344.3366.3369_2013": {
+      "value": "28673",
+      "footNote": null
+    },
+    "3344.3367.3368_2000": {
+      "value": "2317",
+      "footNote": null
+    },
+    "3344.3367.3368_2001": {
+      "value": "2512",
+      "footNote": null
+    },
+    "3344.3367.3368_2002": {
+      "value": "2888",
+      "footNote": null
+    },
+    "3344.3367.3368_2003": {
+      "value": "1983",
+      "footNote": null
+    },
+    "3344.3367.3368_2004": {
+      "value": "3128",
+      "footNote": null
+    },
+    "3344.3367.3368_2005": {
+      "value": "2813",
+      "footNote": null
+    },
+    "3344.3367.3368_2006": {
+      "value": "3163",
+      "footNote": null
+    },
+    "3344.3367.3368_2007": {
+      "value": "3495",
+      "footNote": null
+    },
+    "3344.3367.3368_2008": {
+      "value": "3637",
+      "footNote": null
+    },
+    "3344.3367.3368_2009": {
+      "value": "3654",
+      "footNote": null
+    },
+    "3344.3367.3368_2010": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3368_2011": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3368_2012": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3368_2013": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3369_2000": {
+      "value": "4371",
+      "footNote": null
+    },
+    "3344.3367.3369_2001": {
+      "value": "4730",
+      "footNote": null
+    },
+    "3344.3367.3369_2002": {
+      "value": "4701",
+      "footNote": null
+    },
+    "3344.3367.3369_2003": {
+      "value": "3006",
+      "footNote": null
+    },
+    "3344.3367.3369_2004": {
+      "value": "4780",
+      "footNote": null
+    },
+    "3344.3367.3369_2005": {
+      "value": "4610",
+      "footNote": null
+    },
+    "3344.3367.3369_2006": {
+      "value": "4858",
+      "footNote": null
+    },
+    "3344.3367.3369_2007": {
+      "value": "5216",
+      "footNote": null
+    },
+    "3344.3367.3369_2008": {
+      "value": "5448",
+      "footNote": null
+    },
+    "3344.3367.3369_2009": {
+      "value": "5303",
+      "footNote": null
+    },
+    "3344.3367.3369_2010": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3369_2011": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3369_2012": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3367.3369_2013": {
+      "value": null,
+      "footNote": null
+    },
+    "3344.3366.3370_2000": {
+      "value": "35592",
+      "footNote": null
+    },
+    "3344.3366.3370_2001": {
+      "value": "38769",
+      "footNote": null
+    },
+    "3344.3366.3370_2002": {
+      "value": "39475",
+      "footNote": null
+    },
+    "3344.3366.3370_2003": {
+      "value": "31498",
+      "footNote": null
+    },
+    "3344.3366.3370_2004": {
+      "value": "42716",
+      "footNote": null
+    },
+    "3344.3366.3370_2005": {
+      "value": "39053",
+      "footNote": null
+    },
+    "3344.3366.3370_2006": {
+      "value": "40788",
+      "footNote": null
+    },
+    "3344.3366.3370_2007": {
+      "value": "43963",
+      "footNote": null
+    },
+    "3344.3366.3370_2008": {
+      "value": "698",
+      "footNote": null
+    },
+    "3344.3366.3370_2009": {
+      "value": "43687",
+      "footNote": null
+    },
+    "3344.3366.3370_2010": {
+      "value": "44611",
+      "footNote": null
+    },
+    "3344.3366.3370_2011": {
+      "value": "45867",
+      "footNote": null
+    },
+    "3344.3366.3370_2012": {
+      "value": "48433",
+      "footNote": null
+    },
+    "3344.3366.3370_2013": {
+      "value": "49372",
+      "footNote": null
+    }
+  }
+}

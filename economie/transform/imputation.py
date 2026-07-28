@@ -23,7 +23,7 @@ def impute_missing(df: pl.DataFrame) -> pl.DataFrame:
     """
     groups = (
         df
-        .with_columns(pl.col("date").str.to_date())
+        .with_columns(pl.col("date").cast(pl.Date, strict=False))
         .sort("date")
         .group_by("code_indicateur", "region_code", "version_serie")
     )

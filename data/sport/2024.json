@@ -1,0 +1,45 @@
+{
+  "year": 2024,
+  "domaine": "Sport",
+  "kpis": [
+    {
+      "label": "Licenciés sportifs",
+      "value": 2.9,
+      "unit": "M"
+    },
+    {
+      "label": "Installations sportives",
+      "value": 14.2,
+      "unit": "K"
+    },
+    {
+      "label": "Fédérations affiliées",
+      "value": 78,
+      "unit": ""
+    },
+    {
+      "label": "Budget sport / PIB",
+      "value": 0.38,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Classement mondial (foot)",
+      "value": 13,
+      "unit": "e place"
+    },
+    {
+      "label": "Médailles internationales",
+      "value": 128,
+      "unit": ""
+    }
+  ],
+  "indicators": {
+    "LICENCIES": 2.9,
+    "INSTALLATIONS": 14.2,
+    "FEDERATIONS": 78,
+    "BUDGET_SPORT": 0.38,
+    "CLASSEMENT_FIFA": 13,
+    "MEDAILLES": 128
+  },
+  "source": "HCP/AMSED"
+}

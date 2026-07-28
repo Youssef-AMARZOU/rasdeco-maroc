@@ -93,6 +93,30 @@ INDICATOR_CODES: dict[str, dict] = {
     # Change
     "CHANGE.USD": {"label": "Taux de change USD/MAD", "domaine": "CHANGE", "unite": "MAD"},
     "CHANGE.EUR": {"label": "Taux de change EUR/MAD", "domaine": "CHANGE", "unite": "MAD"},
+    # BAM / OPCVM
+    "BAM.ACTIF": {"label": "Compte de patrimoine OPCVM - Actif", "domaine": "MONETAIRE", "unite": "MAD"},
+    "BAM.PASSIF": {"label": "Compte de patrimoine OPCVM - Passif", "domaine": "MONETAIRE", "unite": "MAD"},
+    "BAM.TITRES": {"label": "Compte de patrimoine OPCVM - Titres", "domaine": "MONETAIRE", "unite": "MAD"},
+    "BAM.OPCVM.ENCOURS": {"label": "Encours OPCVM", "domaine": "MONETAIRE", "unite": "MAD"},
+    # Finances publiques detaillees
+    "DETTE.PUBLIQUE.DH": {"label": "Dette publique (MDH)", "domaine": "BUDGET", "unite": "MAD"},
+    "DETTE.PUBLIQUE.PCT_PIB": {"label": "Dette publique (% PIB)", "domaine": "BUDGET", "unite": "%PIB"},
+    "DETTE.PUBLIQUE.US": {"label": "Dette publique (USD)", "domaine": "BUDGET", "unite": "USD"},
+    "DETTE.SERVICE.DH": {"label": "Service de la dette (MDH)", "domaine": "BUDGET", "unite": "MAD"},
+    "DETTE.SERVICE.PCT_RECETTES": {"label": "Service de la dette (% recettes)", "domaine": "BUDGET", "unite": "%"},
+    "DETTE.SERVICE.US": {"label": "Service de la dette (USD)", "domaine": "BUDGET", "unite": "USD"},
+    "DETTE.CHARGES": {"label": "Charges de la dette", "domaine": "BUDGET", "unite": "MAD"},
+    "DETTE.TRESOR_EXT": {"label": "Dette Tresor exterieure", "domaine": "BUDGET", "unite": "MAD"},
+    "DETTE.TRESOR_INT": {"label": "Dette Tresor interieure", "domaine": "BUDGET", "unite": "MAD"},
+    "DEPENSES.ADMIN": {"label": "Depenses d'administration", "domaine": "BUDGET", "unite": "MAD"},
+    "DEPENSES.COURANTES": {"label": "Depenses courantes", "domaine": "BUDGET", "unite": "MAD"},
+    "DEPENSES.TOTAL": {"label": "Total depenses", "domaine": "BUDGET", "unite": "MAD"},
+    "RECETTES.FISCALES": {"label": "Recettes fiscales", "domaine": "BUDGET", "unite": "MAD"},
+    "RECETTES.COURANTES": {"label": "Recettes courantes", "domaine": "BUDGET", "unite": "MAD"},
+    "RECETTES.PRIVATISATION": {"label": "Recettes de privatisation", "domaine": "BUDGET", "unite": "MAD"},
+    "SUBVENTIONS": {"label": "Subventions", "domaine": "BUDGET", "unite": "MAD"},
+    "EXPORT.MANUFACTURES": {"label": "Exportations manufacturieres", "domaine": "COMMERCE", "unite": "MAD"},
+    "IMPORT.ENERGIE": {"label": "Importations energie", "domaine": "COMMERCE", "unite": "MAD"},
 }
 
 

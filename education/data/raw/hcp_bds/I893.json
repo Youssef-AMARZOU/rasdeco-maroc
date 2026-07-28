@@ -1,0 +1,126 @@
+{
+  "iid": 155,
+  "code": "I893",
+  "label": "Nombre de salles utilisées de l'enseignement primaire privé",
+  "metaData": {
+    "unit": "NOMBRE",
+    "frequency": "AS",
+    "source": "Ministère de l'Education nationale, du Préscolaire et des Sports",
+    "definitionFr": "Une salle de classe  est une salle destiné à accueillir un ensemble d'éléve prenant un cours collectif.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005"
+  ],
+  "dimensions": null,
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1775821383596,
+  "data": {
+    "2005": {
+      "value": "11845",
+      "footNote": null
+    },
+    "2006": {
+      "value": "12891",
+      "footNote": null
+    },
+    "2007": {
+      "value": "14876",
+      "footNote": null
+    },
+    "2008": {
+      "value": "16711",
+      "footNote": null
+    },
+    "2009": {
+      "value": "16745",
+      "footNote": null
+    },
+    "2010": {
+      "value": "19191",
+      "footNote": null
+    },
+    "2011": {
+      "value": "22189",
+      "footNote": null
+    },
+    "2012": {
+      "value": "24174",
+      "footNote": null
+    },
+    "2013": {
+      "value": "27946",
+      "footNote": null
+    },
+    "2014": {
+      "value": "29995",
+      "footNote": null
+    },
+    "2015": {
+      "value": "32287",
+      "footNote": null
+    },
+    "2016": {
+      "value": "31967",
+      "footNote": null
+    },
+    "2017": {
+      "value": "35521",
+      "footNote": null
+    },
+    "2018": {
+      "value": "41149",
+      "footNote": null
+    },
+    "2019": {
+      "value": "34425",
+      "footNote": null
+    },
+    "2020": {
+      "value": "30633",
+      "footNote": null
+    },
+    "2021": {
+      "value": "32554",
+      "footNote": null
+    },
+    "2022": {
+      "value": "33898",
+      "footNote": null
+    },
+    "2023": {
+      "value": "35565",
+      "footNote": null
+    },
+    "2024": {
+      "value": "36767",
+      "footNote": null
+    },
+    "2025": {
+      "value": "43291",
+      "footNote": null
+    }
+  }
+}

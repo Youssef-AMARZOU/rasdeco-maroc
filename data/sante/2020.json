@@ -1,0 +1,39 @@
+{
+  "year": 2020,
+  "domaine": "Santé",
+  "kpis": [
+    {
+      "label": "Lits d'hôpital",
+      "value": 24,
+      "unit": "K"
+    },
+    {
+      "label": "Médecins",
+      "value": 21,
+      "unit": "K"
+    },
+    {
+      "label": "Ratio médecins/1000 hab",
+      "value": 6,
+      "unit": "‰"
+    },
+    {
+      "label": "Taux de couverture médicale",
+      "value": 52,
+      "unit": "%"
+    },
+    {
+      "label": "Espérance de vie",
+      "value": 75,
+      "unit": "ans"
+    }
+  ],
+  "indicators": {
+    "LITS_HOPITAL": 24,
+    "MEDECINS": 21,
+    "RATIO_MEDECINS": 6,
+    "COUVERTURE_MEDICALE": 52,
+    "ESPERANCE_VIE": 75
+  },
+  "source": "HCP/DGS"
+}

@@ -1,0 +1,226 @@
+{
+  "iid": 433,
+  "code": "I457",
+  "label": "Superficie agricole utile",
+  "metaData": {
+    "unit": "MILLIERS DE HA",
+    "frequency": "AS",
+    "source": " MINISTERE DE L’AGRICULTURE ET DE LA PECHE MARITIME DU DEVELOPPEMENT RURALE ET DES EAUX ET FORETS ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2023",
+    "2022",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1998",
+    "1997",
+    "1996",
+    "1995",
+    "1994",
+    "1993",
+    "1992",
+    "1991",
+    "1990",
+    "1989",
+    "1988",
+    "1987",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982",
+    "1981",
+    "1980",
+    "1979"
+  ],
+  "dimensions": null,
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1774360690479,
+  "data": {
+    "1979": {
+      "value": "7646.2",
+      "footNote": null
+    },
+    "1980": {
+      "value": "7769.3",
+      "footNote": null
+    },
+    "1981": {
+      "value": "7919.2",
+      "footNote": null
+    },
+    "1982": {
+      "value": "7918.4",
+      "footNote": null
+    },
+    "1983": {
+      "value": "8001.1",
+      "footNote": null
+    },
+    "1984": {
+      "value": "8022.3",
+      "footNote": null
+    },
+    "1985": {
+      "value": "8037.4",
+      "footNote": null
+    },
+    "1986": {
+      "value": "8061.5",
+      "footNote": null
+    },
+    "1987": {
+      "value": "8246.3",
+      "footNote": null
+    },
+    "1988": {
+      "value": "8328.4",
+      "footNote": null
+    },
+    "1989": {
+      "value": "8661.3",
+      "footNote": null
+    },
+    "1990": {
+      "value": "8889.2",
+      "footNote": null
+    },
+    "1991": {
+      "value": "8944.1",
+      "footNote": null
+    },
+    "1992": {
+      "value": "9195.3",
+      "footNote": null
+    },
+    "1993": {
+      "value": "9255.5",
+      "footNote": null
+    },
+    "1994": {
+      "value": "9291.2",
+      "footNote": null
+    },
+    "1995": {
+      "value": "9290.7",
+      "footNote": null
+    },
+    "1996": {
+      "value": "9292.3",
+      "footNote": null
+    },
+    "1997": {
+      "value": "9278",
+      "footNote": null
+    },
+    "1998": {
+      "value": "9238.3",
+      "footNote": null
+    },
+    "1999": {
+      "value": "9142.4",
+      "footNote": null
+    },
+    "2000": {
+      "value": "9081.4",
+      "footNote": null
+    },
+    "2001": {
+      "value": "9023.7",
+      "footNote": null
+    },
+    "2002": {
+      "value": "8979.7",
+      "footNote": null
+    },
+    "2003": {
+      "value": "8975.2",
+      "footNote": null
+    },
+    "2004": {
+      "value": "9041",
+      "footNote": null
+    },
+    "2005": {
+      "value": "8988.3",
+      "footNote": null
+    },
+    "2006": {
+      "value": "8946.6",
+      "footNote": null
+    },
+    "2007": {
+      "value": "8959.8",
+      "footNote": null
+    },
+    "2008": {
+      "value": "8980.6",
+      "footNote": null
+    },
+    "2009": {
+      "value": "9002.6",
+      "footNote": null
+    },
+    "2010": {
+      "value": "8988.3",
+      "footNote": null
+    },
+    "2011": {
+      "value": "9111.2",
+      "footNote": null
+    },
+    "2012": {
+      "value": "9042.5",
+      "footNote": null
+    },
+    "2013": {
+      "value": "9189.5",
+      "footNote": null
+    },
+    "2014": {
+      "value": "9581.5",
+      "footNote": null
+    },
+    "2015": {
+      "value": "9567.6",
+      "footNote": null
+    },
+    "2016": {
+      "value": "9100",
+      "footNote": null
+    },
+    "2017": {
+      "value": "9069",
+      "footNote": null
+    },
+    "2022": {
+      "value": "9000.0",
+      "footNote": null
+    },
+    "2023": {
+      "value": "9000.0",
+      "footNote": null
+    }
+  }
+}

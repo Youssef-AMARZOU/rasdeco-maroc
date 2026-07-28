@@ -1,0 +1,45 @@
+{
+  "year": 2021,
+  "domaine": "Sport",
+  "kpis": [
+    {
+      "label": "Licenciés sportifs",
+      "value": 1.6,
+      "unit": "M"
+    },
+    {
+      "label": "Installations sportives",
+      "value": 11,
+      "unit": "K"
+    },
+    {
+      "label": "Fédérations affiliées",
+      "value": 72,
+      "unit": ""
+    },
+    {
+      "label": "Budget sport / PIB",
+      "value": 0.29,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Classement mondial (foot)",
+      "value": 22,
+      "unit": "e place"
+    },
+    {
+      "label": "Médailles internationales",
+      "value": 65,
+      "unit": ""
+    }
+  ],
+  "indicators": {
+    "LICENCIES": 1.6,
+    "INSTALLATIONS": 11,
+    "FEDERATIONS": 72,
+    "BUDGET_SPORT": 0.29,
+    "CLASSEMENT_FIFA": 22,
+    "MEDAILLES": 65
+  },
+  "source": "HCP/AMSED"
+}

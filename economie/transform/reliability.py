@@ -164,7 +164,7 @@ class ReliabilityScorer:
                 local = (
                     df
                     .filter((pl.col("code_indicateur") == code) & (pl.col("source_code") == source))
-                    .with_columns(pl.col("date").str.to_date())
+                    .with_columns(pl.col("date").cast(pl.Date, strict=False))
                     .sort("date")
                 )
 
@@ -174,7 +174,7 @@ class ReliabilityScorer:
                 # Fusion avec la reference sur la date (annee)
                 local_yr = local.with_columns(pl.col("date").dt.year().alias("annee"))
                 ref_yr = reference.with_columns(
-                    pl.col("date").str.to_date()
+                    pl.col("date").cast(pl.Date, strict=False)
                     .dt.year().alias("annee")
                 )
 

@@ -1,0 +1,160 @@
+{
+  "iid": 210,
+  "code": "I235",
+  "label": "Nombre de cliniques privées",
+  "metaData": {
+    "unit": "NOMBRE",
+    "frequency": "AS",
+    "source": "Ministère de la Santé et de la Protection sociale",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982",
+    "1981",
+    "1980",
+    "1979",
+    "1978",
+    "1977",
+    "1976",
+    "1975",
+    "1974",
+    "1973",
+    "1972",
+    "1971",
+    "1970"
+  ],
+  "dimensions": [
+    {
+      "id": 201,
+      "rank": 1,
+      "label": "Grands Secteurs",
+      "modalites": [
+        {
+          "id": 3345,
+          "rank": 2,
+          "label": "Privé",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1775559094477,
+  "data": {
+    "3345_1970": {
+      "value": "55",
+      "footNote": null
+    },
+    "3345_1971": {
+      "value": "53",
+      "footNote": null
+    },
+    "3345_1972": {
+      "value": "55",
+      "footNote": null
+    },
+    "3345_1973": {
+      "value": "52",
+      "footNote": null
+    },
+    "3345_1974": {
+      "value": "54",
+      "footNote": null
+    },
+    "3345_1975": {
+      "value": "52",
+      "footNote": null
+    },
+    "3345_1976": {
+      "value": "54",
+      "footNote": null
+    },
+    "3345_1977": {
+      "value": "58",
+      "footNote": null
+    },
+    "3345_1978": {
+      "value": "59",
+      "footNote": null
+    },
+    "3345_1979": {
+      "value": "66",
+      "footNote": null
+    },
+    "3345_1980": {
+      "value": "64",
+      "footNote": null
+    },
+    "3345_1981": {
+      "value": "74",
+      "footNote": null
+    },
+    "3345_1982": {
+      "value": "76",
+      "footNote": null
+    },
+    "3345_1983": {
+      "value": "86",
+      "footNote": null
+    },
+    "3345_1984": {
+      "value": "93",
+      "footNote": null
+    },
+    "3345_1985": {
+      "value": "102",
+      "footNote": null
+    },
+    "3345_1986": {
+      "value": "102",
+      "footNote": null
+    },
+    "3345_2018": {
+      "value": "356",
+      "footNote": null
+    },
+    "3345_2019": {
+      "value": "359",
+      "footNote": null
+    },
+    "3345_2020": {
+      "value": "375",
+      "footNote": null
+    },
+    "3345_2021": {
+      "value": "384",
+      "footNote": null
+    },
+    "3345_2022": {
+      "value": "408",
+      "footNote": null
+    },
+    "3345_2023": {
+      "value": "439",
+      "footNote": null
+    },
+    "3345_2024": {
+      "value": "453",
+      "footNote": null
+    },
+    "3345_2025": {
+      "value": "475",
+      "footNote": null
+    }
+  }
+}

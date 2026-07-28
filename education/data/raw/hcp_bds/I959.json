@@ -1,0 +1,320 @@
+{
+  "iid": 136,
+  "code": "I959",
+  "label": "Nombre de satellites primaire",
+  "metaData": {
+    "unit": "NOMBRE",
+    "frequency": "AS",
+    "source": " BDS ",
+    "definitionFr": "Une école satellite  est une petite structure d’enseignement primaire située dans des zones isolées ou rurales",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1774869788729,
+  "data": {
+    "24_2005": {
+      "value": "13237",
+      "footNote": null
+    },
+    "24_2006": {
+      "value": "13349",
+      "footNote": null
+    },
+    "24_2007": {
+      "value": "13381",
+      "footNote": null
+    },
+    "24_2008": {
+      "value": "13451",
+      "footNote": null
+    },
+    "24_2009": {
+      "value": "13401",
+      "footNote": null
+    },
+    "24_2010": {
+      "value": "13397",
+      "footNote": null
+    },
+    "24_2011": {
+      "value": "13304",
+      "footNote": null
+    },
+    "24_2012": {
+      "value": "13320",
+      "footNote": null
+    },
+    "24_2013": {
+      "value": "13255",
+      "footNote": null
+    },
+    "24_2014": {
+      "value": "13226",
+      "footNote": null
+    },
+    "24_2015": {
+      "value": "13215",
+      "footNote": null
+    },
+    "24_2016": {
+      "value": "13140",
+      "footNote": null
+    },
+    "24_2017": {
+      "value": "13084",
+      "footNote": null
+    },
+    "24_2018": {
+      "value": "13104",
+      "footNote": null
+    },
+    "24_2019": {
+      "value": "13133",
+      "footNote": null
+    },
+    "24_2020": {
+      "value": "13153",
+      "footNote": null
+    },
+    "24_2021": {
+      "value": "13132",
+      "footNote": null
+    },
+    "24_2022": {
+      "value": "13157",
+      "footNote": null
+    },
+    "24_2023": {
+      "value": "13112",
+      "footNote": null
+    },
+    "24_2024": {
+      "value": "13008",
+      "footNote": null
+    },
+    "24_2025": {
+      "value": "12867",
+      "footNote": null
+    },
+    "23_2005": {
+      "value": "13084",
+      "footNote": null
+    },
+    "23_2006": {
+      "value": "13194",
+      "footNote": null
+    },
+    "23_2007": {
+      "value": "13231",
+      "footNote": null
+    },
+    "23_2008": {
+      "value": "13300",
+      "footNote": null
+    },
+    "23_2009": {
+      "value": "13252",
+      "footNote": null
+    },
+    "23_2010": {
+      "value": "13231",
+      "footNote": null
+    },
+    "23_2011": {
+      "value": "13109",
+      "footNote": null
+    },
+    "23_2012": {
+      "value": "13123",
+      "footNote": null
+    },
+    "23_2013": {
+      "value": "13057",
+      "footNote": null
+    },
+    "23_2014": {
+      "value": "13034",
+      "footNote": null
+    },
+    "23_2015": {
+      "value": "13016",
+      "footNote": null
+    },
+    "23_2016": {
+      "value": "12938",
+      "footNote": null
+    },
+    "23_2017": {
+      "value": "12880",
+      "footNote": null
+    },
+    "23_2018": {
+      "value": "12908",
+      "footNote": null
+    },
+    "23_2019": {
+      "value": "12943",
+      "footNote": null
+    },
+    "23_2020": {
+      "value": "12963",
+      "footNote": null
+    },
+    "23_2021": {
+      "value": "12941",
+      "footNote": null
+    },
+    "23_2022": {
+      "value": "12964",
+      "footNote": null
+    },
+    "23_2023": {
+      "value": "12921",
+      "footNote": null
+    },
+    "23_2024": {
+      "value": "12820",
+      "footNote": null
+    },
+    "23_2025": {
+      "value": "12695",
+      "footNote": null
+    },
+    "22_2005": {
+      "value": "153",
+      "footNote": null
+    },
+    "22_2006": {
+      "value": "155",
+      "footNote": null
+    },
+    "22_2007": {
+      "value": "150",
+      "footNote": null
+    },
+    "22_2008": {
+      "value": "151",
+      "footNote": null
+    },
+    "22_2009": {
+      "value": "149",
+      "footNote": null
+    },
+    "22_2010": {
+      "value": "166",
+      "footNote": null
+    },
+    "22_2011": {
+      "value": "195",
+      "footNote": null
+    },
+    "22_2012": {
+      "value": "197",
+      "footNote": null
+    },
+    "22_2013": {
+      "value": "198",
+      "footNote": null
+    },
+    "22_2014": {
+      "value": "192",
+      "footNote": null
+    },
+    "22_2015": {
+      "value": "199",
+      "footNote": null
+    },
+    "22_2016": {
+      "value": "202",
+      "footNote": null
+    },
+    "22_2017": {
+      "value": "204",
+      "footNote": null
+    },
+    "22_2018": {
+      "value": "196",
+      "footNote": null
+    },
+    "22_2019": {
+      "value": "190",
+      "footNote": null
+    },
+    "22_2020": {
+      "value": "190",
+      "footNote": null
+    },
+    "22_2021": {
+      "value": "191",
+      "footNote": null
+    },
+    "22_2022": {
+      "value": "193",
+      "footNote": null
+    },
+    "22_2023": {
+      "value": "191",
+      "footNote": null
+    },
+    "22_2024": {
+      "value": "188",
+      "footNote": null
+    },
+    "22_2025": {
+      "value": "172",
+      "footNote": null
+    }
+  }
+}

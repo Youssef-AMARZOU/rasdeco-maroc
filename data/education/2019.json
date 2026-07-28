@@ -1,0 +1,45 @@
+{
+  "year": 2019,
+  "domaine": "Éducation",
+  "kpis": [
+    {
+      "label": "Taux de scolarisation (6-11 ans)",
+      "value": 97.8,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de scolarisation (12-14 ans)",
+      "value": 76,
+      "unit": "%"
+    },
+    {
+      "label": "Nombre d'enseignants",
+      "value": 220,
+      "unit": "K"
+    },
+    {
+      "label": "Établissements scolaires",
+      "value": 13.9,
+      "unit": "K"
+    },
+    {
+      "label": "Taux d'abandon primaire",
+      "value": 5.2,
+      "unit": "%"
+    },
+    {
+      "label": "Étudiants inscrits (supérieur)",
+      "value": 1050,
+      "unit": "K"
+    }
+  ],
+  "indicators": {
+    "SCOLARISATION_PRIMAIRE": 97.8,
+    "SCOLARISATION_COLLEGE": 76,
+    "ENSEIGNANTS": 220,
+    "ETABLISSEMENTS": 13.9,
+    "ABANDON_PRIMAIRE": 5.2,
+    "ETUDIANTS_TOTAL": 1050
+  },
+  "source": "MESRS/HCP"
+}

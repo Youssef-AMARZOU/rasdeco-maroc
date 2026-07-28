@@ -1,0 +1,45 @@
+{
+  "year": 2015,
+  "domaine": "Sport",
+  "kpis": [
+    {
+      "label": "Licenciés sportifs",
+      "value": 0.8,
+      "unit": "M"
+    },
+    {
+      "label": "Installations sportives",
+      "value": 8,
+      "unit": "K"
+    },
+    {
+      "label": "Fédérations affiliées",
+      "value": 60,
+      "unit": ""
+    },
+    {
+      "label": "Budget sport / PIB",
+      "value": 0.18,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Classement mondial (foot)",
+      "value": 42,
+      "unit": "e place"
+    },
+    {
+      "label": "Médailles internationales",
+      "value": 25,
+      "unit": ""
+    }
+  ],
+  "indicators": {
+    "LICENCIES": 0.8,
+    "INSTALLATIONS": 8,
+    "FEDERATIONS": 60,
+    "BUDGET_SPORT": 0.18,
+    "CLASSEMENT_FIFA": 42,
+    "MEDAILLES": 25
+  },
+  "source": "HCP/AMSED"
+}

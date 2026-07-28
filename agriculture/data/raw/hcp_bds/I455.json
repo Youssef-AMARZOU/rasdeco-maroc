@@ -1,0 +1,1375 @@
+{
+  "iid": 428,
+  "code": "I455",
+  "label": "Superficie des plantations denses",
+  "metaData": {
+    "unit": "MILLIERS DE HA",
+    "frequency": "AS",
+    "source": " MINISTERE DE L’AGRICULTURE ET DE LA PECHE MARITIME DU DEVELOPPEMENT RURALE ET DES EAUX ET FORETS ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1998",
+    "1997",
+    "1996",
+    "1995",
+    "1994",
+    "1993",
+    "1992",
+    "1991",
+    "1990",
+    "1989",
+    "1988",
+    "1987",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982",
+    "1981",
+    "1980",
+    "1979",
+    "1978",
+    "1977",
+    "1976",
+    "1975",
+    "1974",
+    "1973",
+    "1972",
+    "1971"
+  ],
+  "dimensions": [
+    {
+      "id": 291,
+      "rank": 1,
+      "label": "Plantations fruitières",
+      "modalites": [
+        {
+          "id": 4569,
+          "rank": 1,
+          "label": "Oliviers",
+          "total": false
+        },
+        {
+          "id": 4570,
+          "rank": 2,
+          "label": "Amandiers",
+          "total": false
+        },
+        {
+          "id": 4571,
+          "rank": 3,
+          "label": "Agrumes  ",
+          "total": false
+        },
+        {
+          "id": 4572,
+          "rank": 4,
+          "label": "Vignes",
+          "total": false
+        },
+        {
+          "id": 4573,
+          "rank": 5,
+          "label": "Palmiers-dattiers",
+          "total": false
+        },
+        {
+          "id": 4574,
+          "rank": 6,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1773321489722,
+  "data": {
+    "4572_1971": {
+      "value": "59.0",
+      "footNote": null
+    },
+    "4572_1972": {
+      "value": "57.2",
+      "footNote": null
+    },
+    "4572_1973": {
+      "value": "51.7",
+      "footNote": null
+    },
+    "4572_1974": {
+      "value": "46.9",
+      "footNote": null
+    },
+    "4572_1975": {
+      "value": "49.5",
+      "footNote": null
+    },
+    "4572_1976": {
+      "value": "53.1",
+      "footNote": null
+    },
+    "4572_1977": {
+      "value": "58.9",
+      "footNote": null
+    },
+    "4572_1978": {
+      "value": "50.4",
+      "footNote": null
+    },
+    "4572_1979": {
+      "value": "51.2",
+      "footNote": null
+    },
+    "4572_1980": {
+      "value": "52.3",
+      "footNote": null
+    },
+    "4572_1981": {
+      "value": "54.4",
+      "footNote": null
+    },
+    "4572_1982": {
+      "value": "57.1",
+      "footNote": null
+    },
+    "4572_1983": {
+      "value": "55.7",
+      "footNote": null
+    },
+    "4572_1984": {
+      "value": "56.8",
+      "footNote": null
+    },
+    "4572_1985": {
+      "value": "59.2",
+      "footNote": null
+    },
+    "4572_1986": {
+      "value": "59.4",
+      "footNote": null
+    },
+    "4572_1987": {
+      "value": "56.1",
+      "footNote": null
+    },
+    "4572_1988": {
+      "value": "56.2",
+      "footNote": null
+    },
+    "4572_1989": {
+      "value": "54.6",
+      "footNote": null
+    },
+    "4572_1990": {
+      "value": "58.4",
+      "footNote": null
+    },
+    "4572_1991": {
+      "value": "62.9",
+      "footNote": null
+    },
+    "4572_1992": {
+      "value": "66.3",
+      "footNote": null
+    },
+    "4572_1993": {
+      "value": "66.9",
+      "footNote": null
+    },
+    "4572_1994": {
+      "value": "48.1",
+      "footNote": null
+    },
+    "4572_1995": {
+      "value": "49.8",
+      "footNote": null
+    },
+    "4572_1996": {
+      "value": "49.8",
+      "footNote": null
+    },
+    "4572_1997": {
+      "value": "49.9",
+      "footNote": null
+    },
+    "4572_1998": {
+      "value": "49.8",
+      "footNote": null
+    },
+    "4572_1999": {
+      "value": "49.8",
+      "footNote": null
+    },
+    "4572_2000": {
+      "value": "49.8",
+      "footNote": null
+    },
+    "4572_2001": {
+      "value": "49.8",
+      "footNote": null
+    },
+    "4572_2002": {
+      "value": "52.2",
+      "footNote": null
+    },
+    "4572_2003": {
+      "value": "50.0",
+      "footNote": null
+    },
+    "4572_2004": {
+      "value": "56.0",
+      "footNote": null
+    },
+    "4572_2005": {
+      "value": "56.3",
+      "footNote": null
+    },
+    "4572_2006": {
+      "value": "56.9",
+      "footNote": null
+    },
+    "4572_2007": {
+      "value": "57.4",
+      "footNote": null
+    },
+    "4572_2008": {
+      "value": "58.0",
+      "footNote": null
+    },
+    "4572_2009": {
+      "value": "45.6",
+      "footNote": null
+    },
+    "4572_2010": {
+      "value": "43.9",
+      "footNote": null
+    },
+    "4572_2011": {
+      "value": "70.4",
+      "footNote": null
+    },
+    "4572_2012": {
+      "value": "45.0",
+      "footNote": null
+    },
+    "4572_2013": {
+      "value": "45.7",
+      "footNote": null
+    },
+    "4572_2014": {
+      "value": "42.2",
+      "footNote": null
+    },
+    "4572_2015": {
+      "value": "42.2",
+      "footNote": null
+    },
+    "4572_2017": {
+      "value": "42.8",
+      "footNote": null
+    },
+    "4572_2018": {
+      "value": "42.3",
+      "footNote": null
+    },
+    "4572_2019": {
+      "value": "42.4",
+      "footNote": null
+    },
+    "4572_2020": {
+      "value": "39.4",
+      "footNote": null
+    },
+    "4572_2021": {
+      "value": "39.3",
+      "footNote": null
+    },
+    "4572_2022": {
+      "value": "39.3",
+      "footNote": null
+    },
+    "4572_2023": {
+      "value": "40.3",
+      "footNote": null
+    },
+    "4572_2024": {
+      "value": "40.0",
+      "footNote": null
+    },
+    "4573_1973": {
+      "value": "6.6",
+      "footNote": null
+    },
+    "4573_1974": {
+      "value": "13.6",
+      "footNote": null
+    },
+    "4573_1975": {
+      "value": null,
+      "footNote": null
+    },
+    "4573_1976": {
+      "value": null,
+      "footNote": null
+    },
+    "4573_1977": {
+      "value": null,
+      "footNote": null
+    },
+    "4573_1978": {
+      "value": "22.0",
+      "footNote": null
+    },
+    "4573_1979": {
+      "value": "16.3",
+      "footNote": null
+    },
+    "4573_1980": {
+      "value": "17.7",
+      "footNote": null
+    },
+    "4573_1981": {
+      "value": "20.2",
+      "footNote": null
+    },
+    "4573_1982": {
+      "value": "21.9",
+      "footNote": null
+    },
+    "4573_1983": {
+      "value": "21.5",
+      "footNote": null
+    },
+    "4573_1984": {
+      "value": "21.7",
+      "footNote": null
+    },
+    "4573_1985": {
+      "value": "21.4",
+      "footNote": null
+    },
+    "4573_1986": {
+      "value": "21.4",
+      "footNote": null
+    },
+    "4573_1987": {
+      "value": "22.1",
+      "footNote": null
+    },
+    "4573_1988": {
+      "value": "19.5",
+      "footNote": null
+    },
+    "4573_1989": {
+      "value": "20.9",
+      "footNote": null
+    },
+    "4573_1990": {
+      "value": "22.0",
+      "footNote": null
+    },
+    "4573_1991": {
+      "value": "23.7",
+      "footNote": null
+    },
+    "4573_1992": {
+      "value": "23.5",
+      "footNote": null
+    },
+    "4573_1993": {
+      "value": "23.4",
+      "footNote": null
+    },
+    "4573_1994": {
+      "value": "23.3",
+      "footNote": null
+    },
+    "4573_1995": {
+      "value": "27.1",
+      "footNote": null
+    },
+    "4573_1996": {
+      "value": "29.8",
+      "footNote": null
+    },
+    "4573_1997": {
+      "value": "42.0",
+      "footNote": null
+    },
+    "4573_1998": {
+      "value": "44.2",
+      "footNote": null
+    },
+    "4573_1999": {
+      "value": "44.2",
+      "footNote": null
+    },
+    "4573_2000": {
+      "value": "44.2",
+      "footNote": null
+    },
+    "4573_2001": {
+      "value": "44.2",
+      "footNote": null
+    },
+    "4573_2002": {
+      "value": "33.0",
+      "footNote": null
+    },
+    "4573_2003": {
+      "value": "33.0",
+      "footNote": null
+    },
+    "4573_2004": {
+      "value": "32.9",
+      "footNote": null
+    },
+    "4573_2005": {
+      "value": "34.7",
+      "footNote": null
+    },
+    "4573_2006": {
+      "value": "35.5",
+      "footNote": null
+    },
+    "4573_2007": {
+      "value": "36.1",
+      "footNote": null
+    },
+    "4573_2008": {
+      "value": "37.3",
+      "footNote": null
+    },
+    "4573_2009": {
+      "value": "39.0",
+      "footNote": null
+    },
+    "4573_2010": {
+      "value": null,
+      "footNote": null
+    },
+    "4573_2011": {
+      "value": null,
+      "footNote": null
+    },
+    "4573_2012": {
+      "value": "71.4",
+      "footNote": null
+    },
+    "4573_2013": {
+      "value": "71.7",
+      "footNote": null
+    },
+    "4573_2014": {
+      "value": "57.7",
+      "footNote": null
+    },
+    "4573_2015": {
+      "value": "57.9",
+      "footNote": null
+    },
+    "4573_2016": {
+      "value": "58.1",
+      "footNote": null
+    },
+    "4573_2017": {
+      "value": "58.3",
+      "footNote": null
+    },
+    "4573_2018": {
+      "value": "59.1",
+      "footNote": null
+    },
+    "4573_2019": {
+      "value": "59.6",
+      "footNote": null
+    },
+    "4573_2020": {
+      "value": "61.3",
+      "footNote": null
+    },
+    "4573_2021": {
+      "value": "63.2",
+      "footNote": null
+    },
+    "4573_2022": {
+      "value": "65.4",
+      "footNote": null
+    },
+    "4573_2023": {
+      "value": "67.0",
+      "footNote": null
+    },
+    "4573_2024": {
+      "value": "66.1",
+      "footNote": null
+    },
+    "4574_1971": {
+      "value": "429.0",
+      "footNote": null
+    },
+    "4574_1972": {
+      "value": "438.9",
+      "footNote": null
+    },
+    "4574_1973": {
+      "value": "349.4",
+      "footNote": null
+    },
+    "4574_1974": {
+      "value": "336.5",
+      "footNote": null
+    },
+    "4574_1975": {
+      "value": "404.8",
+      "footNote": null
+    },
+    "4574_1976": {
+      "value": "429.3",
+      "footNote": null
+    },
+    "4574_1977": {
+      "value": "443.0",
+      "footNote": null
+    },
+    "4574_1978": {
+      "value": "451.8",
+      "footNote": null
+    },
+    "4574_1979": {
+      "value": "456.4",
+      "footNote": null
+    },
+    "4574_1980": {
+      "value": "474.1",
+      "footNote": null
+    },
+    "4574_1981": {
+      "value": "481.8",
+      "footNote": null
+    },
+    "4574_1982": {
+      "value": "501.8",
+      "footNote": null
+    },
+    "4574_1983": {
+      "value": "516.0",
+      "footNote": null
+    },
+    "4574_1984": {
+      "value": "518.8",
+      "footNote": null
+    },
+    "4574_1985": {
+      "value": "526.5",
+      "footNote": null
+    },
+    "4574_1986": {
+      "value": "532.1",
+      "footNote": null
+    },
+    "4574_1987": {
+      "value": "565.1",
+      "footNote": null
+    },
+    "4574_1988": {
+      "value": "574.1",
+      "footNote": null
+    },
+    "4574_1989": {
+      "value": "612.4",
+      "footNote": null
+    },
+    "4574_1990": {
+      "value": "614.5",
+      "footNote": null
+    },
+    "4574_1991": {
+      "value": "631.4",
+      "footNote": null
+    },
+    "4574_1992": {
+      "value": "653.0",
+      "footNote": null
+    },
+    "4574_1993": {
+      "value": "664.4",
+      "footNote": null
+    },
+    "4574_1994": {
+      "value": "665.8",
+      "footNote": null
+    },
+    "4574_1995": {
+      "value": "724.5",
+      "footNote": null
+    },
+    "4574_1996": {
+      "value": "736.2",
+      "footNote": null
+    },
+    "4574_1997": {
+      "value": "753.0",
+      "footNote": null
+    },
+    "4574_1998": {
+      "value": "757.8",
+      "footNote": null
+    },
+    "4574_1999": {
+      "value": "769.8",
+      "footNote": null
+    },
+    "4574_2000": {
+      "value": "783.2",
+      "footNote": null
+    },
+    "4574_2001": {
+      "value": "790.8",
+      "footNote": null
+    },
+    "4574_2002": {
+      "value": "825.8",
+      "footNote": null
+    },
+    "4574_2003": {
+      "value": "820.6",
+      "footNote": null
+    },
+    "4574_2004": {
+      "value": "831.3",
+      "footNote": null
+    },
+    "4574_2005": {
+      "value": "866.5",
+      "footNote": null
+    },
+    "4574_2006": {
+      "value": "882.4",
+      "footNote": null
+    },
+    "4574_2007": {
+      "value": "894.9",
+      "footNote": null
+    },
+    "4574_2008": {
+      "value": "929.2",
+      "footNote": null
+    },
+    "4574_2009": {
+      "value": "948.8",
+      "footNote": null
+    },
+    "4574_2010": {
+      "value": "735.4",
+      "footNote": null
+    },
+    "4574_2011": {
+      "value": "900.7",
+      "footNote": null
+    },
+    "4574_2012": {
+      "value": "130.5",
+      "footNote": null
+    },
+    "4574_2013": {
+      "value": "155.5",
+      "footNote": null
+    },
+    "4574_2014": {
+      "value": "10.1",
+      "footNote": null
+    },
+    "4574_2021": {
+      "value": "3577.3",
+      "footNote": null
+    },
+    "4574_2022": {
+      "value": "1661.1",
+      "footNote": null
+    },
+    "4574_2023": {
+      "value": "1598.2",
+      "footNote": null
+    },
+    "4574_2024": {
+      "value": "1687.3",
+      "footNote": null
+    },
+    "4570_1972": {
+      "value": "54.0",
+      "footNote": null
+    },
+    "4570_1973": {
+      "value": "13.8",
+      "footNote": null
+    },
+    "4570_1974": {
+      "value": "27.6",
+      "footNote": null
+    },
+    "4570_1975": {
+      "value": null,
+      "footNote": null
+    },
+    "4570_1976": {
+      "value": "31.5",
+      "footNote": null
+    },
+    "4570_1977": {
+      "value": "32.8",
+      "footNote": null
+    },
+    "4570_1978": {
+      "value": "32.1",
+      "footNote": null
+    },
+    "4570_1979": {
+      "value": "31.7",
+      "footNote": null
+    },
+    "4570_1980": {
+      "value": "34.9",
+      "footNote": null
+    },
+    "4570_1981": {
+      "value": "36.3",
+      "footNote": null
+    },
+    "4570_1982": {
+      "value": "35.5",
+      "footNote": null
+    },
+    "4570_1983": {
+      "value": "38.1",
+      "footNote": null
+    },
+    "4570_1984": {
+      "value": "31.6",
+      "footNote": null
+    },
+    "4570_1985": {
+      "value": "34.6",
+      "footNote": null
+    },
+    "4570_1986": {
+      "value": "36.5",
+      "footNote": null
+    },
+    "4570_1987": {
+      "value": "29.3",
+      "footNote": null
+    },
+    "4570_1988": {
+      "value": "33.6",
+      "footNote": null
+    },
+    "4570_1989": {
+      "value": "38.4",
+      "footNote": null
+    },
+    "4570_1990": {
+      "value": "36.4",
+      "footNote": null
+    },
+    "4570_1991": {
+      "value": "38.8",
+      "footNote": null
+    },
+    "4570_1992": {
+      "value": "40.3",
+      "footNote": null
+    },
+    "4570_1993": {
+      "value": "41.1",
+      "footNote": null
+    },
+    "4570_1994": {
+      "value": "41.5",
+      "footNote": null
+    },
+    "4570_1995": {
+      "value": "88.5",
+      "footNote": null
+    },
+    "4570_1996": {
+      "value": "91.4",
+      "footNote": null
+    },
+    "4570_1997": {
+      "value": "135.6",
+      "footNote": null
+    },
+    "4570_1998": {
+      "value": "137.1",
+      "footNote": null
+    },
+    "4570_1999": {
+      "value": "139.0",
+      "footNote": null
+    },
+    "4570_2000": {
+      "value": "137.9",
+      "footNote": null
+    },
+    "4570_2001": {
+      "value": "137.8",
+      "footNote": null
+    },
+    "4570_2002": {
+      "value": "134.1",
+      "footNote": null
+    },
+    "4570_2003": {
+      "value": "134.0",
+      "footNote": null
+    },
+    "4570_2004": {
+      "value": "129.7",
+      "footNote": null
+    },
+    "4570_2005": {
+      "value": "99.7",
+      "footNote": null
+    },
+    "4570_2006": {
+      "value": "92.6",
+      "footNote": null
+    },
+    "4570_2007": {
+      "value": "93.4",
+      "footNote": null
+    },
+    "4570_2008": {
+      "value": "97.5",
+      "footNote": null
+    },
+    "4570_2009": {
+      "value": "100.0",
+      "footNote": null
+    },
+    "4570_2010": {
+      "value": "95.5",
+      "footNote": null
+    },
+    "4570_2011": {
+      "value": "100.7",
+      "footNote": null
+    },
+    "4570_2012": {
+      "value": "151.1",
+      "footNote": null
+    },
+    "4570_2013": {
+      "value": "155.5",
+      "footNote": null
+    },
+    "4570_2014": {
+      "value": "159.1",
+      "footNote": null
+    },
+    "4570_2015": {
+      "value": "160.0",
+      "footNote": null
+    },
+    "4570_2016": {
+      "value": "165.8",
+      "footNote": null
+    },
+    "4570_2017": {
+      "value": "170.9",
+      "footNote": null
+    },
+    "4570_2018": {
+      "value": "186.3",
+      "footNote": null
+    },
+    "4570_2019": {
+      "value": "190.6",
+      "footNote": null
+    },
+    "4570_2020": {
+      "value": "209.2",
+      "footNote": null
+    },
+    "4570_2021": {
+      "value": "219.0",
+      "footNote": null
+    },
+    "4570_2022": {
+      "value": "226.2",
+      "footNote": null
+    },
+    "4570_2023": {
+      "value": "232.0",
+      "footNote": null
+    },
+    "4570_2024": {
+      "value": "246.3",
+      "footNote": null
+    },
+    "4571_1971": {
+      "value": "68.0",
+      "footNote": null
+    },
+    "4571_1972": {
+      "value": "68.6",
+      "footNote": null
+    },
+    "4571_1973": {
+      "value": "68.2",
+      "footNote": null
+    },
+    "4571_1974": {
+      "value": "51.4",
+      "footNote": null
+    },
+    "4571_1975": {
+      "value": "66.0",
+      "footNote": null
+    },
+    "4571_1976": {
+      "value": "71.4",
+      "footNote": null
+    },
+    "4571_1977": {
+      "value": "67.4",
+      "footNote": null
+    },
+    "4571_1978": {
+      "value": "71.4",
+      "footNote": null
+    },
+    "4571_1979": {
+      "value": "71.4",
+      "footNote": null
+    },
+    "4571_1980": {
+      "value": "71.4",
+      "footNote": null
+    },
+    "4571_1981": {
+      "value": "71.4",
+      "footNote": null
+    },
+    "4571_1982": {
+      "value": "69.3",
+      "footNote": null
+    },
+    "4571_1983": {
+      "value": "69.3",
+      "footNote": null
+    },
+    "4571_1984": {
+      "value": "69.3",
+      "footNote": null
+    },
+    "4571_1985": {
+      "value": "69.3",
+      "footNote": null
+    },
+    "4571_1986": {
+      "value": "69.6",
+      "footNote": null
+    },
+    "4571_1987": {
+      "value": "69.8",
+      "footNote": null
+    },
+    "4571_1988": {
+      "value": "69.8",
+      "footNote": null
+    },
+    "4571_1989": {
+      "value": "74.6",
+      "footNote": null
+    },
+    "4571_1990": {
+      "value": "71.7",
+      "footNote": null
+    },
+    "4571_1991": {
+      "value": "73.1",
+      "footNote": null
+    },
+    "4571_1992": {
+      "value": "73.1",
+      "footNote": null
+    },
+    "4571_1993": {
+      "value": "73.1",
+      "footNote": null
+    },
+    "4571_1994": {
+      "value": "73.1",
+      "footNote": null
+    },
+    "4571_1995": {
+      "value": "73.1",
+      "footNote": null
+    },
+    "4571_1996": {
+      "value": "73.1",
+      "footNote": null
+    },
+    "4571_1997": {
+      "value": "74.6",
+      "footNote": null
+    },
+    "4571_1998": {
+      "value": "75.0",
+      "footNote": null
+    },
+    "4571_1999": {
+      "value": "75.7",
+      "footNote": null
+    },
+    "4571_2000": {
+      "value": "76.0",
+      "footNote": null
+    },
+    "4571_2001": {
+      "value": "73.1",
+      "footNote": null
+    },
+    "4571_2002": {
+      "value": "75.9",
+      "footNote": null
+    },
+    "4571_2003": {
+      "value": "76.5",
+      "footNote": null
+    },
+    "4571_2004": {
+      "value": "76.5",
+      "footNote": null
+    },
+    "4571_2005": {
+      "value": "78.2",
+      "footNote": null
+    },
+    "4571_2006": {
+      "value": "80.9",
+      "footNote": null
+    },
+    "4571_2007": {
+      "value": "82.9",
+      "footNote": null
+    },
+    "4571_2008": {
+      "value": "87.0",
+      "footNote": null
+    },
+    "4571_2009": {
+      "value": "92.3",
+      "footNote": null
+    },
+    "4571_2010": {
+      "value": "51.2",
+      "footNote": null
+    },
+    "4571_2011": {
+      "value": "48.5",
+      "footNote": null
+    },
+    "4571_2012": {
+      "value": "107.5",
+      "footNote": null
+    },
+    "4571_2013": {
+      "value": "112.8",
+      "footNote": null
+    },
+    "4571_2014": {
+      "value": "114.0",
+      "footNote": null
+    },
+    "4571_2015": {
+      "value": "117.0",
+      "footNote": null
+    },
+    "4571_2016": {
+      "value": "122.5",
+      "footNote": null
+    },
+    "4571_2017": {
+      "value": "125.0",
+      "footNote": null
+    },
+    "4571_2018": {
+      "value": "127.1",
+      "footNote": null
+    },
+    "4571_2019": {
+      "value": "128.0",
+      "footNote": null
+    },
+    "4571_2020": {
+      "value": "129.3",
+      "footNote": null
+    },
+    "4571_2021": {
+      "value": "129.8",
+      "footNote": null
+    },
+    "4571_2022": {
+      "value": "128.9",
+      "footNote": null
+    },
+    "4571_2023": {
+      "value": "98.9",
+      "footNote": null
+    },
+    "4571_2024": {
+      "value": "96.1",
+      "footNote": null
+    },
+    "4569_1971": {
+      "value": "192.0",
+      "footNote": null
+    },
+    "4569_1972": {
+      "value": "199.1",
+      "footNote": null
+    },
+    "4569_1973": {
+      "value": "175.1",
+      "footNote": null
+    },
+    "4569_1974": {
+      "value": "168.8",
+      "footNote": null
+    },
+    "4569_1975": {
+      "value": "210.1",
+      "footNote": null
+    },
+    "4569_1976": {
+      "value": "236.3",
+      "footNote": null
+    },
+    "4569_1977": {
+      "value": "242.9",
+      "footNote": null
+    },
+    "4569_1978": {
+      "value": "223.3",
+      "footNote": null
+    },
+    "4569_1979": {
+      "value": "229.7",
+      "footNote": null
+    },
+    "4569_1980": {
+      "value": "240.1",
+      "footNote": null
+    },
+    "4569_1981": {
+      "value": "242.1",
+      "footNote": null
+    },
+    "4569_1982": {
+      "value": "259.7",
+      "footNote": null
+    },
+    "4569_1983": {
+      "value": "281.9",
+      "footNote": null
+    },
+    "4569_1984": {
+      "value": "286.6",
+      "footNote": null
+    },
+    "4569_1985": {
+      "value": "293.2",
+      "footNote": null
+    },
+    "4569_1986": {
+      "value": "301.5",
+      "footNote": null
+    },
+    "4569_1987": {
+      "value": "274.2",
+      "footNote": null
+    },
+    "4569_1988": {
+      "value": "331.9",
+      "footNote": null
+    },
+    "4569_1989": {
+      "value": "360.3",
+      "footNote": null
+    },
+    "4569_1990": {
+      "value": "366.1",
+      "footNote": null
+    },
+    "4569_1991": {
+      "value": "372.0",
+      "footNote": null
+    },
+    "4569_1992": {
+      "value": "379.4",
+      "footNote": null
+    },
+    "4569_1993": {
+      "value": "385.8",
+      "footNote": null
+    },
+    "4569_1994": {
+      "value": "401.5",
+      "footNote": null
+    },
+    "4569_1995": {
+      "value": "415.5",
+      "footNote": null
+    },
+    "4569_1996": {
+      "value": "418.8",
+      "footNote": null
+    },
+    "4569_1997": {
+      "value": "426.6",
+      "footNote": null
+    },
+    "4569_1998": {
+      "value": "520.0",
+      "footNote": null
+    },
+    "4569_1999": {
+      "value": "445.6",
+      "footNote": null
+    },
+    "4569_2000": {
+      "value": "540.0",
+      "footNote": null
+    },
+    "4569_2001": {
+      "value": "463.2",
+      "footNote": null
+    },
+    "4569_2002": {
+      "value": "477.3",
+      "footNote": null
+    },
+    "4569_2003": {
+      "value": "481.0",
+      "footNote": null
+    },
+    "4569_2004": {
+      "value": "492.5",
+      "footNote": null
+    },
+    "4569_2005": {
+      "value": "504.7",
+      "footNote": null
+    },
+    "4569_2006": {
+      "value": "522.8",
+      "footNote": null
+    },
+    "4569_2007": {
+      "value": "530.9",
+      "footNote": null
+    },
+    "4569_2008": {
+      "value": "547.6",
+      "footNote": null
+    },
+    "4569_2009": {
+      "value": "572.9",
+      "footNote": null
+    },
+    "4569_2010": {
+      "value": "104.7",
+      "footNote": null
+    },
+    "4569_2011": {
+      "value": "166.9",
+      "footNote": null
+    },
+    "4569_2012": {
+      "value": "968.1",
+      "footNote": null
+    },
+    "4569_2013": {
+      "value": "922.2",
+      "footNote": null
+    },
+    "4569_2014": {
+      "value": "946.8",
+      "footNote": null
+    },
+    "4569_2015": {
+      "value": "1006.5",
+      "footNote": null
+    },
+    "4569_2016": {
+      "value": "1008.4",
+      "footNote": null
+    },
+    "4569_2017": {
+      "value": "1020.6",
+      "footNote": null
+    },
+    "4569_2018": {
+      "value": "1045.2",
+      "footNote": null
+    },
+    "4569_2019": {
+      "value": "1073.4",
+      "footNote": null
+    },
+    "4569_2020": {
+      "value": "1068.9",
+      "footNote": null
+    },
+    "4569_2021": {
+      "value": "1153.3",
+      "footNote": null
+    },
+    "4569_2022": {
+      "value": "1201.3",
+      "footNote": null
+    },
+    "4569_2023": {
+      "value": "1160.0",
+      "footNote": null
+    },
+    "4569_2024": {
+      "value": "1238.8",
+      "footNote": null
+    }
+  }
+}

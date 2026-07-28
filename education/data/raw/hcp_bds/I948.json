@@ -1,0 +1,320 @@
+{
+  "iid": 139,
+  "code": "I948",
+  "label": "Nombre d'écoles autonomes primaires",
+  "metaData": {
+    "unit": "NOMBRE",
+    "frequency": "AS",
+    "source": "Ministère de l'Education nationale, du Préscolaire et des Sports",
+    "definitionFr": "une école autonome primaire est une école caractérisée par l'autonomie de gestion de ses activités indépendemment des autres écoles primaires",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005"
+  ],
+  "dimensions": [
+    {
+      "id": 6,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 22,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 23,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 24,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1774954837955,
+  "data": {
+    "22_2005": {
+      "value": "2542",
+      "footNote": null
+    },
+    "22_2006": {
+      "value": "2559",
+      "footNote": null
+    },
+    "22_2007": {
+      "value": "2543",
+      "footNote": null
+    },
+    "22_2008": {
+      "value": "2539",
+      "footNote": null
+    },
+    "22_2009": {
+      "value": "2567",
+      "footNote": null
+    },
+    "22_2010": {
+      "value": "2601",
+      "footNote": null
+    },
+    "22_2011": {
+      "value": "2670",
+      "footNote": null
+    },
+    "22_2012": {
+      "value": "2740",
+      "footNote": null
+    },
+    "22_2013": {
+      "value": "2767",
+      "footNote": null
+    },
+    "22_2014": {
+      "value": "2818",
+      "footNote": null
+    },
+    "22_2015": {
+      "value": "2846",
+      "footNote": null
+    },
+    "22_2016": {
+      "value": "2805",
+      "footNote": null
+    },
+    "22_2017": {
+      "value": "2812",
+      "footNote": null
+    },
+    "22_2018": {
+      "value": "2820",
+      "footNote": null
+    },
+    "22_2019": {
+      "value": "2904",
+      "footNote": null
+    },
+    "22_2020": {
+      "value": "2940",
+      "footNote": null
+    },
+    "22_2021": {
+      "value": "2963",
+      "footNote": null
+    },
+    "22_2022": {
+      "value": "2998",
+      "footNote": null
+    },
+    "22_2023": {
+      "value": "3038",
+      "footNote": null
+    },
+    "22_2024": {
+      "value": "3081",
+      "footNote": null
+    },
+    "22_2025": {
+      "value": "3115",
+      "footNote": null
+    },
+    "23_2005": {
+      "value": "304",
+      "footNote": null
+    },
+    "23_2006": {
+      "value": "325",
+      "footNote": null
+    },
+    "23_2007": {
+      "value": "320",
+      "footNote": null
+    },
+    "23_2008": {
+      "value": "337",
+      "footNote": null
+    },
+    "23_2009": {
+      "value": "359",
+      "footNote": null
+    },
+    "23_2010": {
+      "value": "349",
+      "footNote": null
+    },
+    "23_2011": {
+      "value": "356",
+      "footNote": null
+    },
+    "23_2012": {
+      "value": "389",
+      "footNote": null
+    },
+    "23_2013": {
+      "value": "416",
+      "footNote": null
+    },
+    "23_2014": {
+      "value": "459",
+      "footNote": null
+    },
+    "23_2015": {
+      "value": "513",
+      "footNote": null
+    },
+    "23_2016": {
+      "value": "526",
+      "footNote": null
+    },
+    "23_2017": {
+      "value": "549",
+      "footNote": null
+    },
+    "23_2018": {
+      "value": "446",
+      "footNote": null
+    },
+    "23_2019": {
+      "value": "612",
+      "footNote": null
+    },
+    "23_2020": {
+      "value": "677",
+      "footNote": null
+    },
+    "23_2021": {
+      "value": "809",
+      "footNote": null
+    },
+    "23_2022": {
+      "value": "889",
+      "footNote": null
+    },
+    "23_2023": {
+      "value": "1022",
+      "footNote": null
+    },
+    "23_2024": {
+      "value": "1075",
+      "footNote": null
+    },
+    "23_2025": {
+      "value": "1108",
+      "footNote": null
+    },
+    "24_2005": {
+      "value": "2846",
+      "footNote": null
+    },
+    "24_2006": {
+      "value": "2884",
+      "footNote": null
+    },
+    "24_2007": {
+      "value": "2863",
+      "footNote": null
+    },
+    "24_2008": {
+      "value": "2876",
+      "footNote": null
+    },
+    "24_2009": {
+      "value": "2926",
+      "footNote": null
+    },
+    "24_2010": {
+      "value": "2950",
+      "footNote": null
+    },
+    "24_2011": {
+      "value": "3026",
+      "footNote": null
+    },
+    "24_2012": {
+      "value": "3129",
+      "footNote": null
+    },
+    "24_2013": {
+      "value": "3183",
+      "footNote": null
+    },
+    "24_2014": {
+      "value": "3277",
+      "footNote": null
+    },
+    "24_2015": {
+      "value": "3359",
+      "footNote": null
+    },
+    "24_2016": {
+      "value": "3331",
+      "footNote": null
+    },
+    "24_2017": {
+      "value": "3361",
+      "footNote": null
+    },
+    "24_2018": {
+      "value": "3266",
+      "footNote": null
+    },
+    "24_2019": {
+      "value": "3516",
+      "footNote": null
+    },
+    "24_2020": {
+      "value": "3617",
+      "footNote": null
+    },
+    "24_2021": {
+      "value": "3772",
+      "footNote": null
+    },
+    "24_2022": {
+      "value": "3887",
+      "footNote": null
+    },
+    "24_2023": {
+      "value": "4060",
+      "footNote": null
+    },
+    "24_2024": {
+      "value": "4156",
+      "footNote": null
+    },
+    "24_2025": {
+      "value": "4223",
+      "footNote": null
+    }
+  }
+}

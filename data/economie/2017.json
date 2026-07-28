@@ -1,0 +1,57 @@
+{
+  "year": 2017,
+  "domaine": "Économie",
+  "kpis": [
+    {
+      "label": "Croissance du PIB",
+      "value": 4.8,
+      "unit": "%"
+    },
+    {
+      "label": "Inflation IPC",
+      "value": 0.8,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de chômage",
+      "value": 10.3,
+      "unit": "%"
+    },
+    {
+      "label": "Taux directeur BAM",
+      "value": 2.5,
+      "unit": "%"
+    },
+    {
+      "label": "Dette publique / PIB",
+      "value": 68.6,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Réserves de change",
+      "value": 4.5,
+      "unit": "mois"
+    },
+    {
+      "label": "Flux d'IDE",
+      "value": 27.6,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Déficit budgétaire",
+      "value": -3.5,
+      "unit": "% PIB"
+    }
+  ],
+  "indicators": {
+    "PIB_CROISSANCE": 4.8,
+    "IPC_GLISSEMENT": 0.8,
+    "CHOMAGE": 10.3,
+    "TAUX_DIRECTEUR": 2.5,
+    "DETTE_PUBLIQUE": 68.6,
+    "RESERVES_CHANGE": 4.5,
+    "IDE_FLUX": 27.6,
+    "DEFICIT_BUDGET": -3.5
+  },
+  "source": "HCP/BAM"
+}

@@ -1,0 +1,1428 @@
+{
+  "iid": 460,
+  "code": "I4521",
+  "label": "Evolution de la superficie des cultures maraîchères de saison",
+  "metaData": {
+    "unit": "hectare",
+    "frequency": "AI",
+    "source": "Ministère de l'Agriculture, de la Pêche Maritime, du Développent Rural et des Eaux et Forêts",
+    "definitionFr": "La culture maraichère représente la culture de végétaux à usage alimentaire. Elle peut regrouper la culture de légumes ou de potagers comme les tomates, aubergines, melons, poireaux, salades, radis, choux, concombres, cultures de baies, etc",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2023-2024",
+    "2022-2023",
+    "2021-2022",
+    "2020-2021",
+    "2019-2020",
+    "2018-2019",
+    "2017-2018",
+    "2016-2017",
+    "2015-2016",
+    "2014-2015",
+    "2013-2014"
+  ],
+  "dimensions": [
+    {
+      "id": 317,
+      "rank": 1,
+      "label": "Maraîchage de saison",
+      "modalites": [
+        {
+          "id": 5144,
+          "rank": 1,
+          "label": "Total",
+          "total": true
+        },
+        {
+          "id": 5145,
+          "rank": 2,
+          "label": "Ail",
+          "total": false
+        },
+        {
+          "id": 5146,
+          "rank": 3,
+          "label": "Artichaut",
+          "total": false
+        },
+        {
+          "id": 5147,
+          "rank": 4,
+          "label": "Asperge",
+          "total": false
+        },
+        {
+          "id": 5148,
+          "rank": 5,
+          "label": "Aubergine",
+          "total": false
+        },
+        {
+          "id": 5149,
+          "rank": 6,
+          "label": "Betterave pottager",
+          "total": false
+        },
+        {
+          "id": 5150,
+          "rank": 7,
+          "label": "Carotte",
+          "total": false
+        },
+        {
+          "id": 5151,
+          "rank": 8,
+          "label": "Choux-fleur",
+          "total": false
+        },
+        {
+          "id": 5152,
+          "rank": 9,
+          "label": "Choux-pommés",
+          "total": false
+        },
+        {
+          "id": 5153,
+          "rank": 10,
+          "label": "Concombre",
+          "total": false
+        },
+        {
+          "id": 5154,
+          "rank": 11,
+          "label": "Courge cougette",
+          "total": false
+        },
+        {
+          "id": 5155,
+          "rank": 12,
+          "label": "Fève verte",
+          "total": false
+        },
+        {
+          "id": 5156,
+          "rank": 13,
+          "label": "Fraisier",
+          "total": false
+        },
+        {
+          "id": 5157,
+          "rank": 14,
+          "label": "Framboise",
+          "total": false
+        },
+        {
+          "id": 5158,
+          "rank": 15,
+          "label": "Haricot vert",
+          "total": false
+        },
+        {
+          "id": 5159,
+          "rank": 16,
+          "label": "Melon",
+          "total": false
+        },
+        {
+          "id": 5160,
+          "rank": 17,
+          "label": "Menthe",
+          "total": false
+        },
+        {
+          "id": 5161,
+          "rank": 18,
+          "label": "Mûrier",
+          "total": false
+        },
+        {
+          "id": 5162,
+          "rank": 19,
+          "label": "Myrtille",
+          "total": false
+        },
+        {
+          "id": 5163,
+          "rank": 20,
+          "label": "Navet",
+          "total": false
+        },
+        {
+          "id": 5164,
+          "rank": 21,
+          "label": "Niora",
+          "total": false
+        },
+        {
+          "id": 5165,
+          "rank": 22,
+          "label": "Oignon",
+          "total": false
+        },
+        {
+          "id": 5166,
+          "rank": 23,
+          "label": "Oignon vert",
+          "total": false
+        },
+        {
+          "id": 5167,
+          "rank": 24,
+          "label": "Pastèque",
+          "total": false
+        },
+        {
+          "id": 5168,
+          "rank": 25,
+          "label": "Patate douce",
+          "total": false
+        },
+        {
+          "id": 5169,
+          "rank": 26,
+          "label": "Petit-pois vert",
+          "total": false
+        },
+        {
+          "id": 5170,
+          "rank": 27,
+          "label": "Piment poivron",
+          "total": false
+        },
+        {
+          "id": 5171,
+          "rank": 28,
+          "label": "Pomme de terre",
+          "total": false
+        },
+        {
+          "id": 5172,
+          "rank": 29,
+          "label": "Tomate",
+          "total": false
+        },
+        {
+          "id": 5173,
+          "rank": 30,
+          "label": "Autres",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1774357642037,
+  "data": {
+    "5161_2017-2018": {
+      "value": "0",
+      "footNote": null
+    },
+    "5161_2018-2019": {
+      "value": "0",
+      "footNote": null
+    },
+    "5161_2019-2020": {
+      "value": "10",
+      "footNote": null
+    },
+    "5161_2021-2022": {
+      "value": "35",
+      "footNote": null
+    },
+    "5161_2022-2023": {
+      "value": "76",
+      "footNote": null
+    },
+    "5161_2023-2024": {
+      "value": "65",
+      "footNote": null
+    },
+    "5160_2013-2014": {
+      "value": "3451",
+      "footNote": null
+    },
+    "5160_2014-2015": {
+      "value": "3344",
+      "footNote": null
+    },
+    "5160_2015-2016": {
+      "value": "3386",
+      "footNote": null
+    },
+    "5160_2016-2017": {
+      "value": "3578",
+      "footNote": null
+    },
+    "5160_2017-2018": {
+      "value": "3184",
+      "footNote": null
+    },
+    "5160_2018-2019": {
+      "value": "2712",
+      "footNote": null
+    },
+    "5160_2019-2020": {
+      "value": "2551",
+      "footNote": null
+    },
+    "5160_2020-2021": {
+      "value": "1610",
+      "footNote": null
+    },
+    "5160_2021-2022": {
+      "value": "1177",
+      "footNote": null
+    },
+    "5160_2022-2023": {
+      "value": "1682",
+      "footNote": null
+    },
+    "5160_2023-2024": {
+      "value": "1295",
+      "footNote": null
+    },
+    "5169_2013-2014": {
+      "value": "15301",
+      "footNote": null
+    },
+    "5169_2014-2015": {
+      "value": "19328",
+      "footNote": null
+    },
+    "5169_2015-2016": {
+      "value": "10353",
+      "footNote": null
+    },
+    "5169_2016-2017": {
+      "value": "18085",
+      "footNote": null
+    },
+    "5169_2017-2018": {
+      "value": "19308",
+      "footNote": null
+    },
+    "5169_2018-2019": {
+      "value": "18959",
+      "footNote": null
+    },
+    "5169_2019-2020": {
+      "value": "13774",
+      "footNote": null
+    },
+    "5169_2020-2021": {
+      "value": "16734",
+      "footNote": null
+    },
+    "5169_2021-2022": {
+      "value": "11921",
+      "footNote": null
+    },
+    "5169_2022-2023": {
+      "value": "12012",
+      "footNote": null
+    },
+    "5169_2023-2024": {
+      "value": "9020",
+      "footNote": null
+    },
+    "5147_2014-2015": {
+      "value": "15",
+      "footNote": null
+    },
+    "5147_2015-2016": {
+      "value": "15",
+      "footNote": null
+    },
+    "5147_2016-2017": {
+      "value": "15",
+      "footNote": null
+    },
+    "5147_2017-2018": {
+      "value": "12",
+      "footNote": null
+    },
+    "5147_2018-2019": {
+      "value": "30",
+      "footNote": null
+    },
+    "5147_2019-2020": {
+      "value": "904",
+      "footNote": null
+    },
+    "5147_2020-2021": {
+      "value": "4",
+      "footNote": null
+    },
+    "5147_2023-2024": {
+      "value": "100",
+      "footNote": null
+    },
+    "5168_2013-2014": {
+      "value": "841",
+      "footNote": null
+    },
+    "5168_2014-2015": {
+      "value": "885",
+      "footNote": null
+    },
+    "5168_2015-2016": {
+      "value": "857",
+      "footNote": null
+    },
+    "5168_2016-2017": {
+      "value": "800",
+      "footNote": null
+    },
+    "5168_2017-2018": {
+      "value": "837",
+      "footNote": null
+    },
+    "5168_2018-2019": {
+      "value": "457",
+      "footNote": null
+    },
+    "5168_2019-2020": {
+      "value": "860",
+      "footNote": null
+    },
+    "5168_2020-2021": {
+      "value": "600",
+      "footNote": null
+    },
+    "5168_2021-2022": {
+      "value": "560",
+      "footNote": null
+    },
+    "5168_2022-2023": {
+      "value": "559",
+      "footNote": null
+    },
+    "5168_2023-2024": {
+      "value": "483",
+      "footNote": null
+    },
+    "5146_2013-2014": {
+      "value": "3264",
+      "footNote": null
+    },
+    "5146_2014-2015": {
+      "value": "3070",
+      "footNote": null
+    },
+    "5146_2015-2016": {
+      "value": "2971",
+      "footNote": null
+    },
+    "5146_2016-2017": {
+      "value": "2923",
+      "footNote": null
+    },
+    "5146_2017-2018": {
+      "value": "3274",
+      "footNote": null
+    },
+    "5146_2018-2019": {
+      "value": "2966",
+      "footNote": null
+    },
+    "5146_2019-2020": {
+      "value": "2941",
+      "footNote": null
+    },
+    "5146_2020-2021": {
+      "value": "2562",
+      "footNote": null
+    },
+    "5146_2021-2022": {
+      "value": "5129",
+      "footNote": null
+    },
+    "5146_2022-2023": {
+      "value": "3107",
+      "footNote": null
+    },
+    "5146_2023-2024": {
+      "value": "2729",
+      "footNote": null
+    },
+    "5167_2013-2014": {
+      "value": "12671",
+      "footNote": null
+    },
+    "5167_2014-2015": {
+      "value": "15339",
+      "footNote": null
+    },
+    "5167_2015-2016": {
+      "value": "13368",
+      "footNote": null
+    },
+    "5167_2016-2017": {
+      "value": "16638",
+      "footNote": null
+    },
+    "5167_2017-2018": {
+      "value": "18684",
+      "footNote": null
+    },
+    "5167_2018-2019": {
+      "value": "17260",
+      "footNote": null
+    },
+    "5167_2019-2020": {
+      "value": "17012",
+      "footNote": null
+    },
+    "5167_2020-2021": {
+      "value": "19206",
+      "footNote": null
+    },
+    "5167_2021-2022": {
+      "value": "14258",
+      "footNote": null
+    },
+    "5167_2022-2023": {
+      "value": "14582",
+      "footNote": null
+    },
+    "5167_2023-2024": {
+      "value": "8653",
+      "footNote": null
+    },
+    "5145_2013-2014": {
+      "value": "939",
+      "footNote": null
+    },
+    "5145_2014-2015": {
+      "value": "1072",
+      "footNote": null
+    },
+    "5145_2015-2016": {
+      "value": "1049",
+      "footNote": null
+    },
+    "5145_2016-2017": {
+      "value": "1136",
+      "footNote": null
+    },
+    "5145_2017-2018": {
+      "value": "1365",
+      "footNote": null
+    },
+    "5145_2018-2019": {
+      "value": "1374",
+      "footNote": null
+    },
+    "5145_2019-2020": {
+      "value": "2310",
+      "footNote": null
+    },
+    "5145_2020-2021": {
+      "value": "1507",
+      "footNote": null
+    },
+    "5145_2021-2022": {
+      "value": "2655",
+      "footNote": null
+    },
+    "5145_2022-2023": {
+      "value": "2736",
+      "footNote": null
+    },
+    "5145_2023-2024": {
+      "value": "2445",
+      "footNote": null
+    },
+    "5166_2013-2014": {
+      "value": "1793",
+      "footNote": null
+    },
+    "5166_2014-2015": {
+      "value": "1818",
+      "footNote": null
+    },
+    "5166_2015-2016": {
+      "value": "2196",
+      "footNote": null
+    },
+    "5166_2016-2017": {
+      "value": "1977",
+      "footNote": null
+    },
+    "5166_2017-2018": {
+      "value": "2878",
+      "footNote": null
+    },
+    "5166_2018-2019": {
+      "value": "2277",
+      "footNote": null
+    },
+    "5166_2019-2020": {
+      "value": "5470",
+      "footNote": null
+    },
+    "5166_2020-2021": {
+      "value": "5514",
+      "footNote": null
+    },
+    "5166_2021-2022": {
+      "value": "7040",
+      "footNote": null
+    },
+    "5166_2022-2023": {
+      "value": "11010",
+      "footNote": null
+    },
+    "5166_2023-2024": {
+      "value": "12774",
+      "footNote": null
+    },
+    "5144_2013-2014": {
+      "value": "220820",
+      "footNote": null
+    },
+    "5144_2014-2015": {
+      "value": "227095",
+      "footNote": null
+    },
+    "5144_2015-2016": {
+      "value": "205761",
+      "footNote": null
+    },
+    "5144_2016-2017": {
+      "value": "216155",
+      "footNote": null
+    },
+    "5144_2017-2018": {
+      "value": "220307",
+      "footNote": null
+    },
+    "5144_2018-2019": {
+      "value": "194629",
+      "footNote": null
+    },
+    "5144_2019-2020": {
+      "value": "225592",
+      "footNote": null
+    },
+    "5144_2020-2021": {
+      "value": "203150",
+      "footNote": null
+    },
+    "5144_2021-2022": {
+      "value": "197970",
+      "footNote": null
+    },
+    "5144_2022-2023": {
+      "value": "224171",
+      "footNote": null
+    },
+    "5144_2023-2024": {
+      "value": "211904",
+      "footNote": null
+    },
+    "5165_2013-2014": {
+      "value": "28296",
+      "footNote": null
+    },
+    "5165_2014-2015": {
+      "value": "30885",
+      "footNote": null
+    },
+    "5165_2015-2016": {
+      "value": "28397",
+      "footNote": null
+    },
+    "5165_2016-2017": {
+      "value": "27273",
+      "footNote": null
+    },
+    "5165_2017-2018": {
+      "value": "36133",
+      "footNote": null
+    },
+    "5165_2018-2019": {
+      "value": "28037",
+      "footNote": null
+    },
+    "5165_2019-2020": {
+      "value": "30812",
+      "footNote": null
+    },
+    "5165_2020-2021": {
+      "value": "27530",
+      "footNote": null
+    },
+    "5165_2021-2022": {
+      "value": "25372",
+      "footNote": null
+    },
+    "5165_2022-2023": {
+      "value": "19684",
+      "footNote": null
+    },
+    "5165_2023-2024": {
+      "value": "27016",
+      "footNote": null
+    },
+    "5164_2014-2015": {
+      "value": "0",
+      "footNote": null
+    },
+    "5164_2017-2018": {
+      "value": "0",
+      "footNote": null
+    },
+    "5164_2018-2019": {
+      "value": "0",
+      "footNote": null
+    },
+    "5164_2019-2020": {
+      "value": "8",
+      "footNote": null
+    },
+    "5164_2021-2022": {
+      "value": "1183",
+      "footNote": null
+    },
+    "5163_2013-2014": {
+      "value": "6288",
+      "footNote": null
+    },
+    "5163_2014-2015": {
+      "value": "6612",
+      "footNote": null
+    },
+    "5163_2015-2016": {
+      "value": "5944",
+      "footNote": null
+    },
+    "5163_2016-2017": {
+      "value": "5572",
+      "footNote": null
+    },
+    "5163_2017-2018": {
+      "value": "6300",
+      "footNote": null
+    },
+    "5163_2018-2019": {
+      "value": "6256",
+      "footNote": null
+    },
+    "5163_2019-2020": {
+      "value": "7291",
+      "footNote": null
+    },
+    "5163_2020-2021": {
+      "value": "7178",
+      "footNote": null
+    },
+    "5163_2021-2022": {
+      "value": "6592",
+      "footNote": null
+    },
+    "5163_2022-2023": {
+      "value": "8242",
+      "footNote": null
+    },
+    "5163_2023-2024": {
+      "value": "7368",
+      "footNote": null
+    },
+    "5162_2017-2018": {
+      "value": "0",
+      "footNote": null
+    },
+    "5162_2018-2019": {
+      "value": "0",
+      "footNote": null
+    },
+    "5162_2019-2020": {
+      "value": "670",
+      "footNote": null
+    },
+    "5162_2020-2021": {
+      "value": "1671",
+      "footNote": null
+    },
+    "5162_2021-2022": {
+      "value": "2372",
+      "footNote": null
+    },
+    "5162_2022-2023": {
+      "value": "4075",
+      "footNote": null
+    },
+    "5162_2023-2024": {
+      "value": "3896",
+      "footNote": null
+    },
+    "5159_2013-2014": {
+      "value": "20849",
+      "footNote": null
+    },
+    "5159_2014-2015": {
+      "value": "18970",
+      "footNote": null
+    },
+    "5159_2015-2016": {
+      "value": "18245",
+      "footNote": null
+    },
+    "5159_2016-2017": {
+      "value": "19014",
+      "footNote": null
+    },
+    "5159_2017-2018": {
+      "value": "15742",
+      "footNote": null
+    },
+    "5159_2018-2019": {
+      "value": "13236",
+      "footNote": null
+    },
+    "5159_2019-2020": {
+      "value": "15685",
+      "footNote": null
+    },
+    "5159_2020-2021": {
+      "value": "15052",
+      "footNote": null
+    },
+    "5159_2021-2022": {
+      "value": "13588",
+      "footNote": null
+    },
+    "5159_2022-2023": {
+      "value": "11043",
+      "footNote": null
+    },
+    "5159_2023-2024": {
+      "value": "6634",
+      "footNote": null
+    },
+    "5172_2013-2014": {
+      "value": "8278",
+      "footNote": null
+    },
+    "5172_2014-2015": {
+      "value": "8351",
+      "footNote": null
+    },
+    "5172_2015-2016": {
+      "value": "7759",
+      "footNote": null
+    },
+    "5172_2016-2017": {
+      "value": "7026",
+      "footNote": null
+    },
+    "5172_2017-2018": {
+      "value": "7305",
+      "footNote": null
+    },
+    "5172_2018-2019": {
+      "value": "6344",
+      "footNote": null
+    },
+    "5172_2019-2020": {
+      "value": "5630",
+      "footNote": null
+    },
+    "5172_2020-2021": {
+      "value": "4437",
+      "footNote": null
+    },
+    "5172_2021-2022": {
+      "value": "5565",
+      "footNote": null
+    },
+    "5172_2022-2023": {
+      "value": "5645",
+      "footNote": null
+    },
+    "5172_2023-2024": {
+      "value": "6610",
+      "footNote": null
+    },
+    "5150_2013-2014": {
+      "value": "15646",
+      "footNote": null
+    },
+    "5150_2014-2015": {
+      "value": "14648",
+      "footNote": null
+    },
+    "5150_2015-2016": {
+      "value": "13808",
+      "footNote": null
+    },
+    "5150_2016-2017": {
+      "value": "13394",
+      "footNote": null
+    },
+    "5150_2017-2018": {
+      "value": "13582",
+      "footNote": null
+    },
+    "5150_2018-2019": {
+      "value": "12424",
+      "footNote": null
+    },
+    "5150_2019-2020": {
+      "value": "23538",
+      "footNote": null
+    },
+    "5150_2020-2021": {
+      "value": "11460",
+      "footNote": null
+    },
+    "5150_2021-2022": {
+      "value": "9895",
+      "footNote": null
+    },
+    "5150_2022-2023": {
+      "value": "12634",
+      "footNote": null
+    },
+    "5150_2023-2024": {
+      "value": "11082",
+      "footNote": null
+    },
+    "5171_2013-2014": {
+      "value": "56585",
+      "footNote": null
+    },
+    "5171_2014-2015": {
+      "value": "55821",
+      "footNote": null
+    },
+    "5171_2015-2016": {
+      "value": "56055",
+      "footNote": null
+    },
+    "5171_2016-2017": {
+      "value": "55215",
+      "footNote": null
+    },
+    "5171_2017-2018": {
+      "value": "54111",
+      "footNote": null
+    },
+    "5171_2018-2019": {
+      "value": "53980",
+      "footNote": null
+    },
+    "5171_2019-2020": {
+      "value": "52164",
+      "footNote": null
+    },
+    "5171_2020-2021": {
+      "value": "45897",
+      "footNote": null
+    },
+    "5171_2021-2022": {
+      "value": "50657",
+      "footNote": null
+    },
+    "5171_2022-2023": {
+      "value": "55058",
+      "footNote": null
+    },
+    "5171_2023-2024": {
+      "value": "61806",
+      "footNote": null
+    },
+    "5170_2013-2014": {
+      "value": "2922",
+      "footNote": null
+    },
+    "5170_2014-2015": {
+      "value": "2933",
+      "footNote": null
+    },
+    "5170_2015-2016": {
+      "value": "2393",
+      "footNote": null
+    },
+    "5170_2016-2017": {
+      "value": "2681",
+      "footNote": null
+    },
+    "5170_2017-2018": {
+      "value": "2962",
+      "footNote": null
+    },
+    "5170_2018-2019": {
+      "value": "2561",
+      "footNote": null
+    },
+    "5170_2019-2020": {
+      "value": "2954",
+      "footNote": null
+    },
+    "5170_2020-2021": {
+      "value": "2556",
+      "footNote": null
+    },
+    "5170_2021-2022": {
+      "value": "2193",
+      "footNote": null
+    },
+    "5170_2022-2023": {
+      "value": "2424",
+      "footNote": null
+    },
+    "5170_2023-2024": {
+      "value": "3955",
+      "footNote": null
+    },
+    "5158_2013-2014": {
+      "value": "3300",
+      "footNote": null
+    },
+    "5158_2014-2015": {
+      "value": "3591",
+      "footNote": null
+    },
+    "5158_2015-2016": {
+      "value": "3254",
+      "footNote": null
+    },
+    "5158_2016-2017": {
+      "value": "3619",
+      "footNote": null
+    },
+    "5158_2017-2018": {
+      "value": "3134",
+      "footNote": null
+    },
+    "5158_2018-2019": {
+      "value": "2948",
+      "footNote": null
+    },
+    "5158_2019-2020": {
+      "value": "3188",
+      "footNote": null
+    },
+    "5158_2020-2021": {
+      "value": "2772",
+      "footNote": null
+    },
+    "5158_2021-2022": {
+      "value": "4386",
+      "footNote": null
+    },
+    "5158_2022-2023": {
+      "value": "5648",
+      "footNote": null
+    },
+    "5158_2023-2024": {
+      "value": "4473",
+      "footNote": null
+    },
+    "5157_2019-2020": {
+      "value": "642",
+      "footNote": null
+    },
+    "5157_2020-2021": {
+      "value": "1324",
+      "footNote": null
+    },
+    "5157_2021-2022": {
+      "value": "2430",
+      "footNote": null
+    },
+    "5157_2022-2023": {
+      "value": "4647",
+      "footNote": null
+    },
+    "5157_2023-2024": {
+      "value": "3417",
+      "footNote": null
+    },
+    "5156_2013-2014": {
+      "value": "2000",
+      "footNote": null
+    },
+    "5156_2014-2015": {
+      "value": "2721",
+      "footNote": null
+    },
+    "5156_2015-2016": {
+      "value": "2471",
+      "footNote": null
+    },
+    "5156_2016-2017": {
+      "value": "2605",
+      "footNote": null
+    },
+    "5156_2020-2021": {
+      "value": "2695",
+      "footNote": null
+    },
+    "5156_2021-2022": {
+      "value": "742",
+      "footNote": null
+    },
+    "5156_2022-2023": {
+      "value": "3292",
+      "footNote": null
+    },
+    "5156_2023-2024": {
+      "value": "1540",
+      "footNote": null
+    },
+    "5155_2013-2014": {
+      "value": "12176",
+      "footNote": null
+    },
+    "5155_2014-2015": {
+      "value": "11979",
+      "footNote": null
+    },
+    "5155_2015-2016": {
+      "value": "9083",
+      "footNote": null
+    },
+    "5155_2016-2017": {
+      "value": "10040",
+      "footNote": null
+    },
+    "5155_2017-2018": {
+      "value": "9186",
+      "footNote": null
+    },
+    "5155_2018-2019": {
+      "value": "8806",
+      "footNote": null
+    },
+    "5155_2019-2020": {
+      "value": "12820",
+      "footNote": null
+    },
+    "5155_2020-2021": {
+      "value": "8390",
+      "footNote": null
+    },
+    "5155_2021-2022": {
+      "value": "7515",
+      "footNote": null
+    },
+    "5155_2022-2023": {
+      "value": "8198",
+      "footNote": null
+    },
+    "5155_2023-2024": {
+      "value": "7244",
+      "footNote": null
+    },
+    "5154_2013-2014": {
+      "value": "6572",
+      "footNote": null
+    },
+    "5154_2014-2015": {
+      "value": "6690",
+      "footNote": null
+    },
+    "5154_2015-2016": {
+      "value": "6247",
+      "footNote": null
+    },
+    "5154_2016-2017": {
+      "value": "6251",
+      "footNote": null
+    },
+    "5154_2017-2018": {
+      "value": "5159",
+      "footNote": null
+    },
+    "5154_2018-2019": {
+      "value": "6660",
+      "footNote": null
+    },
+    "5154_2019-2020": {
+      "value": "6050",
+      "footNote": null
+    },
+    "5154_2020-2021": {
+      "value": "9352",
+      "footNote": null
+    },
+    "5154_2021-2022": {
+      "value": "8760",
+      "footNote": null
+    },
+    "5154_2022-2023": {
+      "value": "10474",
+      "footNote": null
+    },
+    "5154_2023-2024": {
+      "value": "10492",
+      "footNote": null
+    },
+    "5153_2013-2014": {
+      "value": "1267",
+      "footNote": null
+    },
+    "5153_2014-2015": {
+      "value": "889",
+      "footNote": null
+    },
+    "5153_2015-2016": {
+      "value": "792",
+      "footNote": null
+    },
+    "5153_2016-2017": {
+      "value": "839",
+      "footNote": null
+    },
+    "5153_2017-2018": {
+      "value": "864",
+      "footNote": null
+    },
+    "5153_2018-2019": {
+      "value": "888",
+      "footNote": null
+    },
+    "5153_2019-2020": {
+      "value": "947",
+      "footNote": null
+    },
+    "5153_2020-2021": {
+      "value": "864",
+      "footNote": null
+    },
+    "5153_2021-2022": {
+      "value": "875",
+      "footNote": null
+    },
+    "5153_2022-2023": {
+      "value": "8198",
+      "footNote": null
+    },
+    "5153_2023-2024": {
+      "value": "1287",
+      "footNote": null
+    },
+    "5152_2013-2014": {
+      "value": "2510",
+      "footNote": null
+    },
+    "5152_2014-2015": {
+      "value": "1752",
+      "footNote": null
+    },
+    "5152_2015-2016": {
+      "value": "1528",
+      "footNote": null
+    },
+    "5152_2016-2017": {
+      "value": "1802",
+      "footNote": null
+    },
+    "5152_2017-2018": {
+      "value": "1949",
+      "footNote": null
+    },
+    "5152_2018-2019": {
+      "value": "1254",
+      "footNote": null
+    },
+    "5152_2019-2020": {
+      "value": "2326",
+      "footNote": null
+    },
+    "5152_2020-2021": {
+      "value": "2968",
+      "footNote": null
+    },
+    "5152_2021-2022": {
+      "value": "3127",
+      "footNote": null
+    },
+    "5152_2022-2023": {
+      "value": "2935",
+      "footNote": null
+    },
+    "5152_2023-2024": {
+      "value": "3123",
+      "footNote": null
+    },
+    "5173_2013-2014": {
+      "value": "11270",
+      "footNote": null
+    },
+    "5173_2014-2015": {
+      "value": "12210",
+      "footNote": null
+    },
+    "5173_2015-2016": {
+      "value": "10775",
+      "footNote": null
+    },
+    "5173_2016-2017": {
+      "value": "11352",
+      "footNote": null
+    },
+    "5173_2017-2018": {
+      "value": "9394",
+      "footNote": null
+    },
+    "5173_2019-2020": {
+      "value": "8462",
+      "footNote": null
+    },
+    "5173_2020-2021": {
+      "value": "5763",
+      "footNote": null
+    },
+    "5173_2021-2022": {
+      "value": "3669",
+      "footNote": null
+    },
+    "5173_2022-2023": {
+      "value": "7333",
+      "footNote": null
+    },
+    "5173_2023-2024": {
+      "value": "5763",
+      "footNote": null
+    },
+    "5151_2013-2014": {
+      "value": "2107",
+      "footNote": null
+    },
+    "5151_2014-2015": {
+      "value": "1847",
+      "footNote": null
+    },
+    "5151_2015-2016": {
+      "value": "2577",
+      "footNote": null
+    },
+    "5151_2016-2017": {
+      "value": "2170",
+      "footNote": null
+    },
+    "5151_2017-2018": {
+      "value": "2633",
+      "footNote": null
+    },
+    "5151_2018-2019": {
+      "value": "2410",
+      "footNote": null
+    },
+    "5151_2019-2020": {
+      "value": "2481",
+      "footNote": null
+    },
+    "5151_2020-2021": {
+      "value": "2246",
+      "footNote": null
+    },
+    "5151_2021-2022": {
+      "value": "2199",
+      "footNote": null
+    },
+    "5151_2022-2023": {
+      "value": "2240",
+      "footNote": null
+    },
+    "5151_2023-2024": {
+      "value": "2288",
+      "footNote": null
+    },
+    "5149_2013-2014": {
+      "value": "750",
+      "footNote": null
+    },
+    "5149_2014-2015": {
+      "value": "788",
+      "footNote": null
+    },
+    "5149_2015-2016": {
+      "value": "901",
+      "footNote": null
+    },
+    "5149_2016-2017": {
+      "value": "728",
+      "footNote": null
+    },
+    "5149_2017-2018": {
+      "value": "836",
+      "footNote": null
+    },
+    "5149_2018-2019": {
+      "value": "978",
+      "footNote": null
+    },
+    "5149_2019-2020": {
+      "value": "2092",
+      "footNote": null
+    },
+    "5149_2020-2021": {
+      "value": "806",
+      "footNote": null
+    },
+    "5149_2021-2022": {
+      "value": "1838",
+      "footNote": null
+    },
+    "5149_2022-2023": {
+      "value": "3056",
+      "footNote": null
+    },
+    "5149_2023-2024": {
+      "value": "2452",
+      "footNote": null
+    },
+    "5148_2013-2014": {
+      "value": "1746",
+      "footNote": null
+    },
+    "5148_2014-2015": {
+      "value": "1537",
+      "footNote": null
+    },
+    "5148_2015-2016": {
+      "value": "1337",
+      "footNote": null
+    },
+    "5148_2016-2017": {
+      "value": "1422",
+      "footNote": null
+    },
+    "5148_2017-2018": {
+      "value": "1474",
+      "footNote": null
+    },
+    "5148_2018-2019": {
+      "value": "1812",
+      "footNote": null
+    },
+    "5148_2019-2020": {
+      "value": "2001",
+      "footNote": null
+    },
+    "5148_2020-2021": {
+      "value": "2450",
+      "footNote": null
+    },
+    "5148_2021-2022": {
+      "value": "2237",
+      "footNote": null
+    },
+    "5148_2022-2023": {
+      "value": "3582",
+      "footNote": null
+    },
+    "5148_2023-2024": {
+      "value": "3746",
+      "footNote": null
+    }
+  }
+}

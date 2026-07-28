@@ -1,0 +1,93 @@
+{
+  "iid": 586,
+  "code": "I4234",
+  "label": "Prévalence de l'insécurité alimentaire modérée ou sévère",
+  "metaData": {
+    "unit": "Pourcentage",
+    "frequency": "IR",
+    "source": "HCP, Enquête Conjoncture auprès des Ménages Tr3 2019",
+    "definitionFr": "La prévalence de l'insécurité alimentaire modérée ou sévère est la proportion de la population ou des ménages confrontés à un accès irrégulier, incertain ou insuffisant à une alimentation adéquate.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2020"
+  ],
+  "dimensions": [
+    {
+      "id": 486,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 6097,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 6098,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 6099,
+          "rank": 3,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 487,
+      "rank": 2,
+      "label": "Type de l'insécurité",
+      "modalites": [
+        {
+          "id": 6100,
+          "rank": 1,
+          "label": "Insécurité modéré ou sévère",
+          "total": false
+        },
+        {
+          "id": 6101,
+          "rank": 2,
+          "label": "Total",
+          "total": true
+        },
+        {
+          "id": 6102,
+          "rank": 3,
+          "label": "Insécurité sévère",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1639553400000,
+  "data": {
+    "6097.6100_2020": {
+      "value": "22",
+      "footNote": null
+    },
+    "6099.6101_2020": {
+      "value": "2.6",
+      "footNote": null
+    },
+    "6097.6102_2020": {
+      "value": "2",
+      "footNote": null
+    },
+    "6098.6100_2020": {
+      "value": "35.2",
+      "footNote": null
+    },
+    "6098.6102_2020": {
+      "value": "3.8",
+      "footNote": null
+    }
+  }
+}

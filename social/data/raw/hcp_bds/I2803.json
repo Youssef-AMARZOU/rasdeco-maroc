@@ -1,0 +1,125 @@
+{
+  "iid": 581,
+  "code": "I2803",
+  "label": "Femmes ayant reçu des soins prénatals qualifiés (au moins une visite)",
+  "metaData": {
+    "unit": "%",
+    "frequency": "IR",
+    "source": "Ministère de la Santé et Haut-Commissariat au plan",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2018",
+    "2011",
+    "2010",
+    "2004",
+    "1995",
+    "1994"
+  ],
+  "dimensions": [
+    {
+      "id": 479,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 6076,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 6077,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 6078,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1576395000000,
+  "data": {
+    "6077_1994": {
+      "value": "17.6",
+      "footNote": null
+    },
+    "6077_1995": {
+      "value": "27.6",
+      "footNote": null
+    },
+    "6077_2004": {
+      "value": "47.9",
+      "footNote": null
+    },
+    "6077_2010": {
+      "value": "68.3",
+      "footNote": null
+    },
+    "6077_2011": {
+      "value": "62.7",
+      "footNote": null
+    },
+    "6077_2018": {
+      "value": "79.6",
+      "footNote": null
+    },
+    "6078_1994": {
+      "value": "32.3",
+      "footNote": null
+    },
+    "6078_1995": {
+      "value": "44.7",
+      "footNote": null
+    },
+    "6078_2004": {
+      "value": "67.8",
+      "footNote": null
+    },
+    "6078_2010": {
+      "value": "80.2",
+      "footNote": null
+    },
+    "6078_2011": {
+      "value": "77.1",
+      "footNote": null
+    },
+    "6078_2018": {
+      "value": "88.5",
+      "footNote": null
+    },
+    "6076_1994": {
+      "value": "60.6",
+      "footNote": null
+    },
+    "6076_1995": {
+      "value": "78.9",
+      "footNote": null
+    },
+    "6076_2004": {
+      "value": "84.9",
+      "footNote": null
+    },
+    "6076_2010": {
+      "value": "94",
+      "footNote": null
+    },
+    "6076_2011": {
+      "value": "91.6",
+      "footNote": null
+    },
+    "6076_2018": {
+      "value": "95.6",
+      "footNote": null
+    }
+  }
+}

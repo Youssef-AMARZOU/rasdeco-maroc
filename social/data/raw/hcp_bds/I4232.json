@@ -1,0 +1,36 @@
+{
+  "iid": 605,
+  "code": "I4232",
+  "label": "Prévalence de l'émaciation chez les enfants de moins de 5ans",
+  "metaData": {
+    "unit": "Pourcentage",
+    "frequency": "IR",
+    "source": "Ministère de la Santé, Enquête Nationale sur la Population et la Santé Familiale",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2020",
+    "2019",
+    "2018"
+  ],
+  "dimensions": null,
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1639553400000,
+  "data": {
+    "2018": {
+      "value": "2.6",
+      "footNote": null
+    },
+    "2019": {
+      "value": "2.5",
+      "footNote": null
+    },
+    "2020": {
+      "value": "2.5",
+      "footNote": null
+    }
+  }
+}

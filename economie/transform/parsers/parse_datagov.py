@@ -23,6 +23,17 @@ from .base import (
 )
 from .smart_xls import detect_format as _smart_detect
 
+_ARABIC_TO_FR = {
+    "عدد_الزيارات": "NBR_VISITES",
+    "عدد_المناصب": "NBR_POSTES",
+    "عدد_مناصب_رئيس_قسم": "NBR_POSTES_CHEF_DIV",
+    "عدد_مناصب_رئيس_مصلحة": "NBR_POSTES_CHEF_SERV",
+}
+
+
+def _translate_arabic(code: str) -> str:
+    return _ARABIC_TO_FR.get(code, code)
+
 
 class DatagovParser(SourceParser):
     def __init__(self):
@@ -222,7 +233,7 @@ class DatagovParser(SourceParser):
             for vcol in value_cols:
                 for row in df.iter_rows(named=True):
                     ind_code_raw = str(row[indicator_col]) if row[indicator_col] else ""
-                    ind_code = detect_code_indicateur(ind_code_raw) or code_hint or "PIB.TRIM.VOL"
+                    ind_code = _translate_arabic(detect_code_indicateur(ind_code_raw) or code_hint or "PIB.TRIM.VOL")
                     raw_date = row[date_col]
                     raw_val = row[vcol]
                     if raw_val is None or (isinstance(raw_val, float) and raw_val != raw_val):
@@ -255,7 +266,7 @@ class DatagovParser(SourceParser):
                     rows.append(self._make_row(
                         date_label=str(raw_date),
                         valeur=val,
-                        code_indicateur=vcol if code_hint is None else code,
+                        code_indicateur=_translate_arabic(vcol) if code_hint is None else code,
                         fichier=rel,
                         version_serie=version,
                     ))

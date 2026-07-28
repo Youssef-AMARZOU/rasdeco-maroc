@@ -1,0 +1,281 @@
+{
+  "iid": 446,
+  "code": "I1245",
+  "label": "Production de bois de feu",
+  "metaData": {
+    "unit": "1000 m3/1000 stères/Tonne",
+    "frequency": "AS",
+    "source": " MINISTERE DE L’AGRICULTURE ET DE LA PECHE MARITIME DU DEVELOPPEMENT RURALE ET DES EAUX ET FORETS ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1998",
+    "1997",
+    "1996",
+    "1995",
+    "1994",
+    "1993",
+    "1992",
+    "1991",
+    "1990",
+    "1989",
+    "1988",
+    "1987",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982",
+    "1981",
+    "1980",
+    "1979",
+    "1978",
+    "1977",
+    "1976",
+    "1975",
+    "1974",
+    "1973"
+  ],
+  "dimensions": null,
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1772629232843,
+  "data": {
+    "1973": {
+      "value": "809",
+      "footNote": null
+    },
+    "1974": {
+      "value": "879",
+      "footNote": null
+    },
+    "1975": {
+      "value": "605",
+      "footNote": null
+    },
+    "1976": {
+      "value": "651",
+      "footNote": null
+    },
+    "1977": {
+      "value": "884",
+      "footNote": null
+    },
+    "1978": {
+      "value": "424",
+      "footNote": null
+    },
+    "1979": {
+      "value": "627",
+      "footNote": null
+    },
+    "1980": {
+      "value": "821",
+      "footNote": null
+    },
+    "1981": {
+      "value": "920",
+      "footNote": null
+    },
+    "1982": {
+      "value": "500",
+      "footNote": null
+    },
+    "1983": {
+      "value": "785",
+      "footNote": null
+    },
+    "1984": {
+      "value": "717",
+      "footNote": null
+    },
+    "1985": {
+      "value": "800",
+      "footNote": null
+    },
+    "1986": {
+      "value": "604",
+      "footNote": null
+    },
+    "1987": {
+      "value": "608",
+      "footNote": null
+    },
+    "1988": {
+      "value": "718",
+      "footNote": null
+    },
+    "1989": {
+      "value": "740",
+      "footNote": null
+    },
+    "1990": {
+      "value": "720",
+      "footNote": null
+    },
+    "1991": {
+      "value": "1080",
+      "footNote": null
+    },
+    "1992": {
+      "value": "745",
+      "footNote": null
+    },
+    "1993": {
+      "value": "727",
+      "footNote": null
+    },
+    "1994": {
+      "value": "863",
+      "footNote": null
+    },
+    "1995": {
+      "value": "909",
+      "footNote": null
+    },
+    "1996": {
+      "value": "876",
+      "footNote": null
+    },
+    "1997": {
+      "value": "533",
+      "footNote": null
+    },
+    "1998": {
+      "value": "823",
+      "footNote": null
+    },
+    "1999": {
+      "value": "921",
+      "footNote": null
+    },
+    "2000": {
+      "value": "776",
+      "footNote": null
+    },
+    "2001": {
+      "value": "677",
+      "footNote": null
+    },
+    "2002": {
+      "value": "666",
+      "footNote": null
+    },
+    "2003": {
+      "value": "628",
+      "footNote": null
+    },
+    "2004": {
+      "value": "496",
+      "footNote": null
+    },
+    "2005": {
+      "value": "638",
+      "footNote": null
+    },
+    "2006": {
+      "value": "580",
+      "footNote": null
+    },
+    "2007": {
+      "value": "719",
+      "footNote": null
+    },
+    "2008": {
+      "value": "564",
+      "footNote": null
+    },
+    "2009": {
+      "value": "445",
+      "footNote": null
+    },
+    "2010": {
+      "value": "413",
+      "footNote": null
+    },
+    "2011": {
+      "value": "362",
+      "footNote": null
+    },
+    "2012": {
+      "value": "348",
+      "footNote": null
+    },
+    "2013": {
+      "value": "440",
+      "footNote": null
+    },
+    "2014": {
+      "value": "217",
+      "footNote": null
+    },
+    "2015": {
+      "value": "409",
+      "footNote": null
+    },
+    "2016": {
+      "value": "425",
+      "footNote": null
+    },
+    "2017": {
+      "value": "416",
+      "footNote": null
+    },
+    "2018": {
+      "value": "305",
+      "footNote": null
+    },
+    "2019": {
+      "value": "261",
+      "footNote": null
+    },
+    "2020": {
+      "value": "163",
+      "footNote": null
+    },
+    "2021": {
+      "value": "275",
+      "footNote": null
+    },
+    "2022": {
+      "value": "233",
+      "footNote": null
+    },
+    "2023": {
+      "value": "358",
+      "footNote": null
+    },
+    "2024": {
+      "value": "228",
+      "footNote": null
+    }
+  }
+}

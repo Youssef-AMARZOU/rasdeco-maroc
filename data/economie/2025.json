@@ -1,0 +1,57 @@
+{
+  "year": 2025,
+  "domaine": "Économie",
+  "kpis": [
+    {
+      "label": "Croissance du PIB",
+      "value": 4.6,
+      "unit": "%"
+    },
+    {
+      "label": "Inflation IPC",
+      "value": 1,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de chômage",
+      "value": 13,
+      "unit": "%"
+    },
+    {
+      "label": "Taux directeur BAM",
+      "value": 2.5,
+      "unit": "%"
+    },
+    {
+      "label": "Dette publique / PIB",
+      "value": 78.6,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Réserves de change",
+      "value": 5.2,
+      "unit": "mois"
+    },
+    {
+      "label": "Flux d'IDE",
+      "value": 34,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Déficit budgétaire",
+      "value": -4.2,
+      "unit": "% PIB"
+    }
+  ],
+  "indicators": {
+    "PIB_CROISSANCE": 4.6,
+    "IPC_GLISSEMENT": 1,
+    "CHOMAGE": 13,
+    "TAUX_DIRECTEUR": 2.5,
+    "DETTE_PUBLIQUE": 78.6,
+    "RESERVES_CHANGE": 5.2,
+    "IDE_FLUX": 34,
+    "DEFICIT_BUDGET": -4.2
+  },
+  "source": "HCP/BAM"
+}

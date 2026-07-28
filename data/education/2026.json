@@ -1,0 +1,45 @@
+{
+  "year": 2026,
+  "domaine": "Éducation",
+  "kpis": [
+    {
+      "label": "Taux de scolarisation (6-11 ans)",
+      "value": 99.2,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de scolarisation (12-14 ans)",
+      "value": 87.5,
+      "unit": "%"
+    },
+    {
+      "label": "Nombre d'enseignants",
+      "value": 248.5,
+      "unit": "K"
+    },
+    {
+      "label": "Établissements scolaires",
+      "value": 16.2,
+      "unit": "K"
+    },
+    {
+      "label": "Taux d'abandon primaire",
+      "value": 3.2,
+      "unit": "%"
+    },
+    {
+      "label": "Étudiants inscrits (supérieur)",
+      "value": 1300,
+      "unit": "K"
+    }
+  ],
+  "indicators": {
+    "SCOLARISATION_PRIMAIRE": 99.2,
+    "SCOLARISATION_COLLEGE": 87.5,
+    "ENSEIGNANTS": 248.5,
+    "ETABLISSEMENTS": 16.2,
+    "ABANDON_PRIMAIRE": 3.2,
+    "ETUDIANTS_TOTAL": 1300
+  },
+  "source": "MESRS/HCP"
+}

@@ -62,12 +62,15 @@ def generate_report(df: pl.DataFrame, title: str = "Rapport de controle") -> str
     dates = df.filter(pl.col("date").is_not_null())["date"]
     if len(dates) > 0:
         try:
-            dates_parsed = pl.Series(dates).str.to_date()
-            d_min = dates_parsed.min()
-            d_max = dates_parsed.max()
-            lines.append(f"  Plage de dates            : {d_min} -> {d_max}")
+            dates_safe = dates.filter(dates.dt.year() >= 1900)
+            if len(dates_safe) > 0:
+                d_min = dates_safe.min()
+                d_max = dates_safe.max()
+                lines.append(f"  Plage de dates            : {d_min} -> {d_max}")
+            else:
+                lines.append(f"  Plage de dates            : (aucune date valide >= 1900)")
         except Exception:
-            lines.append(f"  Plage de dates            : {dates.min()} -> {dates.max()}")
+            lines.append(f"  Plage de dates            : (erreur d'analyse)")
     lines.append("")
 
     # -- 2. VALEURS MANQUANTES PAR INDICATEUR

@@ -1,0 +1,290 @@
+{
+  "iid": 453,
+  "code": "I4346",
+  "label": "Abattages contrôlés (Nombre de têtes)",
+  "metaData": {
+    "unit": "En milliers",
+    "frequency": "AS",
+    "source": "Ministère de l'Agriculture, de la Pêche Maritime, du Développent Rural et des Eaux et Forêts",
+    "definitionFr": "Le terme cheptel désigne la totalité des animaux d’un certain type dans une ferme ou un pays. Par exemple, un grand nombre de vaches constitue un cheptel bovin.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014"
+  ],
+  "dimensions": [
+    {
+      "id": 304,
+      "rank": 1,
+      "label": "Type de  cheptel",
+      "modalites": [
+        {
+          "id": 4713,
+          "rank": 1,
+          "label": "Total",
+          "total": true
+        },
+        {
+          "id": 4714,
+          "rank": 2,
+          "label": "Bovins",
+          "total": false
+        },
+        {
+          "id": 4715,
+          "rank": 3,
+          "label": "Ovins",
+          "total": false
+        },
+        {
+          "id": 4716,
+          "rank": 4,
+          "label": "Caprins",
+          "total": false
+        },
+        {
+          "id": 4717,
+          "rank": 5,
+          "label": "Autres variétés",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1772539767353,
+  "data": {
+    "4717_2014": {
+      "value": "54",
+      "footNote": null
+    },
+    "4717_2015": {
+      "value": "26",
+      "footNote": null
+    },
+    "4717_2016": {
+      "value": "26",
+      "footNote": null
+    },
+    "4717_2017": {
+      "value": "27",
+      "footNote": null
+    },
+    "4717_2018": {
+      "value": "23",
+      "footNote": null
+    },
+    "4717_2019": {
+      "value": "25",
+      "footNote": null
+    },
+    "4717_2020": {
+      "value": "23",
+      "footNote": null
+    },
+    "4717_2021": {
+      "value": "23",
+      "footNote": null
+    },
+    "4717_2022": {
+      "value": "25",
+      "footNote": null
+    },
+    "4717_2023": {
+      "value": "37",
+      "footNote": null
+    },
+    "4717_2024": {
+      "value": "39",
+      "footNote": null
+    },
+    "4716_2014": {
+      "value": "1518",
+      "footNote": null
+    },
+    "4716_2015": {
+      "value": "1027",
+      "footNote": null
+    },
+    "4716_2016": {
+      "value": "1188",
+      "footNote": null
+    },
+    "4716_2017": {
+      "value": "1368",
+      "footNote": null
+    },
+    "4716_2018": {
+      "value": "894",
+      "footNote": null
+    },
+    "4716_2019": {
+      "value": "1062",
+      "footNote": null
+    },
+    "4716_2020": {
+      "value": "870",
+      "footNote": null
+    },
+    "4716_2021": {
+      "value": "996",
+      "footNote": null
+    },
+    "4716_2022": {
+      "value": "938",
+      "footNote": null
+    },
+    "4716_2023": {
+      "value": "801",
+      "footNote": null
+    },
+    "4716_2024": {
+      "value": "575",
+      "footNote": null
+    },
+    "4715_2014": {
+      "value": "1954",
+      "footNote": null
+    },
+    "4715_2015": {
+      "value": "1677",
+      "footNote": null
+    },
+    "4715_2016": {
+      "value": "1863",
+      "footNote": null
+    },
+    "4715_2017": {
+      "value": "2068",
+      "footNote": null
+    },
+    "4715_2018": {
+      "value": "1996",
+      "footNote": null
+    },
+    "4715_2019": {
+      "value": "2130",
+      "footNote": null
+    },
+    "4715_2020": {
+      "value": "2122",
+      "footNote": null
+    },
+    "4715_2021": {
+      "value": "2580",
+      "footNote": null
+    },
+    "4715_2022": {
+      "value": "2750",
+      "footNote": null
+    },
+    "4715_2023": {
+      "value": "2093",
+      "footNote": null
+    },
+    "4715_2024": {
+      "value": "1514",
+      "footNote": null
+    },
+    "4714_2014": {
+      "value": "962",
+      "footNote": null
+    },
+    "4714_2015": {
+      "value": "935",
+      "footNote": null
+    },
+    "4714_2016": {
+      "value": "1079",
+      "footNote": null
+    },
+    "4714_2017": {
+      "value": "1002",
+      "footNote": null
+    },
+    "4714_2018": {
+      "value": "862",
+      "footNote": null
+    },
+    "4714_2019": {
+      "value": "785",
+      "footNote": null
+    },
+    "4714_2020": {
+      "value": "775",
+      "footNote": null
+    },
+    "4714_2021": {
+      "value": "946",
+      "footNote": null
+    },
+    "4714_2022": {
+      "value": "1013",
+      "footNote": null
+    },
+    "4714_2023": {
+      "value": "880",
+      "footNote": null
+    },
+    "4714_2024": {
+      "value": "843",
+      "footNote": null
+    },
+    "4713_2014": {
+      "value": "4488",
+      "footNote": null
+    },
+    "4713_2015": {
+      "value": "3665",
+      "footNote": null
+    },
+    "4713_2016": {
+      "value": "4156",
+      "footNote": null
+    },
+    "4713_2017": {
+      "value": "4465",
+      "footNote": null
+    },
+    "4713_2018": {
+      "value": "3775",
+      "footNote": null
+    },
+    "4713_2019": {
+      "value": "4002",
+      "footNote": null
+    },
+    "4713_2020": {
+      "value": "3790",
+      "footNote": null
+    },
+    "4713_2021": {
+      "value": "4545",
+      "footNote": null
+    },
+    "4713_2022": {
+      "value": "4725",
+      "footNote": null
+    },
+    "4713_2023": {
+      "value": "3811",
+      "footNote": null
+    },
+    "4713_2024": {
+      "value": "2971",
+      "footNote": null
+    }
+  }
+}

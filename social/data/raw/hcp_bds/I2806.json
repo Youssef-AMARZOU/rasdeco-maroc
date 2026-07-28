@@ -1,0 +1,86 @@
+{
+  "iid": 587,
+  "code": "I2806",
+  "label": "Effectif des UPI selon le milieu de résidence",
+  "metaData": {
+    "unit": "Effectif",
+    "frequency": "IR",
+    "source": "Enquête Nationale sur le secteur informel",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2014",
+    "2007",
+    "1999"
+  ],
+  "dimensions": [
+    {
+      "id": 488,
+      "rank": 1,
+      "label": "Milieu de résidence",
+      "modalites": [
+        {
+          "id": 6103,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 6104,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 6105,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1450164600000,
+  "data": {
+    "6105_1999": {
+      "value": "1233240",
+      "footNote": null
+    },
+    "6105_2007": {
+      "value": "1550274",
+      "footNote": null
+    },
+    "6105_2014": {
+      "value": "1675997",
+      "footNote": null
+    },
+    "6104_1999": {
+      "value": "350297",
+      "footNote": null
+    },
+    "6104_2007": {
+      "value": "467356",
+      "footNote": null
+    },
+    "6104_2014": {
+      "value": "479730",
+      "footNote": null
+    },
+    "6103_1999": {
+      "value": "882943",
+      "footNote": null
+    },
+    "6103_2007": {
+      "value": "1082918",
+      "footNote": null
+    },
+    "6103_2014": {
+      "value": "1196267",
+      "footNote": null
+    }
+  }
+}

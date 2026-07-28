@@ -1,0 +1,39 @@
+{
+  "year": 2018,
+  "domaine": "Social",
+  "kpis": [
+    {
+      "label": "Taux de pauvreté",
+      "value": 6.5,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de couverture AMO",
+      "value": 18,
+      "unit": "%"
+    },
+    {
+      "label": "Indice de Gini",
+      "value": 0.404,
+      "unit": ""
+    },
+    {
+      "label": "Population active",
+      "value": 11.1,
+      "unit": "M"
+    },
+    {
+      "label": "Taux d'urbanisation",
+      "value": 60.5,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PAUVRETE": 6.5,
+    "COUVERTURE_AMO": 18,
+    "GINI": 0.404,
+    "POP_ACTIVE": 11.1,
+    "URBANISATION": 60.5
+  },
+  "source": "HCP/MDJS"
+}

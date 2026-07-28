@@ -1,0 +1,39 @@
+{
+  "year": 2026,
+  "domaine": "Social",
+  "kpis": [
+    {
+      "label": "Taux de pauvreté",
+      "value": 3.9,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de couverture AMO",
+      "value": 62.8,
+      "unit": "%"
+    },
+    {
+      "label": "Indice de Gini",
+      "value": 0.395,
+      "unit": ""
+    },
+    {
+      "label": "Population active",
+      "value": 12.4,
+      "unit": "M"
+    },
+    {
+      "label": "Taux d'urbanisation",
+      "value": 64.1,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PAUVRETE": 3.9,
+    "COUVERTURE_AMO": 62.8,
+    "GINI": 0.395,
+    "POP_ACTIVE": 12.4,
+    "URBANISATION": 64.1
+  },
+  "source": "HCP/MDJS"
+}

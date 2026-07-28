@@ -1,0 +1,169 @@
+{
+  "iid": 490,
+  "code": "I2788",
+  "label": "Taux de prévalence contraceptive",
+  "metaData": {
+    "unit": "%",
+    "frequency": "IR",
+    "source": "Haut commissariat au plan",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2018",
+    "2011",
+    "2003-2004",
+    "1997",
+    "1995",
+    "1992",
+    "1987",
+    "1984",
+    "1980",
+    "1960"
+  ],
+  "dimensions": [
+    {
+      "id": 357,
+      "rank": 1,
+      "label": "Milieu",
+      "modalites": [
+        {
+          "id": 5512,
+          "rank": 1,
+          "label": "National",
+          "total": true
+        },
+        {
+          "id": 5513,
+          "rank": 2,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 5514,
+          "rank": 3,
+          "label": "Rural",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1576395000000,
+  "data": {
+    "5514_1980": {
+      "value": "9.7",
+      "footNote": null
+    },
+    "5514_1984": {
+      "value": "15.2",
+      "footNote": null
+    },
+    "5514_1987": {
+      "value": "24.6",
+      "footNote": null
+    },
+    "5514_1992": {
+      "value": "31.5",
+      "footNote": null
+    },
+    "5514_1995": {
+      "value": "39.2",
+      "footNote": null
+    },
+    "5514_1997": {
+      "value": "51.7",
+      "footNote": null
+    },
+    "5514_2003-2004": {
+      "value": "59.7",
+      "footNote": null
+    },
+    "5514_2011": {
+      "value": "65.5",
+      "footNote": null
+    },
+    "5514_2018": {
+      "value": "70.3",
+      "footNote": null
+    },
+    "5512_1960": {
+      "value": "8",
+      "footNote": null
+    },
+    "5512_1980": {
+      "value": "19.4",
+      "footNote": null
+    },
+    "5512_1984": {
+      "value": "25.5",
+      "footNote": null
+    },
+    "5512_1987": {
+      "value": "35.9",
+      "footNote": null
+    },
+    "5512_1992": {
+      "value": "41.5",
+      "footNote": null
+    },
+    "5512_1995": {
+      "value": "50.3",
+      "footNote": null
+    },
+    "5512_1997": {
+      "value": "58.4",
+      "footNote": null
+    },
+    "5512_2003-2004": {
+      "value": "63",
+      "footNote": null
+    },
+    "5512_2011": {
+      "value": "67.4",
+      "footNote": null
+    },
+    "5512_2018": {
+      "value": "70.8",
+      "footNote": null
+    },
+    "5513_1980": {
+      "value": "36",
+      "footNote": null
+    },
+    "5513_1984": {
+      "value": "42.5",
+      "footNote": null
+    },
+    "5513_1987": {
+      "value": "51.9",
+      "footNote": null
+    },
+    "5513_1992": {
+      "value": "54.4",
+      "footNote": null
+    },
+    "5513_1995": {
+      "value": "64.2",
+      "footNote": null
+    },
+    "5513_1997": {
+      "value": "65.8",
+      "footNote": null
+    },
+    "5513_2003-2004": {
+      "value": "65.5",
+      "footNote": null
+    },
+    "5513_2011": {
+      "value": "68.9",
+      "footNote": null
+    },
+    "5513_2018": {
+      "value": "71.1",
+      "footNote": null
+    }
+  }
+}

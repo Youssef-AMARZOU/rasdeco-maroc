@@ -1,0 +1,112 @@
+{
+  "iid": 580,
+  "code": "I2802",
+  "label": "Femmes ayant accouché en milieu surveillé",
+  "metaData": {
+    "unit": "%",
+    "frequency": "IR",
+    "source": "Ministère de la Santé et Haut-Commissariat au plan",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2018",
+    "2011",
+    "2004",
+    "1995",
+    "1994"
+  ],
+  "dimensions": [
+    {
+      "id": 478,
+      "rank": 1,
+      "label": "Milieu",
+      "modalites": [
+        {
+          "id": 6073,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 6074,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 6075,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1576395000000,
+  "data": {
+    "6073_1994": {
+      "value": "58.7",
+      "footNote": null
+    },
+    "6073_1995": {
+      "value": "73.8",
+      "footNote": null
+    },
+    "6073_2004": {
+      "value": "83.1",
+      "footNote": null
+    },
+    "6073_2011": {
+      "value": "90.7",
+      "footNote": null
+    },
+    "6073_2018": {
+      "value": "96",
+      "footNote": null
+    },
+    "6075_1994": {
+      "value": "28.4",
+      "footNote": null
+    },
+    "6075_1995": {
+      "value": "37",
+      "footNote": null
+    },
+    "6075_2004": {
+      "value": "60.8",
+      "footNote": null
+    },
+    "6075_2011": {
+      "value": "72.7",
+      "footNote": null
+    },
+    "6075_2018": {
+      "value": "86.1",
+      "footNote": null
+    },
+    "6074_1994": {
+      "value": "12.5",
+      "footNote": null
+    },
+    "6074_1995": {
+      "value": "18.5",
+      "footNote": null
+    },
+    "6074_2004": {
+      "value": "38",
+      "footNote": null
+    },
+    "6074_2011": {
+      "value": "54.6",
+      "footNote": null
+    },
+    "6074_2018": {
+      "value": "73.7",
+      "footNote": null
+    }
+  }
+}

@@ -1,0 +1,1249 @@
+{
+  "iid": 907,
+  "code": "TP",
+  "label": "Taux de pauvreté selon la région et la province",
+  "metaData": {
+    "unit": "%",
+    "frequency": "IR",
+    "source": "HCP",
+    "definitionFr": "C’est la proportion des personnes pauvres dans la population, voire le pourcentage des individus membres d’un ménage dont la dépense par tête est inférieure au seuil de pauvreté relative. En 2007, ce seuil a été de 3834 DH par personne et par an en milieu urbain et de 3569 DH par personne et par an en milieu rural.",
+    "footNotesFr": "",
+    "methodOfCalculationFr": ""
+  },
+  "periods": [
+    "2024",
+    "2014"
+  ],
+  "dimensions": [
+    {
+      "id": 760,
+      "rank": null,
+      "label": "Régions et Provinces",
+      "modalites": [
+        {
+          "id": 11084,
+          "rank": 1,
+          "label": "Tanger-Tétouan-Al Hoceima",
+          "total": false
+        },
+        {
+          "id": 11018,
+          "rank": 2,
+          "label": "Tanger-Assilah",
+          "total": false
+        },
+        {
+          "id": 11073,
+          "rank": 3,
+          "label": "M'diq-Fnideq",
+          "total": false
+        },
+        {
+          "id": 11047,
+          "rank": 4,
+          "label": "Tétouan",
+          "total": false
+        },
+        {
+          "id": 11064,
+          "rank": 5,
+          "label": "Fahs-Anjra",
+          "total": false
+        },
+        {
+          "id": 11016,
+          "rank": 6,
+          "label": "Larache",
+          "total": false
+        },
+        {
+          "id": 11005,
+          "rank": 7,
+          "label": "Al Hoceima",
+          "total": false
+        },
+        {
+          "id": 11025,
+          "rank": 8,
+          "label": "Chefchaouen",
+          "total": false
+        },
+        {
+          "id": 11075,
+          "rank": 9,
+          "label": "Ouezzane",
+          "total": false
+        },
+        {
+          "id": 11066,
+          "rank": 10,
+          "label": "l'Oriental",
+          "total": false
+        },
+        {
+          "id": 11027,
+          "rank": 11,
+          "label": "Oujda-Angad",
+          "total": false
+        },
+        {
+          "id": 11085,
+          "rank": 12,
+          "label": "Nador",
+          "total": false
+        },
+        {
+          "id": 11012,
+          "rank": 13,
+          "label": "Driouch",
+          "total": false
+        },
+        {
+          "id": 11015,
+          "rank": 14,
+          "label": "Jerada",
+          "total": false
+        },
+        {
+          "id": 11026,
+          "rank": 15,
+          "label": "Berkane",
+          "total": false
+        },
+        {
+          "id": 11060,
+          "rank": 16,
+          "label": "Taourirt",
+          "total": false
+        },
+        {
+          "id": 11088,
+          "rank": 17,
+          "label": "Guercif",
+          "total": false
+        },
+        {
+          "id": 11019,
+          "rank": 18,
+          "label": "Figuig",
+          "total": false
+        },
+        {
+          "id": 11010,
+          "rank": 19,
+          "label": "Fès-Meknès",
+          "total": false
+        },
+        {
+          "id": 11006,
+          "rank": 20,
+          "label": "Fès",
+          "total": false
+        },
+        {
+          "id": 11007,
+          "rank": 21,
+          "label": "Meknès",
+          "total": false
+        },
+        {
+          "id": 11030,
+          "rank": 22,
+          "label": "El Hajeb",
+          "total": false
+        },
+        {
+          "id": 11036,
+          "rank": 23,
+          "label": "Ifrane",
+          "total": false
+        },
+        {
+          "id": 11044,
+          "rank": 24,
+          "label": "Moulay Yacoub",
+          "total": false
+        },
+        {
+          "id": 11061,
+          "rank": 25,
+          "label": "Sefrou",
+          "total": false
+        },
+        {
+          "id": 11076,
+          "rank": 26,
+          "label": "Boulemane",
+          "total": false
+        },
+        {
+          "id": 11083,
+          "rank": 27,
+          "label": "Taounate",
+          "total": false
+        },
+        {
+          "id": 11057,
+          "rank": 28,
+          "label": "Taza",
+          "total": false
+        },
+        {
+          "id": 11039,
+          "rank": 29,
+          "label": "Rabat-Salé-Kénitra",
+          "total": false
+        },
+        {
+          "id": 11048,
+          "rank": 30,
+          "label": "Rabat",
+          "total": false
+        },
+        {
+          "id": 11045,
+          "rank": 31,
+          "label": "Salé",
+          "total": false
+        },
+        {
+          "id": 11069,
+          "rank": 32,
+          "label": "Skhirate-Témara",
+          "total": false
+        },
+        {
+          "id": 11058,
+          "rank": 33,
+          "label": "Kénitra",
+          "total": false
+        },
+        {
+          "id": 11022,
+          "rank": 34,
+          "label": "Khémisset",
+          "total": false
+        },
+        {
+          "id": 11074,
+          "rank": 35,
+          "label": "Sidi Kacem",
+          "total": false
+        },
+        {
+          "id": 11032,
+          "rank": 36,
+          "label": "Sidi Slimane",
+          "total": false
+        },
+        {
+          "id": 11037,
+          "rank": 37,
+          "label": "Béni Mellal-Khénifra",
+          "total": false
+        },
+        {
+          "id": 11086,
+          "rank": 38,
+          "label": "Béni Mellal",
+          "total": false
+        },
+        {
+          "id": 11023,
+          "rank": 39,
+          "label": "Azilal",
+          "total": false
+        },
+        {
+          "id": 11020,
+          "rank": 40,
+          "label": "Fquih Ben Salah",
+          "total": false
+        },
+        {
+          "id": 11011,
+          "rank": 41,
+          "label": "Khénifra",
+          "total": false
+        },
+        {
+          "id": 11068,
+          "rank": 42,
+          "label": "Khouribga",
+          "total": false
+        },
+        {
+          "id": 11070,
+          "rank": 43,
+          "label": "Casablanca-Settat",
+          "total": false
+        },
+        {
+          "id": 11043,
+          "rank": 44,
+          "label": "Casablanca",
+          "total": false
+        },
+        {
+          "id": 11051,
+          "rank": 45,
+          "label": "Mohammadia",
+          "total": false
+        },
+        {
+          "id": 11082,
+          "rank": 46,
+          "label": "El Jadida",
+          "total": false
+        },
+        {
+          "id": 11062,
+          "rank": 47,
+          "label": "Nouaceur",
+          "total": false
+        },
+        {
+          "id": 11059,
+          "rank": 48,
+          "label": "Médiouna",
+          "total": false
+        },
+        {
+          "id": 11038,
+          "rank": 49,
+          "label": "Benslimane",
+          "total": false
+        },
+        {
+          "id": 11055,
+          "rank": 50,
+          "label": "Berrechid",
+          "total": false
+        },
+        {
+          "id": 11090,
+          "rank": 51,
+          "label": "Settat",
+          "total": false
+        },
+        {
+          "id": 11081,
+          "rank": 52,
+          "label": "Sidi Bennour",
+          "total": false
+        },
+        {
+          "id": 11013,
+          "rank": 53,
+          "label": "Marrakech-Safi",
+          "total": false
+        },
+        {
+          "id": 11046,
+          "rank": 54,
+          "label": "Marrakech",
+          "total": false
+        },
+        {
+          "id": 11063,
+          "rank": 55,
+          "label": "Chichaoua",
+          "total": false
+        },
+        {
+          "id": 11087,
+          "rank": 56,
+          "label": "Al Haouz",
+          "total": false
+        },
+        {
+          "id": 11042,
+          "rank": 57,
+          "label": "El Kelâa Des-Sraghna",
+          "total": false
+        },
+        {
+          "id": 11067,
+          "rank": 58,
+          "label": "Essaouira",
+          "total": false
+        },
+        {
+          "id": 11033,
+          "rank": 59,
+          "label": "Rehamna",
+          "total": false
+        },
+        {
+          "id": 11040,
+          "rank": 60,
+          "label": "Safi",
+          "total": false
+        },
+        {
+          "id": 11056,
+          "rank": 61,
+          "label": "Youssoufia",
+          "total": false
+        },
+        {
+          "id": 11024,
+          "rank": 62,
+          "label": "Drâa-Tafilalet",
+          "total": false
+        },
+        {
+          "id": 11014,
+          "rank": 63,
+          "label": "Errachidia",
+          "total": false
+        },
+        {
+          "id": 11053,
+          "rank": 64,
+          "label": "Ouarzazate",
+          "total": false
+        },
+        {
+          "id": 11017,
+          "rank": 65,
+          "label": "Midelt",
+          "total": false
+        },
+        {
+          "id": 11034,
+          "rank": 66,
+          "label": "Tinghir",
+          "total": false
+        },
+        {
+          "id": 11071,
+          "rank": 67,
+          "label": "Zagora",
+          "total": false
+        },
+        {
+          "id": 11008,
+          "rank": 68,
+          "label": "Souss-Massa",
+          "total": false
+        },
+        {
+          "id": 11052,
+          "rank": 69,
+          "label": "Agadir-Ida-Ou-Tanane",
+          "total": false
+        },
+        {
+          "id": 11029,
+          "rank": 70,
+          "label": "Inezgane-Aït Melloul",
+          "total": false
+        },
+        {
+          "id": 11031,
+          "rank": 71,
+          "label": "Chtouka-Aït Baha",
+          "total": false
+        },
+        {
+          "id": 11089,
+          "rank": 72,
+          "label": "Taroudannt",
+          "total": false
+        },
+        {
+          "id": 11050,
+          "rank": 73,
+          "label": "Tiznit",
+          "total": false
+        },
+        {
+          "id": 11079,
+          "rank": 74,
+          "label": "Tata",
+          "total": false
+        },
+        {
+          "id": 11080,
+          "rank": 75,
+          "label": "Guelmim-Oued Noun",
+          "total": false
+        },
+        {
+          "id": 11072,
+          "rank": 76,
+          "label": "Guelmim",
+          "total": false
+        },
+        {
+          "id": 11041,
+          "rank": 77,
+          "label": "Assa-Zag",
+          "total": false
+        },
+        {
+          "id": 11091,
+          "rank": 78,
+          "label": "Tan-Tan",
+          "total": false
+        },
+        {
+          "id": 11009,
+          "rank": 79,
+          "label": "Sidi Ifni",
+          "total": false
+        },
+        {
+          "id": 11077,
+          "rank": 80,
+          "label": "Laâyoune-Sakia El Hamra",
+          "total": false
+        },
+        {
+          "id": 11028,
+          "rank": 81,
+          "label": "Laâyoune",
+          "total": false
+        },
+        {
+          "id": 11021,
+          "rank": 82,
+          "label": "Boujdour",
+          "total": false
+        },
+        {
+          "id": 11065,
+          "rank": 83,
+          "label": "Tarfaya",
+          "total": false
+        },
+        {
+          "id": 11054,
+          "rank": 84,
+          "label": "Es-Semara",
+          "total": false
+        },
+        {
+          "id": 11078,
+          "rank": 85,
+          "label": "Dakhla-Oued Ed-Dahab",
+          "total": false
+        },
+        {
+          "id": 11035,
+          "rank": 86,
+          "label": "Oued Ed-Dahab",
+          "total": false
+        },
+        {
+          "id": 11049,
+          "rank": 87,
+          "label": "Aousserd",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1782298193817,
+  "data": {
+    "11050_2014": {
+      "value": "13.3",
+      "footNote": null
+    },
+    "11050_2024": {
+      "value": "6.2",
+      "footNote": null
+    },
+    "11051_2014": {
+      "value": "3.5",
+      "footNote": null
+    },
+    "11051_2024": {
+      "value": "2.7",
+      "footNote": null
+    },
+    "11052_2014": {
+      "value": "6.1",
+      "footNote": null
+    },
+    "11052_2024": {
+      "value": "3.2",
+      "footNote": null
+    },
+    "11090_2014": {
+      "value": "14.1",
+      "footNote": null
+    },
+    "11090_2024": {
+      "value": "8.7",
+      "footNote": null
+    },
+    "11091_2014": {
+      "value": "5.0",
+      "footNote": null
+    },
+    "11091_2024": {
+      "value": "3.7",
+      "footNote": null
+    },
+    "11046_2014": {
+      "value": "5.5",
+      "footNote": null
+    },
+    "11046_2024": {
+      "value": "3.2",
+      "footNote": null
+    },
+    "11047_2014": {
+      "value": "13.6",
+      "footNote": null
+    },
+    "11047_2024": {
+      "value": "6.2",
+      "footNote": null
+    },
+    "11048_2014": {
+      "value": "2.2",
+      "footNote": null
+    },
+    "11048_2024": {
+      "value": "1.7",
+      "footNote": null
+    },
+    "11049_2014": {
+      "value": "4.0",
+      "footNote": null
+    },
+    "11049_2024": {
+      "value": "2.3",
+      "footNote": null
+    },
+    "11005_2014": {
+      "value": "18.7",
+      "footNote": null
+    },
+    "11005_2024": {
+      "value": "12.0",
+      "footNote": null
+    },
+    "11086_2014": {
+      "value": "12.0",
+      "footNote": null
+    },
+    "11086_2024": {
+      "value": "7.7",
+      "footNote": null
+    },
+    "11042_2014": {
+      "value": "13.0",
+      "footNote": null
+    },
+    "11042_2024": {
+      "value": "6.7",
+      "footNote": null
+    },
+    "11087_2014": {
+      "value": "20.4",
+      "footNote": null
+    },
+    "11087_2024": {
+      "value": "9.4",
+      "footNote": null
+    },
+    "11043_2014": {
+      "value": "2.3",
+      "footNote": null
+    },
+    "11043_2024": {
+      "value": "2.0",
+      "footNote": null
+    },
+    "11088_2014": {
+      "value": "20.9",
+      "footNote": null
+    },
+    "11088_2024": {
+      "value": "10.6",
+      "footNote": null
+    },
+    "11044_2014": {
+      "value": "19.9",
+      "footNote": null
+    },
+    "11044_2024": {
+      "value": "12.6",
+      "footNote": null
+    },
+    "11089_2014": {
+      "value": "18.0",
+      "footNote": null
+    },
+    "11089_2024": {
+      "value": "9.4",
+      "footNote": null
+    },
+    "11045_2014": {
+      "value": "4.4",
+      "footNote": null
+    },
+    "11045_2024": {
+      "value": "3.0",
+      "footNote": null
+    },
+    "11006_2014": {
+      "value": "5.4",
+      "footNote": null
+    },
+    "11006_2024": {
+      "value": "4.3",
+      "footNote": null
+    },
+    "11007_2014": {
+      "value": "5.8",
+      "footNote": null
+    },
+    "11007_2024": {
+      "value": "4.1",
+      "footNote": null
+    },
+    "11008_2014": {
+      "value": "11.2",
+      "footNote": null
+    },
+    "11008_2024": {
+      "value": "5.7",
+      "footNote": null
+    },
+    "11009_2014": {
+      "value": "18.3",
+      "footNote": null
+    },
+    "11009_2024": {
+      "value": "8.6",
+      "footNote": null
+    },
+    "11082_2014": {
+      "value": "13.9",
+      "footNote": null
+    },
+    "11082_2024": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "11083_2014": {
+      "value": "30.5",
+      "footNote": null
+    },
+    "11083_2024": {
+      "value": "21.1",
+      "footNote": null
+    },
+    "11084_2014": {
+      "value": "13.9",
+      "footNote": null
+    },
+    "11084_2024": {
+      "value": "7.1",
+      "footNote": null
+    },
+    "11040_2014": {
+      "value": "14.3",
+      "footNote": null
+    },
+    "11040_2024": {
+      "value": "8.2",
+      "footNote": null
+    },
+    "11085_2014": {
+      "value": "10.5",
+      "footNote": null
+    },
+    "11085_2024": {
+      "value": "6.8",
+      "footNote": null
+    },
+    "11041_2014": {
+      "value": "15.8",
+      "footNote": null
+    },
+    "11041_2024": {
+      "value": "4.9",
+      "footNote": null
+    },
+    "11080_2014": {
+      "value": "10.3",
+      "footNote": null
+    },
+    "11080_2024": {
+      "value": "4.9",
+      "footNote": null
+    },
+    "11081_2014": {
+      "value": "17.8",
+      "footNote": null
+    },
+    "11081_2024": {
+      "value": "11.7",
+      "footNote": null
+    },
+    "11079_2014": {
+      "value": "15.2",
+      "footNote": null
+    },
+    "11079_2024": {
+      "value": "7.7",
+      "footNote": null
+    },
+    "11035_2014": {
+      "value": "4.5",
+      "footNote": null
+    },
+    "11035_2024": {
+      "value": "2.5",
+      "footNote": null
+    },
+    "11036_2014": {
+      "value": "15.5",
+      "footNote": null
+    },
+    "11036_2024": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "11037_2014": {
+      "value": "17.3",
+      "footNote": null
+    },
+    "11037_2024": {
+      "value": "9.8",
+      "footNote": null
+    },
+    "11038_2014": {
+      "value": "9.0",
+      "footNote": null
+    },
+    "11038_2024": {
+      "value": "4.9",
+      "footNote": null
+    },
+    "11075_2014": {
+      "value": "19.1",
+      "footNote": null
+    },
+    "11075_2024": {
+      "value": "13.6",
+      "footNote": null
+    },
+    "11031_2014": {
+      "value": "11.5",
+      "footNote": null
+    },
+    "11031_2024": {
+      "value": "5.9",
+      "footNote": null
+    },
+    "11076_2014": {
+      "value": "21.5",
+      "footNote": null
+    },
+    "11076_2024": {
+      "value": "12.4",
+      "footNote": null
+    },
+    "11032_2014": {
+      "value": "13.9",
+      "footNote": null
+    },
+    "11032_2024": {
+      "value": "10.3",
+      "footNote": null
+    },
+    "11077_2014": {
+      "value": "3.3",
+      "footNote": null
+    },
+    "11077_2024": {
+      "value": "2.4",
+      "footNote": null
+    },
+    "11033_2014": {
+      "value": "18.3",
+      "footNote": null
+    },
+    "11033_2024": {
+      "value": "8.9",
+      "footNote": null
+    },
+    "11078_2014": {
+      "value": "4.5",
+      "footNote": null
+    },
+    "11078_2024": {
+      "value": "2.5",
+      "footNote": null
+    },
+    "11034_2014": {
+      "value": "16.6",
+      "footNote": null
+    },
+    "11034_2024": {
+      "value": "8.9",
+      "footNote": null
+    },
+    "11039_2014": {
+      "value": "9.1",
+      "footNote": null
+    },
+    "11039_2024": {
+      "value": "5.7",
+      "footNote": null
+    },
+    "11071_2014": {
+      "value": "17.7",
+      "footNote": null
+    },
+    "11071_2024": {
+      "value": "10.0",
+      "footNote": null
+    },
+    "11072_2014": {
+      "value": "7.0",
+      "footNote": null
+    },
+    "11072_2024": {
+      "value": "3.6",
+      "footNote": null
+    },
+    "11073_2014": {
+      "value": "6.6",
+      "footNote": null
+    },
+    "11073_2024": {
+      "value": "4.3",
+      "footNote": null
+    },
+    "11074_2014": {
+      "value": "14.2",
+      "footNote": null
+    },
+    "11074_2024": {
+      "value": "9.1",
+      "footNote": null
+    },
+    "11030_2014": {
+      "value": "11.3",
+      "footNote": null
+    },
+    "11030_2024": {
+      "value": "6.8",
+      "footNote": null
+    },
+    "11070_2014": {
+      "value": "6.7",
+      "footNote": null
+    },
+    "11070_2024": {
+      "value": "4.3",
+      "footNote": null
+    },
+    "11068_2014": {
+      "value": "9.8",
+      "footNote": null
+    },
+    "11068_2024": {
+      "value": "5.7",
+      "footNote": null
+    },
+    "11024_2014": {
+      "value": "14.4",
+      "footNote": null
+    },
+    "11024_2024": {
+      "value": "7.7",
+      "footNote": null
+    },
+    "11069_2014": {
+      "value": "3.9",
+      "footNote": null
+    },
+    "11069_2024": {
+      "value": "2.1",
+      "footNote": null
+    },
+    "11025_2014": {
+      "value": "24.8",
+      "footNote": null
+    },
+    "11025_2024": {
+      "value": "12.4",
+      "footNote": null
+    },
+    "11026_2014": {
+      "value": "9.1",
+      "footNote": null
+    },
+    "11026_2024": {
+      "value": "6.2",
+      "footNote": null
+    },
+    "11027_2014": {
+      "value": "5.3",
+      "footNote": null
+    },
+    "11027_2024": {
+      "value": "3.7",
+      "footNote": null
+    },
+    "11064_2014": {
+      "value": "20.4",
+      "footNote": null
+    },
+    "11064_2024": {
+      "value": "8.0",
+      "footNote": null
+    },
+    "11020_2014": {
+      "value": "10.3",
+      "footNote": null
+    },
+    "11020_2024": {
+      "value": "6.6",
+      "footNote": null
+    },
+    "11065_2014": {
+      "value": "6.6",
+      "footNote": null
+    },
+    "11065_2024": {
+      "value": "4.1",
+      "footNote": null
+    },
+    "11021_2014": {
+      "value": "4.8",
+      "footNote": null
+    },
+    "11021_2024": {
+      "value": "3.1",
+      "footNote": null
+    },
+    "11066_2014": {
+      "value": "13.5",
+      "footNote": null
+    },
+    "11066_2024": {
+      "value": "8.4",
+      "footNote": null
+    },
+    "11022_2014": {
+      "value": "17.0",
+      "footNote": null
+    },
+    "11022_2024": {
+      "value": "10.6",
+      "footNote": null
+    },
+    "11067_2014": {
+      "value": "28.6",
+      "footNote": null
+    },
+    "11067_2024": {
+      "value": "14.8",
+      "footNote": null
+    },
+    "11023_2014": {
+      "value": "33.7",
+      "footNote": null
+    },
+    "11023_2024": {
+      "value": "17.0",
+      "footNote": null
+    },
+    "11028_2014": {
+      "value": "2.7",
+      "footNote": null
+    },
+    "11028_2024": {
+      "value": "2.2",
+      "footNote": null
+    },
+    "11029_2014": {
+      "value": "4.6",
+      "footNote": null
+    },
+    "11029_2024": {
+      "value": "2.9",
+      "footNote": null
+    },
+    "11060_2014": {
+      "value": "18.1",
+      "footNote": null
+    },
+    "11060_2024": {
+      "value": "11.5",
+      "footNote": null
+    },
+    "11061_2014": {
+      "value": "11.6",
+      "footNote": null
+    },
+    "11061_2024": {
+      "value": "7.6",
+      "footNote": null
+    },
+    "11062_2014": {
+      "value": "4.4",
+      "footNote": null
+    },
+    "11062_2024": {
+      "value": "2.5",
+      "footNote": null
+    },
+    "11063_2014": {
+      "value": "29.8",
+      "footNote": null
+    },
+    "11063_2024": {
+      "value": "15.1",
+      "footNote": null
+    },
+    "11057_2014": {
+      "value": "20.2",
+      "footNote": null
+    },
+    "11057_2024": {
+      "value": "14.4",
+      "footNote": null
+    },
+    "11013_2014": {
+      "value": "15.8",
+      "footNote": null
+    },
+    "11013_2024": {
+      "value": "7.9",
+      "footNote": null
+    },
+    "11058_2014": {
+      "value": "12.0",
+      "footNote": null
+    },
+    "11058_2024": {
+      "value": "7.2",
+      "footNote": null
+    },
+    "11014_2014": {
+      "value": "7.0",
+      "footNote": null
+    },
+    "11014_2024": {
+      "value": "4.5",
+      "footNote": null
+    },
+    "11059_2014": {
+      "value": "5.5",
+      "footNote": null
+    },
+    "11059_2024": {
+      "value": "3.2",
+      "footNote": null
+    },
+    "11015_2014": {
+      "value": "16.6",
+      "footNote": null
+    },
+    "11015_2024": {
+      "value": "10.8",
+      "footNote": null
+    },
+    "11016_2014": {
+      "value": "16.8",
+      "footNote": null
+    },
+    "11016_2024": {
+      "value": "9.7",
+      "footNote": null
+    },
+    "11053_2014": {
+      "value": "11.4",
+      "footNote": null
+    },
+    "11053_2024": {
+      "value": "5.8",
+      "footNote": null
+    },
+    "11054_2014": {
+      "value": "3.7",
+      "footNote": null
+    },
+    "11054_2024": {
+      "value": "2.7",
+      "footNote": null
+    },
+    "11010_2014": {
+      "value": "13.7",
+      "footNote": null
+    },
+    "11010_2024": {
+      "value": "9.0",
+      "footNote": null
+    },
+    "11055_2014": {
+      "value": "8.3",
+      "footNote": null
+    },
+    "11055_2024": {
+      "value": "4.2",
+      "footNote": null
+    },
+    "11011_2014": {
+      "value": "21.1",
+      "footNote": null
+    },
+    "11011_2024": {
+      "value": "12.0",
+      "footNote": null
+    },
+    "11056_2014": {
+      "value": "23.7",
+      "footNote": null
+    },
+    "11056_2024": {
+      "value": "11.9",
+      "footNote": null
+    },
+    "11012_2014": {
+      "value": "19.7",
+      "footNote": null
+    },
+    "11012_2024": {
+      "value": "11.2",
+      "footNote": null
+    },
+    "11017_2014": {
+      "value": "22.0",
+      "footNote": null
+    },
+    "11017_2024": {
+      "value": "10.5",
+      "footNote": null
+    },
+    "11018_2014": {
+      "value": "5.6",
+      "footNote": null
+    },
+    "11018_2024": {
+      "value": "3.1",
+      "footNote": null
+    },
+    "11019_2014": {
+      "value": "36.6",
+      "footNote": null
+    },
+    "11019_2024": {
+      "value": "24.1",
+      "footNote": null
+    }
+  }
+}

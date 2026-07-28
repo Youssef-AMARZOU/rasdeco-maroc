@@ -1,0 +1,57 @@
+{
+  "year": 2022,
+  "domaine": "Économie",
+  "kpis": [
+    {
+      "label": "Croissance du PIB",
+      "value": 1.3,
+      "unit": "%"
+    },
+    {
+      "label": "Inflation IPC",
+      "value": 6.6,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de chômage",
+      "value": 11.8,
+      "unit": "%"
+    },
+    {
+      "label": "Taux directeur BAM",
+      "value": 2.5,
+      "unit": "%"
+    },
+    {
+      "label": "Dette publique / PIB",
+      "value": 71.8,
+      "unit": "% PIB"
+    },
+    {
+      "label": "Réserves de change",
+      "value": 5.2,
+      "unit": "mois"
+    },
+    {
+      "label": "Flux d'IDE",
+      "value": 21.8,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Déficit budgétaire",
+      "value": -5.3,
+      "unit": "% PIB"
+    }
+  ],
+  "indicators": {
+    "PIB_CROISSANCE": 1.3,
+    "IPC_GLISSEMENT": 6.6,
+    "CHOMAGE": 11.8,
+    "TAUX_DIRECTEUR": 2.5,
+    "DETTE_PUBLIQUE": 71.8,
+    "RESERVES_CHANGE": 5.2,
+    "IDE_FLUX": 21.8,
+    "DEFICIT_BUDGET": -5.3
+  },
+  "source": "HCP/BAM"
+}

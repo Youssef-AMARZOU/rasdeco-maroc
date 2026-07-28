@@ -1,0 +1,1648 @@
+{
+  "iid": 739,
+  "code": "I3457",
+  "label": "Nombre de logements",
+  "metaData": {
+    "unit": "Nombre",
+    "frequency": "AS",
+    "source": "Haut-Commissariat au Plan (Direction de la Statistique)",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005"
+  ],
+  "dimensions": [
+    {
+      "id": 601,
+      "rank": 1,
+      "label": "Catégorie de construction",
+      "modalites": [
+        {
+          "id": 7166,
+          "rank": 1,
+          "label": "Immeuble",
+          "total": false
+        },
+        {
+          "id": 7167,
+          "rank": 2,
+          "label": "Villa",
+          "total": false
+        },
+        {
+          "id": 7168,
+          "rank": 3,
+          "label": "Type Marocain",
+          "total": false
+        },
+        {
+          "id": 7169,
+          "rank": 4,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 602,
+      "rank": 2,
+      "label": "Nombre de pièces",
+      "modalites": [
+        {
+          "id": 7170,
+          "rank": 1,
+          "label": "Une pièce",
+          "total": false
+        },
+        {
+          "id": 7171,
+          "rank": 2,
+          "label": "2 pièces",
+          "total": false
+        },
+        {
+          "id": 7172,
+          "rank": 3,
+          "label": "3 pièces",
+          "total": false
+        },
+        {
+          "id": 7173,
+          "rank": 4,
+          "label": "4 pièces",
+          "total": false
+        },
+        {
+          "id": 7174,
+          "rank": 5,
+          "label": "5 pièces",
+          "total": false
+        },
+        {
+          "id": 7175,
+          "rank": 6,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1639553400000,
+  "data": {
+    "7168.7173_2005": {
+      "value": "8918",
+      "footNote": null
+    },
+    "7168.7173_2006": {
+      "value": "9290",
+      "footNote": null
+    },
+    "7168.7173_2007": {
+      "value": "11553",
+      "footNote": null
+    },
+    "7168.7173_2008": {
+      "value": "11059",
+      "footNote": null
+    },
+    "7168.7173_2009": {
+      "value": "10806",
+      "footNote": null
+    },
+    "7168.7173_2010": {
+      "value": "10050",
+      "footNote": null
+    },
+    "7168.7173_2011": {
+      "value": "10849",
+      "footNote": null
+    },
+    "7168.7173_2012": {
+      "value": "11959",
+      "footNote": null
+    },
+    "7168.7173_2013": {
+      "value": "11377",
+      "footNote": null
+    },
+    "7168.7173_2014": {
+      "value": "10400",
+      "footNote": null
+    },
+    "7168.7173_2015": {
+      "value": "11234",
+      "footNote": null
+    },
+    "7168.7173_2016": {
+      "value": "10000",
+      "footNote": null
+    },
+    "7168.7173_2017": {
+      "value": "12959",
+      "footNote": null
+    },
+    "7168.7173_2018": {
+      "value": "11227",
+      "footNote": null
+    },
+    "7168.7173_2019": {
+      "value": "10844",
+      "footNote": null
+    },
+    "7168.7173_2020": {
+      "value": "6627",
+      "footNote": null
+    },
+    "7168.7172_2005": {
+      "value": "26332",
+      "footNote": null
+    },
+    "7168.7172_2006": {
+      "value": "25568",
+      "footNote": null
+    },
+    "7168.7172_2007": {
+      "value": "28338",
+      "footNote": null
+    },
+    "7168.7172_2008": {
+      "value": "28621",
+      "footNote": null
+    },
+    "7168.7172_2009": {
+      "value": "27680",
+      "footNote": null
+    },
+    "7168.7172_2010": {
+      "value": "29615",
+      "footNote": null
+    },
+    "7168.7172_2011": {
+      "value": "26864",
+      "footNote": null
+    },
+    "7168.7172_2012": {
+      "value": "27617",
+      "footNote": null
+    },
+    "7168.7172_2013": {
+      "value": "30718",
+      "footNote": null
+    },
+    "7168.7172_2014": {
+      "value": "27913",
+      "footNote": null
+    },
+    "7168.7172_2015": {
+      "value": "28946",
+      "footNote": null
+    },
+    "7168.7172_2016": {
+      "value": "24117",
+      "footNote": null
+    },
+    "7168.7172_2017": {
+      "value": "29093",
+      "footNote": null
+    },
+    "7168.7172_2018": {
+      "value": "29416",
+      "footNote": null
+    },
+    "7168.7172_2019": {
+      "value": "30100",
+      "footNote": null
+    },
+    "7168.7172_2020": {
+      "value": "18647",
+      "footNote": null
+    },
+    "7168.7171_2005": {
+      "value": "16301",
+      "footNote": null
+    },
+    "7168.7171_2006": {
+      "value": "16397",
+      "footNote": null
+    },
+    "7168.7171_2007": {
+      "value": "17768",
+      "footNote": null
+    },
+    "7168.7171_2008": {
+      "value": "17502",
+      "footNote": null
+    },
+    "7168.7171_2009": {
+      "value": "17815",
+      "footNote": null
+    },
+    "7168.7171_2010": {
+      "value": "22090",
+      "footNote": null
+    },
+    "7168.7171_2011": {
+      "value": "18370",
+      "footNote": null
+    },
+    "7168.7171_2012": {
+      "value": "18869",
+      "footNote": null
+    },
+    "7168.7171_2013": {
+      "value": "19728",
+      "footNote": null
+    },
+    "7168.7171_2014": {
+      "value": "18743",
+      "footNote": null
+    },
+    "7168.7171_2015": {
+      "value": "16837",
+      "footNote": null
+    },
+    "7168.7171_2016": {
+      "value": "16151",
+      "footNote": null
+    },
+    "7168.7171_2017": {
+      "value": "16249",
+      "footNote": null
+    },
+    "7168.7171_2018": {
+      "value": "16852",
+      "footNote": null
+    },
+    "7168.7171_2019": {
+      "value": "17752",
+      "footNote": null
+    },
+    "7168.7171_2020": {
+      "value": "11853",
+      "footNote": null
+    },
+    "7168.7170_2005": {
+      "value": "3405",
+      "footNote": null
+    },
+    "7168.7170_2006": {
+      "value": "4372",
+      "footNote": null
+    },
+    "7168.7170_2007": {
+      "value": "4555",
+      "footNote": null
+    },
+    "7168.7170_2008": {
+      "value": "3892",
+      "footNote": null
+    },
+    "7168.7170_2009": {
+      "value": "4400",
+      "footNote": null
+    },
+    "7168.7170_2010": {
+      "value": "5256",
+      "footNote": null
+    },
+    "7168.7170_2011": {
+      "value": "5395",
+      "footNote": null
+    },
+    "7168.7170_2012": {
+      "value": "5045",
+      "footNote": null
+    },
+    "7168.7170_2013": {
+      "value": "5442",
+      "footNote": null
+    },
+    "7168.7170_2014": {
+      "value": "5126",
+      "footNote": null
+    },
+    "7168.7170_2015": {
+      "value": "4975",
+      "footNote": null
+    },
+    "7168.7170_2016": {
+      "value": "5013",
+      "footNote": null
+    },
+    "7168.7170_2017": {
+      "value": "4949",
+      "footNote": null
+    },
+    "7168.7170_2018": {
+      "value": "4098",
+      "footNote": null
+    },
+    "7168.7170_2019": {
+      "value": "4315",
+      "footNote": null
+    },
+    "7168.7170_2020": {
+      "value": "2998",
+      "footNote": null
+    },
+    "7168.7175_2005": {
+      "value": "61280",
+      "footNote": null
+    },
+    "7168.7175_2006": {
+      "value": "63334",
+      "footNote": null
+    },
+    "7168.7175_2007": {
+      "value": "69782",
+      "footNote": null
+    },
+    "7168.7175_2008": {
+      "value": "70281",
+      "footNote": null
+    },
+    "7168.7175_2009": {
+      "value": "69585",
+      "footNote": null
+    },
+    "7168.7175_2010": {
+      "value": "78656",
+      "footNote": null
+    },
+    "7168.7175_2011": {
+      "value": "72898",
+      "footNote": null
+    },
+    "7168.7175_2012": {
+      "value": "74090",
+      "footNote": null
+    },
+    "7168.7175_2013": {
+      "value": "75728",
+      "footNote": null
+    },
+    "7168.7175_2014": {
+      "value": "67913",
+      "footNote": null
+    },
+    "7168.7175_2015": {
+      "value": "68318",
+      "footNote": null
+    },
+    "7168.7175_2016": {
+      "value": "60694",
+      "footNote": null
+    },
+    "7168.7175_2017": {
+      "value": "70132",
+      "footNote": null
+    },
+    "7168.7175_2018": {
+      "value": "68227",
+      "footNote": null
+    },
+    "7168.7175_2019": {
+      "value": "68973",
+      "footNote": null
+    },
+    "7168.7175_2020": {
+      "value": "43689",
+      "footNote": null
+    },
+    "7168.7174_2005": {
+      "value": "6313",
+      "footNote": null
+    },
+    "7168.7174_2006": {
+      "value": "7707",
+      "footNote": null
+    },
+    "7168.7174_2007": {
+      "value": "7568",
+      "footNote": null
+    },
+    "7168.7174_2008": {
+      "value": "9207",
+      "footNote": null
+    },
+    "7168.7174_2009": {
+      "value": "8887",
+      "footNote": null
+    },
+    "7168.7174_2010": {
+      "value": "11645",
+      "footNote": null
+    },
+    "7168.7174_2011": {
+      "value": "11420",
+      "footNote": null
+    },
+    "7168.7174_2012": {
+      "value": "10867",
+      "footNote": null
+    },
+    "7168.7174_2013": {
+      "value": "8463",
+      "footNote": null
+    },
+    "7168.7174_2014": {
+      "value": "5731",
+      "footNote": null
+    },
+    "7168.7174_2015": {
+      "value": "6326",
+      "footNote": null
+    },
+    "7168.7174_2016": {
+      "value": "5413",
+      "footNote": null
+    },
+    "7168.7174_2017": {
+      "value": "6879",
+      "footNote": null
+    },
+    "7168.7174_2018": {
+      "value": "6634",
+      "footNote": null
+    },
+    "7168.7174_2019": {
+      "value": "5962",
+      "footNote": null
+    },
+    "7168.7174_2020": {
+      "value": "3564",
+      "footNote": null
+    },
+    "7169.7175_2005": {
+      "value": "109120",
+      "footNote": null
+    },
+    "7169.7175_2006": {
+      "value": "110816",
+      "footNote": null
+    },
+    "7169.7175_2007": {
+      "value": "117407",
+      "footNote": null
+    },
+    "7169.7175_2008": {
+      "value": "108870",
+      "footNote": null
+    },
+    "7169.7175_2009": {
+      "value": "98383",
+      "footNote": null
+    },
+    "7169.7175_2010": {
+      "value": "113469",
+      "footNote": null
+    },
+    "7169.7175_2011": {
+      "value": "113181",
+      "footNote": null
+    },
+    "7169.7175_2012": {
+      "value": "116600",
+      "footNote": null
+    },
+    "7169.7175_2013": {
+      "value": "119254",
+      "footNote": null
+    },
+    "7169.7175_2014": {
+      "value": "111666",
+      "footNote": null
+    },
+    "7169.7175_2015": {
+      "value": "109892",
+      "footNote": null
+    },
+    "7169.7175_2016": {
+      "value": "110677",
+      "footNote": null
+    },
+    "7169.7175_2017": {
+      "value": "119668",
+      "footNote": null
+    },
+    "7169.7175_2018": {
+      "value": "118620",
+      "footNote": null
+    },
+    "7169.7175_2019": {
+      "value": "130022",
+      "footNote": null
+    },
+    "7169.7175_2020": {
+      "value": "98905",
+      "footNote": null
+    },
+    "7167.7171_2005": {
+      "value": "241",
+      "footNote": null
+    },
+    "7167.7171_2006": {
+      "value": "275",
+      "footNote": null
+    },
+    "7167.7171_2007": {
+      "value": "424",
+      "footNote": null
+    },
+    "7167.7171_2008": {
+      "value": "290",
+      "footNote": null
+    },
+    "7167.7171_2009": {
+      "value": "251",
+      "footNote": null
+    },
+    "7167.7171_2010": {
+      "value": "540",
+      "footNote": null
+    },
+    "7167.7171_2011": {
+      "value": "397",
+      "footNote": null
+    },
+    "7167.7171_2012": {
+      "value": "323",
+      "footNote": null
+    },
+    "7167.7171_2013": {
+      "value": "387",
+      "footNote": null
+    },
+    "7167.7171_2014": {
+      "value": "467",
+      "footNote": null
+    },
+    "7167.7171_2015": {
+      "value": "361",
+      "footNote": null
+    },
+    "7167.7171_2016": {
+      "value": "271",
+      "footNote": null
+    },
+    "7167.7171_2017": {
+      "value": "296",
+      "footNote": null
+    },
+    "7167.7171_2018": {
+      "value": "352",
+      "footNote": null
+    },
+    "7167.7171_2019": {
+      "value": "406",
+      "footNote": null
+    },
+    "7167.7171_2020": {
+      "value": "221",
+      "footNote": null
+    },
+    "7166.7174_2005": {
+      "value": "3191",
+      "footNote": null
+    },
+    "7166.7174_2006": {
+      "value": "2997",
+      "footNote": null
+    },
+    "7166.7174_2007": {
+      "value": "4428",
+      "footNote": null
+    },
+    "7166.7174_2008": {
+      "value": "2640",
+      "footNote": null
+    },
+    "7166.7174_2009": {
+      "value": "2053",
+      "footNote": null
+    },
+    "7166.7174_2010": {
+      "value": "2722",
+      "footNote": null
+    },
+    "7166.7174_2011": {
+      "value": "2958",
+      "footNote": null
+    },
+    "7166.7174_2012": {
+      "value": "2676",
+      "footNote": null
+    },
+    "7166.7174_2013": {
+      "value": "2063",
+      "footNote": null
+    },
+    "7166.7174_2014": {
+      "value": "1547",
+      "footNote": null
+    },
+    "7166.7174_2015": {
+      "value": "1365",
+      "footNote": null
+    },
+    "7166.7174_2016": {
+      "value": "2066",
+      "footNote": null
+    },
+    "7166.7174_2017": {
+      "value": "1978",
+      "footNote": null
+    },
+    "7166.7174_2018": {
+      "value": "2810",
+      "footNote": null
+    },
+    "7166.7174_2019": {
+      "value": "2969",
+      "footNote": null
+    },
+    "7166.7174_2020": {
+      "value": "2111",
+      "footNote": null
+    },
+    "7167.7172_2005": {
+      "value": "697",
+      "footNote": null
+    },
+    "7167.7172_2006": {
+      "value": "869",
+      "footNote": null
+    },
+    "7167.7172_2007": {
+      "value": "1179",
+      "footNote": null
+    },
+    "7167.7172_2008": {
+      "value": "1572",
+      "footNote": null
+    },
+    "7167.7172_2009": {
+      "value": "691",
+      "footNote": null
+    },
+    "7167.7172_2010": {
+      "value": "865",
+      "footNote": null
+    },
+    "7167.7172_2011": {
+      "value": "792",
+      "footNote": null
+    },
+    "7167.7172_2012": {
+      "value": "703",
+      "footNote": null
+    },
+    "7167.7172_2013": {
+      "value": "1261",
+      "footNote": null
+    },
+    "7167.7172_2014": {
+      "value": "1694",
+      "footNote": null
+    },
+    "7167.7172_2015": {
+      "value": "804",
+      "footNote": null
+    },
+    "7167.7172_2016": {
+      "value": "656",
+      "footNote": null
+    },
+    "7167.7172_2017": {
+      "value": "702",
+      "footNote": null
+    },
+    "7167.7172_2018": {
+      "value": "803",
+      "footNote": null
+    },
+    "7167.7172_2019": {
+      "value": "1299",
+      "footNote": null
+    },
+    "7167.7172_2020": {
+      "value": "846",
+      "footNote": null
+    },
+    "7166.7175_2005": {
+      "value": "43934",
+      "footNote": null
+    },
+    "7166.7175_2006": {
+      "value": "43364",
+      "footNote": null
+    },
+    "7166.7175_2007": {
+      "value": "43510",
+      "footNote": null
+    },
+    "7166.7175_2008": {
+      "value": "34619",
+      "footNote": null
+    },
+    "7166.7175_2009": {
+      "value": "26011",
+      "footNote": null
+    },
+    "7166.7175_2010": {
+      "value": "31499",
+      "footNote": null
+    },
+    "7166.7175_2011": {
+      "value": "37251",
+      "footNote": null
+    },
+    "7166.7175_2012": {
+      "value": "39004",
+      "footNote": null
+    },
+    "7166.7175_2013": {
+      "value": "39583",
+      "footNote": null
+    },
+    "7166.7175_2014": {
+      "value": "39678",
+      "footNote": null
+    },
+    "7166.7175_2015": {
+      "value": "38082",
+      "footNote": null
+    },
+    "7166.7175_2016": {
+      "value": "46823",
+      "footNote": null
+    },
+    "7166.7175_2017": {
+      "value": "46475",
+      "footNote": null
+    },
+    "7166.7175_2018": {
+      "value": "47071",
+      "footNote": null
+    },
+    "7166.7175_2019": {
+      "value": "55953",
+      "footNote": null
+    },
+    "7166.7175_2020": {
+      "value": "51535",
+      "footNote": null
+    },
+    "7166.7172_2005": {
+      "value": "23362",
+      "footNote": null
+    },
+    "7166.7172_2006": {
+      "value": "22641",
+      "footNote": null
+    },
+    "7166.7172_2007": {
+      "value": "22413",
+      "footNote": null
+    },
+    "7166.7172_2008": {
+      "value": "17678",
+      "footNote": null
+    },
+    "7166.7172_2009": {
+      "value": "12507",
+      "footNote": null
+    },
+    "7166.7172_2010": {
+      "value": "15156",
+      "footNote": null
+    },
+    "7166.7172_2011": {
+      "value": "17425",
+      "footNote": null
+    },
+    "7166.7172_2012": {
+      "value": "22309",
+      "footNote": null
+    },
+    "7166.7172_2013": {
+      "value": "20993",
+      "footNote": null
+    },
+    "7166.7172_2014": {
+      "value": "22434",
+      "footNote": null
+    },
+    "7166.7172_2015": {
+      "value": "21098",
+      "footNote": null
+    },
+    "7166.7172_2016": {
+      "value": "24917",
+      "footNote": null
+    },
+    "7166.7172_2017": {
+      "value": "26802",
+      "footNote": null
+    },
+    "7166.7172_2018": {
+      "value": "26019",
+      "footNote": null
+    },
+    "7166.7172_2019": {
+      "value": "34192",
+      "footNote": null
+    },
+    "7166.7172_2020": {
+      "value": "32605",
+      "footNote": null
+    },
+    "7167.7170_2005": {
+      "value": "62",
+      "footNote": null
+    },
+    "7167.7170_2006": {
+      "value": "79",
+      "footNote": null
+    },
+    "7167.7170_2007": {
+      "value": "90",
+      "footNote": null
+    },
+    "7167.7170_2008": {
+      "value": "57",
+      "footNote": null
+    },
+    "7167.7170_2009": {
+      "value": "52",
+      "footNote": null
+    },
+    "7167.7170_2010": {
+      "value": "102",
+      "footNote": null
+    },
+    "7167.7170_2011": {
+      "value": "79",
+      "footNote": null
+    },
+    "7167.7170_2012": {
+      "value": "102",
+      "footNote": null
+    },
+    "7167.7170_2013": {
+      "value": "106",
+      "footNote": null
+    },
+    "7167.7170_2014": {
+      "value": "115",
+      "footNote": null
+    },
+    "7167.7170_2015": {
+      "value": "93",
+      "footNote": null
+    },
+    "7167.7170_2016": {
+      "value": "79",
+      "footNote": null
+    },
+    "7167.7170_2017": {
+      "value": "138",
+      "footNote": null
+    },
+    "7167.7170_2018": {
+      "value": "85",
+      "footNote": null
+    },
+    "7167.7170_2019": {
+      "value": "129",
+      "footNote": null
+    },
+    "7167.7170_2020": {
+      "value": "196",
+      "footNote": null
+    },
+    "7166.7173_2005": {
+      "value": "7904",
+      "footNote": null
+    },
+    "7166.7173_2006": {
+      "value": "8438",
+      "footNote": null
+    },
+    "7166.7173_2007": {
+      "value": "8048",
+      "footNote": null
+    },
+    "7166.7173_2008": {
+      "value": "6761",
+      "footNote": null
+    },
+    "7166.7173_2009": {
+      "value": "4863",
+      "footNote": null
+    },
+    "7166.7173_2010": {
+      "value": "5722",
+      "footNote": null
+    },
+    "7166.7173_2011": {
+      "value": "7784",
+      "footNote": null
+    },
+    "7166.7173_2012": {
+      "value": "6255",
+      "footNote": null
+    },
+    "7166.7173_2013": {
+      "value": "7154",
+      "footNote": null
+    },
+    "7166.7173_2014": {
+      "value": "6173",
+      "footNote": null
+    },
+    "7166.7173_2015": {
+      "value": "6311",
+      "footNote": null
+    },
+    "7166.7173_2016": {
+      "value": "8768",
+      "footNote": null
+    },
+    "7166.7173_2017": {
+      "value": "6704",
+      "footNote": null
+    },
+    "7166.7173_2018": {
+      "value": "8458",
+      "footNote": null
+    },
+    "7166.7173_2019": {
+      "value": "9099",
+      "footNote": null
+    },
+    "7166.7173_2020": {
+      "value": "10302",
+      "footNote": null
+    },
+    "7169.7171_2005": {
+      "value": "24669",
+      "footNote": null
+    },
+    "7169.7171_2006": {
+      "value": "24562",
+      "footNote": null
+    },
+    "7169.7171_2007": {
+      "value": "25413",
+      "footNote": null
+    },
+    "7169.7171_2008": {
+      "value": "23753",
+      "footNote": null
+    },
+    "7169.7171_2009": {
+      "value": "23698",
+      "footNote": null
+    },
+    "7169.7171_2010": {
+      "value": "29070",
+      "footNote": null
+    },
+    "7169.7171_2011": {
+      "value": "26340",
+      "footNote": null
+    },
+    "7169.7171_2012": {
+      "value": "25952",
+      "footNote": null
+    },
+    "7169.7171_2013": {
+      "value": "27974",
+      "footNote": null
+    },
+    "7169.7171_2014": {
+      "value": "27592",
+      "footNote": null
+    },
+    "7169.7171_2015": {
+      "value": "25435",
+      "footNote": null
+    },
+    "7169.7171_2016": {
+      "value": "24669",
+      "footNote": null
+    },
+    "7169.7171_2017": {
+      "value": "25256",
+      "footNote": null
+    },
+    "7169.7171_2018": {
+      "value": "26185",
+      "footNote": null
+    },
+    "7169.7171_2019": {
+      "value": "26878",
+      "footNote": null
+    },
+    "7169.7171_2020": {
+      "value": "17653",
+      "footNote": null
+    },
+    "7167.7175_2005": {
+      "value": "3906",
+      "footNote": null
+    },
+    "7167.7175_2006": {
+      "value": "4118",
+      "footNote": null
+    },
+    "7167.7175_2007": {
+      "value": "4115",
+      "footNote": null
+    },
+    "7167.7175_2008": {
+      "value": "3970",
+      "footNote": null
+    },
+    "7167.7175_2009": {
+      "value": "2787",
+      "footNote": null
+    },
+    "7167.7175_2010": {
+      "value": "3314",
+      "footNote": null
+    },
+    "7167.7175_2011": {
+      "value": "3032",
+      "footNote": null
+    },
+    "7167.7175_2012": {
+      "value": "3506",
+      "footNote": null
+    },
+    "7167.7175_2013": {
+      "value": "3943",
+      "footNote": null
+    },
+    "7167.7175_2014": {
+      "value": "4075",
+      "footNote": null
+    },
+    "7167.7175_2015": {
+      "value": "3492",
+      "footNote": null
+    },
+    "7167.7175_2016": {
+      "value": "3160",
+      "footNote": null
+    },
+    "7167.7175_2017": {
+      "value": "3061",
+      "footNote": null
+    },
+    "7167.7175_2018": {
+      "value": "3322",
+      "footNote": null
+    },
+    "7167.7175_2019": {
+      "value": "5096",
+      "footNote": null
+    },
+    "7167.7175_2020": {
+      "value": "3681",
+      "footNote": null
+    },
+    "7166.7170_2005": {
+      "value": "1341",
+      "footNote": null
+    },
+    "7166.7170_2006": {
+      "value": "1398",
+      "footNote": null
+    },
+    "7166.7170_2007": {
+      "value": "1402",
+      "footNote": null
+    },
+    "7166.7170_2008": {
+      "value": "1579",
+      "footNote": null
+    },
+    "7166.7170_2009": {
+      "value": "975",
+      "footNote": null
+    },
+    "7166.7170_2010": {
+      "value": "1459",
+      "footNote": null
+    },
+    "7166.7170_2011": {
+      "value": "1511",
+      "footNote": null
+    },
+    "7166.7170_2012": {
+      "value": "1012",
+      "footNote": null
+    },
+    "7166.7170_2013": {
+      "value": "1514",
+      "footNote": null
+    },
+    "7166.7170_2014": {
+      "value": "1142",
+      "footNote": null
+    },
+    "7166.7170_2015": {
+      "value": "1071",
+      "footNote": null
+    },
+    "7166.7170_2016": {
+      "value": "2825",
+      "footNote": null
+    },
+    "7166.7170_2017": {
+      "value": "2280",
+      "footNote": null
+    },
+    "7166.7170_2018": {
+      "value": "801",
+      "footNote": null
+    },
+    "7166.7170_2019": {
+      "value": "973",
+      "footNote": null
+    },
+    "7166.7170_2020": {
+      "value": "938",
+      "footNote": null
+    },
+    "7169.7172_2005": {
+      "value": "50391",
+      "footNote": null
+    },
+    "7169.7172_2006": {
+      "value": "49078",
+      "footNote": null
+    },
+    "7169.7172_2007": {
+      "value": "51930",
+      "footNote": null
+    },
+    "7169.7172_2008": {
+      "value": "47871",
+      "footNote": null
+    },
+    "7169.7172_2009": {
+      "value": "40878",
+      "footNote": null
+    },
+    "7169.7172_2010": {
+      "value": "45636",
+      "footNote": null
+    },
+    "7169.7172_2011": {
+      "value": "45081",
+      "footNote": null
+    },
+    "7169.7172_2012": {
+      "value": "50629",
+      "footNote": null
+    },
+    "7169.7172_2013": {
+      "value": "52972",
+      "footNote": null
+    },
+    "7169.7172_2014": {
+      "value": "52041",
+      "footNote": null
+    },
+    "7169.7172_2015": {
+      "value": "50848",
+      "footNote": null
+    },
+    "7169.7172_2016": {
+      "value": "49690",
+      "footNote": null
+    },
+    "7169.7172_2017": {
+      "value": "56597",
+      "footNote": null
+    },
+    "7169.7172_2018": {
+      "value": "56238",
+      "footNote": null
+    },
+    "7169.7172_2019": {
+      "value": "65591",
+      "footNote": null
+    },
+    "7169.7172_2020": {
+      "value": "52098",
+      "footNote": null
+    },
+    "7166.7171_2005": {
+      "value": "8127",
+      "footNote": null
+    },
+    "7166.7171_2006": {
+      "value": "7890",
+      "footNote": null
+    },
+    "7166.7171_2007": {
+      "value": "7221",
+      "footNote": null
+    },
+    "7166.7171_2008": {
+      "value": "5961",
+      "footNote": null
+    },
+    "7166.7171_2009": {
+      "value": "5632",
+      "footNote": null
+    },
+    "7166.7171_2010": {
+      "value": "6440",
+      "footNote": null
+    },
+    "7166.7171_2011": {
+      "value": "7573",
+      "footNote": null
+    },
+    "7166.7171_2012": {
+      "value": "6760",
+      "footNote": null
+    },
+    "7166.7171_2013": {
+      "value": "7859",
+      "footNote": null
+    },
+    "7166.7171_2014": {
+      "value": "8382",
+      "footNote": null
+    },
+    "7166.7171_2015": {
+      "value": "8237",
+      "footNote": null
+    },
+    "7166.7171_2016": {
+      "value": "8247",
+      "footNote": null
+    },
+    "7166.7171_2017": {
+      "value": "8711",
+      "footNote": null
+    },
+    "7166.7171_2018": {
+      "value": "8981",
+      "footNote": null
+    },
+    "7166.7171_2019": {
+      "value": "8720",
+      "footNote": null
+    },
+    "7166.7171_2020": {
+      "value": "5579",
+      "footNote": null
+    },
+    "7169.7173_2005": {
+      "value": "17698",
+      "footNote": null
+    },
+    "7169.7173_2006": {
+      "value": "18490",
+      "footNote": null
+    },
+    "7169.7173_2007": {
+      "value": "20448",
+      "footNote": null
+    },
+    "7169.7173_2008": {
+      "value": "18461",
+      "footNote": null
+    },
+    "7169.7173_2009": {
+      "value": "16270",
+      "footNote": null
+    },
+    "7169.7173_2010": {
+      "value": "16406",
+      "footNote": null
+    },
+    "7169.7173_2011": {
+      "value": "19276",
+      "footNote": null
+    },
+    "7169.7173_2012": {
+      "value": "19014",
+      "footNote": null
+    },
+    "7169.7173_2013": {
+      "value": "19247",
+      "footNote": null
+    },
+    "7169.7173_2014": {
+      "value": "17221",
+      "footNote": null
+    },
+    "7169.7173_2015": {
+      "value": "18573",
+      "footNote": null
+    },
+    "7169.7173_2016": {
+      "value": "19704",
+      "footNote": null
+    },
+    "7169.7173_2017": {
+      "value": "20270",
+      "footNote": null
+    },
+    "7169.7173_2018": {
+      "value": "20356",
+      "footNote": null
+    },
+    "7169.7173_2019": {
+      "value": "21110",
+      "footNote": null
+    },
+    "7169.7173_2020": {
+      "value": "18036",
+      "footNote": null
+    },
+    "7167.7173_2005": {
+      "value": "876",
+      "footNote": null
+    },
+    "7167.7173_2006": {
+      "value": "762",
+      "footNote": null
+    },
+    "7167.7173_2007": {
+      "value": "847",
+      "footNote": null
+    },
+    "7167.7173_2008": {
+      "value": "641",
+      "footNote": null
+    },
+    "7167.7173_2009": {
+      "value": "601",
+      "footNote": null
+    },
+    "7167.7173_2010": {
+      "value": "634",
+      "footNote": null
+    },
+    "7167.7173_2011": {
+      "value": "643",
+      "footNote": null
+    },
+    "7167.7173_2012": {
+      "value": "800",
+      "footNote": null
+    },
+    "7167.7173_2013": {
+      "value": "716",
+      "footNote": null
+    },
+    "7167.7173_2014": {
+      "value": "648",
+      "footNote": null
+    },
+    "7167.7173_2015": {
+      "value": "1028",
+      "footNote": null
+    },
+    "7167.7173_2016": {
+      "value": "936",
+      "footNote": null
+    },
+    "7167.7173_2017": {
+      "value": "607",
+      "footNote": null
+    },
+    "7167.7173_2018": {
+      "value": "671",
+      "footNote": null
+    },
+    "7167.7173_2019": {
+      "value": "1167",
+      "footNote": null
+    },
+    "7167.7173_2020": {
+      "value": "1107",
+      "footNote": null
+    },
+    "7169.7174_2005": {
+      "value": "11534",
+      "footNote": null
+    },
+    "7169.7174_2006": {
+      "value": "12837",
+      "footNote": null
+    },
+    "7169.7174_2007": {
+      "value": "13571",
+      "footNote": null
+    },
+    "7169.7174_2008": {
+      "value": "13257",
+      "footNote": null
+    },
+    "7169.7174_2009": {
+      "value": "12132",
+      "footNote": null
+    },
+    "7169.7174_2010": {
+      "value": "15540",
+      "footNote": null
+    },
+    "7169.7174_2011": {
+      "value": "15499",
+      "footNote": null
+    },
+    "7169.7174_2012": {
+      "value": "15121",
+      "footNote": null
+    },
+    "7169.7174_2013": {
+      "value": "11999",
+      "footNote": null
+    },
+    "7169.7174_2014": {
+      "value": "8429",
+      "footNote": null
+    },
+    "7169.7174_2015": {
+      "value": "8897",
+      "footNote": null
+    },
+    "7169.7174_2016": {
+      "value": "8697",
+      "footNote": null
+    },
+    "7169.7174_2017": {
+      "value": "10175",
+      "footNote": null
+    },
+    "7169.7174_2018": {
+      "value": "10855",
+      "footNote": null
+    },
+    "7169.7174_2019": {
+      "value": "11026",
+      "footNote": null
+    },
+    "7169.7174_2020": {
+      "value": "6986",
+      "footNote": null
+    },
+    "7167.7174_2005": {
+      "value": "2030",
+      "footNote": null
+    },
+    "7167.7174_2006": {
+      "value": "2133",
+      "footNote": null
+    },
+    "7167.7174_2007": {
+      "value": "1575",
+      "footNote": null
+    },
+    "7167.7174_2008": {
+      "value": "1410",
+      "footNote": null
+    },
+    "7167.7174_2009": {
+      "value": "1192",
+      "footNote": null
+    },
+    "7167.7174_2010": {
+      "value": "1173",
+      "footNote": null
+    },
+    "7167.7174_2011": {
+      "value": "1121",
+      "footNote": null
+    },
+    "7167.7174_2012": {
+      "value": "1578",
+      "footNote": null
+    },
+    "7167.7174_2013": {
+      "value": "1473",
+      "footNote": null
+    },
+    "7167.7174_2014": {
+      "value": "1151",
+      "footNote": null
+    },
+    "7167.7174_2015": {
+      "value": "1206",
+      "footNote": null
+    },
+    "7167.7174_2016": {
+      "value": "1218",
+      "footNote": null
+    },
+    "7167.7174_2017": {
+      "value": "1318",
+      "footNote": null
+    },
+    "7167.7174_2018": {
+      "value": "1411",
+      "footNote": null
+    },
+    "7167.7174_2019": {
+      "value": "2095",
+      "footNote": null
+    },
+    "7167.7174_2020": {
+      "value": "1311",
+      "footNote": null
+    },
+    "7169.7170_2005": {
+      "value": "4808",
+      "footNote": null
+    },
+    "7169.7170_2006": {
+      "value": "5849",
+      "footNote": null
+    },
+    "7169.7170_2007": {
+      "value": "6047",
+      "footNote": null
+    },
+    "7169.7170_2008": {
+      "value": "5528",
+      "footNote": null
+    },
+    "7169.7170_2009": {
+      "value": "5427",
+      "footNote": null
+    },
+    "7169.7170_2010": {
+      "value": "6817",
+      "footNote": null
+    },
+    "7169.7170_2011": {
+      "value": "6985",
+      "footNote": null
+    },
+    "7169.7170_2012": {
+      "value": "6159",
+      "footNote": null
+    },
+    "7169.7170_2013": {
+      "value": "7062",
+      "footNote": null
+    },
+    "7169.7170_2014": {
+      "value": "6383",
+      "footNote": null
+    },
+    "7169.7170_2015": {
+      "value": "6139",
+      "footNote": null
+    },
+    "7169.7170_2016": {
+      "value": "7917",
+      "footNote": null
+    },
+    "7169.7170_2017": {
+      "value": "7367",
+      "footNote": null
+    },
+    "7169.7170_2018": {
+      "value": "4984",
+      "footNote": null
+    },
+    "7169.7170_2019": {
+      "value": "5417",
+      "footNote": null
+    },
+    "7169.7170_2020": {
+      "value": "4132",
+      "footNote": null
+    }
+  }
+}

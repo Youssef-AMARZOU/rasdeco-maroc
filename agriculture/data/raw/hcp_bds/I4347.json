@@ -1,0 +1,290 @@
+{
+  "iid": 452,
+  "code": "I4347",
+  "label": "Abattages contrôlés (Poids de viande obtenue)",
+  "metaData": {
+    "unit": "En tonnes",
+    "frequency": "AS",
+    "source": "Ministère de l'Agriculture, de la Pêche Maritime, du Développent Rural et des Eaux et Forêts",
+    "definitionFr": "Les abattages contrôlés au Maroc sont strictement réglementés et supervisés par l'Office National de Sécurité Sanitaire des Produits Alimentaires (⁠ONSSA). les viandes subissent une inspection vétérinaire pour garantir la conformité sanitaire, la traçabilité et l'hygiène avant d'être mises sur le marché.",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014"
+  ],
+  "dimensions": [
+    {
+      "id": 303,
+      "rank": 1,
+      "label": "Type de  cheptel",
+      "modalites": [
+        {
+          "id": 4708,
+          "rank": 1,
+          "label": "Total",
+          "total": true
+        },
+        {
+          "id": 4709,
+          "rank": 2,
+          "label": "Bovins",
+          "total": false
+        },
+        {
+          "id": 4710,
+          "rank": 3,
+          "label": "Ovins",
+          "total": false
+        },
+        {
+          "id": 4711,
+          "rank": 4,
+          "label": "Caprins",
+          "total": false
+        },
+        {
+          "id": 4712,
+          "rank": 5,
+          "label": "Autres variétés",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1772543978477,
+  "data": {
+    "4708_2014": {
+      "value": "222",
+      "footNote": null
+    },
+    "4708_2015": {
+      "value": "217",
+      "footNote": null
+    },
+    "4708_2016": {
+      "value": "300",
+      "footNote": null
+    },
+    "4708_2017": {
+      "value": "287",
+      "footNote": null
+    },
+    "4708_2018": {
+      "value": "272",
+      "footNote": null
+    },
+    "4708_2019": {
+      "value": "242",
+      "footNote": null
+    },
+    "4708_2020": {
+      "value": "237",
+      "footNote": null
+    },
+    "4708_2021": {
+      "value": "288",
+      "footNote": null
+    },
+    "4708_2022": {
+      "value": "311",
+      "footNote": null
+    },
+    "4708_2023": {
+      "value": "269",
+      "footNote": null
+    },
+    "4708_2024": {
+      "value": "252",
+      "footNote": null
+    },
+    "4709_2014": {
+      "value": "173",
+      "footNote": null
+    },
+    "4709_2015": {
+      "value": "178",
+      "footNote": null
+    },
+    "4709_2016": {
+      "value": "245",
+      "footNote": null
+    },
+    "4709_2017": {
+      "value": "225",
+      "footNote": null
+    },
+    "4709_2018": {
+      "value": "214",
+      "footNote": null
+    },
+    "4709_2019": {
+      "value": "184",
+      "footNote": null
+    },
+    "4709_2020": {
+      "value": "180",
+      "footNote": null
+    },
+    "4709_2021": {
+      "value": "221",
+      "footNote": null
+    },
+    "4709_2022": {
+      "value": "241",
+      "footNote": null
+    },
+    "4709_2023": {
+      "value": "211",
+      "footNote": null
+    },
+    "4709_2024": {
+      "value": "208",
+      "footNote": null
+    },
+    "4710_2014": {
+      "value": "28",
+      "footNote": null
+    },
+    "4710_2015": {
+      "value": "25",
+      "footNote": null
+    },
+    "4710_2016": {
+      "value": "36",
+      "footNote": null
+    },
+    "4710_2017": {
+      "value": "41",
+      "footNote": null
+    },
+    "4710_2018": {
+      "value": "40",
+      "footNote": null
+    },
+    "4710_2019": {
+      "value": "41",
+      "footNote": null
+    },
+    "4710_2020": {
+      "value": "41",
+      "footNote": null
+    },
+    "4710_2021": {
+      "value": "50",
+      "footNote": null
+    },
+    "4710_2022": {
+      "value": "54",
+      "footNote": null
+    },
+    "4710_2023": {
+      "value": "41",
+      "footNote": null
+    },
+    "4710_2024": {
+      "value": "30",
+      "footNote": null
+    },
+    "4711_2014": {
+      "value": "15",
+      "footNote": null
+    },
+    "4711_2015": {
+      "value": "10",
+      "footNote": null
+    },
+    "4711_2016": {
+      "value": "15",
+      "footNote": null
+    },
+    "4711_2017": {
+      "value": "16",
+      "footNote": null
+    },
+    "4711_2018": {
+      "value": "13",
+      "footNote": null
+    },
+    "4711_2019": {
+      "value": "14",
+      "footNote": null
+    },
+    "4711_2020": {
+      "value": "11",
+      "footNote": null
+    },
+    "4711_2021": {
+      "value": "13",
+      "footNote": null
+    },
+    "4711_2022": {
+      "value": "12",
+      "footNote": null
+    },
+    "4711_2023": {
+      "value": "11",
+      "footNote": null
+    },
+    "4711_2024": {
+      "value": "8",
+      "footNote": null
+    },
+    "4712_2014": {
+      "value": "6",
+      "footNote": null
+    },
+    "4712_2015": {
+      "value": "4",
+      "footNote": null
+    },
+    "4712_2016": {
+      "value": "4",
+      "footNote": null
+    },
+    "4712_2017": {
+      "value": "4",
+      "footNote": null
+    },
+    "4712_2018": {
+      "value": "4",
+      "footNote": null
+    },
+    "4712_2019": {
+      "value": "4",
+      "footNote": null
+    },
+    "4712_2020": {
+      "value": "4",
+      "footNote": null
+    },
+    "4712_2021": {
+      "value": "4",
+      "footNote": null
+    },
+    "4712_2022": {
+      "value": "4",
+      "footNote": null
+    },
+    "4712_2023": {
+      "value": "6",
+      "footNote": null
+    },
+    "4712_2024": {
+      "value": "6",
+      "footNote": null
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "year": 2022,
+  "domaine": "Social",
+  "kpis": [
+    {
+      "label": "Taux de pauvreté",
+      "value": 4.8,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de couverture AMO",
+      "value": 45,
+      "unit": "%"
+    },
+    {
+      "label": "Indice de Gini",
+      "value": 0.398,
+      "unit": ""
+    },
+    {
+      "label": "Population active",
+      "value": 11.8,
+      "unit": "M"
+    },
+    {
+      "label": "Taux d'urbanisation",
+      "value": 62.5,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PAUVRETE": 4.8,
+    "COUVERTURE_AMO": 45,
+    "GINI": 0.398,
+    "POP_ACTIVE": 11.8,
+    "URBANISATION": 62.5
+  },
+  "source": "HCP/MDJS"
+}

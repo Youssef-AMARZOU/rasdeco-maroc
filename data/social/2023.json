@@ -1,0 +1,39 @@
+{
+  "year": 2023,
+  "domaine": "Social",
+  "kpis": [
+    {
+      "label": "Taux de pauvreté",
+      "value": 4.5,
+      "unit": "%"
+    },
+    {
+      "label": "Taux de couverture AMO",
+      "value": 52,
+      "unit": "%"
+    },
+    {
+      "label": "Indice de Gini",
+      "value": 0.397,
+      "unit": ""
+    },
+    {
+      "label": "Population active",
+      "value": 12,
+      "unit": "M"
+    },
+    {
+      "label": "Taux d'urbanisation",
+      "value": 63,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PAUVRETE": 4.5,
+    "COUVERTURE_AMO": 52,
+    "GINI": 0.397,
+    "POP_ACTIVE": 12,
+    "URBANISATION": 63
+  },
+  "source": "HCP/MDJS"
+}

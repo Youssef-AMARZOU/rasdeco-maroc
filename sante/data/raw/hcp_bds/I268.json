@@ -1,0 +1,235 @@
+{
+  "iid": 234,
+  "code": "I268",
+  "label": "Nombre d'infirmiers",
+  "metaData": {
+    "unit": "NOMBRE",
+    "frequency": "AS",
+    "source": " MAR_HCP BASE DE DONNEES STATISTIQUES_2010  ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1998",
+    "1997",
+    "1996",
+    "1995",
+    "1994",
+    "1993",
+    "1992",
+    "1991",
+    "1990",
+    "1989",
+    "1988",
+    "1987",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982",
+    "1981",
+    "1980",
+    "1979",
+    "1978",
+    "1977",
+    "1976",
+    "1975",
+    "1974",
+    "1973",
+    "1972",
+    "1971",
+    "1970"
+  ],
+  "dimensions": [
+    {
+      "id": 201,
+      "rank": 1,
+      "label": "Grands Secteurs",
+      "modalites": [
+        {
+          "id": 3345,
+          "rank": 2,
+          "label": "Privé",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": true,
+  "shutOffComment": "-",
+  "updatingDate": 1292398200000,
+  "data": {
+    "3345_1970": {
+      "value": "276",
+      "footNote": null
+    },
+    "3345_1971": {
+      "value": "285",
+      "footNote": null
+    },
+    "3345_1972": {
+      "value": "289",
+      "footNote": null
+    },
+    "3345_1973": {
+      "value": "299",
+      "footNote": null
+    },
+    "3345_1974": {
+      "value": "294",
+      "footNote": null
+    },
+    "3345_1975": {
+      "value": "301",
+      "footNote": null
+    },
+    "3345_1976": {
+      "value": "292",
+      "footNote": null
+    },
+    "3345_1977": {
+      "value": "316",
+      "footNote": null
+    },
+    "3345_1978": {
+      "value": "336",
+      "footNote": null
+    },
+    "3345_1979": {
+      "value": "354",
+      "footNote": null
+    },
+    "3345_1980": {
+      "value": "411",
+      "footNote": null
+    },
+    "3345_1981": {
+      "value": "399",
+      "footNote": null
+    },
+    "3345_1982": {
+      "value": "405",
+      "footNote": null
+    },
+    "3345_1983": {
+      "value": "452",
+      "footNote": null
+    },
+    "3345_1984": {
+      "value": "489",
+      "footNote": null
+    },
+    "3345_1985": {
+      "value": "527",
+      "footNote": null
+    },
+    "3345_1986": {
+      "value": "559",
+      "footNote": null
+    },
+    "3345_1987": {
+      "value": "583",
+      "footNote": null
+    },
+    "3345_1988": {
+      "value": "621",
+      "footNote": null
+    },
+    "3345_1989": {
+      "value": "650",
+      "footNote": null
+    },
+    "3345_1990": {
+      "value": "671",
+      "footNote": null
+    },
+    "3345_1991": {
+      "value": "695",
+      "footNote": null
+    },
+    "3345_1992": {
+      "value": "713",
+      "footNote": null
+    },
+    "3345_1993": {
+      "value": "749",
+      "footNote": null
+    },
+    "3345_1994": {
+      "value": "777",
+      "footNote": null
+    },
+    "3345_1995": {
+      "value": "796",
+      "footNote": null
+    },
+    "3345_1996": {
+      "value": "822",
+      "footNote": null
+    },
+    "3345_1997": {
+      "value": "844",
+      "footNote": null
+    },
+    "3345_1998": {
+      "value": "864",
+      "footNote": null
+    },
+    "3345_1999": {
+      "value": "877",
+      "footNote": null
+    },
+    "3345_2000": {
+      "value": "892",
+      "footNote": null
+    },
+    "3345_2001": {
+      "value": "908",
+      "footNote": null
+    },
+    "3345_2002": {
+      "value": "970",
+      "footNote": null
+    },
+    "3345_2003": {
+      "value": "987",
+      "footNote": null
+    },
+    "3345_2004": {
+      "value": "1002",
+      "footNote": null
+    },
+    "3345_2005": {
+      "value": "1021",
+      "footNote": null
+    },
+    "3345_2006": {
+      "value": null,
+      "footNote": null
+    },
+    "3345_2007": {
+      "value": null,
+      "footNote": null
+    },
+    "3345_2008": {
+      "value": null,
+      "footNote": null
+    },
+    "3345_2009": {
+      "value": null,
+      "footNote": null
+    }
+  }
+}

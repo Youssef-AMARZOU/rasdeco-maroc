@@ -1,0 +1,568 @@
+{
+  "iid": 247,
+  "code": "I438",
+  "label": "Nombre d'accouchements dans les formation sanitaires publiques",
+  "metaData": {
+    "unit": "NOMBRE",
+    "frequency": "AS",
+    "source": " MINISTERE DE LA SANTE ",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1998",
+    "1997",
+    "1996",
+    "1995",
+    "1994",
+    "1993",
+    "1992",
+    "1991",
+    "1990",
+    "1989",
+    "1988",
+    "1987",
+    "1986",
+    "1985",
+    "1984",
+    "1983",
+    "1982",
+    "1981",
+    "1980",
+    "1979",
+    "1978",
+    "1977",
+    "1976",
+    "1975",
+    "1974",
+    "1973",
+    "1972",
+    "1971",
+    "1970"
+  ],
+  "dimensions": [
+    {
+      "id": 208,
+      "rank": 1,
+      "label": "Type d'accouchement",
+      "modalites": [
+        {
+          "id": 3384,
+          "rank": 1,
+          "label": "Normaux ",
+          "total": false
+        },
+        {
+          "id": 3385,
+          "rank": 2,
+          "label": "Dystociques",
+          "total": false
+        },
+        {
+          "id": 3386,
+          "rank": 3,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1778495222609,
+  "data": {
+    "3384_1982": {
+      "value": "102818",
+      "footNote": null
+    },
+    "3384_1983": {
+      "value": "111542",
+      "footNote": null
+    },
+    "3384_1984": {
+      "value": "123058",
+      "footNote": null
+    },
+    "3384_1985": {
+      "value": "117635",
+      "footNote": null
+    },
+    "3384_1986": {
+      "value": "116589",
+      "footNote": null
+    },
+    "3384_1987": {
+      "value": "136952",
+      "footNote": null
+    },
+    "3384_1988": {
+      "value": "144412",
+      "footNote": null
+    },
+    "3384_1989": {
+      "value": "140163",
+      "footNote": null
+    },
+    "3384_1990": {
+      "value": "171412",
+      "footNote": null
+    },
+    "3384_1991": {
+      "value": "173334",
+      "footNote": null
+    },
+    "3384_1992": {
+      "value": "194050",
+      "footNote": null
+    },
+    "3384_1993": {
+      "value": "134549",
+      "footNote": null
+    },
+    "3384_1994": {
+      "value": "147238",
+      "footNote": null
+    },
+    "3384_1995": {
+      "value": "209440",
+      "footNote": null
+    },
+    "3384_1996": {
+      "value": "147072",
+      "footNote": null
+    },
+    "3384_1997": {
+      "value": "366943",
+      "footNote": null
+    },
+    "3384_1998": {
+      "value": "383452",
+      "footNote": null
+    },
+    "3384_1999": {
+      "value": "359338",
+      "footNote": null
+    },
+    "3384_2000": {
+      "value": "441874",
+      "footNote": null
+    },
+    "3384_2001": {
+      "value": "481434",
+      "footNote": null
+    },
+    "3384_2002": {
+      "value": "305654",
+      "footNote": null
+    },
+    "3384_2003": {
+      "value": "493573",
+      "footNote": null
+    },
+    "3384_2004": {
+      "value": "320543",
+      "footNote": null
+    },
+    "3384_2005": {
+      "value": null,
+      "footNote": null
+    },
+    "3384_2006": {
+      "value": null,
+      "footNote": null
+    },
+    "3384_2007": {
+      "value": null,
+      "footNote": null
+    },
+    "3384_2008": {
+      "value": null,
+      "footNote": null
+    },
+    "3384_2009": {
+      "value": null,
+      "footNote": null
+    },
+    "3384_2010": {
+      "value": null,
+      "footNote": null
+    },
+    "3384_2011": {
+      "value": null,
+      "footNote": null
+    },
+    "3384_2012": {
+      "value": null,
+      "footNote": null
+    },
+    "3384_2013": {
+      "value": null,
+      "footNote": null
+    },
+    "3386_1970": {
+      "value": "68429",
+      "footNote": null
+    },
+    "3386_1971": {
+      "value": "71771",
+      "footNote": null
+    },
+    "3386_1972": {
+      "value": "79292",
+      "footNote": null
+    },
+    "3386_1973": {
+      "value": "81330",
+      "footNote": null
+    },
+    "3386_1974": {
+      "value": "87643",
+      "footNote": null
+    },
+    "3386_1975": {
+      "value": "82561",
+      "footNote": null
+    },
+    "3386_1976": {
+      "value": "82086",
+      "footNote": null
+    },
+    "3386_1977": {
+      "value": "95232",
+      "footNote": null
+    },
+    "3386_1978": {
+      "value": "94341",
+      "footNote": null
+    },
+    "3386_1979": {
+      "value": "88528",
+      "footNote": null
+    },
+    "3386_1980": {
+      "value": "92529",
+      "footNote": null
+    },
+    "3386_1981": {
+      "value": "100803",
+      "footNote": null
+    },
+    "3386_1982": {
+      "value": "102818",
+      "footNote": null
+    },
+    "3386_1983": {
+      "value": "111542",
+      "footNote": null
+    },
+    "3386_1984": {
+      "value": "123058",
+      "footNote": null
+    },
+    "3386_1985": {
+      "value": "127084",
+      "footNote": null
+    },
+    "3386_1986": {
+      "value": "126004",
+      "footNote": null
+    },
+    "3386_1987": {
+      "value": "147828",
+      "footNote": null
+    },
+    "3386_1988": {
+      "value": "156205",
+      "footNote": null
+    },
+    "3386_1989": {
+      "value": "152262",
+      "footNote": null
+    },
+    "3386_1990": {
+      "value": "185576",
+      "footNote": null
+    },
+    "3386_1991": {
+      "value": "178601",
+      "footNote": null
+    },
+    "3386_1992": {
+      "value": "217991",
+      "footNote": null
+    },
+    "3386_1993": {
+      "value": "163407",
+      "footNote": null
+    },
+    "3386_1994": {
+      "value": "181839",
+      "footNote": null
+    },
+    "3386_1995": {
+      "value": "243680",
+      "footNote": null
+    },
+    "3386_1996": {
+      "value": "183873",
+      "footNote": null
+    },
+    "3386_1997": {
+      "value": "449920",
+      "footNote": null
+    },
+    "3386_1998": {
+      "value": "475194",
+      "footNote": null
+    },
+    "3386_1999": {
+      "value": "449904",
+      "footNote": null
+    },
+    "3386_2000": {
+      "value": "501725",
+      "footNote": null
+    },
+    "3386_2001": {
+      "value": "550911",
+      "footNote": null
+    },
+    "3386_2002": {
+      "value": "328284",
+      "footNote": null
+    },
+    "3386_2003": {
+      "value": "590377",
+      "footNote": null
+    },
+    "3386_2004": {
+      "value": "348895",
+      "footNote": null
+    },
+    "3386_2005": {
+      "value": "342467",
+      "footNote": null
+    },
+    "3386_2006": {
+      "value": "364683",
+      "footNote": null
+    },
+    "3386_2007": {
+      "value": "380067",
+      "footNote": null
+    },
+    "3386_2008": {
+      "value": "412316",
+      "footNote": null
+    },
+    "3386_2009": {
+      "value": "439934",
+      "footNote": null
+    },
+    "3386_2010": {
+      "value": "469954",
+      "footNote": null
+    },
+    "3386_2011": {
+      "value": "498187",
+      "footNote": null
+    },
+    "3386_2012": {
+      "value": "505239",
+      "footNote": null
+    },
+    "3386_2013": {
+      "value": "507971",
+      "footNote": null
+    },
+    "3386_2014": {
+      "value": "524188",
+      "footNote": null
+    },
+    "3386_2015": {
+      "value": "521641",
+      "footNote": null
+    },
+    "3386_2018": {
+      "value": "479126",
+      "footNote": null
+    },
+    "3386_2019": {
+      "value": "479215",
+      "footNote": null
+    },
+    "3386_2020": {
+      "value": "432636",
+      "footNote": null
+    },
+    "3386_2021": {
+      "value": "388535",
+      "footNote": null
+    },
+    "3386_2022": {
+      "value": "383316",
+      "footNote": null
+    },
+    "3386_2023": {
+      "value": "333176",
+      "footNote": null
+    },
+    "3386_2024": {
+      "value": "292542",
+      "footNote": null
+    },
+    "3385_1982": {
+      "value": "6917",
+      "footNote": null
+    },
+    "3385_1983": {
+      "value": "8826",
+      "footNote": null
+    },
+    "3385_1984": {
+      "value": "9549",
+      "footNote": null
+    },
+    "3385_1985": {
+      "value": "9449",
+      "footNote": null
+    },
+    "3385_1986": {
+      "value": "9415",
+      "footNote": null
+    },
+    "3385_1987": {
+      "value": "10876",
+      "footNote": null
+    },
+    "3385_1988": {
+      "value": "11793",
+      "footNote": null
+    },
+    "3385_1989": {
+      "value": "12099",
+      "footNote": null
+    },
+    "3385_1990": {
+      "value": "14164",
+      "footNote": null
+    },
+    "3385_1991": {
+      "value": "17841",
+      "footNote": null
+    },
+    "3385_1992": {
+      "value": "23941",
+      "footNote": null
+    },
+    "3385_1993": {
+      "value": "20327",
+      "footNote": null
+    },
+    "3385_1994": {
+      "value": "34601",
+      "footNote": null
+    },
+    "3385_1995": {
+      "value": "34240",
+      "footNote": null
+    },
+    "3385_1996": {
+      "value": "36801",
+      "footNote": null
+    },
+    "3385_1997": {
+      "value": "70422",
+      "footNote": null
+    },
+    "3385_1998": {
+      "value": "77746",
+      "footNote": null
+    },
+    "3385_1999": {
+      "value": "75189",
+      "footNote": null
+    },
+    "3385_2000": {
+      "value": "28340",
+      "footNote": null
+    },
+    "3385_2001": {
+      "value": "39552",
+      "footNote": null
+    },
+    "3385_2002": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2003": {
+      "value": "47445",
+      "footNote": null
+    },
+    "3385_2004": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2005": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2006": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2007": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2008": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2009": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2010": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2011": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2012": {
+      "value": null,
+      "footNote": null
+    },
+    "3385_2013": {
+      "value": null,
+      "footNote": null
+    }
+  }
+}

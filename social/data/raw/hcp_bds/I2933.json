@@ -1,0 +1,86 @@
+{
+  "iid": 534,
+  "code": "I2933",
+  "label": "Sévérité de la pauvreté absolue",
+  "metaData": {
+    "unit": "en %",
+    "frequency": "IR",
+    "source": "HCP",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2014",
+    "2007",
+    "2001"
+  ],
+  "dimensions": [
+    {
+      "id": 417,
+      "rank": 1,
+      "label": "Milieu",
+      "modalites": [
+        {
+          "id": 5747,
+          "rank": 1,
+          "label": "National",
+          "total": true
+        },
+        {
+          "id": 5748,
+          "rank": 2,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 5749,
+          "rank": 3,
+          "label": "Rural",
+          "total": false
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1450164600000,
+  "data": {
+    "5747_2001": {
+      "value": "1.2",
+      "footNote": null
+    },
+    "5747_2007": {
+      "value": "0.6",
+      "footNote": null
+    },
+    "5747_2014": {
+      "value": "0.3",
+      "footNote": null
+    },
+    "5749_2001": {
+      "value": "2.2",
+      "footNote": null
+    },
+    "5749_2007": {
+      "value": "1.2",
+      "footNote": null
+    },
+    "5749_2014": {
+      "value": "0.6",
+      "footNote": null
+    },
+    "5748_2001": {
+      "value": "0.5",
+      "footNote": null
+    },
+    "5748_2007": {
+      "value": "0.2",
+      "footNote": null
+    },
+    "5748_2014": {
+      "value": "0.1",
+      "footNote": null
+    }
+  }
+}

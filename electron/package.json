@@ -1,0 +1,12 @@
+{
+  "name": "rasd-maroc",
+  "version": "1.0.0",
+  "description": "RASD-Maroc — Observatoire Prédictif Multi-Domaines",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^42.3.3"
+  }
+}

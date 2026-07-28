@@ -1,0 +1,77 @@
+[
+  {
+    "airport": "Marrakech Menara",
+    "code": "RAK",
+    "passengers_2024": 8200000
+  },
+  {
+    "airport": "Casablanca Mohammed V",
+    "code": "CMN",
+    "passengers_2024": 10500000
+  },
+  {
+    "airport": "Tanger Ibn Battouta",
+    "code": "TNG",
+    "passengers_2024": 4800000
+  },
+  {
+    "airport": "Agadir Al Massira",
+    "code": "AGA",
+    "passengers_2024": 3200000
+  },
+  {
+    "airport": "Fès Saïss",
+    "code": "FEZ",
+    "passengers_2024": 1800000
+  },
+  {
+    "airport": "Rabat-Salé",
+    "code": "RBA",
+    "passengers_2024": 1200000
+  },
+  {
+    "airport": "Oujda Angads",
+    "code": "OUD",
+    "passengers_2024": 750000
+  },
+  {
+    "airport": "Nador Ibn Batouta",
+    "code": "NDR",
+    "passengers_2024": 680000
+  },
+  {
+    "airport": "Errachidia Moulay Ali Cherif",
+    "code": "ERH",
+    "passengers_2024": 320000
+  },
+  {
+    "airport": "Dakhla",
+    "code": "VIL",
+    "passengers_2024": 280000
+  },
+  {
+    "airport": "Laayoune Hassan I",
+    "code": "EUN",
+    "passengers_2024": 250000
+  },
+  {
+    "airport": "Tetouan Sania Ramel",
+    "code": "TTU",
+    "passengers_2024": 180000
+  },
+  {
+    "airport": "Essaouira Mogador",
+    "code": "ESU",
+    "passengers_2024": 150000
+  },
+  {
+    "airport": "Ouarzazate",
+    "code": "OZZ",
+    "passengers_2024": 120000
+  },
+  {
+    "airport": "Meknes",
+    "code": "MEK",
+    "passengers_2024": 80000
+  }
+]

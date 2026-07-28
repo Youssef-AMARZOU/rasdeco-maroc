@@ -1,0 +1,51 @@
+{
+  "iid": 554,
+  "code": "I3754",
+  "label": "Part des ménages dont le logement est équipé d'un système d'évacuation amélioré (réseau public d'assainissement, fosse septique ou fosse simple)",
+  "metaData": {
+    "unit": "%",
+    "frequency": "AS",
+    "source": "Enquête Emploi (HCP)",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2021",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015"
+  ],
+  "dimensions": null,
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1671089400000,
+  "data": {
+    "2015": {
+      "value": "95.5",
+      "footNote": null
+    },
+    "2016": {
+      "value": "96.5",
+      "footNote": null
+    },
+    "2017": {
+      "value": "96.2",
+      "footNote": null
+    },
+    "2018": {
+      "value": "96.9",
+      "footNote": null
+    },
+    "2019": {
+      "value": "96.8",
+      "footNote": null
+    },
+    "2021": {
+      "value": "96.6",
+      "footNote": null
+    }
+  }
+}

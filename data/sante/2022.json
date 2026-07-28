@@ -1,0 +1,39 @@
+{
+  "year": 2022,
+  "domaine": "Santé",
+  "kpis": [
+    {
+      "label": "Lits d'hôpital",
+      "value": 25.5,
+      "unit": "K"
+    },
+    {
+      "label": "Médecins",
+      "value": 25.5,
+      "unit": "K"
+    },
+    {
+      "label": "Ratio médecins/1000 hab",
+      "value": 7.2,
+      "unit": "‰"
+    },
+    {
+      "label": "Taux de couverture médicale",
+      "value": 58,
+      "unit": "%"
+    },
+    {
+      "label": "Espérance de vie",
+      "value": 76,
+      "unit": "ans"
+    }
+  ],
+  "indicators": {
+    "LITS_HOPITAL": 25.5,
+    "MEDECINS": 25.5,
+    "RATIO_MEDECINS": 7.2,
+    "COUVERTURE_MEDICALE": 58,
+    "ESPERANCE_VIE": 76
+  },
+  "source": "HCP/DGS"
+}

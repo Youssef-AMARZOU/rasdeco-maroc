@@ -1,0 +1,45 @@
+{
+  "year": 2016,
+  "domaine": "Agriculture",
+  "kpis": [
+    {
+      "label": "Production céréalière",
+      "value": 43.5,
+      "unit": "M qx"
+    },
+    {
+      "label": "Valeur ajoutée agricole",
+      "value": 72,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Superficie cultivée",
+      "value": 8.7,
+      "unit": "M ha"
+    },
+    {
+      "label": "Exportations agricoles",
+      "value": 28,
+      "unit": "MM MAD"
+    },
+    {
+      "label": "Rendement céréalier moyen",
+      "value": 10.5,
+      "unit": "qx/ha"
+    },
+    {
+      "label": "Remplissage des barrages",
+      "value": 30,
+      "unit": "%"
+    }
+  ],
+  "indicators": {
+    "PROD_CEREALIERE": 43.5,
+    "VA_AGRICOLE": 72,
+    "SUPERFICIE_CULTIVEE": 8.7,
+    "EXPORT_AGRICOLE": 28,
+    "RENDEMENT_CEREALIER": 10.5,
+    "REMPLISSAGE_BARRAGES": 30
+  },
+  "source": "HCP/MINA"
+}

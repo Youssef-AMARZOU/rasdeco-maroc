@@ -1,0 +1,39 @@
+{
+  "year": 2026,
+  "domaine": "Santé",
+  "kpis": [
+    {
+      "label": "Lits d'hôpital",
+      "value": 28.4,
+      "unit": "K"
+    },
+    {
+      "label": "Médecins",
+      "value": 32.8,
+      "unit": "K"
+    },
+    {
+      "label": "Ratio médecins/1000 hab",
+      "value": 8.8,
+      "unit": "‰"
+    },
+    {
+      "label": "Taux de couverture médicale",
+      "value": 72.4,
+      "unit": "%"
+    },
+    {
+      "label": "Espérance de vie",
+      "value": 77.1,
+      "unit": "ans"
+    }
+  ],
+  "indicators": {
+    "LITS_HOPITAL": 28.4,
+    "MEDECINS": 32.8,
+    "RATIO_MEDECINS": 8.8,
+    "COUVERTURE_MEDICALE": 72.4,
+    "ESPERANCE_VIE": 77.1
+  },
+  "source": "HCP/DGS"
+}

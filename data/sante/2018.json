@@ -1,0 +1,39 @@
+{
+  "year": 2018,
+  "domaine": "Santé",
+  "kpis": [
+    {
+      "label": "Lits d'hôpital",
+      "value": 22.5,
+      "unit": "K"
+    },
+    {
+      "label": "Médecins",
+      "value": 17,
+      "unit": "K"
+    },
+    {
+      "label": "Ratio médecins/1000 hab",
+      "value": 5,
+      "unit": "‰"
+    },
+    {
+      "label": "Taux de couverture médicale",
+      "value": 46,
+      "unit": "%"
+    },
+    {
+      "label": "Espérance de vie",
+      "value": 74.5,
+      "unit": "ans"
+    }
+  ],
+  "indicators": {
+    "LITS_HOPITAL": 22.5,
+    "MEDECINS": 17,
+    "RATIO_MEDECINS": 5,
+    "COUVERTURE_MEDICALE": 46,
+    "ESPERANCE_VIE": 74.5
+  },
+  "source": "HCP/DGS"
+}

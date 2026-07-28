@@ -1,0 +1,211 @@
+{
+  "iid": 584,
+  "code": "I2832",
+  "label": "Couverture vaccinale des enfants âgés de 12 à 23 mois",
+  "metaData": {
+    "unit": "%",
+    "frequency": "IR",
+    "source": "Ministère de la Santé: ENPS 1992, EPPS 1995,Enquête Nationale sur la santé de la mère et de l'enfant 1997, Enquête Nationale sur la santé familiales 2003-04, ENPS 2018 et HCP : ENNVM 1998-99  .",
+    "definitionFr": "ND",
+    "footNotesFr": null,
+    "methodOfCalculationFr": null
+  },
+  "periods": [
+    "2018",
+    "2011",
+    "2004",
+    "1998",
+    "1997",
+    "1995",
+    "1994"
+  ],
+  "dimensions": [
+    {
+      "id": 483,
+      "rank": 1,
+      "label": "Milieu",
+      "modalites": [
+        {
+          "id": 6088,
+          "rank": 1,
+          "label": "Urbain",
+          "total": false
+        },
+        {
+          "id": 6089,
+          "rank": 2,
+          "label": "Rural",
+          "total": false
+        },
+        {
+          "id": 6090,
+          "rank": 3,
+          "label": "National",
+          "total": true
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "rank": 2,
+      "label": "Sexe",
+      "modalites": [
+        {
+          "id": 6091,
+          "rank": 1,
+          "label": "Masculin",
+          "total": false
+        },
+        {
+          "id": 6092,
+          "rank": 2,
+          "label": "Féminin",
+          "total": false
+        },
+        {
+          "id": 6093,
+          "rank": 3,
+          "label": "Total",
+          "total": true
+        }
+      ]
+    }
+  ],
+  "isShutOff": false,
+  "shutOffComment": null,
+  "updatingDate": 1576395000000,
+  "data": {
+    "6088.6093_1994": {
+      "value": "93.7",
+      "footNote": null
+    },
+    "6088.6093_1995": {
+      "value": "96.7",
+      "footNote": null
+    },
+    "6088.6093_1997": {
+      "value": "94.4",
+      "footNote": null
+    },
+    "6088.6093_1998": {
+      "value": "96.4",
+      "footNote": null
+    },
+    "6088.6093_2004": {
+      "value": "93.5",
+      "footNote": null
+    },
+    "6088.6093_2011": {
+      "value": "93.5",
+      "footNote": null
+    },
+    "6088.6093_2018": {
+      "value": "95.2",
+      "footNote": null
+    },
+    "6089.6093_1994": {
+      "value": "66.7",
+      "footNote": null
+    },
+    "6089.6093_1995": {
+      "value": "78.1",
+      "footNote": null
+    },
+    "6089.6093_1997": {
+      "value": "80.9",
+      "footNote": null
+    },
+    "6089.6093_1998": {
+      "value": "85.6",
+      "footNote": null
+    },
+    "6089.6093_2004": {
+      "value": "84.1",
+      "footNote": null
+    },
+    "6089.6093_2011": {
+      "value": "82.6",
+      "footNote": null
+    },
+    "6089.6093_2018": {
+      "value": "86.1",
+      "footNote": null
+    },
+    "6090.6091_1994": {
+      "value": "75.5",
+      "footNote": null
+    },
+    "6090.6091_1995": {
+      "value": "87.5",
+      "footNote": null
+    },
+    "6090.6091_1997": {
+      "value": "87.3",
+      "footNote": null
+    },
+    "6090.6091_1998": {
+      "value": "92.1",
+      "footNote": null
+    },
+    "6090.6091_2004": {
+      "value": "86.8",
+      "footNote": null
+    },
+    "6090.6091_2011": {
+      "value": "88.7",
+      "footNote": null
+    },
+    "6090.6092_1994": {
+      "value": "76",
+      "footNote": null
+    },
+    "6090.6092_1995": {
+      "value": "82.8",
+      "footNote": null
+    },
+    "6090.6092_1997": {
+      "value": "87",
+      "footNote": null
+    },
+    "6090.6092_1998": {
+      "value": "88.8",
+      "footNote": null
+    },
+    "6090.6092_2004": {
+      "value": "91.3",
+      "footNote": null
+    },
+    "6090.6092_2011": {
+      "value": "86.8",
+      "footNote": null
+    },
+    "6090.6093_1994": {
+      "value": "75.7",
+      "footNote": null
+    },
+    "6090.6093_1995": {
+      "value": "85.1",
+      "footNote": null
+    },
+    "6090.6093_1997": {
+      "value": "87.1",
+      "footNote": null
+    },
+    "6090.6093_1998": {
+      "value": "90.5",
+      "footNote": null
+    },
+    "6090.6093_2004": {
+      "value": "89.1",
+      "footNote": null
+    },
+    "6090.6093_2011": {
+      "value": "87.7",
+      "footNote": null
+    },
+    "6090.6093_2018": {
+      "value": "90.6",
+      "footNote": null
+    }
+  }
+}
