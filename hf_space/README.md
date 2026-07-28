@@ -1,6 +1,5 @@
 ---
 title: Economie Maroc - RASD
-emoji: "\U0001F4CA"
 colorFrom: blue
 colorTo: green
 sdk: static
@@ -12,16 +11,16 @@ datasets:
 
 # Dashboard Economie Maroc - RASD
 
-Tableau de bord interactif pour l'exploration des donnees economiques du Maroc.
+Tableau de bord interactif pour l exploration des donnees economiques du Maroc.
 
 ## Sources
 
-- **FMI**: World Economic Outlook (WEO) — Avril 2026
-- **HCP**: Comptes nationaux, Prix, Emploi
-- **BKAM**: Taux de change, Taux directeurs
-- **Finances**: Budget de l'Etat, Dette publique
-- **Datagov.ma**: 389 jeux de donnees open data
-- **OC**: Taux de change officiels
+- FMI: World Economic Outlook (WEO) — Avril 2026
+- HCP: Comptes nationaux, Prix, Emploi
+- BKAM: Taux de change, Taux directeurs
+- Finances: Budget de l Etat, Dette publique
+- Datagov.ma: 389 jeux de donnees open data
+- OC: Taux de change officiels
 
 ## Pages
 
