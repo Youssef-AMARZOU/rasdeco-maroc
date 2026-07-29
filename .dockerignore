@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+release/
+data/raw/
+data/export/
+__pycache__/
+*.pyc
+.env*
+.git/
+.gitignore
+*.md
+*.log
