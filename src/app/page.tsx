@@ -102,6 +102,7 @@ import {
   type RegionDetail,
   type ModuleRecommendation,
 } from '@/lib/rasd-data'
+import { enrichModule } from '@/lib/data-service'
 import {
   UNIVERSITIES,
   DAMS,
@@ -3007,8 +3008,14 @@ export default function DashboardPage() {
   const [kpiStartYear, setKpiStartYear] = useState(2015)
   const [kpiEndYear, setKpiEndYear] = useState(2026)
   const [kpiActiveChart, setKpiActiveChart] = useState('line')
+  const [enrichedModule, setEnrichedModule] = useState<ModuleData | null>(null)
 
-  const activeModule = ALL_MODULES.find((m) => m.name === activeTab)!
+  const staticModule = ALL_MODULES.find((m) => m.name === activeTab)!
+  const activeModule = enrichedModule || staticModule
+
+  useEffect(() => {
+    enrichModule(staticModule).then(setEnrichedModule)
+  }, [activeTab])
   const currentRegions = useMemo(() => getRegionsForYear(endYear), [endYear])
 
   const handleKPIClick = useCallback((kpi: { label: string; unit: string; indicator: IndicatorData }) => {
