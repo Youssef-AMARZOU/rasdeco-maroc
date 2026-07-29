@@ -98,7 +98,7 @@
     "appId": "ma.rasd.maroc",
     "productName": "RASD-Maroc",
     "directories": {
-      "output": "release"
+      "output": "C:\\Users\\youss\\Desktop\\RASD-Maroc-Desktop"
     },
     "files": [
       "electron/**/*",
