@@ -1,4 +1,213 @@
 services:
+  mongodb:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    restart: unless-stopped
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh --quiet
+      interval: 10s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/rasd_maroc
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  ingester:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python scripts/ingest_all.py --watch --interval 60
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/rasd_maroc
+    volumes:
+      - ./data:/app/data
+      - ./economie:/app/economie
+      - ./agriculture:/app/agriculture
+      - ./education:/app/education
+      - ./sante:/app/sante
+      - ./social:/app/social
+      - ./sport:/app/sport
+      - ./scripts:/app/scripts
+      - ./kaggle_dataset:/app/kaggle_dataset
+      - ./upload:/app/upload
+      - ./hf_space:/app/hf_space
+      - ./public:/app/public
+      - ./out:/app/out
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    restart: unless-stopped
+
+  neo4j:
+    image: neo4j:5-community
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/password123
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_import:/var/lib/neo4j/import
+      - neo4j_plugins:/plugins
+    restart: unless-stopped
+    healthcheck:
+      test: cypher-shell -u neo4j -p password123 "RETURN 1"
+      interval: 15s
+      retries: 10
+
+  graph-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python scripts/graph_api.py
+    ports:
+      - "8081:8081"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/rasd_maroc
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASS=password123
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      retries: 5
+
+  airflow-init:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    entrypoint: >
+      bash -c "
+        airflow db init &&
+        airflow users create
+          --username admin
+          --password admin
+          --firstname Admin
+          --lastname User
+          --role Admin
+          --email admin@rasd-maroc.ma
+      "
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__WEBSERVER__RBAC=True
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+      - _AIRFLOW_DB_UPGRADE=true
+      - _AIRFLOW_WWW_USER_CREATE=true
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
+
+  airflow-webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    command: airflow webserver
+    ports:
+      - "8082:8080"
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__WEBSERVER__RBAC=True
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+      - MONGODB_URI=mongodb://mongodb:27017/rasd_maroc
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASS=password123
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+      - ./kaggle_dataset:/opt/airflow/kaggle_dataset
+      - ./public:/opt/airflow/public
+      - ./out:/opt/airflow/out
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+      postgres:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+    restart: unless-stopped
+
+  airflow-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    command: airflow scheduler
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+      - MONGODB_URI=mongodb://mongodb:27017/rasd_maroc
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASS=password123
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+      - ./kaggle_dataset:/opt/airflow/kaggle_dataset
+      - ./public:/opt/airflow/public
+      - ./out:/opt/airflow/out
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+      postgres:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+    restart: unless-stopped
+
   nextjs:
     build:
       context: .
@@ -7,12 +216,306 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=http://localhost:8080
+      - NEXT_PUBLIC_GRAPHQL_URL=http://localhost:8081/graphql
+    depends_on:
+      - api
+      - graph-api
     restart: unless-stopped
 
-  api:
+  postgres-data:
+    image: postgres:15-alpine
+    command: >
+      -c wal_level=logical
+      -c max_replication_slots=10
+      -c max_wal_senders=10
+      -c max_worker_processes=10
+    environment:
+      - POSTGRES_USER=rasd
+      - POSTGRES_PASSWORD=rasd123
+      - POSTGRES_DB=rasd_maroc_data
+    volumes:
+      - postgres_data_data:/var/lib/postgresql/data
+      - ./scripts/debezium/init_schema.sql:/docker-entrypoint-initdb.d/01_init_schema.sql
+    ports:
+      - "5433:5432"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "rasd", "-d", "rasd_maroc_data"]
+      interval: 10s
+      retries: 5
+
+  kafka-connect:
+    image: debezium/connect:2.7
+    ports:
+      - "8085:8083"
+    environment:
+      - BOOTSTRAP_SERVERS=kafka:9092
+      - GROUP_ID=rasd-connect
+      - CONFIG_STORAGE_TOPIC=rasd_connect_configs
+      - OFFSET_STORAGE_TOPIC=rasd_connect_offsets
+      - STATUS_STORAGE_TOPIC=rasd_connect_status
+      - KEY_CONVERTER=org.apache.kafka.connect.json.JsonConverter
+      - VALUE_CONVERTER=org.apache.kafka.connect.json.JsonConverter
+      - CONNECT_KEY_CONVERTER_SCHEMAS_ENABLE=false
+      - CONNECT_VALUE_CONVERTER_SCHEMAS_ENABLE=false
+      - CONNECT_PLUGIN_PATH=/kafka/connect
+      - KAFKA_HEAP_OPTS=-Xms512M -Xmx512M
+      - CONNECT_TASKS_MAX=1
+    depends_on:
+      kafka:
+        condition: service_started
+      postgres-data:
+        condition: service_healthy
+
+  prometheus:
+    image: prom/prometheus:v2.53
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus:/etc/prometheus
+      - prometheus_data:/prometheus
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/prometheus"
+      - "--storage.tsdb.retention.time=30d"
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:11.1
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=rasd123
+      - GF_INSTALL_PLUGINS=grafana-piechart-panel
+    volumes:
+      - ./monitoring/grafana/datasources:/etc/grafana/provisioning/datasources
+      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+  node-exporter:
+    image: prom/node-exporter:v1.8
+    ports:
+      - "9100:9100"
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - "--path.procfs=/host/proc"
+      - "--path.sysfs=/host/sys"
+      - "--path.rootfs=/rootfs"
+    restart: unless-stopped
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.49
+    ports:
+      - "8086:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+    privileged: true
+    restart: unless-stopped
+
+  mongodb-exporter:
+    image: percona/mongodb_exporter:0.41
+    ports:
+      - "9216:9216"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+
+  redis-exporter:
+    image: oliver006/redis_exporter:v1.62
+    ports:
+      - "9121:9121"
+    environment:
+      - REDIS_ADDR=redis://redis:6379
+    depends_on:
+      - redis
+    restart: unless-stopped
+
+  postgres-exporter:
+    image: prometheuscommunity/postgres-exporter:v0.15
+    ports:
+      - "9187:9187"
+    environment:
+      - DATA_SOURCE_NAME=postgresql://rasd:rasd123@postgres-data:5432/rasd_maroc_data?sslmode=disable
+    depends_on:
+      - postgres-data
+    restart: unless-stopped
+
+  kafka-exporter:
+    image: danieldq/kafka-exporter:v1.7
+    ports:
+      - "9308:9308"
+    command:
+      - "--kafka.server=kafka:9092"
+    depends_on:
+      - kafka
+    restart: unless-stopped
+
+  alertmanager:
+    image: prom/alertmanager:v0.27
+    ports:
+      - "9093:9093"
+    volumes:
+      - ./monitoring/alertmanager:/etc/alertmanager
+    command:
+      - "--config.file=/etc/alertmanager/alertmanager.yml"
+      - "--storage.path=/alertmanager"
+    restart: unless-stopped
+
+  cdc-consumer:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "8080:8080"
+    command: python scripts/debezium/cdc_consumer.py
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/rasd_maroc
+      - KAFKA_BROKER=kafka:9092
+    volumes:
+      - ./scripts:/app/scripts
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      kafka:
+        condition: service_started
+      kafka-connect:
+        condition: service_started
     restart: unless-stopped
+
+  streamer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python scripts/streaming/kafka_producer.py
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/rasd_maroc
+      - KAFKA_BROKER=kafka:9092
+      - POLL_INTERVAL=30
+    volumes:
+      - ./scripts:/app/scripts
+      - ./data:/app/data
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      kafka:
+        condition: service_started
+    restart: unless-stopped
+
+  kafka:
+    image: bitnami/kafka:3.7
+    ports:
+      - "9092:9092"
+      - "9094:9094"
+    environment:
+      - KAFKA_CFG_NODE_ID=0
+      - KAFKA_CFG_PROCESS_ROLES=controller,broker
+      - KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093
+      - KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER
+      - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://:9094
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,EXTERNAL:PLAINTEXT
+      - ALLOW_PLAINTEXT_LISTENER=yes
+      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true
+      - KAFKA_CFG_OFFSETS_TOPIC_REPLICATION_FACTOR=1
+      - KAFKA_CFG_TRANSACTION_STATE_LOG_REPLICATION_FACTOR=1
+      - KAFKA_CFG_TRANSACTION_STATE_LOG_MIN_ISR=1
+      - KAFKA_HEAP_OPTS=-Xmx512m -Xms512m
+      - KAFKA_CFG_BACKGROUND_THREADS=4
+      - KAFKA_CFG_NUM_IO_THREADS=2
+      - KAFKA_CFG_NUM_NETWORK_THREADS=2
+    volumes:
+      - kafka_data:/bitnami/kafka
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "kafka-topics.sh", "--bootstrap-server", "localhost:9092", "--list"]
+      interval: 15s
+      retries: 10
+
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    ports:
+      - "8090:8080"
+    environment:
+      - KAFKA_CLUSTERS_0_NAME=rasd-maroc
+      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:9092
+    depends_on:
+      - kafka
+    restart: unless-stopped
+
+  spark-master:
+    image: bitnami/spark:3.5
+    ports:
+      - "7077:7077"
+      - "8083:8080"
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+    volumes:
+      - ./scripts/streaming:/opt/scripts
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080"]
+      interval: 15s
+      retries: 5
+
+  spark-worker:
+    image: bitnami/spark:3.5
+    ports:
+      - "8084:8081"
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=2
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+    depends_on:
+      - spark-master
+    restart: unless-stopped
+
+  cassandra:
+    image: cassandra:4
+    ports:
+      - "9042:9042"
+    environment:
+      - CASSANDRA_CLUSTER_NAME=RASD_Maroc
+      - CASSANDRA_NUM_TOKENS=256
+      - MAX_HEAP_SIZE=512M
+      - HEAP_NEWSIZE=100M
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "cqlsh", "-u", "cassandra", "-p", "cassandra", "-e", "SELECT 1"]
+      interval: 30s
+      retries: 10
+
+volumes:
+  mongodb_data:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_import:
+  neo4j_plugins:
+  postgres_data:
+  postgres_data_data:
+  kafka_data:
+  cassandra_data:
+  prometheus_data:
+  grafana_data:

@@ -1,6 +1,6 @@
 import type { ModuleData, KPIData, IndicatorData, TimeSeriesPoint } from "./rasd-data"
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || ""
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080"
 const USE_API = process.env.NEXT_PUBLIC_USE_API === "true"
 
 interface DataCache {
@@ -11,6 +11,75 @@ interface DataCache {
 let cache: DataCache | null = null
 let cacheTime = 0
 const CACHE_TTL = 60_000
+
+type RealtimeCallback = (data: any) => void
+let realtimeSubscribers: RealtimeCallback[] = []
+let eventSource: EventSource | null = null
+
+function broadcastRealtime(data: any) {
+  for (const cb of realtimeSubscribers) cb(data)
+}
+
+function subscribeSSE(collections: string) {
+  if (eventSource) return
+  if (!USE_API || !API_BASE) return
+
+  try {
+    const es = new EventSource(`${API_BASE}/stream?collections=${collections}`)
+    es.onmessage = (event) => {
+      try {
+        const data = JSON.parse(event.data)
+        if (data.type === "update") broadcastRealtime(data)
+      } catch { /* ignore parse errors */ }
+    }
+    es.onerror = () => {
+      es.close()
+      eventSource = null
+      setTimeout(() => subscribeSSE(collections), 5000)
+    }
+    eventSource = es
+  } catch {
+    eventSource = null
+  }
+}
+
+export function onRealtimeUpdate(cb: RealtimeCallback) {
+  realtimeSubscribers.push(cb)
+  return () => {
+    realtimeSubscribers = realtimeSubscribers.filter((f) => f !== cb)
+  }
+}
+
+async function openDB(): Promise<IDBDatabase> {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open("rasd-maroc-cache", 1)
+    req.onupgradeneeded = () => {
+      const db = req.result
+      if (!db.objectStoreNames.contains("imf")) db.createObjectStore("imf")
+      if (!db.objectStoreNames.contains("timeseries")) db.createObjectStore("timeseries")
+    }
+    req.onsuccess = () => resolve(req.result)
+    req.onerror = () => reject(req.error)
+  })
+}
+
+async function cacheSet(store: string, key: string, value: any) {
+  try {
+    const db = await openDB()
+    db.transaction(store, "readwrite").objectStore(store).put(value, key)
+  } catch { /* silently fail */ }
+}
+
+async function cacheGet(store: string, key: string): Promise<any> {
+  try {
+    const db = await openDB()
+    return new Promise((resolve) => {
+      const req = db.transaction(store, "readonly").objectStore(store).get(key)
+      req.onsuccess = () => resolve(req.result)
+      req.onerror = () => resolve(null)
+    })
+  } catch { return null }
+}
 
 async function loadData(): Promise<DataCache> {
   const now = Date.now()
@@ -28,8 +97,17 @@ async function loadData(): Promise<DataCache> {
       }
       cache = { imf, timeseries: {} }
       cacheTime = now
+      await cacheSet("imf", "latest", imf)
+      subscribeSSE("economie,imf_weo")
       return cache
-    } catch { /* fallback to static */ }
+    } catch {
+      const cached = await cacheGet("imf", "latest")
+      if (cached) {
+        cache = { imf: cached, timeseries: {} }
+        cacheTime = now
+        return cache
+      }
+    }
   }
 
   try {
@@ -40,6 +118,23 @@ async function loadData(): Promise<DataCache> {
     return cache
   } catch {
     return { imf: {}, timeseries: {} }
+  }
+}
+
+// Apply real-time updates into cache
+export function applyRealtimeUpdate(data: any) {
+  if (!data?.events || !cache) return
+  for (const evt of data.events) {
+    for (const doc of evt.docs || []) {
+      if (doc.code && doc.year !== undefined) {
+        if (!cache.timeseries[doc.code]) cache.timeseries[doc.code] = { data: [] }
+        const existing = cache.timeseries[doc.code].data
+        const idx = existing.findIndex((d: any) => d.date === String(doc.year))
+        const point = { date: String(doc.year), valeur: doc.value, unite: "", source_code: doc.source || "" }
+        if (idx >= 0) existing[idx] = point
+        else existing.push(point)
+      }
+    }
   }
 }
 
@@ -72,21 +167,17 @@ function findEconomieMatch(kpi: KPIData, ts: Record<string, any>): any | null {
 
 function matchToKpi(kpi: KPIData, dataPoints: { date?: string; year?: number; valeur: number }[]): Partial<KPIData> {
   if (!dataPoints?.length) return {}
-
   const sorted = [...dataPoints].sort((a, b) => {
     const ay = a.year || parseInt(a.date || "0")
     const by = b.year || parseInt(b.date || "0")
     return by - ay
   })
-
   const latest = sorted[0]
   const prev = sorted.length > 1 ? sorted[1] : null
-
   const value = latest.valeur
   const previousValue = prev?.valeur ?? kpi.previousValue
   const diff = value - previousValue
   const trend: "up" | "down" | "stable" = diff > 0.01 ? "up" : diff < -0.01 ? "down" : "stable"
-
   return { value, previousValue, trend }
 }
 
@@ -117,7 +208,6 @@ const IMF_KEYWORDS: Record<string, string> = {
 function findImfMatch(kpi: KPIData, imf: Record<string, any>): any | null {
   const code = (kpi as any).indicatorCode
   if (code && imf[code]) return imf[code]
-
   const label = kpi.label.toLowerCase()
   for (const [keyword, imfCode] of Object.entries(IMF_KEYWORDS)) {
     if (new RegExp(keyword).test(label) && imf[imfCode]) return imf[imfCode]

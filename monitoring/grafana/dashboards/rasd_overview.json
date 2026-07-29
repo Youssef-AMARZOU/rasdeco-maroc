@@ -1,0 +1,64 @@
+{
+  "title": "RASD-Maroc Overview",
+  "uid": "rasd-overview",
+  "tags": ["rasd-maroc"],
+  "timezone": "browser",
+  "panels": [
+    {
+      "title": "Service Health",
+      "type": "stat",
+      "datasource": "Prometheus",
+      "targets": [{"expr": "count(up == 1)", "legendFormat": "Up"}, {"expr": "count(up == 0)", "legendFormat": "Down"}],
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+    },
+    {
+      "title": "CPU Usage",
+      "type": "gauge",
+      "datasource": "Prometheus",
+      "targets": [{"expr": "100 - (avg by(instance)(rate(node_cpu_seconds_total{mode=\"idle\"}[5m])) * 100)", "legendFormat": "CPU"}],
+      "gridPos": {"h": 8, "w": 6, "x": 12, "y": 0}
+    },
+    {
+      "title": "Memory Usage",
+      "type": "gauge",
+      "datasource": "Prometheus",
+      "targets": [{"expr": "100 * (1 - node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)", "legendFormat": "Memory"}],
+      "gridPos": {"h": 8, "w": 6, "x": 18, "y": 0}
+    },
+    {
+      "title": "API Requests/s",
+      "type": "graph",
+      "datasource": "Prometheus",
+      "targets": [{"expr": "rate(http_requests_total[5m])", "legendFormat": "{{job}}"}],
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8}
+    },
+    {
+      "title": "API Error Rate",
+      "type": "graph",
+      "datasource": "Prometheus",
+      "targets": [{"expr": "rate(http_requests_total{status=~\"5..\"}[5m]) / rate(http_requests_total[5m])", "legendFormat": "{{job}}"}],
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8}
+    },
+    {
+      "title": "Kafka Consumer Lag",
+      "type": "graph",
+      "datasource": "Prometheus",
+      "targets": [{"expr": "kafka_consumergroup_lag", "legendFormat": "{{consumergroup}}"}],
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 16}
+    },
+    {
+      "title": "MongoDB Connections",
+      "type": "graph",
+      "datasource": "Prometheus",
+      "targets": [{"expr": "mongodb_connections_current", "legendFormat": "current"}],
+      "gridPos": {"h": 8, "w": 6, "x": 12, "y": 16}
+    },
+    {
+      "title": "Redis Memory",
+      "type": "graph",
+      "datasource": "Prometheus",
+      "targets": [{"expr": "redis_memory_used_bytes / redis_memory_max_bytes", "legendFormat": "used"}],
+      "gridPos": {"h": 8, "w": 6, "x": 18, "y": 16}
+    }
+  ]
+}

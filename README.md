@@ -8,13 +8,15 @@ Collecte, transformation, prevision et visualisation de donnees economiques maro
 
 | Plateforme | Lien | Usage |
 |---|---|---|
-| GitHub | https://github.com/Youssef-AMARZOU/rasdeco-maroc | Code source, Releases, Packages |
-| GitLab | https://gitlab.com/Youssef-AMARZOU/radar-maroc | Miroir CI/CD |
-| Hugging Face Space | https://ysfmo98-economie-maroc-rasd.static.hf.space | Dashboard Next.js interactif |
-| Hugging Face Dataset | https://huggingface.co/datasets/YsfMO98/economie-maroc-rasd | Donnees economiques + FMI WEO |
-| Kaggle Dataset | https://www.kaggle.com/datasets/amarzouyoussef/economie-maroc-rasd | Datasets + Notebook R |
+| GitHub | [rasdeco-maroc](https://github.com/Youssef-AMARZOU/rasdeco-maroc) | Code source, Releases, Packages |
+| GitLab | [radar-maroc](https://gitlab.com/Youssef-AMARZOU/radar-maroc) | Miroir CI/CD |
+| Hugging Face Space | [Dashboard](https://ysfmo98-economie-maroc-rasd.static.hf.space) | Dashboard Next.js interactif |
+| Hugging Face Dataset | [Dataset](https://huggingface.co/datasets/YsfMO98/economie-maroc-rasd) | Donnees economiques + FMI WEO |
+| Kaggle Dataset | [Dataset](https://www.kaggle.com/datasets/amarzouyoussef/economie-maroc-rasd) | Datasets + Notebook R |
 
 ---
+
+## Datasets disponibles
 
 ## Datasets disponibles
 
@@ -63,7 +65,7 @@ Formats disponibles : CSV, Parquet, JSON, SQLite, Excel (.xlsx)
 
 Tableau de bord interactif sur Hugging Face Spaces :
 
-**https://ysfmo98-economie-maroc-rasd.static.hf.space**
+[https://ysfmo98-economie-maroc-rasd.static.hf.space](https://ysfmo98-economie-maroc-rasd.static.hf.space)
 
 Pages :
 - `/` — Accueil : KPIs macroeconomiques, carte interactive, graphiques d'evolution
@@ -167,7 +169,4 @@ rasdeco-maroc/
 
 **Youssef Amarzou** — RASD-Maroc Project
 
-LinkedIn : https://www.linkedin.com/in/youssef-amarzou-8b18413a7/
-GitHub : https://github.com/Youssef-AMARZOU
-GitLab : https://gitlab.com/Youssef-AMARZOU
-Kaggle : https://www.kaggle.com/amarzouyoussef
+[LinkedIn](https://www.linkedin.com/in/youssef-amarzou-8b18413a7/) | [GitHub](https://github.com/Youssef-AMARZOU) | [GitLab](https://gitlab.com/Youssef-AMARZOU) | [Kaggle](https://www.kaggle.com/amarzouyoussef)
