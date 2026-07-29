@@ -1,11 +1,4 @@
-/**
- * Data service for RASD-Maroc dashboard.
- * Fetches real data from API or data.json and merges it into ModuleData.
- *
- * The KPI values and time series are replaced with real dataset values
- * while preserving the module structure (labels, descriptions, etc.).
- */
-import type { ModuleData, KPIData, IndicatorData, TimeSeriesPoint, RegionalValue } from "./rasd-data"
+import type { ModuleData, KPIData, IndicatorData, TimeSeriesPoint } from "./rasd-data"
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || ""
 const USE_API = process.env.NEXT_PUBLIC_USE_API === "true"
@@ -13,12 +6,11 @@ const USE_API = process.env.NEXT_PUBLIC_USE_API === "true"
 interface DataCache {
   imf: Record<string, { indicator: string; unit: string; data: { year: number; value: number }[] }>
   timeseries: Record<string, { data: { date: string; valeur: number; unite: string; source_code: string }[] }>
-  sources: Record<string, { rows: number; data: any[] }>
 }
 
 let cache: DataCache | null = null
 let cacheTime = 0
-const CACHE_TTL = 60_000 // 1 minute
+const CACHE_TTL = 60_000
 
 async function loadData(): Promise<DataCache> {
   const now = Date.now()
@@ -26,12 +18,7 @@ async function loadData(): Promise<DataCache> {
 
   if (USE_API && API_BASE) {
     try {
-      const [imfResp, tsResp, srcResp] = await Promise.all([
-        fetch(`${API_BASE}/imf`).then((r) => r.json()),
-        fetch(`${API_BASE}/indicators`).then((r) => r.json()),
-        fetch(`${API_BASE}/sources`).then((r) => r.json()),
-      ])
-      // Fetch each IMF indicator
+      const imfResp = await fetch(`${API_BASE}/imf`).then((r) => r.json())
       const imf: Record<string, any> = {}
       if (Array.isArray(imfResp)) {
         for (const ind of imfResp) {
@@ -39,15 +26,12 @@ async function loadData(): Promise<DataCache> {
           imf[ind.code] = detail
         }
       }
-      cache = { imf, timeseries: {}, sources: {} }
+      cache = { imf, timeseries: {} }
       cacheTime = now
       return cache
-    } catch {
-      // fallback to static
-    }
+    } catch { /* fallback to static */ }
   }
 
-  // Static fallback: read data.json
   try {
     const resp = await fetch("/data.json")
     const json = await resp.json()
@@ -55,80 +39,142 @@ async function loadData(): Promise<DataCache> {
     cacheTime = now
     return cache
   } catch {
-    return { imf: {}, timeseries: {}, sources: {} }
+    return { imf: {}, timeseries: {} }
   }
+}
+
+const ECONOMIE_TO_CODE: Record<string, string> = {
+  "exportation": "EXPORTATIONS",
+  "importation": "IMPORTATIONS",
+  "ide": "IDE.FLUX",
+  "balance commerciale": "BALANCE.COMMERCIALE",
+  "chomage": "CHOMAGE.TAUX",
+  "pib.*croissance": "PIB.CROISSANCE",
+  "emploi": "EMPLOI.VOLUME",
+  "inflation": "IPC.GLISSEMENT",
+  "investissement public": "INVESTISSEMENT.PUBLIC",
+  "dette publique.*pib": "DETTE.PUBLIQUE.PCT_PIB",
+  "dette publique": "DETTE.PUBLIQUE",
+  "deficit budgetaire": "DEFICIT.BUDGET",
+  "recettes fiscales": "RECETTES.FISCALES",
+  "depenses totales": "DEPENSES.TOTAL",
+  "reserves de change": "RESERVES.CHANGE",
+  "taux de change": "CHANGE.USD",
+}
+
+function findEconomieMatch(kpi: KPIData, ts: Record<string, any>): any | null {
+  const label = kpi.label.toLowerCase()
+  for (const [keyword, code] of Object.entries(ECONOMIE_TO_CODE)) {
+    if (new RegExp(keyword).test(label) && ts[code]) return { data: ts[code].data, code }
+  }
+  return null
+}
+
+function matchToKpi(kpi: KPIData, dataPoints: { date?: string; year?: number; valeur: number }[]): Partial<KPIData> {
+  if (!dataPoints?.length) return {}
+
+  const sorted = [...dataPoints].sort((a, b) => {
+    const ay = a.year || parseInt(a.date || "0")
+    const by = b.year || parseInt(b.date || "0")
+    return by - ay
+  })
+
+  const latest = sorted[0]
+  const prev = sorted.length > 1 ? sorted[1] : null
+
+  const value = latest.valeur
+  const previousValue = prev?.valeur ?? kpi.previousValue
+  const diff = value - previousValue
+  const trend: "up" | "down" | "stable" = diff > 0.01 ? "up" : diff < -0.01 ? "down" : "stable"
+
+  return { value, previousValue, trend }
+}
+
+function matchToTimeSeries(dataPoints: { date?: string; year?: number; valeur: number }[]): TimeSeriesPoint[] {
+  if (!dataPoints?.length) return []
+  return dataPoints.map((d) => ({
+    year: d.year || parseInt(d.date || "0"),
+    value: d.valeur,
+  }))
+}
+
+const IMF_KEYWORDS: Record<string, string> = {
+  "pib": "NGDP_RPCH",
+  "inflation": "PCPIEPCH",
+  "chomage": "LUR",
+  "dette": "GGXWDG",
+  "deficit": "GGXCNL",
+  "investissement": "NID_NGDP",
+  "exportation": "TX_RPCH",
+  "importation": "TM_RPCH",
+  "population": "LP",
+  "balance courante": "BCA_NGDPD",
+  "recette publique": "GGR",
+  "depense publique": "GGX",
+  "pib.*habitant": "NGDPDPC",
 }
 
 function findImfMatch(kpi: KPIData, imf: Record<string, any>): any | null {
   const code = (kpi as any).indicatorCode
   if (code && imf[code]) return imf[code]
 
-  // Fuzzy match by label keywords
   const label = kpi.label.toLowerCase()
-  for (const [key, val] of Object.entries(imf)) {
-    const indName = (val as any).indicator?.toLowerCase() || ""
-    if (label.includes("pib") && key === "NGDP_RPCH") return val
-    if (label.includes("inflation") && key === "PCPIEPCH") return val
-    if (label.includes("chomage") && key === "LUR") return val
-    if (label.includes("dette") && key === "GGXWDG") return val
-    if (label.includes("deficit") && key === "GGXCNL") return val
-    if (label.includes("investissement") && key === "NID_NGDP") return val
-    if (label.includes("exportation") && key === "TX_RPCH") return val
-    if (label.includes("importation") && key === "TM_RPCH") return val
-    if (label.includes("population") && key === "LP") return val
-    if (label.includes("balance") && key === "BCA") return val
-    if (label.includes("recette") && key === "GGR") return val
-    if (label.includes("depense") && key === "GGX") return val
-    if (label.includes("pib.*habitant") && key === "NGDPDPC") return val
+  for (const [keyword, imfCode] of Object.entries(IMF_KEYWORDS)) {
+    if (new RegExp(keyword).test(label) && imf[imfCode]) return imf[imfCode]
   }
   return null
 }
 
-function kpiFromImf(kpi: KPIData, imfData: any): Partial<KPIData> {
+function kpiFromImf(imfData: any): Partial<KPIData> {
   if (!imfData?.data?.length) return {}
-
   const points = imfData.data as { year: number; value: number }[]
   const latest = points[points.length - 1]
   const prev = points.length > 1 ? points[points.length - 2] : null
-
   const value = latest.value
-  const previousValue = prev?.value ?? kpi.previousValue
+  const previousValue = prev?.value ?? 0
   const diff = value - previousValue
   const trend: "up" | "down" | "stable" = diff > 0.01 ? "up" : diff < -0.01 ? "down" : "stable"
-  const unit = imfData.unit || kpi.unit
-
-  return { value, previousValue, trend, unit }
+  return { value, previousValue, trend }
 }
 
-function timeseriesFromImf(imfData: any): TimeSeriesPoint[] {
+function imfToTimeSeries(imfData: any): TimeSeriesPoint[] {
   if (!imfData?.data?.length) return []
-  return imfData.data.map((d: { year: number; value: number }) => ({
-    year: d.year,
-    value: d.value,
-  }))
+  return imfData.data.map((d: { year: number; value: number }) => ({ year: d.year, value: d.value }))
 }
 
-/**
- * Enrich a ModuleData with real dataset values.
- * Returns a new ModuleData object with updated KPIs and indicators.
- */
 export async function enrichModule(module: ModuleData): Promise<ModuleData> {
   const data = await loadData()
-  if (!data.imf || Object.keys(data.imf).length === 0) return module
+  const hasImf = data.imf && Object.keys(data.imf).length > 0
+  const hasTs = data.timeseries && Object.keys(data.timeseries).length > 0
+
+  if (!hasImf && !hasTs) return module
 
   const newKpis = module.kpis.map((kpi) => {
-    const match = findImfMatch(kpi, data.imf)
-    if (match) {
-      const updates = kpiFromImf(kpi, match)
-      return { ...kpi, ...updates }
+    if (hasImf) {
+      const match = findImfMatch(kpi, data.imf)
+      if (match) return { ...kpi, ...kpiFromImf(match) }
+    }
+    if (hasTs) {
+      const match = findEconomieMatch(kpi, data.timeseries)
+      if (match) return { ...kpi, ...matchToKpi(kpi, match.data) }
     }
     return kpi
   })
 
   const newIndicators = module.indicators.map((ind) => {
-    const match = data.imf[ind.code]
-    if (match?.data?.length) {
-      return { ...ind, national: timeseriesFromImf(match) }
+    if (hasImf && data.imf[ind.code]?.data?.length) {
+      return { ...ind, national: imfToTimeSeries(data.imf[ind.code]) }
+    }
+    if (hasTs) {
+      const match = data.timeseries[ind.code]
+      if (match?.data?.length) {
+        return { ...ind, national: matchToTimeSeries(match.data) }
+      }
+      for (const [keyword, code] of Object.entries(ECONOMIE_TO_CODE)) {
+        if (new RegExp(keyword).test(ind.code.toLowerCase()) && data.timeseries[code]?.data?.length) {
+          return { ...ind, national: matchToTimeSeries(data.timeseries[code].data) }
+        }
+      }
     }
     return ind
   })
