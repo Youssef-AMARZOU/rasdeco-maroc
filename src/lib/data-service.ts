@@ -81,10 +81,30 @@ async function cacheGet(store: string, key: string): Promise<any> {
   } catch { return null }
 }
 
+// Convert underscore indicator codes to dot format (MongoDB convention)
+// e.g. "PIB_CROISSANCE" -> "PIB.CROISSANCE"
+function toDotCode(code: string): string {
+  return code.replace(/_/g, ".")
+}
+
 async function loadData(): Promise<DataCache> {
   const now = Date.now()
   if (cache && now - cacheTime < CACHE_TTL) return cache
 
+  // Primary: load /data.json (complete export, always available)
+  try {
+    const resp = await fetch("/data.json")
+    const json = await resp.json()
+    cache = json as DataCache
+    cacheTime = now
+    // Subscribe to SSE for real-time updates on top of baseline
+    if (USE_API && API_BASE) subscribeSSE("economie,imf_weo")
+    return cache
+  } catch {
+    // ignore, try next source
+  }
+
+  // Fallback: try API directly
   if (USE_API && API_BASE) {
     try {
       const imfResp = await fetch(`${API_BASE}/imf`).then((r) => r.json())
@@ -110,18 +130,9 @@ async function loadData(): Promise<DataCache> {
     }
   }
 
-  try {
-    const resp = await fetch("/data.json")
-    const json = await resp.json()
-    cache = json as DataCache
-    cacheTime = now
-    return cache
-  } catch {
-    return { imf: {}, timeseries: {} }
-  }
+  return { imf: {}, timeseries: {} }
 }
 
-// Apply real-time updates into cache
 export function applyRealtimeUpdate(data: any) {
   if (!data?.events || !cache) return
   for (const evt of data.events) {
@@ -138,6 +149,8 @@ export function applyRealtimeUpdate(data: any) {
   }
 }
 
+// ── Indicator code mapping ──────────────────────────────────────────
+// Maps label keywords to economie timeseries codes (MongoDB format)
 const ECONOMIE_TO_CODE: Record<string, string> = {
   "exportation": "EXPORTATIONS",
   "importation": "IMPORTATIONS",
@@ -157,10 +170,85 @@ const ECONOMIE_TO_CODE: Record<string, string> = {
   "taux de change": "CHANGE.USD",
 }
 
-function findEconomieMatch(kpi: KPIData, ts: Record<string, any>): any | null {
+// Maps indicatorCode (rasd-data.ts convention, underscores) to
+// MongoDB timeseries codes (dots). Used for direct code match.
+const CODE_TO_ECONOMIE: Record<string, string> = {
+  "PIB_CROISSANCE": "PIB.CROISSANCE",
+  "IPC_GLISSEMENT": "IPC.GLISSEMENT",
+  "CHOMAGE": "CHOMAGE.TAUX",
+  "DETTE_PUBLIQUE": "DETTE.PUBLIQUE",
+  "RESERVES_CHANGE": "RESERVES.CHANGE",
+  "IDE_FLUX": "IDE.FLUX",
+  "DEFICIT_BUDGET": "DEFICIT.BUDGET",
+  "EXPORTATIONS": "EXPORTATIONS",
+  "IMPORTATIONS": "IMPORTATIONS",
+  "BALANCE_COURANTE": "BALANCE.COMMERCIALE",
+  "EMPLOI": "EMPLOI.VOLUME",
+  "INVESTISSEMENT_PUBLIC": "INVESTISSEMENT.PUBLIC",
+}
+
+// Maps indicatorCode to IMF WEO codes
+const CODE_TO_IMF: Record<string, string> = {
+  "PIB_CROISSANCE": "NGDP_RPCH",
+  "IPC_GLISSEMENT": "PCPIEPCH",
+  "CHOMAGE": "LUR",
+  "DETTE_PUBLIQUE": "GGXWDG",
+  "PIB_PAR_HAB": "NGDPDPC",
+  "POPULATION": "LP",
+  "BALANCE_COURANTE": "BCA_NGDPD",
+  "DEFICIT_BUDGET": "GGXCNL",
+}
+
+// Maps label keywords to IMF codes (fallback)
+const IMF_KEYWORDS: Record<string, string> = {
+  "pib": "NGDP_RPCH",
+  "inflation": "PCPIEPCH",
+  "chomage": "LUR",
+  "dette": "GGXWDG",
+  "deficit": "GGXCNL",
+  "investissement": "NID_NGDP",
+  "exportation": "TX_RPCH",
+  "importation": "TM_RPCH",
+  "population": "LP",
+  "balance courante": "BCA_NGDPD",
+  "recette publique": "GGR",
+  "depense publique": "GGX",
+  "pib.*habitant": "NGDPDPC",
+}
+
+function findEconomieByCode(indicatorCode: string | undefined, ts: Record<string, any>): any | null {
+  if (!indicatorCode) return null
+  // Try direct conversion: underscores -> dots
+  const dotCode = toDotCode(indicatorCode)
+  if (ts[dotCode]?.data?.length) return { data: ts[dotCode].data, code: dotCode }
+  // Try explicit mapping
+  const mapped = CODE_TO_ECONOMIE[indicatorCode]
+  if (mapped && ts[mapped]?.data?.length) return { data: ts[mapped].data, code: mapped }
+  return null
+}
+
+function findImfByCode(indicatorCode: string | undefined, imf: Record<string, any>): any | null {
+  if (!indicatorCode) return null
+  // Try direct lookup (indicatorCode matches IMF code)
+  if (imf[indicatorCode]?.data?.length) return imf[indicatorCode]
+  // Try explicit mapping
+  const mapped = CODE_TO_IMF[indicatorCode]
+  if (mapped && imf[mapped]?.data?.length) return imf[mapped]
+  return null
+}
+
+function findEconomieByLabel(kpi: KPIData, ts: Record<string, any>): any | null {
   const label = kpi.label.toLowerCase()
   for (const [keyword, code] of Object.entries(ECONOMIE_TO_CODE)) {
     if (new RegExp(keyword).test(label) && ts[code]) return { data: ts[code].data, code }
+  }
+  return null
+}
+
+function findImfByLabel(kpi: KPIData, imf: Record<string, any>): any | null {
+  const label = kpi.label.toLowerCase()
+  for (const [keyword, imfCode] of Object.entries(IMF_KEYWORDS)) {
+    if (new RegExp(keyword).test(label) && imf[imfCode]) return imf[imfCode]
   }
   return null
 }
@@ -189,32 +277,6 @@ function matchToTimeSeries(dataPoints: { date?: string; year?: number; valeur: n
   }))
 }
 
-const IMF_KEYWORDS: Record<string, string> = {
-  "pib": "NGDP_RPCH",
-  "inflation": "PCPIEPCH",
-  "chomage": "LUR",
-  "dette": "GGXWDG",
-  "deficit": "GGXCNL",
-  "investissement": "NID_NGDP",
-  "exportation": "TX_RPCH",
-  "importation": "TM_RPCH",
-  "population": "LP",
-  "balance courante": "BCA_NGDPD",
-  "recette publique": "GGR",
-  "depense publique": "GGX",
-  "pib.*habitant": "NGDPDPC",
-}
-
-function findImfMatch(kpi: KPIData, imf: Record<string, any>): any | null {
-  const code = (kpi as any).indicatorCode
-  if (code && imf[code]) return imf[code]
-  const label = kpi.label.toLowerCase()
-  for (const [keyword, imfCode] of Object.entries(IMF_KEYWORDS)) {
-    if (new RegExp(keyword).test(label) && imf[imfCode]) return imf[imfCode]
-  }
-  return null
-}
-
 function kpiFromImf(imfData: any): Partial<KPIData> {
   if (!imfData?.data?.length) return {}
   const points = imfData.data as { year: number; value: number }[]
@@ -239,27 +301,54 @@ export async function enrichModule(module: ModuleData): Promise<ModuleData> {
 
   if (!hasImf && !hasTs) return module
 
+  const indicatorCode = (kpi: KPIData) => (kpi as any).indicatorCode as string | undefined
+
   const newKpis = module.kpis.map((kpi) => {
+    // Priority 1: Match by indicatorCode to IMF
     if (hasImf) {
-      const match = findImfMatch(kpi, data.imf)
-      if (match) return { ...kpi, ...kpiFromImf(match) }
+      const byCode = findImfByCode(indicatorCode(kpi), data.imf)
+      if (byCode) return { ...kpi, ...kpiFromImf(byCode) }
+    }
+    // Priority 2: Match by indicatorCode to economie timeseries
+    if (hasTs) {
+      const byCode = findEconomieByCode(indicatorCode(kpi), data.timeseries)
+      if (byCode) return { ...kpi, ...matchToKpi(kpi, byCode.data) }
+    }
+    // Priority 3: Fallback to label regex
+    if (hasImf) {
+      const byLabel = findImfByLabel(kpi, data.imf)
+      if (byLabel) return { ...kpi, ...kpiFromImf(byLabel) }
     }
     if (hasTs) {
-      const match = findEconomieMatch(kpi, data.timeseries)
-      if (match) return { ...kpi, ...matchToKpi(kpi, match.data) }
+      const byLabel = findEconomieByLabel(kpi, data.timeseries)
+      if (byLabel) return { ...kpi, ...matchToKpi(kpi, byLabel.data) }
     }
+    // No match found: keep original (static) value
     return kpi
   })
 
   const newIndicators = module.indicators.map((ind) => {
-    if (hasImf && data.imf[ind.code]?.data?.length) {
-      return { ...ind, national: imfToTimeSeries(data.imf[ind.code]) }
-    }
+    // Priority 1: Try direct timeseries code match (with dot conversion)
     if (hasTs) {
-      const match = data.timeseries[ind.code]
+      const dotCode = toDotCode(ind.code)
+      const match = data.timeseries[dotCode]
       if (match?.data?.length) {
         return { ...ind, national: matchToTimeSeries(match.data) }
       }
+    }
+    // Priority 2: Try direct IMF code
+    if (hasImf && data.imf[ind.code]?.data?.length) {
+      return { ...ind, national: imfToTimeSeries(data.imf[ind.code]) }
+    }
+    // Priority 3: Try explicit mapping for economie
+    if (hasTs) {
+      const mapped = CODE_TO_ECONOMIE[ind.code]
+      if (mapped && data.timeseries[mapped]?.data?.length) {
+        return { ...ind, national: matchToTimeSeries(data.timeseries[mapped].data) }
+      }
+    }
+    // Priority 4: Try label regex fallback
+    if (hasTs) {
       for (const [keyword, code] of Object.entries(ECONOMIE_TO_CODE)) {
         if (new RegExp(keyword).test(ind.code.toLowerCase()) && data.timeseries[code]?.data?.length) {
           return { ...ind, national: matchToTimeSeries(data.timeseries[code].data) }
