@@ -2998,7 +2998,7 @@ export default function DashboardPage() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light')
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null)
   const [startYear, setStartYear] = useState(2015)
-  const [endYear, setEndYear] = useState(2026)
+  const [endYear, setEndYear] = useState(2025)
   const [mapIndicatorIndex, setMapIndicatorIndex] = useState(() => {
     const firstRegional = ALL_MODULES.find((m) => m.name === 'Économie')?.indicators.findIndex((ind) => !ind.isNationalOnly && ind.regional.length > 0)
     return firstRegional !== undefined && firstRegional >= 0 ? firstRegional : 0
@@ -3006,7 +3006,7 @@ export default function DashboardPage() {
   const [selectedKPI, setSelectedKPI] = useState<{ indicator: IndicatorData; label: string; unit: string } | null>(null)
   const [activeDetailIndicator, setActiveDetailIndicator] = useState<IndicatorData | null>(null)
   const [kpiStartYear, setKpiStartYear] = useState(2015)
-  const [kpiEndYear, setKpiEndYear] = useState(2026)
+  const [kpiEndYear, setKpiEndYear] = useState(2025)
   const [kpiActiveChart, setKpiActiveChart] = useState('line')
   const [enrichedModule, setEnrichedModule] = useState<ModuleData | null>(null)
 
