@@ -73,3 +73,30 @@ groups:
         annotations:
           summary: "Redis memory high"
           description: "Memory usage >80% of max"
+
+      - alert: DeadLetterQueueNotEmpty
+        expr: rate(kafka_topic_partition_current_offset{topic="rasd-dlq"}[5m]) > 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Messages rejetes dans la DLQ"
+          description: "Le topic rasd-dlq a recu de nouveaux messages. Pipeline CDC partiellement bloque."
+
+      - alert: KafkaConnectDown
+        expr: up{job="kafka-connect"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Kafka Connect est down"
+          description: "Le connecteur Debezium ne repond plus. Le CDC est arrete."
+
+      - alert: SchemaRegistryDown
+        expr: up{job="schema-registry"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Schema Registry est down"
+          description: "Les schemas Avro ne sont plus accessibles. Les consommateurs vont echouer."

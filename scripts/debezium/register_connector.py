@@ -1,5 +1,6 @@
 """
 Enregistre le connecteur Debezium PostgreSQL aupres de Kafka Connect.
+Configure en Avro avec Schema Registry + Dead Letter Queue.
 Usage: python scripts/debezium/register_connector.py
 """
 import json
@@ -12,6 +13,7 @@ import requests
 logger = logging.getLogger(__name__)
 
 CONNECT_URL = os.getenv("KAFKA_CONNECT_URL", "http://localhost:8083")
+SR_URL = os.getenv("SCHEMA_REGISTRY_URL", "http://schema-registry:8081")
 
 CONNECTOR_CONFIG = {
     "name": "rasd-postgres-connector",
@@ -30,15 +32,41 @@ CONNECTOR_CONFIG = {
         "slot.name": "rasd_slot",
         "slot.drop.on.stop": "false",
         "tombstones.on.delete": "false",
-        "key.converter": "org.apache.kafka.connect.json.JsonConverter",
-        "value.converter": "org.apache.kafka.connect.json.JsonConverter",
-        "key.converter.schemas.enable": "false",
-        "value.converter.schemas.enable": "false",
         "snapshot.mode": "initial",
         "heartbeat.interval.ms": "5000",
         "provide.transaction.metadata": "true",
+        # Avro + Schema Registry
+        "key.converter": "io.confluent.connect.avro.AvroConverter",
+        "value.converter": "io.confluent.connect.avro.AvroConverter",
+        "key.converter.schema.registry.url": SR_URL,
+        "value.converter.schema.registry.url": SR_URL,
+        "key.converter.schemas.enable": "true",
+        "value.converter.schemas.enable": "true",
+        # Dead Letter Queue
+        "errors.tolerance": "all",
+        "errors.deadletterqueue.topic.name": "rasd-dlq",
+        "errors.deadletterqueue.context.headers.enable": "true",
+        "errors.retry.timeout.ms": "30000",
+        "errors.retry.delay.max.ms": "1000",
+        # Schema evolution
+        "schema.whitelist": "rasd_maroc_data.public.indicators",
+        "column.include.list": "public.indicators.id,public.indicators.code,public.indicators.label,public.indicators.value,public.indicators.year,public.indicators.source,public.indicators.source_detail,public.indicators.qualite,public.indicators.ingested_at",
     },
 }
+
+
+def wait_for_schema_registry(retries=20, delay=5):
+    for i in range(1, retries + 1):
+        try:
+            r = requests.get(f"{SR_URL}/subjects", timeout=5)
+            if r.status_code == 200:
+                logger.info(f"Schema Registry ready (attempt {i})")
+                return True
+        except requests.ConnectionError:
+            pass
+        logger.info(f"Waiting for Schema Registry... ({i}/{retries})")
+        time.sleep(delay)
+    raise RuntimeError("Schema Registry not ready after all retries")
 
 
 def wait_for_connect(retries=30, delay=5):
@@ -56,7 +84,6 @@ def wait_for_connect(retries=30, delay=5):
 
 
 def register():
-    # Supprimer si existe deja
     r = requests.get(f"{CONNECT_URL}/connectors/rasd-postgres-connector", timeout=5)
     if r.status_code == 200:
         logger.info("Connector exists, deleting...")
@@ -76,7 +103,6 @@ def register():
         logger.error(f"Failed: {r.status_code} {r.text}")
         raise RuntimeError(f"Connector registration failed: {r.text}")
 
-    # Verifier statut
     time.sleep(3)
     r = requests.get(
         f"{CONNECT_URL}/connectors/rasd-postgres-connector/status", timeout=5
@@ -85,6 +111,10 @@ def register():
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+    )
+    wait_for_schema_registry()
     wait_for_connect()
     register()

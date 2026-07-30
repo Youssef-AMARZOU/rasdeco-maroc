@@ -2,7 +2,7 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir fastapi uvicorn pandas pymongo redis pyarrow fastparquet openpyxl kafka-python cassandra-driver requests strawberry-graphql neo4j
+RUN pip install --no-cache-dir fastapi uvicorn pandas pymongo redis pyarrow fastparquet openpyxl kafka-python confluent-kafka cassandra-driver requests strawberry-graphql neo4j
 
 COPY . .
 

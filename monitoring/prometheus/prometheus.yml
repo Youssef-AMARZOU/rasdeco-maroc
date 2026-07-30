@@ -46,6 +46,14 @@ scrape_configs:
     static_configs:
       - targets: ["kafka-exporter:9308"]
 
+  - job_name: kafka-connect
+    static_configs:
+      - targets: ["kafka-connect:8083"]
+
+  - job_name: schema-registry
+    static_configs:
+      - targets: ["schema-registry:8081"]
+
   - job_name: neo4j
     static_configs:
       - targets: ["neo4j-exporter:7474"]

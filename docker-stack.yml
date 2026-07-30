@@ -260,6 +260,24 @@ services:
       - kafka-connect
     logging: *default-logging
 
+  schema-registry:
+    image: confluentinc/cp-schema-registry:7.6
+    ports:
+      - target: 8081
+        published: 8087
+    environment:
+      - SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS=kafka:9092
+      - SCHEMA_REGISTRY_HOST_NAME=schema-registry
+      - SCHEMA_REGISTRY_LISTENERS=http://0.0.0.0:8081
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          memory: 256M
+    depends_on:
+      - kafka
+    logging: *default-logging
+
   kafka-connect:
     image: debezium/connect:2.7
     environment:
@@ -268,12 +286,16 @@ services:
       - CONFIG_STORAGE_TOPIC=rasd_connect_configs
       - OFFSET_STORAGE_TOPIC=rasd_connect_offsets
       - STATUS_STORAGE_TOPIC=rasd_connect_status
-      - KEY_CONVERTER=org.apache.kafka.connect.json.JsonConverter
-      - VALUE_CONVERTER=org.apache.kafka.connect.json.JsonConverter
-      - CONNECT_KEY_CONVERTER_SCHEMAS_ENABLE=false
-      - CONNECT_VALUE_CONVERTER_SCHEMAS_ENABLE=false
+      - KEY_CONVERTER=io.confluent.connect.avro.AvroConverter
+      - VALUE_CONVERTER=io.confluent.connect.avro.AvroConverter
+      - KEY_CONVERTER_SCHEMA_REGISTRY_URL=http://schema-registry:8081
+      - VALUE_CONVERTER_SCHEMA_REGISTRY_URL=http://schema-registry:8081
+      - CONNECT_PLUGIN_PATH=/kafka/connect,/usr/share/java
       - KAFKA_HEAP_OPTS=-Xms512M -Xmx512M
       - CONNECT_TASKS_MAX=1
+      - CONNECT_ERROR_TOLERANCE=all
+      - CONNECT_ERRORS_DEADLETTERQUEUE_TOPIC_NAME=rasd-dlq
+      - CONNECT_ERRORS_DEADLETTERQUEUE_CONTEXT_HEADERS_ENABLE=true
     deploy:
       replicas: 1
       resources:
@@ -281,6 +303,7 @@ services:
           memory: 1G
     depends_on:
       - kafka
+      - schema-registry
       - postgres-data
     logging: *default-logging
 

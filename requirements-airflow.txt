@@ -9,4 +9,5 @@ strawberry-graphql>=0.240
 requests>=2.31
 cassandra-driver>=3.25
 kafka-python>=2.0
+confluent-kafka>=2.5
 psycopg2-binary>=2.9
