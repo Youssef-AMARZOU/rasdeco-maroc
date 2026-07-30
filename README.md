@@ -18,8 +18,6 @@ Collecte, transformation, prevision et visualisation de donnees economiques maro
 
 ## Datasets disponibles
 
-## Datasets disponibles
-
 ### Donnees economiques marocaines (243 535 obs.)
 
 Collections depuis 5 sources officielles :
