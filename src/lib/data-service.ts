@@ -272,11 +272,9 @@ export async function enrichModule(module: ModuleData): Promise<ModuleData> {
   await ensureBaseData()
   if (!cache) return module
   const imf = cache.imf || {}
-  const ts = await loadTimeseriesForModule(module)
   const hasImf = Object.keys(imf).length > 0
-  const hasTs = Object.keys(ts).length > 0
 
-  if (!hasImf && !hasTs) return module
+  if (!hasImf) return module
 
   const indicatorCode = (kpi: KPIData) => (kpi as any).indicatorCode as string | undefined
 
@@ -286,41 +284,17 @@ export async function enrichModule(module: ModuleData): Promise<ModuleData> {
       const byCode = findImfByCode(code, imf)
       if (byCode) return { ...kpi, ...kpiFromImf(byCode) }
     }
-    if (hasTs) {
-      const byCode = findEconomieByCode(code, ts)
-      if (byCode) return { ...kpi, ...matchToKpi(kpi, byCode.data) }
-    }
     if (code) return kpi
     if (hasImf) {
       const byLabel = findImfByLabel(kpi, imf)
       if (byLabel) return { ...kpi, ...kpiFromImf(byLabel) }
     }
-    if (hasTs) {
-      const byLabel = findEconomieByLabel(kpi, ts)
-      if (byLabel) return { ...kpi, ...matchToKpi(kpi, byLabel.data) }
-    }
     return kpi
   })
 
   const newIndicators = module.indicators.map((ind) => {
-    if (hasTs) {
-      const dotCode = toDotCode(ind.code)
-      const match = ts[dotCode]
-      if (match?.data?.length) return { ...ind, national: matchToTimeSeries(match.data) }
-    }
     if (hasImf && imf[ind.code]?.data?.length) {
       return { ...ind, national: imfToTimeSeries(imf[ind.code]) }
-    }
-    if (hasTs) {
-      const mapped = CODE_TO_ECONOMIE[ind.code]
-      if (mapped && ts[mapped]?.data?.length) return { ...ind, national: matchToTimeSeries(ts[mapped].data) }
-    }
-    if (hasTs) {
-      for (const [keyword, code] of Object.entries(ECONOMIE_TO_CODE)) {
-        if (new RegExp(keyword).test(ind.code.toLowerCase()) && ts[code]?.data?.length) {
-          return { ...ind, national: matchToTimeSeries(ts[code].data) }
-        }
-      }
     }
     return ind
   })

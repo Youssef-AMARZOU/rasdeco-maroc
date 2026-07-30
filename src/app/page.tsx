@@ -256,21 +256,21 @@ const translations: Record<string, Record<Lang, string>> = {
   'Fait avec ❤️ pour le Maroc 🇲🇦': { fr: 'Fait avec ❤️ pour le Maroc 🇲🇦', en: 'Made with ❤️ for Morocco 🇲🇦' },
 
   // ── Synthèse ────────────────────────────────────────────────────
-  "La croissance du PIB s'établit à 4,8%, portée par la reprise agricole (90 M qx de céréales). L'inflation remonte à 1,9% tandis que le taux directeur BAM est abaissé à 2,25%. La dette publique atteint 79,0% du PIB. Le déficit budgétaire est réduit à -3,9% du PIB. Le chômage recule à 10,8% selon la nouvelle méthodologie EMO.": {
-    fr: "La croissance du PIB s'établit à 4,8%, portée par la reprise agricole (90 M qx de céréales). L'inflation remonte à 1,9% tandis que le taux directeur BAM est abaissé à 2,25%. La dette publique atteint 79,0% du PIB. Le déficit budgétaire est réduit à -3,9% du PIB. Le chômage recule à 10,8% selon la nouvelle méthodologie EMO.",
-    en: "GDP growth stands at 4.8%, driven by the agricultural recovery (90 M qx of cereals). Inflation rises to 1.9% while BAM's key rate is lowered to 2.25%. Public debt reaches 79.0% of GDP. The budget deficit is reduced to -3.9% of GDP. Unemployment falls to 10.8% under the new EMO methodology.",
+  "La croissance du PIB s'établit à 3,9%, portée par la reprise agricole et les investissements. L'inflation revient à 2,1% tandis que le taux directeur BAM est maintenu à 2,5%. La dette publique recule à 67,1% du PIB. Le déficit budgétaire se stabilise à -3,5% du PIB. Le chômage s'établit à 13,0% selon la nouvelle méthodologie HCP (EMO).": {
+    fr: "La croissance du PIB s'établit à 3,9%, portée par la reprise agricole et les investissements. L'inflation revient à 2,1% tandis que le taux directeur BAM est maintenu à 2,5%. La dette publique recule à 67,1% du PIB. Le déficit budgétaire se stabilise à -3,5% du PIB. Le chômage s'établit à 13,0% selon la nouvelle méthodologie HCP (EMO).",
+    en: "GDP growth stands at 3.9%, driven by agricultural recovery and investments. Inflation returns to 2.1% while BAM's key rate remains at 2.5%. Public debt declines to 67.1% of GDP. The budget deficit stabilizes at -3.5% of GDP. Unemployment stands at 13.0% under the new HCP methodology (EMO).",
   },
-  "Dette publique/PIB à 79,0%, en progression continue malgré les efforts d'assainissement budgétaire.": {
-    fr: "Dette publique/PIB à 79,0%, en progression continue malgré les efforts d'assainissement budgétaire.",
-    en: "Public debt/GDP at 79.0%, continuously rising despite fiscal consolidation efforts.",
+  "Dette publique/PIB à 67,1%, en repli progressif grâce aux efforts d'assainissement budgétaire.": {
+    fr: "Dette publique/PIB à 67,1%, en repli progressif grâce aux efforts d'assainissement budgétaire.",
+    en: "Public debt/GDP at 67.1%, gradually declining thanks to fiscal consolidation efforts.",
   },
-  "Le chômage reste élevé à 10,8% (nouvelle EMO), en particulier chez les jeunes et en milieu urbain.": {
-    fr: "Le chômage reste élevé à 10,8% (nouvelle EMO), en particulier chez les jeunes et en milieu urbain.",
-    en: "Unemployment remains high at 10.8% (new EMO), particularly among youth and in urban areas.",
+  "Le chômage reste élevé à 13,0% (nouvelle EMO HCP), en particulier chez les jeunes et en milieu urbain.": {
+    fr: "Le chômage reste élevé à 13,0% (nouvelle EMO HCP), en particulier chez les jeunes et en milieu urbain.",
+    en: "Unemployment remains high at 13.0% (new HCP EMO), particularly among youth and in urban areas.",
   },
-  "Réserves de change à 5,3 mois, niveau correct mais à surveiller en cas de choc externe majeur.": {
-    fr: "Réserves de change à 5,3 mois, niveau correct mais à surveiller en cas de choc externe majeur.",
-    en: "Foreign exchange reserves at 5.3 months, adequate but should be monitored in case of major external shock.",
+  "Réserves de change à 5,2 mois, niveau confortable bien au-dessus du seuil de 3 mois d'importation.": {
+    fr: "Réserves de change à 5,2 mois, niveau confortable bien au-dessus du seuil de 3 mois d'importation.",
+    en: "Foreign exchange reserves at 5.2 months, comfortable level well above the 3-month import threshold.",
   },
 
   // ── Économie Module ──────────────────────────────────────────────
@@ -412,25 +412,25 @@ const translations: Record<string, Record<Lang, string>> = {
   "Moyenne": { fr: "Moyenne", en: "Medium" },
   "Basse": { fr: "Basse", en: "Low" },
   "Maîtriser la trajectoire de la dette": { fr: "Maîtriser la trajectoire de la dette", en: "Control the debt trajectory" },
-  "La dette publique à 79,0% du PIB suit une trajectoire ascendante préoccupante. Le différentiel taux-croissance reste défavorable.": {
-    fr: "La dette publique à 79,0% du PIB suit une trajectoire ascendante préoccupante. Le différentiel taux-croissance reste défavorable.",
-    en: "Public debt at 79.0% of GDP is on a worrying upward trajectory. The rate-growth differential remains unfavorable.",
+  "La dette publique à 67,1% du PIB est en repli progressif, mais le différentiel taux-croissance reste à surveiller.": {
+    fr: "La dette publique à 67,1% du PIB est en repli progressif, mais le différentiel taux-croissance reste à surveiller.",
+    en: "Public debt at 67.1% of GDP is gradually declining, but the rate-growth differential needs monitoring.",
   },
   "Élargir l'assiette fiscale pour augmenter les recettes budgétaires": { fr: "Élargir l'assiette fiscale pour augmenter les recettes budgétaires", en: "Broaden the tax base to increase budget revenues" },
   "Rationaliser les dépenses courantes et les subventions": { fr: "Rationaliser les dépenses courantes et les subventions", en: "Rationalize current spending and subsidies" },
   "Accélérer les privatisations planifiées": { fr: "Accélérer les privatisations planifiées", en: "Accelerate planned privatizations" },
   "Réduire le chômage structurel": { fr: "Réduire le chômage structurel", en: "Reduce structural unemployment" },
-  "Le taux de chômage à 10,8% (nouvelle EMO) reste élevé, en particulier chez les jeunes et les diplômés.": {
-    fr: "Le taux de chômage à 10,8% (nouvelle EMO) reste élevé, en particulier chez les jeunes et les diplômés.",
-    en: "The unemployment rate at 10.8% (new EMO) remains high, particularly among youth and graduates.",
+  "Le taux de chômage à 13,0% (nouvelle EMO HCP) reste élevé, en particulier chez les jeunes et les diplômés.": {
+    fr: "Le taux de chômage à 13,0% (nouvelle EMO HCP) reste élevé, en particulier chez les jeunes et les diplômés.",
+    en: "The unemployment rate at 13.0% (new HCP EMO) remains high, particularly among youth and graduates.",
   },
   "Accélérer la formation professionnelle et l'insertion des jeunes": { fr: "Accélérer la formation professionnelle et l'insertion des jeunes", en: "Accelerate vocational training and youth integration" },
   "Soutenir l'entrepreneuriat et l'économie numérique": { fr: "Soutenir l'entrepreneuriat et l'économie numérique", en: "Support entrepreneurship and the digital economy" },
   "Adapter l'offre de formation aux besoins du marché du travail": { fr: "Adapter l'offre de formation aux besoins du marché du travail", en: "Adapt training to labor market needs" },
   "Soutenir l'investissement privé": { fr: "Soutenir l'investissement privé", en: "Support private investment" },
-  "Les flux d'IDE à 36,5 Mds MAD restent en deçà du potentiel du pays.": {
-    fr: "Les flux d'IDE à 36,5 Mds MAD restent en deçà du potentiel du pays.",
-    en: "FDI flows at 36.5 billion MAD remain below the country's potential.",
+  "Les flux d'IDE à 34,0 Mds MAD restent en deçà du potentiel du pays.": {
+    fr: "Les flux d'IDE à 34,0 Mds MAD restent en deçà du potentiel du pays.",
+    en: "FDI flows at 34.0 billion MAD remain below the country's potential.",
   },
   "Améliorer le climat des affaires et la facilitation des procédures": { fr: "Améliorer le climat des affaires et la facilitation des procédures", en: "Improve the business climate and streamline procedures" },
   "Développer les zones d'accélération industrielle": { fr: "Développer les zones d'accélération industrielle", en: "Develop industrial acceleration zones" },

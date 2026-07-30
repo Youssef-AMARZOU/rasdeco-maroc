@@ -6465,13 +6465,13 @@ export const MODULE_MAP = Object.fromEntries(
 
 // ── Synthèse Conjonturelle ────────────────────────────────────────────────
 export const SYNTHESE = {
-  periode: "2025–2026",
+  periode: "2025",
   resume:
-    "La croissance du PIB s'établit à 4,8%, portée par la reprise agricole (90 M qx de céréales). L'inflation remonte à 1,9% tandis que le taux directeur BAM est abaissé à 2,25%. La dette publique atteint 79,0% du PIB. Le déficit budgétaire est réduit à -3,9% du PIB. Le chômage recule à 10,8% selon la nouvelle méthodologie EMO.",
+    "La croissance du PIB s'établit à 3,9%, portée par la reprise agricole et les investissements. L'inflation revient à 2,1% tandis que le taux directeur BAM est maintenu à 2,5%. La dette publique recule à 67,1% du PIB. Le déficit budgétaire se stabilise à -3,5% du PIB. Le chômage s'établit à 13,0% selon la nouvelle méthodologie HCP (EMO).",
   pointsDeVigilance: [
-    "Dette publique/PIB à 79,0%, en progression continue malgré les efforts d'assainissement budgétaire.",
-    "Le chômage reste élevé à 10,8% (nouvelle EMO), en particulier chez les jeunes et en milieu urbain.",
-    "Réserves de change à 5,3 mois, niveau correct mais à surveiller en cas de choc externe majeur.",
+    "Dette publique/PIB à 67,1%, en repli progressif grâce aux efforts d'assainissement budgétaire.",
+    "Le chômage reste élevé à 13,0% (nouvelle EMO HCP), en particulier chez les jeunes et en milieu urbain.",
+    "Réserves de change à 5,2 mois, niveau confortable bien au-dessus du seuil de 3 mois d'importation.",
   ],
 };
 
@@ -6635,7 +6635,7 @@ export const RECOMMENDATIONS: Record<string, ModuleRecommendation[]> = {
   "Économie": [
     {
       title: "Maîtriser la trajectoire de la dette",
-      description: "La dette publique à 79,0% du PIB suit une trajectoire ascendante préoccupante. Le différentiel taux-croissance reste défavorable.",
+      description: "La dette publique à 67,1% du PIB est en repli progressif, mais le différentiel taux-croissance reste à surveiller.",
       actions: [
         "Élargir l'assiette fiscale pour augmenter les recettes budgétaires",
         "Rationaliser les dépenses courantes et les subventions",
@@ -6645,7 +6645,7 @@ export const RECOMMENDATIONS: Record<string, ModuleRecommendation[]> = {
     },
     {
       title: "Réduire le chômage structurel",
-      description: "Le taux de chômage à 10,8% (nouvelle EMO) reste élevé, en particulier chez les jeunes et les diplômés.",
+      description: "Le taux de chômage à 13,0% (nouvelle EMO HCP) reste élevé, en particulier chez les jeunes et les diplômés.",
       actions: [
         "Accélérer la formation professionnelle et l'insertion des jeunes",
         "Soutenir l'entrepreneuriat et l'économie numérique",
@@ -6655,7 +6655,7 @@ export const RECOMMENDATIONS: Record<string, ModuleRecommendation[]> = {
     },
     {
       title: "Soutenir l'investissement privé",
-      description: "Les flux d'IDE à 36,5 Mds MAD restent en deçà du potentiel du pays.",
+      description: "Les flux d'IDE à 34,0 Mds MAD restent en deçà du potentiel du pays.",
       actions: [
         "Améliorer le climat des affaires et la facilitation des procédures",
         "Développer les zones d'accélération industrielle",
