@@ -4,7 +4,7 @@
   "private": true,
   "main": "../infra/electron/main.js",
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev -p 4000",
     "build": "next build",
     "lint": "next lint",
     "desktop": "electron ../infra/electron/main.js",

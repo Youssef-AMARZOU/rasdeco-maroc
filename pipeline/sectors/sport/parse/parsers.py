@@ -7,9 +7,10 @@ from pathlib import Path
 
 import polars as pl
 
-from sport.base import INDICATOR_CODES
+from pipeline.sectors.sport.base import INDICATOR_CODES
 
-RAW_DIR = Path("sport/data/raw")
+RAW_DIR = Path("pipeline/sectors/sport/data/raw")
+RAW_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def parse_hcp_sport() -> pl.DataFrame:

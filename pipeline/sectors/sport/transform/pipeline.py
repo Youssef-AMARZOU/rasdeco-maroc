@@ -3,9 +3,9 @@ from __future__ import annotations
 
 from pathlib import Path
 import polars as pl
-from sport.parse.parsers import parse_all_sport
+from pipeline.sectors.sport.parse.parsers import parse_all_sport
 
-OUTPUT_DIR = Path("sport/data/output")
+OUTPUT_DIR = Path("pipeline/sectors/sport/data/output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

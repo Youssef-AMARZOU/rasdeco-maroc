@@ -8,9 +8,9 @@ from typing import Any
 
 import httpx
 
-from sport.base import FIFA_URL, HCP_BDS_INDICATORS
+from pipeline.sectors.sport.base import FIFA_URL, HCP_BDS_INDICATORS
 
-RAW_DIR = Path("sport/data/raw")
+RAW_DIR = Path("pipeline/sectors/sport/data/raw")
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
 

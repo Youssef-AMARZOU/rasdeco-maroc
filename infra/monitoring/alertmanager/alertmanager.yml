@@ -7,7 +7,3 @@ route:
 
 receivers:
   - name: default
-    slack_configs:
-      - api_url: ""
-        channel: "#rasd-maroc-alerts"
-        text: "{{ range .Alerts }}{{ .Annotations.summary }}\n{{ .Annotations.description }}\n{{ end }}"

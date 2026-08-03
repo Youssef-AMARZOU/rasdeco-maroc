@@ -49,7 +49,7 @@ help:
 # ─────────────────────────────────────────────
 
 dev:
-	@echo "🚀 Démarrage du dashboard Next.js..."
+	@echo "🚀 Démarrage du dashboard Next.js → http://localhost:4000"
 	cd dashboard && npm run dev
 
 build:

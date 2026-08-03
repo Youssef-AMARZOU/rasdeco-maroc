@@ -2420,13 +2420,13 @@ const sportModule: ModuleData = {
       indicatorCode: "MEDAILLES_OLYMPIQUES",
     },
     {
-      label: "Médailles paralympiques (2024)",
-      value: 15,
-      previousValue: 4,
+      label: "Médailles paralympiques (total)",
+      value: 37,
+      previousValue: 22,
       unit: "",
       trend: "up",
-      trendLabel: "+275%",
-      description: "Record historique aux Jeux paralympiques de Paris 2024 (15 médailles).",
+      trendLabel: "+15",
+      description: "Record historique aux Jeux paralympiques de Paris 2024 (15 médailles). Total cumulé: 37.",
       indicatorCode: "MEDAILLES_PARALYMPIQUES",
     },
     {

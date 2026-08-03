@@ -114,16 +114,7 @@ services:
       context: .
       dockerfile: infra/Dockerfile.airflow
     entrypoint: >
-      bash -c "
-        airflow db init &&
-        airflow users create
-          --username admin
-          --password admin
-          --firstname Admin
-          --lastname User
-          --role Admin
-          --email admin@rasd-maroc.ma
-      "
+      bash -c "airflow db init && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@rasd-maroc.ma"
     environment:
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
@@ -207,7 +198,7 @@ services:
       context: .
       dockerfile: infra/Dockerfile.nextjs
     ports:
-      - "3000:3000"
+      - "3003:3000"
     environment:
       - NODE_ENV=production
       - NEXT_PUBLIC_API_URL=http://localhost:8080
@@ -569,10 +560,10 @@ services:
     ports:
       - "8088:8080"
     volumes:
-      - ./trino/coordinator/config.properties:/etc/trino/config.properties:ro
-      - ./trino/coordinator/jvm.config:/etc/trino/jvm.config:ro
-      - ./trino/coordinator/node.properties:/etc/trino/node.properties:ro
-      - ./trino/catalog:/etc/trino/catalog:ro
+      - ./infra/trino/coordinator/config.properties:/etc/trino/config.properties:ro
+      - ./infra/trino/coordinator/jvm.config:/etc/trino/jvm.config:ro
+      - ./infra/trino/coordinator/node.properties:/etc/trino/node.properties:ro
+      - ./infra/trino/catalog:/etc/trino/catalog:ro
     depends_on:
       minio:
         condition: service_healthy
@@ -585,10 +576,10 @@ services:
   trino-worker:
     image: trinodb/trino:462
     volumes:
-      - ./trino/worker/config.properties:/etc/trino/config.properties:ro
-      - ./trino/worker/jvm.config:/etc/trino/jvm.config:ro
-      - ./trino/worker/node.properties:/etc/trino/node.properties:ro
-      - ./trino/catalog:/etc/trino/catalog:ro
+      - ./infra/trino/worker/config.properties:/etc/trino/config.properties:ro
+      - ./infra/trino/worker/jvm.config:/etc/trino/jvm.config:ro
+      - ./infra/trino/worker/node.properties:/etc/trino/node.properties:ro
+      - ./infra/trino/catalog:/etc/trino/catalog:ro
     depends_on:
       - trino-coordinator
     restart: unless-stopped
