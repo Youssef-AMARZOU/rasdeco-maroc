@@ -1,0 +1,14 @@
+rasd_lakehouse:
+  target: dev
+  outputs:
+    dev:
+      type: trino
+      method: none
+      host: localhost
+      port: 8088
+      database: iceberg
+      schema: rasd
+      user: dbt
+      threads: 4
+      http_scheme: http
+      retries: 3

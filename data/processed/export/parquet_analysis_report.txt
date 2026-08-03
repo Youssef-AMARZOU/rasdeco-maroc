@@ -1,0 +1,1596 @@
+
+================================================================================
+  PARQUET DATA ANALYSIS - prediction maroc
+================================================================================
+  Project: C:\Users\youss\OneDrive\Desktop\Yoyo\prediction maroc
+  Files to analyze: 6
+
+================================================================================
+  FILE: economie_maroc  ->  C:\Users\youss\OneDrive\Desktop\Yoyo\prediction maroc\data\export\economie_maroc.parquet
+================================================================================
+
+  Shape: 243535 rows x 13 columns
+  File size: 0.77 MB
+
+  Column                         Dtype                     Nulls      Null%     
+  ---------------------------------------------------------------------------
+  date                           String                    0             0.0%
+  date_label                     String                    0             0.0%
+  region_code                    String                    0             0.0%
+  domaine_code                   String                    0             0.0%
+  code_indicateur                String                    0             0.0%
+  valeur                         Float64                   0             0.0%
+  unite                          String                    0             0.0%
+  source_code                    String                    0             0.0%
+  version_serie                  String                    0             0.0%
+  fiabilite                      Int64                     0             0.0%
+  qualite_flag                   Null                      243535      100.0%
+  fichier_source                 String                    0             0.0%
+  date_insertion                 Datetime(time_unit='us', time_zone=None) 0             0.0%
+
+  Schema (Polars):
+    date: String
+    date_label: String
+    region_code: String
+    domaine_code: String
+    code_indicateur: String
+    valeur: Float64
+    unite: String
+    source_code: String
+    version_serie: String
+    fiabilite: Int64
+    qualite_flag: Null
+    fichier_source: String
+    date_insertion: Datetime(time_unit='us', time_zone=None)
+
+  --- Unique values in key columns ---
+
+  [code_indicateur]  (70 unique values)
+    'BALANCE.COMMERCIALE'  (8 rows)
+    'BAM.ACTIF'  (900 rows)
+    'BAM.OPCVM.ENCOURS'  (10125 rows)
+    'BAM.PASSIF'  (900 rows)
+    'BAM.TITRES'  (900 rows)
+    'CHANGE.USD'  (1451 rows)
+    'CHOMAGE.TAUX'  (183 rows)
+    'DEFICIT.BUDGET'  (10788 rows)
+    'DEPENSES.ADMIN'  (8 rows)
+    'DEPENSES.COURANTES'  (8 rows)
+    'DEPENSES.TOTAL'  (324 rows)
+    'DETTE.CHARGES'  (330 rows)
+    'DETTE.PUBLIQUE'  (4279 rows)
+    'DETTE.PUBLIQUE.DH'  (38 rows)
+    'DETTE.PUBLIQUE.PCT_PIB'  (791 rows)
+    'DETTE.PUBLIQUE.US'  (38 rows)
+    'DETTE.SERVICE.DH'  (38 rows)
+    'DETTE.SERVICE.PCT_RECETTES'  (62 rows)
+    'DETTE.SERVICE.US'  (38 rows)
+    'DETTE.TRESOR_EXT'  (62 rows)
+    'DETTE.TRESOR_INT'  (62 rows)
+    'EMPLOI.VOLUME'  (3597 rows)
+    'EXPORT.MANUFACTURES'  (8 rows)
+    'EXPORTATIONS'  (1070 rows)
+    'IDE.FLUX'  (675 rows)
+    ... (45 more unique values)
+
+  [domaine_code]  (9 unique values)
+    '?'  (141102 rows)
+    'BUDGET'  (20197 rows)
+    'CHANGE'  (1451 rows)
+    'CN'  (56716 rows)
+    'COMMERCE'  (1187 rows)
+    'EMPLOI'  (3780 rows)
+    'EXT'  (684 rows)
+    'MONETAIRE'  (66 rows)
+    'PRIX'  (18352 rows)
+
+  [region_code]  (1 unique values)
+    'MA00'  (243535 rows)
+
+  [unite]  (11 unique values)
+    '%'  (9414 rows)
+    '%PIB'  (15067 rows)
+    '?'  (132984 rows)
+    'Base100'  (112 rows)
+    'En millions de dhs'  (5648 rows)
+    'INDICE'  (12741 rows)
+    'MAD'  (63646 rows)
+    'Milliers'  (1850 rows)
+    'Mois_import'  (9 rows)
+    'POURCENTAGE'  (1940 rows)
+    'milliers'  (124 rows)
+
+  [source_code]  (5 unique values)
+    'BAM'  (13500 rows)
+    'DATAGOV'  (179477 rows)
+    'FIN'  (20998 rows)
+    'HCP'  (28254 rows)
+    'OC'  (1306 rows)
+
+  [date]  (1203 unique values)
+    '-01-01'  (123 rows)
+    '0-01-01'  (2 rows)
+    '02-01-01'  (34 rows)
+    '03-01-01'  (32 rows)
+    '04-01-01'  (28 rows)
+    '05-01-01'  (14 rows)
+    "1 - FBCF en volume (évolution annuelle aux prix de l'année précédente) (En %)-01-01"  (5 rows)
+    "1 - PIB en volume (Croissance aux prix de l'année précédente) (En %)-01-01"  (5 rows)
+    '1 - Revenu national brut disponible aux prix courants\n          (En millions de DH)-01-01'  (5 rows)
+    '1-01-01'  (2 rows)
+    '1. PIB aux prix courants (En millions DH)-01-01'  (5 rows)
+    '2-01-01'  (2 rows)
+    '2. Taux de croissance du revenu national brut disponible-01-01'  (5 rows)
+    '2000-01-01'  (328 rows)
+    '2001-01-01'  (574 rows)
+    '2002-01-01'  (574 rows)
+    '2003-01-01'  (574 rows)
+    '2004-01-01'  (574 rows)
+    '2005-01-01'  (1471 rows)
+    '2005-02-01'  (60 rows)
+    '2005-03-01'  (60 rows)
+    '2005-04-01'  (60 rows)
+    '2005-05-01'  (60 rows)
+    '2005-06-01'  (60 rows)
+    '2005-07-01'  (60 rows)
+    ... (1178 more unique values)
+
+  [date_label]  (1345 unique values)
+    ''  (123 rows)
+    '  Dont: Allemagne'  (65 rows)
+    '  Dont:Etats Unis'  (15 rows)
+    '  Espagne'  (15 rows)
+    '  France'  (15 rows)
+    '  Japon'  (22 rows)
+    ' Brésil'  (7 rows)
+    ' Chili'  (14 rows)
+    ' Colombie'  (14 rows)
+    ' Corée du sud'  (7 rows)
+    ' Demande mondiale adressée au Maroc en volume (4)'  (7 rows)
+    ' En % du PIB'  (27 rows)
+    ' Espagne'  (14 rows)
+    ' France'  (14 rows)
+    ' France '  (7 rows)
+    ' Inde'  (7 rows)
+    ' Italie'  (7 rows)
+    ' Japon'  (58 rows)
+    ' Jordanie'  (14 rows)
+    ' Maroc (3)'  (5 rows)
+    ' Maroc (5)'  (5 rows)
+    ' Mexique'  (14 rows)
+    ' Philippines'  (7 rows)
+    ' Tunisie'  (14 rows)
+    ' Uruguay'  (14 rows)
+    ... (1320 more unique values)
+
+  --- Numeric column statistics ---
+statistic,valeur,fiabilite
+count,243535.0,243535.0
+null_count,0.0,0.0
+mean,9131297.151218498,2.0
+std,198405508.4080382,0.0
+min,-202063.342036,2.0
+25%,3.933,2.0
+50%,118.8,2.0
+75%,4413.0,2.0
+max,30298753023.537014,2.0
+
+
+  --- Sample data (first 5 rows) ---
+date,date_label,region_code,domaine_code,code_indicateur,valeur,unite,source_code,version_serie,fiabilite,qualite_flag,fichier_source,date_insertion
+2020-01-01,2020-01-01,MA00,?,INDICATEUR.HCP.GENERIQUE,11.9,POURCENTAGE,HCP,recente,2,,hcp\undated\i_1.1.xlsx,2026-07-23T21:00:00.664576
+2021-01-01,2021-01-01,MA00,?,INDICATEUR.HCP.GENERIQUE,12.3,POURCENTAGE,HCP,recente,2,,hcp\undated\i_1.1.xlsx,2026-07-23T21:00:00.664576
+2022-01-01,2022-01-01,MA00,?,INDICATEUR.HCP.GENERIQUE,11.8,POURCENTAGE,HCP,recente,2,,hcp\undated\i_1.1.xlsx,2026-07-23T21:00:00.664576
+2023-01-01,2023-01-01,MA00,?,INDICATEUR.HCP.GENERIQUE,13.0,POURCENTAGE,HCP,recente,2,,hcp\undated\i_1.1.xlsx,2026-07-23T21:00:00.664576
+2020-01-01,2020-01-01,MA00,?,INDICATEUR.HCP.GENERIQUE,14.1,POURCENTAGE,HCP,recente,2,,hcp\undated\i_1.1.xlsx,2026-07-23T21:00:00.664576
+
+
+  --- Year / Date range ---
+  date range: -01-01 to نفقات تسديد الديون-01-01
+
+  --- Data quality issues ---
+  Columns with NULLs:
+    qualite_flag: 243535 nulls (100.0%)
+  Duplicate rows: 88509
+  Negative values in 'valeur': 2792 rows
+  Empty strings in 'date_label': 123 rows
+
+  Estimated memory: 38.14 MB
+
+--------------------------------------------------------------------------------
+
+================================================================================
+  FILE: agriculture_complet  ->  C:\Users\youss\OneDrive\Desktop\Yoyo\prediction maroc\agriculture\data\output\agriculture_complet.parquet
+================================================================================
+
+  Shape: 17016 rows x 14 columns
+  File size: 0.06 MB
+
+  Column                         Dtype                     Nulls      Null%     
+  ---------------------------------------------------------------------------
+  indicator_code                 String                    0             0.0%
+  label                          String                    0             0.0%
+  domaine                        String                    0             0.0%
+  unite                          String                    0             0.0%
+  year                           String                    0             0.0%
+  region                         String                    0             0.0%
+  location                       String                    0             0.0%
+  level                          String                    0             0.0%
+  category                       String                    0             0.0%
+  value                          Float64                   0             0.0%
+  year_int                       Int32                     0             0.0%
+  year_numeric                   Int32                     0             0.0%
+  region_code                    Int32                     3738         22.0%
+  is_drought                     Boolean                   0             0.0%
+
+  Schema (Polars):
+    indicator_code: String
+    label: String
+    domaine: String
+    unite: String
+    year: String
+    region: String
+    location: String
+    level: String
+    category: String
+    value: Float64
+    year_int: Int32
+    year_numeric: Int32
+    region_code: Int32
+    is_drought: Boolean
+
+  --- Unique values in key columns ---
+
+  [indicator_code]  (9 unique values)
+    'I1363'  (429 rows)
+    'I3824'  (1386 rows)
+    'I4341'  (2818 rows)
+    'I4342'  (2387 rows)
+    'I4343'  (2835 rows)
+    'I4344'  (2369 rows)
+    'I4345'  (2210 rows)
+    'I4392'  (599 rows)
+    'I479'  (1983 rows)
+
+  [domaine]  (4 unique values)
+    'Eau'  (429 rows)
+    'Productions'  (7190 rows)
+    'Superficies'  (7187 rows)
+    'Élevage'  (2210 rows)
+
+  [region]  (10 unique values)
+    'Fès-Meknès'  (1927 rows)
+    'Guelmim-Oued Noun'  (479 rows)
+    "L'Oriental"  (598 rows)
+    'Laâyoune-Sakia El Hamra'  (191 rows)
+    'Marrakech-Safi'  (2425 rows)
+    'National'  (223 rows)
+    'Rabat-Salé-Kénitra'  (4139 rows)
+    'Souss-Massa'  (838 rows)
+    'Tanger-Tétouan-Al Hoceïma'  (2681 rows)
+    'Unknown'  (3515 rows)
+
+  [region_code]  (9 unique values)
+    5293  (2681 rows)
+    5294  (598 rows)
+    5295  (1927 rows)
+    5296  (4139 rows)
+    5299  (2425 rows)
+    5301  (838 rows)
+    5302  (479 rows)
+    5303  (191 rows)
+
+  [level]  (4 unique values)
+    'Unknown'  (9 rows)
+    'national'  (223 rows)
+    'province'  (15600 rows)
+    'region'  (1184 rows)
+
+  [unite]  (4 unique values)
+    '%'  (3596 rows)
+    'Ha'  (7187 rows)
+    'Qté'  (5804 rows)
+    'm³'  (429 rows)
+
+  [year]  (64 unique values)
+    '1971'  (12 rows)
+    '1972'  (12 rows)
+    '1973'  (12 rows)
+    '1974'  (12 rows)
+    '1975'  (12 rows)
+    '1976'  (12 rows)
+    '1977'  (10 rows)
+    '1978'  (11 rows)
+    '1979'  (14 rows)
+    '1980'  (14 rows)
+    '1981'  (13 rows)
+    '1982'  (15 rows)
+    '1983'  (15 rows)
+    '1984'  (15 rows)
+    '1985'  (15 rows)
+    '1986'  (15 rows)
+    '1987'  (15 rows)
+    '1988'  (15 rows)
+    '1989'  (15 rows)
+    '1990'  (15 rows)
+    '1991'  (15 rows)
+    '1992'  (15 rows)
+    '1993'  (15 rows)
+    '1994'  (15 rows)
+    '1995'  (15 rows)
+    ... (39 more unique values)
+
+  [category]  (96 unique values)
+    ''  (9 rows)
+    'Abonné consommateur'  (224 rows)
+    'Agadir-Ida-Ou-Tanane'  (19 rows)
+    'Al Haouz'  (17 rows)
+    'Al Hoceima'  (19 rows)
+    'Arachide'  (211 rows)
+    'Autres légumineuses'  (19 rows)
+    'Azilal'  (19 rows)
+    'Benslimane'  (20 rows)
+    'Berchid'  (17 rows)
+    'Berkane'  (18 rows)
+    'Blé dur'  (1423 rows)
+    'Blé tendre'  (1424 rows)
+    'Boulemane'  (20 rows)
+    'Bovins'  (736 rows)
+    'Béni Mellal'  (20 rows)
+    'Béni Mellal - Khénifra'  (20 rows)
+    'Caprins'  (737 rows)
+    'Casablanca'  (19 rows)
+    'Casablanca- Settat'  (20 rows)
+    'Chefchaouen'  (20 rows)
+    'Chichaoua'  (19 rows)
+    'Colza'  (74 rows)
+    'Driouch'  (15 rows)
+    'Drâa- Tafilalet'  (20 rows)
+    ... (71 more unique values)
+
+  [location]  (133 unique values)
+    ''  (9 rows)
+    ' Oued Ed-Dahab-Lagouira '  (14 rows)
+    'Agadir'  (16 rows)
+    'Agadir Ida Outanane'  (9 rows)
+    'Agadir-Ida-Ou-Tanane'  (105 rows)
+    'Al Haouz'  (128 rows)
+    'Al Hoceima'  (183 rows)
+    'Alhoceima'  (72 rows)
+    'Aousserd'  (24 rows)
+    'Assa-Zag'  (87 rows)
+    'Azilal'  (242 rows)
+    'Ben slimane'  (75 rows)
+    'Beni mellal'  (74 rows)
+    'Benslimane'  (212 rows)
+    'Berkane'  (165 rows)
+    'Berrechid'  (206 rows)
+    'Blé dur'  (345 rows)
+    'Blé tendre'  (346 rows)
+    'Boujdour'  (23 rows)
+    'Boulemane'  (218 rows)
+    'Béni  Mellal'  (120 rows)
+    'Béni  Mellal - Khénifra'  (120 rows)
+    'Béni Mellal'  (91 rows)
+    'Béni Mellal - Khénifra'  (92 rows)
+    'Casablanca'  (73 rows)
+    ... (108 more unique values)
+
+  --- Numeric column statistics ---
+statistic,value,year_int,year_numeric,region_code
+count,17016.0,17016.0,17016.0,13278.0
+null_count,0.0,0.0,0.0,3738.0
+mean,1669.7183826986363,2016.8695933239305,2016.8695933239305,5296.339659587287
+std,19567.615401737537,6.701404572866857,6.701404572866857,2.6930842567561473
+min,0.0,1971.0,1971.0,5293.0
+25%,0.0,2015.0,2015.0,5295.0
+50%,7.0,2018.0,2018.0,5296.0
+75%,80.0,2021.0,2021.0,5299.0
+max,628918.0,2024.0,2024.0,5303.0
+
+
+  --- Sample data (first 5 rows) ---
+indicator_code,label,domaine,unite,year,region,location,level,category,value,year_int,year_numeric,region_code,is_drought
+I3824,Évolution production céréales,Productions,%,2016-2017,Unknown,Orge,province,Salé,0.0,2016,2016,,true
+I3824,Évolution production céréales,Productions,%,2016-2017,Unknown,Blé dur,province,Salé,0.0,2016,2016,,true
+I3824,Évolution production céréales,Productions,%,2016-2017,Unknown,Blé tendre,province,Salé,0.0,2016,2016,,true
+I3824,Évolution production céréales,Productions,%,2016-2017,Unknown,Maïs,province,Salé,1.8,2016,2016,,true
+I3824,Évolution production céréales,Productions,%,2017-2018,Unknown,Blé dur,province,Salé,0.0,2017,2017,,true
+
+
+  --- Year / Date range ---
+  year range: 1971 to 2024
+  Year distribution:
+    1971: 12 rows
+    1972: 12 rows
+    1973: 12 rows
+    1974: 12 rows
+    1975: 12 rows
+    1976: 12 rows
+    1977: 10 rows
+    1978: 11 rows
+    1979: 14 rows
+    1980: 14 rows
+    1981: 13 rows
+    1982: 15 rows
+    1983: 15 rows
+    1984: 15 rows
+    1985: 15 rows
+    1986: 15 rows
+    1987: 15 rows
+    1988: 15 rows
+    1989: 15 rows
+    1990: 15 rows
+    1991: 15 rows
+    1992: 15 rows
+    1993: 15 rows
+    1994: 15 rows
+    1995: 15 rows
+    1996: 14 rows
+    1997: 14 rows
+    1998: 14 rows
+    1999: 41 rows
+    2000: 42 rows
+    2001: 114 rows
+    2002: 99 rows
+    2003: 108 rows
+    2004: 115 rows
+    2005: 100 rows
+    2006: 113 rows
+    2007: 118 rows
+    2008: 114 rows
+    2009: 90 rows
+    2010: 119 rows
+    2011: 119 rows
+    2012: 106 rows
+    2013: 113 rows
+    2014: 76 rows
+    2014-2015: 970 rows
+    2015: 224 rows
+    2015-2016: 1119 rows
+    2016: 72 rows
+    2016-2017: 1416 rows
+    2017: 335 rows
+    2017-2018: 1411 rows
+    2018: 334 rows
+    2018-2019: 1288 rows
+    2019: 329 rows
+    2019-2020: 1407 rows
+    2020: 323 rows
+    2020-2021: 1246 rows
+    2021: 258 rows
+    2021-2022: 1229 rows
+    2022: 258 rows
+    2022-2023: 1178 rows
+    2023: 258 rows
+    2023-2024: 1130 rows
+    2024: 258 rows
+  year_numeric range: 1971 to 2024
+
+  --- Data quality issues ---
+  Columns with NULLs:
+    region_code: 3738 nulls (22.0%)
+  No duplicate rows.
+  Empty strings in 'location': 9 rows
+  Empty strings in 'category': 9 rows
+
+  Estimated memory: 2.16 MB
+
+--------------------------------------------------------------------------------
+
+================================================================================
+  FILE: social_complet  ->  C:\Users\youss\OneDrive\Desktop\Yoyo\prediction maroc\social\data\output\social_complet.parquet
+================================================================================
+
+  Shape: 13963 rows x 12 columns
+  File size: 0.06 MB
+
+  Column                         Dtype                     Nulls      Null%     
+  ---------------------------------------------------------------------------
+  indicator_code                 String                    0             0.0%
+  label                          String                    0             0.0%
+  domaine                        String                    0             0.0%
+  unite                          String                    0             0.0%
+  year                           String                    0             0.0%
+  region                         String                    0             0.0%
+  location                       String                    0             0.0%
+  level                          String                    0             0.0%
+  category                       String                    0             0.0%
+  value                          Float64                   0             0.0%
+  year_numeric                   Int32                     0             0.0%
+  region_code                    Int32                     12858        92.1%
+
+  Schema (Polars):
+    indicator_code: String
+    label: String
+    domaine: String
+    unite: String
+    year: String
+    region: String
+    location: String
+    level: String
+    category: String
+    value: Float64
+    year_numeric: Int32
+    region_code: Int32
+
+  --- Unique values in key columns ---
+
+  [indicator_code]  (38 unique values)
+    'I1465'  (42 rows)
+    'I1481'  (420 rows)
+    'I1486'  (38 rows)
+    'I1488'  (6 rows)
+    'I1493'  (36 rows)
+    'I1530'  (33 rows)
+    'I1587'  (646 rows)
+    'I24'  (855 rows)
+    'I2782'  (3825 rows)
+    'I2788'  (28 rows)
+    'I2789'  (48 rows)
+    'I2797'  (24 rows)
+    'I2802'  (15 rows)
+    'I2803'  (18 rows)
+    'I2804'  (15 rows)
+    'I2806'  (9 rows)
+    'I2807'  (15 rows)
+    'I2818'  (48 rows)
+    'I2830'  (34 rows)
+    'I2832'  (33 rows)
+    'I2868'  (126 rows)
+    'I2932'  (9 rows)
+    'I2933'  (9 rows)
+    'I2937'  (13 rows)
+    'I3456'  (657 rows)
+    'I3457'  (384 rows)
+    'I3458'  (112 rows)
+    'I3752'  (156 rows)
+    'I3753'  (156 rows)
+    'I3755'  (156 rows)
+    'I39'  (306 rows)
+    'I40'  (306 rows)
+    'I4234'  (5 rows)
+    'I4390'  (43 rows)
+    'IMT_TXACT_02'  (1898 rows)
+    'IMT_TXCH_02'  (1374 rows)
+    'IMT_TXEMP_02'  (1891 rows)
+    'TP'  (174 rows)
+
+  [domaine]  (9 unique values)
+    'Bâtiment'  (1153 rows)
+    'Conditions de vie'  (530 rows)
+    'Démographie'  (154 rows)
+    'Emploi'  (5943 rows)
+    'Informel'  (24 rows)
+    'Justice'  (855 rows)
+    'Pauvreté'  (284 rows)
+    'Population'  (4939 rows)
+    'Santé ménages'  (81 rows)
+
+  [region]  (7 unique values)
+    'Casablanca-Settat'  (378 rows)
+    'Fès-Meknès'  (306 rows)
+    "L'Oriental"  (217 rows)
+    'Laâyoune-Sakia El Hamra'  (102 rows)
+    'National'  (695 rows)
+    'Souss-Massa'  (102 rows)
+    'Unknown'  (12163 rows)
+
+  [region_code]  (6 unique values)
+    5294  (217 rows)
+    5295  (306 rows)
+    5298  (378 rows)
+    5301  (102 rows)
+    5303  (102 rows)
+
+  [level]  (3 unique values)
+    'national'  (695 rows)
+    'province'  (12986 rows)
+    'region'  (282 rows)
+
+  [unite]  (6 unique values)
+    '%'  (6683 rows)
+    'Années'  (48 rows)
+    'DH'  (57 rows)
+    'Nombre'  (6484 rows)
+    'm²'  (657 rows)
+    '‰'  (34 rows)
+
+  [year]  (64 unique values)
+    '1959-1960'  (3 rows)
+    '1960'  (7 rows)
+    '1970-1971'  (3 rows)
+    '1971'  (6 rows)
+    '1977'  (6 rows)
+    '1978'  (6 rows)
+    '1979'  (6 rows)
+    '1980'  (9 rows)
+    '1981'  (6 rows)
+    '1982'  (12 rows)
+    '1984'  (9 rows)
+    '1984-1985'  (3 rows)
+    '1985'  (6 rows)
+    '1986'  (6 rows)
+    '1987'  (9 rows)
+    '1988'  (15 rows)
+    '1989'  (6 rows)
+    '1990'  (6 rows)
+    '1990-1991'  (3 rows)
+    '1991'  (9 rows)
+    '1992'  (14 rows)
+    '1993'  (6 rows)
+    '1994'  (29 rows)
+    '1995'  (20 rows)
+    '1996'  (6 rows)
+    ... (39 more unique values)
+
+  [category]  (166 unique values)
+    ''  (557 rows)
+    '0-4'  (24 rows)
+    '10-14'  (24 rows)
+    '15-19'  (24 rows)
+    '2 pièces'  (64 rows)
+    '20-24'  (24 rows)
+    '25-29'  (24 rows)
+    '3 pièces'  (64 rows)
+    '30-34'  (24 rows)
+    '35-39'  (24 rows)
+    '4 pièces'  (64 rows)
+    '40-44'  (24 rows)
+    '45-49'  (24 rows)
+    '5 pièces'  (64 rows)
+    '5-9'  (24 rows)
+    '50-54'  (24 rows)
+    '55-59'  (24 rows)
+    '60-64'  (24 rows)
+    '65-69'  (24 rows)
+    '70-74'  (24 rows)
+    '75-80'  (18 rows)
+    '80 et plus'  (18 rows)
+    'Administration'  (109 rows)
+    'Administration pénitentiaire'  (30 rows)
+    'Agadir-Ida -Ou-Tanane'  (51 rows)
+    ... (141 more unique values)
+
+  [location]  (126 unique values)
+    '15-19'  (5 rows)
+    '20-24'  (5 rows)
+    '25-29'  (5 rows)
+    '30-34'  (5 rows)
+    '35-39'  (5 rows)
+    '40-44'  (5 rows)
+    '45-49'  (5 rows)
+    'A usage adm et milit'  (110 rows)
+    'Agadir-Ida-Ou-Tanane'  (2 rows)
+    'Al Haouz'  (2 rows)
+    'Al Hoceima'  (2 rows)
+    'Aousserd'  (2 rows)
+    'Assa-Zag'  (2 rows)
+    'Azilal'  (2 rows)
+    'BTP'  (3 rows)
+    'Beni Mellal- Khénifra'  (51 rows)
+    'Benslimane'  (2 rows)
+    'Berkane'  (2 rows)
+    'Berrechid'  (2 rows)
+    'Boujdour'  (2 rows)
+    'Boulemane'  (2 rows)
+    'Béni Mellal'  (2 rows)
+    'Béni Mellal-Khénifra'  (42 rows)
+    'Casablanca'  (2 rows)
+    'Casablanca-Settat'  (38 rows)
+    ... (101 more unique values)
+
+  --- Numeric column statistics ---
+statistic,value,year_numeric,region_code
+count,13963.0,13963.0,1105.0
+null_count,0.0,0.0,12858.0
+mean,252571.84970851536,2018.8095681443815,5297.122171945702
+std,1148436.1281316564,7.044828736380571,2.830109011594561
+min,0.0,1959.0,5294.0
+25%,36.7,2017.0,5295.0
+50%,74.7,2020.0,5298.0
+75%,122695.0,2023.0,5298.0
+max,26661546.0,2030.0,5303.0
+
+
+  --- Sample data (first 5 rows) ---
+indicator_code,label,domaine,unite,year,region,location,level,category,value,year_numeric,region_code
+IMT_TXCH_02,Taux de chômage selon les Provinces/Préfectures et le Milieu,Emploi,%,2017,Unknown,Rural,province,Sidi Ifni,8.6,2017,
+IMT_TXCH_02,Taux de chômage selon les Provinces/Préfectures et le Milieu,Emploi,%,2017,Unknown,National,province,Sidi Ifni,10.7,2017,
+IMT_TXCH_02,Taux de chômage selon les Provinces/Préfectures et le Milieu,Emploi,%,2018,Unknown,National,province,Sidi Ifni,10.7,2018,
+IMT_TXCH_02,Taux de chômage selon les Provinces/Préfectures et le Milieu,Emploi,%,2018,Unknown,Rural,province,Sidi Ifni,9.7,2018,
+IMT_TXCH_02,Taux de chômage selon les Provinces/Préfectures et le Milieu,Emploi,%,2019,Unknown,National,province,Sidi Ifni,7.6,2019,
+
+
+  --- Year / Date range ---
+  year range: 1959-1960 to 2030
+  Year distribution:
+    1959-1960: 3 rows
+    1960: 7 rows
+    1970-1971: 3 rows
+    1971: 6 rows
+    1977: 6 rows
+    1978: 6 rows
+    1979: 6 rows
+    1980: 9 rows
+    1981: 6 rows
+    1982: 12 rows
+    1984: 9 rows
+    1984-1985: 3 rows
+    1985: 6 rows
+    1986: 6 rows
+    1987: 9 rows
+    1988: 15 rows
+    1989: 6 rows
+    1990: 6 rows
+    1990-1991: 3 rows
+    1991: 9 rows
+    1992: 14 rows
+    1993: 6 rows
+    1994: 29 rows
+    1995: 20 rows
+    1996: 6 rows
+    1997: 14 rows
+    1998: 20 rows
+    1998-1999: 3 rows
+    1999: 26 rows
+    2000: 18 rows
+    2000-2001: 3 rows
+    2001: 41 rows
+    2002: 18 rows
+    2003: 51 rows
+    2003-2004: 3 rows
+    2004: 85 rows
+    2005: 120 rows
+    2006: 124 rows
+    2006-2007: 3 rows
+    2007: 145 rows
+    2008: 127 rows
+    2009: 128 rows
+    2010: 143 rows
+    2011: 166 rows
+    2012: 189 rows
+    2013: 197 rows
+    2013-2014: 3 rows
+    2014: 676 rows
+    2015: 458 rows
+    2016: 459 rows
+    2017: 1142 rows
+    2018: 1150 rows
+    2019: 1081 rows
+    2020: 991 rows
+    2021: 1042 rows
+    2022: 920 rows
+    2023: 921 rows
+    2024: 1097 rows
+    2025: 873 rows
+    2026: 263 rows
+    2027: 263 rows
+    2028: 263 rows
+    2029: 263 rows
+    2030: 263 rows
+  year_numeric range: 1959 to 2030
+
+  --- Data quality issues ---
+  Columns with NULLs:
+    region_code: 12858 nulls (92.1%)
+  No duplicate rows.
+  Empty strings in 'category': 557 rows
+
+  Estimated memory: 1.63 MB
+
+--------------------------------------------------------------------------------
+
+================================================================================
+  FILE: education_complet  ->  C:\Users\youss\OneDrive\Desktop\Yoyo\prediction maroc\education\data\output\education_complet.parquet
+================================================================================
+
+  Shape: 24884 rows x 12 columns
+  File size: 0.19 MB
+
+  Column                         Dtype                     Nulls      Null%     
+  ---------------------------------------------------------------------------
+  indicator_code                 String                    0             0.0%
+  label                          String                    0             0.0%
+  domaine                        String                    0             0.0%
+  unite                          String                    0             0.0%
+  year                           String                    0             0.0%
+  region                         String                    0             0.0%
+  location                       String                    0             0.0%
+  level                          String                    0             0.0%
+  category                       String                    0             0.0%
+  value                          Float64                   0             0.0%
+  year_numeric                   Int32                     0             0.0%
+  region_code                    Int32                     22283        89.5%
+
+  Schema (Polars):
+    indicator_code: String
+    label: String
+    domaine: String
+    unite: String
+    year: String
+    region: String
+    location: String
+    level: String
+    category: String
+    value: Float64
+    year_numeric: Int32
+    region_code: Int32
+
+  --- Unique values in key columns ---
+
+  [indicator_code]  (31 unique values)
+    'I1052'  (82 rows)
+    'I1762'  (296 rows)
+    'I1766'  (336 rows)
+    'I1782'  (340 rows)
+    'I1821'  (48 rows)
+    'I3210'  (360 rows)
+    'I3794'  (2376 rows)
+    'I3796'  (2367 rows)
+    'I3798'  (2376 rows)
+    'I3800'  (790 rows)
+    'I3801'  (2362 rows)
+    'I3802'  (789 rows)
+    'I3803'  (2366 rows)
+    'I3804'  (766 rows)
+    'I3805'  (2348 rows)
+    'I3806'  (2198 rows)
+    'I3807'  (2178 rows)
+    'I4187'  (126 rows)
+    'I4193'  (135 rows)
+    'I4194'  (135 rows)
+    'I4213'  (163 rows)
+    'I4281'  (208 rows)
+    'I4282'  (140 rows)
+    'I4285'  (208 rows)
+    'I913'  (420 rows)
+    'I919'  (329 rows)
+    'I924'  (323 rows)
+    'I948'  (63 rows)
+    'I957'  (63 rows)
+    'I958'  (130 rows)
+    'I959'  (63 rows)
+
+  [domaine]  (10 unique values)
+    'Baccalauréat'  (1068 rows)
+    'Budget'  (188 rows)
+    'Collégial'  (2362 rows)
+    'Formation'  (340 rows)
+    'Primaire'  (3341 rows)
+    'Primaire privé'  (3156 rows)
+    'Préscolaire'  (4621 rows)
+    'Qualifiant'  (2684 rows)
+    'Scolarisation'  (396 rows)
+    'Secondaire privé'  (6728 rows)
+
+  [region]  (10 unique values)
+    'Casablanca-Settat'  (256 rows)
+    'Fès-Meknès'  (266 rows)
+    'Guelmim-Oued Noun'  (133 rows)
+    'Laâyoune-Sakia El Hamra'  (236 rows)
+    'Marrakech-Safi'  (399 rows)
+    'National'  (7377 rows)
+    'Rabat-Salé-Kénitra'  (647 rows)
+    'Souss-Massa'  (186 rows)
+    'Tanger-Tétouan-Al Hoceïma'  (478 rows)
+    'Unknown'  (14906 rows)
+
+  [region_code]  (9 unique values)
+    5293  (478 rows)
+    5295  (266 rows)
+    5296  (647 rows)
+    5298  (256 rows)
+    5299  (399 rows)
+    5301  (186 rows)
+    5302  (133 rows)
+    5303  (236 rows)
+
+  [level]  (3 unique values)
+    'national'  (7377 rows)
+    'province'  (17286 rows)
+    'region'  (221 rows)
+
+  [unite]  (3 unique values)
+    '%'  (692 rows)
+    'MDH'  (188 rows)
+    'Nombre'  (24004 rows)
+
+  [year]  (72 unique values)
+    '1970'  (21 rows)
+    '1971'  (21 rows)
+    '1972'  (23 rows)
+    '1973'  (19 rows)
+    '1974'  (28 rows)
+    '1975'  (29 rows)
+    '1976'  (29 rows)
+    '1977'  (29 rows)
+    '1978'  (33 rows)
+    '1979'  (33 rows)
+    '1980'  (33 rows)
+    '1981'  (33 rows)
+    '1982'  (33 rows)
+    '1983'  (33 rows)
+    '1984'  (37 rows)
+    '1985'  (35 rows)
+    '1986'  (40 rows)
+    '1987'  (39 rows)
+    '1988'  (40 rows)
+    '1989'  (39 rows)
+    '1990'  (43 rows)
+    '1991'  (43 rows)
+    '1992'  (43 rows)
+    '1993'  (56 rows)
+    '1994'  (58 rows)
+    ... (47 more unique values)
+
+  [category]  (120 unique values)
+    ''  (2794 rows)
+    '1 ère année'  (104 rows)
+    '1 ère année bac'  (63 rows)
+    '2 ème année'  (104 rows)
+    '2 ème année bac'  (63 rows)
+    '3 ème année'  (104 rows)
+    'Administration centrale'  (14 rows)
+    'Agadir Ida Outanane'  (212 rows)
+    'Al Haouz'  (212 rows)
+    'Al Hoceima'  (212 rows)
+    'Aousserd'  (205 rows)
+    'Assa Zag'  (212 rows)
+    'Autres rubriques'  (14 rows)
+    'Azilal'  (212 rows)
+    'Benslimane'  (212 rows)
+    'Berkane'  (208 rows)
+    'Berrechid'  (212 rows)
+    'Boujdour'  (206 rows)
+    'Boulemane'  (212 rows)
+    'Bourses'  (14 rows)
+    'Béni Mellal'  (212 rows)
+    'Béni Mellal - Khénifra'  (212 rows)
+    'Casablanca'  (204 rows)
+    'Casablanca- Settat'  (212 rows)
+    'Chefchaouen'  (212 rows)
+    ... (95 more unique values)
+
+  [location]  (120 unique values)
+    '10 ans'  (36 rows)
+    '11 ans'  (36 rows)
+    '12 ans'  (36 rows)
+    '13 ans'  (36 rows)
+    '14 ans'  (36 rows)
+    '15 et plus'  (36 rows)
+    '6 ans et moins'  (36 rows)
+    '7 ans'  (36 rows)
+    '8 ans'  (36 rows)
+    '9 ans'  (36 rows)
+    'Agadir Ida Outanane'  (27 rows)
+    'Al Haouz'  (26 rows)
+    'Al Hoceima'  (26 rows)
+    'Aousserd'  (25 rows)
+    'Assa Zag'  (26 rows)
+    'Azilal'  (26 rows)
+    'Benslimane'  (27 rows)
+    'Berkane'  (27 rows)
+    'Berrechid'  (27 rows)
+    'Boujdour'  (26 rows)
+    'Boulemane'  (26 rows)
+    "Budget d'investissement"  (14 rows)
+    'Budget de fonctionnement'  (112 rows)
+    'Béni Mellal'  (27 rows)
+    'Béni Mellal - Khénifra'  (27 rows)
+    ... (95 more unique values)
+
+  --- Numeric column statistics ---
+statistic,value,year_numeric,region_code
+count,24884.0,24884.0,2601.0
+null_count,0.0,0.0,22283.0
+mean,13172.079593312974,2017.9180999839255,5297.302960399847
+std,55113.545395245696,7.849345752430455,3.1482148302289543
+min,0.0,1970.0,5293.0
+25%,22.0,2017.0,5295.0
+50%,349.0,2019.0,5296.0
+75%,4379.0,2022.0,5299.0
+max,852087.0,2025.0,5303.0
+
+
+  --- Sample data (first 5 rows) ---
+indicator_code,label,domaine,unite,year,region,location,level,category,value,year_numeric,region_code
+I3798,Enseignants secondaire privé par régions et provinces,Secondaire privé,Nombre,2023-2024,Unknown,Masculin,province,Berrechid,1485.0,2023,
+I3801,Établissements secondaire collégial par régions et provinces,Collégial,Nombre,2021-2022,National,Total,national,Settat,36.0,2021,
+I3800,Établissements secondaire privé par régions et provinces,Secondaire privé,Nombre,2021-2022,Tanger-Tétouan-Al Hoceïma,Jerada,province,"",1.0,2021,5293
+I3804,Classes secondaire privé par régions et provinces,Secondaire privé,Nombre,2023-2024,Fès-Meknès,Fès,province,"",87.0,2023,5295
+I3794,Élèves secondaire privé par régions et provinces,Secondaire privé,Nombre,2021-2022,Unknown,Masculin,province,Dakhla - Oued Ed-Dahab,462.0,2021,
+
+
+  --- Year / Date range ---
+  year range: 1970 to 2025
+  Year distribution:
+    1970: 21 rows
+    1971: 21 rows
+    1972: 23 rows
+    1973: 19 rows
+    1974: 28 rows
+    1975: 29 rows
+    1976: 29 rows
+    1977: 29 rows
+    1978: 33 rows
+    1979: 33 rows
+    1980: 33 rows
+    1981: 33 rows
+    1982: 33 rows
+    1983: 33 rows
+    1984: 37 rows
+    1985: 35 rows
+    1986: 40 rows
+    1987: 39 rows
+    1988: 40 rows
+    1989: 39 rows
+    1990: 43 rows
+    1991: 43 rows
+    1992: 43 rows
+    1993: 56 rows
+    1994: 58 rows
+    1995: 58 rows
+    1996: 58 rows
+    1997: 58 rows
+    1998: 54 rows
+    1999: 54 rows
+    2000: 34 rows
+    2001: 34 rows
+    2002: 54 rows
+    2003: 44 rows
+    2004: 54 rows
+    2005: 68 rows
+    2006: 68 rows
+    2007: 61 rows
+    2008: 59 rows
+    2009: 50 rows
+    2009-2010: 9 rows
+    2010: 74 rows
+    2010-2011: 18 rows
+    2011: 69 rows
+    2011-2012: 27 rows
+    2012: 73 rows
+    2012-2013: 27 rows
+    2013: 63 rows
+    2013-2014: 27 rows
+    2014: 103 rows
+    2014-2015: 27 rows
+    2015: 155 rows
+    2015-2016: 27 rows
+    2016: 155 rows
+    2016-2017: 2294 rows
+    2017: 164 rows
+    2017-2018: 2391 rows
+    2018: 159 rows
+    2018-2019: 2403 rows
+    2019: 159 rows
+    2019-2020: 2399 rows
+    2020: 164 rows
+    2020-2021: 2403 rows
+    2021: 152 rows
+    2021-2022: 2403 rows
+    2022: 152 rows
+    2022-2023: 2403 rows
+    2023: 100 rows
+    2023-2024: 2227 rows
+    2024: 76 rows
+    2024-2025: 2227 rows
+    2025: 76 rows
+  year_numeric range: 1970 to 2025
+
+  --- Data quality issues ---
+  Columns with NULLs:
+    region_code: 22283 nulls (89.5%)
+  No duplicate rows.
+  Empty strings in 'category': 2794 rows
+
+  Estimated memory: 3.15 MB
+
+--------------------------------------------------------------------------------
+
+================================================================================
+  FILE: sante_complet  ->  C:\Users\youss\OneDrive\Desktop\Yoyo\prediction maroc\sante\data\output\sante_complet.parquet
+================================================================================
+
+  Shape: 18873 rows x 13 columns
+  File size: 0.13 MB
+
+  Column                         Dtype                     Nulls      Null%     
+  ---------------------------------------------------------------------------
+  indicator_code                 String                    0             0.0%
+  label                          String                    0             0.0%
+  domaine                        String                    0             0.0%
+  unite                          String                    0             0.0%
+  year                           String                    0             0.0%
+  region                         String                    0             0.0%
+  location                       String                    0             0.0%
+  level                          String                    0             0.0%
+  category                       String                    0             0.0%
+  value                          Float64                   0             0.0%
+  year_numeric                   Int32                     0             0.0%
+  region_code                    Int32                     11667        61.8%
+  is_covid                       Boolean                   0             0.0%
+
+  Schema (Polars):
+    indicator_code: String
+    label: String
+    domaine: String
+    unite: String
+    year: String
+    region: String
+    location: String
+    level: String
+    category: String
+    value: Float64
+    year_numeric: Int32
+    region_code: Int32
+    is_covid: Boolean
+
+  --- Unique values in key columns ---
+
+  [indicator_code]  (25 unique values)
+    'I1482'  (3 rows)
+    'I1483'  (6 rows)
+    'I1484'  (6 rows)
+    'I234'  (82 rows)
+    'I235'  (25 rows)
+    'I238'  (132 rows)
+    'I257'  (49 rows)
+    'I259'  (52 rows)
+    'I262'  (32 rows)
+    'I266'  (118 rows)
+    'I268'  (36 rows)
+    'I3212'  (27 rows)
+    'I3241'  (166 rows)
+    'I3770'  (3472 rows)
+    'I3771'  (601 rows)
+    'I3772'  (499 rows)
+    'I3773'  (1843 rows)
+    'I427'  (182 rows)
+    'I4365'  (204 rows)
+    'I438'  (97 rows)
+    'I440'  (55 rows)
+    'I5019'  (3016 rows)
+    'I629'  (419 rows)
+    'NLFC2'  (1090 rows)
+    'NLFD'  (6661 rows)
+
+  [domaine]  (4 unique values)
+    'Infrastructure'  (12695 rows)
+    'Morbidité'  (412 rows)
+    'Personnel'  (2416 rows)
+    'Production'  (3350 rows)
+
+  [region]  (11 unique values)
+    'Casablanca-Settat'  (3428 rows)
+    'Fès-Meknès'  (123 rows)
+    'Guelmim-Oued Noun'  (65 rows)
+    "L'Oriental"  (2692 rows)
+    'Laâyoune-Sakia El Hamra'  (91 rows)
+    'Marrakech-Safi'  (195 rows)
+    'National'  (1272 rows)
+    'Rabat-Salé-Kénitra'  (300 rows)
+    'Souss-Massa'  (91 rows)
+    'Tanger-Tétouan-Al Hoceïma'  (221 rows)
+    'Unknown'  (10395 rows)
+
+  [region_code]  (10 unique values)
+    5293  (221 rows)
+    5294  (2692 rows)
+    5295  (123 rows)
+    5296  (300 rows)
+    5298  (3428 rows)
+    5299  (195 rows)
+    5301  (91 rows)
+    5302  (65 rows)
+    5303  (91 rows)
+
+  [level]  (3 unique values)
+    'national'  (1272 rows)
+    'province'  (17137 rows)
+    'region'  (464 rows)
+
+  [unite]  (3 unique values)
+    '%'  (231 rows)
+    'Nombre'  (18627 rows)
+    '‰'  (15 rows)
+
+  [year]  (56 unique values)
+    '1970'  (15 rows)
+    '1971'  (15 rows)
+    '1972'  (11 rows)
+    '1973'  (15 rows)
+    '1974'  (15 rows)
+    '1975'  (20 rows)
+    '1976'  (20 rows)
+    '1977'  (20 rows)
+    '1978'  (23 rows)
+    '1979'  (23 rows)
+    '1980'  (17 rows)
+    '1981'  (27 rows)
+    '1982'  (29 rows)
+    '1983'  (29 rows)
+    '1984'  (29 rows)
+    '1985'  (25 rows)
+    '1986'  (29 rows)
+    '1987'  (22 rows)
+    '1988'  (28 rows)
+    '1989'  (28 rows)
+    '1990'  (28 rows)
+    '1991'  (28 rows)
+    '1992'  (28 rows)
+    '1993'  (28 rows)
+    '1994'  (27 rows)
+    ... (31 more unique values)
+
+  [category]  (188 unique values)
+    ''  (1732 rows)
+    'Agadir Ida Ou Tanane'  (13 rows)
+    'Agadir Ida Outanane'  (92 rows)
+    'Al Fida-Mers Sultan'  (37 rows)
+    'Al Haouz'  (99 rows)
+    'Al Hoceima'  (111 rows)
+    'Anesthésie réanimation'  (348 rows)
+    'Aousserd'  (84 rows)
+    'Assa Zag'  (91 rows)
+    'Assa-zag'  (6 rows)
+    'Azilal'  (104 rows)
+    'Aîn-Chock'  (32 rows)
+    'Aîn-Sebaâ - Hay Mohammadi'  (32 rows)
+    'Aïn Chok'  (5 rows)
+    'Aïn Sebaâ-Hay Mohammadi'  (5 rows)
+    'BCG'  (49 rows)
+    'Ben Msick'  (37 rows)
+    'Beni Mellal'  (17 rows)
+    'Benslimane'  (99 rows)
+    'Berkane'  (103 rows)
+    'Berrechid'  (104 rows)
+    'Boujdour'  (97 rows)
+    'Boulemane'  (105 rows)
+    'Béni  Mellal'  (32 rows)
+    'Béni  Mellal - Khénifra'  (32 rows)
+    ... (163 more unique values)
+
+  [location]  (169 unique values)
+    'Agadir Ida Ou Tanane'  (176 rows)
+    'Agadir Ida Outanane'  (13 rows)
+    'Al Fida-Mers Sultan'  (113 rows)
+    'Al Haouz'  (33 rows)
+    'Al Hoceima'  (87 rows)
+    'Aousserd'  (6 rows)
+    'Assa Zag'  (13 rows)
+    'Assa-zag'  (32 rows)
+    'Azilal'  (71 rows)
+    'Aïn Chok'  (40 rows)
+    'Aïn Sebaâ-Hay Mohammadi'  (39 rows)
+    'BCG'  (27 rows)
+    'Ben Msick'  (29 rows)
+    'Beni Mellal'  (132 rows)
+    'Benslimane'  (49 rows)
+    'Berkane'  (54 rows)
+    'Berrechid'  (44 rows)
+    'Bilharziose'  (11 rows)
+    'Boujdour'  (45 rows)
+    'Boulemane'  (37 rows)
+    'Béni Mellal'  (13 rows)
+    'Béni Mellal - Khénifra'  (13 rows)
+    'Béni Mellal-Khénifra'  (145 rows)
+    'Casablanca'  (45 rows)
+    'Casablanca Anfa'  (154 rows)
+    ... (144 more unique values)
+
+  --- Numeric column statistics ---
+statistic,value,year_numeric,region_code
+count,18873.0,18873.0,7206.0
+null_count,0.0,0.0,11667.0
+mean,9713.249674137658,2019.6327557886927,5296.38204274216
+std,73337.79001509199,7.576253697689069,2.2467259340508337
+min,0.0,1970.0,5293.0
+25%,10.0,2019.0,5294.0
+50%,38.0,2021.0,5298.0
+75%,245.0,2023.0,5298.0
+max,1282403.0,2025.0,5303.0
+
+
+  --- Sample data (first 5 rows) ---
+indicator_code,label,domaine,unite,year,region,location,level,category,value,year_numeric,region_code,is_covid
+I5019,Nombre de femmes utilisant contraception par région et province,Production,Nombre,2023,Unknown,Condom,province,Tanger Assilah,1589.0,2023,,false
+I3770,Nombre formations de soins de santé de base par régions et provinces,Infrastructure,Nombre,2022,Unknown,Centres de santé urbains (Niveau 2),province,Inzegane Ait Melloul,3.0,2022,,true
+NLFD,Nombre de lits fonctionnels par Discipline et par région et province,Infrastructure,Nombre,2024,L'Oriental,Rabat,province,Chirurgie thoracique,34.0,2024,5294,false
+I3773,Nombre de médecins par région et province,Personnel,Nombre,2022,Unknown,Médecins spécialistes,province,Tanger - Tétouan - Al Hoceima,1035.0,2022,,true
+NLFD,Nombre de lits fonctionnels par Discipline et par région et province,Infrastructure,Nombre,2021,Casablanca-Settat,Marrakech-Safi,province,Oncologie,23.0,2021,5298,true
+
+
+  --- Year / Date range ---
+  year range: 1970 to 2025
+  Year distribution:
+    1970: 15 rows
+    1971: 15 rows
+    1972: 11 rows
+    1973: 15 rows
+    1974: 15 rows
+    1975: 20 rows
+    1976: 20 rows
+    1977: 20 rows
+    1978: 23 rows
+    1979: 23 rows
+    1980: 17 rows
+    1981: 27 rows
+    1982: 29 rows
+    1983: 29 rows
+    1984: 29 rows
+    1985: 25 rows
+    1986: 29 rows
+    1987: 22 rows
+    1988: 28 rows
+    1989: 28 rows
+    1990: 28 rows
+    1991: 28 rows
+    1992: 28 rows
+    1993: 28 rows
+    1994: 27 rows
+    1995: 26 rows
+    1996: 27 rows
+    1997: 27 rows
+    1998: 27 rows
+    1999: 27 rows
+    2000: 30 rows
+    2001: 30 rows
+    2002: 29 rows
+    2003: 30 rows
+    2004: 29 rows
+    2005: 28 rows
+    2006: 27 rows
+    2007: 12 rows
+    2008: 27 rows
+    2009: 25 rows
+    2010: 25 rows
+    2011: 31 rows
+    2012: 38 rows
+    2013: 39 rows
+    2014: 21 rows
+    2015: 397 rows
+    2016: 412 rows
+    2017: 518 rows
+    2018: 968 rows
+    2019: 2325 rows
+    2020: 1400 rows
+    2021: 2679 rows
+    2022: 2668 rows
+    2023: 2575 rows
+    2024: 2523 rows
+    2025: 1274 rows
+  year_numeric range: 1970 to 2025
+
+  --- Data quality issues ---
+  Columns with NULLs:
+    region_code: 11667 nulls (61.8%)
+  No duplicate rows.
+  Empty strings in 'category': 1732 rows
+
+  Estimated memory: 2.70 MB
+
+--------------------------------------------------------------------------------
+
+================================================================================
+  FILE: sport_complet  ->  C:\Users\youss\OneDrive\Desktop\Yoyo\prediction maroc\sport\data\output\sport_complet.parquet
+================================================================================
+
+  Shape: 42 rows x 9 columns
+  File size: 0.00 MB
+
+  Column                         Dtype                     Nulls      Null%     
+  ---------------------------------------------------------------------------
+  indicator_code                 String                    0             0.0%
+  label                          String                    0             0.0%
+  domaine                        String                    0             0.0%
+  unite                          String                    0             0.0%
+  year                           String                    0             0.0%
+  region                         String                    0             0.0%
+  level                          String                    0             0.0%
+  value                          Float64                   1             2.4%
+  year_numeric                   Int32                     0             0.0%
+
+  Schema (Polars):
+    indicator_code: String
+    label: String
+    domaine: String
+    unite: String
+    year: String
+    region: String
+    level: String
+    value: Float64
+    year_numeric: Int32
+
+  --- Unique values in key columns ---
+
+  [indicator_code]  (2 unique values)
+    'FIFA_RANK'  (1 rows)
+    'I202'  (41 rows)
+
+  [domaine]  (1 unique values)
+    'Football'  (42 rows)
+
+  [region]  (1 unique values)
+    'National'  (42 rows)
+
+  [level]  (1 unique values)
+    'national'  (42 rows)
+
+  [unite]  (2 unique values)
+    'Nombre'  (41 rows)
+    'Rang'  (1 rows)
+
+  [year]  (42 unique values)
+    '1972'  (1 rows)
+    '1973'  (1 rows)
+    '1974'  (1 rows)
+    '1975'  (1 rows)
+    '1976'  (1 rows)
+    '1977'  (1 rows)
+    '1978'  (1 rows)
+    '1979'  (1 rows)
+    '1980'  (1 rows)
+    '1981'  (1 rows)
+    '1982'  (1 rows)
+    '1983'  (1 rows)
+    '1984'  (1 rows)
+    '1985'  (1 rows)
+    '1986'  (1 rows)
+    '1987'  (1 rows)
+    '1988'  (1 rows)
+    '1989'  (1 rows)
+    '1990'  (1 rows)
+    '1991'  (1 rows)
+    '1992'  (1 rows)
+    '1993'  (1 rows)
+    '1994'  (1 rows)
+    '1995'  (1 rows)
+    '1996'  (1 rows)
+    '1997'  (1 rows)
+    '1998'  (1 rows)
+    '1999'  (1 rows)
+    '2000'  (1 rows)
+    '2001'  (1 rows)
+    '2002'  (1 rows)
+    '2004'  (1 rows)
+    '2007'  (1 rows)
+    '2008'  (1 rows)
+    '2009'  (1 rows)
+    '2010'  (1 rows)
+    '2011'  (1 rows)
+    '2012'  (1 rows)
+    '2015'  (1 rows)
+    '2016'  (1 rows)
+    '2020'  (1 rows)
+    '2024'  (1 rows)
+
+  --- Numeric column statistics ---
+statistic,value,year_numeric
+count,41.0,42.0
+null_count,1.0,0.0
+mean,2326.0975609756097,1993.642857142857
+std,2755.5712910835573,14.01535991649341
+min,284.0,1972.0
+25%,1253.0,1982.0
+50%,1412.0,1993.0
+75%,2400.0,2004.0
+max,14274.0,2024.0
+
+
+  --- Sample data (first 5 rows) ---
+indicator_code,label,domaine,unite,year,region,level,value,year_numeric
+I202,Nombre de licenciés de la FRM,Football,Nombre,1984,National,national,1591.0,1984
+I202,Nombre de licenciés de la FRM,Football,Nombre,1975,National,national,315.0,1975
+I202,Nombre de licenciés de la FRM,Football,Nombre,1992,National,national,1253.0,1992
+I202,Nombre de licenciés de la FRM,Football,Nombre,2007,National,national,2949.0,2007
+I202,Nombre de licenciés de la FRM,Football,Nombre,1986,National,national,1412.0,1986
+
+
+  --- Year / Date range ---
+  year range: 1972 to 2024
+  Year distribution:
+    1972: 1 rows
+    1973: 1 rows
+    1974: 1 rows
+    1975: 1 rows
+    1976: 1 rows
+    1977: 1 rows
+    1978: 1 rows
+    1979: 1 rows
+    1980: 1 rows
+    1981: 1 rows
+    1982: 1 rows
+    1983: 1 rows
+    1984: 1 rows
+    1985: 1 rows
+    1986: 1 rows
+    1987: 1 rows
+    1988: 1 rows
+    1989: 1 rows
+    1990: 1 rows
+    1991: 1 rows
+    1992: 1 rows
+    1993: 1 rows
+    1994: 1 rows
+    1995: 1 rows
+    1996: 1 rows
+    1997: 1 rows
+    1998: 1 rows
+    1999: 1 rows
+    2000: 1 rows
+    2001: 1 rows
+    2002: 1 rows
+    2004: 1 rows
+    2007: 1 rows
+    2008: 1 rows
+    2009: 1 rows
+    2010: 1 rows
+    2011: 1 rows
+    2012: 1 rows
+    2015: 1 rows
+    2016: 1 rows
+    2020: 1 rows
+    2024: 1 rows
+  year_numeric range: 1972 to 2024
+
+  --- Data quality issues ---
+  Columns with NULLs:
+    value: 1 nulls (2.4%)
+  No duplicate rows.
+
+  Estimated memory: 0.00 MB
+
+--------------------------------------------------------------------------------
+
+================================================================================
+  CROSS-FILE SUMMARY
+================================================================================
+
+  Files loaded: 6
+  Total rows across all files: 318313
+  Total columns across all files: 73
+
+  --- Column presence matrix ---
+  Column                        economie_mar  agriculture_  social_compl  education_co  sante_comple  sport_comple  
+  ------------------------------------------------------------------------------------------------------------------
+  category                      ---           YES           YES           YES           YES           ---           
+  code_indicateur               YES           ---           ---           ---           ---           ---           
+  date                          YES           ---           ---           ---           ---           ---           
+  date_insertion                YES           ---           ---           ---           ---           ---           
+  date_label                    YES           ---           ---           ---           ---           ---           
+  domaine                       ---           YES           YES           YES           YES           YES           
+  domaine_code                  YES           ---           ---           ---           ---           ---           
+  fiabilite                     YES           ---           ---           ---           ---           ---           
+  fichier_source                YES           ---           ---           ---           ---           ---           
+  indicator_code                ---           YES           YES           YES           YES           YES           
+  is_covid                      ---           ---           ---           ---           YES           ---           
+  is_drought                    ---           YES           ---           ---           ---           ---           
+  label                         ---           YES           YES           YES           YES           YES           
+  level                         ---           YES           YES           YES           YES           YES           
+  location                      ---           YES           YES           YES           YES           ---           
+  qualite_flag                  YES           ---           ---           ---           ---           ---           
+  region                        ---           YES           YES           YES           YES           YES           
+  region_code                   YES           YES           YES           YES           YES           ---           
+  source_code                   YES           ---           ---           ---           ---           ---           
+  unite                         YES           YES           YES           YES           YES           YES           
+  valeur                        YES           ---           ---           ---           ---           ---           
+  value                         ---           YES           YES           YES           YES           YES           
+  version_serie                 YES           ---           ---           ---           ---           ---           
+  year                          ---           YES           YES           YES           YES           YES           
+  year_int                      ---           YES           ---           ---           ---           ---           
+  year_numeric                  ---           YES           YES           YES           YES           YES           
+
+  --- Schema consistency checks ---
+  Only in agriculture_complet: {'year_int', 'is_drought'}
+  Only in agriculture_complet: {'year_int', 'is_drought'}
+  Only in agriculture_complet: {'year_int', 'is_drought'}
+  Only in sante_complet: {'is_covid'}
+
+  Economie schema (fact_indicateurs style):
+    Columns: ['date', 'date_label', 'region_code', 'domaine_code', 'code_indicateur', 'valeur', 'unite', 'source_code', 'version_serie', 'fiabilite', 'qualite_flag', 'fichier_source', 'date_insertion']
+    Uses: date, code_indicateur, valeur, region_code, source_code, fiabilite
+
+  Sport schema:
+    Columns: ['indicator_code', 'label', 'domaine', 'unite', 'year', 'region', 'level', 'value', 'year_numeric']

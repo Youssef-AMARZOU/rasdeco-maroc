@@ -1,0 +1,86 @@
+{
+  "hcp": {
+    "tier": 1,
+    "fiabilite": 5,
+    "label": "Haut-Commissariat au Plan",
+    "type": "national"
+  },
+  "bam": {
+    "tier": 1,
+    "fiabilite": 5,
+    "label": "Bank Al-Maghrib",
+    "type": "national"
+  },
+  "datagov": {
+    "tier": 1,
+    "fiabilite": 5,
+    "label": "Open Data Maroc",
+    "type": "national"
+  },
+  "fin": {
+    "tier": 1,
+    "fiabilite": 5,
+    "label": "Ministere des Finances",
+    "type": "national"
+  },
+  "oc": {
+    "tier": 1,
+    "fiabilite": 5,
+    "label": "Office des Changes",
+    "type": "national"
+  },
+  "mesrs": {
+    "tier": 1,
+    "fiabilite": 5,
+    "label": "MESRS",
+    "type": "national"
+  },
+  "imf": {
+    "tier": 2,
+    "fiabilite": 3,
+    "label": "Fonds Monetaire International",
+    "type": "international"
+  },
+  "weo": {
+    "tier": 2,
+    "fiabilite": 3,
+    "label": "IMF World Economic Outlook",
+    "type": "international"
+  },
+  "wb": {
+    "tier": 2,
+    "fiabilite": 3,
+    "label": "Banque Mondiale",
+    "type": "international"
+  },
+  "un": {
+    "tier": 2,
+    "fiabilite": 3,
+    "label": "Nations Unies",
+    "type": "international"
+  },
+  "who": {
+    "tier": 2,
+    "fiabilite": 3,
+    "label": "OMS",
+    "type": "international"
+  },
+  "worldometer": {
+    "tier": 3,
+    "fiabilite": 1,
+    "label": "Worldometer",
+    "type": "web"
+  },
+  "kaggle": {
+    "tier": 3,
+    "fiabilite": 1,
+    "label": "Kaggle",
+    "type": "web"
+  },
+  "web": {
+    "tier": 3,
+    "fiabilite": 1,
+    "label": "Web scraping",
+    "type": "web"
+  }
+}

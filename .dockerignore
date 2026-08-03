@@ -1,9 +1,9 @@
-node_modules/
-.next/
+**/node_modules/
+**/.next/
 out/
 release/
-data/raw/
-data/export/
+archive/
+data/
 __pycache__/
 *.pyc
 .env*

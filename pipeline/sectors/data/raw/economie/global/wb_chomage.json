@@ -1,0 +1,114 @@
+{
+  "indicator": "CHOMAGE",
+  "world_bank_id": "SL.UEM.TOTL.ZS",
+  "data": [
+    {
+      "year": 1999,
+      "value": 13.94
+    },
+    {
+      "year": 2000,
+      "value": 13.58
+    },
+    {
+      "year": 2001,
+      "value": 12.46
+    },
+    {
+      "year": 2002,
+      "value": 11.59
+    },
+    {
+      "year": 2003,
+      "value": 11.92
+    },
+    {
+      "year": 2004,
+      "value": 10.83
+    },
+    {
+      "year": 2005,
+      "value": 11.01
+    },
+    {
+      "year": 2006,
+      "value": 9.67
+    },
+    {
+      "year": 2007,
+      "value": 9.56
+    },
+    {
+      "year": 2008,
+      "value": 9.57
+    },
+    {
+      "year": 2009,
+      "value": 8.96
+    },
+    {
+      "year": 2010,
+      "value": 9.09
+    },
+    {
+      "year": 2011,
+      "value": 8.91
+    },
+    {
+      "year": 2012,
+      "value": 8.99
+    },
+    {
+      "year": 2013,
+      "value": 9.23
+    },
+    {
+      "year": 2014,
+      "value": 9.7
+    },
+    {
+      "year": 2015,
+      "value": 9.46
+    },
+    {
+      "year": 2016,
+      "value": 9.3
+    },
+    {
+      "year": 2017,
+      "value": 9.22
+    },
+    {
+      "year": 2018,
+      "value": 9.272
+    },
+    {
+      "year": 2019,
+      "value": 9.191
+    },
+    {
+      "year": 2020,
+      "value": 11.189
+    },
+    {
+      "year": 2021,
+      "value": 10.551
+    },
+    {
+      "year": 2022,
+      "value": 9.413
+    },
+    {
+      "year": 2023,
+      "value": 8.896
+    },
+    {
+      "year": 2024,
+      "value": 9.103
+    },
+    {
+      "year": 2025,
+      "value": 9.0
+    }
+  ]
+}

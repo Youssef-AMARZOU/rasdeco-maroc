@@ -1,0 +1,37 @@
+name: rasd_lakehouse
+version: 1.0.0
+config-version: 2
+
+profile: rasd_lakehouse
+
+model-paths:
+  - models/trino
+  - models/bronze
+  - models/silver
+  - models/gold
+seed-paths:
+  - seeds
+test-paths:
+  - tests
+analysis-paths:
+  - analyses
+macro-paths:
+  - macros
+snapshot-paths:
+  - snapshots
+
+clean-targets:
+  - target
+  - dbt_packages
+
+models:
+  rasd_lakehouse:
+    bronze:
+      +materialized: table
+      +schema: bronze
+    silver:
+      +materialized: table
+      +schema: silver
+    gold:
+      +materialized: view
+      +schema: gold

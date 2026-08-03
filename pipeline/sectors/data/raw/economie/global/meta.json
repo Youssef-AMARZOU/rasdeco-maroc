@@ -1,0 +1,14 @@
+{
+  "source": "World Bank API",
+  "country": "Morocco (MA)",
+  "indicators_fetched": [
+    "PIB_CROISSANCE",
+    "IPC_GLISSEMENT",
+    "CHOMAGE",
+    "POPULATION",
+    "ESPERANCE_VIE",
+    "CO2_EMISSIONS",
+    "ELECTRICITY_ACCESS"
+  ],
+  "date": "2026-07-31"
+}
