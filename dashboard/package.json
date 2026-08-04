@@ -1,13 +1,16 @@
 {
   "name": "rasd-maroc",
   "version": "1.0.0",
+  "description": "MAROC STAT — Observatoire Prédictif Multi-Domaines du Maroc par Youssef AMARZOU",
+  "author": "Youssef AMARZOU",
+  "license": "MIT",
   "private": true,
-  "main": "../infra/electron/main.js",
+  "main": "electron/main.js",
   "scripts": {
     "dev": "next dev -p 4000",
     "build": "next build",
     "lint": "next lint",
-    "desktop": "electron ../infra/electron/main.js",
+    "desktop": "electron electron/main.js",
     "pack": "next build && electron-builder --win",
     "pack:dir": "next build && electron-builder --win --dir"
   },
@@ -97,28 +100,29 @@
   "build": {
     "appId": "ma.rasd.maroc",
     "productName": "RASD-Maroc",
+    "executableName": "RASD-Maroc",
+    "asar": true,
     "directories": {
       "output": "dist-electron",
       "buildResources": "public"
     },
     "files": [
-      "../infra/electron/**/*",
-      "out/**/*"
+      "electron/**/*",
+      "out/**/*",
+      "public/**/*"
     ],
     "win": {
       "target": "nsis",
-      "icon": "public/icon.png"
+      "icon": "public/icon.png",
+      "artifactName": "${productName}-Setup-${version}.${ext}"
     },
-    "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true,
-      "shortcutName": "RASD Maroc"
+    "portable": {
+      "artifactName": "${productName}-Portable-${version}.exe"
     },
     "npmRebuild": false,
     "nodeGypRebuild": false,
     "extraMetadata": {
-      "main": "../infra/electron/main.js"
+      "main": "electron/main.js"
     }
   }
 }

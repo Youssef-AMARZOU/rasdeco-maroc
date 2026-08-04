@@ -1227,7 +1227,7 @@ const agricultureModule: ModuleData = {
         [2010, 80.8], [2011, 84.0], [2012, 69.0], [2013, 47.5], [2014, 64.0],
         [2015, 75.6], [2016, 43.5], [2017, 54.7], [2018, 65.5], [2019, 45.2],
         [2020, 36.3], [2021, 33.0], [2022, 31.2], [2023, 32.8], [2024, 44.0],
-        [2025, 44.0], [2026, 90.0],
+        [2025, 55.0], [2026, 60.0],
       ]),
       regional: genRegionalFromShares(AGRI_PRODUCTION_12, 7.5, true),
       regionalOld: genRegionalFromShares(AGRI_PRODUCTION_12, 7.5, true),
@@ -2347,10 +2347,10 @@ const SPORT_REGIONAL_SHARES_OLD: Record<string, number> = {
   "Doukkala-Abda": 0.04,
   "Gharb-Chrarda-Beni Hssen": 0.03,
   "Tadla-Azilal": 0.03,
+  "Taza-Al Hoceima-Taounate": 0.02,
   "Laâyoune-Boujdour-Sakia El Hamra": 0.02,
   "Guelmim-Smara": 0.02,
   "Dakhla-Oued Ed-Dahab": 0.01,
-  "Layoun-Sakia El Hamra": 0.02,
 };
 const FOOTBALL_CLUBS_SHARES_12: Record<string, number> = {
   "Casablanca-Settat": 0.44,
@@ -2484,27 +2484,9 @@ const sportModule: ModuleData = {
         [2019, 43], [2020, 35], [2021, 28], [2022, 11], [2023, 13],
         [2024, 14], [2025, 12], [2026, 7],
       ]),
-      regional: genRegionalDirect({
-        "Casablanca-Settat": 28.0, "Rabat-Salé-Kénitra": 18.0,
-        "Tanger-Tétouan-Al Hoceima": 13.0, "Fès-Meknès": 11.0,
-        "Marrakech-Safi": 9.0, "Souss-Massa": 6.0, "Oriental": 5.0,
-        "Béni Mellal-Khénifra": 4.0, "Drâa-Tafilalet": 3.0,
-        "Guelmim-Oued Noun": 1.5, "Laâyoune-Sakia El Hamra": 1.0,
-        "Dakhla-Oued Ed-Dahab": 0.5,
-      }),
-      regionalOld: genRegionalDirect({
-        "Grand Casablanca": 25.0, "Rabat-Salé-Zemmour-Zaër": 15.0,
-        "Tanger-Tétouan": 10.0, "Fès-Boulemane": 8.0,
-        "Marrakech-Tensift-Al Haouz": 7.0, "Souss-Massa-Draâ": 6.0,
-        "Oriental": 5.0, "Chaouia-Ouardigha": 4.0,
-        "Gharb-Chrarda-Beni Hssen": 4.0, "Tadla-Azilal": 3.0,
-        "Doukkala-Abda": 3.0, "Laâyoune-Boujdour-Sakia El Hamra": 2.0,
-        "Guelmim-Es Semara": 1.5, "Smara": 1.0,
-        "Dakhla-Oued Ed-Dahab": 0.5, "Ed-Dakhla": 0.2,
-      }),
-      regionalIsRate: true,
-    
-      source: "FIFA / FFR",
+      regional: [],
+      isNationalOnly: true,
+      source: "FIFA / FRMF",
     },
     {
       code: "BOTOLA_PRO_CLUBS",
@@ -2569,9 +2551,8 @@ const sportModule: ModuleData = {
         [2019, 350], [2020, 180], [2021, 300], [2022, 500], [2023, 800],
         [2024, 1100], [2025, 1500], [2026, 2000],
       ]),
-      regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 2000),
-      regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 5),
-    
+      regional: [],
+      isNationalOnly: true,
       source: "LMFP",
     },
     // ── ATHLÉTISME ─────────────────────────────────────────────────────
@@ -2908,9 +2889,8 @@ const sportModule: ModuleData = {
         [2019, 24], [2020, 5], [2021, 10], [2022, 28], [2023, 32],
         [2024, 38], [2025, 42], [2026, 45],
       ]),
-      regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 45, true),
-      regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 5, true),
-    
+      regional: [],
+      isNationalOnly: true,
       source: "CNOM / CAF",
     },
     // ── CLUBS PRO ──────────────────────────────────────────────────────
@@ -2980,40 +2960,8 @@ const sportModule: ModuleData = {
         [2019, 8], [2020, 8], [2021, 8], [2022, 9], [2023, 9],
         [2024, 9], [2025, 9], [2026, 9],
       ]),
-      regional: [
-        { region: "Casablanca-Settat", value: 7 },
-        { region: "Rabat-Salé-Kénitra", value: 2 },
-        { region: "Fès-Meknès", value: 0 },
-        { region: "Marrakech-Safi", value: 0 },
-        { region: "Tanger-Tétouan-Al Hoceima", value: 0 },
-        { region: "Souss-Massa", value: 0 },
-        { region: "Oriental", value: 0 },
-        { region: "Béni Mellal-Khénifra", value: 0 },
-        { region: "Drâa-Tafilalet", value: 0 },
-        { region: "Laâyoune-Sakia El Hamra", value: 0 },
-        { region: "Dakhla-Oued Ed-Dahab", value: 0 },
-        { region: "Guelmim-Oued Noun", value: 0 },
-      ],
-      regionalOld: [
-        { region: "Grand Casablanca", value: 7 },
-        { region: "Rabat-Salé", value: 2 },
-        { region: "Fès-Boulemane", value: 0 },
-        { region: "Marrakech-Tensift-Al Haouz", value: 0 },
-        { region: "Tanger-Tétouan", value: 0 },
-        { region: "Souss-Massa-Draâ", value: 0 },
-        { region: "Oriental", value: 0 },
-        { region: "Chaouia-Ouardigha", value: 0 },
-        { region: "Meknès-Tafilalet", value: 0 },
-        { region: "Laâyoune-Boujdour-Sakia El Hamra", value: 0 },
-        { region: "Dakhla-Oued Ed-Dahab", value: 0 },
-        { region: "Guelmim-Smara", value: 0 },
-        { region: "Beni Mellal", value: 0 },
-        { region: "Essaouira-Moulay", value: 0 },
-        { region: "Al Hoceima", value: 0 },
-        { region: "Oued Ed-Dahab", value: 0 },
-      ],
-      isNationalOnly: false,
-    
+      regional: [],
+      isNationalOnly: true,
       source: "CNOM / CAF",
     },
     // ── CAF CONFEDERATION CUP ──────────────────────────────────────────
@@ -3029,9 +2977,8 @@ const sportModule: ModuleData = {
         [2019, 3], [2020, 3], [2021, 3], [2022, 4], [2023, 5],
         [2024, 6], [2025, 7], [2026, 8],
       ]),
-      regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 8, true),
-      regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 1, true),
-    
+      regional: [],
+      isNationalOnly: true,
       source: "CNOM / CAF",
     },
     // ── MEDAILLES OLYMPIQUES ───────────────────────────────────────────
@@ -3047,9 +2994,8 @@ const sportModule: ModuleData = {
         [2019, 12], [2020, 12], [2021, 13], [2022, 13], [2023, 13],
         [2024, 15], [2025, 15], [2026, 15],
       ]),
-      regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 15, true),
-      regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 5, true),
-    
+      regional: [],
+      isNationalOnly: true,
       source: "CNOM / Comité Olympique Marocain",
     },
     // ── MEDAILLES PARALYMPIQUES ────────────────────────────────────────
@@ -3065,9 +3011,8 @@ const sportModule: ModuleData = {
         [2019, 18], [2020, 18], [2021, 22], [2022, 22], [2023, 22],
         [2024, 37], [2025, 37], [2026, 37],
       ]),
-      regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 37, true),
-      regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 0, true),
-    
+      regional: [],
+      isNationalOnly: true,
       source: "CNOM / Comité Olympique Marocain",
     },
     // ── AGGREGATES ─────────────────────────────────────────────────────
@@ -3169,9 +3114,8 @@ const sportModule: ModuleData = {
         [2019, 230], [2020, 230], [2021, 235], [2022, 240], [2023, 250],
         [2024, 255], [2025, 261], [2026, 261],
       ]),
-      regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 261, true),
-      regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 120, true),
-    
+      regional: [],
+      isNationalOnly: true,
       source: "CNOM",
     },
     {
@@ -3188,7 +3132,6 @@ const sportModule: ModuleData = {
       ]),
       regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 7500, true),
       regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 1500, true),
-    
       source: "CNOM",
     },
     {
@@ -3203,9 +3146,8 @@ const sportModule: ModuleData = {
         [2019, 900000], [2020, 600000], [2021, 800000], [2022, 950000], [2023, 1050000],
         [2024, 1200000], [2025, 1200000], [2026, 1200000],
       ]),
-      regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 1200000, true),
-      regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 200000, true),
-    
+      regional: [],
+      isNationalOnly: true,
       source: "Ministère de l'Éducation Nationale",
     },
     {
@@ -3220,9 +3162,8 @@ const sportModule: ModuleData = {
         [2019, 12.5], [2020, 8.0], [2021, 14.0], [2022, 19.04], [2023, 19.5],
         [2024, 20.0], [2025, 20.5], [2026, 21.0],
       ]),
-      regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 21.0),
-      regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 2.5),
-    
+      regional: [],
+      isNationalOnly: true,
       source: "HCP",
     },
     {
@@ -3237,9 +3178,8 @@ const sportModule: ModuleData = {
         [2019, 9.3], [2020, 8.5], [2021, 9.0], [2022, 10.0], [2023, 10.0],
         [2024, 10.0], [2025, 10.0], [2026, 10.0],
       ]),
-      regional: genRegionalFromShares(SPORT_REGIONAL_SHARES, 10.0),
-      regionalOld: genRegionalFromShares(SPORT_REGIONAL_SHARES_OLD, 5.0),
-    
+      regional: [],
+      isNationalOnly: true,
       source: "FMPS",
     },
   ],
@@ -4806,7 +4746,7 @@ const energieModule: ModuleData = {
         [2009, 4.3], [2010, 4.5], [2011, 4.7], [2012, 5.0], [2013, 5.2],
         [2014, 5.4], [2015, 5.5], [2016, 5.6], [2017, 5.8], [2018, 6.0],
         [2019, 6.2], [2020, 5.5], [2021, 6.0], [2022, 6.5], [2023, 6.3],
-        [2024, 6.5], [2025, 6.7], [2026, 14.0],
+        [2024, 6.5], [2025, 6.7], [2026, 7.0],
       ]),
       regional: genRegionalFromShares(ENERGIE_REGIONAL_SHARES_12, 6.5),
       regionalOld: genRegionalFromShares(ENERGIE_REGIONAL_SHARES_16, 5.4),

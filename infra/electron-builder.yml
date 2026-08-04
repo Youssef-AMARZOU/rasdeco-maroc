@@ -12,19 +12,11 @@ files:
 
 win:
   target:
-    - target: nsis
+    - target: portable
       arch:
         - x64
   icon: "public/icon.png"
-  artifactName: "${productName}-Setup-${version}.${ext}"
-
-nsis:
-  oneClick: false
-  allowToChangeInstallationDirectory: true
-  createDesktopShortcut: true
-  shortcutName: "RASD Maroc"
-  uninstallDisplayName: "RASD-Maroc"
-  license: false
+  artifactName: "${productName}-Portable-${version}.${ext}"
 
 extraMetadata:
   main: "../infra/electron/main.js"

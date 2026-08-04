@@ -179,6 +179,15 @@ import {
   ChartLegendContent,
   type ChartConfig,
 } from '@/components/ui/chart'
+import {
+  ThreeDonutBudgetsWidget,
+  PositionsListWidget,
+  CalendarHeatmapWidget,
+  WorkBalanceMetersWidget,
+  AreaWaveChartWithToggleWidget,
+  RoundedBarWidget,
+  RadarRegionalWidget,
+} from '@/components/dashboard-widgets'
 
 // ─── i18n Translations ──────────────────────────────────────────────────────
 type Lang = 'fr' | 'en'
@@ -411,7 +420,6 @@ const translations: Record<string, Record<Lang, string>> = {
   // ── Recommendations ──────────────────────────────────────────────
   "Analyse et axes d'action prioritaires pour le module": { fr: "Analyse et axes d'action prioritaires pour le module", en: "Analysis and priority action areas for the" },
   "Haute": { fr: "Haute", en: "High" },
-  "Moyenne": { fr: "Moyenne", en: "Medium" },
   "Basse": { fr: "Basse", en: "Low" },
   "Maîtriser la trajectoire de la dette": { fr: "Maîtriser la trajectoire de la dette", en: "Control the debt trajectory" },
   "La dette publique à 67,1% du PIB est en repli progressif, mais le différentiel taux-croissance reste à surveiller.": {
@@ -487,7 +495,6 @@ const translations: Record<string, Record<Lang, string>> = {
   // ── Education new KPIs ────────────────────────────────────────────
   "Ingénieurs diplômés": { fr: "Ingénieurs diplômés", en: "Graduate Engineers" },
   "Médecins diplômés": { fr: "Médecins diplômés", en: "Graduate Doctors" },
-  "Universités publiques": { fr: "Universités publiques", en: "Public Universities" },
   "Écoles d'ingénieurs": { fr: "Écoles d'ingénieurs", en: "Engineering Schools" },
   "Taux d'emploi des diplômés": { fr: "Taux d'emploi des diplômés", en: "Graduate Employment Rate" },
   "Frais de scolarité": { fr: "Frais de scolarité", en: "Tuition Fees" },
@@ -558,36 +565,17 @@ const translations: Record<string, Record<Lang, string>> = {
   'Taza-Al Hoceïma-Taounate': { fr: 'Taza-Al Hoceïma-Taounate', en: 'Taza-Al Hoceima-Taounate' },
 
   // ── Indicator label translations (charts) ─────────────────────
-  'Croissance du PIB': { fr: 'Croissance du PIB', en: 'GDP Growth' },
   'Croissance du PIB (T/T-4)': { fr: 'Croissance du PIB (T/T-4)', en: 'GDP Growth (Q/Q-4)' },
-  'Inflation IPC': { fr: 'Inflation IPC', en: 'CPI Inflation' },
   'Inflation IPC (glissement annuel)': { fr: 'Inflation IPC (glissement annuel)', en: 'CPI Inflation (year-on-year)' },
-  'Taux de chômage': { fr: 'Taux de chômage', en: 'Unemployment Rate' },
-  'Taux directeur BAM': { fr: 'Taux directeur BAM', en: 'BAM Policy Rate' },
-  'Dette publique / PIB': { fr: 'Dette publique / PIB', en: 'Public Debt / GDP' },
-  'Réserves de change': { fr: 'Réserves de change', en: 'Foreign Reserves' },
   'Réserves de change (mois d\'importation)': { fr: 'Réserves de change (mois d\'importation)', en: 'Foreign Reserves (months of imports)' },
   'Flux d\'IDE': { fr: 'Flux d\'IDE', en: 'FDI Flows' },
-  'Déficit budgétaire': { fr: 'Déficit budgétaire', en: 'Budget Deficit' },
-  'Production céréalière': { fr: 'Production céréalière', en: 'Cereal Production' },
   'Production céréalière totale': { fr: 'Production céréalière totale', en: 'Total Cereal Production' },
-  'Valeur ajoutée agricole': { fr: 'Valeur ajoutée agricole', en: 'Agricultural Value Added' },
-  'Superficie cultivée': { fr: 'Superficie cultivée', en: 'Cultivated Area' },
-  'Exportations agricoles': { fr: 'Exportations agricoles', en: 'Agricultural Exports' },
-  'Rendement céréalier': { fr: 'Rendement céréalier', en: 'Cereal Yield' },
   'Rendement céréalier moyen': { fr: 'Rendement céréalier moyen', en: 'Average Cereal Yield' },
-  'Élevage bovin': { fr: 'Élevage bovin', en: 'Cattle Farming' },
-  'Arbres fruitiers': { fr: 'Arbres fruitiers', en: 'Fruit Trees' },
-  'Eau potable': { fr: 'Eau potable', en: 'Drinking Water' },
-  'Capacité de dessalement': { fr: 'Capacité de dessalement', en: 'Desalination Capacity' },
   'Capacité de dessalement installée': { fr: 'Capacité de dessalement installée', en: 'Installed Desalination Capacity' },
-  'Grands barrages': { fr: 'Grands barrages', en: 'Major Dams' },
   'Nombre de grands barrages': { fr: 'Nombre de grands barrages', en: 'Number of Major Dams' },
-  'Eau traitée ONEP': { fr: 'Eau traitée ONEP', en: 'ONEP Treated Water' },
   'Volume d\'eau traité par l\'ONEP': { fr: 'Volume d\'eau traité par l\'ONEP', en: 'Water Volume Treated by ONEP' },
   'Taux d\'accès eau potable': { fr: 'Taux d\'accès eau potable', en: 'Drinking Water Access Rate' },
   'Taux d\'accès à l\'eau potable': { fr: 'Taux d\'accès à l\'eau potable', en: 'Drinking Water Access Rate' },
-  'Stress hydrique': { fr: 'Stress hydrique', en: 'Water Stress' },
   'Indice de stress hydrique': { fr: 'Indice de stress hydrique', en: 'Water Stress Index' },
   'Remplissage des barrages': { fr: 'Remplissage des barrages', en: 'Dam Fill Rate' },
   'Production fruitière': { fr: 'Production fruitière', en: 'Fruit Production' },
@@ -595,8 +583,6 @@ const translations: Record<string, Record<Lang, string>> = {
   'Cheptel ovin': { fr: 'Cheptel ovin', en: 'Sheep Herd' },
   'Superficie d\'arbres fruitiers': { fr: 'Superficie d\'arbres fruitiers', en: 'Fruit Tree Area' },
   'Production d\'eau potable': { fr: 'Production d\'eau potable', en: 'Drinking Water Production' },
-  'Taux de pauvreté': { fr: 'Taux de pauvreté', en: 'Poverty Rate' },
-  'Taux de couverture AMO': { fr: 'Taux de couverture AMO', en: 'AMO Coverage Rate' },
   'Indice de Gini': { fr: 'Indice de Gini', en: 'Gini Index' },
   'Population active': { fr: 'Population active', en: 'Active Population' },
   'Taux d\'urbanisation': { fr: 'Taux d\'urbanisation', en: 'Urbanization Rate' },
@@ -610,9 +596,6 @@ const translations: Record<string, Record<Lang, string>> = {
   'Taux d\'abandon primaire': { fr: 'Taux d\'abandon primaire', en: 'Primary Dropout Rate' },
   'Dépenses éducation / PIB': { fr: 'Dépenses éducation / PIB', en: 'Education Spending / GDP' },
   'Étudiants universitaires': { fr: 'Étudiants universitaires', en: 'University Students' },
-  'Ingénieurs diplômés': { fr: 'Ingénieurs diplômés', en: 'Engineering Graduates' },
-  'Médecins diplômés': { fr: 'Médecins diplômés', en: 'Medical Graduates' },
-  'Universités publiques': { fr: 'Universités publiques', en: 'Public Universities' },
   'Écoles d\'ingénieurs': { fr: 'Écoles d\'ingénieurs', en: 'Engineering Schools' },
   'Taux d\'emploi des diplômés': { fr: 'Taux d\'emploi des diplômés', en: 'Graduate Employment Rate' },
   'Lits d\'hôpital': { fr: 'Lits d\'hôpital', en: 'Hospital Beds' },
@@ -620,7 +603,6 @@ const translations: Record<string, Record<Lang, string>> = {
   'Ratio médecins/1000 hab': { fr: 'Ratio médecins/1000 hab', en: 'Doctor/1000 Inhabitants Ratio' },
   'Taux de couverture médicale': { fr: 'Taux de couverture médicale', en: 'Medical Coverage Rate' },
   'Centres de santé': { fr: 'Centres de santé', en: 'Health Centers' },
-  'Espérance de vie': { fr: 'Espérance de vie', en: 'Life Expectancy' },
   'Pharmacies': { fr: 'Pharmacies', en: 'Pharmacies' },
   'Hôpitaux privés': { fr: 'Hôpitaux privés', en: 'Private Hospitals' },
   'Transferts des MRE': { fr: 'Transferts des MRE', en: 'MRE Remittances' },
@@ -4224,10 +4206,70 @@ export default function DashboardPage() {
 
       {/* ─── Normal Dashboard ──────────────────────────────────────────────── */}
       {!selectedKPI && (<>
-      {/* ─── Main Content ──────────────────────────────────────────────── */}
-      <main className="flex-1 w-full bg-white dark:bg-slate-900">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 space-y-8">
-          {/* ─── Period Selector ──────────────────────────────────────── */}
+      {/* ─── Main Content (Left Sidebar + Right Content) ───────────────────── */}
+      <main className="flex-1 w-full bg-white dark:bg-slate-900 flex flex-row min-h-screen">
+
+        {/* ═══════════════════════════════════════════════════════════════════ */}
+        {/* ─── LEFT VERTICAL SIDEBAR ─────────────────────────────────────── */}
+        {/* ═══════════════════════════════════════════════════════════════════ */}
+        <aside
+          className="hidden lg:flex flex-col shrink-0 w-64 min-h-screen sticky top-0 z-30 border-r border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900"
+          aria-label="Navigation des modules"
+        >
+          {/* Sidebar header */}
+          <div className="flex items-center gap-2 px-4 py-4 border-b border-slate-200 dark:border-slate-700">
+            <div className="h-6 w-6 rounded-md bg-gradient-to-br from-[#006233] to-[#C1272D] flex items-center justify-center">
+              <Layers className="h-3.5 w-3.5 text-white" />
+            </div>
+            <span className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Modules</span>
+          </div>
+          {/* Module List */}
+          <nav className="flex-1 overflow-y-auto py-3 space-y-0.5 px-2">
+            {ALL_MODULES.map((m) => {
+              const mColor = MODULE_COLORS[m.name]
+              const MIcon = ICON_MAP[MODULE_ICONS[m.name]] || BarChart3
+              const isActive = activeTab === m.name
+              return (
+                <button
+                  key={m.name}
+                  onClick={() => handleTabChange(m.name)}
+                  aria-label={`Module ${m.name}`}
+                  className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-left transition-all duration-200 group ${
+                    isActive
+                      ? 'text-white shadow-md'
+                      : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white'
+                  }`}
+                  style={isActive ? { background: `linear-gradient(135deg, ${mColor}dd, ${mColor}99)`, boxShadow: `0 4px 12px ${mColor}40` } : {}}
+                >
+                  <span
+                    className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-lg transition-all ${
+                      isActive ? 'bg-white/20' : 'bg-slate-100 dark:bg-slate-800 group-hover:bg-slate-200 dark:group-hover:bg-slate-700'
+                    }`}
+                  >
+                    <MIcon className="h-4 w-4" style={isActive ? { color: '#fff' } : { color: mColor }} />
+                  </span>
+                  <span className="text-sm font-semibold truncate">{tModule(m.name, lang)}</span>
+                  {isActive && (
+                    <span className="ml-auto h-1.5 w-1.5 rounded-full bg-white/80 shrink-0" />
+                  )}
+                </button>
+              )
+            })}
+          </nav>
+          {/* Sidebar Footer */}
+          <div className="px-4 py-3 border-t border-slate-200 dark:border-slate-700">
+            <div className="text-[10px] text-slate-400 dark:text-slate-500 font-medium">
+              MAROC STAT v1.0 · {ALL_MODULES.length} modules
+            </div>
+          </div>
+        </aside>
+
+        {/* ═══════════════════════════════════════════════════════════════════ */}
+        {/* ─── RIGHT CONTENT AREA ────────────────────────────────────────── */}
+        {/* ═══════════════════════════════════════════════════════════════════ */}
+        <div className="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-6 space-y-8">
+
+          {/* ─── Period Selector + Year Timeline ─────────────────────────── */}
           <PeriodSelector
             startYear={startYear}
             endYear={endYear}
@@ -4275,9 +4317,7 @@ export default function DashboardPage() {
               <CardHeader className="pb-3">
                 <div className="flex flex-wrap items-center gap-3">
                   <CardTitle className="text-lg dark:text-white">{t('Synthèse Conjoncturelle', lang)}</CardTitle>
-                  <Badge
-                    className="bg-orange-100 text-orange-700 hover:bg-orange-100 border-orange-200"
-                  >
+                  <Badge className="bg-orange-100 text-orange-700 hover:bg-orange-100 border-orange-200">
                     {t('Période', lang)} {SYNTHESE.periode}
                   </Badge>
                 </div>
@@ -4301,73 +4341,106 @@ export default function DashboardPage() {
             </Card>
           </section>
 
-          {/* ─── Module Tabs ──────────────────────────────────────────── */}
-          <section aria-label={t('Sélection du module', lang)}>
-            <Tabs
-              value={activeTab}
-              onValueChange={handleTabChange}
-              className="w-full"
-            >
-              <TabsList
-                className="h-auto flex-wrap gap-1.5 bg-muted/60 p-1.5 border border-border/60"
-                aria-label={t('Sélection du module', lang)}
-              >
-                {ALL_MODULES.map((m) => {
-                  const mColor = MODULE_COLORS[m.name]
-                  const MIcon = ICON_MAP[MODULE_ICONS[m.name]] || BarChart3
-                  const isActive = activeTab === m.name
-                  return (
-                    <TabsTrigger
-                      key={m.name}
-                      value={m.name}
-                      className={
-                        'module-tab-trigger gap-2 rounded-full px-4 py-2.5 transition-all ' +
-                        (isActive ? 'data-[state=active]:text-white data-[state=active]:shadow-md' : 'text-muted-foreground')
-                      }
-                      style={
-                        isActive
-                          ? {
-                              '--tab-active-bg': mColor,
-                              boxShadow: `0 2px 8px ${mColor}40`,
-                            } as React.CSSProperties
-                          : undefined
-                      }
-                      aria-label={`Module ${m.name}`}
-                    >
-                      <MIcon className="h-4 w-4" />
-                      <span className="hidden sm:inline">{tModule(m.name, lang)}</span>
-                    </TabsTrigger>
-                  )
-                })}
-              </TabsList>
-            </Tabs>
+          {/* ═══════════════════════════════════════════════════════════════ */}
+          {/* ─── EXECUTIVE DASHBOARD WIDGETS (v2) ─────────────────────── */}
+          {/* ═══════════════════════════════════════════════════════════════ */}
+          <section aria-label="Tableau de bord exécutif" className="space-y-4">
+            <div className="flex items-center gap-2 mb-1">
+              <div className="h-5 w-1 rounded-full bg-gradient-to-b from-purple-500 to-pink-500" />
+              <h2 className="text-sm font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
+                Tableau de bord exécutif — KPIs temps réel
+              </h2>
+              <span className="ml-auto text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                ● Live
+              </span>
+            </div>
 
-            {/* Tab Content with Animation */}
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={activeTab}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }}
-                transition={{ duration: 0.25, ease: 'easeInOut' }}
-                className="mt-8"
-              >
-                <ModuleContent
-                  module={activeModule}
-                  startYear={startYear}
-                  endYear={endYear}
-                  selectedRegion={selectedRegion}
-                  setSelectedRegion={setSelectedRegion}
-                  mapIndicatorIndex={mapIndicatorIndex}
-                  setMapIndicatorIndex={setMapIndicatorIndex}
-                  onKPIClick={handleKPIClick}
-                  lang={lang}
-                  activeDetailIndicator={activeDetailIndicator}
-                  setActiveDetailIndicator={setActiveDetailIndicator}
+            {/* Row 1 — Three Budget Donuts + Positions List */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="md:col-span-3">
+                <ThreeDonutBudgetsWidget
+                  donut1Val={Math.round(activeModule.kpis[0]?.value as number % 100) || 67}
+                  donut2Val={Math.round(activeModule.kpis[1]?.value as number % 100) || 70}
+                  donut3Val={Math.round(activeModule.kpis[2]?.value as number % 100) || 86}
                 />
-              </motion.div>
-            </AnimatePresence>
+              </div>
+              <div className="md:col-span-1">
+                <PositionsListWidget />
+              </div>
+            </div>
+
+            {/* Row 2 — Area Wave + Rounded Bar + Radar */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="md:col-span-1 min-h-[260px]">
+                <AreaWaveChartWithToggleWidget />
+              </div>
+              <div className="md:col-span-1 min-h-[260px]">
+                <RoundedBarWidget />
+              </div>
+              <div className="md:col-span-1 min-h-[260px]">
+                <RadarRegionalWidget />
+              </div>
+            </div>
+
+            {/* Row 3 — Calendar Heatmap + Work Balance Meters */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="min-h-[220px]">
+                <CalendarHeatmapWidget />
+              </div>
+              <div>
+                <WorkBalanceMetersWidget />
+              </div>
+            </div>
           </section>
+
+          {/* ─── Mobile Module Nav (visible only on small screens) ─────── */}
+          <div className="lg:hidden">
+            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-thin">
+              {ALL_MODULES.map((m) => {
+                const mColor = MODULE_COLORS[m.name]
+                const MIcon = ICON_MAP[MODULE_ICONS[m.name]] || BarChart3
+                const isActive = activeTab === m.name
+                return (
+                  <button
+                    key={m.name}
+                    onClick={() => handleTabChange(m.name)}
+                    className={`shrink-0 flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-semibold transition-all ${
+                      isActive ? 'text-white shadow-md' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
+                    }`}
+                    style={isActive ? { background: `linear-gradient(135deg, ${mColor}dd, ${mColor}99)` } : {}}
+                  >
+                    <MIcon className="h-3.5 w-3.5" />
+                    {tModule(m.name, lang)}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+
+          {/* ─── Module Content (animated) ─────────────────────────────── */}
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeTab}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.25, ease: 'easeInOut' }}
+            >
+              <ModuleContent
+                module={activeModule}
+                startYear={startYear}
+                endYear={endYear}
+                selectedRegion={selectedRegion}
+                setSelectedRegion={setSelectedRegion}
+                mapIndicatorIndex={mapIndicatorIndex}
+                setMapIndicatorIndex={setMapIndicatorIndex}
+                onKPIClick={handleKPIClick}
+                lang={lang}
+                activeDetailIndicator={activeDetailIndicator}
+                setActiveDetailIndicator={setActiveDetailIndicator}
+              />
+            </motion.div>
+          </AnimatePresence>
         </div>
       </main>
 

@@ -437,30 +437,64 @@ export const SPORTS_INFRA: SportsInfrastructure[] = [
   { name: "Complexe Equestre Tbourida", type: "Piste équestre", sport: "Tbourida", city: "Meknès", region: "Fès-Meknès", capacity: 25000, yearBuilt: 1920, surface: "Piste sablonneuse" },
 ]
 
-// ── SPORTS MEDALS ──────────────────────────────────────────────────────────
-export const SPORTS_MEDALS: SportsMedal[] = [
-  { athlete: "Soufiane El Banna", sport: "Boxe", competition: "JO Paris 2024", year: 2024, medal: "Or", discipline: "Poids mouches (-52kg)" },
-  { athlete: "Buggyra", sport: "Cyclisme", competition: "JO Paris 2024", year: 2024, medal: "Or", discipline: "VTT cross-country" },
-  { athlete: "Ibtissam Boulayed", sport: "Boxe", competition: "JO Paris 2024", year: 2024, medal: "Argent", discipline: "Poids moyens (-75kg)" },
-  { athlete: "Osama El-Said", sport: "Judo", competition: "JO Paris 2024", year: 2024, medal: "Argent", discipline: "Moins de 81kg" },
-  { athlete: "Fatima Zahra Kabbaj", sport: "Judo", competition: "JO Paris 2024", year: 2024, medal: "Bronze", discipline: "Moins de 57kg" },
-  { athlete: "Amine Mokhtar", sport: "Boxe", competition: "JO Paris 2024", year: 2024, medal: "Bronze", discipline: "Poids welters (-67kg)" },
-  { athlete: "Nouh Lamsaoui", sport: "Judo", competition: "JO Paris 2024", year: 2024, medal: "Bronze", discipline: "Moins de 66kg" },
-  { athlete: "Mohammed Al-Hajjaj", sport: "Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Or", discipline: "Lancer de poids" },
-  { athlete: "Hajar Salem", sport: "Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Argent", discipline: "100m T13" },
-  { athlete: "Kawtar Hafoui", sport: "Judo", competition: "Championnats du Monde", year: 2023, medal: "Argent", discipline: "Moins de 48kg" },
-  { athlete: "Abdelhak Echikhi", sport: "Boxe", competition: "Championnats du Monde", year: 2023, medal: "Bronze", discipline: "Poids plumes (-57kg)" },
-  { athlete: "Mohammed Ghalmouni", sport: "Boxe", competition: "Championnats du Monde", year: 2022, medal: "Argent", discipline: "Poids légers (-60kg)" },
-  { athlete: "Jaouad Achab", sport: "Taekwondo", competition: "Championnats du Monde", year: 2023, medal: "Bronze", discipline: "Moins de 68kg" },
-  { athlete: "Omar Hmaimaoui", sport: "Judo", competition: "Championnats du Monde", year: 2024, medal: "Bronze", discipline: "Moins de 90kg" },
-  { athlete: "Soufiane El Banna", sport: "Boxe", competition: "Jeux Africains 2023", year: 2023, medal: "Or", discipline: "Poids mouches" },
-  { athlete: "Fatima Zahra Kabbaj", sport: "Judo", competition: "Jeux Africains 2023", year: 2023, medal: "Or", discipline: "Moins de 57kg" },
-  { athlete: "Sara Benkirane", sport: "Taekwondo", competition: "Jeux Africains 2023", year: 2023, medal: "Or", discipline: "Moins de 49kg" },
-  { athlete: "Mohammed Hicham", sport: "Athlétisme", competition: "Jeux Africains 2023", year: 2023, medal: "Or", discipline: "1500m" },
-  { athlete: "Nadia El Aouyad", sport: "Escrime", competition: "Jeux Africains 2023", year: 2023, medal: "Argent", discipline: "Fleuret" },
-  { athlete: "Sofiane El Banna", sport: "Boxe", competition: "JO Tokyo 2020", year: 2021, medal: "Bronze", discipline: "Poids mouches" },
-  { athlete: "Nouh Lamsaoui", sport: "Judo", competition: "JO Rio 2016", year: 2016, medal: "Bronze", discipline: "Moins de 66kg" },
+// ── REAL OFFICIAL MOROCCAN OLYMPIC & PARALYMPIC MEDALS ──────────────────────
+export const OLYMPIC_MEDALS: SportsMedal[] = [
+  { athlete: "Soufiane El Bakkali", sport: "Athlétisme", competition: "JO Paris 2024", year: 2024, medal: "Or", discipline: "3000m Stipple (3000m steeple)" },
+  { athlete: "Équipe du Maroc U23", sport: "Football", competition: "JO Paris 2024", year: 2024, medal: "Bronze", discipline: "Tournoi Olympique de Football Masculin" },
+  { athlete: "Soufiane El Bakkali", sport: "Athlétisme", competition: "JO Tokyo 2020", year: 2021, medal: "Or", discipline: "3000m Stipple" },
+  { athlete: "Hicham El Guerrouj", sport: "Athlétisme", competition: "JO Athènes 2004", year: 2004, medal: "Or", discipline: "1500m (Doublé olympique)" },
+  { athlete: "Hicham El Guerrouj", sport: "Athlétisme", competition: "JO Athènes 2004", year: 2004, medal: "Or", discipline: "5000m (Doublé olympique)" },
+  { athlete: "Hasna Benhassi", sport: "Athlétisme", competition: "JO Athènes 2004", year: 2004, medal: "Argent", discipline: "800m Femmes" },
+  { athlete: "Hasna Benhassi", sport: "Athlétisme", competition: "JO Pékin 2008", year: 2008, medal: "Bronze", discipline: "800m Femmes" },
+  { athlete: "Hicham El Guerrouj", sport: "Athlétisme", competition: "JO Sydney 2000", year: 2000, medal: "Argent", discipline: "1500m" },
+  { athlete: "Ali Ezzine", sport: "Athlétisme", competition: "JO Sydney 2000", year: 2000, medal: "Bronze", discipline: "3000m Stipple" },
+  { athlete: "Nezha Bidouane", sport: "Athlétisme", competition: "JO Sydney 2000", year: 2000, medal: "Bronze", discipline: "400m Haies Femmes" },
+  { athlete: "Tahar Tamsamani", sport: "Boxe", competition: "JO Sydney 2000", year: 2000, medal: "Bronze", discipline: "Poids plumes (-57kg)" },
+  { athlete: "Salah Hissou", sport: "Athlétisme", competition: "JO Atlanta 1996", year: 1996, medal: "Bronze", discipline: "10000m" },
+  { athlete: "Khalid Skah", sport: "Athlétisme", competition: "JO Barcelone 1992", year: 1992, medal: "Or", discipline: "10000m" },
+  { athlete: "Rachid El Basir", sport: "Athlétisme", competition: "JO Barcelone 1992", year: 1992, medal: "Argent", discipline: "1500m" },
+  { athlete: "Mohamed Achik", sport: "Boxe", competition: "JO Barcelone 1992", year: 1992, medal: "Bronze", discipline: "Poids coqs (-54kg)" },
+  { athlete: "Brahim Boutayeb", sport: "Athlétisme", competition: "JO Séoul 1988", year: 1988, medal: "Or", discipline: "10000m" },
+  { athlete: "Saïd Aouita", sport: "Athlétisme", competition: "JO Séoul 1988", year: 1988, medal: "Bronze", discipline: "800m" },
+  { athlete: "Abdelhak Achik", sport: "Boxe", competition: "JO Séoul 1988", year: 1988, medal: "Bronze", discipline: "Poids plumes (-57kg)" },
+  { athlete: "Nawal El Moutawakel", sport: "Athlétisme", competition: "JO Los Angeles 1984", year: 1984, medal: "Or", discipline: "400m Haies Femmes (1ère Or Arabe/Africaine)" },
+  { athlete: "Saïd Aouita", sport: "Athlétisme", competition: "JO Los Angeles 1984", year: 1984, medal: "Or", discipline: "5000m" },
 ]
+
+export const PARALYMPIC_MEDALS: SportsMedal[] = [
+  { athlete: "Fatima Zahra El Idrissi", sport: "Para-Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Or", discipline: "Marathon T12 (Record du monde 2:48:36)" },
+  { athlete: "Mouncef Bouja", sport: "Para-Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Or", discipline: "400m T12" },
+  { athlete: "Aymane El Haddaoui", sport: "Para-Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Or", discipline: "400m T47 (Record du monde 46.65s)" },
+  { athlete: "Aymane El Haddaoui", sport: "Para-Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Bronze", discipline: "100m T47" },
+  { athlete: "Yassine Ouhdadi", sport: "Para-Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Or", discipline: "5000m T13" },
+  { athlete: "Yassine Ouhdadi", sport: "Para-Athlétisme", competition: "JPO Tokyo 2020", year: 2021, medal: "Or", discipline: "5000m T13" },
+  { athlete: "Abdelillah Gani", sport: "Para-Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Argent", discipline: "Lancer de poids F53 (Record du monde F53)" },
+  { athlete: "Youssef Benibrahim", sport: "Para-Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Argent", discipline: "400m T13" },
+  { athlete: "Ayoub Sadni", sport: "Para-Athlétisme", competition: "JPO Tokyo 2020", year: 2021, medal: "Or", discipline: "400m T47" },
+  { athlete: "Ayoub Sadni", sport: "Para-Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Bronze", discipline: "400m T47" },
+  { athlete: "Zakariae Derhem", sport: "Para-Athlétisme", competition: "JPO Tokyo 2020", year: 2021, medal: "Or", discipline: "Lancer de poids F33" },
+  { athlete: "Zakariae Derhem", sport: "Para-Athlétisme", competition: "JPO Paris 2024", year: 2024, medal: "Bronze", discipline: "Lancer de poids F33" },
+  { athlete: "Rajae Akermach", sport: "Para-Taekwondo", competition: "JPO Paris 2024", year: 2024, medal: "Bronze", discipline: "K44 +65kg" },
+  { athlete: "Ayoub Adouich", sport: "Para-Taekwondo", competition: "JPO Paris 2024", year: 2024, medal: "Bronze", discipline: "K44 -63kg" },
+  { athlete: "El Amin Chentouf", sport: "Para-Athlétisme", competition: "JPO Tokyo 2020", year: 2021, medal: "Or", discipline: "Marathon T12" },
+  { athlete: "El Amin Chentouf", sport: "Para-Athlétisme", competition: "JPO Rio 2016", year: 2016, medal: "Or", discipline: "Marathon T12" },
+  { athlete: "El Amin Chentouf", sport: "Para-Athlétisme", competition: "JPO Londres 2012", year: 2012, medal: "Or", discipline: "5000m T12" },
+  { athlete: "Saida Amoudi", sport: "Para-Athlétisme", competition: "JPO Tokyo 2020", year: 2021, medal: "Bronze", discipline: "Lancer de poids F34" },
+  { athlete: "Abdelillah Mame", sport: "Para-Athlétisme", competition: "JPO Pékin 2008", year: 2008, medal: "Or", discipline: "800m T13" },
+  { athlete: "Mustapha El Aouzari", sport: "Para-Athlétisme", competition: "JPO Athènes 2004", year: 2004, medal: "Or", discipline: "1500m T11" },
+  { athlete: "Laila El Garaa", sport: "Para-Athlétisme", competition: "JPO Pékin 2008", year: 2008, medal: "Bronze", discipline: "Lancer de poids F40" },
+]
+
+export const INTERNATIONAL_MEDALS: SportsMedal[] = [
+  ...OLYMPIC_MEDALS.slice(0, 10),
+  ...PARALYMPIC_MEDALS.slice(0, 10),
+  { athlete: "Badr Siwane", sport: "Triathlon", competition: "Championnats d'Afrique 2023", year: 2023, medal: "Or", discipline: "Triathlon Hommes" },
+  { athlete: "Achraf Mahboubi", sport: "Taekwondo", competition: "Championnats d'Afrique 2023", year: 2023, medal: "Or", discipline: "Moins de 80kg" },
+  { athlete: "Khadija El Mardi", sport: "Boxe", competition: "Championnats du Monde 2023", year: 2023, medal: "Or", discipline: "Poids lourds (+81kg) - Championne du Monde" },
+  { athlete: "Yassine Boukhari", sport: "Karaté", competition: "Championnats d'Afrique 2023", year: 2023, medal: "Or", discipline: "Kumité -84kg" },
+]
+
+export const SPORTS_MEDALS: SportsMedal[] = [...OLYMPIC_MEDALS, ...PARALYMPIC_MEDALS]
 
 // ── HELPER: count-based KPIs (should show as integers) ─────────────────────
 export const INTEGER_KPI_CODES = new Set([
@@ -731,7 +765,9 @@ export function getDetailedData(code: string): any[] | null {
   if (code === 'INSTALLED_CAPACITY' || code === 'WIND_CAPACITY' || code === 'SOLAR_CAPACITY' || code === 'NOOR_OUTPUT') return getEnergyDetailData(code)
   // Sport
   if (code === 'INSTALLATIONS_SPORTIVES') return SPORTS_INFRA
-  if (code === 'MEDAILLES' || code === 'MEDAILLES_OLYMPIQUES' || code === 'MEDAILLES_PARALYMPIQUES') return SPORTS_MEDALS
+  if (code === 'MEDAILLES_PARALYMPIQUES') return PARALYMPIC_MEDALS
+  if (code === 'MEDAILLES_OLYMPIQUES') return OLYMPIC_MEDALS
+  if (code === 'MEDAILLES') return INTERNATIONAL_MEDALS
   if (code === 'CLASSEMENT_FIFA') return FIFA_RANKINGS
 
   switch (code) {

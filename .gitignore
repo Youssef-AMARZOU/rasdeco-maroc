@@ -50,6 +50,7 @@ upload/
 
 release/
 release2/
+dist-electron/
 *.exe
 *.asar
 *.db
