@@ -65,6 +65,7 @@ kaggle_dataset/
 prisma/
 
 # Generated build outputs
+hf_space/
 public/data/
 public/data.json
 public/sw.js
