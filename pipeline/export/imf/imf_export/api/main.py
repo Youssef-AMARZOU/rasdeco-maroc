@@ -19,6 +19,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pymongo import MongoClient, errors
 
+from ..models import REGISTRY, available_models, model_info, predict
+
 
 def _clean_json(obj: Any) -> Any:
     """Recursively replace NaN/Inf and convert non-serializable types."""
@@ -146,7 +148,9 @@ def root():
             "GET /imf/{code}": "IMF WEO data by code",
             "GET /summary": "Summary statistics",
             "GET /collections": "List all MongoDB collections",
-            "GET /search?q=...": "Full-text search across all data",
+            "GET /search?q=...": "Full-text search across all data (Redis-cached)",
+            "GET /models": "List available ML models",
+            "POST /models/{name}/predict": "Run cached inference (spam-classifier, econ-forecaster, waste-classifier)",
         },
     }
 
@@ -182,6 +186,7 @@ def list_collections():
 
 
 @app.get("/search")
+@cached(ttl=120)
 def search(q: str = Query(""), limit: int = Query(default=20, le=100)):
     if db:
         results = []
@@ -391,6 +396,24 @@ def get_summary():
                 "year_max": int(imf["year"].max()),
             }
     return result
+
+
+@app.get("/models")
+def list_models():
+    names = list(available_models())
+    info = [model_info(n) for n in names]
+    return {
+        "models": info,
+        "loaded": len(info),
+        "registered": len(REGISTRY),
+    }
+
+
+@app.post("/models/{name}/predict")
+def model_predict(name: str, payload: dict = None):
+    if payload is None:
+        payload = {}
+    return predict(name, payload)
 
 
 @app.middleware("http")
